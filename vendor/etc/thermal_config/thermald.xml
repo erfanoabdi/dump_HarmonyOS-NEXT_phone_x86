@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<thermal version="HOS" product="SIMPLE">
+    <shell>
+        <max_range>80000</max_range>
+        <min_range>-20000</min_range>
+        <step_max_range>5000</step_max_range>
+        <alternate_type>Battery</alternate_type>
+        <shell_coef type="shell_frame">
+            <alternate_bias>2500</alternate_bias>
+            <const_coef>2736</const_coef>
+            <sensor type="system_h" coef="-4931,-3237,-8812,-2388,-995,2662,18024"/>
+            <sensor type="charger" coef="-3662,-2568,-4700,-3556,-5225,-14443,15474"/>
+            <sensor type="ir" coef="9486,11483,12964,4784,10746,-25781,39264"/>
+            <sensor type="dot" coef="-3429,-180,-415,-1083,-577,875,6801"/>
+            <sensor type="pa_0" coef="6913,4271,5730,3969,3381,-2856,99"/>
+            <sensor type="rfboard" coef="-3597,521,444,2123,5107,7102,8022"/>
+        </shell_coef>
+        <shell_coef type="shell_front">
+            <alternate_bias>2000</alternate_bias>
+            <const_coef>3818</const_coef>
+            <sensor type="system_h" coef="785,-252,-2949,2303,6812,9803,-13713"/>
+            <sensor type="charger" coef="2865,4064,3717,2816,-6142,-18419,27818"/>
+            <sensor type="ir" coef="2072,3547,2508,-2118,-4254,-11585,19532"/>
+            <sensor type="dot" coef="-2248,176,-935,-970,-1330,208,4530"/>
+            <sensor type="pa_0" coef="6472,3218,1911,-1668,456,-5411,16952"/>
+            <sensor type="rfboard" coef="-31681,-18333,-8836,3556,16395,27299,40351"/>
+        </shell_coef>
+        <shell_coef type="shell_back">
+            <alternate_bias>2000</alternate_bias>
+            <const_coef>4690</const_coef>
+            <sensor type="system_h" coef="5132,5086,-4227,2943,7728,11371,-9574"/>
+            <sensor type="charger" coef="5369,13988,12888,6474,-5334,-19994,29235"/>
+            <sensor type="ir" coef="-12774,-1509,1022,-4503,-6833,-12341,7591"/>
+            <sensor type="dot" coef="-1417,-34,-1012,-1092,-908,581,2194"/>
+            <sensor type="pa_0" coef="2062,-3881,-2573,-2326,-281,-5822,22588"/>
+            <sensor type="rfboard" coef="-23658,-12262,-4557,4559,14918,24398,36664"/>
+        </shell_coef>
+        <shell_coef type="shell_back">
+            <alternate_bias>2500</alternate_bias>
+            <const_coef>2736</const_coef>
+            <sensor type="system_h" coef="-4931,-3237,-8812,-2388,-995,2662,18024"/>
+            <sensor type="charger" coef="-3662,-2568,-4700,-3556,-5225,-14443,15474"/>
+            <sensor type="ir" coef="9486,11483,12964,4784,10746,-25781,39264"/>
+            <sensor type="dot" coef="-3429,-180,-415,-1083,-577,875,6801"/>
+            <sensor type="pa_0" coef="6913,4271,5730,3969,3381,-2856,99"/>
+            <sensor type="rfboard" coef="-3597,521,444,2123,5107,7102,8022"/>
+        </shell_coef>
+    </shell>
+</thermal>
+

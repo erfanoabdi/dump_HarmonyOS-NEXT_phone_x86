@@ -1,0 +1,3058 @@
+{
+    "ACCESS_TOKEN": {
+        "PERMISSION_VERIFY_REPORT": {
+            "__BASE": {
+                "type": "SECURITY",
+                "level": "CRITICAL",
+                "desc": "permission verification error"
+            },
+            "CODE": {
+                "type": "INT32",
+                "desc": "error code"
+            },
+            "CALLER_TOKENID": {
+                "type": "UINT32",
+                "desc": "caller token id"
+            },
+            "PERMISSION_NAME": {
+                "type": "STRING",
+                "desc": "permission name"
+            },
+            "INTERFACE": {
+                "type": "STRING",
+                "desc": "interface information"
+            }
+        },
+        "PERMISSION_CHECK": {
+            "__BASE": {
+                "type": "FAULT",
+                "level": "CRITICAL",
+                "desc": "permission check error"
+            },
+            "CODE": {
+                "type": "INT32",
+                "desc": "error code"
+            },
+            "CALLER_TOKENID": {
+                "type": "UINT32",
+                "desc": "caller token id"
+            },
+            "PERMISSION_NAME": {
+                "type": "STRING",
+                "desc": "permission name"
+            },
+            "ERROR_REASON": {
+                "type": "STRING",
+                "desc": "error reason"
+            }
+        },
+        "PERMISSION_CHECK_EVENT": {
+            "__BASE": {
+                "type": "BEHAVIOR",
+                "level": "MINOR",
+                "desc": "permission check event"
+            },
+            "CODE": {
+                "type": "INT32",
+                "desc": "event code"
+            },
+            "CALLER_TOKENID": {
+                "type": "UINT32",
+                "desc": "caller token id"
+            },
+            "PERMISSION_NAME": {
+                "type": "STRING",
+                "desc": "permission name"
+            },
+            "FLAG": {
+                "type": "INT32",
+                "desc": "permission flag"
+            },
+            "PERMISSION_GRANT_TYPE": {
+                "type": "INT32",
+                "desc": "grant type"
+            },
+            "PID_INFO": {
+                "type": "INT32",
+                "desc": "access token service pid"
+            },
+            "REASON": {
+                "type": "STRING",
+                "desc": "check report reason"
+            }
+        },
+        "PERMISSION_SYNC": {
+            "__BASE": {
+                "type": "FAULT",
+                "level": "CRITICAL",
+                "tag": "usability",
+                "desc": "permission sync error"
+            },
+            "CODE": {
+                "type": "INT32",
+                "desc": "error code"
+            },
+            "REMOTE_ID": {
+                "type": "STRING",
+                "desc": "remote id"
+            },
+            "REASON": {
+                "type": "STRING",
+                "desc": "error reason"
+            }
+        },
+        "ADD_HAP": {
+            "__BASE": {
+                "type": "STATISTIC",
+                "level": "MINOR",
+                "tag": "usability",
+                "desc": "add a hap to device"
+            },
+            "TOKENID": {
+                "type": "UINT32",
+                "desc": "token id"
+            },
+            "USERID": {
+                "type": "INT32",
+                "desc": "user id"
+            },
+            "BUNDLENAME": {
+                "type": "STRING",
+                "desc": "bundle name"
+            },
+            "INSTINDEX": {
+                "type": "INT32",
+                "desc": "inst index"
+            }
+        },
+        "DEL_HAP": {
+            "__BASE": {
+                "type": "STATISTIC",
+                "level": "MINOR",
+                "tag": "usability",
+                "desc": "delete a hap from device"
+            },
+            "TOKENID": {
+                "type": "UINT32",
+                "desc": "tokenID"
+            },
+            "USERID": {
+                "type": "INT32",
+                "desc": "user id"
+            },
+            "BUNDLENAME": {
+                "type": "STRING",
+                "desc": "bundle name"
+            },
+            "INSTINDEX": {
+                "type": "INT32",
+                "desc": "inst index"
+            }
+        },
+        "PERM_DIALOG_STATUS_INFO": {
+            "__BASE": {
+                "type": "STATISTIC",
+                "level": "MINOR",
+                "desc": "status information of permission dialog"
+            },
+            "USERID": {
+                "type": "INT32",
+                "desc": "user id"
+            },
+            "PERMISSION_NAME": {
+                "type": "STRING",
+                "desc": "permission name"
+            },
+            "TOGGLE_STATUS": {
+                "type": "UINT32",
+                "desc": "toggle status of permission dialog"
+            }
+        }
+    },
+    "CUST_CONFIG": {
+        "CONFIG_POLICY_FAILED": {
+            "__BASE": {
+                "type": "FAULT",
+                "level": "CRITICAL",
+                "tag": "cfgFail",
+                "desc": "config policy failed"
+            },
+            "APINAME": {
+                "type": "STRING",
+                "desc": "api name"
+            },
+            "MSG": {
+                "type": "STRING",
+                "desc": "error message"
+            }
+        },
+        "CONFIG_POLICY_EVENT": {
+            "__BASE": {
+                "type": "STATISTIC",
+                "level": "MINOR",
+                "tag": "cfgEvent",
+                "desc": "get config policy func"
+            },
+            "APINAME": {
+                "type": "STRING",
+                "desc": "api name"
+            }
+        }
+    },
+    "DEVICE_AUTH": {
+        "CALL_EVENT": {
+            "__BASE": {
+                "type": "BEHAVIOR",
+                "level": "MINOR",
+                "desc": "the frequency of function calling"
+            },
+            "REQ_ID": {
+                "type": "INT64",
+                "desc": "request id"
+            },
+            "FUNC_NAME": {
+                "type": "STRING",
+                "desc": "function name"
+            },
+            "APP_ID": {
+                "type": "STRING",
+                "desc": "app id"
+            },
+            "OS_ACCOUNT_ID": {
+                "type": "INT32",
+                "desc": "os account id"
+            },
+            "CALL_RESULT": {
+                "type": "INT32",
+                "desc": "call result"
+            }
+        },
+        "FAULT_EVENT": {
+            "__BASE": {
+                "type": "FAULT",
+                "level": "CRITICAL",
+                "desc": "fault event"
+            },
+            "FUNCTION_NAME": {
+                "type": "STRING",
+                "desc": "function name"
+            },
+            "FAULT_REASON": {
+                "type": "INT32",
+                "desc": "fault reason"
+            },
+            "CRED_TYPE": {
+                "type": "UINT8",
+                "desc": "credential type"
+            },
+            "GROUP_TYPE": {
+                "type": "INT32",
+                "desc": "group type"
+            },
+            "APP_ID": {
+                "type": "STRING",
+                "desc": "app id"
+            }
+        },
+        "STATISTIC_EVENT": {
+            "__BASE": {
+                "type": "STATISTIC",
+                "level": "MINOR",
+                "desc": "Statistic Event"
+            },
+            "APP_ID": {
+                "type": "STRING",
+                "desc": "app id"
+            },
+            "COST_TIME": {
+                "type": "INT64",
+                "desc": "cost time"
+            },
+            "CALL_RESULT": {
+                "type": "INT32",
+                "desc": "call result"
+            },
+            "FUNCTION_NAME": {
+                "type": "STRING",
+                "desc": "function name"
+            },
+            "CRED_TYPE": {
+                "type": "UINT8",
+                "desc": "credential type"
+            },
+            "PROTOCOL_TYPE": {
+                "type": "INT32",
+                "desc": "protocol type"
+            }
+        }
+    },
+    "DISTDM": {
+        "DM_INIT_DEVICE_MANAGER_SUCCESS": {
+            "__BASE": {
+                "type": "BEHAVIOR",
+                "level": "CRITICAL",
+                "desc": "dm init devicemanager success"
+            },
+            "PID": {
+                "type": "INT32",
+                "desc": "devevicemanager pid"
+            },
+            "UID": {
+                "type": "INT32",
+                "desc": "devevicemanager uid"
+            },
+            "MSG": {
+                "type": "STRING",
+                "desc": "dm init devicemanager success"
+            }
+        },
+        "DM_INIT_DEVICE_MANAGER_FAILED": {
+            "__BASE": {
+                "type": "BEHAVIOR",
+                "level": "CRITICAL",
+                "desc": "dm init devicemanager failed"
+            },
+            "PID": {
+                "type": "INT32",
+                "desc": "devevicemanager pid"
+            },
+            "UID": {
+                "type": "INT32",
+                "desc": "devevicemanager uid"
+            },
+            "MSG": {
+                "type": "STRING",
+                "desc": "dm init devicemanager failed"
+            }
+        },
+        "START_DEVICE_DISCOVERY_SUCCESS": {
+            "__BASE": {
+                "type": "BEHAVIOR",
+                "level": "CRITICAL",
+                "desc": "device manager discovery success"
+            },
+            "PID": {
+                "type": "INT32",
+                "desc": "devevicemanager pid"
+            },
+            "UID": {
+                "type": "INT32",
+                "desc": "devevicemanager uid"
+            },
+            "MSG": {
+                "type": "STRING",
+                "desc": "device manager discovery success"
+            }
+        },
+        "START_DEVICE_DISCOVERY_FAILED": {
+            "__BASE": {
+                "type": "BEHAVIOR",
+                "level": "CRITICAL",
+                "desc": "device manager discovery failed"
+            },
+            "PID": {
+                "type": "INT32",
+                "desc": "devevicemanager pid"
+            },
+            "UID": {
+                "type": "INT32",
+                "desc": "devevicemanager uid"
+            },
+            "MSG": {
+                "type": "STRING",
+                "desc": "device manager discovery failed"
+            }
+        },
+        "GET_LOCAL_DEVICE_INFO_SUCCESS": {
+            "__BASE": {
+                "type": "BEHAVIOR",
+                "level": "CRITICAL",
+                "desc": "dm get local device info success"
+            },
+            "PID": {
+                "type": "INT32",
+                "desc": "devevicemanager pid"
+            },
+            "UID": {
+                "type": "INT32",
+                "desc": "devevicemanager uid"
+            },
+            "MSG": {
+                "type": "STRING",
+                "desc": "dm get local device info success"
+            }
+        },
+        "GET_LOCAL_DEVICE_INFO_FAILED": {
+            "__BASE": {
+                "type": "BEHAVIOR",
+                "level": "CRITICAL",
+                "desc": "dm get local device info failed"
+            },
+            "PID": {
+                "type": "INT32",
+                "desc": "devevicemanager pid"
+            },
+            "UID": {
+                "type": "INT32",
+                "desc": "devevicemanager uid"
+            },
+            "MSG": {
+                "type": "STRING",
+                "desc": "dm get local device info failed"
+            }
+        },
+        "DM_SEND_REQUEST_SUCCESS": {
+            "__BASE": {
+                "type": "BEHAVIOR",
+                "level": "CRITICAL",
+                "desc": "dm send request success"
+            },
+            "PID": {
+                "type": "INT32",
+                "desc": "devevicemanager pid"
+            },
+            "UID": {
+                "type": "INT32",
+                "desc": "devevicemanager uid"
+            },
+            "MSG": {
+                "type": "STRING",
+                "desc": "dm send request success"
+            }
+        },
+        "DM_SEND_REQUEST_FAILED": {
+            "__BASE": {
+                "type": "BEHAVIOR",
+                "level": "CRITICAL",
+                "desc": "dm send request failed"
+            },
+            "PID": {
+                "type": "INT32",
+                "desc": "devevicemanager pid"
+            },
+            "UID": {
+                "type": "INT32",
+                "desc": "devevicemanager uid"
+            },
+            "MSG": {
+                "type": "STRING",
+                "desc": "dm send request failed"
+            }
+        },
+        "ADD_HICHAIN_GROUP_SUCCESS": {
+            "__BASE": {
+                "type": "BEHAVIOR",
+                "level": "CRITICAL",
+                "desc": "dm add member to group success"
+            },
+            "PID": {
+                "type": "INT32",
+                "desc": "devevicemanager pid"
+            },
+            "UID": {
+                "type": "INT32",
+                "desc": "devevicemanager uid"
+            },
+            "MSG": {
+                "type": "STRING",
+                "desc": "dm add member to group success"
+            }
+        },
+        "ADD_HICHAIN_GROUP_FAILED": {
+            "__BASE": {
+                "type": "BEHAVIOR",
+                "level": "CRITICAL",
+                "desc": "dm add member to group failed"
+            },
+            "PID": {
+                "type": "INT32",
+                "desc": "devevicemanager pid"
+            },
+            "UID": {
+                "type": "INT32",
+                "desc": "devevicemanager uid"
+            },
+            "MSG": {
+                "type": "STRING",
+                "desc": "dm add member to group failed"
+            }
+        },
+        "DM_CREATE_GROUP_SUCCESS": {
+            "__BASE": {
+                "type": "BEHAVIOR",
+                "level": "CRITICAL",
+                "desc": "dm create group success"
+            },
+            "PID": {
+                "type": "INT32",
+                "desc": "devevicemanager pid"
+            },
+            "UID": {
+                "type": "INT32",
+                "desc": "devevicemanager uid"
+            },
+            "MSG": {
+                "type": "STRING",
+                "desc": "dm create group success"
+            }
+        },
+        "DM_CREATE_GROUP_FAILED": {
+            "__BASE": {
+                "type": "BEHAVIOR",
+                "level": "CRITICAL",
+                "desc": "dm create group failed"
+            },
+            "PID": {
+                "type": "INT32",
+                "desc": "devevicemanager pid"
+            },
+            "UID": {
+                "type": "INT32",
+                "desc": "devevicemanager uid"
+            },
+            "MSG": {
+                "type": "STRING",
+                "desc": "dm create group failed"
+            }
+        },
+        "UNAUTHENTICATE_DEVICE_SUCCESS": {
+            "__BASE": {
+                "type": "BEHAVIOR",
+                "level": "CRITICAL",
+                "desc": "unauthenticate device success"
+            },
+            "PID": {
+                "type": "INT32",
+                "desc": "devevicemanager pid"
+            },
+            "UID": {
+                "type": "INT32",
+                "desc": "devevicemanager uid"
+            },
+            "MSG": {
+                "type": "STRING",
+                "desc": "unauthenticate device success"
+            }
+        },
+        "UNAUTHENTICATE_DEVICE_FAILED": {
+            "__BASE": {
+                "type": "BEHAVIOR",
+                "level": "CRITICAL",
+                "desc": "unauthenticate device failed"
+            },
+            "PID": {
+                "type": "INT32",
+                "desc": "devevicemanager pid"
+            },
+            "UID": {
+                "type": "INT32",
+                "desc": "devevicemanager uid"
+            },
+            "MSG": {
+                "type": "STRING",
+                "desc": "unauthenticate device failed"
+            }
+        }
+    },
+    "HDF_USB": {
+        "RECOGNITION_FAIL": {
+            "__BASE": {
+                "type": "FAULT",
+                "level": "CRITICAL",
+                "tag": "Usbd",
+                "desc": "UsbRecognitionFail"
+            },
+            "DEVICE_NAME": {
+                "type": "STRING",
+                "desc": "device name"
+            },
+            "DEVICE_PROTOCOL": {
+                "type": "INT32",
+                "desc": "device protocol"
+            },
+            "DEVICE_CLASS": {
+                "type": "INT32",
+                "desc": "device class"
+            },
+            "VENDOR_ID": {
+                "type": "INT32",
+                "desc": "vendor id"
+            },
+            "PRODUCT_ID": {
+                "type": "INT32",
+                "desc": "product id"
+            },
+            "VERSION": {
+                "type": "STRING",
+                "desc": "version"
+            },
+            "FAIL_REASON": {
+                "type": "INT32",
+                "desc": "fail reason"
+            },
+            "FAIL_INFO": {
+                "type": "STRING",
+                "desc": "fail info"
+            }
+        },
+        "RECOGNITION_FAIL_STATISTICS": {
+            "__BASE": {
+                "type": "STATISTIC",
+                "level": "CRITICAL",
+                "tag": "Usbd",
+                "desc": "UsbRecognitionFailStatistics"
+            },
+            "EXCEPTION_CNT": {
+                "type": "UINT64",
+                "desc": "exception cnt"
+            },
+            "TOTAL_CNT": {
+                "type": "UINT64",
+                "desc": "total cnt"
+            },
+            "FAIL_RATE": {
+                "type": "DOUBLE",
+                "desc": "fail rate"
+            },
+            "QUALITY_STATISTICAL": {
+                "type": "STRING",
+                "desc": "quality statistical"
+            }
+        }
+    },
+    "DSOFTBUS": {
+        "DISCOVER_BEHAVIOR": {
+            "__BASE": {
+                "type": "BEHAVIOR",
+                "level": "MINOR",
+                "desc": "discovery behavior"
+            },
+            "ORG_PKG": {
+                "type": "STRING",
+                "desc": "organization module name"
+            },
+            "FUNC": {
+                "type": "STRING",
+                "desc": "current function name"
+            },
+            "HOST_PKG": {
+                "type": "STRING",
+                "desc": "host module name"
+            },
+            "BIZ_SCENE": {
+                "type": "INT32",
+                "desc": "business scene"
+            },
+            "BIZ_STAGE": {
+                "type": "INT32",
+                "desc": "business stage"
+            },
+            "STAGE_RES": {
+                "type": "INT32",
+                "desc": "stage result"
+            },
+            "ERROR_CODE": {
+                "type": "INT32",
+                "desc": "error code"
+            },
+            "INIT_TYPE": {
+                "type": "INT32",
+                "desc": "init type"
+            },
+            "SERVER_TYPE": {
+                "type": "INT32",
+                "desc": "server type"
+            },
+            "INTERFACE_FUNC_TYPE": {
+                "type": "INT32",
+                "desc": "interface func type"
+            },
+            "CAPABILITY_BIT": {
+                "type": "INT32",
+                "desc": "capability bit map"
+            },
+            "CAPABILITY_DATA": {
+                "type": "INT32",
+                "desc": "capability data"
+            },
+            "BLE_TURN_STATE": {
+                "type": "INT32",
+                "desc": "ble turn state"
+            },
+            "IP_LINK_STATUS": {
+                "type": "INT32",
+                "desc": "ip link status"
+            },
+            "COAP_CHANGE_TYPE": {
+                "type": "INT32",
+                "desc": "coap change type"
+            },
+            "BROADCAST_TYPE": {
+                "type": "INT32",
+                "desc": "broadcast type"
+            },
+            "BROADCAST_FREQ": {
+                "type": "INT32",
+                "desc": "broadcast frequency"
+            },
+            "SCAN_TYPE": {
+                "type": "INT32",
+                "desc": "scan type"
+            },
+            "SCAN_CYCLE": {
+                "type": "STRING",
+                "desc": "scan duty cycle"
+            },
+            "DISC_TYPE": {
+                "type": "INT32",
+                "desc": "discovery type"
+            },
+            "DISC_MODE": {
+                "type": "INT32",
+                "desc": "discovery mode"
+            },
+            "FIRST_DISCOVERY_TIME": {
+                "type": "INT32",
+                "desc": "time consuming to discover for the first time"
+            },
+            "LOCAL_NET_ID": {
+                "type": "STRING",
+                "desc": "local device net id"
+            },
+            "PEER_IP": {
+                "type": "STRING",
+                "desc": "peer device ip"
+            },
+            "PEER_BR_MAC": {
+                "type": "STRING",
+                "desc": "peer device br mac"
+            },
+            "PEER_BLE_MAC": {
+                "type": "STRING",
+                "desc": "peer device ble mac"
+            },
+            "PEER_WIFI_MAC": {
+                "type": "STRING",
+                "desc": "peer device wifi mac"
+            },
+            "PEER_PORT": {
+                "type": "STRING",
+                "desc": "peer device port"
+            },
+            "PEER_NET_ID": {
+                "type": "STRING",
+                "desc": "peer device net id"
+            },
+            "PEER_DEV_TYPE": {
+                "type": "STRING",
+                "desc": "peer device type"
+            }
+        },
+        "DISCOVER_AUDIT": {
+            "__BASE": {
+                "type": "SECURITY",
+                "level": "CRITICAL",
+                "desc": "discovery security audit"
+            },
+            "ORG_PKG": {
+                "type": "STRING",
+                "desc": "organization module name"
+            },
+            "FUNC": {
+                "type": "STRING",
+                "desc": "current function name"
+            },
+            "HOST_PKG": {
+                "type": "STRING",
+                "desc": "host module name"
+            },
+            "BIZ_SCENE": {
+                "type": "INT32",
+                "desc": "business scene"
+            },
+            "RESULT": {
+                "type": "INT32",
+                "desc": "deal result"
+            },
+            "ERROR_CODE": {
+                "type": "INT32",
+                "desc": "error code"
+            },
+            "AUDIT_TYPE": {
+                "type": "INT32",
+                "desc": "audit type"
+            },
+            "BROADCAST_TYPE": {
+                "type": "INT32",
+                "desc": "broadcast type"
+            },
+            "BROADCAST_FREQ": {
+                "type": "INT32",
+                "desc": "broadcast frequency"
+            },
+            "ADV_COUNT": {
+                "type": "INT32",
+                "desc": "advertise count"
+            },
+            "ADV_DURATION": {
+                "type": "INT32",
+                "desc": "advertise duration"
+            },
+            "SCAN_INTERVAL": {
+                "type": "INT32",
+                "desc": "scan interval"
+            },
+            "SCAN_WINDOW": {
+                "type": "INT32",
+                "desc": "scan window"
+            },
+            "DISC_MODE": {
+                "type": "INT32",
+                "desc": "discovery mode"
+            },
+            "MEDIUM_TYPE": {
+                "type": "INT32",
+                "desc": "medium type"
+            },
+            "ADV_CHANNEL": {
+                "type": "INT32",
+                "desc": "adv channel"
+            },
+            "SCAN_TYPE": {
+                "type": "INT32",
+                "desc": "scan type"
+            },
+            "SCAN_ID": {
+                "type": "INT32",
+                "desc": "scan id"
+            },
+            "SCAN_LISTENER_ID": {
+                "type": "INT32",
+                "desc": "scan listener id"
+            },
+            "LOCAL_UDID": {
+                "type": "STRING",
+                "desc": "local device udid"
+            },
+            "LOCAL_DEV_NAME": {
+                "type": "STRING",
+                "desc": "local device name"
+            },
+            "LOCAL_DEV_TYPE": {
+                "type": "STRING",
+                "desc": "local device type"
+            },
+            "LOCAL_ACCOUNT_HASH": {
+                "type": "STRING",
+                "desc": "local account hash"
+            },
+            "LOCAL_CAPABILITY_BITMAP": {
+                "type": "INT32",
+                "desc": "local capability bitmap"
+            },
+            "LOCAL_CUST_DATA": {
+                "type": "STRING",
+                "desc": "local cust data"
+            },
+            "LOCAL_IP": {
+                "type": "STRING",
+                "desc": "local device ip"
+            },
+            "LOCAL_PORT": {
+                "type": "INT32",
+                "desc": "local device port"
+            },
+            "LOCAL_BR_MAC": {
+                "type": "STRING",
+                "desc": "local device br mac"
+            },
+            "LOCAL_BLE_MAC": {
+                "type": "STRING",
+                "desc": "local device ble mac"
+            },
+            "PEER_UDID": {
+                "type": "STRING",
+                "desc": "peer device udid"
+            },
+            "PEER_DEV_NAME": {
+                "type": "STRING",
+                "desc": "peer device name"
+            },
+            "PEER_DEV_TYPE": {
+                "type": "STRING",
+                "desc": "peer device type"
+            },
+            "PEER_ACCOUNT_HASH": {
+                "type": "STRING",
+                "desc": "peer account hash"
+            },
+            "PEER_CAPABILITY_BITMAP": {
+                "type": "INT32",
+                "desc": "peer capability bitmap"
+            },
+            "PEER_CUST_DATA": {
+                "type": "STRING",
+                "desc": "peer cust data"
+            },
+            "PEER_IP": {
+                "type": "STRING",
+                "desc": "peer device ip"
+            },
+            "PEER_PORT": {
+                "type": "INT32",
+                "desc": "peer device port"
+            },
+            "PEER_BR_MAC": {
+                "type": "STRING",
+                "desc": "peer device br mac"
+            },
+            "PEER_BLE_MAC": {
+                "type": "STRING",
+                "desc": "peer device ble mac"
+            },
+            "ERR_MSG": {
+                "type": "STRING",
+                "desc": "error message"
+            },
+            "ADDITIONAL_INFO": {
+                "type": "STRING",
+                "desc": "additional information"
+            }
+        },
+        "BUSCENTER_BEHAVIOR": {
+            "__BASE": {
+                "type": "BEHAVIOR",
+                "level": "MINOR",
+                "desc": "bus center behavior"
+            },
+            "ORG_PKG": {
+                "type": "STRING",
+                "desc": "organization module name"
+            },
+            "FUNC": {
+                "type": "STRING",
+                "desc": "current function name"
+            },
+            "HOST_PKG": {
+                "type": "STRING",
+                "desc": "host module name"
+            },
+            "TO_CALL_PKG": {
+                "type": "STRING",
+                "desc": "to call module name"
+            },
+            "BIZ_SCENE": {
+                "type": "INT32",
+                "desc": "business scene"
+            },
+            "BIZ_STAGE": {
+                "type": "INT32",
+                "desc": "business stage"
+            },
+            "STAGE_RES": {
+                "type": "INT32",
+                "desc": "stage result"
+            },
+            "ERROR_CODE": {
+                "type": "INT32",
+                "desc": "error code"
+            },
+            "AUTH_ID": {
+                "type": "INT32",
+                "desc": "auth id"
+            },
+            "DISC_SERVER_TYPE": {
+                "type": "INT32",
+                "desc": "disc server type"
+            },
+            "GEAR_CYCLE": {
+                "type": "INT32",
+                "desc": "gear cycle"
+            },
+            "GEAR_DURATION": {
+                "type": "INT32",
+                "desc": "gear duration"
+            },
+            "CONN_ID": {
+                "type": "INT32",
+                "desc": "connection id"
+            },
+            "AUTH_LINK_TYPE": {
+                "type": "INT32",
+                "desc": "auth link type"
+            },
+            "AUTH_COST_TIME": {
+                "type": "INT32",
+                "desc": "auth cost time"
+            },
+            "LNN_TYPE": {
+                "type": "INT32",
+                "desc": "lnn type"
+            },
+            "ONLINE_NUM": {
+                "type": "INT32",
+                "desc": "current online device num"
+            },
+            "PEER_DEV_ABILITY": {
+                "type": "INT32",
+                "desc": "peer device ability"
+            },
+            "ONLINE_TYPE": {
+                "type": "INT32",
+                "desc": "online type"
+            },
+            "PEER_DEV_INFO": {
+                "type": "STRING",
+                "desc": "peer device lnn info"
+            },
+            "PEER_IP": {
+                "type": "STRING",
+                "desc": "peer device ip"
+            },
+            "PEER_BR_MAC": {
+                "type": "STRING",
+                "desc": "peer device br mac"
+            },
+            "PEER_BLE_MAC": {
+                "type": "STRING",
+                "desc": "peer device ble mac"
+            },
+            "PEER_WIFI_MAC": {
+                "type": "STRING",
+                "desc": "peer device wifi mac"
+            },
+            "PEER_PORT": {
+                "type": "STRING",
+                "desc": "peer device port"
+            },
+            "PEER_UDID": {
+                "type": "STRING",
+                "desc": "peer device udid"
+            },
+            "PEER_NET_ID": {
+                "type": "STRING",
+                "desc": "peer device net id"
+            },
+            "PEER_DEV_TYPE": {
+                "type": "STRING",
+                "desc": "peer device type"
+            }
+        },
+        "BUSCENTER_AUDIT": {
+            "__BASE": {
+                "type": "SECURITY",
+                "level": "CRITICAL",
+                "desc": "bus center security audit"
+            },
+            "BIZ_SCENE": {
+                "type": "INT32",
+                "desc": "business scene"
+            },
+            "BIZ_STAGE": {
+                "type": "INT32",
+                "desc": "business stage"
+            },
+            "ORG_PKG": {
+                "type": "STRING",
+                "desc": "organization module name"
+            },
+            "FUNC": {
+                "type": "STRING",
+                "desc": "current function name"
+            },
+            "HOST_PKG": {
+                "type": "STRING",
+                "desc": "host module name"
+            },
+            "RESULT": {
+                "type": "INT32",
+                "desc": "deal result"
+            },
+            "ERROR_CODE": {
+                "type": "INT32",
+                "desc": "error code"
+            },
+            "AUDIT_TYPE": {
+                "type": "INT32",
+                "desc": "audit type"
+            },
+            "CONN_ID": {
+                "type": "INT32",
+                "desc": "connection id"
+            },
+            "AUTH_LINK_TYPE": {
+                "type": "INT32",
+                "desc": "auth link type"
+            },
+            "AUTH_REQUEST_ID": {
+                "type": "INT32",
+                "desc": "auth request id"
+            },
+            "ONLINE_NUM": {
+                "type": "INT32",
+                "desc": "current online device num"
+            },
+            "LOCAL_IP": {
+                "type": "STRING",
+                "desc": "local device ip"
+            },
+            "LOCAL_BR_MAC": {
+                "type": "STRING",
+                "desc": "local device br mac"
+            },
+            "LOCAL_BLE_MAC": {
+                "type": "STRING",
+                "desc": "local device ble mac"
+            },
+            "LOCAL_UDID": {
+                "type": "STRING",
+                "desc": "local device udid"
+            },
+            "LOCAL_NETWORK_ID": {
+                "type": "STRING",
+                "desc": "local device network id"
+            },
+            "LOCAL_DEV_NAME": {
+                "type": "STRING",
+                "desc": "local device name"
+            },
+            "PEER_IP": {
+                "type": "STRING",
+                "desc": "peer device ip"
+            },
+            "PEER_BR_MAC": {
+                "type": "STRING",
+                "desc": "peer device br mac"
+            },
+            "PEER_BLE_MAC": {
+                "type": "STRING",
+                "desc": "peer device ble mac"
+            },
+            "PEER_UDID": {
+                "type": "STRING",
+                "desc": "peer device udid"
+            },
+            "PEER_NETWORK_ID": {
+                "type": "STRING",
+                "desc": "peer device network id"
+            },
+            "PEER_DEV_NAME": {
+                "type": "STRING",
+                "desc": "peer device name"
+            },
+            "LOCAL_AUTH_PORT": {
+                "type": "INT32",
+                "desc": "local device auth port"
+            },
+            "LOCAL_PROXY_PORT": {
+                "type": "INT32",
+                "desc": "local device proxy port"
+            },
+            "LOCAL_SESSION_PORT": {
+                "type": "INT32",
+                "desc": "local device session port"
+            },
+            "LOCAL_DEV_TYPE": {
+                "type": "INT32",
+                "desc": "local device type"
+            },
+            "PEER_AUTH_PORT": {
+                "type": "INT32",
+                "desc": "peer device auth port"
+            },
+            "PEER_PROXY_PORT": {
+                "type": "INT32",
+                "desc": "peer device proxy port"
+            },
+            "PEER_SESSION_PORT": {
+                "type": "INT32",
+                "desc": "peer device session port"
+            },
+            "PEER_DEV_TYPE": {
+                "type": "INT32",
+                "desc": "peer device type"
+            },
+            "ATTACK_TIMES": {
+                "type": "INT32",
+                "desc": "attack times"
+            },
+            "BE_ATTACKED_PORT": {
+                "type": "INT32",
+                "desc": "be attacked port"
+            },
+            "HEARTBEAT_EVENT_TYPE": {
+                "type": "INT32",
+                "desc": "heartbeat event type"
+            }
+        },
+        "TRANSPORT_BEHAVIOR": {
+            "__BASE": {
+                "type": "BEHAVIOR",
+                "level": "MINOR",
+                "desc": "transport behavior"
+            },
+            "ORG_PKG": {
+                "type": "STRING",
+                "desc": "organization module name"
+            },
+            "FUNC": {
+                "type": "STRING",
+                "desc": "current function name"
+            },
+            "HOST_PKG": {
+                "type": "STRING",
+                "desc": "host module name"
+            },
+            "TO_CALL_PKG": {
+                "type": "STRING",
+                "desc": "to call module name"
+            },
+            "BIZ_SCENE": {
+                "type": "INT32",
+                "desc": "business scene"
+            },
+            "BIZ_STAGE": {
+                "type": "INT32",
+                "desc": "business stage"
+            },
+            "STAGE_RES": {
+                "type": "INT32",
+                "desc": "stage result"
+            },
+            "ERROR_CODE": {
+                "type": "INT32",
+                "desc": "error code"
+            },
+            "SESSION_NAME": {
+                "type": "STRING",
+                "desc": "session name"
+            },
+            "DATA_TYPE": {
+                "type": "INT32",
+                "desc": "channel data type"
+            },
+            "LOGIC_CHAN_TYPE": {
+                "type": "INT32",
+                "desc": "logic channel type"
+            },
+            "LANE_ID": {
+                "type": "INT32",
+                "desc": "lane id"
+            },
+            "PREFER_LINK_TYPE": {
+                "type": "INT32",
+                "desc": "preferred link type"
+            },
+            "LANE_TRANS_TYPE": {
+                "type": "INT32",
+                "desc": "transport lane data type"
+            },
+            "CHAN_ID": {
+                "type": "INT32",
+                "desc": "channel id"
+            },
+            "REQ_ID": {
+                "type": "INT32",
+                "desc": "request id"
+            },
+            "CONN_ID": {
+                "type": "INT32",
+                "desc": "connection id"
+            },
+            "LINK_TYPE": {
+                "type": "INT32",
+                "desc": "link type"
+            },
+            "AUTH_ID": {
+                "type": "INT32",
+                "desc": "auth id"
+            },
+            "SOCKET_FD": {
+                "type": "INT32",
+                "desc": "socket fd"
+            },
+            "TIME_CONSUMING": {
+                "type": "INT32",
+                "desc": "total cost time"
+            },
+            "CHAN_SCORE": {
+                "type": "INT32",
+                "desc": "channel score"
+            },
+            "PEER_CHAN_ID": {
+                "type": "INT32",
+                "desc": "peer channel id"
+            },
+            "PEER_NET_ID": {
+                "type": "STRING",
+                "desc": "peer device net id"
+            },
+            "PEER_UDID": {
+                "type": "STRING",
+                "desc": "peer udid"
+            },
+            "PEER_DEV_VER": {
+                "type": "STRING",
+                "desc": "peer device build version"
+            },
+            "LOCAL_UDID": {
+                "type": "STRING",
+                "desc": "local udid"
+            },
+            "OS_TYPE": {
+                "type": "INT32",
+                "desc": "os type"
+            },
+            "FIRST_TOKEN_NAME": {
+                "type": "STRING",
+                "desc": "first token name"
+            },
+            "FIRST_TOKEN_ID": {
+                "type": "UINT32",
+                "desc": "first token id"
+            },
+            "FIRST_TOKEN_TYPE": {
+                "type": "INT32",
+                "desc": "first token type"
+            }
+        },
+        "TRANSPORT_AUDIT": {
+            "__BASE": {
+                "type": "SECURITY",
+                "level": "CRITICAL",
+                "desc": "transport recurity audit"
+            },
+            "ORG_PKG": {
+                "type": "STRING",
+                "desc": "business module name"
+            },
+            "FUNC": {
+                "type": "STRING",
+                "desc": "function name"
+            },
+            "HOST_PKG": {
+                "type": "STRING",
+                "desc": "host module name"
+            },
+            "BIZ_SCENE": {
+                "type": "INT32",
+                "desc": "business scene"
+            },
+            "RESULT": {
+                "type": "INT32",
+                "desc": "deal result"
+            },
+            "ERROR_CODE": {
+                "type": "INT32",
+                "desc": "error code"
+            },
+            "AUDIT_TYPE": {
+                "type": "INT32",
+                "desc": "audit type"
+            },
+            "LOCAL_IP": {
+                "type": "STRING",
+                "desc": "local device ip"
+            },
+            "LOCAL_PORT": {
+                "type": "STRING",
+                "desc": "local device port"
+            },
+            "LOCAL_DEV_ID": {
+                "type": "STRING",
+                "desc": "local device id"
+            },
+            "LOCAL_DEV_TYPE": {
+                "type": "INT32",
+                "desc": "local device type"
+            },
+            "LOCAL_SESS_NAME": {
+                "type": "STRING",
+                "desc": "local session name"
+            },
+            "LOCAL_CHANNEL_ID": {
+                "type": "INT32",
+                "desc": "local channel id"
+            },
+            "PEER_IP": {
+                "type": "STRING",
+                "desc": "peer device ip"
+            },
+            "PEER_PORT": {
+                "type": "STRING",
+                "desc": "peer device port"
+            },
+            "PEER_DEV_ID": {
+                "type": "STRING",
+                "desc": "peer device id"
+            },
+            "PEER_DEV_TYPE": {
+                "type": "INT32",
+                "desc": "peer device type"
+            },
+            "PEER_SESS_NAME": {
+                "type": "STRING",
+                "desc": "peer session name"
+            },
+            "PEER_CHANNEL_ID": {
+                "type": "INT32",
+                "desc": "peer channel id"
+            },
+            "CHANNEL_TYPE": {
+                "type": "INT32",
+                "desc": "channel type"
+            },
+            "AUTH_ID": {
+                "type": "INT32",
+                "desc": "auth id"
+            },
+            "REQ_ID": {
+                "type": "INT32",
+                "desc": "request id"
+            },
+            "LINK_TYPE": {
+                "type": "INT32",
+                "desc": "link type"
+            },
+            "CONN_ID": {
+                "type": "INT32",
+                "desc": "connection id"
+            },
+            "SOCKET_FD": {
+                "type": "INT32",
+                "desc": "socket fd"
+            },
+            "DATA_TYPE": {
+                "type": "INT32",
+                "desc": "channel data type"
+            },
+            "DATA_LEN": {
+                "type": "INT32",
+                "desc": "channel data length"
+            },
+            "DATA_SEQ": {
+                "type": "INT32",
+                "desc": "channel data seq"
+            },
+            "COST_TIME": {
+                "type": "INT32",
+                "desc": "total cost time"
+            },
+            "DATA_TRAFFIC": {
+                "type": "INT32",
+                "desc": "data traffic"
+            },
+            "REQ_COUNT": {
+                "type": "INT32",
+                "desc": "request cpunt"
+            }
+        },
+        "CONNECTION_BEHAVIOR": {
+            "__BASE": {
+                "type": "BEHAVIOR",
+                "level": "MINOR",
+                "desc": "connection behavior"
+            },
+            "ORG_PKG": {
+                "type": "STRING",
+                "desc": "organization module name"
+            },
+            "FUNC": {
+                "type": "STRING",
+                "desc": "current function name"
+            },
+            "HOST_PKG": {
+                "type": "STRING",
+                "desc": "host module name"
+            },
+            "TO_CALL_PKG": {
+                "type": "STRING",
+                "desc": "to call module name"
+            },
+            "BIZ_SCENE": {
+                "type": "INT32",
+                "desc": "business scene"
+            },
+            "BIZ_STAGE": {
+                "type": "INT32",
+                "desc": "business stage"
+            },
+            "STAGE_RES": {
+                "type": "INT32",
+                "desc": "stage result"
+            },
+            "ERROR_CODE": {
+                "type": "INT32",
+                "desc": "error code"
+            },
+            "CONN_ID": {
+                "type": "INT32",
+                "desc": "connection id"
+            },
+            "REQ_ID": {
+                "type": "INT32",
+                "desc": "request id"
+            },
+            "LINK_TYPE": {
+                "type": "INT32",
+                "desc": "link type"
+            },
+            "AUTH_TYPE": {
+                "type": "INT32",
+                "desc": "auth type"
+            },
+            "AUTH_ID": {
+                "type": "INT32",
+                "desc": "auth id"
+            },
+            "LNN_TYPE": {
+                "type": "STRING",
+                "desc": "lnn type"
+            },
+            "EXPECT_ROLE": {
+                "type": "INT32",
+                "desc": "expect role"
+            },
+            "COST_TIME": {
+                "type": "INT32",
+                "desc": "total cost time"
+            },
+            "RSSI": {
+                "type": "INT32",
+                "desc": "rssi"
+            },
+            "CHLOAD": {
+                "type": "INT32",
+                "desc": "chload"
+            },
+            "FREQ": {
+                "type": "INT32",
+                "desc": "frequency"
+            },
+            "CONN_PROTOCOL": {
+                "type": "INT32",
+                "desc": "connection protocol"
+            },
+            "CONN_ROLE": {
+                "type": "INT32",
+                "desc": "connection role"
+            },
+            "CONN_RC_DELTA": {
+                "type": "INT32",
+                "desc": "connection request count delta"
+            },
+            "CONN_RC": {
+                "type": "INT32",
+                "desc": "connection request count"
+            },
+            "SUPT_FEATURE": {
+                "type": "INT32",
+                "desc": "support feature"
+            },
+            "MODULE_ID": {
+                "type": "INT32",
+                "desc": "module id"
+            },
+            "PROTOCOL_TYPE": {
+                "type": "UINT32",
+                "desc": "protocol type"
+            },
+            "FD": {
+                "type": "INT32",
+                "desc": "local fd"
+            },
+            "CFD": {
+                "type": "INT32",
+                "desc": "client fd when local is server side"
+            },
+            "CHALLENGE_CODE": {
+                "type": "STRING",
+                "desc": "challenge code"
+            },
+            "PEER_IP": {
+                "type": "STRING",
+                "desc": "peer device ip"
+            },
+            "PEER_BR_MAC": {
+                "type": "STRING",
+                "desc": "peer device br mac"
+            },
+            "PEER_BLE_MAC": {
+                "type": "STRING",
+                "desc": "peer device ble mac"
+            },
+            "PEER_WIFI_MAC": {
+                "type": "STRING",
+                "desc": "peer device wifi mac"
+            },
+            "PEER_PORT": {
+                "type": "STRING",
+                "desc": "peer device port"
+            },
+            "PEER_NET_ID": {
+                "type": "STRING",
+                "desc": "peer network id"
+            },
+            "PEER_UDID": {
+                "type": "STRING",
+                "desc": "peer udid"
+            },
+            "PEER_DEV_TYPE": {
+                "type": "STRING",
+                "desc": "peer device type"
+            },
+            "LOCAL_NET_ID": {
+                "type": "STRING",
+                "desc": "local network id"
+            },
+            "BOOT_LINK_TYPE": {
+                "type": "INT32",
+                "desc": "boot link type"
+            },
+            "IS_RENEGOTIATE": {
+                "type": "INT32",
+                "desc": "is renegotiate"
+            },
+            "IS_REUSE": {
+                "type": "INT32",
+                "desc": "is reuse"
+            },
+            "NEGOTIATE_TIME": {
+                "type": "UINT64",
+                "desc": "negotiate time"
+            },
+            "LINK_TIME": {
+                "type": "UINT64",
+                "desc": "link time"
+            }
+        },
+        "CONNECTION_AUDIT": {
+            "__BASE": {
+                "type": "SECURITY",
+                "level": "CRITICAL",
+                "desc": "connection security audit"
+            },
+            "ORG_PKG": {
+                "type": "STRING",
+                "desc": "organization module name"
+            },
+            "FUNC": {
+                "type": "STRING",
+                "desc": "current function name"
+            },
+            "HOST_PKG": {
+                "type": "STRING",
+                "desc": "host module name"
+            },
+            "TO_CALL_PKG": {
+                "type": "STRING",
+                "desc": "to call module name"
+            },
+            "BIZ_SCENE": {
+                "type": "INT32",
+                "desc": "business scene"
+            },
+            "ERROR_CODE": {
+                "type": "INT32",
+                "desc": "error code"
+            },
+            "AUDIT_TYPE": {
+                "type": "INT32",
+                "desc": "audit type"
+            },
+            "CONN_ID": {
+                "type": "INT32",
+                "desc": "connection id"
+            },
+            "REQ_ID": {
+                "type": "INT32",
+                "desc": "request id"
+            },
+            "LINK_TYPE": {
+                "type": "INT32",
+                "desc": "link type"
+            },
+            "EXPECT_ROLE": {
+                "type": "INT32",
+                "desc": "expect role"
+            },
+            "COST_TIME": {
+                "type": "INT32",
+                "desc": "total cost time"
+            },
+            "FREQ": {
+                "type": "STRING",
+                "desc": "frequency"
+            },
+            "CHALLENGE_CODE": {
+                "type": "STRING",
+                "desc": "challenge code"
+            },
+            "PEER_BR_MAC": {
+                "type": "STRING",
+                "desc": "peer device br mac"
+            },
+            "PEER_BLE_MAC": {
+                "type": "STRING",
+                "desc": "peer device ble mac"
+            },
+            "PEER_WIFI_MAC": {
+                "type": "STRING",
+                "desc": "peer wifi mac"
+            },
+            "PEER_DEV_TYPE": {
+                "type": "STRING",
+                "desc": "peer device type"
+            },
+            "PEER_UDID": {
+                "type": "STRING",
+                "desc": "peer device udid"
+            },
+            "CONN_PAYLOAD": {
+                "type": "STRING",
+                "desc": "payload data"
+            },
+            "LOCAL_DEV_NAME": {
+                "type": "STRING",
+                "desc": "local device name"
+            },
+            "PEER_IP": {
+                "type": "STRING",
+                "desc": "peer device ip"
+            },
+            "CONN_TIMES": {
+                "type": "INT32",
+                "desc": "connect times"
+            },
+            "LOCAL_BR_MAC": {
+                "type": "STRING",
+                "desc": "local br mac"
+            },
+            "LOCAL_BLE_MAC": {
+                "type": "STRING",
+                "desc": "local ble mac"
+            },
+            "LOCAL_UDID": {
+                "type": "STRING",
+                "desc": "local ble udid"
+            },
+            "LOCAL_IP": {
+                "type": "STRING",
+                "desc": "loca ip"
+            },
+            "PEER_PORT": {
+                "type": "STRING",
+                "desc": "peer port"
+            },
+            "LOCAL_PORT": {
+                "type": "STRING",
+                "desc": "local port"
+            }
+        },
+        "IPC_BEHAVIOR": {
+            "__BASE": {
+                "type": "BEHAVIOR",
+                "level": "MINOR",
+                "desc": "softbus ipc behavior dotting event"
+            },
+            "ORG_PKG": {
+                "type": "STRING",
+                "desc": "business package name"
+            },
+            "FUNC": {
+                "type": "STRING",
+                "desc": "fuction name"
+            },
+            "BIZ_SCENE": {
+                "type": "INT32",
+                "desc": "business scene"
+            },
+            "BIZ_STAGE": {
+                "type": "INT32",
+                "desc": "eack scene process stage"
+            },
+            "STAGE_RES": {
+                "type": "INT32",
+                "desc": "stage result"
+            },
+            "BIZ_STATE": {
+                "type": "INT32",
+                "desc": "current business result"
+            },
+            "ERROR_CODE": {
+                "type": "INT32",
+                "desc": "error code"
+            },
+            "COMM_TYPE": {
+                "type": "INT32",
+                "desc": "ipc communication type"
+            },
+            "HOST_PKG": {
+                "type": "STRING",
+                "desc": "host package name"
+            },
+            "TO_CALL_PKG": {
+                "type": "STRING",
+                "desc": "called package name"
+            }
+        },
+        "FIRST_DISC_DURATION": {
+            "__BASE": {
+                "type": "STATISTIC",
+                "level": "MINOR",
+                "desc": "first discovery device duration"
+            },
+            "SOFT_BUS_VERSION": {
+                "type": "STRING",
+                "desc": "softbus version"
+            },
+            "PACKAGE_VERSION": {
+                "type": "STRING",
+                "desc": "package version"
+            },
+            "LINK_TYPE": {
+                "type": "UINT32",
+                "desc": "link type ble 1 wlan 2"
+            },
+            "TOTAL_TIME": {
+                "type": "UINT64",
+                "desc": "total duration ms"
+            },
+            "TOTAL_COUNT": {
+                "type": "UINT32",
+                "desc": "total count"
+            },
+            "COUNT1": {
+                "type": "UINT32",
+                "desc": "number of times that the duration is longer than 500ms"
+            },
+            "COUNT2": {
+                "type": "UINT32",
+                "desc": "number of times that the duration is longer than 1000ms"
+            },
+            "COUNT3": {
+                "type": "UINT32",
+                "desc": "number of times that the duration is longer than 1500ms"
+            },
+            "COUNT4": {
+                "type": "UINT32",
+                "desc": "number of times that the duration is longer than 2000ms"
+            },
+            "COUNT5": {
+                "type": "UINT32",
+                "desc": "number of times that the duration is longer than 2500ms"
+            }
+        },
+        "DISCOVERY_DETAILS": {
+            "__BASE": {
+                "type": "STATISTIC",
+                "level": "MINOR",
+                "desc": "ble discovery details"
+            },
+            "MODULE": {
+                "type": "STRING",
+                "desc": "module"
+            },
+            "DISCTYPE": {
+                "type": "UINT32",
+                "desc": "discovery type"
+            },
+            "DURATION": {
+                "type": "UINT64",
+                "desc": "discovery duration"
+            },
+            "REPTIMES": {
+                "type": "UINT32",
+                "desc": "report times"
+            },
+            "DEVNUM": {
+                "type": "UINT32",
+                "desc": "report times"
+            },
+            "DISCTIMES": {
+                "type": "UINT32",
+                "desc": "discovery times"
+            }
+        },
+        "DISCOVERY_BLE_RSSI": {
+            "__BASE": {
+                "type": "STATISTIC",
+                "level": "MINOR",
+                "desc": "ble discovery rssi"
+            },
+            "RANGEID": {
+                "type": "UINT32",
+                "arrsize": 52,
+                "desc": "range id"
+            },
+            "RANGEDATA": {
+                "type": "UINT32",
+                "arrsize": 52,
+                "desc": "range data"
+            }
+        },
+        "CONN_DURATION": {
+            "__BASE": {
+                "type": "STATISTIC",
+                "level": "MINOR",
+                "desc": "statistic the connection duration"
+            },
+            "SOFT_BUS_VERSION": {
+                "type": "STRING",
+                "desc": "softbus version"
+            },
+            "PACKAGE_VERSION": {
+                "type": "STRING",
+                "desc": "package version"
+            },
+            "CALLER_PACKAGE_NAME": {
+                "type": "STRING",
+                "desc": "caller package name"
+            },
+            "LINK_TYPE": {
+                "type": "UINT32",
+                "desc": "link type br 0 ble 1 wlan 2 p2p 3 hml 4"
+            },
+            "FAIL_TOTAL_TIME": {
+                "type": "UINT64",
+                "desc": "fail total duration ms"
+            },
+            "FAIL_TOTAL_COUNT": {
+                "type": "UINT32",
+                "desc": "fail total count"
+            },
+            "TOTAL_TIME": {
+                "type": "UINT64",
+                "desc": "total duration ms"
+            },
+            "TOTAL_COUNT": {
+                "type": "UINT32",
+                "desc": "total count"
+            },
+            "COUNT1": {
+                "type": "UINT32",
+                "desc": "number of times that the duration is longer than 1500ms"
+            },
+            "COUNT2": {
+                "type": "UINT32",
+                "desc": "number of times that the duration is longer than 2000ms"
+            },
+            "COUNT3": {
+                "type": "UINT32",
+                "desc": "number of times that the duration is longer than 2500ms"
+            },
+            "COUNT4": {
+                "type": "UINT32",
+                "desc": "number of times that the duration is longer than 3000ms"
+            },
+            "COUNT5": {
+                "type": "UINT32",
+                "desc": "number of times that the duration is longer than 4000ms"
+            }
+        },
+        "PROCESS_STEP_DURATION": {
+            "__BASE": {
+                "type": "STATISTIC",
+                "level": "MINOR",
+                "desc": "statistic the p2p or hml process duration"
+            },
+            "SOFT_BUS_VERSION": {
+                "type": "STRING",
+                "desc": "softbus version"
+            },
+            "PACKAGE_VERSION": {
+                "type": "STRING",
+                "desc": "package version"
+            },
+            "PROCESS_STEP": {
+                "type": "UINT32",
+                "desc": "process step"
+            },
+            "LINK_TYPE": {
+                "type": "UINT32",
+                "desc": "link type br 0 ble 1 wlan 2 p2p 3 hml 4"
+            },
+            "TOTAL_TIME": {
+                "type": "UINT64",
+                "desc": "total duration ms"
+            },
+            "TOTAL_COUNT": {
+                "type": "UINT32",
+                "desc": "total count"
+            },
+            "COUNT1": {
+                "type": "UINT32",
+                "desc": "number of times that the duration is longer than 1500ms"
+            },
+            "COUNT2": {
+                "type": "UINT32",
+                "desc": "number of times that the duration is longer than 2000ms"
+            },
+            "COUNT3": {
+                "type": "UINT32",
+                "desc": "number of times that the duration is longer than 2500ms"
+            },
+            "COUNT4": {
+                "type": "UINT32",
+                "desc": "number of times that the duration is longer than 3000ms"
+            },
+            "COUNT5": {
+                "type": "UINT32",
+                "desc": "number of times that the duration is longer than 4000ms"
+            }
+        },
+        "TRANSPORT_KPI": {
+            "__BASE": {
+                "type": "STATISTIC",
+                "level": "MINOR",
+                "desc": "success rate of establishing softbus transmission"
+            },
+            "LINK_TYPE": {
+                "type": "INT32",
+                "desc": "linktype"
+            },
+            "TOTAL_TIME": {
+                "type": "INT64",
+                "desc": "total duration ms"
+            },
+            "TOTAL_COUNT": {
+                "type": "INT32",
+                "desc": "total count"
+            },
+            "FAIL_TOTAL_TIME": {
+                "type": "INT64",
+                "desc": "fail total time ms"
+            },
+            "FAIL_TOTAL_COUNT": {
+                "type": "INT32",
+                "desc": "fail total count"
+            },
+            "PACKAGE_VERSION": {
+                "type": "STRING",
+                "desc": "package version"
+            },
+            "SOFT_BUS_VERSION": {
+                "type": "STRING",
+                "desc": "softbus version"
+            },
+            "COUNT1": {
+                "type": "INT32",
+                "desc": "Number of times that the duration is longer than 1s"
+            },
+            "COUNT2": {
+                "type": "INT32",
+                "desc": "Number of times that the duration is longer than 2s"
+            },
+            "COUNT3": {
+                "type": "INT32",
+                "desc": "Number of times that the duration is longer than 4s"
+            },
+            "COUNT4": {
+                "type": "INT32",
+                "desc": "Number of times that the duration is longer than 7s"
+            },
+            "COUNT5": {
+                "type": "INT32",
+                "desc": "Number of times that the duration is longer than 11s"
+            },
+            "CALLER_PACKAGE_NAME": {
+                "type": "STRING",
+                "desc": "caller package name"
+            }
+        },
+        "CALLED_API_INFO": {
+            "__BASE": {
+                "type": "STATISTIC",
+                "level": "MINOR",
+                "desc": "api called APP infor"
+            },
+            "APP_NAME": {
+                "type": "STRING",
+                "desc": "caller package name"
+            },
+            "API_NAME": {
+                "type": "STRING",
+                "desc": "called api name"
+            },
+            "TOTAL_COUNT": {
+                "type": "INT32",
+                "desc": "total count"
+            },
+            "SOFT_BUS_VERSION": {
+                "type": "STRING",
+                "desc": "softbus version"
+            },
+            "PACKAGE_VERSION": {
+                "type": "STRING",
+                "desc": "package version"
+            }
+        },
+        "CALLED_API_CNT": {
+            "__BASE": {
+                "type": "STATISTIC",
+                "level": "MINOR",
+                "desc": "api called count"
+            },
+            "API_NAME": {
+                "type": "STRING",
+                "desc": "called api name"
+            },
+            "TOTAL_COUNT": {
+                "type": "INT32",
+                "desc": "total count"
+            }
+        },
+        "TRANS_OPEN_SESSION_CNT": {
+            "__BASE": {
+                "type": "STATISTIC",
+                "level": "MINOR",
+                "desc": "the success count and the fail count of open session"
+            },
+            "SUCCESS_CNT": {
+                "type": "UINT32",
+                "desc": "the success count of open session"
+            },
+            "FAIL_CNT": {
+                "type": "UINT32",
+                "desc": "the fail count of open session"
+            },
+            "SUCCESS_RATE": {
+                "type": "FLOAT",
+                "desc": "the success rate of open session"
+            }
+        },
+        "TRANS_OPEN_SESSION_TIME_COST": {
+            "__BASE": {
+                "type": "STATISTIC",
+                "level": "MINOR",
+                "desc": "the time comsuming of open session"
+            },
+            "MAX_TIME_COST": {
+                "type": "UINT32",
+                "desc": "the max time comsuming of open session"
+            },
+            "MIN_TIME_COST": {
+                "type": "UINT32",
+                "desc": "the min time comsuming of open session"
+            },
+            "AVE_TIME_COST": {
+                "type": "UINT32",
+                "desc": "the average time comsuming of open session"
+            },
+            "TIMES_UNDER_500MS": {
+                "type": "UINT32",
+                "desc": "the times unders 500ms of open session"
+            },
+            "TIMES_BETWEEN_500MS_1S": {
+                "type": "UINT32",
+                "desc": "the times between 500ms to 1s of open session"
+            },
+            "TIMES_BETWEEN_1S_2S": {
+                "type": "UINT32",
+                "desc": "the times between 1s to 2s of open session"
+            },
+            "TIMES_ABOVE_2S": {
+                "type": "UINT32",
+                "desc": "the times above 2s of open session"
+            }
+        },
+        "TRANS_FAULT": {
+            "__BASE": {
+                "type": "FAULT",
+                "level": "CRITICAL",
+                "desc": "the transmission fail"
+            },
+            "ERROR_CODE": {
+                "type": "INT32",
+                "desc": "error code"
+            }
+        },
+        "TRANS_INFO": {
+            "__BASE": {
+                "type": "BEHAVIOR",
+                "level": "MINOR",
+                "desc": "the transmission info"
+            },
+            "ERROR_CODE": {
+                "type": "STRING",
+                "desc": "info msg or err msg"
+            }
+        },
+        "BUS_CENTER_FAULT_EVT": {
+            "__BASE": {
+                "type": "FAULT",
+                "level": "CRITICAL",
+                "desc": "bus center all the exception"
+            },
+            "MODULE_TYPE": {
+                "type": "UINT32",
+                "desc": "module type"
+            },
+            "LINK_TYPE": {
+                "type": "UINT32",
+                "desc": "connection type"
+            },
+            "CHANNEL_QUALITY": {
+                "type": "FLOAT",
+                "desc": "channel quality"
+            },
+            "ERROR_CODE": {
+                "type": "UINT32",
+                "desc": "error code"
+            },
+            "PEER_DEVICE_TYPE": {
+                "type": "UINT32",
+                "desc": "peer device type"
+            },
+            "ONLINE_DEVICE_NUM": {
+                "type": "UINT32",
+                "desc": "online device count"
+            },
+            "CONNECTION_NUM": {
+                "type": "UINT32",
+                "desc": "connected device count"
+            },
+            "NIGHT_MODE": {
+                "type": "UINT32",
+                "desc": "night mode"
+            },
+            "WIFI_STATUS": {
+                "type": "UINT32",
+                "desc": "wifi status"
+            },
+            "BLUETOOTH_STATUS": {
+                "type": "UINT32",
+                "desc": "bluetooth status"
+            },
+            "CALLER_APP_MODE": {
+                "type": "UINT32",
+                "desc": "caller app mode"
+            },
+            "SUB_ERROR_CODE": {
+                "type": "UINT32",
+                "desc": "sub error code"
+            },
+            "CONN_BR_NUM": {
+                "type": "UINT32",
+                "desc": "the count of device connected by br"
+            },
+            "CONN_BLE_NUM": {
+                "type": "UINT32",
+                "desc": "the count of device connected by ble"
+            },
+            "BLUETOOTH_BROADCAST_STATUS": {
+                "type": "BOOL",
+                "desc": "bluetooth broadcast status"
+            },
+            "BLUETOOTH_SCAN_STATUS": {
+                "type": "BOOL",
+                "desc": "bluetooth scan status"
+            },
+            "BUSUNINESS_NAME": {
+                "type": "STRING",
+                "desc": "caller business name"
+            },
+            "CALLER_PACKAGE_NAME": {
+                "type": "STRING",
+                "desc": "caller package name"
+            },
+            "REMOTE_BIZ_TRUNCATED_UUID": {
+                "type": "STRING",
+                "desc": "remote biz truncated uuid"
+            },
+            "SOFT_BUS_VERSION": {
+                "type": "STRING",
+                "desc": "softbus version"
+            },
+            "PACKAGE_VERSION": {
+                "type": "STRING",
+                "desc": "softbus package version"
+            }
+        },
+        "ONLINE_DURATION": {
+            "__BASE": {
+                "type": "STATISTIC",
+                "level": "MINOR",
+                "desc": "the time comsuming of online"
+            },
+            "TOTAL_TIME": {
+                "type": "UINT64",
+                "desc": "device online total time"
+            },
+            "TOTAL_COUNT": {
+                "type": "UINT32",
+                "desc": "device online total count"
+            },
+            "COUNT1": {
+                "type": "UINT32",
+                "desc": "the times above 10s of online"
+            },
+            "COUNT2": {
+                "type": "UINT32",
+                "desc": "the times above 30s of online"
+            },
+            "COUNT3": {
+                "type": "UINT32",
+                "desc": "the times above 5min of online"
+            },
+            "COUNT4": {
+                "type": "UINT32",
+                "desc": "the times above 10min of online"
+            },
+            "COUNT5": {
+                "type": "UINT32",
+                "desc": "the times above 15min of online"
+            },
+            "SOFT_BUS_VERSION": {
+                "type": "STRING",
+                "desc": "softbus version"
+            },
+            "PACKAGE_VERSION": {
+                "type": "STRING",
+                "desc": "softbus package version"
+            }
+        },
+        "AUTH_DURATION": {
+            "__BASE": {
+                "type": "STATISTIC",
+                "level": "MINOR",
+                "desc": "stastistic auth rate and time cost"
+            },
+            "LINK_TYPE": {
+                "type": "UINT32",
+                "desc": "connection type"
+            },
+            "TOTAL_TIME": {
+                "type": "UINT64",
+                "desc": "the total time cost of auth"
+            },
+            "TOTAL_COUNT": {
+                "type": "UINT32",
+                "desc": "device auth total count"
+            },
+            "COUNT1": {
+                "type": "UINT32",
+                "desc": "the times above 2000ms of single auth"
+            },
+            "COUNT2": {
+                "type": "UINT32",
+                "desc": "the times above 2500ms of single auth"
+            },
+            "COUNT3": {
+                "type": "UINT32",
+                "desc": "the times above 3000ms of single auth"
+            },
+            "COUNT4": {
+                "type": "UINT32",
+                "desc": "the times above 3500ms of single auth"
+            },
+            "COUNT5": {
+                "type": "UINT32",
+                "desc": "the times above 4000ms of single auth"
+            },
+            "FAIL_TOTAL_COUNT": {
+                "type": "UINT32",
+                "desc": "auth failed total count"
+            },
+            "FAIL_TOTAL_TIME": {
+                "type": "UINT64",
+                "desc": "auth failed total time"
+            },
+            "CONNECT_FAIL_TOTAL_COUNT": {
+                "type": "UINT32",
+                "desc": "connect failed total count"
+            },
+            "AUTH_FAIL_TOTAL_COUNT": {
+                "type": "UINT32",
+                "desc": "auth failed total count"
+            },
+            "EXCHANGE_FAIL_TOTAL_COUNT": {
+                "type": "UINT32",
+                "desc": "exchange info failed total count"
+            },
+            "SOFT_BUS_VERSION": {
+                "type": "STRING",
+                "desc": "softbus version"
+            },
+            "PACKAGE_VERSION": {
+                "type": "STRING",
+                "desc": "softbus package version"
+            }
+        },
+        "BUS_CENTER_DURATION": {
+            "__BASE": {
+                "type": "STATISTIC",
+                "level": "MINOR",
+                "desc": "stastistic bus center lnn duration"
+            },
+            "LINK_TYPE": {
+                "type": "UINT32",
+                "desc": "connection type"
+            },
+            "TOTAL_TIME": {
+                "type": "UINT64",
+                "desc": "the total time cost of lnn"
+            },
+            "TOTAL_COUNT": {
+                "type": "UINT32",
+                "desc": "lnn total count"
+            },
+            "COUNT1": {
+                "type": "UINT32",
+                "desc": "the times above 800ms of single lnn"
+            },
+            "COUNT2": {
+                "type": "UINT32",
+                "desc": "the times above 1000ms of single lnn"
+            },
+            "COUNT3": {
+                "type": "UINT32",
+                "desc": "the times above 1200ms of single lnn"
+            },
+            "COUNT4": {
+                "type": "UINT32",
+                "desc": "the times above 1500ms of single lnn"
+            },
+            "COUNT5": {
+                "type": "UINT32",
+                "desc": "the times above 1800ms of single lnn"
+            },
+            "SOFT_BUS_VERSION": {
+                "type": "STRING",
+                "desc": "softbus version"
+            },
+            "PACKAGE_VERSION": {
+                "type": "STRING",
+                "desc": "softbus package version"
+            }
+        },
+        "DEVICE_ONLINE_EVT": {
+            "__BASE": {
+                "type": "STATISTIC",
+                "level": "MINOR",
+                "desc": "report the online device info"
+            },
+            "ONLINE_DEVICE_NUM": {
+                "type": "UINT32",
+                "desc": "online device count"
+            },
+            "BT_ONLINE_DEVICE_NUM": {
+                "type": "UINT32",
+                "desc": "online device count connection medium is bt"
+            },
+            "WIFI_ONLINE_DEVICE_NUM": {
+                "type": "UINT32",
+                "desc": "online device count connection medium is wifi"
+            },
+            "PEER_DEVICE_TYPE": {
+                "type": "UINT32",
+                "desc": "peer device type"
+            },
+            "INSERT_PROFILE_RESULT": {
+                "type": "UINT32",
+                "desc": "the result of insert device info to profile"
+            },
+            "PEER_SOFT_BUS_VERSION": {
+                "type": "STRING",
+                "desc": "softbus version of peer device"
+            },
+            "PEER_DEVICE_NAME": {
+                "type": "STRING",
+                "desc": "device name of peer device"
+            },
+            "SOFT_BUS_VERSION": {
+                "type": "STRING",
+                "desc": "softbus version of local device"
+            },
+            "PEER_PACKAGE_VERSION": {
+                "type": "STRING",
+                "desc": "softbus package version of peer device"
+            },
+            "PACKAGE_VERSION": {
+                "type": "STRING",
+                "desc": "softbus package version of local device"
+            }
+        },
+        "DEVICE_DISCOVERY": {
+            "__BASE": {
+                "type": "STATISTIC",
+                "level": "MINOR",
+                "desc": "stastistic device discovery count"
+            },
+            "START_DISCOVERY_COUNT": {
+                "type": "UINT64",
+                "desc": "start discovery count"
+            },
+            "SEND_BROADCAST_COUNT": {
+                "type": "UINT64",
+                "desc": "send broadcast count"
+            },
+            "RECEIVE_BROADCAST_COUNT": {
+                "type": "UINT64",
+                "desc": "receiver broadcast count"
+            },
+            "DEVICE_FOUND_COUNT": {
+                "type": "UINT64",
+                "desc": "device found count"
+            },
+            "BUSINESS_DISCOVERY_COUNT": {
+                "type": "UINT64",
+                "desc": "business discovery count"
+            },
+            "BUSINESS_DISCOVERY_DETAIL": {
+                "type": "STRING",
+                "desc": "business discovery detail info"
+            },
+            "SOFT_BUS_VERSION": {
+                "type": "STRING",
+                "desc": "softbus version"
+            },
+            "PACKAGE_VERSION": {
+                "type": "STRING",
+                "desc": "softbus package version"
+            }
+        },
+        "APP_DISCOVERY": {
+            "__BASE": {
+                "type": "STATISTIC",
+                "level": "MINOR",
+                "desc": "stastistic app discovery count"
+            },
+            "APP_NAME": {
+                "type": "STRING",
+                "desc": "name of app who discovery device"
+            },
+            "APP_DISCOVERY_COUNT": {
+                "type": "UINT32",
+                "desc": "app discovery count"
+            }
+        },
+        "DFILE_WAIT_HEADER_TIMEOUT_EVT": {
+            "__BASE": {
+                "type": "FAULT",
+                "level": "CRITICAL",
+                "desc": "wait file header time out"
+            },
+            "ERROR_CODE": {
+                "type": "STRING",
+                "desc": "error code"
+            }
+        },
+        "DFILE_SERVER_CREATE_EVT": {
+            "__BASE": {
+                "type": "BEHAVIOR",
+                "level": "MINOR",
+                "desc": "server created"
+            }
+        },
+        "DFILE_CLIENT_CREATE_EVT": {
+            "__BASE": {
+                "type": "BEHAVIOR",
+                "level": "MINOR",
+                "desc": "client created"
+            }
+        },
+        "DFILE_SEND_BEGIN_EVT": {
+            "__BASE": {
+                "type": "BEHAVIOR",
+                "level": "MINOR",
+                "desc": "send begin"
+            }
+        },
+        "DFILE_PEER_SHUTTED_EVT": {
+            "__BASE": {
+                "type": "FAULT",
+                "level": "CRITICAL",
+                "desc": "peer shutted"
+            }
+        },
+        "DFILE_TRANS_COMPLETE_EVT": {
+            "__BASE": {
+                "type": "STATISTIC",
+                "level": "MINOR",
+                "desc": "transfer complete"
+            },
+            "TRANSRATE": {
+                "type": "STRING",
+                "desc": "transmission speed"
+            }
+        },
+        "DFILE_ACCEPT_SOCKET_EVT": {
+            "__BASE": {
+                "type": "BEHAVIOR",
+                "level": "MINOR",
+                "desc": "accept socket"
+            }
+        },
+        "FILLP_LINK_EVT": {
+            "__BASE": {
+                "type": "FAULT",
+                "level": "MINOR",
+                "desc": "fillp link disconnect"
+            },
+            "SOCK_IDX": {
+                "type": "UINT32",
+                "desc": "fillp socket index"
+            },
+            "LINK_EVT_TYPE": {
+                "type": "UINT8",
+                "desc": "fillp link event type"
+            }
+        },
+        "FILLP_PKT_EVT": {
+            "__BASE": {
+                "type": "STATISTIC",
+                "level": "MINOR",
+                "desc": "fillp data package event"
+            },
+            "SOCK_IDX": {
+                "type": "UINT32",
+                "desc": "fillp socket index"
+            },
+            "PKT_EVT_TYPE": {
+                "type": "UINT8",
+                "desc": "fillp package event type"
+            },
+            "DROP_CNT": {
+                "type": "UINT32",
+                "desc": "fillp package dropcnt"
+            }
+        },
+        "FILLP_SOCK_QOS_EVT": {
+            "__BASE": {
+                "type": "STATISTIC",
+                "level": "MINOR",
+                "desc": "fillp socket Qos event"
+            },
+            "SOCK_IDX": {
+                "type": "UINT32",
+                "desc": "fillp socket index"
+            },
+            "RTT": {
+                "type": "UINT32",
+                "desc": "fillp socket rtt"
+            },
+            "TOTAL_RECV_PKT": {
+                "type": "UINT32",
+                "desc": "fillp socket recv package num"
+            },
+            "TOTAL_RECV_BYTES": {
+                "type": "UINT32",
+                "desc": "fillp socket recv bytes"
+            },
+            "TOTAL_SEND_PKT": {
+                "type": "UINT32",
+                "desc": "fillp socket send package num"
+            },
+            "TOTAL_SEND_BYTES": {
+                "type": "UINT32",
+                "desc": "fillp socket send bytes"
+            },
+            "JITTER": {
+                "type": "UINT32",
+                "desc": "fillp socket jitter"
+            }
+        },
+        "DFINDER_STATS": {
+            "__BASE": {
+                "type": "STATISTIC",
+                "level": "MINOR",
+                "desc": "dfinder statistics"
+            },
+            "INVALID_OPTION_CNT": {
+                "type": "UINT64",
+                "desc": "the count of invalid option"
+            },
+            "BUILD_PKT_FAIL_CNT": {
+                "type": "UINT64",
+                "desc": "the count when building packet failed"
+            },
+            "INVALID_RSP_CNT": {
+                "type": "UINT64",
+                "desc": "the count of invalid message"
+            },
+            "OVER_DEVICE_LIMIT_CNT": {
+                "type": "UINT64",
+                "desc": "the count when the device number is over limit"
+            }
+        }
+    },
+    "FFRT": {
+        "SERIAL_TASK_TIMEOUT": {
+            "__BASE": {
+                "type": "FAULT",
+                "level": "CRITICAL",
+                "tag": "STABILITY",
+                "desc": "ffrt task timeout"
+            },
+            "PID": {
+                "type": "INT32",
+                "desc": "failure process pid"
+            },
+            "TGID": {
+                "type": "INT32",
+                "desc": "failure process gid"
+            },
+            "UID": {
+                "type": "INT32",
+                "desc": "failure process uid"
+            },
+            "MODULE_NAME": {
+                "type": "STRING",
+                "desc": "failure module name"
+            },
+            "PROCESS_NAME": {
+                "type": "STRING",
+                "desc": "process name"
+            },
+            "MSG": {
+                "type": "STRING",
+                "desc": "event message"
+            },
+            "STACK": {
+                "type": "STRING",
+                "desc": "stacktrace of ffrt tasks"
+            }
+        },
+        "TASK_DEADLOCK": {
+            "__BASE": {
+                "type": "FAULT",
+                "level": "CRITICAL",
+                "tag": "STABILITY",
+                "desc": "ffrt task dead lock"
+            },
+            "PID": {
+                "type": "INT32",
+                "desc": "failure process pid"
+            },
+            "TGID": {
+                "type": "INT32",
+                "desc": "failure process gid"
+            },
+            "UID": {
+                "type": "INT32",
+                "desc": "failure process uid"
+            },
+            "MODULE_NAME": {
+                "type": "STRING",
+                "desc": "failure module name"
+            },
+            "PROCESS_NAME": {
+                "type": "STRING",
+                "desc": "process name"
+            },
+            "MSG": {
+                "type": "STRING",
+                "desc": "event message"
+            },
+            "STACK": {
+                "type": "STRING",
+                "desc": "stacktrace of ffrt tasks"
+            }
+        }
+    },
+    "HUKS": {
+        "FAULT": {
+            "__BASE": {
+                "type": "FAULT",
+                "level": "CRITICAL",
+                "desc": "fault event for huks"
+            },
+            "FUNCTION": {
+                "type": "STRING",
+                "desc": "function name"
+            },
+            "USER_ID": {
+                "type": "INT32",
+                "desc": "user id"
+            },
+            "PROCESS_UID": {
+                "type": "INT32",
+                "desc": "process uid"
+            },
+            "KEY_TYPE": {
+                "type": "INT32",
+                "desc": "algorithm of the key"
+            },
+            "ERROR_CODE": {
+                "type": "INT32",
+                "desc": "error code"
+            },
+            "EXTRA": {
+                "type": "STRING",
+                "desc": "extra data"
+            }
+        }
+    },
+    "INIT": {
+        "STARTUP_TIME": {
+            "__BASE": {
+                "type": "BEHAVIOR",
+                "level": "CRITICAL",
+                "tag": "PERFORMANCE",
+                "desc": "Startup Time"
+            },
+            "TOTAL_TIME": {
+                "type": "INT64",
+                "desc": "Total Time Required"
+            },
+            "DETAILED_TIME": {
+                "type": "STRING",
+                "desc": "Time required by each phase"
+            },
+            "REASON": {
+                "type": "STRING",
+                "desc": "Startup Reason"
+            },
+            "ISFRIST": {
+                "type": "STRING",
+                "desc": "use time"
+            }
+        }
+    },
+    "SAMGR": {
+        "PROCESS_STOP_DURATION": {
+            "__BASE": {
+                "type": "BEHAVIOR",
+                "level": "MINOR",
+                "desc": "ondemand process stop time cost"
+            },
+            "PROCESS_NAME": {
+                "type": "STRING",
+                "desc": "process name"
+            },
+            "PID": {
+                "type": "INT32",
+                "desc": "caller pid"
+            },
+            "UID": {
+                "type": "INT32",
+                "desc": "caller uid"
+            },
+            "DURATION": {
+                "type": "INT64",
+                "desc": "process stop time cost"
+            }
+        },
+        "PROCESS_START_DURATION": {
+            "__BASE": {
+                "type": "BEHAVIOR",
+                "level": "MINOR",
+                "desc": "ondemand process start time cost"
+            },
+            "PROCESS_NAME": {
+                "type": "STRING",
+                "desc": "process name"
+            },
+            "PID": {
+                "type": "INT32",
+                "desc": "caller pid"
+            },
+            "UID": {
+                "type": "INT32",
+                "desc": "caller uid"
+            },
+            "DURATION": {
+                "type": "INT64",
+                "desc": "process start time cost"
+            }
+        },
+        "PROCESS_STOP_FAIL": {
+            "__BASE": {
+                "type": "FAULT",
+                "level": "CRITICAL",
+                "desc": "ondemand process stop failed event"
+            },
+            "PROCESS_NAME": {
+                "type": "STRING",
+                "desc": "process name"
+            },
+            "PID": {
+                "type": "INT32",
+                "desc": "caller pid"
+            },
+            "UID": {
+                "type": "INT32",
+                "desc": "caller uid"
+            },
+            "REASON": {
+                "type": "STRING",
+                "desc": "process stop fail reason"
+            }
+        },
+        "PROCESS_START_FAIL": {
+            "__BASE": {
+                "type": "FAULT",
+                "level": "CRITICAL",
+                "desc": "ondemand process start failed event"
+            },
+            "PROCESS_NAME": {
+                "type": "STRING",
+                "desc": "process name"
+            },
+            "PID": {
+                "type": "INT32",
+                "desc": "caller pid"
+            },
+            "UID": {
+                "type": "INT32",
+                "desc": "caller uid"
+            },
+            "REASON": {
+                "type": "STRING",
+                "desc": "process start fail reason"
+            }
+        },
+        "SA_LOAD_DURATION": {
+            "__BASE": {
+                "type": "BEHAVIOR",
+                "level": "MINOR",
+                "desc": "samgr sa load time cost"
+            },
+            "SAID": {
+                "type": "INT32",
+                "desc": "system ability id"
+            },
+            "KEY_STAGE": {
+                "type": "INT32",
+                "desc": "load sa key stage"
+            },
+            "DURATION": {
+                "type": "INT64",
+                "desc": "time cost"
+            }
+        },
+        "SA_UNLOAD_DURATION": {
+            "__BASE": {
+                "type": "BEHAVIOR",
+                "level": "MINOR",
+                "desc": "samgr sa unload time cost"
+            },
+            "SAID": {
+                "type": "INT32",
+                "desc": "system ability id"
+            },
+            "KEY_STAGE": {
+                "type": "INT32",
+                "desc": "unload sa key stage"
+            },
+            "DURATION": {
+                "type": "INT64",
+                "desc": "time cost"
+            }
+        },
+        "SA_UNLOAD_FAIL": {
+            "__BASE": {
+                "type": "FAULT",
+                "level": "CRITICAL",
+                "desc": "samgr sa unload failed event"
+            },
+            "SAID": {
+                "type": "INT32",
+                "desc": "system ability id"
+            },
+            "REASON": {
+                "type": "STRING",
+                "desc": "fail reason"
+            }
+        },
+        "ONDEMAND_SA_LOAD_FAIL": {
+            "__BASE": {
+                "type": "FAULT",
+                "level": "CRITICAL",
+                "desc": "samgr sa load failed event"
+            },
+            "SAID": {
+                "type": "INT32",
+                "desc": "system ability id"
+            },
+            "REASON": {
+                "type": "STRING",
+                "desc": "fail reason"
+            }
+        },
+        "ONDEMAND_SA_LOAD": {
+            "__BASE": {
+                "type": "BEHAVIOR",
+                "level": "MINOR",
+                "desc": "samgr sa load event"
+            },
+            "SAID": {
+                "type": "INT32",
+                "desc": "system ability id"
+            },
+            "EVENT": {
+                "type": "INT32",
+                "desc": "load event id"
+            }
+        },
+        "ONDEMAND_SA_UNLOAD": {
+            "__BASE": {
+                "type": "BEHAVIOR",
+                "level": "MINOR",
+                "desc": "samgr sa unload event"
+            },
+            "SAID": {
+                "type": "INT32",
+                "desc": "system ability id"
+            },
+            "EVENT": {
+                "type": "INT32",
+                "desc": "unload event id"
+            }
+        },
+        "GETSA_FREQUENCY": {
+            "__BASE": {
+                "type": "STATISTIC",
+                "level": "MINOR",
+                "desc": "get system ability times event"
+            },
+            "CALLER_UID": {
+                "type": "UINT32",
+                "desc": "caller uid"
+            },
+            "SAID": {
+                "type": "UINT32",
+                "desc": "system ability id"
+            },
+            "COUNT": {
+                "type": "INT32",
+                "desc": "the caller process get sa count"
+            }
+        },
+        "ADD_SYSTEMABILITY_FAIL": {
+            "__BASE": {
+                "type": "FAULT",
+                "level": "CRITICAL",
+                "desc": "add system ability failed event"
+            },
+            "SAID": {
+                "type": "INT32",
+                "desc": "system ability id"
+            },
+            "FILE_NAME": {
+                "type": "STRING",
+                "desc": "file name"
+            }
+        },
+        "SERVICE_BLOCK": {
+            "__BASE": {
+                "type": "FAULT",
+                "level": "CRITICAL",
+                "desc": "workhander watchdog block"
+            },
+            "PID": {
+                "type": "INT32",
+                "desc": "caller pid"
+            },
+            "UID": {
+                "type": "UINT32",
+                "desc": "caller uid"
+            },
+            "MSG": {
+                "type": "STRING",
+                "desc": "time msg"
+            }
+        }
+    }
+}

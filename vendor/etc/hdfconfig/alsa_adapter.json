@@ -1,0 +1,38 @@
+{
+    "adapters": [
+        {
+            "name": "primary",
+            "cardId": "Intel",
+            "daiId": "Intel",
+            "simple_mixer_ctl_volume": {
+                "playback": [
+                    {
+                        "name": "Master"
+                    }
+                ],
+                "capture": [
+                    {
+                        "name": "Master"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "primary",
+            "cardId": "expressmic",
+            "daiId": "expressmic",
+            "simple_mixer_ctl_volume": {
+                "playback": [
+                    {
+                        "name": "Master"
+                    }
+                ],
+                "capture": [
+                    {
+                        "name": "Master"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "light": {
+        "low": {
+            "soc": [0, 10],
+            "rgb": [255, 0, 0]
+        },
+        "normal": {
+            "soc": [10, 90],
+            "rgb": [255, 255, 0]
+        },
+        "high": {
+            "soc": [90, 100],
+            "rgb": [0, 255, 0]
+        }
+    },
+    "temperature": {
+        "high": 680,
+        "low": -500
+    },
+    "soc": {
+        "shutdown": 1,
+        "critical": 5,
+        "warning": 10,
+        "low": 20,
+        "normal": 90,
+        "high": 99,
+        "full": 100
+    },
+    "charger": {
+        "current_limit":{
+            "path": "/data/service/el0/battery/current_limit"
+        },
+        "voltage_limit":{
+            "path": "/data/service/el0/battery/voltage_limit"
+        },
+        "type": {
+            "path": "/data/service/el0/battery/charger_type"
+        }
+    },
+    "charge_scene" :{
+        "wireless": {
+            "support": {
+                "path": "",
+                "type": "",
+                "expect_value": ""
+            },
+            "get": {
+                "path": ""
+            },
+            "set": {
+                "path": ""
+            }
+        }
+    },
+    "uevent": {
+        "SUBSYSTEM=hw_power": {
+            "BATTERY_UNDER_VOLTAGE=1": "shutdown",
+            "BATTERY_UNDER_VOLTAGE=2": "reboot",
+            "BATTERY_UNDER_VOLTAGE=3": "sendcommonevent"
+        }
+    }
+}

@@ -1,0 +1,98 @@
+{
+    "hdf_audio_codec_primary_dev0": [
+        {
+            "deep-buffer-playback": [
+                {
+                    "headphones": [
+                        {
+                            "name": "Master Playback",
+                            "value": 2
+                        }
+                    ],
+                    "Speaker": [
+                        {
+                            "name": "Master Playback",
+                            "value": 3
+                        }
+                    ],
+                    "Built_in_mic": [
+                        {
+                            "name": "Master Capture",
+                            "value": 1
+                        }
+                    ]
+                }
+            ],
+            "low-latency-communication": [
+                {
+                    "Speaker": [
+                        {
+                            "name": "Master Playback",
+                            "value": 2
+                        }
+                    ],
+                    "headphones": [
+                        {
+                            "name": "Master Playback",
+                            "value": 3
+                        }
+                    ],
+                    "Built_in_mic": [
+                        {
+                            "name": "Master Capture",
+                            "value": 1
+                        }
+                    ]
+                }
+            ],
+            "ringtone-playback": [
+                {
+                    "Speaker": [
+                        {
+                            "name": "Master Playback",
+                            "value": 10
+                        }
+                    ]
+                }
+            ],
+			"voice-call": [
+				{
+					"Speaker": [
+						{
+							"name": "Master Playback",
+                            "value": 7
+						}
+					],
+					"Headphones": [
+						{
+							"name": "Master Playback",
+                            "value": 8
+						}
+					],
+					"Built_in_mic": [
+						{
+							"name": "Master Capture",
+                            "value": 1
+						}
+					]				
+				}
+            ],
+            "low-latency-noirq-playback": [
+				{
+					"Speaker": [
+						{
+							"name": "Master Playback",
+                            "value": 2
+						}
+					],
+					"Headphones": [
+						{
+							 "name": "Master Playback",
+                             "value": 3
+						}					
+					]
+				}
+            ]
+        }
+    ]
+}
