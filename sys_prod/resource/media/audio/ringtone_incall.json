@@ -1,0 +1,144 @@
+{
+  "type": "ringtone_incall",
+  "path": "ringtones",
+  "preset_ringtone_sim1": "Huawei_Tune_Harmony",
+  "preset_ringtone_sim2": "Huawei_Tune_Clean",
+  "ringtone_items": [
+    {
+      "id": "Huawei Tune Harmony",
+      "filename": "Huawei_Tune_Harmony.ogg"
+    },
+    {
+      "id": "Amusement Park",
+      "filename": "Amusement_Park.ogg"
+    },
+    {
+      "id": "Bamboo Garden",
+      "filename": "Bamboo_Garden.ogg"
+    },
+    {
+      "id": "Bounce",
+      "filename": "Bounce.ogg"
+    },
+    {
+      "id": "Breathe Freely",
+      "filename": "Breathe_Freely.ogg"
+    },
+    {
+      "id": "Chilled",
+      "filename": "Chilled.ogg"
+    },
+    {
+      "id": "Classic Bell",
+      "filename": "Classic_Bell.ogg"
+    },
+    {
+      "id": "Concentrate",
+      "filename": "Concentrate.ogg"
+    },
+    {
+      "id": "Dance of Joy",
+      "filename": "Dance_of_Joy.ogg"
+    },
+    {
+      "id": "Digital Ringtone",
+      "filename": "Digital_Ringtone.ogg"
+    },
+    {
+      "id": "Dream",
+      "filename": "Dream.ogg"
+    },
+    {
+      "id": "Dream It Possible",
+      "filename": "Dream_It_Possible.ogg"
+    },
+    {
+      "id": "Dynamo",
+      "filename": "Dynamo.ogg"
+    },
+    {
+      "id": "Fantasy World",
+      "filename": "Fantasy_World.ogg"
+    },
+    {
+      "id": "Flipped",
+      "filename": "Flipped.ogg"
+    },
+    {
+      "id": "Free",
+      "filename": "Free.ogg"
+    },
+    {
+      "id": "Free Rafting",
+      "filename": "Free_Rafting.ogg"
+    },
+    {
+      "id": "Halo",
+      "filename": "Halo.ogg"
+    },
+    {
+      "id": "Huawei Tune Clean",
+      "filename": "Huawei_Tune_Clean.ogg"
+    },
+    {
+      "id": "Huawei Tune Living",
+      "filename": "Huawei_Tune_Living.ogg"
+    },
+    {
+      "id": "Huawei Tune Orchestral",
+      "filename": "Huawei_Tune_Orchestral.ogg"
+    },
+    {
+      "id": "Menuet",
+      "filename": "Menuet.ogg"
+    },
+    {
+      "id": "Mural",
+      "filename": "Mural.ogg"
+    },
+    {
+      "id": "Neon",
+      "filename": "Neon.ogg"
+    },
+    {
+      "id": "Notes",
+      "filename": "Notes.ogg"
+    },
+    {
+      "id": "Pulse",
+      "filename": "Pulse.ogg"
+    },
+    {
+      "id": "Sail Leaf",
+      "filename": "Sail_Leaf.ogg"
+    },
+    {
+      "id": "Sax",
+      "filename": "Sax.ogg"
+    },
+    {
+      "id": "Spin",
+      "filename": "Spin.ogg"
+    },
+    {
+      "id": "Summer Afternoon",
+      "filename": "Summer_Afternoon.ogg"
+    },
+    {
+      "id": "Sunlit Garden",
+      "filename": "Sunlit_Garden.ogg"
+    },
+    {
+      "id": "Surging Power",
+      "filename": "Surging_Power.ogg"
+    },
+    {
+      "id": "Swaying Boat",
+      "filename": "Swaying_Boat.ogg"
+    },
+    {
+      "id": "Whistle",
+      "filename": "Whistle.ogg"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "Cgroups": [
+    {
+      "controller": "cpu",
+      "path": "/dev/cpuctl",
+      "sched_policy": {
+        "sp_default": "",
+        "sp_background": "background",
+        "sp_foreground": "foreground",
+        "sp_system_background": "system-background",
+        "sp_top_app": "top-app",
+        "sp_boost": "boost",
+        "sp_key_background": "key-background",
+        "sp_graphic": "graphic",
+        "sp_self_render": "self-render"
+      }
+    },
+    {
+      "controller": "cpuset",
+      "path": "/dev/cpuset",
+      "sched_policy": {
+        "sp_default": "",
+        "sp_background": "background",
+        "sp_foreground": "foreground",
+        "sp_system_background": "system-background",
+        "sp_top_app": "top-app",
+        "sp_boost": "boost",
+        "sp_key_background": "key-background",
+        "sp_graphic": "graphic",
+        "sp_self_render": "self-render"
+      }
+    }
+  ],
+  "FgTaskSched": {
+    "switch": 1
+  },
+  "BgTaskSched": {
+    "switch": 1
+  },
+  "GraphicBoost": {
+    "switch": 1
+  },
+  "SelfRenderSched": {
+    "switch": 0
+  },
+  "KeyThreadBoost": {
+    "switch": 1,
+    "boost_process": [
+      {
+        "process": "foundation",
+        "sched_policy": "sp_foreground",
+        "threads": {
+          "AbilityManagerS": "sp_boost",
+          "AppMgrService": "sp_boost",
+          "WindowManagerSe": "sp_boost",
+          "TaskDataStorage": "sp_system_background"
+        }
+      },
+      {
+        "process": "render_service",
+        "sched_policy": "sp_graphic"
+      },
+      {
+        "process": "resource_schedu",
+        "sched_policy": "sp_boost"
+      },
+      {
+        "process": "multimodalinput",
+        "sched_policy": "",
+        "threads": {
+          "mmi_service": "sp_boost"
+        }
+      },
+      {
+        "process": "appspawn",
+        "sched_policy": "sp_boost"
+      },
+      {
+        "process": "hwc_host",
+        "sched_policy": "sp_graphic"
+      },
+      {
+        "process": "gralloc_host",
+        "sched_policy": "sp_graphic"
+      },
+      {
+        "process": "hidumper_servic",
+        "sched_policy": "sp_system_background"
+      },
+      {
+        "process": "hiview",
+        "sched_policy": "sp_system_background"
+      },
+      {
+        "process": "faultloggerd",
+        "sched_policy": "sp_system_background"
+      },
+      {
+        "process": "distributeddata",
+        "sched_policy": "sp_foreground"
+      },
+      {
+        "process": "hilogd",
+        "sched_policy": "sp_system_background"
+      }
+    ]
+  }
+}

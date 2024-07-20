@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<efficiency name="ComponentSchedFeature">
+  <feature name="CpuSample" enable="true">
+    <condition name="WindowFocus" id="22">
+      <additional name="default" mode="20001" pkgAttr="type">-1</additional>
+      <additional name="level1" mode="20002" pkgAttr="type">3,8,21,36</additional>
+    </condition>
+    <condition name="ScreenOff" id="3">
+      <additional name="level1" mode="20002" pkgAttr="type">-1</additional>
+    </condition>
+  </feature>
+</efficiency>

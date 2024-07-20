@@ -1,0 +1,4 @@
+version : huawei.whisper.v.1.0.0
+committer : zhengwei
+date : 2024.03.20
+description : new

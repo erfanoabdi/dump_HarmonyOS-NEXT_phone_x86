@@ -1,0 +1,93 @@
+{
+    "MetaData": {
+        "Create": "2023-11-13",
+        "Description": "Exported from RichTap Creator Pro",
+        "Version": 1.0,
+        "ChannelNumber": 1
+    },
+    "Channels": [
+        {
+            "Parameters": {
+                "Index": 0
+            },
+            "Pattern": [
+                {
+                    "Event": {
+                        "Type": "continuous",
+                        "Duration": 600,
+                        "StartTime": 0,
+                        "Parameters": {
+                            "Intensity": 100,
+                            "Frequency": 55,
+                            "Curve": [
+                                {
+                                    "Time": 0,
+                                    "Intensity": 0,
+                                    "Frequency": 0
+                                },
+                                {
+                                    "Time": 1,
+                                    "Intensity": 1,
+                                    "Frequency": 0
+                                },
+                                {
+                                    "Time": 597,
+                                    "Intensity": 1,
+                                    "Frequency": 0
+                                },
+                                {
+                                    "Time": 600,
+                                    "Intensity": 0,
+                                    "Frequency": 0
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "Event": {
+                        "Type": "continuous",
+                        "Duration": 600,
+                        "StartTime": 800,
+                        "Parameters": {
+                            "Intensity": 100,
+                            "Frequency": 55,
+                            "Curve": [
+                                {
+                                    "Time": 0,
+                                    "Intensity": 0,
+                                    "Frequency": 0
+                                },
+                                {
+                                    "Time": 1,
+                                    "Intensity": 1,
+                                    "Frequency": 0
+                                },
+                                {
+                                    "Time": 597,
+                                    "Intensity": 1,
+                                    "Frequency": 0
+                                },
+                                {
+                                    "Time": 600,
+                                    "Intensity": 0,
+                                    "Frequency": 0
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "Event": {
+                        "Type": "transient",
+                        "StartTime": 1952,
+                        "Parameters": {
+                            "Intensity": 0,
+                            "Frequency": 0
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

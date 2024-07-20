@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tag>
+  <contain_custom_package>yes</contain_custom_package>
+  <contain_preload_package>yes</contain_preload_package>
+</tag>

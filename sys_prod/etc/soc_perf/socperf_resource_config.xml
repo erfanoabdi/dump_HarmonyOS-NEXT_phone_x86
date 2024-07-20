@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+  <Resource>
+    <res id="1000" name="lit_cpu_min_freq" pair="1001">
+      <default>418000</default>
+      <path>/sys/devices/system/cpu/cpufreq/policy0/scaling_min_freq</path>
+      <node>418000 490000 550000 668000 758000 864000 1018000 1148000 1287000 1430000 1530000</node>
+    </res>
+    <res id="1001" name="lit_cpu_max_freq" pair="1000" mode="1">
+      <default>1530000</default>
+      <path>/sys/devices/system/cpu/cpufreq/policy0/scaling_max_freq</path>
+      <node>418000 490000 550000 668000 758000 864000 1018000 1148000 1287000 1430000 1530000</node>
+    </res>
+    <res id="1002" name="mid_cpu_min_freq" pair="1003">
+      <default>418000</default>
+      <path>/sys/devices/system/cpu/cpufreq/policy1/scaling_min_freq</path>
+      <node>418000 450000 576000 692000 750000 869000 999000 1104000 1204000 1325000 1440000 1570000 1652000 1748000 1850000 1930000 2020000 2150000</node>
+    </res>
+    <res id="1003" name="mid_cpu_max_freq" pair="1002" mode="1">
+      <default>2150000</default>
+      <path>/sys/devices/system/cpu/cpufreq/policy1/scaling_max_freq</path>
+      <node>418000 450000 576000 692000 750000 869000 999000 1104000 1204000 1325000 1440000 1570000 1652000 1748000 1850000 1930000 2020000 2150000</node>
+    </res>
+    <res id="1004" name="big_cpu_min_freq" pair="1005">
+      <default>1239000</default>
+      <path>/sys/devices/system/cpu/cpufreq/policy2/scaling_min_freq</path>
+      <node>1239000 1364000 1479000 1594000 1696000 1844000 1992000 2120000 2237000 2350000 2487000 2620000</node>
+    </res>
+    <res id="1005" name="big_cpu_max_freq" pair="1004" mode="1">
+      <default>2620000</default>
+      <path>/sys/devices/system/cpu/cpufreq/policy2/scaling_max_freq</path>
+      <node>1239000 1364000 1479000 1594000 1696000 1844000 1992000 2120000 2237000 2350000 2487000 2620000</node>
+    </res>
+    <res id="1020" name="gpu_min_freq" pair="1021">
+      <default>279000000</default>
+      <path>/sys/class/devfreq/gpufreq/min_freq</path>
+      <node>279000000 308000000 371000000 430000000 474000000 530000000 570000000 601000000 642000000 678000000 703000000 725000000 750000000</node>
+    </res>
+    <res id="1021" name="gpu_max_freq" pair="1020" mode="1">
+      <default>750000000</default>
+      <path>/sys/class/devfreq/gpufreq/max_freq</path>
+      <node>279000000 308000000 371000000 430000000 474000000 530000000 570000000 601000000 642000000 678000000 703000000 725000000 750000000</node>
+    </res>
+    <res id="1022" name="ddr_min_freq" pair="1023">
+      <default>418000000</default>
+      <path>/sys/class/devfreq/ddrfreq/min_freq</path>
+      <node>418000000 749000000 1104000000 1531000000 2107000000 2746000000 3197000000</node>
+    </res>
+    <res id="1023" name="ddr_max_freq" pair="1022" mode="1">
+      <default>3197000000</default>
+      <path>/sys/class/devfreq/ddrfreq/max_freq</path>
+      <node>418000000 749000000 1104000000 1531000000 2107000000 2746000000 3197000000</node>
+    </res>
+    <res id="1024" name="l3c_min_freq" pair="1025">
+      <default>335000000</default>
+      <path>/sys/class/devfreq/l3c_devfreq/min_freq</path>
+      <node>335000000 418000000 450000000 538000000 600000000 692000000 749000000 864000000 964000000 1066000000 1152000000 1250000000 1316000000 1380000000</node>
+    </res>
+    <res id="1025" name="l3c_max_freq" pair="1024" mode="1">
+      <default>1380000000</default>
+      <path>/sys/class/devfreq/l3c_devfreq/max_freq</path>
+      <node>335000000 418000000 450000000 538000000 600000000 692000000 749000000 864000000 964000000 1066000000 1152000000 1250000000 1316000000 1380000000</node>
+    </res>
+    <res id="1030" name="sustainable_power">
+      <default>4500</default>
+      <path>/sys/devices/virtual/thermal/thermal_zone1/sustainable_power</path>
+    </res>
+  </Resource>
+  <GovResource>
+    <res id="1006" name="gov_load_cpu_lit">
+      <default>101</default>
+      <path>/sys/devices/system/cpu/cpufreq/policy0/schedutil/go_hispeed_load</path>
+      <path>/sys/devices/system/cpu/cpufreq/policy0/schedutil/hispeed_freq</path>
+      <path>/sys/devices/system/cpu/cpufreq/policy0/schedutil/target_loads</path>
+      <node level="90">95|758000|60 418000:70 506000:75 746000:80 1101000:85 1372000:90</node>
+      <node level="100">95|1018000|75 550000:80 1018000:85 1430000:90</node>
+      <node level="101">85|1287000|75 1018000:80 1430000:85</node>
+      <node level="110">85|1287000|70 1018000:75</node>
+      <node level="120">30|1430000|30 1430000:75</node>
+    </res>
+    <res id="1007" name="gov_load_cpu_mid">
+      <default>101</default>
+      <path>/sys/devices/system/cpu/cpufreq/policy1/schedutil/go_hispeed_load</path>
+      <path>/sys/devices/system/cpu/cpufreq/policy1/schedutil/hispeed_freq</path>
+      <path>/sys/devices/system/cpu/cpufreq/policy1/schedutil/target_loads</path>
+      <node level="90">95|692000|85 1104000:95</node>
+      <node level="100">95|869000|80 750000:85 1570000:90 1850000:95</node>
+      <node level="101">85|1570000|75 1570000:80</node>
+      <node level="110">80|1748000|70 1930000:80</node>
+      <node level="120">70|1748000|65 1748000:75</node>
+      <node level="125">80|2020000|65 2020000:95</node>
+      <node level="130">30|2020000|30 2020000:75</node>
+    </res>
+    <res id="1008" name="gov_load_cpu_big">
+      <default>101</default>
+      <path>/sys/devices/system/cpu/cpufreq/policy2/schedutil/go_hispeed_load</path>
+      <path>/sys/devices/system/cpu/cpufreq/policy2/schedutil/hispeed_freq</path>
+      <path>/sys/devices/system/cpu/cpufreq/policy2/schedutil/target_loads</path>
+      <node level="90">95|1364000|90</node>
+      <node level="100">95|1594000|85 1696000:90 2350000:95</node>
+      <node level="101">85|1992000|80 1696000:85</node>
+      <node level="103">95|1594000|90 1696000:95 2350000:1000</node>
+      <node level="104">80|1696000|80 2350000:95 2487000:1000</node>
+      <node level="105">80|1696000|80 2350000:95 2487000:98</node>
+      <node level="110">80|2350000|75</node>
+      <node level="120">70|2350000|70 2350000:80</node>
+      <node level="130">30|2350000|30 2350000:90</node>
+    </res>
+    <res id="3003" name="gov_delay_up_cpu_lit">
+      <default>100</default>
+      <path>/sys/devices/system/cpu/cpufreq/policy0/schedutil/above_hispeed_delay</path>
+      <node level="90">19000 1018000:59000</node>
+      <node level="100">19000</node>
+      <node level="110">10000</node>
+    </res>
+    <res id="3004" name="gov_delay_up_cpu_mid">
+      <default>100</default>
+      <path>/sys/devices/system/cpu/cpufreq/policy1/schedutil/above_hispeed_delay</path>
+      <node level="90">10000 692000:30000 869000:50000 1104000:79000</node>
+      <node level="100">10000</node>
+      <node level="110">5000</node>
+    </res>
+    <res id="3005" name="gov_delay_up_cpu_big">
+      <default>100</default>
+      <path>/sys/devices/system/cpu/cpufreq/policy2/schedutil/above_hispeed_delay</path>
+      <node level="90">15000</node>
+      <node level="100">10000</node>
+      <node level="110">5000</node>
+    </res>
+    <res id="3006" name="gov_delay_down_cpu_lit">
+      <default>100</default>
+      <path>/sys/devices/system/cpu/cpufreq/policy0/schedutil/min_sample_time</path>
+      <node level="90">19000</node>
+      <node level="100">59000</node>
+      <node level="110">79000</node>
+    </res>
+    <res id="3007" name="gov_delay_down_cpu_mid">
+      <default>100</default>
+      <path>/sys/devices/system/cpu/cpufreq/policy1/schedutil/min_sample_time</path>
+      <node level="100">10000</node>
+      <node level="110">79000</node>
+    </res>
+    <res id="3008" name="gov_delay_down_cpu_big">
+      <default>100</default>
+      <path>/sys/devices/system/cpu/cpufreq/policy2/schedutil/min_sample_time</path>
+      <node level="100">10000</node>
+      <node level="103">39000 2620000:59000</node>
+      <node level="105">59000</node>
+      <node level="110">79000</node>
+    </res>
+    <res id="3009" name="gov_fast_ramp_up_cpu_lit">
+      <default>110</default>
+      <path>/sys/devices/system/cpu/cpufreq/policy0/schedutil/fast_ramp_up</path>
+      <node level="100">0</node>
+      <node level="110">1</node>
+    </res>
+    <res id="3010" name="gov_fast_ramp_up_cpu_mid">
+      <default>110</default>
+      <path>/sys/devices/system/cpu/cpufreq/policy1/schedutil/fast_ramp_up</path>
+      <node level="100">0</node>
+      <node level="110">1</node>
+    </res>
+    <res id="3011" name="gov_fast_ramp_up_cpu_big">
+      <default>110</default>
+      <path>/sys/devices/system/cpu/cpufreq/policy2/schedutil/fast_ramp_up</path>
+      <node level="100">0</node>
+      <node level="110">1</node>
+    </res>
+    <res id="3012" name="gov_fast_ramp_down_cpu_lit">
+      <default>100</default>
+      <path>/sys/devices/system/cpu/cpufreq/policy0/schedutil/fast_ramp_down</path>
+      <node level="100">1</node>
+      <node level="110">0</node>
+    </res>
+    <res id="3013" name="gov_fast_ramp_down_cpu_mid">
+      <default>100</default>
+      <path>/sys/devices/system/cpu/cpufreq/policy1/schedutil/fast_ramp_down</path>
+      <node level="100">1</node>
+      <node level="110">0</node>
+    </res>
+    <res id="3014" name="gov_fast_ramp_down_cpu_big">
+      <default>100</default>
+      <path>/sys/devices/system/cpu/cpufreq/policy2/schedutil/fast_ramp_down</path>
+      <node level="100">1</node>
+      <node level="110">0</node>
+    </res>
+    <res id="3015" name="gov_top_task_stats_policy_cpu_lit">
+      <default>120</default>
+      <path>/sys/devices/system/cpu/cpufreq/policy0/schedutil/top_task_stats_policy</path>
+      <node level="100">3</node>
+      <node level="110">2</node>
+      <node level="120">1</node>
+    </res>
+    <res id="3016" name="gov_top_task_stats_policy_cpu_mid">
+      <default>110</default>
+      <path>/sys/devices/system/cpu/cpufreq/policy1/schedutil/top_task_stats_policy</path>
+      <node level="100">3</node>
+      <node level="110">2</node>
+      <node level="120">1</node>
+    </res>
+    <res id="3017" name="gov_top_task_stats_policy_cpu_big">
+      <default>110</default>
+      <path>/sys/devices/system/cpu/cpufreq/policy2/schedutil/top_task_stats_policy</path>
+      <node level="100">3</node>
+      <node level="110">2</node>
+      <node level="120">1</node>
+    </res>
+    <res id="4000" name="root">
+      <default>0</default>
+      <path>/dev/cpuctl/cpu.boost</path>
+      <path>/sys/kernel/eas/boost</path>
+      <node level="-20">-99|0</node>
+      <node level="-10">-50|0</node>
+      <node level="0">0|0</node>
+      <node level="10">4|0</node>
+      <node level="20">13|0</node>
+      <node level="30">15|0</node>
+      <node level="40">15|1</node>
+      <node level="50">68|0</node>
+    </res>
+    <res id="4001" name="foreground">
+      <default>0</default>
+      <path>/dev/cpuctl/foreground/cpu.boost</path>
+      <path>/sys/kernel/eas/boost</path>
+      <node level="-20">-99|0</node>
+      <node level="-10">-50|0</node>
+      <node level="0">0|0</node>
+      <node level="10">4|0</node>
+      <node level="20">13|0</node>
+      <node level="30">15|0</node>
+      <node level="40">15|1</node>
+      <node level="50">68|0</node>
+    </res>
+    <res id="4002" name="background">
+      <default>0</default>
+      <path>/dev/cpuctl/background/cpu.boost</path>
+      <path>/sys/kernel/eas/boost</path>
+      <node level="-20">-99|0</node>
+      <node level="-10">-50|0</node>
+      <node level="0">0|0</node>
+      <node level="10">4|0</node>
+      <node level="20">13|0</node>
+      <node level="30">15|0</node>
+      <node level="40">15|1</node>
+      <node level="50">68|0</node>
+    </res>
+    <res id="4003" name="top-app">
+      <default>0</default>
+      <path>/dev/cpuctl/top-app/cpu.boost</path>
+      <path>/sys/kernel/eas/boost</path>
+      <node level="-20">-99|0</node>
+      <node level="-10">-50|0</node>
+      <node level="0">0|0</node>
+      <node level="10">4|0</node>
+      <node level="20">13|0</node>
+      <node level="30">15|0</node>
+      <node level="40">15|1</node>
+      <node level="50">68|0</node>
+    </res>
+    <res id="4004" name="system-background">
+      <default>0</default>
+      <path>/dev/cpuctl/system-background/cpu.boost</path>
+      <path>/sys/kernel/eas/boost</path>
+      <node level="-20">-99|0</node>
+      <node level="-10">-50|0</node>
+      <node level="0">0|0</node>
+      <node level="10">4|0</node>
+      <node level="20">13|0</node>
+      <node level="30">15|0</node>
+      <node level="40">15|1</node>
+      <node level="50">68|0</node>
+    </res>
+    <res id="4005" name="key-background">
+      <default>0</default>
+      <path>/dev/cpuctl/key-background/cpu.boost</path>
+      <path>/sys/kernel/eas/boost</path>
+      <node level="-20">-99|0</node>
+      <node level="-10">-50|0</node>
+      <node level="0">0|0</node>
+      <node level="10">4|0</node>
+      <node level="20">13|0</node>
+      <node level="30">15|0</node>
+      <node level="40">15|1</node>
+      <node level="50">68|0</node>
+    </res>
+    <res id="4006" name="graphic">
+      <default>0</default>
+      <path>/dev/cpuctl/graphic/cpu.boost</path>
+      <path>/sys/kernel/eas/boost</path>
+      <node level="-20">-99|0</node>
+      <node level="-10">-50|0</node>
+      <node level="0">0|0</node>
+      <node level="10">4|0</node>
+      <node level="20">13|0</node>
+      <node level="30">15|0</node>
+      <node level="40">15|1</node>
+      <node level="50">68|0</node>
+    </res>
+    <res id="4007" name="boost">
+      <default>0</default>
+      <path>/dev/cpuctl/boost/cpu.boost</path>
+      <path>/sys/kernel/eas/boost</path>
+      <node level="-20">-99|0</node>
+      <node level="-10">-50|0</node>
+      <node level="0">0|0</node>
+      <node level="10">4|0</node>
+      <node level="20">13|0</node>
+      <node level="30">15|0</node>
+      <node level="40">15|1</node>
+      <node level="50">68|0</node>
+    </res>
+    <res id="4008" name="isolation_min_cpu_big">
+      <default>100</default>
+      <path>/sys/devices/system/cpu/core_ctl/cluster2/max_cpus</path>
+      <path>/sys/devices/system/cpu/core_ctl/cluster2/min_cpus</path>
+      <path>/sys/devices/system/cpu/core_ctl/cluster2/spread_affinity</path>
+      <node level="90">0|0|1</node>
+      <node level="100">2|0|1</node>
+      <node level="110">1|1|1</node>
+      <node level="120">2|1|1</node>
+    </res>
+  </GovResource>
+</Configs>

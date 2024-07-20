@@ -1,0 +1,7 @@
+{
+	"lphiddensize":30,
+	"aechiddensize":30,
+	"drvhiddensize":50,
+	"e2elowthreshold":8400,
+	"dtwparams" : [350, 1, 26, 0]
+}

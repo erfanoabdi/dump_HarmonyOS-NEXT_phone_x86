@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<thermal version="OH.B64" product="ALN">
+
+    <base>
+        <item tag="sim_tz" value="0"/>
+    </base>
+
+    <polling>
+        <group name="actual" interval="5000">
+            <thermal_zone type="system_h"/>
+            <thermal_zone type="charger"/>
+            <thermal_zone type="Battery"/>
+            <thermal_node type="shell_frame" path="sys/class/hw_thermal/temp/shell_frame/temp"/>
+            <thermal_node type="shell_front" path="sys/class/hw_thermal/temp/shell_front/temp"/>
+            <thermal_node type="shell_back" path="sys/class/hw_thermal/temp/shell_back/temp"/>
+        </group>
+    </polling>
+
+    <tracing interval="5000" width="20" outpath="/data/log/thermal/thermal-log">
+        <node>
+            <title name="brightness"/>
+            <value path="sys/class/leds/lcd_backlight0/brightness"/>
+        </node>
+        <node>
+            <title path="sys/class/thermal/thermal_zone0/type"/>
+            <value path="sys/class/thermal/thermal_zone0/temp"/>
+        </node>
+        <node>
+            <title path="sys/class/thermal/thermal_zone1/type"/>
+            <value path="sys/class/thermal/thermal_zone1/temp"/>
+        </node>
+		<node>
+            <title path="sys/class/thermal/thermal_zone2/type"/>
+            <value path="sys/class/thermal/thermal_zone2/temp"/>
+        </node>
+        <node>
+            <title path="sys/class/thermal/thermal_zone3/type"/>
+            <value path="sys/class/thermal/thermal_zone3/temp"/>
+        </node>
+        <node>
+            <title path="sys/class/thermal/thermal_zone4/type"/>
+            <value path="sys/class/thermal/thermal_zone4/temp"/>
+        </node>
+        <node>
+            <title path="sys/class/thermal/thermal_zone5/type"/>
+            <value path="sys/class/thermal/thermal_zone5/temp"/>
+        </node>
+        <node>
+            <title path="sys/class/thermal/thermal_zone6/type"/>
+            <value path="sys/class/thermal/thermal_zone6/temp"/>
+        </node>
+        <node>
+            <title path="sys/class/thermal/thermal_zone7/type"/>
+            <value path="sys/class/thermal/thermal_zone7/temp"/>
+        </node>
+        <node>
+            <title path="sys/class/thermal/thermal_zone8/type"/>
+            <value path="sys/class/thermal/thermal_zone8/temp"/>
+        </node>
+        <node>
+            <title path="sys/class/thermal/thermal_zone9/type"/>
+            <value path="sys/class/thermal/thermal_zone9/temp"/>
+        </node>
+        <node>
+            <title path="sys/class/thermal/thermal_zone11/type"/>
+            <value path="sys/class/thermal/thermal_zone11/temp"/>
+        </node>
+        <node>
+            <title path="sys/class/thermal/thermal_zone12/type"/>
+            <value path="sys/class/thermal/thermal_zone12/temp"/>
+        </node>
+        <node>
+            <title path="sys/class/thermal/thermal_zone13/type"/>
+            <value path="sys/class/thermal/thermal_zone13/temp"/>
+        </node>
+        <node>
+            <title path="sys/class/thermal/thermal_zone14/type"/>
+            <value path="sys/class/thermal/thermal_zone14/temp"/>
+        </node>
+        <node>
+            <title path="sys/class/thermal/thermal_zone15/type"/>
+            <value path="sys/class/thermal/thermal_zone15/temp"/>
+        </node>
+        <node>
+            <title path="sys/class/thermal/thermal_zone16/type"/>
+            <value path="sys/class/thermal/thermal_zone16/temp"/>
+        </node>
+        <node>
+            <title path="sys/class/thermal/thermal_zone17/type"/>
+            <value path="sys/class/thermal/thermal_zone17/temp"/>
+        </node>
+        <node>
+            <title path="sys/class/thermal/thermal_zone18/type"/>
+            <value path="sys/class/thermal/thermal_zone18/temp"/>
+        </node>
+        <node>
+            <title path="sys/class/thermal/thermal_zone19/type"/>
+            <value path="sys/class/thermal/thermal_zone19/temp"/>
+        </node>
+		<node>
+            <title path="sys/class/thermal/thermal_zone20/type"/>
+            <value path="sys/class/thermal/thermal_zone20/temp"/>
+        </node>
+		<node>
+            <title path="sys/class/thermal/thermal_zone21/type"/>
+            <value path="sys/class/thermal/thermal_zone21/temp"/>
+        </node>
+		<node>
+            <title path="sys/class/thermal/thermal_zone22/type"/>
+            <value path="sys/class/thermal/thermal_zone22/temp"/>
+        </node>
+		<node>
+            <title path="sys/class/thermal/thermal_zone23/type"/>
+            <value path="sys/class/thermal/thermal_zone23/temp"/>
+        </node>
+		<node>
+            <title path="sys/class/thermal/thermal_zone24/type"/>
+            <value path="sys/class/thermal/thermal_zone24/temp"/>
+        </node>
+        <node>
+            <title path="sys/class/thermal/thermal_zone25/type"/>
+            <value path="sys/class/thermal/thermal_zone25/temp"/>
+        </node>
+        <node>
+            <title name="ambient"/>
+            <value path="sys/class/hw_thermal/temp/ambient"/>
+        </node>
+        <node>
+            <title name="ibat"/>
+            <value path="sys/class/power_supply/Battery/current_now"/>
+        </node>
+        <node>
+            <title name="vbat"/>
+            <value path="sys/class/power_supply/Battery/voltage_now"/>
+        </node>
+        <node>
+            <title name="cpu0_min_freq"/>
+            <value path="sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq"/>
+        </node>
+        <node>
+            <title name="cpu0_cur_freq"/>
+            <value path="sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq"/>
+        </node>
+        <node>
+            <title name="cpu0_max_freq"/>
+            <value path="sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq"/>
+        </node>
+        <node>
+            <title name="cpu4_min_freq"/>
+            <value path="sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq"/>
+        </node>
+        <node>
+            <title name="cpu4_cur_freq"/>
+            <value path="sys/devices/system/cpu/cpu4/cpufreq/scaling_cur_freq"/>
+        </node>
+        <node>
+            <title name="cpu4_max_freq"/>
+            <value path="sys/devices/system/cpu/cpu4/cpufreq/scaling_max_freq"/>
+        </node>
+        <node>
+            <title name="cpu7_min_freq"/>
+            <value path="sys/devices/system/cpu/cpu7/cpufreq/scaling_min_freq"/>
+        </node>
+        <node>
+            <title name="cpu7_cur_freq"/>
+            <value path="sys/devices/system/cpu/cpu7/cpufreq/scaling_cur_freq"/>
+        </node>
+        <node>
+            <title name="cpu7_max_freq"/>
+            <value path="sys/devices/system/cpu/cpu7/cpufreq/scaling_max_freq"/>
+        </node>
+        <node>
+            <title name="gpu_min_freq"/>
+            <value path="sys/class/devfreq/gpufreq/min_freq"/>
+        </node>
+        <node>
+            <title name="gpu_cur_freq"/>
+            <value path="sys/class/devfreq/gpufreq/cur_freq"/>
+        </node>
+        <node>
+            <title name="gpu_max_freq"/>
+            <value path="sys/class/devfreq/gpufreq/max_freq"/>
+        </node>
+        <node>
+            <title name="ddr_cur_freq"/>
+            <value path="sys/class/devfreq/ddrfreq/cur_freq"/>
+        </node>
+        <node>
+            <title name="set_IPApower"/>
+            <value path="sys/class/thermal/thermal_zone1/sustainable_power"/>
+        </node>
+        <node>
+            <title name="cur_IPApower"/>
+            <value path="sys/class/thermal/thermal_zone1/cur_power"/>
+        </node>
+    </tracing>
+</thermal>

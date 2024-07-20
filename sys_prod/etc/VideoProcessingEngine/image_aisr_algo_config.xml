@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Config>
+    <version>
+        <SO_ID>200</SO_ID>
+    </version>
+    <subversion>
+        <XML_ID>01</XML_ID>
+        <XML_DATE>20240220</XML_DATE>
+    </subversion>
+    <AISR_2_0>
+        <iModelNum>5</iModelNum><!-- 需要写在最开始-->
+
+        <iModelHeightLevel_0>576</iModelHeightLevel_0>
+        <iModelWidthLevel_0>576</iModelWidthLevel_0>
+        <iModelFreq_0>2</iModelFreq_0>
+        <sModelName_0>Image_SR_Model_576x576_20240402.omc</sModelName_0>
+		
+		<iModelHeightLevel_1>848</iModelHeightLevel_1>
+        <iModelWidthLevel_1>1104</iModelWidthLevel_1>
+        <iModelFreq_1>2</iModelFreq_1>
+        <sModelName_1>Image_SR_Model_848x1104_20240402.omc</sModelName_1>
+
+        <iModelHeightLevel_2>1104</iModelHeightLevel_2>
+        <iModelWidthLevel_2>1488</iModelWidthLevel_2>
+        <iModelFreq_2>2</iModelFreq_2>
+        <sModelName_2>Image_SR_Model_1104x1488_20240402.omc</sModelName_2>
+
+        <iModelHeightLevel_3>1488</iModelHeightLevel_3>
+        <iModelWidthLevel_3>1104</iModelWidthLevel_3>
+        <iModelFreq_3>2</iModelFreq_3>
+        <sModelName_3>Image_SR_Model_1488x1104_20240402.omc</sModelName_3>
+
+		<iModelHeightLevel_4>1872</iModelHeightLevel_4>
+		<iModelWidthLevel_4>1360</iModelWidthLevel_4>
+		<iModelFreq_4>2</iModelFreq_4>
+		<sModelName_4>Image_SR_Model_1872x1360_20240402.omc</sModelName_4>
+
+    </AISR_2_0>
+</Config>

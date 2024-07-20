@@ -1,0 +1,61 @@
+{
+  "light": {
+    "low": {
+      "soc": [
+        0,
+        10
+      ],
+      "rgb": [
+        255,
+        0,
+        0
+      ]
+    },
+    "normal": {
+      "soc": [
+        10,
+        90
+      ],
+      "rgb": [
+        255,
+        255,
+        0
+      ]
+    },
+    "high": {
+      "soc": [
+        90,
+        100
+      ],
+      "rgb": [
+        0,
+        255,
+        0
+      ]
+    }
+  },
+  "temperature": {
+    "high": 600,
+    "low": -500
+  },
+  "soc": {
+    "shutdown": 0,
+    "critical": 5,
+    "warning": 10,
+    "low": 20,
+    "normal": 90,
+    "high": 99,
+    "full": 100
+  },
+  "charger": {
+    "current_limit": {
+      "path": "/data/service/el0/battery/current_limit"
+    },
+    "voltage_limit": {
+      "path": "/data/service/el0/battery/voltage_limit"
+    },
+    "type": {
+      "path": "/sys/class/hw_power/power_ui/icon_type"
+    }
+  }
+}

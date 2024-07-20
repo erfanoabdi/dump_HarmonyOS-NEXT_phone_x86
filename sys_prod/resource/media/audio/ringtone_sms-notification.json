@@ -1,0 +1,192 @@
+{
+  "type": "sms-notification",
+  "path": "notifications",
+  "preset_ringtone_sms": "Leap",
+  "preset_ringtone_notification": "Rise",
+  "ringtone_items": [
+    {
+      "id": "Autumn Wind",
+      "filename": "Autumn_Wind.ogg"
+    },
+    {
+      "id": "Bell",
+      "filename": "Bell.ogg"
+    },
+    {
+      "id": "Birdsong",
+      "filename": "Birdsong.ogg"
+    },
+    {
+      "id": "Bongo",
+      "filename": "Bongo.ogg"
+    },
+    {
+      "id": "Breeze",
+      "filename": "Breeze.ogg"
+    },
+    {
+      "id": "Cave",
+      "filename": "Cave.ogg"
+    },
+    {
+      "id": "Chess",
+      "filename": "Chess.ogg"
+    },
+    {
+      "id": "Crystal Drop",
+      "filename": "Crystal_Drop.ogg"
+    },
+    {
+      "id": "Dew",
+      "filename": "Dew.ogg"
+    },
+    {
+      "id": "Dewdrop",
+      "filename": "Dewdrop.ogg"
+    },
+    {
+      "id": "Doorbell",
+      "filename": "Doorbell.ogg"
+    },
+    {
+      "id": "Drip",
+      "filename": "Drip.ogg"
+    },
+    {
+      "id": "Echo",
+      "filename": "Echo.ogg"
+    },
+    {
+      "id": "Emerging",
+      "filename": "Emerging.ogg"
+    },
+    {
+      "id": "Fountain",
+      "filename": "Fountain.ogg"
+    },
+    {
+      "id": "Freeze",
+      "filename": "Freeze.ogg"
+    },
+    {
+      "id": "Gush",
+      "filename": "Gush.ogg"
+    },
+    {
+      "id": "Huawei Cascade",
+      "filename": "Huawei_Cascade.ogg"
+    },
+    {
+      "id": "Joyful",
+      "filename": "Joyful.ogg"
+    },
+    {
+      "id": "Jump",
+      "filename": "Jump.ogg"
+    },
+    {
+      "id": "Leaf",
+      "filename": "Leaf.ogg"
+    },
+    {
+      "id": "Leap",
+      "filename": "Leap.ogg"
+    },
+    {
+      "id": "Letter",
+      "filename": "Letter.ogg"
+    },
+    {
+      "id": "Light",
+      "filename": "Light.ogg"
+    },
+    {
+      "id": "Lit",
+      "filename": "Lit.ogg"
+    },
+    {
+      "id": "Little Wish",
+      "filename": "Little_Wish.ogg"
+    },
+    {
+      "id": "Look Back",
+      "filename": "Look_Back.ogg"
+    },
+    {
+      "id": "Meditation",
+      "filename": "Meditation.ogg"
+    },
+    {
+      "id": "Nap",
+      "filename": "Nap.ogg"
+    },
+    {
+      "id": "Peking Opera Drum",
+      "filename": "Peking_Opera_Drum.ogg"
+    },
+    {
+      "id": "Pixies",
+      "filename": "Pixies.ogg"
+    },
+    {
+      "id": "Play",
+      "filename": "Play.ogg"
+    },
+    {
+      "id": "Pluck",
+      "filename": "Pluck.ogg"
+    },
+    {
+      "id": "Pursue",
+      "filename": "Pursue.ogg"
+    },
+    {
+      "id": "Rise",
+      "filename": "Rise.ogg"
+    },
+    {
+      "id": "Shine",
+      "filename": "Shine.ogg"
+    },
+    {
+      "id": "Shining",
+      "filename": "Shining.ogg"
+    },
+    {
+      "id": "Soft",
+      "filename": "Soft.ogg"
+    },
+    {
+      "id": "Spiral",
+      "filename": "Spiral.ogg"
+    },
+    {
+      "id": "Step",
+      "filename": "Step.ogg"
+    },
+    {
+      "id": "Time Capsule",
+      "filename": "Time_Capsule.ogg"
+    },
+    {
+      "id": "Warm Sun",
+      "filename": "Warm_Sun.ogg"
+    },
+    {
+      "id": "Whistle",
+      "filename": "Whistle.ogg"
+    },
+    {
+      "id": "White Swan",
+      "filename": "White_Swan.ogg"
+    },
+    {
+      "id": "Wild Flower",
+      "filename": "Wild_Flower.ogg"
+    },
+    {
+      "id": "Zen",
+      "filename": "Zen.ogg"
+    }
+  ]
+}

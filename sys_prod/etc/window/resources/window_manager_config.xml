@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+  <decor enable="false">
+    <supportedMode>floating</supportedMode>
+  </decor>
+  <subWindowSizeLimits>
+    <miniWidth>36</miniWidth>
+    <miniHeight>36</miniHeight>
+  </subWindowSizeLimits>
+  <immersive>
+    <inDesktopStatusBarConfig>
+      <showHide enable="true"/>
+      <backgroundColor>#00FFFFFF</backgroundColor>
+      <contentColor>#FFFFFFFF</contentColor>
+    </inDesktopStatusBarConfig>
+    <inSplitStatusBarConfig>
+      <upDownSplit>
+        <showHide enable="true"/>
+        <backgroundColor>#00FFFFFF</backgroundColor>
+        <contentColor>#FFFFFFFF</contentColor>
+      </upDownSplit>
+      <leftRightSplit>
+        <showHide enable="false"/>
+        <backgroundColor>#4D000000</backgroundColor>
+        <contentColor>#FFFFFFFF</contentColor>
+      </leftRightSplit>
+    </inSplitStatusBarConfig>
+  </immersive>
+  <uiType>phone</uiType>
+  <backgroundScreenLock enable="true"/>
+  <rotationMode>windowRotation</rotationMode>
+  <supportTypeFloatWindow enable="false"/>
+</Configs>

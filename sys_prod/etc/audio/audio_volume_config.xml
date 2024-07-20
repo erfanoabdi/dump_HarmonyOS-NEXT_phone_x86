@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<audio_volume_config>
+  <volume_type type="VOICE_CALL" minidx="1" maxidx="15" defaultidx="7">
+    <volumecurve deviceClass="headset">
+      <point idx="0" decibel="-3000"/>
+      <point idx="6" decibel="-2800"/>
+      <point idx="13" decibel="-2600"/>
+      <point idx="20" decibel="-2400"/>
+      <point idx="26" decibel="-2200"/>
+      <point idx="33" decibel="-2000"/>
+      <point idx="40" decibel="-1800"/>
+      <point idx="47" decibel="-1600"/>
+      <point idx="53" decibel="-1400"/>
+      <point idx="60" decibel="-1200"/>
+      <point idx="67" decibel="-1000"/>
+      <point idx="74" decibel="-800"/>
+      <point idx="80" decibel="-600"/>
+      <point idx="87" decibel="-400"/>
+      <point idx="94" decibel="-200"/>
+      <point idx="100" decibel="0"/>
+    </volumecurve>
+    <volumecurve deviceClass="speaker">
+      <point idx="0" decibel="-3000"/>
+      <point idx="6" decibel="-2800"/>
+      <point idx="13" decibel="-2600"/>
+      <point idx="20" decibel="-2400"/>
+      <point idx="26" decibel="-2200"/>
+      <point idx="33" decibel="-2000"/>
+      <point idx="40" decibel="-1800"/>
+      <point idx="47" decibel="-1600"/>
+      <point idx="53" decibel="-1400"/>
+      <point idx="60" decibel="-1200"/>
+      <point idx="67" decibel="-1000"/>
+      <point idx="74" decibel="-800"/>
+      <point idx="80" decibel="-600"/>
+      <point idx="87" decibel="-400"/>
+      <point idx="94" decibel="-200"/>
+      <point idx="100" decibel="0"/>
+    </volumecurve>
+    <volumecurve deviceClass="earpiece">
+      <point idx="0" decibel="-3000"/>
+      <point idx="6" decibel="-2800"/>
+      <point idx="13" decibel="-2600"/>
+      <point idx="20" decibel="-2400"/>
+      <point idx="26" decibel="-2200"/>
+      <point idx="33" decibel="-2000"/>
+      <point idx="40" decibel="-1800"/>
+      <point idx="47" decibel="-1600"/>
+      <point idx="53" decibel="-1400"/>
+      <point idx="60" decibel="-1200"/>
+      <point idx="67" decibel="-1000"/>
+      <point idx="74" decibel="-800"/>
+      <point idx="80" decibel="-600"/>
+      <point idx="87" decibel="-400"/>
+      <point idx="94" decibel="-200"/>
+      <point idx="100" decibel="0"/>
+    </volumecurve>
+  </volume_type>
+  <volume_type type="RING" minidx="0" maxidx="15" defaultidx="7">
+    <volumecurve deviceClass="headset">
+      <point idx="1" decibel="-2400"/>
+      <point idx="6" decibel="-2310"/>
+      <point idx="13" decibel="-2180"/>
+      <point idx="20" decibel="-2040"/>
+      <point idx="26" decibel="-1930"/>
+      <point idx="33" decibel="-1800"/>
+      <point idx="40" decibel="-1670"/>
+      <point idx="46" decibel="-1560"/>
+      <point idx="53" decibel="-1440"/>
+      <point idx="60" decibel="-1310"/>
+      <point idx="66" decibel="-1200"/>
+      <point idx="73" decibel="-1080"/>
+      <point idx="80" decibel="-950"/>
+      <point idx="86" decibel="-850"/>
+      <point idx="93" decibel="-720"/>
+      <point idx="100" decibel="-600"/>
+    </volumecurve>
+    <volumecurve deviceClass="speaker">
+      <point idx="1" decibel="-2400"/>
+      <point idx="6" decibel="-2310"/>
+      <point idx="13" decibel="-2180"/>
+      <point idx="20" decibel="-2040"/>
+      <point idx="26" decibel="-1930"/>
+      <point idx="33" decibel="-1800"/>
+      <point idx="40" decibel="-1670"/>
+      <point idx="46" decibel="-1560"/>
+      <point idx="53" decibel="-1440"/>
+      <point idx="60" decibel="-1310"/>
+      <point idx="66" decibel="-1200"/>
+      <point idx="73" decibel="-1080"/>
+      <point idx="80" decibel="-950"/>
+      <point idx="86" decibel="-850"/>
+      <point idx="93" decibel="-720"/>
+      <point idx="100" decibel="-600"/>
+    </volumecurve>
+    <volumecurve deviceClass="earpiece">
+      <point idx="1" decibel="-2400"/>
+      <point idx="6" decibel="-2310"/>
+      <point idx="13" decibel="-2180"/>
+      <point idx="20" decibel="-2040"/>
+      <point idx="26" decibel="-1930"/>
+      <point idx="33" decibel="-1800"/>
+      <point idx="40" decibel="-1670"/>
+      <point idx="46" decibel="-1560"/>
+      <point idx="53" decibel="-1440"/>
+      <point idx="60" decibel="-1310"/>
+      <point idx="66" decibel="-1200"/>
+      <point idx="73" decibel="-1080"/>
+      <point idx="80" decibel="-950"/>
+      <point idx="86" decibel="-850"/>
+      <point idx="93" decibel="-720"/>
+      <point idx="100" decibel="-600"/>
+    </volumecurve>
+  </volume_type>
+  <volume_type type="MUSIC" minidx="0" maxidx="15" defaultidx="7">
+    <volumecurve deviceClass="headset">
+      <point idx="1" decibel="-5900"/>
+      <point idx="6" decibel="-6000"/>
+      <point idx="13" decibel="-5400"/>
+      <point idx="20" decibel="-4800"/>
+      <point idx="26" decibel="-4300"/>
+      <point idx="33" decibel="-3800"/>
+      <point idx="40" decibel="-3300"/>
+      <point idx="46" decibel="-2900"/>
+      <point idx="53" decibel="-2500"/>
+      <point idx="60" decibel="-2100"/>
+      <point idx="66" decibel="-1750"/>
+      <point idx="73" decibel="-1400"/>
+      <point idx="80" decibel="-1050"/>
+      <point idx="86" decibel="-700"/>
+      <point idx="93" decibel="-500"/>
+      <point idx="100" decibel="-400"/>
+    </volumecurve>
+    <volumecurve deviceClass="speaker">
+      <point idx="1" decibel="-5800"/>
+      <point idx="6" decibel="-5200"/>
+      <point idx="13" decibel="-4300"/>
+      <point idx="20" decibel="-3600"/>
+      <point idx="26" decibel="-3050"/>
+      <point idx="33" decibel="-2550"/>
+      <point idx="40" decibel="-2150"/>
+      <point idx="46" decibel="-1900"/>
+      <point idx="53" decibel="-1550"/>
+      <point idx="60" decibel="-1300"/>
+      <point idx="66" decibel="-1100"/>
+      <point idx="73" decibel="-900"/>
+      <point idx="80" decibel="-700"/>
+      <point idx="86" decibel="-500"/>
+      <point idx="93" decibel="-250"/>
+      <point idx="100" decibel="0"/>
+    </volumecurve>
+    <volumecurve deviceClass="earpiece">
+      <point idx="1" decibel="-5900"/>
+      <point idx="6" decibel="-6000"/>
+      <point idx="13" decibel="-5400"/>
+      <point idx="20" decibel="-4800"/>
+      <point idx="26" decibel="-4300"/>
+      <point idx="33" decibel="-3800"/>
+      <point idx="40" decibel="-3300"/>
+      <point idx="46" decibel="-2900"/>
+      <point idx="53" decibel="-2500"/>
+      <point idx="60" decibel="-2100"/>
+      <point idx="66" decibel="-1750"/>
+      <point idx="73" decibel="-1400"/>
+      <point idx="80" decibel="-1050"/>
+      <point idx="86" decibel="-700"/>
+      <point idx="93" decibel="-350"/>
+      <point idx="100" decibel="0"/>
+    </volumecurve>
+  </volume_type>
+  <volume_type type="ALARM" minidx="1" maxidx="15" defaultidx="7">
+    <volumecurve deviceClass="headset">
+      <point idx="0" decibel="-4950"/>
+      <point idx="33" decibel="-3350"/>
+      <point idx="66" decibel="-1700"/>
+      <point idx="100" decibel="0"/>
+    </volumecurve>
+    <volumecurve deviceClass="speaker">
+      <point idx="0" decibel="-5800"/>
+      <point idx="20" decibel="-4000"/>
+      <point idx="60" decibel="-1700"/>
+      <point idx="100" decibel="0"/>
+    </volumecurve>
+    <volumecurve deviceClass="earpiece">
+      <point idx="0" decibel="-4950"/>
+      <point idx="33" decibel="-3350"/>
+      <point idx="66" decibel="-1700"/>
+      <point idx="100" decibel="0"/>
+    </volumecurve>
+  </volume_type>
+  <volume_type type="VOICE_ASSISTANT" minidx="1" maxidx="15" defaultidx="7">
+    <volumecurve deviceClass="headset">
+      <point idx="0" decibel="-5450"/>
+      <point idx="6" decibel="-5000"/>
+      <point idx="13" decibel="-4600"/>
+      <point idx="20" decibel="-4000"/>
+      <point idx="26" decibel="-3600"/>
+      <point idx="33" decibel="-3200"/>
+      <point idx="40" decibel="-2800"/>
+      <point idx="46" decibel="-2400"/>
+      <point idx="53" decibel="-2000"/>
+      <point idx="60" decibel="-1650"/>
+      <point idx="66" decibel="-1350"/>
+      <point idx="73" decibel="-1050"/>
+      <point idx="80" decibel="-800"/>
+      <point idx="86" decibel="-480"/>
+      <point idx="93" decibel="-240"/>
+      <point idx="100" decibel="0"/>
+    </volumecurve>
+    <volumecurve deviceClass="speaker">
+      <point idx="0" decibel="-5450"/>
+      <point idx="6" decibel="-5000"/>
+      <point idx="13" decibel="-4600"/>
+      <point idx="20" decibel="-4000"/>
+      <point idx="26" decibel="-3600"/>
+      <point idx="33" decibel="-3200"/>
+      <point idx="40" decibel="-2800"/>
+      <point idx="46" decibel="-2400"/>
+      <point idx="53" decibel="-2000"/>
+      <point idx="60" decibel="-1650"/>
+      <point idx="66" decibel="-1350"/>
+      <point idx="73" decibel="-1050"/>
+      <point idx="80" decibel="-800"/>
+      <point idx="86" decibel="-480"/>
+      <point idx="93" decibel="-240"/>
+      <point idx="100" decibel="0"/>
+    </volumecurve>
+    <volumecurve deviceClass="earpiece">
+      <point idx="0" decibel="-5450"/>
+      <point idx="6" decibel="-5000"/>
+      <point idx="13" decibel="-4600"/>
+      <point idx="20" decibel="-4000"/>
+      <point idx="26" decibel="-3600"/>
+      <point idx="33" decibel="-3200"/>
+      <point idx="40" decibel="-2800"/>
+      <point idx="46" decibel="-2400"/>
+      <point idx="53" decibel="-2000"/>
+      <point idx="60" decibel="-1650"/>
+      <point idx="66" decibel="-1350"/>
+      <point idx="73" decibel="-1050"/>
+      <point idx="80" decibel="-800"/>
+      <point idx="86" decibel="-480"/>
+      <point idx="93" decibel="-240"/>
+      <point idx="100" decibel="0"/>
+    </volumecurve>
+  </volume_type>
+  <volume_type type="ACCESSIBILITY" minidx="1" maxidx="15" defaultidx="7">
+    <volumecurve deviceClass="headset">
+      <point idx="0" decibel="-5800"/>
+      <point idx="20" decibel="-4000"/>
+      <point idx="60" decibel="-1700"/>
+      <point idx="100" decibel="0"/>
+    </volumecurve>
+    <volumecurve deviceClass="speaker">
+      <point idx="0" decibel="-5800"/>
+      <point idx="20" decibel="-4000"/>
+      <point idx="60" decibel="-1700"/>
+      <point idx="100" decibel="0"/>
+    </volumecurve>
+    <volumecurve deviceClass="earpiece">
+      <point idx="0" decibel="-5800"/>
+      <point idx="20" decibel="-4000"/>
+      <point idx="60" decibel="-1700"/>
+      <point idx="100" decibel="0"/>
+    </volumecurve>
+  </volume_type>
+</audio_volume_config>

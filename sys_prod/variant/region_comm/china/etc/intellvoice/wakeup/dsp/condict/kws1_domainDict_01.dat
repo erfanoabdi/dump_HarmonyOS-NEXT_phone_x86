@@ -1,0 +1,7 @@
+<beam>	10
+<beam_delta>	-0.5
+<phone_confi_threshold>	0.05
+<consonant_confi_thershold>	-0.05
+<proper_sentence_confi_threshold>	0.4
+<sentence_confi_threshold>	0.4
+<unconfident_phone_num>	1

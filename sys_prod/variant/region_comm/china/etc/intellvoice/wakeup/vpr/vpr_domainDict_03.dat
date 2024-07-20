@@ -1,0 +1,326 @@
+{
+    "EngineConfig" : {
+        "AlgConfig" : [
+            {"Text" : "小艺小艺", "AlgType" : 2},
+            {"Text" : "Default", "AlgType" : 2}
+        ],
+        "EnableAutoLearn" : true,
+        "EnableSecondChance" : true,
+        "EnablePcmEncrypt" : true,
+        "Version" : "Kirin_VPR_6.0_20230320",
+        "AlgSwSnrThreshold" : -10000.0,
+        "AlgSwEnergyThreshold" : 0.0,
+        "AlgSwStrategy" : 0,
+        "AlgModelInSafeZone" : true,
+        "EnableGmmVerifyResult" : false,
+        "EnableGenderRecognition" : true,
+        "AecUseGmm": false,
+        "FilterEnable" : false,
+        "FilterCutoffFreq" : 2000.0,
+        "HighLevelUseGmm": false
+    },
+    "StateConfig" : {
+        "L1StateSwitchConfig" : {
+            "ShortTermDuration" : 0
+        },
+        "L2StateSwitchConfig" : {
+            "TimeElapseFromConditionAOccurred" : 600,
+            "RevisingDisabledDuration" : 300,
+            "Kws2NotSuccDuration" : 15
+        },
+        "L3StateSwitchConfig" : {
+            "NumConfigOfInitToNormal" : 2,
+            "NumConfigOfLatestVerification" : 5,
+            "NumConfigOfNormalToAttacking" : 2,
+            "NumConfigOfAttackingToNormal" : 2,
+            "NumConfigOfTotalVerification" : 40,
+            "TimeoutConfigOfAttacking" : 600,
+            "SuccessiveNumConfigOfForceEnterAttacking" : 1,
+            "SuccessiveNumConfigOfForceExitAttacking" : 1,
+            "EnrollModelThresholdOfInitToNormal" : 20.8,
+            "EnrollModelThresholdOfNormalToAttacking" : -7.0,
+            "EnrollModelThresholdOfAttackingToNormal" : 15.0,
+            "EnrollModelThresholdOfForceEnterAttacking" : -10.0,
+            "EnrollModelThresholdOfForceExitAttacking" : 1000.0
+        }
+    },
+    "SecondChance" : {
+        "TimeDuration" : 20,
+        "TimeElapseFromEnroll" : 86400
+    },
+    "AutoLearnerConfig" : {
+        "Gmm" : {
+            "SnrThresholdForPcmFilter" : 10.0,
+            "FarFieltEnergyThreshold" : 0.0,
+            "TestPcmOnCurModelUpperLimit" : 10000000.0,
+            "TestPcmOnCurModelThreshold" : 1.0,
+            "TestPcmOnOriModelThreshold" : 0.6,
+            "EnrollPcmOnNewModelThreshold" : 1.0,
+            "MostLikelySpeakerUpperLimit" : 100.0,
+            "MostLikelySpeakerLowerLimit" : -0.2,
+            "SuspiciousSpeakerThreshold" : 0.0,
+            "TestPcmUpdateDuration" : 30,
+            "PcmConfigNumForVerify" : 5,
+            "HighPcmConfigNumForTrain" : 10,
+            "LowPcmConfigNumForTrain" : 0,
+            "ModelConfigNum" : 1,
+            "CacheModelThreshold" : 0.0,
+            "CacheModelConfigNum" : 0,
+            "ModelUpdateDuration" : 0,
+            "PcmFilterStrategy" : 0,
+            "ScoreStrategy" : 0,
+            "SupportTexts" : ["小艺小艺","Default"],
+            "EnablePcmEncrypt" : true
+        },
+        "Xvector" : [
+           {
+            "SupportTexts" : ["小艺小艺"],
+            "SnrThresholdForPcmFilter" : 10.0,
+            "FarFieltEnergyThreshold" : 0.0,
+            "TestPcmOnCurModelUpperLimit" : 0.0,
+            "TestPcmOnCurModelThreshold" : 0.0,
+            "TestPcmOnOriModelThreshold" : 0.0,
+            "ModelRedundanceRatioThreshold" : 0.0,
+            "EnrollPcmOnNewModelThreshold" : 0.0,
+            "MostLikelySpeakerUpperLimit" : 0.0,
+            "MostLikelySpeakerLowerLimit" : 0.0,
+            "SuspiciousSpeakerThreshold" : 0.32,
+            "SpecialHighScoreThreshold" : 0.0,
+            "LowScoreThreshold" : 0.32,
+            "SpecialHighScoreNum" : 1000,
+            "ModelRedundanceRatio" : 0.5,
+            "TestPcmUpdateDuration" : 0,
+            "PcmConfigNumForVerify" : 0,
+            "HighPcmConfigNumForTrain" : 0,
+            "LowPcmConfigNumForTrain" : 1,
+            "ModelConfigNum" : 10,
+            "CacheModelThreshold" : 0.569,
+            "CacheModelConfigNum" : 1,
+            "ModelUpdateDuration" : 0,
+            "PcmFilterStrategy" : 4,
+            "ScoreStrategy" : 4,
+            "EnablePcmEncrypt" : true,
+            "HighAlgModelCfg" : [0.585, 0.72, 0.72, 1, 5, 0.5],
+            "HighAsrModelCfg" : [0.41, 0.72, 0.72, 1, 5, 0.5],
+            "EnableModelCfg" : [true, true, true]
+        },
+        {
+            "SupportTexts" : ["Default"],
+            "SnrThresholdForPcmFilter" : 10.0,
+            "FarFieltEnergyThreshold" : 0.0,
+            "TestPcmOnCurModelUpperLimit" : 0.0,
+            "TestPcmOnCurModelThreshold" : 0.0,
+            "TestPcmOnOriModelThreshold" : 0.0,
+            "ModelRedundanceRatioThreshold" : 0.0,
+            "EnrollPcmOnNewModelThreshold" : 0.0,
+            "MostLikelySpeakerUpperLimit" : 0.0,
+            "MostLikelySpeakerLowerLimit" : 0.0,
+            "SuspiciousSpeakerThreshold" : 0.32,
+            "SpecialHighScoreThreshold" : 0.0,
+            "LowScoreThreshold" : 0.32,
+            "SpecialHighScoreNum" : 1000,
+            "ModelRedundanceRatio" : 0.5,
+            "TestPcmUpdateDuration" : 0,
+            "PcmConfigNumForVerify" : 0,
+            "HighPcmConfigNumForTrain" : 0,
+            "LowPcmConfigNumForTrain" : 1,
+            "ModelConfigNum" : 10,
+            "CacheModelThreshold" : 0.558,
+            "CacheModelConfigNum" : 1,
+            "ModelUpdateDuration" : 0,
+            "PcmFilterStrategy" : 4,
+            "ScoreStrategy" : 4,
+            "EnablePcmEncrypt" : true,
+            "HighAlgModelCfg" : [0.558, 0.72, 0.72, 1, 5, 0.5],
+            "HighAsrModelCfg" : [0.38, 0.72, 0.72, 1, 5, 0.5],
+            "EnableModelCfg" : [true, true, true]
+	    }
+	]
+    },
+    "ModelConfig" : {
+        "Gmm" : [
+            {
+                "Text" : "小艺小艺",
+                "UbmModelName" : "vpr_model_03.pb",
+                "MaleUbmModelName" : "vpr_model_08.pb",
+                "FemaleUbmModelName" : "vpr_model_09.pb",
+                "SnrThreshold" : [18.0],
+                "SecondChanceDelta" : 0.0,
+                "SecondChanceThreshold" : 0.0,
+                "GenderRecognitionThreshold" : -1.1,
+                "UserEventDelta" : [
+                    [0.7, 0.6, 0.2],
+                    [0.9, 0.8, 0.4]
+                ],
+                "EnrollModelThreshold" : [
+                    [0.3, 0.2, 0.0],
+                    [0.7, 0.6, 0.5]
+                ],
+                "LearnModelThreshold" : [
+                    [0.3, 0.2, 0.0],
+                    [0.7, 0.6, 0.5]
+                ]
+            },
+            {
+                "Text" : "Default",
+                "UbmModelName" : "vpr_model.pb",
+                "MaleUbmModelName" : "vpr_model_08.pb",
+                "FemaleUbmModelName" : "vpr_model_09.pb",
+                "SnrThreshold" : [18.0],
+                "SecondChanceDelta" : 0.0,
+                "SecondChanceThreshold" : 0.0,
+                "GenderRecognitionThreshold" : -1.1,
+                "UserEventDelta" : [
+                    [0.6, 0.5, 0.1],
+                    [0.8, 0.7, 0.3]
+                ],
+                "EnrollModelThreshold" : [
+                    [0.1, -0.2, -0.3],
+                    [0.5, 0.2, 0.1]
+                ],
+                "LearnModelThreshold" : [
+                    [0.1, -0.2, -0.3],
+                    [0.5, 0.2, 0.1]
+                ]
+            }
+        ],
+        "Xvector" : [
+            {
+                "Text" : "小艺小艺",
+                "FeatureExtractAlgType" : 1,
+                "IVectorScoreAlgType" : 1,
+                "NnetComputeType" : 0,
+                "NpuInitType" : 0,
+                "NpuComputeAsyn" : true,
+                "NnetOutputVectorDim" : 256,
+                "EnableDbNorm" : true,
+                "EnableScoreCfg" : [false, false, true, false],
+                "NpuTimeOut" : [400, 3000, 20000],
+                "LdaModelName" : "vpr_model_04.pb",
+                "PldaModelName" : "vpr_model_05.pb",
+                "MeanVectorName" : "vpr_model_06.pb",
+                "NnetModelName" : "Ivector.dm",
+                "CmvnWindowSize" : 300,
+                "CmvnCenter" : true,
+                "CmvnNormlize" : false,
+                "VadEnergyThreshold" : 5.5,
+                "VadEnergyMeanScale" : 0.5,
+                "VadProportionThreshold" : 0.7,
+                "VadFramesContext" : 5,
+                "LdaDimension" : 280,
+                "NormalizeRatio" : 2.0,
+                "PldaSmoothCovariance" : 0.1,
+                "SnrThreshold" : [5.0, 15.0],
+                "SecondChanceDelta" : 0.0,
+                "SecondChanceThreshold" : 0.0,
+                "GenderRecognitionThreshold" : 0.0,
+                "DistinguishThres" : 0.13,
+                "ModelWeightAdpt" : 0,
+                "ModelWeightThres" : 0.485,
+                "UserEventDelta" : [
+                    [0.05, 0.05, 0.05],
+                    [0.06, 0.06, 0.06],
+                    [0.06, 0.06, 0.06]
+                ],
+                "EnrollModelThreshold" : [
+                    {"L1State" : 0, "Threshold" : [ [0.38, 0.38, 0.38], [0.40, 0.40, 0.40], [0.40, 0.40, 0.40] ]},
+                    {"L1State" : 1, "Threshold" : [ [0.38, 0.38, 0.38], [0.40, 0.40, 0.40], [0.40, 0.40, 0.40] ]}
+                ],
+                "LearnModelThreshold" : [
+                    {"L1State" : 0, "Threshold" : [ [0.39, 0.39, 0.39], [0.41, 0.41, 0.41], [0.41, 0.41, 0.41] ]},
+                    {"L1State" : 1, "Threshold" : [ [0.39, 0.39, 0.39], [0.41, 0.41, 0.41], [0.41, 0.41, 0.41] ]}
+                ],
+                "Female" : {
+                    "EnrollModelThreshold" : [
+                        {"L1State" : 0, "Threshold" : [ [0.38, 0.38, 0.38], [0.40, 0.40, 0.40], [0.40, 0.40, 0.40] ]},
+                        {"L1State" : 1, "Threshold" : [ [0.38, 0.38, 0.38], [0.40, 0.40, 0.40], [0.40, 0.40, 0.40] ]}
+                    ],
+                    "LearnModelThreshold" : [
+                        {"L1State" : 0, "Threshold" : [ [0.39, 0.39, 0.39], [0.41, 0.41, 0.41], [0.41, 0.41, 0.41] ]},
+                        {"L1State" : 1, "Threshold" : [ [0.39, 0.39, 0.39], [0.41, 0.41, 0.41], [0.41, 0.41, 0.41] ]}
+                    ]
+                }
+            },
+            {
+                "Text" : "Default",
+                "FeatureExtractAlgType" : 1,
+                "IVectorScoreAlgType" : 1,
+                "NnetComputeType" : 0,
+                "NpuInitType" : 0,
+                "NpuComputeAsyn" : true,
+                "NnetOutputVectorDim" : 256,
+                "EnableDbNorm" : true,
+                "EnableScoreCfg" : [false, false, true, false],
+                "NpuTimeOut" : [400, 3000, 20000],
+                "LdaModelName" : "vpr_model_04.pb",
+                "PldaModelName" : "vpr_model_05.pb",
+                "MeanVectorName" : "vpr_model_06.pb",
+                "NnetModelName" : "Ivector2.dm",
+                "CmvnWindowSize" : 300,
+                "CmvnCenter" : true,
+                "CmvnNormlize" : false,
+                "VadEnergyThreshold" : 5.5,
+                "VadEnergyMeanScale" : 0.5,
+                "VadProportionThreshold" : 0.7,
+                "VadFramesContext" : 5,
+                "LdaDimension" : 280,
+                "NormalizeRatio" : 2.0,
+                "PldaSmoothCovariance" : 0.1,
+                "SnrThreshold" : [5.0, 15.0],
+                "SecondChanceDelta" : 0.0,
+                "SecondChanceThreshold" : 0.0,
+                "GenderRecognitionThreshold" : 0.0,
+                "DistinguishThres" : 0.13,
+                "ModelWeightAdpt" : 0,
+                "ModelWeightThres" : 0.50,
+                "UserEventDelta" : [
+                    [0.05, 0.05, 0.05],
+                    [0.08, 0.08, 0.08],
+                    [0.08, 0.08, 0.08]
+                ],
+                "EnrollModelThreshold" : [
+                    {"L1State" : 0, "Threshold" : [ [0.35, 0.35, 0.35], [0.38, 0.38, 0.38], [0.38, 0.38, 0.38] ]},
+                    {"L1State" : 1, "Threshold" : [ [0.35, 0.35, 0.35], [0.38, 0.38, 0.38], [0.38, 0.38, 0.38] ]}
+                ],
+                "LearnModelThreshold" : [
+                    {"L1State" : 0, "Threshold" : [ [0.35, 0.35, 0.35], [0.38, 0.38, 0.38], [0.38, 0.38, 0.38] ]},
+                    {"L1State" : 1, "Threshold" : [ [0.35, 0.35, 0.35], [0.38, 0.38, 0.38], [0.38, 0.38, 0.38] ]}
+                ],
+                "Female" : {
+                    "EnrollModelThreshold" : [
+                        {"L1State" : 0, "Threshold" : [ [0.35, 0.35, 0.35], [0.38, 0.38, 0.38], [0.38, 0.38, 0.38] ]},
+                        {"L1State" : 1, "Threshold" : [ [0.35, 0.35, 0.35], [0.38, 0.38, 0.38], [0.38, 0.38, 0.38] ]}
+                    ],
+                    "LearnModelThreshold" : [
+                        {"L1State" : 0, "Threshold" : [ [0.35, 0.35, 0.35], [0.38, 0.38, 0.38], [0.38, 0.38, 0.38] ]},
+                        {"L1State" : 1, "Threshold" : [ [0.35, 0.35, 0.35], [0.38, 0.38, 0.38], [0.38, 0.38, 0.38] ]}
+                    ]
+                }
+            }
+        ],
+        "GmmXvectorComposite" : [
+            {
+                "Text" : "小艺小艺",
+                "SnrThreshold" : [5.0, 15.0],
+                "SecondChanceDelta" : 0.1,
+                "SecondChanceThreshold" : 0.1,
+                "GenderRecognitionThreshold" : 0.0,
+                "UserEventDelta" : [
+                    [7.0, 7.0, 7.0],
+                    [7.0, 7.0, 7.0],
+                    [7.0, 7.0, 7.0]
+                ],
+                "EnrollModelThreshold" : [
+                    [10.0, 0.0, -5.0],
+                    [15.0, 5.0, 0.0],
+                    [20.0, 12.0, 5.0]
+                ],
+                "LearnModelThreshold" : [
+                    [10.0, 0.0, -5.0],
+                    [15.0, 5.0, 0.0],
+                    [20.0, 12.0, 5.0]
+                ]
+            }
+        ]
+    }
+}

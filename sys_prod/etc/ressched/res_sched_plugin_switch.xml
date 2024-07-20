@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pluginlist>
+  <plugin libpath="libsocperf_plugin.z.so" switch="1"/>
+  <plugin libpath="libtag_sched_plugin.z.so" switch="1"/>
+  <plugin libpath="libio_sched_plugin.z.so" switch="1"/>
+  <plugin libpath="libcomponent_sched_plugin.z.so" switch="1"/>
+  <plugin libpath="libframe_aware_plugin.z.so" switch="1"/>
+  <plugin libpath="libsmart_gc_plugin.z.so" switch="1"/>
+  <plugin libpath="libthermal_aware_plugin.z.so" switch="1"/>
+  <plugin libpath="libdevice_standby_plugin.z.so" switch="1"/>
+</pluginlist>

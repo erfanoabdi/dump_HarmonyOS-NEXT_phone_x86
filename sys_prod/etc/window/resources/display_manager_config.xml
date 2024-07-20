@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+  <dpi>520</dpi>
+  <defaultDeviceRotationOffset>270</defaultDeviceRotationOffset>
+  <cutoutArea>494 36 273 72</cutoutArea>
+  <defaultDisplayCutoutPath>M494 36 L767 36 v 72 h -273 Z</defaultDisplayCutoutPath>
+  <supportRotateWithSensor enable="true"/>
+  <externalScreenDefaultMode>mirror</externalScreenDefaultMode>
+</Configs>

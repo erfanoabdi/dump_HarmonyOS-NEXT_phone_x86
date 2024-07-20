@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2022 Huawei Device Co., Ltd.
+  -->
+
+<thermal version="OH.B64" product="ALN">
+    <base>
+        <item tag="history_temp_count" value="3"/>
+        <item tag="temperature_query_enum" value="system_h,Battery,shell_frame,cpu,charger,ambient,ap,pa"/>
+    </base>
+
+    <level>
+        <sensor_cluster name="base_lev" sensor="shell_frame">
+            <item level="1" threshold="35000" threshold_clr="33000"/>
+            <item level="2" threshold="37000" threshold_clr="35000"/>
+            <item level="3" threshold="40000" threshold_clr="38000"/>
+            <item level="4" threshold="43000" threshold_clr="41000"/>
+            <item level="5" threshold="46000" threshold_clr="44000"/>
+        </sensor_cluster>
+        <sensor_cluster name="soc_lev" sensor="shell_frame">
+            <item level="1" threshold="35000" threshold_clr="33000"/>
+            <item level="2" threshold="37000" threshold_clr="35000"/>
+            <item level="3" threshold="40000" threshold_clr="38000"/>
+            <item level="4" threshold="43000" threshold_clr="41000"/>
+            <item level="5" threshold="46000" threshold_clr="44000"/>
+        </sensor_cluster>
+        <sensor_cluster name="emerg_lev" sensor="shell_frame">
+            <item level="1" threshold="48000" threshold_clr="45000"/>
+            <item level="2" threshold="51000" threshold_clr="48000"/>
+        </sensor_cluster>
+        <sensor_cluster name="safe_lev" sensor="shell_frame" aux_sensor="Battery">
+            <item level="1" threshold="52000" threshold_clr="50000" aux_trigger_range="41000_900000"/>
+            <item level="2" threshold="53000" threshold_clr="51000" aux_trigger_range="43000_900000"/>
+        </sensor_cluster>
+        <sensor_cluster name="shut_lev" sensor="system_h,charger" aux_sensor="Battery">
+            <item level="1" threshold="75000,75000" threshold_clr="73000,73000" aux_trigger_range="68000_900000"/>
+        </sensor_cluster>
+    </level>
+
+    <state>
+        <item name="screen"/>
+        <item name="charge"/>
+    </state>
+
+    <action>
+        <item name="cpu_big" strict="1"/>
+        <item name="cpu_med" strict="1"/>
+        <item name="cpu_lit" strict="1"/>
+        <item name="gpu" strict="1"/>
+        <item name="lcd" strict="1"/>
+        <item name="thermallevel" strict="0" event="1"/>
+        <item name="shut_down"/>
+    </action>
+
+    <policy>
+        <!-- base policy -->
+        <config name="base_lev" level="1"> <!-- shell 35C -->
+            <thermallevel>1</thermallevel>
+        </config>
+        <config name="base_lev" level="2"> <!-- shell 37C -->
+            <thermallevel>2</thermallevel>
+        </config>
+        <config name="base_lev" level="3"> <!-- shell 40C -->
+            <thermallevel>3</thermallevel>
+            <lcd>0.88</lcd>
+        </config>
+        <config name="base_lev" level="4"> <!-- shell 43C -->
+            <thermallevel>4</thermallevel>
+            <lcd>0.75</lcd>
+        </config>
+        <config name="base_lev" level="5"> <!-- shell 46C -->
+            <thermallevel>4</thermallevel>
+            <lcd>0.59</lcd>
+        </config>
+
+        <!-- soc policy -->
+        <config name="soc_lev" level="2"> <!-- shell 37C -->
+            <cpu_lit screen="0">1287000</cpu_lit>
+            <cpu_med screen="0">1748000</cpu_med>
+            <cpu_big screen="0">1479000</cpu_big>
+        </config>
+        <config name="soc_lev" level="4"> <!-- shell 43C -->
+            <cpu_lit screen="0">1018000</cpu_lit>
+            <cpu_med screen="0">1440000</cpu_med>
+            <cpu_big screen="0">1239000</cpu_big>
+        </config>
+        <config name="soc_lev" level="5"> <!-- shell 46C -->
+            <cpu_lit>758000</cpu_lit>
+            <cpu_med>1440000</cpu_med>
+            <cpu_big>1364000</cpu_big>
+            <cpu_big screen="0">1239000</cpu_big>
+            <gpu>371000000</gpu>
+        </config>
+
+        <!-- safe policy -->
+        <config name="emerg_lev" level="1"> <!-- shell 48C -->
+            <thermallevel>5</thermallevel>
+            <cpu_lit>758000</cpu_lit>
+            <cpu_med>999000</cpu_med>
+            <cpu_big>1239000</cpu_big>
+            <gpu>308000000</gpu>
+        </config>
+        <config name="emerg_lev" level="2"> <!-- shell 51C -->
+            <thermallevel>6</thermallevel>
+            <cpu_lit>758000</cpu_lit>
+            <cpu_med>692000</cpu_med>
+            <cpu_big>1239000</cpu_big>
+            <gpu>279000000</gpu>
+        </config>
+        <config name="safe_lev" level="2"> <!-- shell 53C -->
+            <lcd>0.33</lcd>
+        </config>
+        <config name="shut_lev" level="1"> <!-- ap 75C -->
+            <shut_down>1</shut_down>
+        </config>
+    </policy>
+
+    <idle name="charging">
+        <thermallevel>1</thermallevel>  <!-- thermal level is equal or less than 1 -->
+        <soc>80</soc> <!-- battery soc is equal or more than 80% -->
+        <charging>1</charging> <!-- battery is charging -->
+        <current>1000</current> <!-- battery charging current is equal or more than 1000mA -->
+    </idle>
+</thermal>

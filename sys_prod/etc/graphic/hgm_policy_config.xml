@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HgmConfig version="1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <Params name="refresh_rate_4settings">
+    <Setting name="-1" value="1"/>
+    <Setting name="60" value="1"/>
+    <Setting name="90" value="1"/>
+    <Setting name="120" value="1"/>
+  </Params>
+</HgmConfig>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<SarRuleConfig>
+		<restore>
+			<sar_wifi_restore value="1000"/>
+			<sar_cell_restore value="0"/>
+		</restore>
+		<configs is_use_precondition="1">
+			<config>
+				<sim_type value="0"/>
+				<sar_cell_reduce value="65536"/>
+			</config>
+			<config>
+				<sim_type value="1"/>
+				<sar_cell_reduce value="65537"/>
+			</config>
+			<config>
+				<sim_type value="2"/>
+				<sar_cell_reduce value="65538"/>
+			</config>
+			<config>
+				<sim_type value="3"/>
+				<sar_cell_reduce value="65539"/>
+			</config>
+		</configs>
+	</SarRuleConfig>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+charge:
+101,  dcp0 5V 2A
+102,  dcp1 9V 2A
+201,  lvc 22.5W
+301,  sc0 40W
+302,  sc1 66W
+303,  4sc0 88W
+304,  4sc1 88W
+401,  wl_dcp0 wireless 5V
+402,  wl_dcp1 wireless 5V
+403,  wl_sc0 wireless 40W
+404,  wl_sc1 wireless 66W   
+501,  uvoltage
+502,  wl_ctrl
+-->
+<thermal version="HOS4.1B22" product="ALN">
+    <charger>
+        <static_ctrl name="chg_dcp">
+            <item tag="101" value="2000,1500,825,475"/>
+            <item tag="102" value="2000,1400,825,475"/>
+            <item tag="201" value="4500,4000,3500,2500,2000,1800,1500"/>
+            <item tag="501" value="5"/>
+        </static_ctrl>
+        <static_ctrl name="chg_sc">
+            <item tag="301" value="8000,6500,6000,5000,4500,3500,3000,2000,1500"/>
+            <item tag="302" value="16000,14200,13200,12200,8200,8000,6500,5000,4500,4000,3000,2000,1500"/>
+            <item tag="303" value="14200,13200,12200,8200,8000,6500,5000,4500,4000,3000,2000,1500"/>
+            <item tag="304" value="14200,13200,12200,8200,8000,6500,5000,4500,4000,3000,2000,1500"/>
+        </static_ctrl>
+        <static_ctrl name="wlchg">
+            <item tag="401" value="1500,1000,825,300"/>
+            <item tag="402" value="1500,1000,825,300"/>
+            <item tag="403" value="5000,4500,4000,3000,2500,1900,1000,800,600"/>
+            <item tag="404" value="5000,4500,4000,3000,2500,1900,1500"/>
+            <item tag="502" value="1,3"/>
+        </static_ctrl>
+    </charger>
+    <policy>
+        <config level="1">
+            <chg_dcp>01020100</chg_dcp>
+            <chg_sc>03030000</chg_sc>
+            <wlchg>010100</wlchg>
+        </config>
+        <config level="2">
+            <chg_dcp>01020300</chg_dcp>
+            <chg_sc>03040303</chg_sc>
+            <wlchg>0101010100</wlchg>
+        </config>
+        <config level="3">
+            <chg_dcp>02020501</chg_dcp>
+            <chg_sc>07111111</chg_sc>
+            <wlchg>0202060602</wlchg>
+        </config>
+        <config level="4">
+            <chg_dcp>04040701</chg_dcp>
+            <chg_sc>09131212</chg_sc>
+            <wlchg>0404090702</wlchg>
+        </config>
+    </policy>
+</thermal>

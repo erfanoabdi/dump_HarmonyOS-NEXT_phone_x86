@@ -1,0 +1,83 @@
+{
+    "MetaData": {
+        "Create": "2023-11-02",
+        "Description": "Exported from RichTap Creator Pro",
+        "Version": 1.0,
+        "ChannelNumber": 1
+    },
+    "Channels": [
+        {
+            "Parameters": {
+                "Index": 0
+            },
+            "Pattern": [
+                {
+                    "Event": {
+                        "Type": "continuous",
+                        "Duration": 180,
+                        "StartTime": 62,
+                        "Parameters": {
+                            "Intensity": 100,
+                            "Frequency": 55,
+                            "Curve": [
+                                {
+                                    "Time": 0,
+                                    "Intensity": 0,
+                                    "Frequency": 0
+                                },
+                                {
+                                    "Time": 6,
+                                    "Intensity": 1,
+                                    "Frequency": 0
+                                },
+                                {
+                                    "Time": 177,
+                                    "Intensity": 1,
+                                    "Frequency": 0
+                                },
+                                {
+                                    "Time": 180,
+                                    "Intensity": 0,
+                                    "Frequency": 0
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "Event": {
+                        "Type": "continuous",
+                        "Duration": 220,
+                        "StartTime": 354,
+                        "Parameters": {
+                            "Intensity": 100,
+                            "Frequency": 55,
+                            "Curve": [
+                                {
+                                    "Time": 0,
+                                    "Intensity": 0,
+                                    "Frequency": 0
+                                },
+                                {
+                                    "Time": 7,
+                                    "Intensity": 1,
+                                    "Frequency": 0
+                                },
+                                {
+                                    "Time": 216,
+                                    "Intensity": 1,
+                                    "Frequency": 0
+                                },
+                                {
+                                    "Time": 220,
+                                    "Intensity": 0,
+                                    "Frequency": 0
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

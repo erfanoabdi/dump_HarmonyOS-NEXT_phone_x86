@@ -1,0 +1,91 @@
+# 2024-04-02 11:15:36.0
+const.ai.feature_agent=false
+# 2024-04-02 11:15:36.0
+const.ai.feature_emotional_tts=false
+# 2024-04-02 11:15:36.0
+const.ai.feature_new_animation=false
+# 2024-04-02 11:15:36.0
+const.ai.feature_onapp=false
+# 2024-04-02 11:15:36.0
+const.ai.feature_tts_clone=false
+# 2024-04-02 11:15:36.0
+const.ai.feature_xiaoyi_memory=false
+# 2024-03-28 10:35:53.0
+const.aod.hardware_config=6
+# 2024-03-28 10:35:53.0
+const.bluetooth.a2dp_lowLatency=false
+# 2024-03-28 10:35:53.0
+const.bluetooth.a2dp_offload.supported=false
+# 2024-03-28 10:35:53.0
+const.bluetooth.bt_codec_priority=SBC
+# 2024-03-28 10:35:53.0
+const.bluetooth.hw_mc.a2dp_share.enable=false
+# 2024-03-28 10:35:53.0
+const.bluetooth.hw_mc.hdap.enable=false
+# 2024-03-28 10:35:53.0
+const.bluetooth.supports_bluetooth_high_pwr=false
+# 2024-03-28 10:35:53.0
+const.bluetooth.supports_hitws=false
+# 2024-03-28 10:35:53.0
+const.build.product=emulator
+# 2024-04-17 11:33:40.0
+const.collaboration.enable_characteristic_effect=false
+# 2024-04-07 15:58:43.0
+const.filemanagement.enable_smart_search=false
+# 2024-03-28 10:35:53.0
+const.product.brand=HUAWEI
+# 2024-04-08 11:46:37.0
+const.product.device_radius=36
+# 2024-03-28 10:35:53.0
+const.product.devicetype=phone
+# 2024-03-28 10:35:53.0
+const.product.hardwareversion=emulator
+# 2024-03-28 10:35:53.0
+const.product.hide=true
+# 2024-03-28 10:49:19.0
+const.product.hide.matchers=OpenHarmony-5;5.0.0
+# 2024-03-28 14:16:00.0
+const.product.hide.replacements=3;3.0.0
+# 2024-03-28 10:35:53.0
+const.product.manufacturer=HUAWEI
+# 2024-03-28 10:35:53.0
+const.product.model=emulator
+# 2024-03-28 10:35:53.0
+const.product.name=emulator
+# 2024-03-28 10:35:53.0
+const.resourceschedule.memmgr.eswapSize=3072
+# 2024-03-28 10:35:53.0
+const.resourceschedule.memmgr.zram.disksize=6144
+# 2024-04-02 11:15:36.0
+const.scene_board.off_personalization_feature=true
+# 2024-03-28 10:35:53.0
+const.systemui.volume_key_top_padding=113
+# 2024-04-09 14:57:43.0
+const.telephony.efl_forbidden=true
+# 2024-03-28 10:35:53.0
+const.telephony.slotCount=2
+# 2024-03-28 10:35:53.0
+const.telephony.voice.capable=true
+# 2024-03-28 10:35:53.0
+hw_sc.hmos_font.enabled=true
+# 2024-03-28 10:35:53.0
+persist.sys.default_ime=com.huawei.hmos.inputmethod/InputService
+# 2024-03-28 10:35:53.0
+persist.sys.standby_switch=true
+
+ro.config.beta_sec_ctrl=false
+const.comp.product_version=Product-ALN 205.0.0(0001)
+
+const.comp.hl.product_preload_version=emulator-PRELOAD 5.0.0.11(DEVC00R4)
+
+const.comp.hl.product_cust_version=emulator-CUST 5.0.0.25(DEVC00)
+
+
+
+const.product.software.version.name=HarmonyOS NEXT Developer Beta1
+
+const.logsystem.versiontype=beta
+
+const.comp.hl.product_base_version=emulator-LGRP1-CHN 5.0.0.25(SP63log)
+
+const.comp.hl.product_base_version.real=emulator-LGRP1-CHN 5.0.0.25(SP63log)

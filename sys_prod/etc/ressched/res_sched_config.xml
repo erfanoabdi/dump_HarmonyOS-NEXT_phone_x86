@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ressched>
+  <plugin name="TAG_SCHED">
+    <config name="tagSchedFeatureSwitch">
+      <item key="switch">
+        <qos_sched>1</qos_sched>
+        <rtg_sched>1</rtg_sched>
+        <vip_sched>1</vip_sched>
+        <min_util_sched>1</min_util_sched>
+        <transient_task_limit>1</transient_task_limit>
+        <scene_cust_qos>1</scene_cust_qos>
+        <user_handle_freezing>1</user_handle_freezing>
+        <scene_sched>1</scene_sched>
+      </item>
+    </config>
+    <config name="qosFeature">
+      <item key="qosSwitch">
+        <switch>127</switch>
+      </item>
+      <item key="qosCgroupMap">
+        <sp_background>1</sp_background>
+        <sp_system_background>1</sp_system_background>
+        <sp_key_background>2</sp_key_background>
+        <sp_foreground>3</sp_foreground>
+        <sp_default>3</sp_default>
+        <sp_top_app>4</sp_top_app>
+        <sp_boost>7</sp_boost>
+        <sp_graphic>8</sp_graphic>
+      </item>
+    </config>
+    <config name="handlerPoolConfig">
+      <item>
+        <pool_size>2</pool_size>
+      </item>
+    </config>
+    <config name="subRtgConfig">
+      <item>
+        <sub_rtg_size>1</sub_rtg_size>
+      </item>
+    </config>
+    <config name="powerOnSetQos">
+      <item>
+        <delay_time>6000</delay_time>
+      </item>
+    </config>
+    <config name="qosModify">
+      <item key="qosLevel">
+        <qos_high>8</qos_high>
+        <qos_middle>4</qos_middle>
+        <qos_low>1</qos_low>
+        <qos_reset>-1</qos_reset>
+      </item>
+      <item key="cancelTask">
+        <max_timeout>200</max_timeout>
+      </item>
+      <item key="qosTask">
+        <max_modify_task>8</max_modify_task>
+      </item>
+    </config>
+    <config name="minUtilLevel">
+      <item>
+        <min_util level="1">500</min_util>
+        <min_util level="2">600</min_util>
+        <min_util level="3">829</min_util>
+      </item>
+    </config>
+    <config name="cpuset_config">
+      <item key="screen_on">
+        <foreground>0-7</foreground>
+        <background>2-3</background>
+        <system-background>0-3</system-background>
+        <top-app>0-7</top-app>
+        <key-background>0-4</key-background>
+        <boost>0-7</boost>
+        <graphic>0-7</graphic>
+      </item>
+      <item key="screen_off">
+        <foreground>0-7</foreground>
+        <background>0-3</background>
+        <system-background>0-3</system-background>
+        <top-app>0-7</top-app>
+        <key-background>0-3</key-background>
+        <boost>0-7</boost>
+        <graphic>0-7</graphic>
+      </item>
+    </config>
+    <config name="cpuctl_config">
+      <item key="screen_on">
+        <foreground>max</foreground>
+        <background>max</background>
+        <system-background>max</system-background>
+        <top-app>max</top-app>
+        <key-background>max</key-background>
+        <boost>max</boost>
+        <graphic>max</graphic>
+      </item>
+      <item key="screen_off">
+        <foreground>max</foreground>
+        <background>70</background>
+        <system-background>70</system-background>
+        <top-app>max</top-app>
+        <key-background>80</key-background>
+        <boost>max</boost>
+        <graphic>max</graphic>
+      </item>
+    </config>
+    <config name="scene_schedule">
+      <item name="WEB_SCENE_LOAD_URL" sceneid="1001">
+        <duration>10000</duration>
+        <qos>8</qos>
+      </item>
+      <item name="WEB_SCENE_CLICK" sceneid="1002">
+        <duration>2000</duration>
+        <qos>8</qos>
+      </item>
+      <item name="WEB_SCENE_SLIDE" sceneid="1003">
+        <duration>500</duration>
+        <qos>8</qos>
+      </item>
+      <item name="WEB_SCENE_RESIZE" sceneid="1004">
+        <duration>500</duration>
+        <qos>8</qos>
+      </item>
+      <item name="WEB_SCENE_VISIBLE" sceneid="1005">
+        <duration>500</duration>
+        <qos>8</qos>
+      </item>
+    </config>
+  </plugin>
+  <plugin name="IO_SCHED">
+    <config name="ioQos">
+      <item type="switch">
+        <switch>1</switch>
+      </item>
+    </config>
+    <config name="fileCache">
+      <item name="files" level="1">
+        <file>/system/lib64/libGLES_mali.so</file>
+        <file>/system/lib64/libace.z.so</file>
+        <file>/system/lib64/libskia_ohos.z.so</file>
+        <file>/system/lib64/libark_jsruntime.so</file>
+        <file>/system/lib64/libc.so</file>
+        <file>/vendor/lib64/libvdec.core.so</file>
+        <file>/system/lib64/libgstreamer.z.so</file>
+        <file>/system/lib64/librender_service_base.z.so</file>
+        <file>/system/lib64/libglib.z.so</file>
+        <file>/system/lib64/libc++.so</file>
+        <file>/system/fonts/HarmonyOS_Sans_SC_Regular.ttf</file>
+        <file>/system/lib64/libohosffmpeg.z.so</file>
+        <file>/system/lib64/media/libmedia_engine_gst.z.so</file>
+        <file>/system/lib64/librender_service.z.so</file>
+        <file>/system/lib64/libgstvideo.z.so</file>
+        <file>/vendor/lib64/hw/hwcomposer.baltimore.so</file>
+        <file>/system/lib64/libsoftbus_server.z.so</file>
+        <file>/system/lib64/libxpower.z.so</file>
+        <file>/system/lib64/libabilityms.z.so</file>
+        <file>/system/lib64/libace_engine_declarative_ark.z.so</file>
+        <file>/system/lib64/libgstbase.z.so</file>
+        <file>/system/fonts/HarmonyOS_Sans_SC_Bold.ttf</file>
+        <file>/system/lib64/platformsdk/libhmicui18n.z.so</file>
+        <file>/system/lib64/libhidlbase.so</file>
+        <file>/system/lib64/platformsdk/libhmicuuc.z.so</file>
+        <file>/system/fonts/HarmonyOS_Sans_SC_Medium.ttf</file>
+        <file>/system/lib64/libutils.z.so</file>
+        <file>/system/lib64/libxml2.so</file>
+        <file>/system/lib64/librender_service_client.z.so</file>
+        <file>/system/lib64/chipset-pub-sdk/libipc_core.z.so</file>
+        <file>/vendor/lib64/libomxvdec.so</file>
+        <file>/system/lib64/libbms.z.so</file>
+        <file>/system/lib64/libmedia_service.z.so</file>
+        <file>/system/lib64/libicui18n.so</file>
+        <file>/system/lib64/libbegetutil.z.so</file>
+        <file>/system/lib64/libdms.z.so</file>
+        <file>/system/lib64/libgobject.z.so</file>
+        <file>/system/lib64/media/plugins/libgstcoreelements.z.so</file>
+        <file>/system/lib64/module/libfileio.z.so</file>
+        <file>/system/lib64/media/plugins/libgstplayback.z.so</file>
+        <file>/system/lib64/libwms.z.so</file>
+        <file>/system/lib64/libabilitykit_native.z.so</file>
+        <file>/vendor/lib64/libthp.so</file>
+        <file>/system/lib64/media/plugins/libgstisomp4.z.so</file>
+        <file>/system/lib64/libsensor_service.z.so</file>
+        <file>/system/lib64/libmmi-server.z.so</file>
+        <file>/system/lib64/chipset-pub-sdk/libipc_single.z.so</file>
+        <file>/system/lib64/libappexecfwk_base.z.so</file>
+        <file>/system/lib64/libace_engine_pa_ark.z.so</file>
+      </item>
+      <item name="haps" level="2">
+        <bundleName/>
+      </item>
+      <item name="config" ramsizemin="0" ramsizemax="2048">
+        <protect_lru_limit>0 0 0</protect_lru_limit>
+        <protect_lru_ratio>50</protect_lru_ratio>
+        <protect_lru_switch>0</protect_lru_switch>
+      </item>
+      <item name="config" ramsizemin="2048" ramsizemax="4096">
+        <protect_lru_limit>30 40 0</protect_lru_limit>
+        <protect_lru_ratio>50</protect_lru_ratio>
+        <protect_lru_switch>1</protect_lru_switch>
+      </item>
+      <item name="config" ramsizemin="4096" ramsizemax="6144">
+        <protect_lru_limit>100 50 0</protect_lru_limit>
+        <protect_lru_ratio>50</protect_lru_ratio>
+        <protect_lru_switch>1</protect_lru_switch>
+      </item>
+      <item name="config" ramsizemin="6144" ramsizemax="8192">
+        <protect_lru_limit>150 80 0</protect_lru_limit>
+        <protect_lru_ratio>50</protect_lru_ratio>
+        <protect_lru_switch>1</protect_lru_switch>
+      </item>
+      <item name="config" ramsizemin="8192" ramsizemax="12288">
+        <protect_lru_limit>150 80 0</protect_lru_limit>
+        <protect_lru_ratio>50</protect_lru_ratio>
+        <protect_lru_switch>1</protect_lru_switch>
+      </item>
+      <item name="config" ramsizemin="12288" ramsizemax="24576">
+        <protect_lru_limit>150 80 0</protect_lru_limit>
+        <protect_lru_ratio>50</protect_lru_ratio>
+        <protect_lru_switch>1</protect_lru_switch>
+      </item>
+    </config>
+    <config name="exactPreread">
+      <item type="switch">
+        <switch>1</switch>
+        <app_startup_switch>1</app_startup_switch>
+        <app_intra_switch>1</app_intra_switch>
+      </item>
+      <item type="excludedApp">
+        <bundleName>com.ohos.permissionmanager</bundleName>
+        <bundleName>com.ohos.systemui</bundleName>
+      </item>
+      <item type="exactFaultAround">
+        <switch>1</switch>
+      </item>
+    </config>
+    <config name="topScene">
+      <item type="trainInterval">
+        <init_train_times>10</init_train_times>
+        <init_stage>240</init_stage>
+        <normal_stage>480</normal_stage>
+      </item>
+      <item romsize="16">
+        <topN>100</topN>
+      </item>
+      <item romsize="32">
+        <topN>200</topN>
+      </item>
+      <item romsize="64">
+        <topN>500</topN>
+      </item>
+      <item romsize="128">
+        <topN>1000</topN>
+      </item>
+      <item romsize="256">
+        <topN>2000</topN>
+      </item>
+      <item romsize="512">
+        <topN>3000</topN>
+      </item>
+    </config>
+  </plugin>
+  <plugin name="SOCPERF">
+    <config name="socperfFeatureSwitch">
+      <item key="switch">
+        <socperf_on_demand>1</socperf_on_demand>
+      </item>
+    </config>
+  </plugin>
+  <plugin name="UNI_PERCEPTION">
+    <config name="CPULoadLevel">
+      <item>
+        <cpu_load level="0">0.0</cpu_load>
+        <cpu_load level="1">0.2</cpu_load>
+        <cpu_load level="2">0.4</cpu_load>
+        <cpu_load level="3">0.5</cpu_load>
+        <cpu_load level="4">0.6</cpu_load>
+        <cpu_load level="5">0.7</cpu_load>
+        <cpu_load level="6">0.8</cpu_load>
+        <cpu_load level="7">0.9</cpu_load>
+        <cpu_load level="8">1.0</cpu_load>
+      </item>
+    </config>
+    <config name="SYSTEM_LOAD_NOTIFY_SAID">
+      <item value="1901"/>
+    </config>
+  </plugin>
+</ressched>
