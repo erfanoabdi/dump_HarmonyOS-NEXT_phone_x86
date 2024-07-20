@@ -1,0 +1,25 @@
+{
+    "process": "devattest_service",
+    "systemability": [
+        {
+            "name": 5501,
+            "libpath": "libdevattest_service.z.so",
+            "run-on-create": false,
+            "distributed": false,
+            "start-on-demand": {
+                "commonevent": [
+                    {
+                        "name": "usual.event.CONNECTIVITY_CHANGE",
+                        "value": "3"
+                    }
+                ],
+                "timedevent": [
+                    {
+                        "name": "loopevent",
+                        "value": "86400"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+#!/usr/bin/pulseaudio -nF
+#
+# This file is part of PulseAudio.
+#
+# PulseAudio is free software; you can redistribute it and/or modify it
+# under the terms of the GNU Lesser General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# PulseAudio is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+# General Public License for more details.
+#
+# You should have received a copy of the GNU Lesser General Public License
+# along with PulseAudio; if not, see <http://www.gnu.org/licenses/>.
+
+# This startup script is used only if PulseAudio is started per-user
+# (i.e. not in system mode)
+
+.fail
+
+# Load mandatory modules
+load-module libmodule-native-protocol-unix.z.so auth-cookie=/data/data/.pulse_dir/state/cookie socket=/dev/unix/socket/native
+
+# the module for command line operation like pacmd
+# load-module libmodule-cli-protocol-unix.z.so
+
+### Load audio drivers statically
+### (it's probably better to not load these drivers manually, but instead
+### use module-udev-detect -- see below -- for doing this automatically)
+load-module libmodule-suspend-on-idle.z.so timeout=3
+
+### Make some devices default
+#set-default-sink output
+#set-default-source input

@@ -1,0 +1,105 @@
+{
+    "sandbox-root" : "/mnt/sandbox/chipset",
+    "mount-bind-paths" : [{
+            "src-path" : "/system/bin",
+            "sandbox-path" : "/system/bin",
+            "sandbox-flags" : [ "bind", "rec", "private" ]
+        }, {
+            "src-path" : "/system/etc",
+            "sandbox-path" : "/system/etc",
+            "sandbox-flags" : [ "bind", "rec", "private" ]
+        }, {
+            "src-path" : "/system/lib64",
+            "sandbox-path" : "/system/lib64",
+            "sandbox-flags" : [ "bind", "rec", "private" ]
+        }, {
+            "src-path" : "/system/lib",
+            "sandbox-path" : "/system/lib",
+            "sandbox-flags" : [ "bind", "rec", "private" ]
+        }, {
+            "src-path" : "/system/profile",
+            "sandbox-path" : "/system/profile",
+            "sandbox-flags" : [ "bind", "rec", "private" ]
+        }, {
+            "src-path" : "/system/app",
+            "sandbox-path" : "/system/app",
+            "sandbox-flags" : [ "bind", "rec", "private" ],
+            "ignore": 1
+        }, {
+            "src-path" : "/system/fonts",
+            "sandbox-path" : "/system/fonts",
+            "sandbox-flags" : [ "bind", "rec", "private" ],
+            "ignore": 1
+        }, {
+            "src-path" : "/system/usr",
+            "sandbox-path" : "/system/usr",
+            "sandbox-flags" : [ "bind", "rec", "private" ],
+            "ignore": 1
+        }, {
+            "src-path" : "/vendor",
+            "sandbox-path" : "/vendor",
+            "sandbox-flags" : [ "bind", "rec", "private" ]
+        }, {
+            "src-path" : "/dev",
+            "sandbox-path" : "/dev",
+            "sandbox-flags" : [ "bind", "rec", "private" ]
+        }, {
+            "src-path" : "/proc",
+            "sandbox-path" : "/proc",
+            "sandbox-flags" : [ "bind", "rec", "private" ]
+        }, {
+            "src-path" : "/data",
+            "sandbox-path" : "/data",
+            "sandbox-flags" : [ "bind", "rec", "private" ]
+        }, {
+            "src-path" : "/sys/kernel/debug/tracing",
+            "sandbox-path" : "/sys/kernel/debug/tracing",
+            "sandbox-flags" : [ "bind", "private" ],
+            "ignore": 1
+        }, {
+            "src-path" : "/sys/kernel/debug",
+            "sandbox-path" : "/sys/kernel/debug",
+            "sandbox-flags" : [ "bind", "private" ]
+        }, {
+            "src-path" : "/sys",
+            "sandbox-path" : "/sys",
+            "sandbox-flags" : [ "bind", "private" ]
+        }, {
+            "src-path" : "/config",
+            "sandbox-path" : "/config",
+            "sandbox-flags" : [ "bind", "rec", "private" ]
+        }, {
+            "src-path" : "/mnt",
+            "sandbox-path" : "/mnt",
+            "sandbox-flags" : [ "bind", "rec", "private" ]
+        }, {
+            "src-path" : "/storage",
+            "sandbox-path" : "/storage",
+            "sandbox-flags" : [ "bind", "rec", "private" ]
+        }, {
+            "src-path" : "/sys_prod",
+            "sandbox-path" : "/sys_prod",
+            "sandbox-flags" : [ "bind", "rec", "private" ]
+        }, {
+            "src-path" : "/chip_prod",
+            "sandbox-path" : "/chip_prod",
+            "sandbox-flags" : [ "bind", "rec", "private" ]
+        }
+    ],
+    "mount-bind-files" : [{
+    }],
+    "symbol-links" : [{
+            "target-name" : "/system/lib64",
+            "link-name" : "/lib64"
+        }, {
+            "target-name" : "/system/lib",
+            "link-name" : "/lib"
+        }, {
+            "target-name" : "/system/bin",
+            "link-name" : "/bin"
+        }, {
+            "target-name" : "/system/etc",
+            "link-name" : "/etc"
+        }
+    ]
+}

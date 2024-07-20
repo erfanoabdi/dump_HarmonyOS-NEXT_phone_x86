@@ -1,0 +1,12 @@
+{
+    "install_list": [
+        {
+            "app_dir": "/system/app/shared_bundles/CloudCommon",
+            "removable": false
+        },
+        {
+            "app_dir": "/system/app/shared_bundles/PhotoBrowser",
+            "removable": false
+        }
+    ]
+}

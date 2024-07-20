@@ -1,0 +1,40 @@
+{
+    "process": "powermgr",
+    "systemability": [
+        {
+            "name": 3302,
+            "libpath": "libbatteryservice.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 3304,
+            "libpath": "libbatterystats_service.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 3308,
+            "libpath": "libdisplaymgrservice.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 3301,
+            "libpath": "libpowermgrservice.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 3303,
+            "libpath": "libthermalservice.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        }
+    ]
+}

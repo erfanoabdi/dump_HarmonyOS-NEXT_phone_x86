@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (c) 2023 Huawei Device Co., Ltd.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<audiodeviceprivacy version="1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <adapter name="privacy">
+        <devices>
+            <device name="Wired Headset" type="DEVICE_TYPE_WIRED_HEADSET" role="output,input" Category="" usage="media,voice"/>
+            <device name="Wired Headphones" type="DEVICE_TYPE_WIRED_HEADPHONES" role="output" Category="" usage="media,voice"/>
+            <device name="Usb Headset Hifi" type="DEVICE_TYPE_USB_HEADSET" role="output,input" Category="" usage="media,voice"/>
+            <device name="Usb Arm Headset" type="DEVICE_TYPE_USB_ARM_HEADSET" role="output,input" Category="" usage="media,voice"/>
+            <device name="Bt A2dp" type="DEVICE_TYPE_BLUETOOTH_A2DP" role="output" Category="HEADPHONE,GLASSES" usage="media"/>
+            <device name="Bt Sco" type="DEVICE_TYPE_BLUETOOTH_SCO" role="output,input" Category="HEADPHONE,GLASSES," usage="voice"/>
+        </devices>
+    </adapter>
+    <adapter name="public">
+        <devices>
+            <device name="Bt A2dp" type="DEVICE_TYPE_BLUETOOTH_A2DP" role="output" Category="SOUNDBOX,CAR" usage="media"/>
+            <device name="Bt Sco" type="DEVICE_TYPE_BLUETOOTH_SCO" role="output,input" Category="SOUNDBOX,CAR" usage="voice"/>
+            <device name="DP" type="DEVICE_TYPE_DP" role="output" Category="" usage="media"/>
+        </devices>
+    </adapter>
+    <adapter name="negative">
+        <devices>
+            <device name="Bt A2dp" type="DEVICE_TYPE_BLUETOOTH_A2DP" role="output" Category="HEADPHONE_UNWEAR" usage="media"/>
+            <device name="Bt Sco" type="DEVICE_TYPE_BLUETOOTH_SCO" role="output,input" Category="WATCH,HEADPHONE_UNWEAR" usage="voice"/>
+        </devices>
+    </adapter>
+</audiodeviceprivacy>

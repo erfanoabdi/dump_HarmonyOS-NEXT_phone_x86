@@ -1,0 +1,120 @@
+{
+    "process": "foundation",
+    "systemability": [
+        {
+            "name": 401,
+            "libpath": "libbms.z.so",
+            "run-on-create": true,
+            "depend_time_out": 60000,
+            "distributed": false,
+            "bootphase": "CoreStartPhase",
+            "dump_level": 1,
+            "depend": [
+                3503
+            ]
+        },
+        {
+            "name": 4606,
+            "libpath": "libwms.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "bootphase": "CoreStartPhase",
+            "dump_level": 1
+        },
+        {
+            "name": 4607,
+            "libpath": "libscreen_session_manager.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "bootphase": "CoreStartPhase",
+            "dump_level": 1
+        },
+        {
+            "name": 3299,
+            "libpath": "libcesfwk_services.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 3203,
+            "libpath": "libans.z.so",
+            "run-on-create": true,
+            "depend": [
+                3299
+            ],
+            "depend_time_out": 60000,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 4005,
+            "libpath": "libtel_call_manager.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 4009,
+            "libpath": "libtel_state_registry.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 3704,
+            "libpath": "libscreenlock_server.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 180,
+            "libpath": "libabilityms.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 182,
+            "libpath": "libdataobsms.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 183,
+            "libpath": "libupms.z.so",
+            "run-on-create": false,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 501,
+            "libpath": "libappms.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 1404,
+            "libpath": "libdistributed_ability_manager_svr.z.so",
+            "run-on-create": true,
+            "distributed": false
+        },
+        {
+            "name": 403,
+            "libpath": "libfms.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 6105,
+            "libpath": "liberms.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "process": "huawei_id_svc",
+    "systemability": [
+        {
+            "name": 65926,
+            "libpath": "libhuaweiid_svc.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump-level": 1
+        }
+    ]
+}

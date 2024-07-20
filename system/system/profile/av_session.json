@@ -1,0 +1,12 @@
+{
+    "process": "av_session",
+    "systemability": [
+        {
+            "name": 3010,
+            "libpath": "libavsession_service.z.so",
+            "run-on-create": true,
+            "distributed": true,
+            "dump_level": 1
+        }
+    ]
+}

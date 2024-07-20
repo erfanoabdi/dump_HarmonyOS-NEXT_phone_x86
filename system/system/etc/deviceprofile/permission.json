@@ -1,0 +1,21 @@
+{
+    "PutAccessControlProfile": ["device_manager", "softbus_server"],
+    "UpdateAccessControlProfile": ["device_manager", "softbus_server"],
+    "GetAccessControlProfile": ["device_manager", "softbus_server", "iShare"],
+    "DeleteAccessControlProfile": ["device_manager", "softbus_server"],
+    "GetTrustDeviceProfile": ["device_manager", "softbus_server"],
+    "GetAllTrustDeviceProfile": ["device_manager", "softbus_server"],
+    "GetAllAccessControlProfile": ["device_manager", "softbus_server"],
+    "PutServiceProfile": ["all"],
+    "PutServiceProfileBatch": ["all"],
+    "PutCharacteristicProfile": ["all"],
+    "PutCharacteristicProfileBatch": ["all"],
+    "GetDeviceProfile": ["all"],
+    "GetServiceProfile": ["all"],
+    "GetCharacteristicProfile": ["all"],
+    "DeleteServiceProfile": ["all"],
+    "DeleteCharacteristicProfile": ["all"],
+    "SubscribeDeviceProfile": ["all"],
+    "UnSubscribeDeviceProfile": ["all"],
+    "SyncDeviceProfile": ["all"]
+}

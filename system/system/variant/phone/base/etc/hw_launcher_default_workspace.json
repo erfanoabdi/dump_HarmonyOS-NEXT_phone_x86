@@ -1,0 +1,654 @@
+{
+  "layoutDescription": {
+    "pageCount": 2,
+    "row": 6,
+    "column": 4,
+    "maxPage": 18,
+    "maxForm": 80
+  },
+  "layoutInfo": [
+    {
+      "bundleName": "com.ohos.contacts",
+      "abilityName": "com.ohos.contacts.MainAbility",
+      "moduleName": "entry",
+      "container": -101,
+      "typeId": 0,
+      "column": 0
+    },
+    {
+      "bundleName": "com.ohos.mms",
+      "abilityName": "com.ohos.mms.MainAbility",
+      "moduleName": "entry",
+      "container": -101,
+      "typeId": 0,
+      "column": 1
+    },
+    {
+      "bundleName": "com.huawei.hmos.browser",
+      "abilityName": "MainAbility",
+      "moduleName": "entry",
+      "container": -101,
+      "typeId": 0,
+      "column": 2
+    },
+    {
+      "bundleName": "com.huawei.hmos.camera",
+      "abilityName": "com.huawei.hmos.camera.MainAbility",
+      "moduleName": "phone",
+      "container": -101,
+      "typeId": 0,
+      "column": 3
+    },
+    {
+      "bundleName": "com.huawei.hmsapp.totemweather",
+      "abilityName": "FormAbility",
+      "moduleName": "product",
+      "cardName": "ClockWeatherCard",
+      "formConfigAbility": "ability://com.huawei.hmsapp.totemweather.MainAbility",
+      "container": -100,
+      "cardDimension": 3,
+      "isTransparent": true,
+      "typeId": 1,
+      "area": [
+        4,
+        2
+      ],
+      "page": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "bundleName": "com.huawei.hmos.health",
+      "abilityName": "Step_card_entryFormAbility",
+      "moduleName": "step_card_entry",
+      "cardDimension": 1,
+      "cardName": "widget",
+      "container": -100,
+      "typeId": 1,
+      "area": [
+        2,
+        1
+      ],
+      "page": 0,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "bundleName": "com.huawei.hmsapp.himovie",
+      "abilityName": "MainAbility",
+      "moduleName": "entry",
+      "container": -100,
+      "typeId": 0,
+      "area": [
+        1,
+        1
+      ],
+      "page": 0,
+      "row": 4,
+      "column": 2
+    },
+    {
+      "bundleName": "com.huawei.hmsapp.music",
+      "abilityName": "MainAbility",
+      "moduleName": "phone",
+      "container": -100,
+      "typeId": 0,
+      "area": [
+        1,
+        1
+      ],
+      "page": 0,
+      "row": 4,
+      "column": 3
+    },
+    {
+      "formStackId": "1716277373533",
+      "container": -100,
+      "cardDimension": 2,
+      "typeId": 6,
+      "area": [
+        2,
+        2
+      ],
+      "page": 0,
+      "row": 3,
+      "column": 0,
+      "layoutInfo": [
+        [
+          {
+            "bundleName": "com.huawei.hmsapp.himovie",
+            "abilityName": "EntryFormAbility",
+            "moduleName": "entry",
+            "cardDimension": 2,
+            "cardName": "2_2_Resume",
+            "formConfigAbility": "",
+            "typeId": 1,
+            "area": [
+              2,
+              2
+            ],
+            "page": 0,
+            "row": 3,
+            "column": 0
+          },
+          {
+            "bundleName": "com.huawei.hmsapp.books",
+            "abilityName": "EntryFormAbility",
+            "moduleName": "HwBooks",
+            "cardDimension": 2,
+            "cardName": "widget",
+            "formConfigAbility": "",
+            "typeId": 1,
+            "area": [
+              2,
+              2
+            ],
+            "page": 0,
+            "row": 3,
+            "column": 0
+          },
+          {
+            "bundleName": "com.huawei.hmos.suggestion",
+            "abilityName": "ParentFormAbility",
+            "moduleName": "entry",
+            "formConfigAbility": "",
+            "cardName": "minCeliaRecCard",
+            "cardDimension": 2,
+            "typeId": 1,
+            "area": [
+              2,
+              2
+            ],
+            "page": 0,
+            "row": 3,
+            "column": 0
+          }
+        ]
+      ]
+    },
+    {
+      "formStackId": "1712993837448",
+      "container": -100,
+      "cardDimension": 3,
+      "typeId": 6,
+      "area": [
+        4,
+        2
+      ],
+      "page": 1,
+      "row": 0,
+      "column": 0,
+      "layoutInfo": [
+        [
+          {
+            "bundleName": "com.huawei.hmos.notepad",
+            "abilityName": "FormAbility",
+            "moduleName": "NotepadPhone",
+            "cardDimension": 3,
+            "cardName": "notesCard2x4ForPhone",
+            "formConfigAbility": "",
+            "typeId": 1,
+            "area": [
+              4,
+              2
+            ],
+            "page": 1,
+            "row": 0,
+            "column": 0
+          },
+          {
+            "bundleName": "com.huawei.hmsapp.totemweather",
+            "abilityName": "FormAbility",
+            "moduleName": "product",
+            "cardDimension": 3,
+            "cardName": "weather",
+            "formConfigAbility": "ability://com.huawei.hmsapp.totemweather.MainAbility",
+            "typeId": 1,
+            "area": [
+              4,
+              2
+            ],
+            "page": 1,
+            "row": 0,
+            "column": 0
+          },
+          {
+            "bundleName": "com.huawei.hmos.calendar",
+            "abilityName": "AllFormAbility",
+            "moduleName": "phone",
+            "cardDimension": 3,
+            "cardName": "AgendaCard2x4",
+            "formConfigAbility": "",
+            "typeId": 1,
+            "area": [
+              4,
+              2
+            ],
+            "page": 1,
+            "row": 0,
+            "column": 0
+          }
+        ]
+      ]
+    },
+    {
+      "bundleName": "com.huawei.hmsapp.appgallery",
+      "abilityName": "MainAbility",
+      "moduleName": "entry",
+      "container": -100,
+      "typeId": 0,
+      "area": [
+        1,
+        1
+      ],
+      "page": 0,
+      "row": 5,
+      "column": 0
+    },
+    {
+      "bundleName": "com.huawei.hmsapp.thememanager",
+      "abilityName": "MainAbility",
+      "moduleName": "entry",
+      "container": -100,
+      "typeId": 0,
+      "area": [
+        1,
+        1
+      ],
+      "page": 0,
+      "row": 5,
+      "column": 1
+    },
+    {
+      "bundleName": "com.huawei.hmos.photos",
+      "abilityName": "com.huawei.hmos.photos.MainAbility",
+      "moduleName": "phone_photos",
+      "container": -100,
+      "typeId": 0,
+      "area": [
+        1,
+        1
+      ],
+      "page": 0,
+      "row": 5,
+      "column": 2
+    },
+    {
+      "bundleName": "com.huawei.hmos.settings",
+      "abilityName": "com.huawei.hmos.settings.MainAbility",
+      "moduleName": "phone_settings",
+      "container": -100,
+      "typeId": 0,
+      "area": [
+        1,
+        1
+      ],
+      "page": 0,
+      "row": 5,
+      "column": 3
+    },
+    {
+      "bundleName": "com.huawei.hmsapp.books",
+      "abilityName": "MainAbility",
+      "moduleName": "HwBooks",
+      "container": -100,
+      "typeId": 0,
+      "area": [
+        1,
+        1
+      ],
+      "page": 1,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "bundleName": "com.huawei.hmos.wallet",
+      "abilityName": "MainAbility",
+      "moduleName": "phone",
+      "container": -100,
+      "typeId": 0,
+      "area": [
+        1,
+        1
+      ],
+      "page": 1,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "bundleName": "com.huawei.hmsapp.gamecenter",
+      "abilityName": "EntryAbility",
+      "moduleName": "entry",
+      "container": -100,
+      "typeId": 0,
+      "area": [
+        1,
+        1
+      ],
+      "page": 1,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "bundleName": "com.huawei.hmos.vmall",
+      "abilityName": "EntranceAbility",
+      "moduleName": "entrance",
+      "container": -100,
+      "typeId": 0,
+      "area": [
+        1,
+        1
+      ],
+      "page": 1,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "bundleName": "com.huawei.hmos.meetime",
+      "abilityName": "MainAbility",
+      "moduleName": "phone",
+      "container": -100,
+      "typeId": 0,
+      "area": [
+        1,
+        1
+      ],
+      "page": 1,
+      "row": 4,
+      "column": 0
+    },
+    {
+      "bundleName": "com.huawei.hmos.ailife",
+      "abilityName": "EntryAbility",
+      "moduleName": "phone",
+      "container": -100,
+      "typeId": 0,
+      "area": [
+        1,
+        1
+      ],
+      "page": 1,
+      "row": 4,
+      "column": 1
+    },
+    {
+      "bundleName": "com.huawei.hmos.notepad",
+      "abilityName": "MainAbility",
+      "moduleName": "NotepadPhone",
+      "container": -100,
+      "typeId": 0,
+      "area": [
+        1,
+        1
+      ],
+      "page": 1,
+      "row": 4,
+      "column": 2
+    },
+    {
+      "bundleName": "com.huawei.hmos.clock",
+      "abilityName": "com.huawei.hmos.clock.phone",
+      "moduleName": "entry",
+      "container": -100,
+      "typeId": 0,
+      "area": [
+        1,
+        1
+      ],
+      "page": 1,
+      "row": 4,
+      "column": 3
+    },
+    {
+      "folderId": "lkqkw4s76q0592qwa4g",
+      "container": -100,
+      "folderName": "实用工具",
+      "typeId": 3,
+      "area": [
+        2,
+        2
+      ],
+      "page": 1,
+      "column": 2,
+      "row": 2,
+      "layoutInfo": [
+        [
+          {
+            "bundleName": "com.huawei.hmos.calendar",
+            "abilityName": "MainAbility",
+            "moduleName": "phone",
+            "typeId": 0,
+            "area": [
+              1,
+              1
+            ],
+            "page": 0,
+            "row": 0,
+            "column": 0
+          },
+          {
+            "bundleName": "com.huawei.hmos.health",
+            "abilityName": "MainAbility",
+            "moduleName": "entry",
+            "typeId": 0,
+            "area": [
+              1,
+              1
+            ],
+            "page": 0,
+            "row": 0,
+            "column": 1
+          },
+          {
+            "bundleName": "com.huawei.hmos.myhuawei",
+            "abilityName": "EntryAbility",
+            "moduleName": "entry",
+            "typeId": 0,
+            "area": [
+              1,
+              1
+            ],
+            "page": 0,
+            "row": 0,
+            "column": 2
+          },
+          {
+            "bundleName": "com.huawei.hmos.calculator",
+            "abilityName": "CalculatorAbility",
+            "moduleName": "phone",
+            "typeId": 0,
+            "area": [
+              1,
+              1
+            ],
+            "page": 0,
+            "row": 1,
+            "column": 1
+          },
+          {
+            "bundleName": "com.huawei.hmos.soundrecorder",
+            "abilityName": "MainAbility",
+            "moduleName": "phone",
+            "typeId": 0,
+            "area": [
+              1,
+              1
+            ],
+            "page": 0,
+            "row": 1,
+            "column": 1
+          },
+          {
+            "bundleName": "com.huawei.hmos.dataclone",
+            "abilityName": "EntryAbility",
+            "moduleName": "phone",
+            "typeId": 0,
+            "area": [
+              1,
+              1
+            ],
+            "page": 0,
+            "row": 1,
+            "column": 2
+          },
+          {
+            "bundleName": "com.huawei.hmsapp.totemweather",
+            "abilityName": "com.huawei.hmsapp.totemweather.MainAbility",
+            "moduleName": "product",
+            "typeId": 0,
+            "area": [
+              1,
+              1
+            ],
+            "page": 0,
+            "row": 2,
+            "column": 0
+          },
+          {
+            "bundleName": "com.huawei.hmos.finddevice",
+            "abilityName": "EntryAbility",
+            "moduleName": "entry",
+            "typeId": 0,
+            "area": [
+              1,
+              1
+            ],
+            "page": 0,
+            "row": 2,
+            "column": 1
+          },
+          {
+            "bundleName": "com.huawei.hmos.email",
+            "abilityName": "EntryAbility",
+            "moduleName": "entry",
+            "typeId": 0,
+            "area": [
+              1,
+              1
+            ],
+            "page": 0,
+            "row": 2,
+            "column": 2
+          },
+          {
+            "bundleName": "com.huawei.hmos.filemanager",
+            "abilityName": "MainAbility",
+            "moduleName": "phone",
+            "typeId": 0,
+            "area": [
+              1,
+              1
+            ],
+            "page": 0,
+            "row": 3,
+            "column": 0
+          },
+          {
+            "bundleName": "com.huawei.hmos.maps.app",
+            "abilityName": "EntryAbility",
+            "moduleName": "entry",
+            "typeId": 0,
+            "area": [
+              1,
+              1
+            ],
+            "page": 0,
+            "row": 3,
+            "column": 1
+          },
+          {
+            "bundleName": "com.huawei.hmos.tips",
+            "abilityName": "IndexAbility",
+            "moduleName": "phone",
+            "typeId": 0,
+            "area": [
+              1,
+              1
+            ],
+            "page": 0,
+            "row": 3,
+            "column": 2
+          },
+          {
+            "bundleName": "com.huawei.hmsapp.compass",
+            "abilityName": "EntryAbility",
+            "moduleName": "entry",
+            "typeId": 0,
+            "area": [
+              1,
+              1
+            ],
+            "page": 1,
+            "row": 0,
+            "column": 0
+          },
+          {
+            "bundleName": "com.huawei.hmsapp.litegames",
+            "abilityName": "EntryAbility",
+            "moduleName": "entry",
+            "typeId": 0,
+            "area": [
+              1,
+              1
+            ],
+            "page": 1,
+            "row": 0,
+            "column": 1
+          },
+          {
+            "bundleName": "com.huawei.hmos.suggestion",
+            "abilityName": "EntryAbility",
+            "moduleName": "entry",
+            "typeId": 0,
+            "area": [
+              1,
+              1
+            ],
+            "page": 1,
+            "row": 0,
+            "column": 2
+          },
+          {
+            "bundleName": "com.huawei.hmos.betaclub",
+            "abilityName": "MainAbility",
+            "moduleName": "phone",
+            "typeId": 0,
+            "area": [
+              1,
+              1
+            ],
+            "page": 1,
+            "row": 1,
+            "column": 0
+          },
+          {
+            "bundleName": "com.huawei.hmsapp.samplemanagement",
+            "abilityName": "MainAbility",
+            "moduleName": "entry",
+            "typeId": 0,
+            "area": [
+              1,
+              1
+            ],
+            "page": 1,
+            "row": 1,
+            "column": 1
+          },
+          {
+            "bundleName": "com.huawei.hmos.fut",
+            "abilityName": "EntryAbility",
+            "moduleName": "entry",
+            "typeId": 0,
+            "area": [
+              1,
+              1
+            ],
+            "page": 1,
+            "row": 1,
+            "column": 2
+          }
+        ]
+      ]
+    }
+  ]
+}

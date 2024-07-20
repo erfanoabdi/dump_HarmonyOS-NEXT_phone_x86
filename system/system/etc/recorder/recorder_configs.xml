@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright (C) 2022 Huawei Device Co., Ltd.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     Itemations under the License.
+-->
+<RecorderConfigurations>
+    <RecorderProfiles>
+        <CameraRecorder cameraId="0">
+            <ProfileSettings quality="low" format="mp4" duration="30">
+                <Video codecMime="video/mp4v-es"
+                       bitrate="192000"
+                       width="176"
+                       height="144"
+                       frameRate="30"/>
+
+                <Audio codecMime="audio/mp4a-latm"
+                       bitrate="96000"
+                       sampleRate="48000"
+                       channels="2"/>
+            </ProfileSettings>
+
+            <ProfileSettings quality="high" format="mp4" duration="30">
+                <Video codecMime="video/mp4v-es"
+                       bitrate="17000000"
+                       width="1920"
+                       height="1080"
+                       frameRate="30"/>
+
+                <Audio codecMime="audio/mp4a-latm"
+                       bitrate="192000"
+                       sampleRate="48000"
+                       channels="2"/>
+            </ProfileSettings>
+
+            <ProfileSettings quality="qcif" format="mp4" duration="30">
+                <Video codecMime="video/mp4v-es"
+                       bitrate="192000"
+                       width="176"
+                       height="144"
+                       frameRate="30"/>
+
+                <Audio codecMime="audio/mp4a-latm"
+                       bitrate="96000"
+                       sampleRate="48000"
+                       channels="2"/>
+            </ProfileSettings>
+
+            <ProfileSettings quality="qvga" format="mp4" duration="30">
+                <Video codecMime="video/mp4v-es"
+                       bitrate="1200000"
+                       width="320"
+                       height="240"
+                       frameRate="30"/>
+
+                <Audio codecMime="audio/mp4a-latm"
+                       bitrate="96000"
+                       sampleRate="48000"
+                       channels="2"/>
+            </ProfileSettings>
+
+            <ProfileSettings quality="cif" format="mp4" duration="30">
+                <Video codecMime="video/mp4v-es"
+                       bitrate="1536000"
+                       width="352"
+                       height="288"
+                       frameRate="30"/>
+
+                <Audio codecMime="audio/mp4a-latm"
+                       bitrate="96000"
+                       sampleRate="48000"
+                       channels="2"/>
+            </ProfileSettings>
+
+            <ProfileSettings quality="480p" format="mp4" duration="30">
+                <Video codecMime="video/mp4v-es"
+                       bitrate="5000000"
+                       width="640"
+                       height="480"
+                       frameRate="30"/>
+
+                <Audio codecMime="audio/mp4a-latm"
+                       bitrate="96000"
+                       sampleRate="48000"
+                       channels="2"/>
+            </ProfileSettings>
+
+            <ProfileSettings quality="720p" format="mp4" duration="30">
+                <Video codecMime="video/mp4v-es"
+                       bitrate="12000000"
+                       width="1280"
+                       height="720"
+                       frameRate="30"/>
+
+                <Audio codecMime="audio/mp4a-latm"
+                       bitrate="192000"
+                       sampleRate="48000"
+                       channels="2"/>
+            </ProfileSettings>
+
+            <ProfileSettings quality="1080p" format="mp4" duration="30">
+                <Video codecMime="video/mp4v-es"
+                       bitrate="17000000"
+                       width="1920"
+                       height="1080"
+                       frameRate="30"/>
+
+                <Audio codecMime="audio/mp4a-latm"
+                       bitrate="192000"
+                       sampleRate="48000"
+                       channels="2"/>
+            </ProfileSettings>
+        </CameraRecorder>
+    </RecorderProfiles>
+
+    <RecorderCaps>
+        <ContainerFormat name="mp4" hasVideo="true"/>
+        <ContainerFormat name="m4a" hasVideo="false"/>
+
+        <VideoEncoderCaps codecMime="video/mp4v-es"
+                          bitrate="1-3000000"
+                          width="2-1920"
+                          height="2-1080"
+                          frameRate="1-30"/>
+
+        <VideoEncoderCaps codecMime="video/avc"
+                          bitrate="1-3000000"
+                          width="2-1920"
+                          height="2-1080"
+                          frameRate="1-30"/>
+
+        <AudioEncoderCaps codecMime="audio/mp4a-latm"
+                          bitrate="1-384000"
+                          sampleRate="8000,11025,12000,16000,22050,24000,32000,44100,48000,64000,88200,96000"
+                          channels="1-2"/>
+
+    </RecorderCaps>
+</RecorderConfigurations>

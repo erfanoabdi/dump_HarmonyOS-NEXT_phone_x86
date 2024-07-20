@@ -1,0 +1,58 @@
+[
+  {
+    "sourceModule": "com.huawei.android.instantshare",
+    "targetModule": "com.huawei.hmos.instantshare",
+    "migrateData": "1"
+  },
+  {
+    "sourceModule": "com.huawei.deskclock",
+    "targetModule": "com.huawei.hmos.clock",
+    "migrateData": "1"
+  },
+  {
+    "sourceModule": "com.huawei.search",
+    "targetModule": "com.huawei.hmsapp.hisearch",
+    "migrateData": "1"
+  },
+  {
+    "sourceModule": "com.huawei.android.totemweather",
+    "targetModule": "com.huawei.hmsapp.totemweather",
+    "migrateData": "1"
+  },
+  {
+    "sourceModule": "com.huawei.browser",
+    "targetModule": "com.huawei.hmos.browser",
+    "migrateData": "1"
+  },
+  {
+    "sourceModule": "com.huawei.phone.recorder",
+    "targetModule": "com.huawei.hmos.callrecorder",
+    "migrateData": "1"
+  },
+  {
+    "sourceModule": "com.huawei.soundrecorder",
+    "targetModule": "com.huawei.hmos.soundrecorder",
+    "migrateData": "1"
+  },
+  {
+    "sourceModule": "com.huawei.meetime",
+    "targetModule": "com.huawei.hmos.meetimeservice",
+    "migrateData": "1",
+    "maxRestoreTime": "3600"
+  },
+  {
+    "sourceModule": "com.huawei.securitymgr",
+    "targetModule": "com.huawei.hmos.passwordvault",
+    "migrateData": "1"
+  },
+  {
+    "sourceModule": "com.huawei.wallet",
+    "targetModule": "com.huawei.hmos.wallet",
+    "migrateData": "1"
+  },
+  {
+    "sourceModule": "com.huawei.hidisk",
+    "targetModule": "com.huawei.hmos.clouddrive",
+    "migrateData": "1"
+  }
+]

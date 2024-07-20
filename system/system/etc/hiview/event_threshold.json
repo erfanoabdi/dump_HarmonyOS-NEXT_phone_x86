@@ -1,0 +1,551 @@
+{
+    "Beta": {
+        "Common": {
+            "FAULT": 100,
+            "STATISTIC": 100,
+            "SECURITY": 100,
+            "BEHAVIOR": 2000
+        },
+        "Custom": {
+            "HIVIEWDFX": {
+                "APP_USAGE": 200,
+                "XPOWER_STACKTRACE": 5000
+            },
+            "GRAPHIC": {
+                "INTERACTION_COMPLETED_LATENCY": 4000,
+                "INTERACTION_RENDER_JANK": 4000,
+                "JANK_STATS_RS": 4000,
+                "INTERACTION_RESPONSE_LATENCY": 4000,
+                "INTERACTION_HITCH_TIME_RATIO": 4000,
+                "EPS_LCD_FRAME_RATE": 5000,
+                "EPS_LCD_FREQ": 5000,
+                "FOSS_STATE": 5000
+            },
+            "ACE": {
+                "INTERACTION_COMPLETED_LATENCY": 4000,
+                "INTERACTION_APP_JANK": 4000,
+                "JANK_STATS_APP": 2000,
+                "JANK_FRAME_FILTERED": 4000,
+                "UI_BLOCK_3S": 2000,
+                "UI_BLOCK_6S": 2000
+            },
+            "PERFORMANCE": {
+                "INTERACTION_JANK": 4000
+            },
+            "MIGRATESERVER": {
+                "APP_DOWNLOAD_FAIL": 200,
+                "APP_INSTALL_FAIL": 200,
+                "DATA_MOVE_FAIL": 200,
+                "DATA_RESTORE_FAIL": 200
+            },
+            "DISTDM": {
+                "DM_DISCOVER_BEHAVIOR": 3000,
+                "DM_AUTHCATION_BEHAVIOR": 3000
+            },
+            "LOCATION": {
+                "LBS_CHR_INNER_EVENT": 2000,
+                "SWITCH_STATE": 5000,
+                "GNSS_STATE": 5000
+            },
+            "DEVICE_PROFILE": {
+                "DP_DATA_OPERATE_BEHAVIOR": 3000
+            },
+            "USERIAM_FWK": {
+                "USERIAM_USER_AUTH_FWK": 300
+            },
+            "USERIAM_FWK_HDF": {
+                "USERIAM_USER_AUTH_HDF": 300
+            },
+            "RELIABILITY": {
+                "ADDR_SANITIZER": 2000,
+                "CPP_CRASH": 2000,
+                "APP_FREEZE": 2000,
+                "SYS_FREEZE": 2000
+            },
+            "AAFWK": {
+                "JS_ERROR": 2000,
+                "APP_INPUT_BLOCK": 2000,
+                "THREAD_BLOCK_3S": 2000,
+                "THREAD_BLOCK_6S": 2000,
+                "LIFECYCLE_TIMEOUT": 2000,
+                "LIFECYCLE_HALF_TIMEOUT": 2000,
+                "APP_LIFECYCLE_TIMEOUT": 2000,
+                "APP_BACKGROUND": 5000,
+                "APP_FOREGROUND": 5000
+            },
+            "WINDOWMANAGER": {
+                "ANIMATION_CALLBACK_TIMEOUT": 2000,
+                "WINDOW_ANIMATION_ABNORMAL": 2000,
+                "NO_FOCUS_WINDOW": 2000,
+                "GET_DISPLAY_SNAPSHOT": 2000,
+                "CREATE_VIRTUAL_SCREEN": 2000,
+                "REPEAT_SET_UI_NODE_ID": 2000,
+                "DISPLAY_MODE": 5000,
+                "NOTIFY_FOLD_STATE_CHANGE": 5000,
+                "FOCUS_WINDOW": 5000
+            },
+            "MULTIMODALINPUT": {
+                "APPLICATION_BLOCK_INPUT": 2000,
+                "LID_SWITCH": 5000
+            },
+            "FRAMEWORK": {
+                "SERVICE_BLOCK": 2000,
+                "SERVICE_WARNING": 2000,
+                "SERVICE_TIMEOUT": 2000,
+                "IPC_FULL": 2000,
+                "HIT_EMPTY_WARNING": 2000
+            },
+            "POWER": {
+                "SCREEN_ON_TIMEOUT": 2000,
+                "STATE": 5000,
+                "DO_SUSPEND": 5000,
+                "SCREEN": 5000
+            },
+            "FORM_MANAGER": {
+                "FORM_RENDER_BLOCK": 2000
+            },
+            "FFRT": {
+                "SERIAL_TASK_TIMEOUT": 2000,
+                "TASK_DEADLOCK": 2000
+            },
+            "BLUETOOTH": {
+                "BR_SWITCH_STATE": 5000,
+                "BLE_SWITCH_STATE": 5000,
+                "DISCOVERY_STATE": 5000,
+                "A2DP_CONNECTED_STATE": 5000,
+                "HFP_CONNECTED_STATE": 5000,
+                "GATT_SERVER_CONN_STATE": 5000,
+                "GATT_CLIENT_CONN_STATE": 5000,
+                "BLE_SCAN_START": 5000,
+                "BLE_SCAN_STOP": 5000,
+                "BLE_SCAN_DUTY_CYCLE": 5000
+            },
+            "BT_SERVICE": {
+                "BR_SWITCH_STATE": 5000,
+                "BLE_SWITCH_STATE": 5000,
+                "DISCOVERY_STATE": 5000,
+                "A2DP_CONNECTED_STATE": 5000,
+                "HFP_CONNECTED_STATE": 5000,
+                "GATT_SERVER_CONN_STATE": 5000,
+                "GATT_CLIENT_CONN_STATE": 5000,
+                "BLE_SCAN_START": 5000,
+                "BLE_SCAN_STOP": 5000,
+                "BLE_SCAN_DUTY_CYCLE": 5000
+            },
+            "BACKGROUND_TASK": {
+                "TRANSIENT_TASK_APPLY": 5000,
+                "TRANSIENT_TASK_CANCEL": 5000,
+                "CONTINUOUS_TASK_APPLY": 5000,
+                "CONTINUOUS_TASK_CANCEL": 5000,
+                "RESOURCE_MISUSE_RECORD": 5000
+            },
+            "WORKSCHEDULER": {
+                "WORK_ADD": 5000,
+                "WORK_REMOVE": 5000,
+                "WORK_START": 5000,
+                "WORK_STOP": 5000
+            },
+            "COMMUNICATION": {
+                "WIFI_STATE": 5000,
+                "WIFI_CONNECTION": 5000,
+                "WIFI_SCAN": 5000,
+                "WIFI_EVENT_RECEIVED": 5000,
+                "WIFI_AP_STATE": 5000,
+                "WIFI_P2P_STATE": 5000,
+                "WIFI_ABNORMAL_WAKE_UP": 5000,
+                "WIFI_SIGNAL": 5000,
+                "WIFI_CHR_EVENT": 10000,
+                "BROWSER_FAILED_FOR_PORTAL": 1000,
+                "IPV6_ADDRESS_CONFIG_FAILED": 1000,
+                "P2P_ABNORMAL_DISCONNECT": 2000,
+                "P2P_CONNECT_FAIL": 2000,
+                "SOFTAP_ABNORMAL_DISCONNECT": 1000,
+                "SOFTAP_CONNECT_FAILED": 1000,
+                "SOFTAP_OPEN_AND_CLOSE_FAILED": 1000,
+                "WIFIENCRY_OR_DECRY_FAIL": 1000,
+                "WIFISCANCONTROL_TRIGGER_API_FAIL": 2000,
+                "WIFI_ABDISCONNECT": 5000,
+                "WIFI_ACCESS_INTERNET_FAILED": 5000,
+                "WIFI_ACCESS_INTERNET_SLOW": 3000,
+                "WIFI_AUTO_RECONNECT_FAILED": 2000,
+                "WIFI_CONFIG_ENCRYPTION_ERR_INFO": 1000,
+                "WIFI_CONNECT_FAILED": 5000,
+                "WIFI_OPEN_AND_CLOSE_FAILED": 5000,
+                "DISCONNECTED_BECAUSE_OF_SELF_CURE_WIFI": 1000,
+                "P2P_CONNECT_STATICS": 1000,
+                "PORTAL_AUTH_EXPIRED": 1000,
+                "PORTAL_DETECTION_ACCURACY_INFO": 1000,
+                "USER_CLOSE_WIFI_NET_INFO": 1000,
+                "USER_CON_OTHER_WIFI_STATUS": 1000,
+                "WIFI_KPI": 1000,
+                "WIFI_KPI_SSID": 1000
+            },
+            "AUDIO": {
+                "DEVICE_CHANGE": 5000,
+                "VOLUME_CHANGE": 5000,
+                "STREAM_CHANGE": 5000,
+                "HEADSET_CHANGE": 5000,
+                "SMARTPA_LOWPOWER": 5000
+            },
+            "CAMERA": {
+                "CAMERA_CONNECT": 5000,
+                "CAMERA_DISCONNECT": 5000,
+                "CAMERA_CONFIG": 5000,
+                "TORCH_STATE": 5000,
+                "FLASHLIGHT_ON": 5000,
+                "FLASHLIGHT_OFF": 5000
+            },
+            "CAMERA_HAL": {
+                "CAM_OHOS_CONFIG": 5000,
+                "CAM_OHOS_UNCONFIG": 5000,
+                "CAM_OHOS_FLASHLIGHT_STATE": 5000
+            },
+            "KERNEL_XPOWER": {
+                "APP_WAKEUP": 5000,
+                "BATTERY_ADJUST": 5000,
+                "BATTERY_SLEEP_CURRENT": 5000,
+                "EPS_LCD_FREQ": 5000,
+                "FOLD_STATE": 5000,
+                "FREEZING_FAILED": 5000,
+                "HAPTIC_DURATION": 5000,
+                "KERNEL_RESUME": 5000,
+                "KERNEL_SUSPEND": 5000,
+                "MODEM_PACKET_WAKEUP_TCP_V4": 5000,
+                "MODEM_PACKET_WAKEUP_UDP_V4": 5000,
+                "PACKET_WAKEUP": 5000,
+                "PACKET_WAKEUP_TCP_V4": 5000,
+                "PACKET_WAKEUP_UDP_V4": 5000,
+                "POSTURE_STATE": 5000,
+                "POWER_OFF_LEAK": 5000,
+                "RTC_WAKEUP": 5000,
+                "SUSPEND_ABORT": 5000,
+                "AP_WAKE_IRQ": 5000,
+                "SCREEN_ON_EVENT": 5000,
+                "SENSORHUB_WAKEUP": 5000,
+                "WAKE_STATUS": 5000
+            },
+            "CONTAINER": {
+                "CONTAINER_COMMAND": 5000
+            },
+            "CHR": {
+                "MODEM_LOG_EVENT": 5000
+            },
+            "LAUNCHER_APP": {
+                "FACE_UNLOCK": 5000
+            },
+            "FINGERPRINT": {
+                "FP_DUBAI_POWER_TEST": 5000
+            },
+            "TIME": {
+                "MISC_TIME_STATISTIC_REPORT": 5000
+            },
+            "TELEPHONY": {
+                "NETWORK_REGISTER": 5000,
+                "SIGNAL_LEVEL": 5000
+            },
+            "BATTERY": {
+                "CHANGED": 5000
+            },
+            "DISPLAY": {
+                "AMBIENT_LIGHT": 5000,
+                "BACKLIGHT_DISCOUNT": 5000,
+                "BRIGHTNESS_NIT": 5000,
+                "SCREEN_STATE": 5000
+            },
+            "THERMAL": {
+                "ACTION_TRIGGERED": 600,
+                "LEVEL_CHANGED": 600
+            }
+        }
+    },
+    "Commercial": {
+        "Common": {
+            "FAULT": 20,
+            "STATISTIC": 20,
+            "SECURITY": 20,
+            "BEHAVIOR": 100
+        },
+        "Custom": {
+            "HIVIEWDFX": {
+                "APP_USAGE": 200,
+                "SYS_USAGE": 50,
+                "XPOWER_STACKTRACE": 5000
+            },
+            "GRAPHIC": {
+                "INTERACTION_RESPONSE_LATENCY": 2000,
+                "FIRST_FRAME_DRAWN": 2000,
+                "INTERACTION_COMPLETED_LATENCY": 2000,
+                "INTERACTION_RENDER_JANK": 4000,
+                "JANK_STATS_RS": 4000,
+                "EPS_LCD_FRAME_RATE": 5000,
+                "EPS_LCD_FREQ": 5000,
+                "FOSS_STATE": 5000
+            },
+            "ACE": {
+                "INTERACTION_COMPLETED_LATENCY": 2000,
+                "INTERACTION_APP_JANK": 4000,
+                "JANK_STATS_APP": 2000,
+                "JANK_FRAME_FILTERED": 4000,
+                "UI_BLOCK_3S": 2000,
+                "UI_BLOCK_6S": 2000
+            },
+            "PERFORMANCE": {
+                "ABILITY_OR_PAGE_SWITCH": 2000,
+                "APP_START": 2000,
+                "INTERACTION_JANK": 4000
+            },
+            "AAFWK": {
+                "DRAWN_COMPLETED": 2000,
+                "START_ABILITY": 2000,
+                "APP_STARTUP_TYPE": 2000,
+                "PROCESS_START": 2000,
+                "APP_ATTACH": 2000,
+                "APP_BACKGROUND": 5000,
+                "APP_FOREGROUND": 5000,
+                "ABILITY_ONFOREGROUND": 2000,
+                "JS_ERROR": 2000,
+                "APP_INPUT_BLOCK": 2000,
+                "THREAD_BLOCK_3S": 2000,
+                "THREAD_BLOCK_6S": 2000,
+                "LIFECYCLE_TIMEOUT": 2000,
+                "LIFECYCLE_HALF_TIMEOUT": 2000,
+                "APP_LIFECYCLE_TIMEOUT": 2000
+            },
+            "WINDOWMANAGER": {
+                "START_WINDOW": 2000,
+                "ANIMATION_CALLBACK_TIMEOUT": 2000,
+                "WINDOW_ANIMATION_ABNORMAL": 2000,
+                "NO_FOCUS_WINDOW": 2000,
+                "GET_DISPLAY_SNAPSHOT": 2000,
+                "CREATE_VIRTUAL_SCREEN": 2000,
+                "REPEAT_SET_UI_NODE_ID": 2000,
+                "DISPLAY_MODE": 5000,
+                "NOTIFY_FOLD_STATE_CHANGE": 5000,
+                "FOCUS_WINDOW": 5000
+            },
+            "MIGRATESERVER": {
+                "APP_DOWNLOAD_FAIL": 200,
+                "APP_INSTALL_FAIL": 200,
+                "DATA_MOVE_FAIL": 200,
+                "DATA_RESTORE_FAIL": 200
+            },
+            "MIGRATESERVER_UE": {
+                "SET_DISPOSE_STATUS": 800,
+                "APP_DOWNLOAD_START": 400,
+                "APP_DOWNLOAD_END": 400,
+                "DATA_MOVE_START": 400,
+                "DATA_MOVE_END": 400,
+                "DATA_RESTORE_START": 400,
+                "DATA_RESTORE_END": 400,
+                "SINGLE_TASK_END": 400
+            },
+            "RSS": {
+                "APP_CGROUP_CHANGE": 2000
+            },
+            "DISTDM": {
+                "DM_DISCOVER_BEHAVIOR": 200,
+                "DM_AUTHCATION_BEHAVIOR": 200
+            },
+            "DEVICE_PROFILE": {
+                "DP_DATA_OPERATE_BEHAVIOR": 200
+            },
+            "USERIAM_FACE_HDF": {
+                "FACE_AUTH": 100
+            },
+            "USERIAM_FWK": {
+                "USERIAM_USER_AUTH_FWK": 300
+            },
+            "USERIAM_FWK_HDF": {
+                "USERIAM_USER_AUTH_HDF": 300
+            },
+            "USERIAM_FP_HDF": {
+                "FINGERPRINT_AUTH": 100
+            },
+            "USERIAM_PIN_HDF": {
+                "PIN_AUTH_HDF": 100
+            },
+            "RELIABILITY": {
+                "ADDR_SANITIZER": 2000,
+                "CPP_CRASH": 2000,
+                "APP_FREEZE": 2000,
+                "SYS_FREEZE": 2000
+            },
+            "MULTIMODALINPUT": {
+                "APPLICATION_BLOCK_INPUT": 2000,
+                "LID_SWITCH": 5000
+            },
+            "FRAMEWORK": {
+                "SERVICE_BLOCK": 2000,
+                "SERVICE_WARNING": 2000,
+                "SERVICE_TIMEOUT": 2000,
+                "IPC_FULL": 2000,
+                "HIT_EMPTY_WARNING": 2000
+            },
+            "POWER": {
+                "SCREEN_ON_TIMEOUT": 2000,
+                "STATE": 5000,
+                "DO_SUSPEND": 5000,
+                "SCREEN": 5000
+            },
+            "FORM_MANAGER": {
+                "FORM_RENDER_BLOCK": 2000
+            },
+            "FFRT": {
+                "SERIAL_TASK_TIMEOUT": 2000,
+                "TASK_DEADLOCK": 2000
+            },
+            "LOCATION": {
+                "SWITCH_STATE": 5000,
+                "GNSS_STATE": 5000
+            },
+            "BLUETOOTH": {
+                "BR_SWITCH_STATE": 5000,
+                "BLE_SWITCH_STATE": 5000,
+                "DISCOVERY_STATE": 5000,
+                "A2DP_CONNECTED_STATE": 5000,
+                "HFP_CONNECTED_STATE": 5000,
+                "GATT_SERVER_CONN_STATE": 5000,
+                "GATT_CLIENT_CONN_STATE": 5000,
+                "BLE_SCAN_START": 5000,
+                "BLE_SCAN_STOP": 5000,
+                "BLE_SCAN_DUTY_CYCLE": 5000
+            },
+            "BT_SERVICE": {
+                "BR_SWITCH_STATE": 5000,
+                "BLE_SWITCH_STATE": 5000,
+                "DISCOVERY_STATE": 5000,
+                "A2DP_CONNECTED_STATE": 5000,
+                "HFP_CONNECTED_STATE": 5000,
+                "GATT_SERVER_CONN_STATE": 5000,
+                "GATT_CLIENT_CONN_STATE": 5000,
+                "BLE_SCAN_START": 5000,
+                "BLE_SCAN_STOP": 5000,
+                "BLE_SCAN_DUTY_CYCLE": 5000
+            },
+            "BACKGROUND_TASK": {
+                "TRANSIENT_TASK_APPLY": 5000,
+                "TRANSIENT_TASK_CANCEL": 5000,
+                "CONTINUOUS_TASK_APPLY": 5000,
+                "CONTINUOUS_TASK_CANCEL": 5000,
+                "RESOURCE_MISUSE_RECORD": 5000
+            },
+            "WORKSCHEDULER": {
+                "WORK_ADD": 5000,
+                "WORK_REMOVE": 5000,
+                "WORK_START": 5000,
+                "WORK_STOP": 5000
+            },
+            "COMMUNICATION": {
+                "WIFI_STATE": 5000,
+                "WIFI_CONNECTION": 5000,
+                "WIFI_SCAN": 5000,
+                "WIFI_EVENT_RECEIVED": 5000,
+                "WIFI_AP_STATE": 5000,
+                "WIFI_P2P_STATE": 5000,
+                "WIFI_ABNORMAL_WAKE_UP": 5000,
+                "WIFI_SIGNAL": 5000,
+                "WIFI_CHR_EVENT": 10000,
+                "BROWSER_FAILED_FOR_PORTAL": 1000,
+                "IPV6_ADDRESS_CONFIG_FAILED": 1000,
+                "P2P_ABNORMAL_DISCONNECT": 2000,
+                "P2P_CONNECT_FAIL": 2000,
+                "SOFTAP_ABNORMAL_DISCONNECT": 1000,
+                "SOFTAP_CONNECT_FAILED": 1000,
+                "SOFTAP_OPEN_AND_CLOSE_FAILED": 1000,
+                "WIFIENCRY_OR_DECRY_FAIL": 1000,
+                "WIFISCANCONTROL_TRIGGER_API_FAIL": 2000,
+                "WIFI_ABDISCONNECT": 5000,
+                "WIFI_ACCESS_INTERNET_FAILED": 5000,
+                "WIFI_ACCESS_INTERNET_SLOW": 3000,
+                "WIFI_AUTO_RECONNECT_FAILED": 2000,
+                "WIFI_CONFIG_ENCRYPTION_ERR_INFO": 1000,
+                "WIFI_CONNECT_FAILED": 5000,
+                "WIFI_OPEN_AND_CLOSE_FAILED": 5000,
+                "DISCONNECTED_BECAUSE_OF_SELF_CURE_WIFI": 1000,
+                "P2P_CONNECT_STATICS": 1000,
+                "PORTAL_AUTH_EXPIRED": 1000,
+                "PORTAL_DETECTION_ACCURACY_INFO": 1000,
+                "USER_CLOSE_WIFI_NET_INFO": 1000,
+                "USER_CON_OTHER_WIFI_STATUS": 1000,
+                "WIFI_KPI": 1000,
+                "WIFI_KPI_SSID": 1000
+            },
+            "AUDIO": {
+                "DEVICE_CHANGE": 5000,
+                "VOLUME_CHANGE": 5000,
+                "STREAM_CHANGE": 5000,
+                "HEADSET_CHANGE": 5000,
+                "SMARTPA_LOWPOWER": 5000
+            },
+            "CAMERA": {
+                "CAMERA_CONNECT": 5000,
+                "CAMERA_DISCONNECT": 5000,
+                "CAMERA_CONFIG": 5000,
+                "TORCH_STATE": 5000,
+                "FLASHLIGHT_ON": 5000,
+                "FLASHLIGHT_OFF": 5000
+            },
+            "CAMERA_HAL": {
+                "CAM_OHOS_CONFIG": 5000,
+                "CAM_OHOS_UNCONFIG": 5000,
+                "CAM_OHOS_FLASHLIGHT_STATE": 5000
+            },
+            "KERNEL_XPOWER": {
+                "APP_WAKEUP": 5000,
+                "BATTERY_ADJUST": 5000,
+                "BATTERY_SLEEP_CURRENT": 5000,
+                "EPS_LCD_FREQ": 5000,
+                "FOLD_STATE": 5000,
+                "FREEZING_FAILED": 5000,
+                "HAPTIC_DURATION": 5000,
+                "KERNEL_RESUME": 5000,
+                "KERNEL_SUSPEND": 5000,
+                "MODEM_PACKET_WAKEUP_TCP_V4": 5000,
+                "MODEM_PACKET_WAKEUP_UDP_V4": 5000,
+                "PACKET_WAKEUP": 5000,
+                "PACKET_WAKEUP_TCP_V4": 5000,
+                "PACKET_WAKEUP_UDP_V4": 5000,
+                "POSTURE_STATE": 5000,
+                "POWER_OFF_LEAK": 5000,
+                "RTC_WAKEUP": 5000,
+                "SUSPEND_ABORT": 5000,
+                "AP_WAKE_IRQ": 5000,
+                "SCREEN_ON_EVENT": 5000,
+                "SENSORHUB_WAKEUP": 5000,
+                "WAKE_STATUS": 5000
+            },
+            "CONTAINER": {
+                "CONTAINER_COMMAND": 5000
+            },
+            "CHR": {
+                "MODEM_LOG_EVENT": 5000
+            },
+            "LAUNCHER_APP": {
+                "FACE_UNLOCK": 5000
+            },
+            "FINGERPRINT": {
+                "FP_DUBAI_POWER_TEST": 5000
+            },
+            "TIME": {
+                "MISC_TIME_STATISTIC_REPORT": 5000
+            },
+            "TELEPHONY": {
+                "NETWORK_REGISTER": 5000,
+                "SIGNAL_LEVEL": 5000
+            },
+            "BATTERY": {
+                "CHANGED": 5000
+            },
+            "DISPLAY": {
+                "AMBIENT_LIGHT": 5000,
+                "BACKLIGHT_DISCOUNT": 5000,
+                "BRIGHTNESS_NIT": 5000,
+                "SCREEN_STATE": 5000
+            },
+            "THERMAL": {
+                "ACTION_TRIGGERED": 120,
+                "LEVEL_CHANGED": 120
+            }
+        }
+    }
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WEB>
+  <initConfig>
+    <renderConfig>
+      <renderProcessCount>20</renderProcessCount>
+    </renderConfig>
+    <mediaConfig>
+      <backgroundMediaShouldSuspend>true</backgroundMediaShouldSuspend>
+    </mediaConfig>
+    <touchEventConfig>
+      <touchEventShouldRegister>true</touchEventShouldRegister>
+    </touchEventConfig>
+    <settingConfig>
+      <enableWaitForUsername>false</enableWaitForUsername>
+      <enableMaxNumberOfSavedFrames>false</enableMaxNumberOfSavedFrames>
+      <enableNumRasterThreads>false</enableNumRasterThreads>
+      <enableSingleRenderProcess>false</enableSingleRenderProcess>
+      <enableSimpleBackendIsDefault>true</enableSimpleBackendIsDefault>
+      <enableEmbedMode>false</enableEmbedMode>
+      <enableWebViewImplForLargeScreen>false</enableWebViewImplForLargeScreen>
+      <enableDeleteUnusedResourcesDelay>false</enableDeleteUnusedResourcesDelay>
+      <enableSetHttpCacheMaxSize>true</enableSetHttpCacheMaxSize>
+      <enableCookieConfigPersistSession>false</enableCookieConfigPersistSession>
+      <enableDoubleTapForPlatform>true</enableDoubleTapForPlatform>
+      <enableHttpCacheSimple>true</enableHttpCacheSimple>
+      <enableIgnoreLockdownMode>false</enableIgnoreLockdownMode>
+      <enablePrinting>false</enablePrinting>
+      <enableCalcTabletMode>true</enableCalcTabletMode>
+    </settingConfig>
+    <userAgentConfig>
+      <userAgentValue>Phone</userAgentValue>
+    </userAgentConfig>
+  </initConfig>
+  <baseWebConfig>
+    <factoryConfig>
+      <factoryLevel>2</factoryLevel>
+    </factoryConfig>
+  </baseWebConfig>
+  <deleteArgsConfig>
+    <outOfProcessGPUConfig>
+      <enableOopGpu>false</enableOopGpu>
+    </outOfProcessGPUConfig>
+  </deleteArgsConfig>
+  <performanceConfig>
+    <flowBufferConfig>
+      <maxFdNumber>50</maxFdNumber>
+    </flowBufferConfig>
+  </performanceConfig>
+  <property_animation_dynamic_settings>
+    <DynamicSettings name="scroll">
+      <SpeedThresholds name="1" min="0" max="-1" preferred_fps="120"/>
+    </DynamicSettings>
+    <DynamicSettings name="fling">
+      <SpeedThresholds name="1" min="77" max="-1" preferred_fps="120"/>
+      <SpeedThresholds name="2" min="25" max="77" preferred_fps="90"/>
+      <SpeedThresholds name="3" min="0" max="25" preferred_fps="60"/>
+    </DynamicSettings>
+  </property_animation_dynamic_settings>
+</WEB>

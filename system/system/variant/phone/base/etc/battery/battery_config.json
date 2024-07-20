@@ -1,0 +1,97 @@
+{
+  "light": {
+    "low": {
+      "soc": [
+        0,
+        10
+      ],
+      "rgb": [
+        255,
+        0,
+        0
+      ]
+    },
+    "normal": {
+      "soc": [
+        10,
+        90
+      ],
+      "rgb": [
+        255,
+        255,
+        0
+      ]
+    },
+    "high": {
+      "soc": [
+        90,
+        100
+      ],
+      "rgb": [
+        0,
+        255,
+        0
+      ]
+    }
+  },
+  "temperature": {
+    "high": 600,
+    "low": -500
+  },
+  "soc": {
+    "shutdown": 1,
+    "critical": 3,
+    "warning": 5,
+    "low": 10,
+    "normal": 90,
+    "high": 99,
+    "full": 100
+  },
+  "charger": {
+    "current_limit": {
+      "path": "/data/service/el0/battery/current_limit"
+    },
+    "voltage_limit": {
+      "path": "/data/service/el0/battery/voltage_limit"
+    },
+    "type": {
+      "path": "/sys/class/hw_power/power_ui/icon_type"
+    }
+  },
+  "charge_scene": {
+    "wireless_tx": {
+      "support": {
+        "path": "sys/class/hw_power/charger/wireless_tx",
+        "type": "dir",
+        "expect_value": ""
+      },
+      "get": {
+        "path": "sys/class/hw_power/charger/wireless_tx/tx_open"
+      },
+      "set": {
+        "path": "sys/class/hw_power/charger/wireless_tx/tx_open"
+      }
+    },
+    "wireless_tx_status": {
+      "get": {
+        "path": "sys/class/hw_power/charger/wireless_tx/tx_status"
+      }
+    }
+  },
+  "event": {
+    "WIRELESS_TX_STATUS=0": "sendcommonevent",
+    "WIRELESS_TX_STATUS=1": "sendcommonevent",
+    "WIRELESS_TX_STATUS=2": "sendcommonevent",
+    "WIRELESS_TX_STATUS=3": "sendcommonevent",
+    "WIRELESS_TX_STATUS=4": "sendcommonevent",
+    "WIRELESS_TX_STATUS=5": "sendcommonevent",
+    "WIRELESS_TX_STATUS=16": "sendcommonevent",
+    "WIRELESS_TX_STATUS=17": "sendcommonevent",
+    "WIRELESS_TX_STATUS=18": "sendcommonevent",
+    "WIRELESS_TX_STATUS=19": "sendcommonevent",
+    "WIRELESS_TX_STATUS=20": "sendcommonevent",
+    "WIRELESS_TX_STATUS=21": "sendcommonevent",
+    "WIRELESS_TX_STATUS=22": "sendcommonevent",
+    "WIRELESS_TX_STATUS=23": "sendcommonevent"
+  }
+}

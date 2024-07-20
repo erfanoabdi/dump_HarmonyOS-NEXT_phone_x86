@@ -1,0 +1,4264 @@
+{
+  "quotas": [
+    {
+      "process_name": "app_default",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 2097152,
+            "duration": 60,
+            "condition": [
+              "foreground"
+            ],
+            "action": "warning"
+          },
+          {
+            "id": 2,
+            "resource_quota": 2097152,
+            "duration": 60,
+            "condition": [
+              "background"
+            ],
+            "action": "kill"
+          }
+        ],
+        "cpu": [
+          {
+            "id": 1,
+            "resource_quota": 100,
+            "duration": 600,
+            "condition": [
+              "background"
+            ],
+            "action": "kill"
+          },
+          {
+            "id": 2,
+            "resource_quota": 75,
+            "duration": 1200,
+            "condition": [
+              "background"
+            ],
+            "action": "kill"
+          },
+          {
+            "id": 3,
+            "resource_quota": 25,
+            "duration": 3600,
+            "condition": [
+              "background"
+            ],
+            "action": "kill"
+          },
+          {
+            "id": 4,
+            "resource_quota": 13,
+            "duration": 7200,
+            "condition": [
+              "background"
+            ],
+            "action": "kill"
+          }
+        ],
+        "io": [
+          {
+            "id": 1,
+            "resource_quota": 2048,
+            "duration": 86400,
+            "condition": [
+              "screen_off&foreground",
+              "background"
+            ],
+            "action": "kill"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "extension_default",
+      "inherit": "",
+      "process_quotas": {
+        "running_time": -1,
+        "cpu": [
+          {
+            "id": 1,
+            "resource_quota": 100,
+            "duration": 600,
+            "condition": [
+              "background"
+            ],
+            "action": "kill"
+          },
+          {
+            "id": 2,
+            "resource_quota": 75,
+            "duration": 1200,
+            "condition": [
+              "background"
+            ],
+            "action": "kill"
+          },
+          {
+            "id": 3,
+            "resource_quota": 25,
+            "duration": 3600,
+            "condition": [
+              "background"
+            ],
+            "action": "kill"
+          },
+          {
+            "id": 4,
+            "resource_quota": 13,
+            "duration": 7200,
+            "condition": [
+              "background"
+            ],
+            "action": "kill"
+          }
+        ],
+        "io": [
+          {
+            "id": 1,
+            "resource_quota": 2048,
+            "duration": 86400,
+            "condition": [
+              "background"
+            ],
+            "action": "kill"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "service_type",
+      "inherit": "",
+      "process_quotas": {
+        "running_time": 10,
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 2097152,
+            "duration": 60,
+            "condition": [
+              "background"
+            ],
+            "action": "kill"
+          }
+        ],
+        "cpu": [
+          {
+            "id": 1,
+            "resource_quota": 100,
+            "duration": 600,
+            "condition": [
+              "background"
+            ],
+            "action": "kill"
+          },
+          {
+            "id": 2,
+            "resource_quota": 75,
+            "duration": 1200,
+            "condition": [
+              "background"
+            ],
+            "action": "kill"
+          },
+          {
+            "id": 3,
+            "resource_quota": 25,
+            "duration": 3600,
+            "condition": [
+              "background"
+            ],
+            "action": "kill"
+          },
+          {
+            "id": 4,
+            "resource_quota": 13,
+            "duration": 7200,
+            "condition": [
+              "background"
+            ],
+            "action": "kill"
+          }
+        ],
+        "io": [
+          {
+            "id": 1,
+            "resource_quota": 2048,
+            "duration": 86400,
+            "condition": [
+              "background"
+            ],
+            "action": "kill"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "inputmethod_type",
+      "inherit": "extension_default",
+      "process_quotas": {
+        "running_time": 10
+      }
+    },
+    {
+      "process_name": "ui_type",
+      "inherit": "extension_default",
+      "process_quotas": {
+        "running_time": 10
+      }
+    },
+    {
+      "process_name": "accessibility",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 11972,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "accesstoken_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 4969,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "accountmgr",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 7840,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "ai_decision",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 921,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "appspawn",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 28660,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "aptouch_daemon",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 32501,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "audio_host",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 39936,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "audio_policy",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 9543,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "av_session",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 9968,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "bgtaskmgr_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 12656,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "blue_host",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 1604,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "bluetooth_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 130183,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "cadaemon",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 2861,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "camera_host",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 61807,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "camera_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 93640,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "codec_host",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 16948,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.example.kik",
+      "inherit": "app_default",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 65534,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          },
+          {
+            "id": 2,
+            "resource_quota": 65534,
+            "duration": 60,
+            "condition": [
+              "background"
+            ],
+            "action": "kill"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.hmos.ouc",
+      "inherit": "app_default",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 83974,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          },
+          {
+            "id": 2,
+            "resource_quota": 83974,
+            "duration": 60,
+            "condition": [
+              "background"
+            ],
+            "action": "kill"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.decl",
+      "inherit": "app_default",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 119144,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          },
+          {
+            "id": 2,
+            "resource_quota": 119144,
+            "duration": 60,
+            "condition": [
+              "background"
+            ],
+            "action": "kill"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.ohos.callui",
+      "inherit": "app_default",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 54692,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          },
+          {
+            "id": 2,
+            "resource_quota": 54692,
+            "duration": 60,
+            "condition": [
+              "background"
+            ],
+            "action": "kill"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.ohos.camera",
+      "inherit": "app_default",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 190682,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          },
+          {
+            "id": 2,
+            "resource_quota": 190682,
+            "duration": 60,
+            "condition": [
+              "background"
+            ],
+            "action": "kill"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.ohos.contacts",
+      "inherit": "app_default",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 86650,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          },
+          {
+            "id": 2,
+            "resource_quota": 86650,
+            "duration": 60,
+            "condition": [
+              "background"
+            ],
+            "action": "kill"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.hmos.clouddrive",
+      "inherit": "app_default",
+      "process_quotas": {
+        "io": [
+          {
+            "id": 1,
+            "resource_quota": 2048,
+            "duration": 86400,
+            "condition": [
+              "screen_off&foreground",
+              "background"
+            ],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "AppGalleryService",
+      "inherit": "app_default",
+      "process_quotas": {
+        "io": [
+          {
+            "id": 1,
+            "resource_quota": 2048,
+            "duration": 86400,
+            "condition": [
+              "screen_off&foreground",
+              "background"
+            ],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.ohos.contactsdataability",
+      "inherit": "app_default",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 35502,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          },
+          {
+            "id": 2,
+            "resource_quota": 35502,
+            "duration": 60,
+            "condition": [
+              "background"
+            ],
+            "action": "kill"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.ohos.launcher",
+      "inherit": "app_default",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 503698,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          },
+          {
+            "id": 2,
+            "resource_quota": 503698,
+            "duration": 60,
+            "condition": [
+              "background"
+            ],
+            "action": "kill"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.ohos.medialibrary.medialibrarydata",
+      "inherit": "app_default",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 163840,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          },
+          {
+            "id": 2,
+            "resource_quota": 163840,
+            "duration": 60,
+            "condition": [
+              "background"
+            ],
+            "action": "kill"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.ohos.mms",
+      "inherit": "app_default",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 200281,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          },
+          {
+            "id": 2,
+            "resource_quota": 200281,
+            "duration": 60,
+            "condition": [
+              "background"
+            ],
+            "action": "kill"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.ohos.note",
+      "inherit": "app_default",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 162088,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          },
+          {
+            "id": 2,
+            "resource_quota": 162088,
+            "duration": 60,
+            "condition": [
+              "background"
+            ],
+            "action": "kill"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.ohos.photos",
+      "inherit": "app_default",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 395220,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          },
+          {
+            "id": 2,
+            "resource_quota": 395220,
+            "duration": 60,
+            "condition": [
+              "background"
+            ],
+            "action": "kill"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.ohos.screenlock",
+      "inherit": "app_default",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 57516,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          },
+          {
+            "id": 2,
+            "resource_quota": 57516,
+            "duration": 60,
+            "condition": [
+              "background"
+            ],
+            "action": "kill"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.ohos.settings",
+      "inherit": "app_default",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 86023,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          },
+          {
+            "id": 2,
+            "resource_quota": 86023,
+            "duration": 60,
+            "condition": [
+              "background"
+            ],
+            "action": "kill"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.ohos.settingsdata",
+      "inherit": "app_default",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 16821,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          },
+          {
+            "id": 2,
+            "resource_quota": 16821,
+            "duration": 60,
+            "condition": [
+              "background"
+            ],
+            "action": "kill"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.ohos.systemui",
+      "inherit": "app_default",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 239376,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          },
+          {
+            "id": 2,
+            "resource_quota": 239376,
+            "duration": 60,
+            "condition": [
+              "background"
+            ],
+            "action": "kill"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.ohos.telephonydataability",
+      "inherit": "app_default",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 47754,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          },
+          {
+            "id": 2,
+            "resource_quota": 47754,
+            "duration": 60,
+            "condition": [
+              "background"
+            ],
+            "action": "kill"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "concurrent_task",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 2358,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "dbms",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 6577,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "dcamera_host",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 4782,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "device_manager",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 20000,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "device_usage_stats_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 32112,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "deviceauth_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 4000,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "deviceinfoservice",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 1700,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "dhardware",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 10585,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "distributeddata",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 67279,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "distributedfile",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 3605,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "distributedsche",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 8541,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "dlp_credential_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 4288,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "download_server",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 36750,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "dslm_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 1832,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "edm",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 12604,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "face_auth_host",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 3070,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "faultloggerd",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 945,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "fingerprint_auth_host",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 8200,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "fms_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 31964,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "foundation",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 48824,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "gralloc_host",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 23086,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "hdcd",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 6613,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "hdf_devmgr",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 1893,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "healthsport_services",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 8192,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "hidumper",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 673,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "hidumper_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 5331,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "hidumperd",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 1583,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "hignss_1105",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 24885,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "hilogd",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 6573,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "hiview",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 60883,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "huks_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 6939,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "hwc_host",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 29908,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "hwservicemanager",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 22881,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "init",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 3641,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "input_user_host",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 1300,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "inputmethod_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 12579,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "installs",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 2585,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "ispserver",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 29602,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "light_host",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 2110,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "location_host",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 5000,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "locationhub",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 18059,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "media_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 160000,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "memmgrservice",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 6018,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "motion_host",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 22265,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "msdp",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 17988,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "multimodalinput",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 11829,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "netmanager",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 63100,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "netsysnative",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 5780,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "nfc_host",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 1600,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "nfc_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 36778,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "nwebspawn",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 15187,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "param_watcher",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 1919,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "pasteboard_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 131072,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "pin_auth_host",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 2930,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "pinauth",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 3284,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "power_host",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 3167,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "privacy_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 3582,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "pulseaudio",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 20136,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "render_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 879296,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "resource_schedule_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 40359,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "riladapter_host",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 10972,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "samgr",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 4934,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "screenlock_server",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 10029,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "security_guard",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 5228,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "sensor_host",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 1758,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "sensors",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 4760,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "sh",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 950,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "socperf_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 22305,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "softbus_server",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 31756,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "storage_daemon",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 6180,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "storage_manager",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 4613,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "teecd",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 890,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "telephony",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 47754,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "thp_extra",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 500,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "time_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 6992,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "tlogcat",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 836,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "token_sync_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 2045,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "udevd",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 2075,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "ueventd",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 1032,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "ui_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 23674,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "uinput_inject",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 1010,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "updater_sa",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 18618,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "upms",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 784,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "usb_host",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 1650,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "usb_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 6787,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "user_auth_host",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 3200,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "useriam",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 7500,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "vibrator_host",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 1657,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "vndservicemanager",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 21723,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "wallpaper_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 7690,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "watchdog_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 450,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "wifi_hal_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 1087,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "wifi_host",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 2380,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "wifi_manager_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 13305,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "wiseplay_host",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 13622,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "work_scheduler_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 22133,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "wpa_supplicant",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 3029,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "se_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 4500,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "cloudfiledaemon",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 30720,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.ohos.sceneboard",
+      "inherit": "app_default",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 740740,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ],
+        "cpu": [
+          {
+            "id": 1,
+            "resource_quota": 100,
+            "duration": 600,
+            "condition": [],
+            "action": "warning"
+          },
+          {
+            "id": 2,
+            "resource_quota": 75,
+            "duration": 1200,
+            "condition": [],
+            "action": "warning"
+          },
+          {
+            "id": 3,
+            "resource_quota": 25,
+            "duration": 3600,
+            "condition": [],
+            "action": "warning"
+          },
+          {
+            "id": 4,
+            "resource_quota": 13,
+            "duration": 7200,
+            "condition": [],
+            "action": "warning"
+          }
+        ],
+        "io": [
+          {
+            "id": 1,
+            "resource_quota": 2048,
+            "duration": 86400,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.ohos.sceneboard:ServiceExtension:KeepAlive",
+      "inherit": "service_type",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 2097152,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ],
+        "cpu": [
+          {
+            "id": 1,
+            "resource_quota": 100,
+            "duration": 600,
+            "condition": [],
+            "action": "warning"
+          },
+          {
+            "id": 2,
+            "resource_quota": 75,
+            "duration": 1200,
+            "condition": [],
+            "action": "warning"
+          },
+          {
+            "id": 3,
+            "resource_quota": 25,
+            "duration": 3600,
+            "condition": [],
+            "action": "warning"
+          },
+          {
+            "id": 4,
+            "resource_quota": 13,
+            "duration": 7200,
+            "condition": [],
+            "action": "warning"
+          }
+        ],
+        "io": [
+          {
+            "id": 1,
+            "resource_quota": 2048,
+            "duration": 86400,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "TA_uDFingerPrint",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 38912,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "allocator_host",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 2606,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "composer_host",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 9428,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "tp_host",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 1292,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "lcd_host",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 1500,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "rfile_user_phone",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 800,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "hiaiserver",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 358400,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "hignss_1105_new",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 20478,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "isplogcat",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 1768,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "isuald",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 5180,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "sleeplogcat",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 832,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "inputlogcat",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 800,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "chargelogcat",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 806,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "bms_event",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 950,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "powerct",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 1118,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "battery_extra_host",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 1130,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "composer_host_ion",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 48762,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "codec_host_ion",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 251360,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "camera_host_ion",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 417640,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.hmos.hiviewx:workScheduler",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 72697,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.hmos.hiviewx(nweb)",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 39760,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "bsoh",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 758,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.hmos.hiviewx",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 74646,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "module_update_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 2616,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "av_codec_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 540262,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "oam_hisi",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 913,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "perfgenius_host",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 12288,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "audio_server",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 55075,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "drm_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 19184,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "hianalytics",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 11023,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "secure_element_host",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 1200,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "hisi_iris_static_cma",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 176128,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "mm_smemheap(algo-cma)",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 260096,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "tiny_cma",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 65536,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "hisi_cma",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 262144,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "fastboot-cma-mem",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 60621,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "aod_dynamic_cma",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 167936,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "hmi_host",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 58663,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "oeminfo_nvme_server",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 897,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "factory_host",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 1170,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "virt_device",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 3412,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "contexthub_ble_host",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 1300,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "huawei_id_svc",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 22938,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "code_protect",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 3935,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.hmos.migrateclient",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 31238,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "migrate_server",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 8074,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "mdmlogparsesvr",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 384,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.hmos.ouc",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 43022,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "aps_manager",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 5508,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "client_cloud_cache_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 3584,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.hmos.mediacontroller",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 95350,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "nearlink_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 9700,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "off_find_host",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 2400,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "nearlink_host",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 2400,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "resource_schedule_executor",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 4096,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "powermgr",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 11315,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "wpa_host",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 5843,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "file_system_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 2701,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "client_cloud_accelerate",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 6000,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "media_cloud_enhance_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 59725,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "media_monitor",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 10240,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "advertising_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 8192,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "oaid_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 6144,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.hms.adsservice",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 80896,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "batterycare_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 5546,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.hmos.walletservice",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 25600,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "rcs_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 32040,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "push_manager_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 19354,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "findnetwork",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 10240,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.hms.myfamily",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 78848,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.hmos.inputmethod:inputMethod",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 139776,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "ColloaborationFwk",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 101960,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.hmos.devicecollaboration",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 94308,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.hmos.huaweicast",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 37546,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "castEngineService",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 43784,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.hmos.instantshare",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 178543,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "caas_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 256000,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.ohos.contacts:staticSubscriber",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 67924,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.hmos.photos",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 619591,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.hmos.camera",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 322945,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.hmos.meetime",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 355142,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.hmos.settings",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 186885,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.hmos.browser",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 1677722,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.hmos.ailifesvc",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 142178,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.hmos.ailife",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 1292277,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.hms.huaweiid",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 215040,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.hms.scanservice",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 70963,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.ohos.hiviewx",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 74646,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.ohos.hiviewx(nweb)",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 39760,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.ohos.hiviewx:workScheduler",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 72697,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.hmos.health",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 501869,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.hmos.health.core:co",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 53453,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "wear_link_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 8192,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.hmos.health.core",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 53453,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "CameraDaemon",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 2831155,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.hms.gameservice",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 68096,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.hms.mapservice",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 121856,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.hms.iap",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 154112,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.hmos.aibase",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 106555,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.hmos.aidataservice",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 86003,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "car_distributed_engine",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 404277,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.hmos.hicar",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 404277,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.hmos.notepad",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 385181,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.hmos.calendar",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 193803,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.hmos.email",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 139554,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "hinetmanager",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 750,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.ohos.sceneboard:EngineServiceAbility:X",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 217410,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "hisecd",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 823,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.huawei.hmos.location",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 36864,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "file_monitor_service.bin",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 3500,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "parent_control_service",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 32808,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "hwsched_host",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 3072,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "hignss_110x_ohos",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 20478,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "lxc-start",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 1719,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "isuald",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 5180,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "CollaborationFwk",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 20480,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "cloudinterfaceauth",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 6144,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    },
+    {
+      "process_name": "com.ohos.formrenderservice",
+      "inherit": "",
+      "process_quotas": {
+        "mem": [
+          {
+            "id": 1,
+            "resource_quota": 569753,
+            "duration": 60,
+            "condition": [],
+            "action": "warning"
+          }
+        ]
+      }
+    }
+  ]
+}

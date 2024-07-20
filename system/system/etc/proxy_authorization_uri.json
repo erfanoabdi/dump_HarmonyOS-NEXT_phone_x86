@@ -1,0 +1,32 @@
+{
+    "proxyAuthorizationUri":
+    [
+        {
+            "bundleName": "ohos.global.systemres"
+        },
+        {
+            "bundleName": "com.ohos.camera"
+        },
+        {
+            "bundleName": "com.ohos.photos"
+        },
+        {
+            "bundleName": "com.ohos.medialibrary.medialibrarydata"
+        },
+        {
+            "bundleName": "com.ohos.filepicker"
+        },
+        {
+            "processName": "foundation"
+        },
+        {
+            "processName": "wallpaper_service"
+        },
+        {
+            "processName": "distributeddata"
+        },
+        {
+            "processName": "pasteboard_service"
+        }
+    ]
+}

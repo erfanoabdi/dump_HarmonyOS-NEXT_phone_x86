@@ -1,0 +1,26 @@
+{
+    "process": "security_guard",
+    "systemability": [
+        {
+            "name": 3523,
+            "libpath": "libsg_classify_service.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 3524,
+            "libpath": "libsg_collect_service.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 3526,
+            "libpath": "libreal_time_detect_service.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        }
+    ]
+}

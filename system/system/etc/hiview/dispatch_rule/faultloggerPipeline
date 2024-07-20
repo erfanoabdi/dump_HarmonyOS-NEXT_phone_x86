@@ -1,0 +1,20 @@
+{
+    "domains": [
+        {
+            "domain": "RELIABILITY",
+            "include": ["CPP_CRASH", "CPP_CRASH_EXCEPTION", "APP_FREEZE", "RUST_PANIC", "ADDR_SANITIZER"]
+        },
+        {
+            "domain": "ACE",
+            "include": ["JS_ERROR"]
+        },
+        {
+            "domain": "AAFWK",
+            "include": ["JS_ERROR"]
+        },
+        {
+            "domain": "STARTUP",
+            "include": ["PROCESS_EXIT"]
+        }
+    ]
+}

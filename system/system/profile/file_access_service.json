@@ -1,0 +1,12 @@
+{
+    "process": "file_access_service",
+    "systemability": [
+        {
+            "name": 5010,
+            "libpath": "libfile_access_service.z.so",
+            "run-on-create": false,
+            "distributed": false,
+            "dump_level": 1
+        }
+    ]
+}

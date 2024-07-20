@@ -1,0 +1,12 @@
+{
+    "process": "accessibility",
+    "systemability": [
+        {
+            "name": 801,
+            "libpath": "libaccessibleabilityms.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        }
+    ]
+}

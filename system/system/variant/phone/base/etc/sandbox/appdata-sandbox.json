@@ -1,0 +1,170 @@
+{
+  "common": [
+    {
+      "top-sandbox-switch": "ON",
+      "app-base": [
+        {
+          "sandbox-root": "/mnt/sandbox/<PackageName>",
+          "mount-paths": [
+            {
+              "src-path": "/version",
+              "sandbox-path": "/version",
+              "sandbox-flags": [
+                "bind",
+                "rec"
+              ],
+              "check-action-status": "false"
+            },
+            {
+              "src-path": "/system/variant",
+              "sandbox-path": "/system/variant",
+              "sandbox-flags": [
+                "bind",
+                "rec"
+              ],
+              "check-action-status": "false"
+            },
+            {
+              "src-path": "/preload",
+              "sandbox-path": "/preload",
+              "sandbox-flags": [
+                "bind",
+                "rec"
+              ],
+              "check-action-status": "false"
+            },
+            {
+              "src-path": "/cust",
+              "sandbox-path": "/cust",
+              "sandbox-flags": [
+                "bind",
+                "rec"
+              ],
+              "check-action-status": "false"
+            }
+          ],
+          "symbol-links": []
+        }
+      ],
+      "app-resources": [
+        {
+          "sandbox-root": "/mnt/sandbox/<PackageName>",
+          "mount-paths": [],
+          "symbol-links": []
+        }
+      ]
+    }
+  ],
+  "individual": [
+    {
+      "com.huawei.hmsapp.intelligent": [
+        {
+          "sandbox-switch": "ON",
+          "sandbox-root": "/mnt/sandbox/<PackageName>",
+          "mount-paths": [
+            {
+              "src-path": "/data/app/el1/bundle/public",
+              "sandbox-path": "/data/bundles/",
+              "sandbox-flags": [
+                "bind",
+                "rec"
+              ],
+              "check-action-status": "true"
+            }
+          ],
+          "symbol-links": []
+        }
+      ],
+      "com.huawei.hmsapp.appgallery": [
+        {
+          "sandbox-switch": "ON",
+          "sandbox-root": "/mnt/sandbox/<PackageName>",
+          "mount-paths": [
+            {
+              "src-path": "/data/app/el1/bundle/public",
+              "sandbox-path": "/data/bundles/",
+              "sandbox-flags": [
+                "bind",
+                "rec"
+              ],
+              "check-action-status": "true"
+            }
+          ],
+          "symbol-links": []
+        }
+      ],
+      "com.huawei.hms.hmscore": [
+        {
+          "sandbox-switch": "ON",
+          "sandbox-root": "/mnt/sandbox/<PackageName>",
+          "mount-paths": [
+            {
+              "src-path": "/data/app/el1/bundle/public",
+              "sandbox-path": "/data/bundles/",
+              "sandbox-flags": [
+                "bind",
+                "rec"
+              ],
+              "check-action-status": "true"
+            }
+          ],
+          "symbol-links": []
+        }
+      ],
+      "com.huawei.hmos.instantshare": [
+        {
+          "sandbox-switch": "ON",
+          "sandbox-root": "/mnt/sandbox/<PackageName>",
+          "mount-paths": [
+            {
+              "src-path": "/data/app/el1/bundle/public/",
+              "sandbox-path": "/data/bundles/",
+              "sandbox-flags": [
+                "bind",
+                "rec"
+              ],
+              "check-action-status": "true"
+            }
+          ],
+          "symbol-links": []
+        }
+      ],
+      "com.huawei.hmos.migrateclient": [
+        {
+          "sandbox-switch": "ON",
+          "sandbox-root": "/mnt/sandbox/<PackageName>",
+          "mount-paths": [
+            {
+              "src-path": "/data/hmos4/update/migrate/",
+              "sandbox-path": "/data/update/migrate/",
+              "sandbox-flags": [
+                "bind",
+                "rec"
+              ],
+              "check-action-status": "true"
+            }
+          ],
+          "symbol-links": []
+        }
+      ],
+      "com.ohos.settingsdata": [
+        {
+          "sandbox-switch": "ON",
+          "sandbox-root": "/mnt/sandbox/<PackageName>",
+          "mount-paths": [
+            {
+              "src-path": "/data/hmos4/system/com.ohos.settingsdata/",
+              "sandbox-path": "/data/migrate/",
+              "sandbox-flags": [
+                "bind",
+                "rec"
+              ],
+              "check-action-status": "false"
+            }
+          ],
+          "symbol-links": []
+        }
+      ]
+    }
+  ]
+}

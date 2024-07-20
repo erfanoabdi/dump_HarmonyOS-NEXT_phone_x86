@@ -1,0 +1,25 @@
+{
+    "sandbox-root" : "/mnt/sandbox/system",
+    "mount-bind-paths" : [{
+            "src-path" : "/system/variant",
+            "sandbox-path" : "/system/variant",
+            "sandbox-flags" : [ "bind", "rec", "private" ]
+        }, {
+            "src-path" : "/cust",
+            "sandbox-path" : "/cust",
+            "sandbox-flags" : [ "bind", "rec", "private" ]
+        }, {
+            "src-path" : "/preload",
+            "sandbox-path" : "/preload",
+            "sandbox-flags" : [ "bind", "rec", "private" ]
+        }, {
+            "src-path" : "/version",
+            "sandbox-path" : "/version",
+            "sandbox-flags" : [ "bind", "rec", "private" ]
+        }, {
+            "src-path" : "/patch_hw",
+            "sandbox-path" : "/patch_hw",
+            "sandbox-flags" : [ "bind", "rec", "private" ]
+        }
+    ]
+}

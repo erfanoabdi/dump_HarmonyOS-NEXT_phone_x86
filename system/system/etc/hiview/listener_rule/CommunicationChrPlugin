@@ -1,0 +1,92 @@
+{
+    "domains": [
+        {
+            "domain": "COMMUNICATION",
+            "include": [
+                "WIFI_CHR_EVENT"
+            ]
+        },
+        {
+            "domain": "NFC",
+            "include": [
+                "OPERATION_FAILED",
+                "OPEN_AND_CLOSE",
+                "TAG_FOUND",
+                "HCE_SWIPE_RESULT",
+                "HCE_DEFAULT_PAYMENT_APP_CHANGE"
+            ]
+        },
+        {
+            "domain": "NFC_EXT",
+            "include": [
+                "AUTO_SWITCH_CA_INIT",
+                "AUTO_SWITCH_CA_ACTIVE",
+                "AUTO_SWITCH_SE_OPEN_CHANNEL",
+                "AUTO_SWITCH_SE_ACTIVE",
+                "AUTO_SWITCH_EXECUTION_FAILED",
+                "AUTO_SWITCH_OPEN_AND_CLOSE",
+                "SUPER_CARD_TYPE",
+                "SUPER_CARD_CLONE_SUCCESS",
+                "HIDOT_TAG_FOUND",
+                "WALLET_ESE_SWIPE",
+                "ROUTE_SWITCH_TYPE_F",
+                "WALLET_HONGKONG_TRAFFIC_SWIPE"
+            ]
+        },
+        {
+            "domain": "SECURE_ELEMENT",
+            "include": [
+                "OPEN_CHANNEL"
+            ]
+        },
+        {
+            "domain": "LOCATION",
+            "include": [
+                "SWITCH_STATE",
+                "GNSS_SESSION",
+                "GNSS_STATE",
+                "LBS_CHR_INNER_EVENT",
+                "LBS_DAILY_RECORD",
+                "POSITION_JUMP_ERROR",
+                "GEOCODE_ERROR",
+                "GNSS_HDI_ERROR",
+                "GNSS_LOST_ERROR",
+                "GNSS_SESSION_RECORD",
+                "LBS_REQUEST_DENY_ERROR",
+                "LBS_REQUEST_TOO_MUCH_ERROR",
+                "NLP_ACC_ERROR",
+                "NLP_TIMEOUT_ERROR",
+                "POSITION_DELAY_ERROR",
+                "LBS_SA_LOAD_RECORD",
+                "SA_LOAD_ERROR",
+                "SA_UNLOAD_ERROR",
+                "LBS_HDI_LOAD_RECORD",
+                "HDI_CONNECT_ERROR",
+                "HDI_REMOVE_ERROR",
+                "GEOCODE_DELAY_ERROR"
+            ]
+        },
+        {
+            "domain": "BT_SERVICE",
+            "include": [
+                "BT_SWITCH_EXCEPTION_NOT_COLLECT",
+                "BT_BUSINESS_STATISTICS"
+            ]
+        },
+        {
+            "domain": "KERNEL_VENDOR",
+            "include": [
+                "MODEMCRASH"
+            ]
+        },
+        {
+            "domain": "TELEPHONY",
+            "include": [
+                "SMS_RECEIVE",
+                "SMS_RECEIVE_FAILED",
+                "SMS_SEND",
+                "SMS_SEND_FAILED"
+            ]
+        }
+    ]
+}

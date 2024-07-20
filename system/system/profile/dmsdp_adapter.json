@@ -1,0 +1,12 @@
+{
+    "process": "dmsdp_adapter",
+    "systemability": [
+        {
+            "name": 4811,
+            "libpath": "libdmsdp_adapter_source.z.so",
+            "run-on-create": false,
+            "distributed": true,
+            "dump_level": 1
+        }
+    ]
+}

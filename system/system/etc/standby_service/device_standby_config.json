@@ -1,0 +1,24 @@
+{
+  "plugin_name": "libstandby_plugin.z.so",
+  "standby": {
+    "dark_timeout": 60,
+    "nap_timeout": 1200,
+    "nap_maintenance_timeout": 60,
+    "sleep_maintenance_timeout": 300,
+    "nap_switch": true,
+    "sleep_switch": true
+  },
+  "detect_list":{
+    "motion_threshold": 1,
+    "detect_motion": true,
+    "motion_angle": 1,
+    "detect_location": true
+  },
+  "maintenance_list":{
+    "nap_interval": [300, 600, 900],
+    "sleep_interval": [3600, 7200, 14400, 21600]
+  },
+  "strategy_list": {},
+  "halfhour_switch_setting": {
+  }
+}

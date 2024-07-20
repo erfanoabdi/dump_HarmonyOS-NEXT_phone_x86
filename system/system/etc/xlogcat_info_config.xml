@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <xlogcat name="chargelogcat">
+      <logRotateSizeKBytes value="4096"/>
+      <maxCompressdFiles value="20"/>
+      <xlogcatGroup>
+        <logStyle value="poll_node" interval="5"/>
+        <inputNodeSet>
+          <dataPath value="DateTime"/>
+          <title value="Time"/>
+          <width value="23"/>
+        </inputNodeSet>
+        <inputNodeSet>
+          <dataPath value="/sys/class/hw_power/coul/coul_data/gaugelog"/>
+          <titlePath value="/sys/class/hw_power/coul/coul_data/gaugelog_head"/>
+        </inputNodeSet>
+        <inputNodeSet>
+          <dataPath value="/sys/class/hw_power/power_log/content_all"/>
+          <titlePath value="/sys/class/hw_power/power_log/head_all"/>
+        </inputNodeSet>
+        <outputFilePath value="/data/log/charge-log/charge-log"/>
+      </xlogcatGroup>
+    </xlogcat>
+    <xlogcat name="inputlogcat">
+      <logRotateSizeKBytes value="1024"/>
+      <maxCompressdFiles value="25"/>
+      <xlogcatGroup>
+        <logStyle value="monitor_dir"/>
+        <inputDirSet>
+          <inputDirPath value="/dev/input"/>
+          <pickNode value="huawei,touchscreen"/>
+          <pickNode value="cyttsp5_mt"/>
+          <pickNode value="huawei,ts_kit"/>
+          <pickNode value="huawei,ts_pen"/>
+          <pickNode value="hisi_on"/>
+          <pickNode value="hisi_gpio_key"/>
+          <pickNode value="ps_input"/>
+          <pickNode value="hall_input"/>
+          <pickNode value="Goodix"/>
+          <pickNode value="synaptics"/>
+          <pickNode value="cyttsp"/>
+          <pickNode value="ms-msg21xx"/>
+          <pickNode value="ft6x06_i2c_adapter"/>
+          <pickNode value="proximity"/>
+          <pickNode value="qpnp_pon"/>
+          <pickNode value="gpio-keys"/>
+          <pickNode value="touch_key"/>
+          <pickNode value="input_mt_wrapper"/>
+          <pickNode value="hid-over-i2c"/>
+        </inputDirSet>
+        <outputFilePath value="/data/log/input-log/input-log"/>
+      </xlogcatGroup>
+    </xlogcat>
+    <xlogcat name="sleeplogcat">
+        <logRotateSizeKBytes value="4096"/>
+        <maxCompressdFiles value="20"/>
+        <xlogcatGroup>
+            <logStyle value="poll_node" interval="5"/>
+            <inputNodeSet>
+                <dataPath value="DateTime"/>
+                <title value="Date       Time"/>
+                <width value="23"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <dataPath value="/sys/class/leds/lcd_backlight0/brightness"/>
+                <title value="brightness"/>
+                <width value="15"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <dataPath value="/sys/devices/virtual/thermal/thermal_zone0/temp"/>
+                <titlePath value="/sys/class/thermal/thermal_zone0/type"/>
+                <width value="15"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <dataPath value="/sys/devices/virtual/thermal/thermal_zone1/temp"/>
+                <titlePath value="/sys/class/thermal/thermal_zone1/type"/>
+                <width value="15"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <dataPath value="/sys/devices/virtual/thermal/thermal_zone2/temp"/>
+                <titlePath value="/sys/class/thermal/thermal_zone2/type"/>
+                <width value="15"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <dataPath value="/sys/devices/virtual/thermal/thermal_zone3/temp"/>
+                <titlePath value="/sys/class/thermal/thermal_zone3/type"/>
+                <width value="15"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <dataPath value="/sys/devices/virtual/thermal/thermal_zone4/temp"/>
+                <titlePath value="/sys/class/thermal/thermal_zone4/type"/>
+                <width value="15"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <dataPath value="/sys/devices/virtual/thermal/thermal_zone5/temp"/>
+                <titlePath value="/sys/class/thermal/thermal_zone5/type"/>
+                <width value="15"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <dataPath value="/sys/devices/virtual/thermal/thermal_zone6/temp"/>
+                <titlePath value="/sys/class/thermal/thermal_zone6/type"/>
+                <width value="15"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <dataPath value="/sys/devices/virtual/thermal/thermal_zone7/temp"/>
+                <titlePath value="/sys/class/thermal/thermal_zone7/type"/>
+                <width value="15"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <dataPath value="/sys/devices/virtual/thermal/thermal_zone8/temp"/>
+                <titlePath value="/sys/class/thermal/thermal_zone8/type"/>
+                <width value="15"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <dataPath value="/sys/devices/virtual/thermal/thermal_zone9/temp"/>
+                <titlePath value="/sys/class/thermal/thermal_zone9/type"/>
+                <width value="15"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <dataPath value="/sys/devices/virtual/thermal/thermal_zone10/temp"/>
+                <titlePath value="/sys/class/thermal/thermal_zone10/type"/>
+                <width value="15"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <dataPath value="/sys/devices/virtual/thermal/thermal_zone11/temp"/>
+                <titlePath value="/sys/class/thermal/thermal_zone11/type"/>
+                <width value="15"/>
+            </inputNodeSet>
+             <inputNodeSet>
+                <dataPath value="/sys/devices/virtual/thermal/thermal_zone12/temp"/>
+                <titlePath value="/sys/class/thermal/thermal_zone12/type"/>
+                <width value="15"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <dataPath value="/sys/devices/virtual/thermal/thermal_zone13/temp"/>
+                <titlePath value="/sys/class/thermal/thermal_zone13/type"/>
+                <width value="15"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <dataPath value="/sys/devices/virtual/thermal/thermal_zone14/temp"/>
+                <titlePath value="/sys/class/thermal/thermal_zone14/type"/>
+                <width value="15"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <dataPath value="/sys/devices/virtual/thermal/thermal_zone15/temp"/>
+                <titlePath value="/sys/class/thermal/thermal_zone15/type"/>
+                <width value="15"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <dataPath value="/sys/devices/virtual/thermal/thermal_zone16/temp"/>
+                <titlePath value="/sys/class/thermal/thermal_zone16/type"/>
+                <width value="15"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <dataPath value="/sys/devices/virtual/thermal/thermal_zone17/temp"/>
+                <titlePath value="/sys/class/thermal/thermal_zone17/type"/>
+                <width value="15"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <dataPath value="/sys/devices/virtual/thermal/thermal_zone18/temp"/>
+                <titlePath value="/sys/class/thermal/thermal_zone18/type"/>
+                <width value="15"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <dataPath value="/sys/devices/virtual/thermal/thermal_zone19/temp"/>
+                <titlePath value="/sys/class/thermal/thermal_zone19/type"/>
+                <width value="15"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <dataPath value="/sys/devices/virtual/thermal/thermal_zone20/temp"/>
+                <titlePath value="/sys/class/thermal/thermal_zone20/type"/>
+                <width value="15"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <dataPath value="/sys/devices/virtual/thermal/thermal_zone21/temp"/>
+                <titlePath value="/sys/class/thermal/thermal_zone21/type"/>
+                <width value="15"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <dataPath value="/sys/devices/virtual/thermal/thermal_zone22/temp"/>
+                <titlePath value="/sys/class/thermal/thermal_zone22/type"/>
+                <width value="15"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <dataPath value="/sys/devices/virtual/thermal/thermal_zone23/temp"/>
+                <titlePath value="/sys/class/thermal/thermal_zone23/type"/>
+                <width value="15"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <dataPath value="/sys/devices/system/cpu/online"/>
+                <title value="online"/>
+                <width value="15"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <alterdataPath value="/sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_cur_freq"/>
+                <alterdataPath value="/sys/devices/system/cpu/cpu1/cpufreq/cpuinfo_cur_freq"/>
+                <alterdataPath value="/sys/devices/system/cpu/cpu2/cpufreq/cpuinfo_cur_freq"/>
+                <alterdataPath value="/sys/devices/system/cpu/cpu3/cpufreq/cpuinfo_cur_freq"/>
+                <title value="cpuinfo_cur_freq(0123)"/>
+                <width value="25"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <alterdataPath value="/sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq"/>
+                <alterdataPath value="/sys/devices/system/cpu/cpu1/cpufreq/scaling_max_freq"/>
+                <alterdataPath value="/sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq"/>
+                <alterdataPath value="/sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq"/>
+                <title value="scaling_max_freq(0123)"/>
+                <width value="25"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <alterdataPath value="/sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq"/>
+                <alterdataPath value="/sys/devices/system/cpu/cpu1/cpufreq/scaling_min_freq"/>
+                <alterdataPath value="/sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq"/>
+                <alterdataPath value="/sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq"/>
+                <title value="scaling_min_freq(0123)"/>
+                <width value="25"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <alterdataPath value="/sys/devices/system/cpu/cpu4/cpufreq/cpuinfo_cur_freq"/>
+                <alterdataPath value="/sys/devices/system/cpu/cpu5/cpufreq/cpuinfo_cur_freq"/>
+                <title value="cpuinfo_cur_freq(45)"/>
+                <width value="25"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <alterdataPath value="/sys/devices/system/cpu/cpu4/cpufreq/scaling_max_freq"/>
+                <alterdataPath value="/sys/devices/system/cpu/cpu5/cpufreq/scaling_max_freq"/>
+                <title value="scaling_max_freq(45)"/>
+                <width value="25"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <alterdataPath value="/sys/devices/system/cpu/cpu4/cpufreq/cpuinfo_min_freq"/>
+                <alterdataPath value="/sys/devices/system/cpu/cpu5/cpufreq/cpuinfo_min_freq"/>
+                <title value="cpuinfo_min_freq(45)"/>
+                <width value="25"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <alterdataPath value="/sys/devices/system/cpu/cpu6/cpufreq/cpuinfo_cur_freq"/>
+                <alterdataPath value="/sys/devices/system/cpu/cpu7/cpufreq/cpuinfo_cur_freq"/>
+                <title value="cpuinfo_cur_freq(67)"/>
+                <width value="25"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <alterdataPath value="/sys/devices/system/cpu/cpu6/cpufreq/scaling_max_freq"/>
+                <alterdataPath value="/sys/devices/system/cpu/cpu7/cpufreq/scaling_max_freq"/>
+                <title value="scaling_max_freq(67)"/>
+                <width value="25"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <alterdataPath value="/sys/devices/system/cpu/cpu6/cpufreq/cpuinfo_min_freq"/>
+                <alterdataPath value="/sys/devices/system/cpu/cpu7/cpufreq/cpuinfo_min_freq"/>
+                <title value="cpuinfo_min_freq(67)"/>
+                <width value="25"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <alterdataPath value="/sys/class/devfreq/gpufreq/cur_freq"/>
+                <title value="gpu_cur_freq"/>
+                <width value="25"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <alterdataPath value="/sys/class/devfreq/gpufreq/max_freq"/>
+                <title value="gpu_max_freq"/>
+                <width value="25"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <alterdataPath value="/sys/class/devfreq/gpufreq/min_freq"/>
+                <title value="gpu_min_freq"/>
+                <width value="25"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <alterdataPath value="/sys/class/hw_thermal/temp/ambient"/>
+                <title value="ambient_v2.1"/>
+                <width value="25"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <alterdataPath value="/sys/class/thermal/thermal_zone1/sustainable_power"/>
+                <title value="set_IPApower"/>
+                <width value="25"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <alterdataPath value="/sys/class/thermal/thermal_zone1/cur_power"/>
+                <title value="cur_IPApower"/>
+                <width value="25"/>
+            </inputNodeSet>
+            <outputFilePath value="/data/log/sleeplog/sensor-log"/>
+        </xlogcatGroup>
+    </xlogcat>
+</config>

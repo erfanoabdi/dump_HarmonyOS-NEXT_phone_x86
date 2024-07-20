@@ -1,0 +1,89 @@
+{
+    "version": "1.0.0",
+    "APP_FREEZE": {
+            "63_APP_FREEZE_00": {
+                "PNAME": "BasicParam.v_process",
+                "END_STACK":"MainCallTrace.v_trace"
+            },
+            "63_APP_FREEZE_01": {
+                "LAST_FRAME":"BasicParam.v_state",
+                "TRACER_PID":"BasicParam.v_tracer"
+            },
+            "63_APP_FREEZE_02": {
+                "LAST_FRAME":"BasicParam.v_exit"
+            }
+    },
+    "SYS_FREEZE": {
+            "63_SYS_FREEZE_01": {
+                "PNAME": "BasicParam.v_process",
+                "END_STACK":"MainCallTrace.v_trace"
+            }
+    },
+    "CPP_CRASH": {
+            "07_CPP_CRASH_00": {
+                "PNAME": "BasicParam.v_process",
+                "END_STACK": "MainCallTrace.v_trace"
+            }
+    },
+    "JS_ERROR": {
+            "07_JS_ERROR_00": {
+                "PNAME": "BasicParam.v_process",
+                "PID": "BasicParam.v_pid",
+                "SUBREASON":"BasicParam.v_subreasion",
+                "END_STACK": "MainCallTrace.v_trace"
+            },
+            "07_JS_ERROR_01": {
+                "END_STACK": "MainCallTrace.v_nativetrace"
+            }
+    },
+    "PANIC": {
+        "04_PANIC_01":{
+            "FIRST_FRAME": "NocTrace.v_errcode+NocTrace.v_master+NocTrace.v_slave+NocTrace.v_address+NocTrace.v_user_signal+NocTrace.v_security",
+            "LAST_FRAME": "BasicParam.v_noc",
+            "END_STACK": "MainCallTrace.v_trace"
+        },
+        "04_PANIC_00":{
+            "FIRST_FRAME": "BasicParam.v_first",
+            "SECOND_FRAME": "BasicParam.v_second",
+            "LAST_FRAME": "BasicParam.v_last"
+        }
+    },
+    "HWWATCHDOG": {
+        "04_HWWATCHDOG_00":{
+            "PNAME": "BasicParam.v_pname",
+            "END_STACK": "MainCallTrace.v_trace"
+        }
+    },
+    "RUST_PANIC": {
+        "04_RUST_PANIC_00":{
+            "PNAME": "BasicParam.v_pname",
+            "END_STACK": "MainCallTrace.v_trace"
+        }
+    },
+    "BOOTFAIL": {
+        "04_BOOTFAIL_00":{
+            "FIRST_FRAME": "BasicParam.v_bootfailReason",
+            "SECOND_FRAME": "BasicParam.v_bootfailDetail",
+            "LAST_FRAME": "BasicParam.v_bootfailErrno"
+        }
+    },
+    "SENSORHUBCRASH": {
+        "03_SENSORHUBCRASH_00":{
+            "FIRST_FRAME": "BasicParam.v_first"
+        }
+    },
+    "MODEMCRASH": {
+        "03_MODEMCRASH_00":{
+            "FIRST_FRAME": "BasicParam.v_first",
+            "SECOND_FRAME": "BasicParam.v_second",
+            "LAST_FRAME": "BasicParam.v_last"
+        }
+    },
+    "MODEM_REBOOTSYS": {
+        "03_MODEM_REBOOTSYS_00":{
+            "FIRST_FRAME": "BasicParam.v_first",
+            "SECOND_FRAME": "BasicParam.v_second",
+            "LAST_FRAME": "BasicParam.v_last"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "DEFAULT": {
+        "CITY_LIST": [],
+        "DRX_ADAPT": true,
+        "UL_SKIP_DYNAMIC": true,
+        "RELEASE_PREFER": true,
+        "DRX_PREFER": true,
+        "SMART_PRESCHEDULE": true,
+        "MAXCC_PREFER": true,
+        "MAXMIMOLAYER_PREFER": true
+    },
+    "PROP_POWSAV_CLOUD_PUSH": true
+}

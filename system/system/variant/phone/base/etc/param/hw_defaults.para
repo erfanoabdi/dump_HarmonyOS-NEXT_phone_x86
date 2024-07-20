@@ -1,0 +1,76 @@
+# 2024-03-28 09:58:31.0
+atomic.service.distribute.engine.bundle.name=com.huawei.hmos.asde
+# 2024-03-26 16:27:53.0
+const.abilityms.launch_embeded_ui_ability=true
+# 2024-05-15 14:34:04.0
+const.ace.darkModeAppBGColorBrightness=0.10,0.05
+# 2024-05-14 09:46:56.0
+const.appgallery.shaderowner.bundlename=com.huawei.hmsapp.appgallery
+# 2024-04-08 22:15:05.0
+const.appsecurityprivacy.superprivacy.feature_enabled=1
+# 2024-04-08 22:15:05.0
+const.appsecurityprivacy.superprivacy.paddle_existed=0
+# 2024-04-08 22:15:05.0
+const.appsecurityprivacy.superprivacy.supported_sensors=0
+# 2024-02-22 17:39:40.0
+const.castengine.uicast.enable=1
+# 2024-02-22 17:39:40.0
+const.cust.cversion=C00
+# 2024-05-16 19:26:28.0
+const.filemanagement.enable_sandbox_monitor=false
+# 2024-02-22 17:39:40.0
+const.filemanager.full_mount.enable=false
+# 2024-05-15 21:21:13.0
+const.hipreview.param_title_bar_items=2
+# 2024-03-22 11:50:39.0
+const.meetcall.float.window=true
+# 2024-04-29 11:12:08.0
+const.meetime.support.message=true
+# 2024-02-22 17:39:40.0
+const.product.baseappid=20000
+# 2024-02-27 11:26:41.0
+const.product.os.dist.apiversion=50000
+# 2024-06-13 10:14:49.0
+const.product.os.dist.releasetype=Beta1
+# 2024-02-22 17:39:40.0
+const.system.sharePicker.UIExtensionAbilityName=SystemShareModalAbility
+# 2024-02-22 17:39:40.0
+const.system.sharePicker.abilityName=SharePickerAbility
+# 2024-02-22 17:39:40.0
+const.system.sharePicker.bundleName=com.huawei.hmos.instantshare
+# 2024-02-22 17:39:40.0
+const.telephony.preferredNetworkType=12
+# 2024-02-22 17:39:40.0
+const.telephony.stk_bundle_name=com.huawei.hmos.simtoolkits
+# 2024-05-23 10:14:08.0
+const.window.need_avoid_window=true
+# 2024-03-14 10:59:11.0
+persist.sys.abilityms.grant_persist_uri_permission=false
+# 2024-03-14 10:59:11.0
+persist.sys.abilityms.inherit_window_split_screen_mode=true
+# 2024-03-14 10:59:11.0
+persist.sys.abilityms.limit_maximum_of_render_process=true
+# 2024-03-14 10:59:11.0
+persist.sys.abilityms.move_ui_ability_to_background_api_enable=true
+# 2024-03-14 10:59:11.0
+persist.sys.abilityms.multi_process_model=false
+# 2024-03-14 10:59:11.0
+persist.sys.abilityms.selector_dialog_possion=true
+# 2024-03-14 10:59:12.0
+persist.sys.abilityms.start_options_with_animation=false
+# 2024-03-14 10:59:11.0
+persist.sys.abilityms.start_options_with_process_option=false
+# 2024-03-14 10:59:11.0
+persist.sys.abilityms.start_specified_process=false
+# 2024-03-14 10:59:12.0
+persist.sys.abilityms.support_anco_app=true
+# 2024-03-14 10:59:11.0
+persist.sys.abilityms.timeout_unit_time_ratio=1
+# 2024-03-14 10:59:12.0
+persist.sys.abilityms.use_multi_render_process=true
+# 2024-02-22 17:39:40.0
+persist.sys.resource_quota_control_enable=true
+# 2024-02-22 17:39:40.0
+persist.sys.suspend_manager_enabled=true
+# 2024-02-23 11:15:52.0
+persist.time.ntpserver=ntp.sjtu.edu.cn,time.windows.com,time.nist.gov,1.cn.pool.ntp.org,pool.ntp.org

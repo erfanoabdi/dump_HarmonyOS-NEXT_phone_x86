@@ -1,0 +1,64 @@
+{
+	"string":	[{
+			"name":	"ShenZhenTong",
+			"value":	"Shenzhen Transport Card"
+		}, {
+			"name":	"LingNanTong",
+			"value":	"Lingnan Pass"
+		}, {
+			"name":	"BeiJingYiKaTong",
+			"value":	"Beijing Transport Card"
+		}, {
+			"name":	"ShangHaiJiaoTongKa",
+			"value":	"Shanghai Transport Card"
+		}, {
+			"name":	"GuiMinHuLianHuTongKa",
+			"value":	"GX T-Union Card"
+		}, {
+			"name":	"DefaultTitle",
+			"value":	"NFC tag discovered. Touch to view."
+		}, {
+			"name":	"DefaultText",
+			"value":	"Some apps may have their own NFC controls that need to be enabled manually."
+		}, {
+			"name":	"TransportCardTitle",
+			"value":	"NFC found Transport card"
+		}, {
+			"name":	"TransportCardText",
+			"value":	"%s discovered. Balance: %.2f RMB"
+		}, {
+			"name":	"NfcWifiNtfTitle",
+			"value":	"Connect to network"
+		}, {
+			"name":	"NfcWifiNtfText",
+			"value":	"Connect to network: %s?"
+		}, {
+			"name":	"ActionButtonName",
+			"value":	"Touch for details"
+		}, {
+			"name":	"NfcWifiButtonName",
+			"value":	"Connect"
+		}, {
+			"name":	"NfcBtNtfTitle",
+			"value":	"Nfc pairing request"
+		}, {
+			"name":	"NfcBtNtfText",
+			"value":	"Pair with the Bluetooth device: %s?"
+		}, {
+			"name":	"NfcBtButtonName",
+			"value":	"Pair"
+		},{
+			"name": "NfcHceAidConflictedTitle",
+			"value": "NFC SWIPING CARD"
+		},{
+			"name": "NfcHceAidConflictedText",
+			"value": "There are conflicts among multiple applications. It is required to open a specific application before swiping the card"
+		},{
+			"name": "NoHapSupportedNtfTitle",
+			"value": "NFC Notification"
+		},{
+			"name": "NoHapSupportedNtfText",
+			"value": "No supported applications available"
+		}
+	]
+}

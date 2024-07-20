@@ -1,0 +1,19 @@
+{
+    "process": "netsysnative",
+    "systemability": [
+        {
+            "name": 1158,
+            "libpath": "libnetsys_native_manager.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 1162,
+            "libpath": "libnetsys_ext_service.z.so",
+            "run-on-create": false,
+            "distributed": false,
+            "dump_level": 1
+        }
+    ]
+}

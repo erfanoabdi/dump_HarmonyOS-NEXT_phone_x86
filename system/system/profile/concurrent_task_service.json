@@ -1,0 +1,12 @@
+{
+    "process": "concurrent_task_service",
+    "systemability": [
+        {
+            "name": 1912,
+            "libpath": "libconcurrentsvc.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump-level": 1
+        }
+    ]
+}

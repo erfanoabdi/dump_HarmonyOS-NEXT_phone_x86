@@ -1,0 +1,17 @@
+{
+    "self_dev_module_simple_migrate_policy" : "etc/self_dev_module_simple_migrate_policy.json",
+    "self_dev_module_advanced_migrate_policy" : "etc/self_dev_module_advanced_migrate_policy.json",
+    "third_dev_module_migrate_policy" : "/data/hmos4/update/migrate/third_dev_module_migrate_policy.json",
+    "oobe_blocking_migrate_tasks" : "/data/hmos4/update/migrate/oobe_blocking_migrate_tasks.json",
+    "oobe_nonblocking_migrate_tasks" : "/data/hmos4/update/migrate/oobe_nonblocking_migrate_tasks.json",
+    "migrate_app_filelist" : "/data/hmos4/update/migrate/migrate_app_filelist.json",
+    "migrate_config_signed" : "/data/hmos4/update/migrate/migrate_config_signed.json",
+    "display_policy" : "etc/display_policy.json",
+    "task_dependency" : "etc/task_dependency.json",
+    "apk_info_path" : "/data/hmos4/update/migrate/app_list.json",
+    "rgm_app_path" : "/data/hmos4/update/migrate/rgm_app.json",
+    "support_migrate_tool": true,
+    "reserved_space_gb": 2,
+    "app_frequence" : "/data/hmos4/update/migrate/app_frequence.json",
+    "migrate_mode_policy_path" : "etc/migrate_mode_policy.json"
+}

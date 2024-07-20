@@ -1,0 +1,12 @@
+{
+  "static_capability": [
+    {
+      "service_name": "pasteboardService",
+      "handler_loc": "libpasteboard_framework.z.so"
+    },
+    {
+      "service_name": "dmsfwk_svr_id",
+      "handler_loc": "libdistributed_sdk.z.so"
+    }
+  ]
+}

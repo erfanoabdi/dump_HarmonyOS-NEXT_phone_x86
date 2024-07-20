@@ -1,0 +1,94 @@
+{
+  "configurationInfo":{
+    "configurationVersion":1
+  },
+  "client":{
+    "hisyseventUploader": {
+        "name": "oemEventUploader",
+        "timelyUploadParams": {
+          "uploadPeriod": 60,
+          "uploadMaxPackageSize": 2,
+          "dailyNetworkTraffic":{
+            "wifi": 50,
+            "cellular": 10
+          }
+        },
+       "immediatelyUploadParams": {
+         "dailyNetworkTraffic":{
+           "wifi": 5,
+           "cellular": 5
+         }
+        }
+    },
+    "logUploader":[
+      {
+        "name": "oemFaultLogUploader",
+        "uploadMaxPackageSize":100,
+        "logType": "FAULTLOG",
+        "type":101,
+        "copyMode":"move",
+        "dailyNetworkTraffic":{
+          "wifi": 1536,
+          "cellular": 30
+        }
+      },
+      {
+        "name": "oemHiLogUploader",
+        "uploadMaxPackageSize": 100,
+        "logType": "HILOG",
+        "type":100,
+        "copyMode":"copy",
+        "dailyNetworkTraffic":{
+          "wifi": 1024,
+          "cellular": 0
+        }
+      },
+      {
+        "name": "oemTraceUploader",
+        "uploadMaxPackageSize": 100,
+        "logType": "TRACE",
+        "type":102,
+        "copyMode":"move",
+        "dailyNetworkTraffic":{
+          "wifi": 1024,
+          "cellular": 0
+        }
+      },
+      {
+        "name": "oemDictUploader",
+        "uploadMaxPackageSize": 100,
+        "logType": "HILOG",
+        "type":103,
+        "copyMode":"copy",
+        "dailyNetworkTraffic":{
+          "wifi": 100,
+          "cellular": 0
+        }
+      }, 
+      {
+        "name": "containerUploader",
+        "uploadMaxPackageSize": 100,
+        "logType": "CONTAINER",
+        "type":999,
+        "copyMode":"move",
+        "dailyNetworkTraffic":{
+          "wifi": 1024,
+          "cellular": 10
+        }
+      }  
+    ]
+  },
+  "services":{
+    "logservice":{
+      "urlGlobal":"https://logservice.hicloud.com:443",
+      "appId": 1114,
+      "logType": 1,
+      "splitKey": "HdEgGIp89lYFdA240trB4LVTuG7UTfusnPLyWz3BktpZTLlQ9ZfX3IqofW5BrDpM",
+      "token": "gtjCi06VzEBY34Itz//TGA1/4CPwDc6eHd4YjH22gj109rSpaC0a1yvem7GX9IqRpWVSgQWOkLFNubthzWUX5URY2sPUQYKCwu0Usg=="
+    },
+    "allowRegionList":{
+      "regionList": [{"region":"China","locale":"zh-Hans-CN","code":"156", "isoLang":"zh", "isoCountry":"CN","mcc":"460"}]
+    },
+    "region":"China"
+  }
+}

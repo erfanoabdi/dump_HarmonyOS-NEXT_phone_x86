@@ -1,0 +1,32 @@
+{
+    "process": "migrate_server",
+    "systemability": [
+        {
+            "name": 65792,
+            "libpath": "libmigrate_server.z.so",
+            "run-on-create": false,
+            "auto-restart": true,
+            "distributed": false,
+            "bootphase": "CoreStartPhase",
+            "dump-level": 1,
+            "start-on-demand": {
+                "allow-update": true,
+                "bindercall": true,
+                "commonevent": [
+                    {
+                        "name": "usual.event.USER_SWITCHED"
+                    },
+                    {
+                        "name": "usual.event.USER_REMOVED"
+                    }
+                ],
+                "timedevent": [
+                    {
+                        "name": "loopevent",
+                        "value": "1800"
+                    }
+                ]
+            }
+        }
+    ]
+}

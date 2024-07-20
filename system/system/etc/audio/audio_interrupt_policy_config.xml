@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (c) 2021-2022 Huawei Device Co., Ltd.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<!-- Focus policies to fallback to, in case of unknown usecases */ -->
+<audio_focus_policy>
+    <focus_type value="STREAM_VOICE_CALL">
+        <focus_table>
+            <deny>
+                <focus_type value="STREAM_VOICE_CALL"/>
+                <focus_type value="STREAM_RING"/>
+                <focus_type value="STREAM_NOTIFICATION"/>
+                <focus_type value="STREAM_VOICE_ASSISTANT"/>
+                <focus_type value="STREAM_VOICE_COMMUNICATION"/>
+                <focus_type value="STREAM_VOICE_RING"/>
+                <focus_type value="SOURCE_TYPE_MIC"/>
+                <focus_type value="SOURCE_TYPE_VOICE_COMMUNICATION"/>
+                <focus_type value="SOURCE_TYPE_VOICE_MESSAGE"/>
+            </deny>
+            <shared>
+                <focus_type value="STREAM_VOICE_MESSAGE" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_SYSTEM" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_MUSIC" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_MOVIE" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_GAME" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_SPEECH" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_NAVIGATION" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_ALARM" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_SYSTEM_ENFORCED" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_DTMF" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ACCESSIBILITY" is_forced="true" action_type="DUCK" action_on="existing"/>
+                <focus_type value="STREAM_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_RECOGNITION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_WAKEUP" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_PLAYBACK_CAPTURE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_CALL" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_REMOTE_CAST" is_forced="true" action_type="PLAY" action_on="incoming"/>
+            </shared>
+            <private>
+                <focus_type value="STREAM_INTERNAL_FORCE_STOP" is_forced="true" action_type="STOP" action_on="existing"/>
+            </private>
+        </focus_table>
+    </focus_type>
+    <focus_type value="STREAM_VOICE_MESSAGE">
+        <focus_table>
+            <deny>
+                <focus_type value="STREAM_NOTIFICATION"/>
+            </deny>
+            <shared>
+                <focus_type value="STREAM_SYSTEM" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_GAME" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_NAVIGATION" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_ALARM" is_forced="true" action_type="DUCK" action_on="existing"/>
+                <focus_type value="STREAM_SYSTEM_ENFORCED" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_DTMF" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_ASSISTANT" is_forced="true" action_type="DUCK" action_on="existing"/>
+                <focus_type value="STREAM_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_MIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_RECOGNITION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_COMMUNICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_PLAYBACK_CAPTURE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_WAKEUP" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_CALL" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_MESSAGE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_REMOTE_CAST" is_forced="true" action_type="PLAY" action_on="incoming"/>
+            </shared>
+            <private>
+                <focus_type value="STREAM_VOICE_CALL" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_VOICE_MESSAGE" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_RING" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_MUSIC" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_MOVIE" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_SPEECH" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_ACCESSIBILITY" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_INTERNAL_FORCE_STOP" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_VOICE_COMMUNICATION" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_VOICE_RING" is_forced="true" action_type="STOP" action_on="existing"/>
+            </private>
+        </focus_table>
+    </focus_type>
+    <focus_type value="STREAM_SYSTEM">
+        <focus_table>
+            <deny>nil</deny>
+            <shared>
+                <focus_type value="STREAM_NAVIGATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_MIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_RECOGNITION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_COMMUNICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_PLAYBACK_CAPTURE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_WAKEUP" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_CALL" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_MESSAGE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_REMOTE_CAST" is_forced="true" action_type="PLAY" action_on="incoming"/>
+            </shared>
+            <private>
+                <focus_type value="STREAM_VOICE_CALL"  is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_VOICE_MESSAGE"  is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_SYSTEM" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_RING" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_MUSIC" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_MOVIE" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_GAME" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_SPEECH" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_ALARM" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_NOTIFICATION" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_SYSTEM_ENFORCED" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_DTMF" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_VOICE_ASSISTANT" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_ACCESSIBILITY" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_INTERNAL_FORCE_STOP" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_VOICE_COMMUNICATION" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_VOICE_RING" is_forced="true" action_type="STOP" action_on="existing"/>
+            </private>
+        </focus_table>
+    </focus_type>
+    <focus_type value="STREAM_RING">
+        <focus_table>
+            <deny>
+                <focus_type value="STREAM_RING"/>
+                <focus_type value="STREAM_NOTIFICATION"/>
+                <focus_type value="STREAM_DTMF"/>
+                <focus_type value="STREAM_VOICE_ASSISTANT"/>
+            </deny>
+            <shared>
+                <focus_type value="STREAM_VOICE_MESSAGE" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_SYSTEM" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_MUSIC" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_MOVIE" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_GAME" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_SPEECH" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_NAVIGATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_SYSTEM_ENFORCED" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ACCESSIBILITY" is_forced="true" action_type="DUCK" action_on="existing"/>
+                <focus_type value="STREAM_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_MIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_RECOGNITION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_COMMUNICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_PLAYBACK_CAPTURE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_WAKEUP" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_CALL" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_MESSAGE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_REMOTE_CAST" is_forced="true" action_type="PLAY" action_on="incoming"/>
+            </shared>
+            <private>
+                <focus_type value="STREAM_VOICE_CALL" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_ALARM" is_forced="true" action_type="PAUSE" action_on="incoming"/>
+                <focus_type value="STREAM_INTERNAL_FORCE_STOP" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_VOICE_COMMUNICATION" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_VOICE_RING" is_forced="true" action_type="STOP" action_on="existing"/>
+            </private>
+        </focus_table>
+    </focus_type>
+    <focus_type value="STREAM_MUSIC">
+        <focus_table>
+            <shared>
+                <focus_type value="STREAM_ACCESSIBILITY" is_forced="true" action_type="DUCK" action_on="existing"/>
+                <focus_type value="STREAM_SYSTEM" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_GAME" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_NAVIGATION" is_forced="true" action_type="DUCK" action_on="existing"/>
+                <focus_type value="STREAM_NOTIFICATION" is_forced="true" action_type="DUCK" action_on="existing"/>
+                <focus_type value="STREAM_SYSTEM_ENFORCED" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_DTMF" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_ASSISTANT" is_forced="true" action_type="DUCK" action_on="existing"/>
+                <focus_type value="STREAM_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_MIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_RECOGNITION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_COMMUNICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_PLAYBACK_CAPTURE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_WAKEUP" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_CALL" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_MESSAGE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_REMOTE_CAST" is_forced="true" action_type="PLAY" action_on="incoming"/>
+            </shared>
+            <private>
+                <focus_type value="STREAM_VOICE_CALL" is_forced="true" action_type="PAUSE" action_on="existing"/>
+                <focus_type value="STREAM_VOICE_MESSAGE" is_forced="true" action_type="PAUSE" action_on="existing"/>
+                <focus_type value="STREAM_RING" is_forced="true" action_type="PAUSE" action_on="existing"/>
+                <focus_type value="STREAM_ALARM" is_forced="true" action_type="PAUSE" action_on="existing"/>
+                <focus_type value="STREAM_MUSIC"  is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_MOVIE"  is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_SPEECH"  is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_INTERNAL_FORCE_STOP" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_VOICE_COMMUNICATION" is_forced="true" action_type="PAUSE" action_on="existing"/>
+                <focus_type value="STREAM_VOICE_RING" is_forced="true" action_type="PAUSE" action_on="existing"/>
+            </private>
+        </focus_table>
+    </focus_type>
+    <focus_type value="STREAM_MOVIE">
+        <focus_table>
+            <shared>
+                <focus_type value="STREAM_ACCESSIBILITY" is_forced="true" action_type="DUCK" action_on="existing"/>
+                <focus_type value="STREAM_SYSTEM" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_NAVIGATION" is_forced="true" action_type="DUCK" action_on="existing"/>
+                <focus_type value="STREAM_NOTIFICATION" is_forced="true" action_type="DUCK" action_on="existing"/>
+                <focus_type value="STREAM_SYSTEM_ENFORCED" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_DTMF" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_ASSISTANT" is_forced="true" action_type="DUCK" action_on="existing"/>
+                <focus_type value="STREAM_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_MIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_RECOGNITION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_COMMUNICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_PLAYBACK_CAPTURE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_WAKEUP" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_CALL" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_MESSAGE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_REMOTE_CAST" is_forced="true" action_type="PLAY" action_on="incoming"/>
+            </shared>
+            <private>
+                <focus_type value="STREAM_VOICE_CALL" is_forced="true" action_type="PAUSE" action_on="existing"/>
+                <focus_type value="STREAM_VOICE_MESSAGE" is_forced="true" action_type="PAUSE" action_on="existing"/>
+                <focus_type value="STREAM_RING" is_forced="true" action_type="PAUSE" action_on="existing"/>
+                <focus_type value="STREAM_ALARM" is_forced="true" action_type="PAUSE" action_on="existing"/>
+                <focus_type value="STREAM_MUSIC"  is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_MOVIE"  is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_GAME" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_SPEECH"  is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_INTERNAL_FORCE_STOP" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_VOICE_COMMUNICATION" is_forced="true" action_type="PAUSE" action_on="existing"/>
+                <focus_type value="STREAM_VOICE_RING" is_forced="true" action_type="PAUSE" action_on="existing"/>
+            </private>
+        </focus_table>
+    </focus_type>
+    <focus_type value="STREAM_GAME">
+        <focus_table>
+            <shared>
+                <focus_type value="STREAM_ACCESSIBILITY" is_forced="true" action_type="DUCK" action_on="existing"/>
+                <focus_type value="STREAM_SYSTEM" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_MUSIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_NAVIGATION" is_forced="true" action_type="DUCK" action_on="existing"/>
+                <focus_type value="STREAM_NOTIFICATION" is_forced="true" action_type="DUCK" action_on="existing"/>
+                <focus_type value="STREAM_SYSTEM_ENFORCED" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_DTMF" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_ASSISTANT" is_forced="true" action_type="DUCK" action_on="existing"/>
+                <focus_type value="STREAM_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_MIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_RECOGNITION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_COMMUNICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_PLAYBACK_CAPTURE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_WAKEUP" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_CALL" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_MESSAGE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_REMOTE_CAST" is_forced="true" action_type="PLAY" action_on="incoming"/>
+            </shared>
+            <private>
+                <focus_type value="STREAM_VOICE_CALL" is_forced="true" action_type="PAUSE" action_on="existing"/>
+                <focus_type value="STREAM_VOICE_MESSAGE" is_forced="true" action_type="PAUSE" action_on="existing"/>
+                <focus_type value="STREAM_RING" is_forced="true" action_type="PAUSE" action_on="existing"/>
+                <focus_type value="STREAM_ALARM" is_forced="true" action_type="PAUSE" action_on="existing"/>
+                <focus_type value="STREAM_MOVIE"  is_forced="true" action_type="PAUSE" action_on="existing"/>
+                <focus_type value="STREAM_GAME" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_SPEECH"  is_forced="true" action_type="PAUSE" action_on="existing"/>
+                <focus_type value="STREAM_INTERNAL_FORCE_STOP" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_VOICE_COMMUNICATION" is_forced="true" action_type="PAUSE" action_on="existing"/>
+                <focus_type value="STREAM_VOICE_RING" is_forced="true" action_type="PAUSE" action_on="existing"/>
+            </private>
+        </focus_table>
+    </focus_type>
+    <focus_type value="STREAM_SPEECH">
+        <focus_table>
+            <shared>
+                <focus_type value="STREAM_ACCESSIBILITY" is_forced="true" action_type="DUCK" action_on="existing"/>
+                <focus_type value="STREAM_SYSTEM" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_NAVIGATION" is_forced="true" action_type="DUCK" action_on="existing"/>
+                <focus_type value="STREAM_NOTIFICATION" is_forced="true" action_type="DUCK" action_on="existing"/>
+                <focus_type value="STREAM_SYSTEM_ENFORCED" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_DTMF" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_ASSISTANT" is_forced="true" action_type="DUCK" action_on="existing"/>
+                <focus_type value="STREAM_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_MIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_RECOGNITION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_COMMUNICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_PLAYBACK_CAPTURE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_WAKEUP" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_CALL" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_MESSAGE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_REMOTE_CAST" is_forced="true" action_type="PLAY" action_on="incoming"/>
+            </shared>
+            <private>
+                <focus_type value="STREAM_VOICE_CALL" is_forced="true" action_type="PAUSE" action_on="existing"/>
+                <focus_type value="STREAM_VOICE_MESSAGE" is_forced="true" action_type="PAUSE" action_on="existing"/>
+                <focus_type value="STREAM_RING" is_forced="true" action_type="PAUSE" action_on="existing"/>
+                <focus_type value="STREAM_ALARM" is_forced="true" action_type="PAUSE" action_on="existing"/>
+                <focus_type value="STREAM_MUSIC" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_MOVIE"  is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_GAME" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_SPEECH"  is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_INTERNAL_FORCE_STOP" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_VOICE_COMMUNICATION" is_forced="true" action_type="PAUSE" action_on="existing"/>
+                <focus_type value="STREAM_VOICE_RING" is_forced="true" action_type="PAUSE" action_on="existing"/>
+            </private>
+        </focus_table>
+    </focus_type>
+    <focus_type value="STREAM_NAVIGATION">
+        <focus_table>
+            <deny>nil</deny>
+            <shared>
+                <focus_type value="STREAM_VOICE_CALL" is_forced="true" action_type="DUCK" action_on="existing"/>
+                <focus_type value="STREAM_VOICE_MESSAGE" is_forced="true" action_type="DUCK" action_on="existing"/>
+                <focus_type value="STREAM_SYSTEM" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_RING" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_MUSIC" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_MOVIE" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_GAME" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_SPEECH" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_ALARM" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_NOTIFICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_SYSTEM_ENFORCED" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_DTMF" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_COMMUNICATION" is_forced="true" action_type="DUCK" action_on="existing"/>
+                <focus_type value="STREAM_VOICE_RING" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_MIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_RECOGNITION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_COMMUNICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_PLAYBACK_CAPTURE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_WAKEUP" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_CALL" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_MESSAGE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_REMOTE_CAST" is_forced="true" action_type="PLAY" action_on="incoming"/>
+            </shared>
+            <private>
+                <focus_type value="STREAM_NAVIGATION" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_VOICE_ASSISTANT" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_ACCESSIBILITY" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_INTERNAL_FORCE_STOP" is_forced="true" action_type="STOP" action_on="existing"/>
+            </private>
+        </focus_table>
+    </focus_type>
+    <focus_type value="STREAM_ALARM">
+        <focus_table>
+            <deny>nil</deny>
+            <shared>
+                <focus_type value="STREAM_SYSTEM" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_NAVIGATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_NOTIFICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_SYSTEM_ENFORCED" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_DTMF" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_ASSISTANT" is_forced="true" action_type="DUCK" action_on="existing"/>
+                <focus_type value="STREAM_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_MIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_RECOGNITION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_COMMUNICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_PLAYBACK_CAPTURE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_WAKEUP" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_CALL" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_MESSAGE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_REMOTE_CAST" is_forced="true" action_type="PLAY" action_on="incoming"/>
+            </shared>
+            <private>
+                <focus_type value="STREAM_VOICE_CALL" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_VOICE_MESSAGE" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_RING" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_MUSIC" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_MOVIE" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_GAME" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_SPEECH" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_ALARM" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_ACCESSIBILITY" is_forced="true" action_type="PAUSE" action_on="existing"/>
+                <focus_type value="STREAM_INTERNAL_FORCE_STOP" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_VOICE_COMMUNICATION" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_VOICE_RING" is_forced="true" action_type="STOP" action_on="existing"/>
+            </private>
+        </focus_table>
+    </focus_type>
+    <focus_type value="STREAM_NOTIFICATION">
+        <focus_table>
+            <deny>nil</deny>
+            <shared>
+                <focus_type value="STREAM_NAVIGATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_MIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_RECOGNITION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_COMMUNICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_PLAYBACK_CAPTURE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_WAKEUP" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_CALL" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_MESSAGE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_REMOTE_CAST" is_forced="true" action_type="PLAY" action_on="incoming"/>
+            </shared>
+            <private>
+                <focus_type value="STREAM_VOICE_CALL" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_VOICE_MESSAGE" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_SYSTEM" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_RING" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_MUSIC" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_MOVIE" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_GAME" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_SPEECH" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_ALARM" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_NOTIFICATION" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_SYSTEM_ENFORCED" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_DTMF" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_VOICE_ASSISTANT" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_ACCESSIBILITY" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_INTERNAL_FORCE_STOP" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_VOICE_COMMUNICATION" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_VOICE_RING" is_forced="true" action_type="STOP" action_on="existing"/>
+            </private>
+        </focus_table>
+    </focus_type>
+    <focus_type value="STREAM_SYSTEM_ENFORCED">
+        <focus_table>
+            <deny>nil</deny>
+            <shared>
+                <focus_type value="STREAM_VOICE_CALL" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_MESSAGE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_SYSTEM" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_RING" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_MUSIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_MOVIE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_GAME" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_SPEECH" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_NAVIGATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ALARM" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_NOTIFICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_SYSTEM_ENFORCED" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_DTMF" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_ASSISTANT" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ACCESSIBILITY" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_COMMUNICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_RING" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_MIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_RECOGNITION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_COMMUNICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_PLAYBACK_CAPTURE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_WAKEUP" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_CALL" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_MESSAGE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_REMOTE_CAST" is_forced="true" action_type="PLAY" action_on="incoming"/>
+            </shared>
+            <private>
+                <focus_type value="STREAM_INTERNAL_FORCE_STOP" is_forced="true" action_type="STOP" action_on="existing"/>
+            </private>
+        </focus_table>
+    </focus_type>
+    <focus_type value="STREAM_DTMF">
+        <focus_table>
+            <deny>nil</deny>
+            <shared>
+                <focus_type value="STREAM_NAVIGATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_MIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_RECOGNITION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_COMMUNICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_PLAYBACK_CAPTURE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_WAKEUP" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_CALL" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_MESSAGE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_REMOTE_CAST" is_forced="true" action_type="PLAY" action_on="incoming"/>
+            </shared>
+            <private>
+                <focus_type value="STREAM_VOICE_CALL"  is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_VOICE_MESSAGE"  is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_SYSTEM" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_RING" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_MUSIC" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_MOVIE" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_GAME" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_SPEECH" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_ALARM" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_NOTIFICATION" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_SYSTEM_ENFORCED" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_DTMF" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_VOICE_ASSISTANT" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_ACCESSIBILITY" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_INTERNAL_FORCE_STOP" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_VOICE_COMMUNICATION" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_VOICE_RING" is_forced="true" action_type="STOP" action_on="existing"/>
+            </private>
+        </focus_table>
+    </focus_type>
+    <focus_type value="STREAM_VOICE_ASSISTANT">
+        <focus_table>
+            <deny>nil</deny>
+            <shared>
+                <focus_type value="STREAM_VOICE_MESSAGE" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_SYSTEM" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_MUSIC" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_NOTIFICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_SYSTEM_ENFORCED" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_DTMF" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ALARM" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_MIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_RECOGNITION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_COMMUNICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_PLAYBACK_CAPTURE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_WAKEUP" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_CALL" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_MESSAGE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_REMOTE_CAST" is_forced="true" action_type="PLAY" action_on="incoming"/>
+            </shared>
+            <private>
+                <focus_type value="STREAM_VOICE_CALL" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_RING" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_MOVIE" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_GAME" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_SPEECH" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_NAVIGATION" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_VOICE_ASSISTANT" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_ACCESSIBILITY" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_INTERNAL_FORCE_STOP" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_VOICE_COMMUNICATION" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_VOICE_RING" is_forced="true" action_type="STOP" action_on="existing"/>
+            </private>
+        </focus_table>
+    </focus_type>
+    <focus_type value="STREAM_ACCESSIBILITY">
+        <focus_table>
+            <deny>
+                <focus_type value="STREAM_VOICE_MESSAGE"/>
+                <focus_type value="STREAM_NOTIFICATION"/>
+                <focus_type value="STREAM_VOICE_ASSISTANT"/>
+            </deny>
+            <shared>
+                <focus_type value="STREAM_MUSIC" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_MOVIE" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_GAME" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_SPEECH" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_CALL" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_SYSTEM" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_RING" is_forced="true" action_type="DUCK" action_on="existing"/>
+                <focus_type value="STREAM_NAVIGATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ALARM" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_SYSTEM_ENFORCED" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_DTMF" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_COMMUNICATION" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_RING" is_forced="true" action_type="DUCK" action_on="existing"/>
+                <focus_type value="SOURCE_TYPE_MIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_RECOGNITION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_COMMUNICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_PLAYBACK_CAPTURE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_WAKEUP" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_CALL" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_MESSAGE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_REMOTE_CAST" is_forced="true" action_type="PLAY" action_on="incoming"/>
+            </shared>
+            <private>
+                <focus_type value="STREAM_ACCESSIBILITY" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_INTERNAL_FORCE_STOP" is_forced="true" action_type="STOP" action_on="existing"/>
+            </private>
+        </focus_table>
+    </focus_type>
+    <focus_type value="STREAM_ULTRASONIC">
+        <focus_table>
+            <deny>
+                <focus_type value="STREAM_ULTRASONIC"/>
+            </deny>
+            <shared>
+                <focus_type value="STREAM_VOICE_CALL" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_MESSAGE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_SYSTEM" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_RING" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_MUSIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_MOVIE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_GAME" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_SPEECH" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_NAVIGATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ALARM" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_NOTIFICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_SYSTEM_ENFORCED" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_DTMF" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_ASSISTANT" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ACCESSIBILITY" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_COMMUNICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_RING" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_MIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_RECOGNITION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_COMMUNICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_PLAYBACK_CAPTURE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_WAKEUP" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_CALL" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_MESSAGE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_REMOTE_CAST" is_forced="true" action_type="PLAY" action_on="incoming"/>
+            </shared>
+            <private>
+                <focus_type value="STREAM_INTERNAL_FORCE_STOP" is_forced="true" action_type="STOP" action_on="existing"/>
+            </private>
+        </focus_table>
+    </focus_type>
+    <focus_type value="STREAM_VOICE_COMMUNICATION">
+        <focus_table>
+            <deny>
+                <focus_type value="STREAM_RING"/>
+                <focus_type value="STREAM_NOTIFICATION"/>
+                <focus_type value="STREAM_VOICE_ASSISTANT"/>
+                <focus_type value="STREAM_VOICE_COMMUNICATION"/>
+            </deny>
+            <shared>
+                <focus_type value="STREAM_VOICE_MESSAGE" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_SYSTEM" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_MUSIC" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_MOVIE" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_GAME" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_SPEECH" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_NAVIGATION" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_ALARM" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_SYSTEM_ENFORCED" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_DTMF" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ACCESSIBILITY" is_forced="true" action_type="DUCK" action_on="existing"/>
+                <focus_type value="STREAM_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_RING" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_MIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_RECOGNITION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_COMMUNICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_WAKEUP" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_PLAYBACK_CAPTURE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_CALL" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_MESSAGE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_REMOTE_CAST" is_forced="true" action_type="PLAY" action_on="incoming"/>
+            </shared>
+            <private>
+                <focus_type value="STREAM_INTERNAL_FORCE_STOP" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_VOICE_CALL" is_forced="true" action_type="STOP" action_on="existing"/>
+            </private>
+        </focus_table>
+    </focus_type>
+    <focus_type value="STREAM_VOICE_RING">
+        <focus_table>
+            <deny>
+                <focus_type value="STREAM_RING"/>
+                <focus_type value="STREAM_NOTIFICATION"/>
+                <focus_type value="STREAM_DTMF"/>
+                <focus_type value="STREAM_VOICE_ASSISTANT"/>
+                <focus_type value="STREAM_VOICE_RING"/>
+                <focus_type value="STREAM_VOICE_COMMUNICATION"/>
+            </deny>
+            <shared>
+                <focus_type value="STREAM_VOICE_MESSAGE" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_SYSTEM" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_MUSIC" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_MOVIE" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_GAME" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_SPEECH" is_forced="true" action_type="DUCK" action_on="incoming"/>
+                <focus_type value="STREAM_NAVIGATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_SYSTEM_ENFORCED" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ACCESSIBILITY" is_forced="true" action_type="DUCK" action_on="existing"/>
+                <focus_type value="STREAM_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_MIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_RECOGNITION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_COMMUNICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_PLAYBACK_CAPTURE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_WAKEUP" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_CALL" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_MESSAGE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_REMOTE_CAST" is_forced="true" action_type="PLAY" action_on="incoming"/>
+            </shared>
+            <private>
+                <focus_type value="STREAM_VOICE_CALL" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_ALARM" is_forced="true" action_type="PAUSE" action_on="incoming"/>
+                <focus_type value="STREAM_INTERNAL_FORCE_STOP" is_forced="true" action_type="STOP" action_on="existing"/>
+            </private>
+        </focus_table>
+    </focus_type>
+    <focus_type value="SOURCE_TYPE_MIC">
+        <focus_table>
+            <deny>
+                <focus_type value="SOURCE_TYPE_MIC"/>
+                <focus_type value="SOURCE_TYPE_VOICE_RECOGNITION"/>
+                <focus_type value="SOURCE_TYPE_WAKEUP"/>
+                <focus_type value="SOURCE_TYPE_VOICE_MESSAGE"/>
+            </deny>
+            <shared>
+                <focus_type value="STREAM_VOICE_MESSAGE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_SYSTEM" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_RING" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_MUSIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_MOVIE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_GAME" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_SPEECH" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_NAVIGATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ALARM" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_NOTIFICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_SYSTEM_ENFORCED" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_DTMF" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_ASSISTANT" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ACCESSIBILITY" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_COMMUNICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_RING" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_PLAYBACK_CAPTURE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_REMOTE_CAST" is_forced="true" action_type="PLAY" action_on="incoming"/>
+            </shared>
+            <private>
+                <focus_type value="STREAM_VOICE_CALL" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="SOURCE_TYPE_VOICE_COMMUNICATION" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_INTERNAL_FORCE_STOP" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="SOURCE_TYPE_VOICE_CALL" is_forced="true" action_type="STOP" action_on="existing"/>
+            </private>
+        </focus_table>
+    </focus_type>
+    <focus_type value="SOURCE_TYPE_VOICE_RECOGNITION">
+        <focus_table>
+            <deny>
+                <focus_type value="SOURCE_TYPE_MIC"/>
+                <focus_type value="SOURCE_TYPE_VOICE_RECOGNITION"/>
+                <focus_type value="SOURCE_TYPE_WAKEUP"/>
+                <focus_type value="SOURCE_TYPE_VOICE_MESSAGE"/>
+            </deny>
+            <shared>
+                <focus_type value="STREAM_VOICE_CALL" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_MESSAGE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_SYSTEM" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_RING" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_MUSIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_MOVIE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_GAME" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_SPEECH" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_NAVIGATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ALARM" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_NOTIFICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_SYSTEM_ENFORCED" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_DTMF" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_ASSISTANT" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ACCESSIBILITY" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_COMMUNICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_RING" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_PLAYBACK_CAPTURE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_REMOTE_CAST" is_forced="true" action_type="PLAY" action_on="incoming"/>
+            </shared>
+            <private>
+                <focus_type value="SOURCE_TYPE_VOICE_COMMUNICATION" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_INTERNAL_FORCE_STOP" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="SOURCE_TYPE_VOICE_CALL" is_forced="true" action_type="STOP" action_on="existing"/>
+            </private>
+        </focus_table>
+    </focus_type>
+    <focus_type value="SOURCE_TYPE_VOICE_COMMUNICATION">
+        <focus_table>
+            <deny>
+                <focus_type value="SOURCE_TYPE_MIC"/>
+                <focus_type value="SOURCE_TYPE_VOICE_RECOGNITION"/>
+                <focus_type value="SOURCE_TYPE_VOICE_COMMUNICATION"/>
+                <focus_type value="SOURCE_TYPE_WAKEUP"/>
+                <focus_type value="SOURCE_TYPE_ULTRASONIC"/>
+                <focus_type value="SOURCE_TYPE_VOICE_MESSAGE"/>
+            </deny>
+            <shared>
+                <focus_type value="STREAM_VOICE_MESSAGE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_SYSTEM" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_RING" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_MUSIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_MOVIE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_GAME" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_SPEECH" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_NAVIGATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ALARM" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_NOTIFICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_SYSTEM_ENFORCED" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_DTMF" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_ASSISTANT" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ACCESSIBILITY" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_COMMUNICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_RING" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_PLAYBACK_CAPTURE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_CALL" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_REMOTE_CAST" is_forced="true" action_type="PLAY" action_on="incoming"/>
+            </shared>
+            <private>
+                <focus_type value="STREAM_VOICE_CALL" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_INTERNAL_FORCE_STOP" is_forced="true" action_type="STOP" action_on="existing"/>
+            </private>
+        </focus_table>
+    </focus_type>
+    <focus_type value="SOURCE_TYPE_PLAYBACK_CAPTURE">
+        <focus_table>
+            <deny>nil</deny>
+            <shared>
+                <focus_type value="STREAM_VOICE_CALL" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_MESSAGE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_SYSTEM" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_RING" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_MUSIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_MOVIE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_GAME" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_SPEECH" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_NAVIGATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ALARM" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_NOTIFICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_SYSTEM_ENFORCED" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_DTMF" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_ASSISTANT" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ACCESSIBILITY" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_COMMUNICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_RING" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_MIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_RECOGNITION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_COMMUNICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_PLAYBACK_CAPTURE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_WAKEUP" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_CALL" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_MESSAGE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_REMOTE_CAST" is_forced="true" action_type="PLAY" action_on="incoming"/>
+            </shared>
+            <private>
+                <focus_type value="SOURCE_TYPE_VOICE_CALL" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_INTERNAL_FORCE_STOP" is_forced="true" action_type="STOP" action_on="existing"/>
+            </private>
+        </focus_table>
+    </focus_type>
+    <focus_type value="SOURCE_TYPE_WAKEUP">
+        <focus_table>
+            <deny>nil</deny>
+            <shared>
+                <focus_type value="STREAM_VOICE_CALL" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_MESSAGE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_SYSTEM" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_RING" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_MUSIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_MOVIE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_GAME" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_SPEECH" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_NAVIGATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ALARM" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_NOTIFICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_SYSTEM_ENFORCED" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_DTMF" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_ASSISTANT" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ACCESSIBILITY" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_COMMUNICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_RING" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_PLAYBACK_CAPTURE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_WAKEUP" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_REMOTE_CAST" is_forced="true" action_type="PLAY" action_on="incoming"/>
+            </shared>
+            <private>
+                <focus_type value="SOURCE_TYPE_MIC" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="SOURCE_TYPE_VOICE_RECOGNITION" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="SOURCE_TYPE_VOICE_COMMUNICATION" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="SOURCE_TYPE_ULTRASONIC" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_INTERNAL_FORCE_STOP" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="SOURCE_TYPE_VOICE_CALL" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="SOURCE_TYPE_VOICE_MESSAGE" is_forced="true" action_type="STOP" action_on="existing"/>
+            </private>
+        </focus_table>
+    </focus_type>
+    <focus_type value="SOURCE_TYPE_ULTRASONIC">
+        <focus_table>
+            <deny>
+                <focus_type value="SOURCE_TYPE_WAKEUP"/>
+                <focus_type value="SOURCE_TYPE_ULTRASONIC"/>
+            </deny>
+            <shared>
+                <focus_type value="STREAM_VOICE_CALL" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_MESSAGE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_SYSTEM" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_RING" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_MUSIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_MOVIE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_GAME" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_SPEECH" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_NAVIGATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ALARM" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_NOTIFICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_SYSTEM_ENFORCED" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_DTMF" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_ASSISTANT" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ACCESSIBILITY" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_COMMUNICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_RING" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_MIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_RECOGNITION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_PLAYBACK_CAPTURE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_COMMUNICATION" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="SOURCE_TYPE_VOICE_CALL" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_MESSAGE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_REMOTE_CAST" is_forced="true" action_type="PLAY" action_on="incoming"/>
+            </shared>
+            <private>
+                <focus_type value="STREAM_INTERNAL_FORCE_STOP" is_forced="true" action_type="STOP" action_on="existing"/>
+            </private>
+        </focus_table>
+    </focus_type>
+    <focus_type value="STREAM_INTERNAL_FORCE_STOP">
+        <focus_table>
+            <deny>
+                <focus_type value="SOURCE_TYPE_WAKEUP"/>
+                <focus_type value="SOURCE_TYPE_ULTRASONIC"/>
+                <focus_type value="STREAM_VOICE_CALL"/>
+                <focus_type value="STREAM_VOICE_MESSAGE"/>
+                <focus_type value="STREAM_SYSTEM"/>
+                <focus_type value="STREAM_RING"/>
+                <focus_type value="STREAM_MUSIC"/>
+                <focus_type value="STREAM_MOVIE"/>
+                <focus_type value="STREAM_GAME"/>
+                <focus_type value="STREAM_SPEECH"/>
+                <focus_type value="STREAM_NAVIGATION"/>
+                <focus_type value="STREAM_ALARM"/>
+                <focus_type value="STREAM_NOTIFICATION"/>
+                <focus_type value="STREAM_SYSTEM_ENFORCED"/>
+                <focus_type value="STREAM_DTMF"/>
+                <focus_type value="STREAM_VOICE_ASSISTANT"/>
+                <focus_type value="STREAM_ACCESSIBILITY"/>
+                <focus_type value="STREAM_ULTRASONIC"/>
+                <focus_type value="STREAM_VOICE_COMMUNICATION"/>
+                <focus_type value="STREAM_VOICE_RING"/>
+                <focus_type value="SOURCE_TYPE_MIC"/>
+                <focus_type value="SOURCE_TYPE_VOICE_RECOGNITION"/>
+                <focus_type value="SOURCE_TYPE_PLAYBACK_CAPTURE"/>
+                <focus_type value="SOURCE_TYPE_VOICE_COMMUNICATION"/>
+                <focus_type value="SOURCE_TYPE_VOICE_CALL"/>
+                <focus_type value="SOURCE_TYPE_VOICE_MESSAGE"/>
+                <focus_type value="SOURCE_TYPE_REMOTE_CAST"/>
+            </deny>
+            <shared>
+            </shared>
+            <private>nil</private>
+        </focus_table>
+    </focus_type>
+    <focus_type value="SOURCE_TYPE_VOICE_CALL">
+        <focus_table>
+            <deny>
+                <focus_type value="SOURCE_TYPE_MIC"/>
+                <focus_type value="SOURCE_TYPE_VOICE_RECOGNITION"/>
+                <focus_type value="SOURCE_TYPE_VOICE_CALL"/>
+                <focus_type value="SOURCE_TYPE_WAKEUP"/>
+                <focus_type value="SOURCE_TYPE_ULTRASONIC"/>
+                <focus_type value="SOURCE_TYPE_PLAYBACK_CAPTURE"/>
+                <focus_type value="SOURCE_TYPE_VOICE_MESSAGE"/>
+                <focus_type value="SOURCE_TYPE_REMOTE_CAST"/>
+            </deny>
+            <shared>
+                <focus_type value="STREAM_VOICE_CALL" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_MESSAGE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_SYSTEM" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_RING" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_MUSIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_MOVIE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_GAME" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_SPEECH" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_NAVIGATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ALARM" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_NOTIFICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_SYSTEM_ENFORCED" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_DTMF" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_ASSISTANT" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ACCESSIBILITY" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_COMMUNICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_RING" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_COMMUNICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+            </shared>
+            <private>
+                <focus_type value="STREAM_INTERNAL_FORCE_STOP" is_forced="true" action_type="STOP" action_on="existing"/>
+            </private>
+        </focus_table>
+    </focus_type>
+    <focus_type value="SOURCE_TYPE_VOICE_MESSAGE">
+        <focus_table>
+            <deny>
+                <focus_type value="SOURCE_TYPE_MIC"/>
+                <focus_type value="SOURCE_TYPE_VOICE_RECOGNITION"/>
+                <focus_type value="SOURCE_TYPE_WAKEUP"/>
+                <focus_type value="SOURCE_TYPE_VOICE_MESSAGE"/>
+            </deny>
+            <shared>
+                <focus_type value="STREAM_VOICE_MESSAGE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_SYSTEM" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_RING" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_MUSIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_MOVIE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_GAME" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_SPEECH" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_NAVIGATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ALARM" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_NOTIFICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_SYSTEM_ENFORCED" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_DTMF" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_ASSISTANT" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ACCESSIBILITY" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_COMMUNICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_RING" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_PLAYBACK_CAPTURE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_REMOTE_CAST" is_forced="true" action_type="PLAY" action_on="incoming"/>
+            </shared>
+            <private>
+                <focus_type value="STREAM_VOICE_CALL" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_INTERNAL_FORCE_STOP" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="SOURCE_TYPE_VOICE_COMMUNICATION" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="SOURCE_TYPE_VOICE_CALL" is_forced="true" action_type="STOP" action_on="existing"/>
+            </private>
+        </focus_table>
+    </focus_type>
+    <focus_type value="SOURCE_TYPE_REMOTE_CAST">
+        <focus_table>
+            <deny>nil</deny>
+            <shared>
+                <focus_type value="STREAM_VOICE_CALL" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_MESSAGE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_SYSTEM" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_RING" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_MUSIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_MOVIE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_GAME" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_SPEECH" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_NAVIGATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ALARM" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_NOTIFICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_SYSTEM_ENFORCED" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_DTMF" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_ASSISTANT" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ACCESSIBILITY" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_COMMUNICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="STREAM_VOICE_RING" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_MIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_RECOGNITION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_COMMUNICATION" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_PLAYBACK_CAPTURE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_WAKEUP" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_ULTRASONIC" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_CALL" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_VOICE_MESSAGE" is_forced="true" action_type="PLAY" action_on="incoming"/>
+                <focus_type value="SOURCE_TYPE_REMOTE_CAST" is_forced="true" action_type="PLAY" action_on="incoming"/>
+            </shared>
+            <private>
+                <focus_type value="SOURCE_TYPE_VOICE_CALL" is_forced="true" action_type="STOP" action_on="existing"/>
+                <focus_type value="STREAM_INTERNAL_FORCE_STOP" is_forced="true" action_type="STOP" action_on="existing"/>
+            </private>
+        </focus_table>
+    </focus_type>
+</audio_focus_policy>

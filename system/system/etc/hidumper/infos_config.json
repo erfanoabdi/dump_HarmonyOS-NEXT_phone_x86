@@ -1,0 +1,17 @@
+{
+    "version":"0.0.0",
+    "info_sample_configs":[
+        {
+            "info_name":"CpuInfos",
+            "window_elapse":20,
+            "sample_cycle":200000,
+            "buffer_size":20971520
+        },
+        {
+            "info_name":"StatInfos",
+            "window_elapse":20,
+            "sample_cycle":200000,
+            "buffer_size":15728640
+        }
+    ]
+}

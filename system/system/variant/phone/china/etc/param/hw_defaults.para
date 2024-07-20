@@ -1,0 +1,26 @@
+# 2024-03-28 09:58:31.0
+atomic.service.distribute.engine.bundle.name=com.huawei.hmos.asde
+# 2024-05-16 19:26:28.0
+const.filemanagement.enable_sandbox_monitor=false
+# 2024-03-22 11:50:39.0
+const.meetcall.float.window=true
+# 2024-04-29 11:12:08.0
+const.meetime.support.message=true
+# 2024-02-27 11:26:41.0
+const.product.os.dist.apiversion=50000
+# 2024-06-13 10:14:49.0
+const.product.os.dist.releasetype=Beta1
+# 2024-02-22 17:39:40.0
+const.telephony.preferredNetworkType=12
+# 2024-02-22 17:39:40.0
+const.telephony.stk_bundle_name=com.huawei.hmos.simtoolkits
+# 2024-05-23 10:14:08.0
+const.window.need_avoid_window=true
+# 2024-02-22 17:39:40.0
+hw_sc.hmos_font.enabled=true
+# 2024-04-29 10:36:29.0
+persist.dupdate_engine.update_hota_domain=https://update-drcn.platform.hicloud.com
+# 2024-02-23 11:15:52.0
+persist.time.ntpserver=1.cn.pool.ntp.org,ntp.sjtu.edu.cn,time.windows.com,time.nist.gov,pool.ntp.org
+# 2024-05-09 11:07:33.0
+telephony.nummatch=11

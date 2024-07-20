@@ -1,0 +1,38 @@
+{
+    "FREEZE": [
+        {
+            "condition": ["day_standby", "night_standby"],
+            "action": "allow",
+            "processes": [],
+            "apps": [],
+            "processes_limit": [],
+            "apps_limit": []
+        },
+        {
+            "condition": ["day_standby", "night_standby"],
+            "action": "restrict",
+            "processes": [],
+            "apps": [],
+            "processes_limit": [],
+            "apps_limit": []
+        }
+    ],
+    "TIMER": [
+        {
+            "condition": ["day_standby", "night_standby"],
+            "action": "allow",
+            "processes": [],
+            "apps": [],
+            "processes_limit": [],
+            "time_clock_apps": []
+        },
+        {
+            "condition": ["day_standby", "night_standby"],
+            "action": "restrict",
+            "processes": [],
+            "apps": [],
+            "processes_limit": [],
+            "time_clock_apps": []
+        }
+    ]
+}

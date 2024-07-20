@@ -1,0 +1,12 @@
+{
+    "process": "param_watcher",
+    "systemability": [
+        {
+            "name": 3901,
+            "libpath": "libparam_watcher.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "process": "push_manager_service",
+    "systemability": [
+        {
+            "name": 65728,
+            "libpath": "libpush_manager_service.z.so",
+            "run-on-create": true,
+            "auto-restart": true,
+            "distributed": false,
+            "dump-level": 1
+        }
+    ]
+}

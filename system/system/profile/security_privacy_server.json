@@ -1,0 +1,20 @@
+{
+    "process": "security_privacy_server",
+    "systemability": [
+        {
+            "name": 65993,
+            "libpath": "libsps_security_privacy_service.z.so",
+            "run-on-create": false,
+            "auto-restart": false,
+            "distributed": false,
+            "dump_level": 1,
+            "start-on-demand": {
+                "commonevent": [
+                    {
+                        "name": "COMMON_EVENT_RESTORE_START"
+                    }
+                ]
+            }
+        }
+    ]
+}

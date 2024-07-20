@@ -1,0 +1,12 @@
+{
+    "process": "security_component_service",
+    "systemability": [
+        {
+            "name": 3506,
+            "libpath": "libsecurity_component_service.z.so",
+            "run-on-create": false,
+            "distributed": false,
+            "dump_level": 1
+        }
+    ]
+}

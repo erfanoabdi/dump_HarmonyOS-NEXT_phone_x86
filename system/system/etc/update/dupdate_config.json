@@ -1,0 +1,20 @@
+{
+    "config_platform_url": "https://configserver.platform.hicloud.com",
+    "hota_query_url": "https://query.hicloud.com",
+    "keep_alive_threshold": 1800,
+    "default_pull_up_interval": 86400,
+    "idle_check_interval": 180,
+    "ab_installer_timeout": 1800,
+    "auto_download_battery_limit_normal_charging": 10,
+    "auto_download_battery_level": 35,
+    "auto_upgrade_idle_check_type": 15,
+    "auto_upgrade_battery_limit_charging": 20,
+    "night_upgrade_battery_level": 30,
+    "auto_upgrade_hota_exclude_battery_limit": 20,
+    "manual_upgrade_battery_limit": 20,
+    "auto_upgrade_patch_battery_limit_charging": 10,
+    "param_auto_download_battery_limit_Uncharging": 50,
+    "is_notify_app_recompile": false,
+    "moduleLibPath": "/system/lib64/updateext/libdupdate_engine_service.z.so",
+    "hianalytics_collectUrl": "https://metrics1-drcn.dt.dbankcloud.cn:443"
+}

@@ -1,0 +1,30 @@
+{
+    "Version": "2024012501",
+    "HiperfProcessesMaxNums": 5,
+    "ShceduleTaskConfig": [
+        {
+            "UseCaseNames": [
+                "ResourceUsage_browser",
+                "ResourceUsage_camera"
+            ],
+            "ProfilerType": "CPU",
+            "ProcessNames": [],
+            "Duration": 10,
+            "Frequency": 100,
+            "CallStackType": "dwarf",
+            "EventTypeList": [
+                "hw-cpu-cycles",
+                "hw-instructions"
+            ]
+        },
+        {
+            "UseCaseNames": [
+                "ResourceUsage_browser_mem"
+            ],
+            "ProfilerType": "MEMORY",
+            "ProcessNames": ["com.ohos.sceneboard"],
+            "Duration": 50,
+            "SampleInterval" : 0
+        }
+    ]
+}

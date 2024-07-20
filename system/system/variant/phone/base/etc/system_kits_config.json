@@ -1,0 +1,60 @@
+{
+  "configVersion": "1.0.1",
+  "systemkits": [
+    {
+      "namespace": "@hms:core.map.map",
+      "targetohm": "@bundle:com.huawei.hms.mapservice.kit/mapLibrary/ets/map",
+      "sinceVersion": 40100011
+    },
+    {
+      "namespace": "@hms:core.map.mapCommon",
+      "targetohm": "@bundle:com.huawei.hms.mapservice.kit/mapLibrary/ets/mapCommon",
+      "sinceVersion": 40100011
+    },
+    {
+      "namespace": "@hms:core.map.MapComponent",
+      "targetohm": "@bundle:com.huawei.hms.mapservice.kit/mapLibrary/ets/MapComponent",
+      "sinceVersion": 40100011
+    },
+    {
+      "namespace": "@hms:health.store",
+      "targetohm": "@bundle:com.huawei.hmos.health.kit/HealthStore/ets/Index",
+      "sinceVersion": 50000012
+    },
+    {
+      "namespace": "@hms:health.service",
+      "targetohm": "@bundle:com.huawei.hmos.health.kit/HealthService/ets/Index",
+      "sinceVersion": 50000012
+    },
+    {
+      "namespace": "@hms:ai.interactiveLiveness",
+      "targetohm": "@bundle:com.huawei.hmsapp.hiai.hsp/interactivelivenessHsp/Index",
+      "sinceVersion": 50000012
+    },
+    {
+      "namespace": "@hms:ai.textReader",
+      "targetohm": "@bundle:com.huawei.hmsapp.hiai.hsp/textReaderHsp/Index",
+      "sinceVersion": 50000012
+    },
+    {
+      "namespace": "@hms:core.payment.walletPass",
+      "targetohm": "@bundle:com.huawei.hmos.walletkit/walletKit/ets/service/Pass",
+      "sinceVersion": 50000012
+    },
+    {
+      "namespace": "@hms:core.payment.walletTransitCard",
+      "targetohm": "@bundle:com.huawei.hmos.walletkit/walletKit/ets/service/TransitCard",
+      "sinceVersion": 50000012
+    },
+    {
+      "namespace": "@hms:stylus.HandwriteComponent",
+      "targetohm": "@bundle:com.huawei.hmos.hwstylusfeature/Penkit/ets/hsp/HandwritePaint",
+      "sinceVersion": 50000012
+    },
+    {
+      "namespace": "@hms:stylus.handwrite",
+      "targetohm": "@bundle:com.huawei.hmos.hwstylusfeature/Penkit/ets/hsp/HandwritePaint",
+      "sinceVersion": 50000012
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+    "mount-path-map" : [{
+            "sandbox-path" : "/data/storage/el2/base/",
+            "src-path" : "/data/app/el2/<currentUserId>/base/<PackageName>/"
+        }, {
+            "sandbox-path" : "/data/storage/el1/base/",
+            "src-path" : "/data/app/el1/<currentUserId>/base/<PackageName>/"
+        }, {
+            "sandbox-path" : "/data/storage/el1/database/",
+            "src-path" : "/data/app/el1/<currentUserId>/database/<PackageName>/"
+        }, {
+            "sandbox-path" : "/data/storage/el2/database/",
+            "src-path" : "/data/app/el2/<currentUserId>/database/<PackageName>/"
+        }, {
+            "sandbox-path" : "/data/storage/el2/distributedfiles/",
+            "src-path" : "/mnt/hmdfs/<currentUserId>/account/device_view/<networkId>/data/<PackageName>/"
+        }, {
+            "sandbox-path" : "/mnt/data/fuse/",
+            "src-path" : "/mnt/data/<currentUserId>/fuse/"
+        }, {
+            "sandbox-path" : "/storage/Users/currentUser/",
+            "src-path" : "/mnt/hmdfs/<currentUserId>/account/device_view/<networkId>/files/Docs/"
+        }, {
+            "sandbox-path" : "/storage/External/",
+            "src-path" : "/mnt/data/external/"
+        }, {
+            "sandbox-path" : "/storage/Share/",
+            "src-path" : "/data/service/el1/public/storage_daemon/share/public/"
+        }, {
+            "sandbox-path" : "/data/storage/el2/cloud/",
+            "src-path" : "/mnt/hmdfs/<currentUserId>/cloud/data/<PackageName>/"
+        }
+    ]
+}

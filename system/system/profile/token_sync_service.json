@@ -1,0 +1,28 @@
+{
+    "process": "token_sync_service",
+    "systemability": [
+        {
+            "name": 3504,
+            "libpath": "libtoken_sync_manager_service.z.so",
+            "run-on-create": false,
+            "distributed": true,
+            "dump-level": 1,
+            "start-on-demand": {
+                "deviceonline": [
+                    {
+                        "name": "deviceonline",
+                        "value": "on"
+                    }
+                ]
+            },
+            "stop-on-demand": {
+                "deviceonline": [
+                    {
+                        "name": "deviceonline",
+                        "value": "off"
+                    }
+                ]
+            }
+        }
+    ]
+}

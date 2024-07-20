@@ -1,0 +1,6 @@
+version=1.10.22.100
+type=TABOO
+subtype=generic
+compatibleVersion=1
+classify=1
+displayVersion=TB.GENC.1.10.22.100

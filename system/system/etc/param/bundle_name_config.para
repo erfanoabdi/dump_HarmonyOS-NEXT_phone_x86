@@ -1,0 +1,2 @@
+persist.kernel.bundle_name.clouddrive = com.huawei.hmos.clouddrive
+persist.kernel.bundle_name.photos = com.huawei.hmos.photos

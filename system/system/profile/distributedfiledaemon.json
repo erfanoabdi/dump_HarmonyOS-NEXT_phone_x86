@@ -1,0 +1,32 @@
+{
+    "process": "distributedfiledaemon",
+    "systemability": [
+        {
+            "name": 5201,
+            "libpath": "libdistributedfiledaemon.z.so",
+            "run-on-create": false,
+            "depend": [
+                4700
+            ],
+            "depend-time-out": 10000,
+            "distributed": true,
+            "dump-level": 1,
+            "start-on-demand": {
+                "deviceonline": [
+                    {
+                        "name": "deviceonline",
+                        "value": "ready"
+                    }
+                ]
+            },
+            "stop-on-demand": {
+                "deviceonline": [
+                    {
+                        "name": "deviceonline",
+                        "value": "off"
+                    }
+                ]
+            }
+        }
+    ]
+}

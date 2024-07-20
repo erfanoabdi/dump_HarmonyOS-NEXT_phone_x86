@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<efficiency>
+  <cmd id="20001" name="gov_scene_level_default">
+    <gov_load_cpu_lit tagId="1006">-1</gov_load_cpu_lit>
+    <gov_load_cpu_mid tagId="1007">-1</gov_load_cpu_mid>
+    <gov_load_cpu_big tagId="1008">-1</gov_load_cpu_big>
+    <gov_delay_up_cpu_lit tagId="3003">-1</gov_delay_up_cpu_lit>
+    <gov_delay_up_cpu_mid tagId="3004">-1</gov_delay_up_cpu_mid>
+    <gov_delay_up_cpu_big tagId="3005">-1</gov_delay_up_cpu_big>
+    <gov_delay_down_cpu_lit tagId="3006">-1</gov_delay_down_cpu_lit>
+    <gov_top_task_stats_policy_cpu_lit tagId="3015">-1</gov_top_task_stats_policy_cpu_lit>
+    <gov_top_task_stats_policy_cpu_mid tagId="3016">-1</gov_top_task_stats_policy_cpu_mid>
+    <gov_top_task_stats_policy_cpu_big tagId="3017">-1</gov_top_task_stats_policy_cpu_big>
+  </cmd>
+  <cmd id="20002" name="gov_scene_level_1">
+    <gov_load_cpu_lit tagId="1006">90</gov_load_cpu_lit>
+    <gov_load_cpu_mid tagId="1007">90</gov_load_cpu_mid>
+    <gov_load_cpu_big tagId="1008">90</gov_load_cpu_big>
+    <gov_delay_up_cpu_lit tagId="3003">90</gov_delay_up_cpu_lit>
+    <gov_delay_up_cpu_mid tagId="3004">90</gov_delay_up_cpu_mid>
+    <gov_delay_up_cpu_big tagId="3005">90</gov_delay_up_cpu_big>
+    <gov_delay_down_cpu_lit tagId="3006">90</gov_delay_down_cpu_lit>
+    <gov_top_task_stats_policy_cpu_lit tagId="3015">110</gov_top_task_stats_policy_cpu_lit>
+    <gov_top_task_stats_policy_cpu_mid tagId="3016">100</gov_top_task_stats_policy_cpu_mid>
+    <gov_top_task_stats_policy_cpu_big tagId="3017">100</gov_top_task_stats_policy_cpu_big>
+  </cmd>
+</efficiency>

@@ -1,0 +1,19 @@
+{
+    "process": "sensors",
+    "systemability": [
+        {
+            "name": 3602,
+            "libpath": "libmiscdevice_service.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 3601,
+            "libpath": "libsensor_service.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        }
+    ]
+}

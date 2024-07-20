@@ -1,0 +1,50 @@
+[
+  {
+    "sound": "ring_mode"
+  },
+  {
+    "rotation": "auto_rotate"
+  },
+  {
+    "hotspot": "hotspot"
+  },
+  {
+    "data": "mobile_data"
+  },
+  {
+    "hishare": "huawei_share"
+  },
+  {
+    "airsharing": "HuaweiCastToggle"
+  },
+  {
+    "location": "location"
+  },
+  {
+    "screenshot": "toggle_screenshot"
+  },
+  {
+    "recorder": "toggle_screen_recorder"
+  },
+  {
+    "nfc": "nfc"
+  },
+  {
+    "airplane": "air_plane"
+  },
+  {
+    "dark": "dark_mode"
+  },
+  {
+    "flashlight": "flashlight"
+  },
+  {
+    "eyecomfort": "eye_comfort"
+  },
+  {
+    "superhub": "super_hub"
+  },
+  {
+    "scanner": "toggle_scanner"
+  }
+]

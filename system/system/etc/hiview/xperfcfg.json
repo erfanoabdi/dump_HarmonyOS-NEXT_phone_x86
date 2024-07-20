@@ -1,0 +1,368 @@
+{
+    "SceneIdDef":[
+        {"SCENE_ID": 1, "strComments": "ABILITY_OR_PAGE_SWITCH"},
+        {"SCENE_ID": 2, "strComments": "APP_LIST_FLING"},
+        {"SCENE_ID": 3, "strComments": "APP_SWIPER_SCROLL"},
+        {"SCENE_ID": 4, "strComments": "APP_SWIPER_FLING"},
+        {"SCENE_ID": 5, "strComments": "LAUNCHER_APP_LAUNCH_FROM_ICON"},
+        {"SCENE_ID": 6, "strComments": "LAUNCHER_APP_SWIPE_TO_HOME"},
+        {"SCENE_ID": 7, "strComments": "LAUNCHER_APP_BACK_TO_HOME"},
+        {"SCENE_ID": 8, "strComments": "LAUNCHER_APP_LAUNCH_FROM_DOCK"},
+        {"SCENE_ID": 9, "strComments": "LAUNCHER_APP_LAUNCH_FROM_RECENT"},
+        {"SCENE_ID": 10, "strComments": "LAUNCHER_APP_LAUNCH_FROM_NOTIFICATIONBAR"},
+        {"SCENE_ID": 11, "strComments": "LAUNCHER_APP_LAUNCH_FROM_NOTIFICATIONBAR_IN_LOCKSCREEN"},
+        {"SCENE_ID": 12, "strComments": "LAUNCHER_APP_LAUNCH_FROM_STATUSBAR"},
+        {"SCENE_ID": 13, "strComments": "START_APP_ANI_MENU"},
+        {"SCENE_ID": 14, "strComments": "START_APP_ANI_FORM"},
+        {"SCENE_ID": 15, "strComments": "APP_TRANSITION_TO_OTHER_APP"},
+        {"SCENE_ID": 16, "strComments": "APP_TRANSITION_FROM_OTHER_APP"},
+        {"SCENE_ID": 17, "strComments": "LAUNCHER_BIGFLODER_OPEN"},
+        {"SCENE_ID": 18, "strComments": "GESTURE_TO_RECENTS"},
+        {"SCENE_ID": 19, "strComments": "LAUNCHER_SCROLL"},
+        {"SCENE_ID": 20, "strComments": "DRAG_ITEM_ANI"},
+        {"SCENE_ID": 21, "strComments": "SCROLL_2_AA"},
+        {"SCENE_ID": 22, "strComments": "EXIT_RECENT_2_HOME_ANI"},
+        {"SCENE_ID": 23, "strComments": "SNAP_RECENT_ANI"},
+        {"SCENE_ID": 24, "strComments": "INTO_CC_ANI"},
+        {"SCENE_ID": 25, "strComments": "EXIT_CC_ANI"},
+        {"SCENE_ID": 26, "strComments": "INTO_NC_ANI"},
+        {"SCENE_ID": 27, "strComments": "EXIT_NC_ANI"},
+        {"SCENE_ID": 28, "strComments": "INTO_HOME_ANI"},
+        {"SCENE_ID": 29, "strComments": "CLOSE_FOLDER_ANI"},
+        {"SCENE_ID": 30, "strComments": "EXPAND_TO_FOLD_INDICATOR"},
+        {"SCENE_ID": 31, "strComments": "FOLD_TO_EXPAND_DOCK_BACKGROUND_SCALE_TWO"},
+        {"SCENE_ID": 32, "strComments": "EXPAND_TO_FOLD_WINDOWS"},
+        {"SCENE_ID": 33, "strComments": "FOLD_TO_EXPAND_WINDOWS"},
+        {"SCENE_ID": 34, "strComments": "EXPAND_TO_FOLD_AA"},
+        {"SCENE_ID": 35, "strComments": "FOLD_TO_EXPAND_AA"}
+    ],
+    "PerfModeDef": 0,
+    "TraceLengthLevelDef": [
+        {"level": 1, "length": 10},
+        {"level": 2, "length": 20},
+        {"level": 3, "length": 1000}
+    ],
+    "SceneDef": {
+        "response": [
+            {"sceneId": "APP_TRANSITION_TO_OTHER_APP"},
+            {"sceneId": "APP_TRANSITION_FROM_OTHER_APP"}
+        ],
+        "complete": [
+            {"sceneId": "APP_TRANSITION_TO_OTHER_APP"},
+            {"sceneId": "APP_TRANSITION_FROM_OTHER_APP"},
+            {"sceneId": "ABILITY_OR_PAGE_SWITCH"}
+        ]
+    },
+    "ActionDef":
+    [
+        {"nActionID":4,"nActionType":0,"nEventID":902500012,"strComment":"PC_WAKEUP_LATENCY","nLevel_A":6000,"nLevel_B":4500,"nLevel_C":3000,"bTimeOut":0,"nDumpBitmap":32143,"eReportType":1,"nReportNumPerDay":0,
+            "strExcludingMsg":"","collectLogFrequency": 0,"collectTraceFrequency": 0,
+            "nLogID_Count":3, "aLogFilter":[{"nLogID":13,"nFilter":0},
+            {"nLogID":5,"nFilter":1},
+            {"nLogID":16,"nFilter":1},
+            {"nLogID":23,"nFilter":1},
+            {"nLogID":41,"nFilter":1},
+            {"nLogID":42,"nFilter":1},
+            {"nLogID":43,"nFilter":1},
+            {"nLogID":44,"nFilter":1},
+            {"nLogID":45,"nFilter":1},
+            {"nLogID":58,"nFilter":1},
+            {"nLogID":59,"nFilter":1},
+            {"nLogID":60,"nFilter":1},
+            {"nLogID":61,"nFilter":1},
+            {"nLogID":62,"nFilter":1},
+            {"nLogID":63,"nFilter":1},
+            {"nLogID":64,"nFilter":1}
+            ],
+            "nLogsTimeSpanPolicy_Count":0, "atLogsTSPolicy":[]
+        },
+        {"nActionID":7,"nActionType":0,"nEventID":902000000,"strComment":"OPEN_LARGE_FOLDER","nLevel_A":6000,"nLevel_B":4000,"nLevel_C":2500,"bTimeOut":0,"nDumpBitmap":1,"eReportType":1,"nReportNumPerDay":0,
+            "strExcludingMsg":"","collectLogFrequency": 0,"collectTraceFrequency": 0,
+            "nLogID_Count":1, "aLogFilter":[{"nLogID":34,"nFilter":1}],
+            "nLogsTimeSpanPolicy_Count":0, "atLogsTSPolicy":[]
+        },
+        {"nActionID":8,"nActionType":0,"nEventID":902500016,"strComment":"POWER_ON","nLevel_A":2500,"nLevel_B":2000,"nLevel_C":1500,"bTimeOut":0,"nDumpBitmap":95,"eReportType":1,"nReportNumPerDay":0,
+            "strExcludingMsg":"","collectLogFrequency": 1,"collectTraceFrequency": 1,"traceLengthLevel": 2,
+            "nLogID_Count":3, "aLogFilter":[{"nLogID":20,"nFilter":0},
+                {"nLogID":24,"nFilter":1},
+                {"nLogID":16,"nFilter":3}],
+            "nLogsTimeSpanPolicy_Count":0, "atLogsTSPolicy":[]
+        },
+        {"nActionID":9,"nActionType":0,"nEventID":902500017,"strComment":"ABILITY_OR_PAGE_SWITCH","nLevel_A":3000,"nLevel_B":1200,"nLevel_C":1000,"bTimeOut":0,"nDumpBitmap":95,"eReportType":1,"nReportNumPerDay":0,
+            "strExcludingMsg":"","collectLogFrequency": 20,"collectTraceFrequency": 10,"traceLengthLevel": 2,
+            "nLogID_Count":3, "aLogFilter":[{"nLogID":26,"nFilter":0},
+                {"nLogID":27,"nFilter":1},
+                {"nLogID":28,"nFilter":1}],
+            "nLogsTimeSpanPolicy_Count":0, "atLogsTSPolicy":[]
+        },
+        {"nActionID":10,"nActionType":0,"nEventID":902500018,"strComment":"STARTUP_TIME","nLevel_A":50,"nLevel_B":50,"nLevel_C":50,"bTimeOut":0,"nDumpBitmap":32143,"eReportType":1,"nReportNumPerDay":0,
+            "strExcludingMsg":"","collectLogFrequency": 0,"collectTraceFrequency": 0,
+            "nLogID_Count":1, "aLogFilter":[
+                {"nLogID":29,"nFilter":1}
+                ],
+            "nLogsTimeSpanPolicy_Count":0, "atLogsTSPolicy":[]
+        },
+        {"nActionID":11,"nActionType":0,"nEventID":902500019,"strComment":"APP_START","nLevel_A":4000,"nLevel_B":1500,"nLevel_C":1200,"bTimeOut":0,"nDumpBitmap":95,"eReportType":1,"nReportNumPerDay":0,
+            "strExcludingMsg":"","collectLogFrequency": 20,"collectTraceFrequency": 10,"traceLengthLevel": 2,
+            "nLogID_Count":13,
+            "aLogFilter":[
+                {"nLogID":26,"nFilter":1},
+                {"nLogID":1,"nFilter":1},
+                {"nLogID":30,"nFilter":1},
+                {"nLogID":31,"nFilter":1},
+                {"nLogID":11,"nFilter":1},
+                {"nLogID":26,"nFilter":1},
+                {"nLogID":3,"nFilter":1},
+                {"nLogID":2,"nFilter":1},
+                {"nLogID":32,"nFilter":1},
+                {"nLogID":28,"nFilter":1},
+                {"nLogID":33,"nFilter":1},
+                {"nLogID":27,"nFilter":1},
+                {"nLogID":34,"nFilter":1}
+            ],
+            "nLogsTimeSpanPolicy_Count":0,
+            "atLogsTSPolicy":[],
+            "faultLevelThresholds": [
+                {"type": 0,"comment": "cold","levelA":4000,"levelB":1500,"levelC":1200,"dumpBitmap": 95},
+                {"type": 1,"comment": "hot","levelA":3000,"levelB":1500,"levelC":1200,"dumpBitmap": 95}
+            ]
+        },
+        {"nActionID":12,"nActionType":1,"nEventID":902500020,"strComment":"JANK_ANIMATOR_FRAME","bTimeOut":0,"nDumpBitmap":1,"eReportType":1,"nReportNumPerDay":0,
+            "strExcludingMsg":"","traceLengthLevel": 2,
+            "nLogID_Count":2, "aLogFilter":[{"nLogID":35,"nFilter":1},
+                {"nLogID":36,"nFilter":1}],
+            "nLogsTimeSpanPolicy_Count":0, "atLogsTSPolicy":[],
+            "sceneFaultLevelThresholds": [
+                {"SCENE_ID": 1, "nLevel_A":150,"nLevel_B":67,"nLevel_C":50,"collectLogFrequency": 2,"collectTraceFrequency": 2},
+                {"SCENE_ID": 2, "nLevel_A":150,"nLevel_B":67,"nLevel_C":50,"collectLogFrequency": 2,"collectTraceFrequency": 2},
+                {"SCENE_ID": 3, "nLevel_A":150,"nLevel_B":67,"nLevel_C":50,"collectLogFrequency": 2,"collectTraceFrequency": 2},
+                {"SCENE_ID": 4, "nLevel_A":150,"nLevel_B":67,"nLevel_C":50,"collectLogFrequency": 2,"collectTraceFrequency": 2},
+                {"SCENE_ID": 5, "nLevel_A":150,"nLevel_B":67,"nLevel_C":50,"collectLogFrequency": 2,"collectTraceFrequency": 2},
+                {"SCENE_ID": 6, "nLevel_A":150,"nLevel_B":67,"nLevel_C":50,"collectLogFrequency": 2,"collectTraceFrequency": 2},
+                {"SCENE_ID": 7, "nLevel_A":150,"nLevel_B":67,"nLevel_C":50,"collectLogFrequency": 2,"collectTraceFrequency": 2},
+                {"SCENE_ID": 8, "nLevel_A":150,"nLevel_B":67,"nLevel_C":50,"collectLogFrequency": 1,"collectTraceFrequency": 1},
+                {"SCENE_ID": 9, "nLevel_A":150,"nLevel_B":67,"nLevel_C":50,"collectLogFrequency": 1,"collectTraceFrequency": 1},
+                {"SCENE_ID": 10, "nLevel_A":150,"nLevel_B":67,"nLevel_C":50,"collectLogFrequency": 1,"collectTraceFrequency": 1},
+                {"SCENE_ID": 11, "nLevel_A":150,"nLevel_B":67,"nLevel_C":50,"collectLogFrequency": 1,"collectTraceFrequency": 1},
+                {"SCENE_ID": 12, "nLevel_A":150,"nLevel_B":67,"nLevel_C":50,"collectLogFrequency": 1,"collectTraceFrequency": 1},
+                {"SCENE_ID": 13, "nLevel_A":150,"nLevel_B":67,"nLevel_C":50,"collectLogFrequency": 1,"collectTraceFrequency": 1},
+                {"SCENE_ID": 14, "nLevel_A":150,"nLevel_B":67,"nLevel_C":50,"collectLogFrequency": 1,"collectTraceFrequency": 1},
+                {"SCENE_ID": 15, "nLevel_A":150,"nLevel_B":67,"nLevel_C":50,"collectLogFrequency": 1,"collectTraceFrequency": 1},
+                {"SCENE_ID": 16, "nLevel_A":150,"nLevel_B":67,"nLevel_C":50,"collectLogFrequency": 1,"collectTraceFrequency": 1},
+                {"SCENE_ID": 17, "nLevel_A":150,"nLevel_B":67,"nLevel_C":50,"collectLogFrequency": 1,"collectTraceFrequency": 1},
+                {"SCENE_ID": 18, "nLevel_A":150,"nLevel_B":67,"nLevel_C":50,"collectLogFrequency": 1,"collectTraceFrequency": 1},
+                {"SCENE_ID": 19, "nLevel_A":150,"nLevel_B":67,"nLevel_C":50,"collectLogFrequency": 1,"collectTraceFrequency": 1},
+                {"SCENE_ID": 20, "nLevel_A":150,"nLevel_B":67,"nLevel_C":50,"collectLogFrequency": 1,"collectTraceFrequency": 1},
+                {"SCENE_ID": 21, "nLevel_A":150,"nLevel_B":67,"nLevel_C":50,"collectLogFrequency": 1,"collectTraceFrequency": 1},
+                {"SCENE_ID": 22, "nLevel_A":150,"nLevel_B":67,"nLevel_C":50,"collectLogFrequency": 1,"collectTraceFrequency": 1},
+                {"SCENE_ID": 23, "nLevel_A":150,"nLevel_B":67,"nLevel_C":50,"collectLogFrequency": 1,"collectTraceFrequency": 1},
+                {"SCENE_ID": 24, "nLevel_A":150,"nLevel_B":67,"nLevel_C":50,"collectLogFrequency": 1,"collectTraceFrequency": 1},
+                {"SCENE_ID": 25, "nLevel_A":150,"nLevel_B":67,"nLevel_C":50,"collectLogFrequency": 1,"collectTraceFrequency": 1},
+                {"SCENE_ID": 26, "nLevel_A":150,"nLevel_B":67,"nLevel_C":50,"collectLogFrequency": 1,"collectTraceFrequency": 1},
+                {"SCENE_ID": 27, "nLevel_A":150,"nLevel_B":67,"nLevel_C":50,"collectLogFrequency": 1,"collectTraceFrequency": 1},
+                {"SCENE_ID": 28, "nLevel_A":150,"nLevel_B":67,"nLevel_C":50,"collectLogFrequency": 1,"collectTraceFrequency": 1},
+                {"SCENE_ID": 29, "nLevel_A":150,"nLevel_B":67,"nLevel_C":50,"collectLogFrequency": 1,"collectTraceFrequency": 1},
+                {"SCENE_ID": 30, "nLevel_A":150,"nLevel_B":67,"nLevel_C":50,"collectLogFrequency": 1,"collectTraceFrequency": 1},
+                {"SCENE_ID": 31, "nLevel_A":150,"nLevel_B":67,"nLevel_C":50,"collectLogFrequency": 1,"collectTraceFrequency": 1},
+                {"SCENE_ID": 32, "nLevel_A":150,"nLevel_B":67,"nLevel_C":50,"collectLogFrequency": 1,"collectTraceFrequency": 1},
+                {"SCENE_ID": 33, "nLevel_A":150,"nLevel_B":67,"nLevel_C":50,"collectLogFrequency": 1,"collectTraceFrequency": 1},
+                {"SCENE_ID": 34, "nLevel_A":150,"nLevel_B":67,"nLevel_C":50,"collectLogFrequency": 1,"collectTraceFrequency": 1},
+                {"SCENE_ID": 35, "nLevel_A":150,"nLevel_B":67,"nLevel_C":50,"collectLogFrequency": 1,"collectTraceFrequency": 1}
+            ]
+        },
+        {"nActionID":13,"nActionType":0,"nEventID":902500020,"strComment":"APP_EXIT","nLevel_A":400,"nLevel_B":400,"nLevel_C":400,"bTimeOut":0,"nDumpBitmap":32143,"eReportType":1,"nReportNumPerDay":0,
+            "strExcludingMsg":"","collectLogFrequency": 0,"collectTraceFrequency": 0,
+            "nLogID_Count":9,
+            "aLogFilter":[
+                {"nLogID":26,"nFilter":1},
+                {"nLogID":37,"nFilter":1},
+                {"nLogID":9,"nFilter":1},
+                {"nLogID":7,"nFilter":1},
+                {"nLogID":8,"nFilter":1},
+                {"nLogID":10,"nFilter":1},
+                {"nLogID":38,"nFilter":1},
+                {"nLogID":27,"nFilter":1},
+                {"nLogID":34,"nFilter":1}
+            ],
+            "nLogsTimeSpanPolicy_Count":0, "atLogsTSPolicy":[]
+        },
+        {"nActionID":14,"nActionType":0,"nEventID":902500017,"strComment":"SCREEN_ROTATION","nLevel_A":1000,"nLevel_B":1000,"nLevel_C":800,"bTimeOut":0,"nDumpBitmap":95,"eReportType":1,"nReportNumPerDay":0,
+            "strExcludingMsg":"","collectLogFrequency":1,"collectTraceFrequency":1,"traceLengthLevel": 1,
+            "nLogID_Count":1, "aLogFilter":[
+                {"nLogID":40,"nFilter":1}],
+            "nLogsTimeSpanPolicy_Count":0, "atLogsTSPolicy":[]
+        },
+        {"nActionID":15,"nActionType":0,"nEventID":902500021,"strComment":"SCREEN_UNLOCK","nLevel_A":50,"nLevel_B":50,"nLevel_C":50,"bTimeOut":0,"nDumpBitmap":32143,"eReportType":1,"nReportNumPerDay":0,
+            "strExcludingMsg":"","collectLogFrequency": 0,"collectTraceFrequency": 0,
+            "nLogID_Count":1, "aLogFilter":[{"nLogID":41,"nFilter":1}],
+            "nLogsTimeSpanPolicy_Count":0, "atLogsTSPolicy":[]
+        },
+        {"nActionID":16,"nActionType":0,"nEventID":902500022,"strComment":"LAUNCHER_LOADING_COMPLETED","nLevel_A":50,"nLevel_B":50,"nLevel_C":50,"bTimeOut":0,"nDumpBitmap":32143,"eReportType":1,"nReportNumPerDay":0,
+            "strExcludingMsg":"","collectLogFrequency": 0,"collectTraceFrequency": 0,
+            "nLogID_Count":4, "aLogFilter":[{"nLogID":42,"nFilter":1},
+                {"nLogID":43,"nFilter":1},
+                {"nLogID":44,"nFilter":1},
+                {"nLogID":45,"nFilter":1}],
+            "nLogsTimeSpanPolicy_Count":0, "atLogsTSPolicy":[]
+        },
+        {"nActionID":17,"nActionType":0,"nEventID":902500023,"strComment":"RECORD_DUMP_TRACE","nLevel_A":50,"nLevel_B":50,"nLevel_C":50,"bTimeOut":0,"nDumpBitmap":32143,"eReportType":1,"nReportNumPerDay":0,
+            "strExcludingMsg":"","collectLogFrequency": 0,"collectTraceFrequency": 0,
+            "nLogID_Count":1, "aLogFilter":[{"nLogID":46,"nFilter":1}],
+            "nLogsTimeSpanPolicy_Count":0, "atLogsTSPolicy":[]
+        },
+        {"nActionID":18,"nActionType":0,"nEventID":902500023,"strComment":"LAUNCHER_SCROLL","nLevel_A":50,"nLevel_B":50,"nLevel_C":50,"bTimeOut":0,"nDumpBitmap":1,"eReportType":1,"nReportNumPerDay":0,
+            "strExcludingMsg":"","collectLogFrequency": 0,"collectTraceFrequency": 0,
+            "nLogID_Count":1, "aLogFilter":[{"nLogID":26,"nFilter":1}],
+            "nLogsTimeSpanPolicy_Count":0, "atLogsTSPolicy":[]
+        },
+        {"nActionID":19,"nActionType":0,"nEventID":902500023,"strComment":"LAUNCHER_CARD_TEMP_SHOW","nLevel_A":50,"nLevel_B":50,"nLevel_C":50,"bTimeOut":0,"nDumpBitmap":1,"eReportType":1,"nReportNumPerDay":0,
+            "strExcludingMsg":"","collectLogFrequency": 0,"collectTraceFrequency": 0,
+            "nLogID_Count":1, "aLogFilter":[{"nLogID":34,"nFilter":1}],
+            "nLogsTimeSpanPolicy_Count":0, "atLogsTSPolicy":[]
+        },
+        {"nActionID":20,"nActionType":0,"nEventID":902500023,"strComment":"VOLUME_PANEL_CALLED","nLevel_A":50,"nLevel_B":50,"nLevel_C":50,"bTimeOut":0,"nDumpBitmap":1,"eReportType":1,"nReportNumPerDay":0,
+            "strExcludingMsg":"","collectLogFrequency": 0,"collectTraceFrequency": 0,
+            "nLogID_Count":1, "aLogFilter":[{"nLogID":26,"nFilter":1}],
+            "nLogsTimeSpanPolicy_Count":0, "atLogsTSPolicy":[]
+        },
+        {"nActionID":21,"nActionType":0,"nEventID":902500023,"strComment":"GESTURE_TO_RECENTS","nLevel_A":50,"nLevel_B":50,"nLevel_C":50,"bTimeOut":0,"nDumpBitmap":1,"eReportType":1,"nReportNumPerDay":0,
+            "strExcludingMsg":"","collectLogFrequency": 0,"collectTraceFrequency": 0,
+            "nLogID_Count":1, "aLogFilter":[{"nLogID":34,"nFilter":1}],
+            "nLogsTimeSpanPolicy_Count":0, "atLogsTSPolicy":[]
+        },
+        {"nActionID":22,"nActionType":0,"nEventID":902500023,"strComment":"DROPDOWN_NOTIFICATION","nLevel_A":50,"nLevel_B":50,"nLevel_C":50,"bTimeOut":0,"nDumpBitmap":1,"eReportType":1,"nReportNumPerDay":0,
+            "strExcludingMsg":"","collectLogFrequency": 0,"collectTraceFrequency": 0,
+            "nLogID_Count":1, "aLogFilter":[{"nLogID":26,"nFilter":1}],
+            "nLogsTimeSpanPolicy_Count":0, "atLogsTSPolicy":[]
+        },
+        {"nActionID":23,"nActionType":0,"nEventID":902500023,"strComment":"COMPLETE_ACTION_ID","nLevel_A":50,"nLevel_B":50,"nLevel_C":50,"bTimeOut":0,"nDumpBitmap":1,"eReportType":1,"nReportNumPerDay":0,
+            "strExcludingMsg":"","collectLogFrequency": 0,"collectTraceFrequency": 0,
+            "nLogID_Count":1, "aLogFilter":[{"nLogID":34,"nFilter":1}],
+            "nLogsTimeSpanPolicy_Count":0, "atLogsTSPolicy":[]
+        },
+        {"nActionID":24,"nActionType":0,"nEventID":902500023,"strComment":"RESPONSE_ACTION_ID","nLevel_A":50,"nLevel_B":50,"nLevel_C":50,"bTimeOut":0,"nDumpBitmap":1,"eReportType":1,"nReportNumPerDay":0,
+            "strExcludingMsg":"","collectLogFrequency": 0,"collectTraceFrequency": 0,
+            "nLogID_Count":1, "aLogFilter":[{"nLogID":26,"nFilter":1}],
+            "nLogsTimeSpanPolicy_Count":0, "atLogsTSPolicy":[]
+        },
+        {"nActionID":25,"nActionType":0,"nEventID":902500024,"strComment":"JANK_FRAME_APP","nLevel_A":300,"nLevel_B":300,"nLevel_C":240,"bTimeOut":0,"nDumpBitmap":1,"eReportType":1,"nReportNumPerDay":0,
+            "strExcludingMsg":"","collectLogFrequency": 0,"collectTraceFrequency": 5,"traceLengthLevel": 2,
+            "nLogID_Count":1, "aLogFilter":[{"nLogID":47,"nFilter":1}],
+            "nLogsTimeSpanPolicy_Count":0, "atLogsTSPolicy":[]
+        },
+        {"nActionID": 26,"nActionType":0,"nEventID":902100000,"strComment":"DH_JANK_FRAME","nLevel_A":500,"nLevel_B":500,"nLevel_C":96,"bTimeOut":0,"nDumpBitmap":95,"eReportType":1,"nReportNumPerDay":0,
+            "strExcludingMsg":"","collectLogFrequency": 2,"collectTraceFrequency": 1,"traceLengthLevel": 1,
+            "nLogID_Count":1,"aLogFilter":[
+            {"nLogID":37,"nFilter":1}],
+            "nLogsTimeSpanPolicy_Count":0, "atLogsTSPolicy":[]
+        },
+        {"nActionID": 27,"nActionType":0,"nEventID":902200000,"strComment":"DH_COMPOSE_JANK_FRAME","nLevel_A":9000,"nLevel_B":9000,"nLevel_C":9000,"bTimeOut":0,"nDumpBitmap":95,"eReportType":1,"nReportNumPerDay":0,
+            "strExcludingMsg":"","collectLogFrequency": 0,"collectTraceFrequency": 0,"traceLengthLevel": 1,
+            "nLogID_Count":1,"aLogFilter":[
+            {"nLogID":552,"nFilter":1}],
+            "nLogsTimeSpanPolicy_Count":0, "atLogsTSPolicy":[]
+        },
+        {"nActionID":28,"nActionType":0,"nEventID":902300000,"strComment":"DH_APP_START_TIME","nLevel_A":6000,"nLevel_B":4000,"nLevel_C":500,"bTimeOut":0,"nDumpBitmap":95,"eReportType":1,"nReportNumPerDay":0,
+            "strExcludingMsg":"","collectLogFrequency": 2,"collectTraceFrequency": 1,"traceLengthLevel": 1,
+            "nLogID_Count":3, "aLogFilter":[
+            {"nLogID":50,"nFilter":0},
+            {"nLogID":51,"nFilter":1},
+            {"nLogID":52,"nFilter":3}
+          ],
+            "nLogsTimeSpanPolicy_Count":0, "atLogsTSPolicy":[]
+        },
+        {"nActionID":29,"nActionType":0,"nEventID":902400000,"strComment":"DH_ACTIVITY_SWITCH_TIME","nLevel_A":3000,"nLevel_B":1500,"nLevel_C":500,"bTimeOut":0,"nDumpBitmap":95,"eReportType":1,"nReportNumPerDay":0,
+            "strExcludingMsg":"","collectLogFrequency": 2,"collectTraceFrequency": 1,"traceLengthLevel": 1,
+            "nLogID_Count":5, "aLogFilter":[
+            {"nLogID":50,"nFilter":0},
+            {"nLogID":51,"nFilter":1},
+            {"nLogID":52,"nFilter":3},
+            {"nLogID":53,"nFilter":1},
+            {"nLogID":54,"nFilter":1}
+            ],
+            "nLogsTimeSpanPolicy_Count":0, "atLogsTSPolicy":[]
+        },
+        {"nActionID":30,"nActionType":0,"nEventID":902400000,"strComment":"FOLD_EXPAND_SCENE","nLevel_A":1500,"nLevel_B":1500,"nLevel_C":800,"bTimeOut":0,"nDumpBitmap":95,"eReportType":1,"nReportNumPerDay":0,
+            "strExcludingMsg":"","collectLogFrequency": 20,"collectTraceFrequency": 10,"traceLengthLevel": 1,
+            "nLogID_Count":4, "aLogFilter":[
+            {"nLogID":57,"nFilter":0},
+            {"nLogID":6,"nFilter":1},
+            {"nLogID":15,"nFilter":1},
+            {"nLogID":16,"nFilter":3}
+            ],
+            "nLogsTimeSpanPolicy_Count":0, "atLogsTSPolicy":[]
+        },
+        {"nActionID":31,"nActionType":0,"nEventID":902500023,"strComment":"APP_ASSOCIATED_START","nLevel_A":50,"nLevel_B":50,"nLevel_C":50,"bTimeOut":0,"nDumpBitmap":1,"eReportType":1,"nReportNumPerDay":0,
+            "strExcludingMsg":"","collectLogFrequency": 0,"collectTraceFrequency": 0,
+            "nLogID_Count":1, "aLogFilter":[{"nLogID":56,"nFilter":1}],
+            "nLogsTimeSpanPolicy_Count":0, "atLogsTSPolicy":[]
+        },
+        {"nActionID":32,"nActionType":0,"nEventID":902500023,"strComment":"FREQ_LIMIT","nLevel_A":50,"nLevel_B":50,"nLevel_C":50,"bTimeOut":0,"nDumpBitmap":1,"eReportType":1,"nReportNumPerDay":0,
+            "strExcludingMsg":"","collectLogFrequency": 0,"collectTraceFrequency": 0,
+            "nLogID_Count":1, "aLogFilter":[{"nLogID":56,"nFilter":1}],
+            "nLogsTimeSpanPolicy_Count":0, "atLogsTSPolicy":[]
+        },
+        {"nActionID":33,"nActionType":0,"nEventID":902500023,"strComment":"BOOST_LIMIT","nLevel_A":50,"nLevel_B":50,"nLevel_C":50,"bTimeOut":0,"nDumpBitmap":1,"eReportType":1,"nReportNumPerDay":0,
+            "strExcludingMsg":"","collectLogFrequency": 0,"collectTraceFrequency": 0,
+            "nLogID_Count":1, "aLogFilter":[{"nLogID":56,"nFilter":1}],
+            "nLogsTimeSpanPolicy_Count":0, "atLogsTSPolicy":[]
+        },
+        {"nActionID":34,"nActionType":0,"nEventID":902500025,"strComment":"ACTIVE_OPERATION_DURATION","nLevel_A":50,"nLevel_B":50,"nLevel_C":50,"bTimeOut":0,"nDumpBitmap":0,"eReportType":1,"nReportNumPerDay":0,
+            "strExcludingMsg":"","collectLogFrequency": 1,"collectTraceFrequency": 1,
+            "nLogID_Count":3, "aLogFilter":[
+                {"nLogID":16,"nFilter":0},
+                {"nLogID":23,"nFilter":1}
+            ],
+            "nLogsTimeSpanPolicy_Count":0, "atLogsTSPolicy":[]
+        },
+        {"nActionID":35,"nActionType":0,"nEventID":902080000,"strComment":"LTPO_DYNAMICS_FRAME","nLevel_A":2147483647,"nLevel_B":2147483647,"nLevel_C":2147483647,"bTimeOut":0,"nDumpBitmap":0,"eReportType":1,"nReportNumPerDay":0,
+            "strExcludingMsg":"","collectLogFrequency": 0,"collectTraceFrequency": 0,
+            "nLogID_Count":1, "aLogFilter":[{"nLogID":71,"nFilter":1}],
+            "nLogsTimeSpanPolicy_Count":0, "atLogsTSPolicy":[]
+        },
+        {"nActionID":36,"nActionType":0,"nEventID":902080000,"strComment":"SHADER_MAL_FUNCTION","nLevel_A":2147483647,"nLevel_B":2147483647,"nLevel_C":2147483647,"bTimeOut":0,"nDumpBitmap":0,"eReportType":1,"nReportNumPerDay":0,
+            "strExcludingMsg":"","collectLogFrequency": 0,"collectTraceFrequency": 0,
+            "nLogID_Count":1, "aLogFilter":[{"nLogID":72,"nFilter":1}],
+            "nLogsTimeSpanPolicy_Count":0, "atLogsTSPolicy":[]
+        },
+        {"nActionID":37,"nActionType":0,"nEventID":902080000,"strComment":"SHADER_STATS","nLevel_A":2147483647,"nLevel_B":2147483647,"nLevel_C":2147483647,"bTimeOut":0,"nDumpBitmap":0,"eReportType":1,"nReportNumPerDay":0,
+            "strExcludingMsg":"","collectLogFrequency": 0,"collectTraceFrequency": 0,
+            "nLogID_Count":1, "aLogFilter":[{"nLogID":73,"nFilter":1}],
+            "nLogsTimeSpanPolicy_Count":0, "atLogsTSPolicy":[]
+        },
+        {"nActionID":38,"nActionType":0,"nEventID":902080000,"strComment":"WEBVIEW_PAGE_LOAD_TIME","nLevel_A":2000,"nLevel_B":2000,"nLevel_C":2000,"bTimeOut":0,"nDumpBitmap":1,"eReportType":1,"nReportNumPerDay":0,
+            "strExcludingMsg":"","collectLogFrequency": 0,"collectTraceFrequency": 1,"traceLengthLevel": 1,
+            "nLogID_Count":1,"aLogFilter":[
+            {"nLogID":74,"nFilter":1}],
+            "nLogsTimeSpanPolicy_Count":0, "atLogsTSPolicy":[]
+        },
+        {"nActionID": 39,"nActionType":0,"nEventID":902080000,"strComment":"WEBVIEW_DYNAMIC_FRAME_DROP","nLevel_A":150,"nLevel_B":67,"nLevel_C":50,"bTimeOut":0,"nDumpBitmap":1,"eReportType":1,"nReportNumPerDay":0,
+            "strExcludingMsg":"","collectLogFrequency": 0,"collectTraceFrequency": 1,"traceLengthLevel": 1,
+            "nLogID_Count":1,"aLogFilter":[
+            {"nLogID":75,"nFilter":1}],
+            "nLogsTimeSpanPolicy_Count":0, "atLogsTSPolicy":[]
+        },
+        {"nActionID": 40,"nActionType":0,"nEventID":902080000,"strComment":"WEBVIEW_AUDIO_FRAME_DROP","nLevel_A":100,"nLevel_B":100,"nLevel_C":100,"bTimeOut":0,"nDumpBitmap":1,"eReportType":1,"nReportNumPerDay":0,
+            "strExcludingMsg":"","collectLogFrequency": 0,"collectTraceFrequency": 1,"traceLengthLevel": 1,
+            "nLogID_Count":1,"aLogFilter":[
+            {"nLogID":76,"nFilter":1}],
+            "nLogsTimeSpanPolicy_Count":0, "atLogsTSPolicy":[]
+        },
+        {"nActionID": 41,"nActionType":0,"nEventID":902080000,"strComment":"WEBVIEW_VIDEO_FRAME_DROP","nLevel_A":18,"nLevel_B":18,"nLevel_C":15,"bTimeOut":0,"nDumpBitmap":1,"eReportType":1,"nReportNumPerDay":0,
+            "strExcludingMsg":"","collectLogFrequency": 0,"collectTraceFrequency": 1,"traceLengthLevel": 1,
+            "nLogID_Count":1,"aLogFilter":[
+            {"nLogID":77,"nFilter":1}],
+            "nLogsTimeSpanPolicy_Count":0, "atLogsTSPolicy":[]
+        },
+        {"nActionID":42,"nActionType":0,"nEventID":902080000,"strComment":"HITCH_TIME_RATIO","nLevel_A":2147483647,"nLevel_B":2147483647,"nLevel_C":2147483647,"bTimeOut":0,"nDumpBitmap":0,"eReportType":1,"nReportNumPerDay":0,
+            "strExcludingMsg":"","collectLogFrequency": 0,"collectTraceFrequency": 0,
+            "nLogID_Count":1, "aLogFilter":[{"nLogID":78,"nFilter":1}],
+            "nLogsTimeSpanPolicy_Count":0, "atLogsTSPolicy":[]
+        },
+        {"nActionID":43,"nActionType":0,"nEventID":902080000,"strComment":"HISI_LIMIT_FREQ","nLevel_A":2147483647,"nLevel_B":2147483647,"nLevel_C":2147483647,"bTimeOut":0,"nDumpBitmap":0,"eReportType":1,"nReportNumPerDay":0,
+            "strExcludingMsg":"","collectLogFrequency": 0,"collectTraceFrequency": 0,
+            "nLogID_Count":1, "aLogFilter":[{"nLogID":79,"nFilter":1}],
+            "nLogsTimeSpanPolicy_Count":0, "atLogsTSPolicy":[]
+        }
+    ]
+}

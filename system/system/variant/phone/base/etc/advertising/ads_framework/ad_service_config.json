@@ -1,0 +1,17 @@
+{
+  "providerBundleName": [
+    "com.huawei.hms.adsservice"
+  ],
+  "providerAbilityName": [
+    "AdsCoreService"
+  ],
+  "providerHsAbilityName": [
+    "HalfScreenAdAbility"
+  ],
+  "providerUIAbilityName": [
+    "FullScreenAdAbility"
+  ],
+  "providerUEAAbilityName": [
+    "AdsUIExtensionAbility"
+  ]
+}

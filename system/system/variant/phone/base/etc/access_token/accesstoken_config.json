@@ -1,0 +1,10 @@
+{
+  "privacy": {
+    "permission_used_record_size_maximum": 500000,
+    "permission_used_record_aging_time": 7,
+    "global_dialog_bundle_name": "com.huawei.hmos.security.privacycenter",
+    "global_dialog_ability_name": "com.huawei.hmos.security.privacycenter.SensorUsingReminderAbility"
+  },
+  "permission_manager_bundle_name": "com.huawei.hmos.security.privacycenter",
+  "grant_ability_name": "PermissionGrantAbility"
+}

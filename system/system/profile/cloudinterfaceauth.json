@@ -1,0 +1,13 @@
+{
+    "process": "cloudinterfaceauth",
+    "systemability": [
+        {
+            "name": 65888,
+            "libpath": "libcloud_auth_service.z.so",
+            "run-on-create": false,
+            "auto-restart": false,
+            "distributed": false,
+            "dump-level": 1
+        }
+    ]
+}

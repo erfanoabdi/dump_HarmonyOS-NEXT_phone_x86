@@ -1,0 +1,37 @@
+{
+  "config_ethernet_interfaces":[
+    {
+      "iface":"",
+      "caps":[
+      ],
+      "ip":"",
+      "gateway":"",
+      "dns":"",
+      "netmask":"",
+      "route":"",
+      "routemask":""
+    },
+    {
+      "iface":"",
+      "caps":[
+      ],
+      "ip":"",
+      "gateway":"",
+      "dns":"",
+      "netmask":"",
+      "route":"",
+      "routemask":""
+    },
+    {
+      "laniface":"",
+      "caps":[
+      ],
+      "ip":"",
+      "gateway":"",
+      "dns":"",
+      "netmask":"",
+      "route":"",
+      "routemask":""
+    }
+  ]
+}

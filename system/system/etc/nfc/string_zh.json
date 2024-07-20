@@ -1,0 +1,64 @@
+{
+	"string":	[{
+			"name":	"ShenZhenTong",
+			"value":	"深圳通"
+		}, {
+			"name":	"LingNanTong",
+			"value":	"岭南通"
+		}, {
+			"name":	"BeiJingYiKaTong",
+			"value":	"北京一卡通"
+		}, {
+			"name":	"ShangHaiJiaoTongKa",
+			"value":	"上海交通卡"
+		}, {
+			"name":	"GuiMinHuLianHuTongKa",
+			"value":	"桂民互联互通卡"
+		}, {
+			"name":	"DefaultTitle",
+			"value":	"发现NFC标签"
+		}, {
+			"name":	"DefaultText",
+			"value":	"部分应用需开启内部NFC开关"
+		}, {
+			"name":	"TransportCardTitle",
+			"value":	"发现公交卡"
+		}, {
+			"name":	"TransportCardText",
+			"value":	"发现%s，余额：%.2f元"
+		}, {
+			"name":	"NfcWifiNtfTitle",
+			"value":	"连接到网络"
+		}, {
+			"name":	"NfcWifiNtfText",
+			"value":	"连接到网络：%s？"
+		}, {
+			"name":	"ActionButtonName",
+			"value":	"处理卡片数据"
+		}, {
+			"name":	"NfcWifiButtonName",
+			"value":	"连接"
+		}, {
+			"name":	"NfcBtNtfTitle",
+			"value":	"NFC 蓝牙配对请求"
+		}, {
+			"name":	"NfcBtNtfText",
+			"value":	"与蓝牙设备: %s 配对？"
+		}, {
+			"name":	"NfcBtButtonName",
+			"value":	"配对"
+		},{
+			"name": "NfcHceAidConflictedTitle",
+			"value": "NFC刷卡"
+		},{
+			"name": "NfcHceAidConflictedText",
+			"value": "多个应用冲突，需要打开特定的应用刷卡"
+		},{
+			"name": "NoHapSupportedNtfTitle",
+			"value": "NFC 通知"
+		},{
+			"name": "NoHapSupportedNtfText",
+			"value": "当前无支持应用，请前往应用市场下载"
+		}
+	]
+}

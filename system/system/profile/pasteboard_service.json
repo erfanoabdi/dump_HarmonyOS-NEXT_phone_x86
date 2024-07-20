@@ -1,0 +1,20 @@
+{
+    "process": "pasteboard_service",
+    "systemability": [
+        {
+            "name": 3701,
+            "libpath": "libpasteboard_service.z.so",
+            "run-on-create": false,
+            "distributed": true,
+            "dump_level": 1,
+            "start-on-demand": {
+                "deviceonline": [
+                    {
+                        "name": "deviceonline",
+                        "value": "on"
+                    }
+                ]
+            }
+        }
+    ]
+}

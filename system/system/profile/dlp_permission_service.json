@@ -1,0 +1,12 @@
+{
+    "process": "dlp_permission_service",
+    "systemability": [
+        {
+            "name": 3521,
+            "libpath": "libdlp_permission_service.z.so",
+            "run-on-create": false,
+            "distributed": false,
+            "dump_level": 1
+        }
+    ]
+}

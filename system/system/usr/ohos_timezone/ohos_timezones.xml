@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2023 Huawei Device Co., Ltd.
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<timezones>
+    <timezone>
+        <city>Auckland</city>
+        <id>Pacific/Auckland</id>
+    </timezone>
+    <timezone>
+        <city>Magadan</city>
+        <id>Asia/Magadan</id>
+    </timezone>
+    <timezone>
+        <city>Lord Howe Island</city>
+        <id>Australia/Lord_Howe</id>
+    </timezone>
+    <timezone>
+        <city>Tokyo</city>
+        <id>Asia/Tokyo</id>
+    </timezone>
+    <timezone>
+        <city>Shanghai</city>
+        <id>Asia/Shanghai</id>
+    </timezone>
+    <timezone>
+        <city>Hovd</city>
+        <id>Asia/Hovd</id>
+    </timezone>
+    <timezone>
+        <city>Omsk</city>
+        <id>Asia/Omsk</id>
+    </timezone>
+    <timezone>
+        <city>Ashgabat</city>
+        <id>Asia/Ashgabat</id>
+    </timezone>
+    <timezone>
+        <city>Yerevan</city>
+        <id>Asia/Yerevan</id>
+    </timezone>
+    <timezone>
+        <city>Moscow</city>
+        <id>Europe/Moscow</id>
+    </timezone>
+    <timezone>
+        <city>Tel Aviv</city>
+        <id>Asia/Jerusalem</id>
+    </timezone>
+    <timezone>
+        <city>Dublin</city>
+        <id>Europe/Dublin</id>
+    </timezone>
+    <timezone>
+        <city>London</city>
+        <id>Europe/London</id>
+    </timezone>
+    <timezone>
+        <city>Praia</city>
+        <id>Atlantic/Cape_Verde</id>
+    </timezone>
+    <timezone>
+        <city>Montevideo</city>
+        <id>America/Montevideo</id>
+    </timezone>
+    <timezone>
+        <city>Brasília</city>
+        <id>America/Sao_Paulo</id>
+    </timezone>
+    <timezone>
+        <city>Santiago</city>
+        <id>America/Santiago</id>
+    </timezone>
+    <timezone>
+        <city>Bogotá</city>
+        <id>America/Bogota</id>
+    </timezone>
+    <timezone>
+        <city>Easter Island</city>
+        <id>Pacific/Easter</id>
+    </timezone>
+    <timezone>
+        <city>Salt Lake City</city>
+        <id>America/Denver</id>
+    </timezone>
+    <timezone>
+        <city>Los Angeles</city>
+        <id>America/Los_Angeles</id>
+    </timezone>
+    <timezone>
+        <city>Anchorage</city>
+        <id>America/Anchorage</id>
+    </timezone>
+    <timezone>
+        <city>Adak</city>
+        <id>America/Adak</id>
+    </timezone>
+    <timezone>
+        <city>Pago Pago</city>
+        <id>Pacific/Pago_Pago</id>
+    </timezone>
+</timezones>

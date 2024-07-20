@@ -1,0 +1,2480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2023 Huawei Device Co., Ltd.
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<display_names>
+    <display_name>
+        <city>Abidjan</city>
+        <name>[PL_317126]_Abidjan (Côte d’Ivoire)</name>
+    </display_name>
+    <display_name>
+        <city>Abu_Dhabi</city>
+        <name>[PL_316916]_Abu Dhabi (United Arab Emirates)</name>
+    </display_name>
+    <display_name>
+        <city>Adelaide</city>
+        <name>[PL_317249]_Adelaide (Australia)</name>
+    </display_name>
+    <display_name>
+        <city>Atikokan</city>
+        <name>[PL_316974]_Atikokan (Canada)</name>
+    </display_name>
+    <display_name>
+        <city>Albuquerque</city>
+        <name>[PL_317169]_Albuquerque (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Algiers</city>
+        <name>[PL_317102]_Algiers (Algeria)</name>
+    </display_name>
+    <display_name>
+        <city>Almaty</city>
+        <name>[PL_316999]_Almaty (Kazakhstan)</name>
+    </display_name>
+    <display_name>
+        <city>Accra</city>
+        <name>[PL_316774]_Accra (Ghana)</name>
+    </display_name>
+    <display_name>
+        <city>Aqtobe</city>
+        <name>[PL_316757]_Aktobe (Kazakhstan)</name>
+    </display_name>
+    <display_name>
+        <city>Araguaina</city>
+        <name>[PL_317000]_Araguaína (Brazil)</name>
+    </display_name>
+    <display_name>
+        <city>Alofi</city>
+        <name>[PL_316881]_Alofi (Niue)</name>
+    </display_name>
+    <display_name>
+        <city>AmundsenScott_Station</city>
+        <name>[PL_317237]_Amundsen-Scott Station (Antarctica)</name>
+    </display_name>
+    <display_name>
+        <city>Amsterdam</city>
+        <name>[PL_316992]_Amsterdam (Netherlands)</name>
+    </display_name>
+    <display_name>
+        <city>Anadyr</city>
+        <name>[PL_316964]_Anadyr (Russia)</name>
+    </display_name>
+    <display_name>
+        <city>Apia</city>
+        <name>[PL_317307]_Apia (Samoa)</name>
+    </display_name>
+    <display_name>
+        <city>Ashgabat</city>
+        <name>[PL_317173]_Ashgabat (Turkmenistan)</name>
+    </display_name>
+    <display_name>
+        <city>Asmara</city>
+        <name>[PL_317253]_Asmara (Eritrea)</name>
+    </display_name>
+    <display_name>
+        <city>NurSultan</city>
+        <name>[PL_854694]_Astana (Kazakhstan)</name>
+    </display_name>
+    <display_name>
+        <city>Atyrau</city>
+        <name>[PL_316909]_Atyrau (Kazakhstan)</name>
+    </display_name>
+    <display_name>
+        <city>Adak</city>
+        <name>[PL_316906]_Adak (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Edmonton</city>
+        <name>[PL_317257]_Edmonton (Canada)</name>
+    </display_name>
+    <display_name>
+        <city>Edinburgh</city>
+        <name>[PL_317104]_Edinburgh (United Kingdom)</name>
+    </display_name>
+    <display_name>
+        <city>El_Paso</city>
+        <name>[PL_317010]_El Paso (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Bantam_Village</city>
+        <name>[PL_316918]_Bantam Village (Cocos (Keeling) Islands)</name>
+    </display_name>
+    <display_name>
+        <city>Yerevan</city>
+        <name>[PL_316838]_Yerevan (Armenia)</name>
+    </display_name>
+    <display_name>
+        <city>Eirunepe</city>
+        <name>[PL_316742]_Eirunepe (Brazil)</name>
+    </display_name>
+    <display_name>
+        <city>Hermosillo</city>
+        <name>[PL_317286]_Hermosillo (Mexico)</name>
+    </display_name>
+    <display_name>
+        <city>Andorra_la_Vella</city>
+        <name>[PL_317187]_Andorra la Vella (Andorra)</name>
+    </display_name>
+    <display_name>
+        <city>Ankara</city>
+        <name>[PL_317272]_Ankara (Türkiye)</name>
+    </display_name>
+    <display_name>
+        <city>Anchorage</city>
+        <name>[PL_317189]_Anchorage (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Amman</city>
+        <name>[PL_316846]_Amman (Jordan)</name>
+    </display_name>
+    <display_name>
+        <city>Antananarivo</city>
+        <name>[PL_316792]_Antananarivo (Madagascar)</name>
+    </display_name>
+    <display_name>
+        <city>Antwerp</city>
+        <name>[PL_316763]_Antwerp (Belgium)</name>
+    </display_name>
+    <display_name>
+        <city>Auckland</city>
+        <name>[PL_317116]_Auckland (New Zealand)</name>
+    </display_name>
+    <display_name>
+        <city>Oakland</city>
+        <name>[PL_316853]_Oakland (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Oranjestad</city>
+        <name>[PL_317323]_Oranjestad (Aruba)</name>
+    </display_name>
+    <display_name>
+        <city>Omaha</city>
+        <name>[PL_317223]_Omaha (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Macau</city>
+        <name>[PL_316871]_Macao (China)</name>
+    </display_name>
+    <display_name>
+        <city>Oslo</city>
+        <name>[PL_317049]_Oslo (Norway)</name>
+    </display_name>
+    <display_name>
+        <city>Austin</city>
+        <name>[PL_317121]_Austin (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Ojinaga</city>
+        <name>[PL_316864]_Ojinaga (Mexico)</name>
+    </display_name>
+    <display_name>
+        <city>Baltimore</city>
+        <name>[PL_316760]_Baltimore (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Baghdad</city>
+        <name>[PL_316812]_Baghdad (Iraq)</name>
+    </display_name>
+    <display_name>
+        <city>Baku</city>
+        <name>[PL_316946]_Baku (Azerbaijan)</name>
+    </display_name>
+    <display_name>
+        <city>Palermo</city>
+        <name>[PL_317072]_Palermo (Italy)</name>
+    </display_name>
+    <display_name>
+        <city>Paris</city>
+        <name>[PL_317279]_Paris (France)</name>
+    </display_name>
+    <display_name>
+        <city>Bari</city>
+        <name>[PL_317181]_Bari (Italy)</name>
+    </display_name>
+    <display_name>
+        <city>Bamako</city>
+        <name>[PL_317170]_Bamako (Mali)</name>
+    </display_name>
+    <display_name>
+        <city>Panama_City</city>
+        <name>[PL_317333]_Panama City (Panama)</name>
+    </display_name>
+    <display_name>
+        <city>Barcelona</city>
+        <name>[PL_316762]_Barcelona (Spain)</name>
+    </display_name>
+    <display_name>
+        <city>Basseterre_Guadeloupe</city>
+        <name>[PL_316857]_Basse-terre (Guadeloupe)</name>
+    </display_name>
+    <display_name>
+        <city>Basseterre_St_Kitts_amp_Nevis</city>
+        <name>Basseterre (St. Kitts &amp; Nevis)</name>
+    </display_name>
+    <display_name>
+        <city>Brasilia</city>
+        <name>[PL_317073]_Brasília (Brazil)</name>
+    </display_name>
+    <display_name>
+        <city>Puerto_Vallarta</city>
+        <name>[PL_317224]_Puerto Vallarta (Mexico)</name>
+    </display_name>
+    <display_name>
+        <city>Berlin</city>
+        <name>[PL_316875]_Berlin (Germany)</name>
+    </display_name>
+    <display_name>
+        <city>Bangui</city>
+        <name>[PL_316931]_Bangui (Central African Republic)</name>
+    </display_name>
+    <display_name>
+        <city>Bangalore</city>
+        <name>[PL_317202]_Bangalore (India)</name>
+    </display_name>
+    <display_name>
+        <city>Banjul</city>
+        <name>[PL_316815]_Banjul (Gambia)</name>
+    </display_name>
+    <display_name>
+        <city>Belgrade</city>
+        <name>[PL_316991]_Belgrade (Serbia)</name>
+    </display_name>
+    <display_name>
+        <city>Beijing</city>
+        <name>[PL_317222]_Beijing (China)</name>
+    </display_name>
+    <display_name>
+        <city>Beirut</city>
+        <name>[PL_317280]_Beirut (Lebanon)</name>
+    </display_name>
+    <display_name>
+        <city>Belem</city>
+        <name>[PL_317001]_Belem (Brazil)</name>
+    </display_name>
+    <display_name>
+        <city>Benicia</city>
+        <name>[PL_316845]_Benicia (United States)</name>
+    </display_name>
+    <display_name>
+        <city>PetropavlovskKamchatskiy</city>
+        <name>[PL_316741]_Petropavlovsk-Kamchatsky (Russia)</name>
+    </display_name>
+    <display_name>
+        <city>Petersburg</city>
+        <name>[PL_316798]_Petersburg (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Perm</city>
+        <name>[PL_317154]_Perm (Russia)</name>
+    </display_name>
+    <display_name>
+        <city>Bissau</city>
+        <name>[PL_316956]_Bissau (Guinea-Bissau)</name>
+    </display_name>
+    <display_name>
+        <city>Bishkek</city>
+        <name>[PL_317155]_Bishkek (Kyrgyzstan)</name>
+    </display_name>
+    <display_name>
+        <city>Beulah</city>
+        <name>[PL_316886]_Beulah (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Boa_Vista</city>
+        <name>[PL_316921]_Boa Vista (Brazil)</name>
+    </display_name>
+    <display_name>
+        <city>Podgorica</city>
+        <name>[PL_317331]_Podgorica (Montenegro)</name>
+    </display_name>
+    <display_name>
+        <city>PortoNovo</city>
+        <name>[PL_317042]_Porto-Novo (Benin)</name>
+    </display_name>
+    <display_name>
+        <city>Porto_Velho</city>
+        <name>[PL_316958]_Porto Velho (Brazil)</name>
+    </display_name>
+    <display_name>
+        <city>Bern</city>
+        <name>[PL_317289]_Bern (Switzerland)</name>
+    </display_name>
+    <display_name>
+        <city>Bogota</city>
+        <name>[PL_317276]_Bogotá (Colombia)</name>
+    </display_name>
+    <display_name>
+        <city>Berkeley</city>
+        <name>[PL_316889]_Berkeley (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Berkeley_Heights</city>
+        <name>[PL_317267]_Berkeley Heights (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Belize_City</city>
+        <name>[PL_317192]_Belize City (Belize)</name>
+    </display_name>
+    <display_name>
+        <city>Burlingame</city>
+        <name>[PL_317029]_Burlingame (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Bologna</city>
+        <name>[PL_317335]_Bologna (Italy)</name>
+    </display_name>
+    <display_name>
+        <city>Pohnpei</city>
+        <name>[PL_316809]_Pohnpei (Federated States of Micronesia)</name>
+    </display_name>
+    <display_name>
+        <city>Boston</city>
+        <name>[PL_316749]_Boston (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Portland</city>
+        <name>[PL_317152]_Portland (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Boise</city>
+        <name>[PL_316737]_Boise (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Budapest</city>
+        <name>[PL_317306]_Budapest (Hungary)</name>
+    </display_name>
+    <display_name>
+        <city>Bucharest</city>
+        <name>[PL_317303]_Bucharest (Romania)</name>
+    </display_name>
+    <display_name>
+        <city>Brazzaville</city>
+        <name>[PL_316975]_Brazzaville (Congo (Republic))</name>
+    </display_name>
+    <display_name>
+        <city>Bratislava</city>
+        <name>[PL_317041]_Bratislava (Slovakia)</name>
+    </display_name>
+    <display_name>
+        <city>Prague</city>
+        <name>[PL_317200]_Prague (Czech Republic)</name>
+    </display_name>
+    <display_name>
+        <city>Blacksburg</city>
+        <name>[PL_316819]_Blacksburg (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Blantyre</city>
+        <name>[PL_316739]_Blantyre (Malawi)</name>
+    </display_name>
+    <display_name>
+        <city>BlancSablon</city>
+        <name>[PL_316858]_Blanc-Sablon (Canada)</name>
+    </display_name>
+    <display_name>
+        <city>Bridgetown</city>
+        <name>[PL_317247]_Bridgetown (Barbados)</name>
+    </display_name>
+    <display_name>
+        <city>Brisbane</city>
+        <name>[PL_316902]_Brisbane (Australia)</name>
+    </display_name>
+    <display_name>
+        <city>Brussels</city>
+        <name>[PL_317075]_Brussels (Belgium)</name>
+    </display_name>
+    <display_name>
+        <city>Broken_Hill</city>
+        <name>[PL_316876]_Broken Hill (Australia)</name>
+    </display_name>
+    <display_name>
+        <city>Bujumbura</city>
+        <name>[PL_317017]_Bujumbura (Burundi)</name>
+    </display_name>
+    <display_name>
+        <city>Buenos_Aires</city>
+        <name>[PL_317040]_Buenos Aires (Argentina)</name>
+    </display_name>
+    <display_name>
+        <city>Chatham_Island</city>
+        <name>[PL_316848]_Chatham Island (New Zealand)</name>
+    </display_name>
+    <display_name>
+        <city>Jayapura</city>
+        <name>[PL_317168]_Jayapura (Indonesia)</name>
+    </display_name>
+    <display_name>
+        <city>Changchun</city>
+        <name>[PL_317038]_Changchun (China)</name>
+    </display_name>
+    <display_name>
+        <city>Chengdu</city>
+        <name>[PL_316873]_Chengdu (China)</name>
+    </display_name>
+    <display_name>
+        <city>Chita</city>
+        <name>[PL_317325]_Chita (Russia)</name>
+    </display_name>
+    <display_name>
+        <city>Chongqing</city>
+        <name>[PL_317216]_Chongqing (China)</name>
+    </display_name>
+    <display_name>
+        <city>Chuuk</city>
+        <name>[PL_316937]_Chuuk (Federated States of Micronesia)</name>
+    </display_name>
+    <display_name>
+        <city>Shiprock</city>
+        <name>[PL_317070]_Shiprock (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Osaka</city>
+        <name>[PL_317124]_Osaka (Japan)</name>
+    </display_name>
+    <display_name>
+        <city>Darwin</city>
+        <name>[PL_316944]_Darwin (Australia)</name>
+    </display_name>
+    <display_name>
+        <city>Dhaka</city>
+        <name>[PL_316882]_Dhaka (Bangladesh)</name>
+    </display_name>
+    <display_name>
+        <city>Dakar</city>
+        <name>[PL_317062]_Dakar (Senegal)</name>
+    </display_name>
+    <display_name>
+        <city>Campo_Grande</city>
+        <name>[PL_317245]_Campo Grande (Brazil)</name>
+    </display_name>
+    <display_name>
+        <city>Dallas</city>
+        <name>[PL_316976]_Dallas (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Dar_es_Salaam</city>
+        <name>[PL_316765]_Dar es Salaam (Tanzania)</name>
+    </display_name>
+    <display_name>
+        <city>Daly_City</city>
+        <name>[PL_317050]_Daly City (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Dalian</city>
+        <name>[PL_316822]_Dalian (China)</name>
+    </display_name>
+    <display_name>
+        <city>Damascus</city>
+        <name>[PL_317294]_Damascus (Syria)</name>
+    </display_name>
+    <display_name>
+        <city>Davis_Station</city>
+        <name>[PL_316837]_Davis Station (Antarctica)</name>
+    </display_name>
+    <display_name>
+        <city>Denver</city>
+        <name>[PL_317138]_Denver (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Danmarkshavn</city>
+        <name>[PL_317256]_Danmarkshavn (Greenland)</name>
+    </display_name>
+    <display_name>
+        <city>Douglas</city>
+        <name>[PL_316768]_Douglas (Isle of Man)</name>
+    </display_name>
+    <display_name>
+        <city>Dawson_City</city>
+        <name>[PL_316862]_Dawson City (Canada)</name>
+    </display_name>
+    <display_name>
+        <city>Dawson_Creek</city>
+        <name>[PL_316890]_Dawson Creek (Canada)</name>
+    </display_name>
+    <display_name>
+        <city>Tehran</city>
+        <name>[PL_317097]_Tehran (Iran)</name>
+    </display_name>
+    <display_name>
+        <city>Tirana</city>
+        <name>[PL_317190]_Tirana (Albania)</name>
+    </display_name>
+    <display_name>
+        <city>Tripoli</city>
+        <name>[PL_316959]_Tripoli (Libya)</name>
+    </display_name>
+    <display_name>
+        <city>Dubai</city>
+        <name>[PL_316915]_Dubai (United Arab Emirates)</name>
+    </display_name>
+    <display_name>
+        <city>Tbilisi</city>
+        <name>[PL_316767]_Tbilisi (Georgia)</name>
+    </display_name>
+    <display_name>
+        <city>Diego_Garcia</city>
+        <name>[PL_317239]_Diego Garcia (British Indian Ocean Territory)</name>
+    </display_name>
+    <display_name>
+        <city>Decatur</city>
+        <name>[PL_316960]_Decatur (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Dili</city>
+        <name>[PL_316963]_Dili (Timor-Leste)</name>
+    </display_name>
+    <display_name>
+        <city>DumontdUrville_Station</city>
+        <name>[PL_317248]_Dumont-d'Urville Station (Antarctica)</name>
+    </display_name>
+    <display_name>
+        <city>Detroit</city>
+        <name>[PL_316825]_Detroit (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Tijuana</city>
+        <name>[PL_316856]_Tijuana (Mexico)</name>
+    </display_name>
+    <display_name>
+        <city>Tokyo</city>
+        <name>[PL_317295]_Tokyo (Japan)</name>
+    </display_name>
+    <display_name>
+        <city>Dublin</city>
+        <name>[PL_316818]_Dublin (Ireland)</name>
+    </display_name>
+    <display_name>
+        <city>Turin</city>
+        <name>[PL_316756]_Turin (Italy)</name>
+    </display_name>
+    <display_name>
+        <city>Douala</city>
+        <name>[PL_317220]_Douala (Cameroon)</name>
+    </display_name>
+    <display_name>
+        <city>Dushanbe</city>
+        <name>[PL_316961]_Dushanbe (Tajikistan)</name>
+    </display_name>
+    <display_name>
+        <city>Doha</city>
+        <name>[PL_317179]_Doha (Qatar)</name>
+    </display_name>
+    <display_name>
+        <city>Toronto</city>
+        <name>[PL_316850]_Toronto (Canada)</name>
+    </display_name>
+    <display_name>
+        <city>Oklahoma_City</city>
+        <name>[PL_316998]_Oklahoma City (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Omsk</city>
+        <name>[PL_316740]_Omsk (Russia)</name>
+    </display_name>
+    <display_name>
+        <city>NDjamena</city>
+        <name>[PL_316995]_N'Djamena (Chad)</name>
+    </display_name>
+    <display_name>
+        <city>Frankfurt</city>
+        <name>[PL_316778]_Frankfurt (Germany)</name>
+    </display_name>
+    <display_name>
+        <city>Fortdefrance</city>
+        <name>[PL_316969]_Fort-de-France (Martinique)</name>
+    </display_name>
+    <display_name>
+        <city>PortauxFrancais</city>
+        <name>[PL_317084]_Port-aux-Français (French Southern Territories)</name>
+    </display_name>
+    <display_name>
+        <city>Fale</city>
+        <name>[PL_317230]_Fale (Tokelau)</name>
+    </display_name>
+    <display_name>
+        <city>Vatican</city>
+        <name>[PL_317167]_Vatican City</name>
+    </display_name>
+    <display_name>
+        <city>Philadelphia</city>
+        <name>[PL_316816]_Philadelphia (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Fernando_de_Noronha</city>
+        <name>[PL_317069]_Fernando de Noronha (Brazil)</name>
+    </display_name>
+    <display_name>
+        <city>Phoenix</city>
+        <name>[PL_317157]_Phoenix (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Funchal</city>
+        <name>[PL_317054]_Funchal (Portugal)</name>
+    </display_name>
+    <display_name>
+        <city>Volgograd</city>
+        <name>[PL_316842]_Volgograd (Russia)</name>
+    </display_name>
+    <display_name>
+        <city>Easter_Island</city>
+        <name>[PL_317026]_Easter Island (Chile)</name>
+    </display_name>
+    <display_name>
+        <city>Vladivostok</city>
+        <name>[PL_317093]_Vladivostok (Russia)</name>
+    </display_name>
+    <display_name>
+        <city>Freetown</city>
+        <name>[PL_316859]_Freetown (Sierra Leone)</name>
+    </display_name>
+    <display_name>
+        <city>Fremont</city>
+        <name>[PL_317115]_Fremont (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Florence</city>
+        <name>[PL_316814]_Florence (Italy)</name>
+    </display_name>
+    <display_name>
+        <city>Fuzhou</city>
+        <name>[PL_317285]_Fuzhou (China)</name>
+    </display_name>
+    <display_name>
+        <city>Foster_City</city>
+        <name>[PL_317318]_Foster City (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Fortaleza</city>
+        <name>[PL_317039]_Fortaleza (Brazil)</name>
+    </display_name>
+    <display_name>
+        <city>Copenhagen</city>
+        <name>[PL_316797]_Copenhagen (Denmark)</name>
+    </display_name>
+    <display_name>
+        <city>Gothenburg</city>
+        <name>[PL_317057]_Gothenburg (Sweden)</name>
+    </display_name>
+    <display_name>
+        <city>Glace_Bay</city>
+        <name>[PL_316827]_Glace Bay (Canada)</name>
+    </display_name>
+    <display_name>
+        <city>Grytviken</city>
+        <name>[PL_317161]_Grytviken (SGSSI)</name>
+    </display_name>
+    <display_name>
+        <city>Columbus</city>
+        <name>[PL_316782]_Columbus (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Kuching</city>
+        <name>[PL_316795]_Kuching (Malaysia)</name>
+    </display_name>
+    <display_name>
+        <city>Gustavia</city>
+        <name>[PL_317246]_Gustavia (St. Barthélemy)</name>
+    </display_name>
+    <display_name>
+        <city>Guayaquil</city>
+        <name>[PL_316870]_Guayaquil (Ecuador)</name>
+    </display_name>
+    <display_name>
+        <city>Guam</city>
+        <name>[PL_316789]_Guam (Guam)</name>
+    </display_name>
+    <display_name>
+        <city>Guangzhou</city>
+        <name>[PL_317275]_Guangzhou (China)</name>
+    </display_name>
+    <display_name>
+        <city>Gaborone</city>
+        <name>[PL_317206]_Gaborone (Botswana)</name>
+    </display_name>
+    <display_name>
+        <city>Harbin</city>
+        <name>[PL_316879]_Harbin (China)</name>
+    </display_name>
+    <display_name>
+        <city>Harare</city>
+        <name>[PL_317210]_Harare (Zimbabwe)</name>
+    </display_name>
+    <display_name>
+        <city>Halifax</city>
+        <name>[PL_316878]_Halifax (Canada)</name>
+    </display_name>
+    <display_name>
+        <city>Havana</city>
+        <name>[PL_317108]_Havana (Cuba)</name>
+    </display_name>
+    <display_name>
+        <city>Hyderabad</city>
+        <name>[PL_317330]_Hyderabad (India)</name>
+    </display_name>
+    <display_name>
+        <city>Haikou</city>
+        <name>[PL_317031]_Haikou (China)</name>
+    </display_name>
+    <display_name>
+        <city>Hamburg</city>
+        <name>[PL_317065]_Hamburg (Germany)</name>
+    </display_name>
+    <display_name>
+        <city>Hangzhou</city>
+        <name>[PL_316790]_Hangzhou (China)</name>
+    </display_name>
+    <display_name>
+        <city>Hamilton</city>
+        <name>[PL_317037]_Hamilton (Bermuda)</name>
+    </display_name>
+    <display_name>
+        <city>Lord_Howe_Island</city>
+        <name>[PL_317290]_Lord Howe Island (Australia)</name>
+    </display_name>
+    <display_name>
+        <city>Helsinki</city>
+        <name>[PL_316917]_Helsinki (Finland)</name>
+    </display_name>
+    <display_name>
+        <city>Hefei</city>
+        <name>[PL_317099]_Hefei (China)</name>
+    </display_name>
+    <display_name>
+        <city>Hanoi</city>
+        <name>[PL_317254]_Hanoi (Vietnam)</name>
+    </display_name>
+    <display_name>
+        <city>Redwood_City</city>
+        <name>[PL_316922]_Redwood City (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Ho_Chi_Minh_City</city>
+        <name>[PL_317288]_Ho Chi Minh City (Vietnam)</name>
+    </display_name>
+    <display_name>
+        <city>Warsaw</city>
+        <name>[PL_317197]_Warsaw (Poland)</name>
+    </display_name>
+    <display_name>
+        <city>Washington_DC</city>
+        <name>[PL_316791]_Washington D.C. (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Waitangi</city>
+        <name>[PL_317317]_Waitangi (New Zealand)</name>
+    </display_name>
+    <display_name>
+        <city>Whitehorse</city>
+        <name>[PL_316830]_Whitehorse (Canada)</name>
+    </display_name>
+    <display_name>
+        <city>Wellington</city>
+        <name>[PL_316990]_Wellington (New Zealand)</name>
+    </display_name>
+    <display_name>
+        <city>Hobart</city>
+        <name>[PL_317203]_Hobart (Australia)</name>
+    </display_name>
+    <display_name>
+        <city>Honiara</city>
+        <name>[PL_317020]_Honiara (Solomon Islands)</name>
+    </display_name>
+    <display_name>
+        <city>Djibouti</city>
+        <name>[PL_316839]_Djibouti (Djibouti)</name>
+    </display_name>
+    <display_name>
+        <city>Quito</city>
+        <name>[PL_316981]_Quito (Ecuador)</name>
+    </display_name>
+    <display_name>
+        <city>Kyiv</city>
+        <name>[PL_317175]_Kiev (Ukraine)</name>
+    </display_name>
+    <display_name>
+        <city>Kigali</city>
+        <name>[PL_316840]_Kigali (Rwanda)</name>
+    </display_name>
+    <display_name>
+        <city>Kuala_Lumpur</city>
+        <name>[PL_317235]_Kuala Lumpur (Malaysia)</name>
+    </display_name>
+    <display_name>
+        <city>Jinan</city>
+        <name>[PL_317301]_Jinan (China)</name>
+    </display_name>
+    <display_name>
+        <city>Chisinau</city>
+        <name>[PL_317025]_Chisinau (Moldova)</name>
+    </display_name>
+    <display_name>
+        <city>Cardiff</city>
+        <name>[PL_316865]_Cardiff (United Kingdom)</name>
+    </display_name>
+    <display_name>
+        <city>Kathmandu</city>
+        <name>[PL_317024]_Kathmandu (Nepal)</name>
+    </display_name>
+    <display_name>
+        <city>Calcutta</city>
+        <name>[PL_317019]_Kolkata (India)</name>
+    </display_name>
+    <display_name>
+        <city>Caracas</city>
+        <name>[PL_317082]_Caracas (Venezuela)</name>
+    </display_name>
+    <display_name>
+        <city>Galapagos_Islands</city>
+        <name>[PL_317217]_Galápagos Islands (Ecuador)</name>
+    </display_name>
+    <display_name>
+        <city>Kaliningrad</city>
+        <name>[PL_317195]_Kaliningrad (Russia)</name>
+    </display_name>
+    <display_name>
+        <city>Canary_Islands</city>
+        <name>[PL_317076]_Canary Islands (Spain)</name>
+    </display_name>
+    <display_name>
+        <city>Gaza</city>
+        <name>[PL_316786]_Gaza (Palestine)</name>
+    </display_name>
+    <display_name>
+        <city>Cambridge_Bay</city>
+        <name>[PL_316897]_Cambridge Bay (Canada)</name>
+    </display_name>
+    <display_name>
+        <city>Phnom_Penh</city>
+        <name>[PL_316987]_Phnom Penh (Cambodia)</name>
+    </display_name>
+    <display_name>
+        <city>Kinshasa</city>
+        <name>[PL_317090]_Kinshasa (Congo (DRC))</name>
+    </display_name>
+    <display_name>
+        <city>Kingston_Jamaica</city>
+        <name>[PL_317005]_Kingston (Jamaica)</name>
+    </display_name>
+    <display_name>
+        <city>Kingston_Norfolk_Island</city>
+        <name>[PL_317233]_Kingston (Norfolk Island)</name>
+    </display_name>
+    <display_name>
+        <city>Kingstown</city>
+        <name>Kingstown (St. Vincent &amp; Grenadines)</name>
+    </display_name>
+    <display_name>
+        <city>San_Francisco</city>
+        <name>[PL_317229]_San Francisco (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Kabul</city>
+        <name>[PL_316752]_Kabul (Afghanistan)</name>
+    </display_name>
+    <display_name>
+        <city>Calgary</city>
+        <name>[PL_317066]_Calgary (Canada)</name>
+    </display_name>
+    <display_name>
+        <city>Karachi</city>
+        <name>[PL_317234]_Karachi (Pakistan)</name>
+    </display_name>
+    <display_name>
+        <city>Casablanca</city>
+        <name>[PL_317177]_Casablanca (Morocco)</name>
+    </display_name>
+    <display_name>
+        <city>Kashgar</city>
+        <name>[PL_316766]_Kashgar (China)</name>
+    </display_name>
+    <display_name>
+        <city>Castries</city>
+        <name>[PL_317287]_Castries (St. Lucia)</name>
+    </display_name>
+    <display_name>
+        <city>Catamarca</city>
+        <name>[PL_316754]_Catamarca (Argentina)</name>
+    </display_name>
+    <display_name>
+        <city>Catanzaro</city>
+        <name>[PL_316817]_Catanzaro (Italy)</name>
+    </display_name>
+    <display_name>
+        <city>Khartoum</city>
+        <name>[PL_317271]_Khartoum (Sudan)</name>
+    </display_name>
+    <display_name>
+        <city>Cayenne</city>
+        <name>[PL_316919]_Cayenne (French Guiana)</name>
+    </display_name>
+    <display_name>
+        <city>Cairo</city>
+        <name>[PL_316843]_Cairo (Egypt)</name>
+    </display_name>
+    <display_name>
+        <city>Cape_Town</city>
+        <name>[PL_317188]_Cape Town (South Africa)</name>
+    </display_name>
+    <display_name>
+        <city>Casey_Station</city>
+        <name>[PL_316800]_Casey Station (Antarctica)</name>
+    </display_name>
+    <display_name>
+        <city>Kanton_Island</city>
+        <name>[PL_317204]_Kanton Island (Kiribati)</name>
+    </display_name>
+    <display_name>
+        <city>Cancun</city>
+        <name>[PL_317182]_Cancun (Mexico)</name>
+    </display_name>
+    <display_name>
+        <city>Kampala</city>
+        <name>[PL_316820]_Kampala (Uganda)</name>
+    </display_name>
+    <display_name>
+        <city>Canberra</city>
+        <name>[PL_316938]_Canberra (Australia)</name>
+    </display_name>
+    <display_name>
+        <city>Cockburn_Town</city>
+        <name>Cockburn Town (Turks &amp; Caicos Islands)</name>
+    </display_name>
+    <display_name>
+        <city>Hovd</city>
+        <name>[PL_317207]_Khovd (Mongolia)</name>
+    </display_name>
+    <display_name>
+        <city>Cordoba</city>
+        <name>[PL_317316]_Cordoba (Argentina)</name>
+    </display_name>
+    <display_name>
+        <city>Cork</city>
+        <name>[PL_316835]_Cork (Ireland)</name>
+    </display_name>
+    <display_name>
+        <city>Krakow</city>
+        <name>[PL_317178]_Kraków (Poland)</name>
+    </display_name>
+    <display_name>
+        <city>Kralendijk</city>
+        <name>[PL_317305]_Kralendijk (Bonaire)</name>
+    </display_name>
+    <display_name>
+        <city>Krasnoyarsk</city>
+        <name>[PL_316777]_Krasnoyarsk (Russia)</name>
+    </display_name>
+    <display_name>
+        <city>Creston</city>
+        <name>[PL_317127]_Creston (Canada)</name>
+    </display_name>
+    <display_name>
+        <city>Cleveland</city>
+        <name>[PL_316867]_Cleveland (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Christiansted</city>
+        <name>[PL_317296]_Christiansted (U.S. Virgin Islands)</name>
+    </display_name>
+    <display_name>
+        <city>Colombo</city>
+        <name>[PL_316744]_Colombo (Sri Lanka)</name>
+    </display_name>
+    <display_name>
+        <city>Koror</city>
+        <name>[PL_317023]_Koror (Palau)</name>
+    </display_name>
+    <display_name>
+        <city>Crotone</city>
+        <name>[PL_316910]_Crotone (Italy)</name>
+    </display_name>
+    <display_name>
+        <city>Kunming</city>
+        <name>[PL_317147]_Kunming (China)</name>
+    </display_name>
+    <display_name>
+        <city>Conakry</city>
+        <name>[PL_316764]_Conakry (Guinea)</name>
+    </display_name>
+    <display_name>
+        <city>Kosrae</city>
+        <name>[PL_316883]_Kosrae (Federated States of Micronesia)</name>
+    </display_name>
+    <display_name>
+        <city>Kuwait</city>
+        <name>[PL_316808]_Kuwait (Kuwait)</name>
+    </display_name>
+    <display_name>
+        <city>Qyzylorda</city>
+        <name>[PL_317193]_Kyzylorda (Kazakhstan)</name>
+    </display_name>
+    <display_name>
+        <city>Cupertino</city>
+        <name>[PL_317321]_Cupertino (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Currie</city>
+        <name>[PL_316970]_Currie (Australia)</name>
+    </display_name>
+    <display_name>
+        <city>Cuiaba</city>
+        <name>[PL_317111]_Cuiabá (Brazil)</name>
+    </display_name>
+    <display_name>
+        <city>Happy_ValleyGoose_Bay</city>
+        <name>[PL_317032]_Happy Valley-Goose Bay (Canada)</name>
+    </display_name>
+    <display_name>
+        <city>Quebec_City</city>
+        <name>[PL_317006]_Quebec City (Canada)</name>
+    </display_name>
+    <display_name>
+        <city>Pontianak</city>
+        <name>[PL_317092]_Pontianak (Indonesia)</name>
+    </display_name>
+    <display_name>
+        <city>Nuestra_Senora_de_La_Paz</city>
+        <name>[PL_317018]_Nuestra Señora de La Paz (Bolivia)</name>
+    </display_name>
+    <display_name>
+        <city>Rabat</city>
+        <name>[PL_316863]_Rabat (Morocco)</name>
+    </display_name>
+    <display_name>
+        <city>Lagos</city>
+        <name>[PL_316893]_Lagos (Nigeria)</name>
+    </display_name>
+    <display_name>
+        <city>La_Rioja</city>
+        <name>[PL_316943]_La Rioja (Argentina)</name>
+    </display_name>
+    <display_name>
+        <city>Rarotonga</city>
+        <name>[PL_316899]_Rarotonga (Cook Islands)</name>
+    </display_name>
+    <display_name>
+        <city>Lhasa</city>
+        <name>[PL_316747]_Lhasa (China)</name>
+    </display_name>
+    <display_name>
+        <city>Las_Vegas</city>
+        <name>[PL_316781]_Las Vegas (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Rankin_Inlet</city>
+        <name>[PL_317258]_Rankin Inlet (Canada)</name>
+    </display_name>
+    <display_name>
+        <city>Longyearbyen</city>
+        <name>[PL_316891]_Longyearbyen (Norway)</name>
+    </display_name>
+    <display_name>
+        <city>Reykjavik</city>
+        <name>[PL_317067]_Reykjavik (Iceland)</name>
+    </display_name>
+    <display_name>
+        <city>Resolute</city>
+        <name>[PL_317045]_Resolute (Canada)</name>
+    </display_name>
+    <display_name>
+        <city>Recife</city>
+        <name>[PL_316971]_Recife (Brazil)</name>
+    </display_name>
+    <display_name>
+        <city>Lyon</city>
+        <name>[PL_317209]_Lyon (France)</name>
+    </display_name>
+    <display_name>
+        <city>Rio_Branco</city>
+        <name>[PL_317129]_Rio Branco (Brazil)</name>
+    </display_name>
+    <display_name>
+        <city>Rio_Gallegos</city>
+        <name>[PL_317089]_Rio Gallegos (Argentina)</name>
+    </display_name>
+    <display_name>
+        <city>Libreville</city>
+        <name>[PL_317311]_Libreville (Gabon)</name>
+    </display_name>
+    <display_name>
+        <city>Rikitea</city>
+        <name>[PL_317080]_Rikitea (French Polynesia)</name>
+    </display_name>
+    <display_name>
+        <city>Riga</city>
+        <name>[PL_317056]_Riga (Latvia)</name>
+    </display_name>
+    <display_name>
+        <city>Regina</city>
+        <name>[PL_317117]_Regina (Canada)</name>
+    </display_name>
+    <display_name>
+        <city>Lima</city>
+        <name>[PL_316874]_Lima (Peru)</name>
+    </display_name>
+    <display_name>
+        <city>Lisbon</city>
+        <name>[PL_317250]_Lisbon (Portugal)</name>
+    </display_name>
+    <display_name>
+        <city>Riyadh</city>
+        <name>[PL_317201]_Riyadh (Saudi Arabia)</name>
+    </display_name>
+    <display_name>
+        <city>Rio_de_Janeiro</city>
+        <name>[PL_317308]_Rio de Janeiro (Brazil)</name>
+    </display_name>
+    <display_name>
+        <city>Lindeman_Island</city>
+        <name>[PL_316821]_Lindeman Island (Australia)</name>
+    </display_name>
+    <display_name>
+        <city>Lubumbashi</city>
+        <name>[PL_317328]_Lubumbashi (Congo (DRC))</name>
+    </display_name>
+    <display_name>
+        <city>Ljubljana</city>
+        <name>[PL_316912]_Ljubljana (Slovenia)</name>
+    </display_name>
+    <display_name>
+        <city>Lusaka</city>
+        <name>[PL_316755]_Lusaka (Zambia)</name>
+    </display_name>
+    <display_name>
+        <city>Luxembourg</city>
+        <name>[PL_317002]_Luxembourg (Luxembourg)</name>
+    </display_name>
+    <display_name>
+        <city>Port_Louis</city>
+        <name>[PL_317273]_Port Louis (Mauritius)</name>
+    </display_name>
+    <display_name>
+        <city>Louisville</city>
+        <name>[PL_317012]_Louisville (United States)</name>
+    </display_name>
+    <display_name>
+        <city>London</city>
+        <name>[PL_317163]_London (United Kingdom)</name>
+    </display_name>
+    <display_name>
+        <city>Luanda</city>
+        <name>[PL_317130]_Luanda (Angola)</name>
+    </display_name>
+    <display_name>
+        <city>Rome</city>
+        <name>[PL_317221]_Rome (Italy)</name>
+    </display_name>
+    <display_name>
+        <city>Road_Town</city>
+        <name>[PL_316932]_Road Town (British Virgin Islands)</name>
+    </display_name>
+    <display_name>
+        <city>Lome</city>
+        <name>[PL_317300]_Lomé (Togo)</name>
+    </display_name>
+    <display_name>
+        <city>Rothera_Station</city>
+        <name>[PL_317109]_Rothera Station (Antarctica)</name>
+    </display_name>
+    <display_name>
+        <city>Los_Angeles</city>
+        <name>[PL_317151]_Los Angeles (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Los_Altos</city>
+        <name>[PL_317128]_Los Altos (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Los_Gatos</city>
+        <name>[PL_316831]_Los Gatos (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Roseau</city>
+        <name>[PL_317053]_Roseau (Dominica)</name>
+    </display_name>
+    <display_name>
+        <city>Madrid</city>
+        <name>[PL_317165]_Madrid (Spain)</name>
+    </display_name>
+    <display_name>
+        <city>Malmo</city>
+        <name>[PL_316868]_Malmö (Sweden)</name>
+    </display_name>
+    <display_name>
+        <city>Magadan</city>
+        <name>[PL_317191]_Magadan (Russia)</name>
+    </display_name>
+    <display_name>
+        <city>Makassar</city>
+        <name>[PL_317033]_Makassar (Indonesia)</name>
+    </display_name>
+    <display_name>
+        <city>Malabo</city>
+        <name>[PL_316772]_Malabo (Equatorial Guinea)</name>
+    </display_name>
+    <display_name>
+        <city>Male</city>
+        <name>[PL_317319]_Male (Maldives)</name>
+    </display_name>
+    <display_name>
+        <city>Mariehamn</city>
+        <name>[PL_317314]_Mariehamn (Finland)</name>
+    </display_name>
+    <display_name>
+        <city>Marigot</city>
+        <name>[PL_317145]_Marigot (St. Martin)</name>
+    </display_name>
+    <display_name>
+        <city>Marengo</city>
+        <name>[PL_317044]_Marengo (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Mamoudzou</city>
+        <name>[PL_316841]_Mamoudzou (Mayotte)</name>
+    </display_name>
+    <display_name>
+        <city>Managua</city>
+        <name>[PL_316896]_Managua (Nicaragua)</name>
+    </display_name>
+    <display_name>
+        <city>Manaus</city>
+        <name>[PL_316834]_Manaus (Brazil)</name>
+    </display_name>
+    <display_name>
+        <city>Manila</city>
+        <name>[PL_316793]_Manila (Philippines)</name>
+    </display_name>
+    <display_name>
+        <city>Maputo</city>
+        <name>[PL_316928]_Maputo (Mozambique)</name>
+    </display_name>
+    <display_name>
+        <city>Mazatlan</city>
+        <name>[PL_316773]_Mazatlán (Mexico)</name>
+    </display_name>
+    <display_name>
+        <city>Marseille</city>
+        <name>[PL_316851]_Marseille (France)</name>
+    </display_name>
+    <display_name>
+        <city>Maseru</city>
+        <name>[PL_316935]_Maseru (Lesotho)</name>
+    </display_name>
+    <display_name>
+        <city>Maceio</city>
+        <name>[PL_316939]_Maceio (Brazil)</name>
+    </display_name>
+    <display_name>
+        <city>Muscat</city>
+        <name>[PL_317028]_Muscat (Oman)</name>
+    </display_name>
+    <display_name>
+        <city>Matamoros</city>
+        <name>[PL_316913]_Matamoros (Mexico)</name>
+    </display_name>
+    <display_name>
+        <city>MataUtu</city>
+        <name>Mata-Utu (Wallis &amp; Futuna)</name>
+    </display_name>
+    <display_name>
+        <city>Majuro</city>
+        <name>[PL_317036]_Majuro (Marshall Islands)</name>
+    </display_name>
+    <display_name>
+        <city>Miami</city>
+        <name>[PL_317021]_Miami (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Madison</city>
+        <name>[PL_316933]_Madison (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Mecca</city>
+        <name>[PL_316852]_Mecca (Saudi Arabia)</name>
+    </display_name>
+    <display_name>
+        <city>McMurdo_Station</city>
+        <name>[PL_316806]_McMurdo Station (Antarctica)</name>
+    </display_name>
+    <display_name>
+        <city>Macquarie_Island_Station</city>
+        <name>[PL_317133]_Macquarie Island Station (Antarctica)</name>
+    </display_name>
+    <display_name>
+        <city>Manama</city>
+        <name>[PL_317106]_Manama (Bahrain)</name>
+    </display_name>
+    <display_name>
+        <city>Bangkok</city>
+        <name>[PL_317184]_Bangkok (Thailand)</name>
+    </display_name>
+    <display_name>
+        <city>Merida</city>
+        <name>[PL_317196]_Mérida (Mexico)</name>
+    </display_name>
+    <display_name>
+        <city>Menominee</city>
+        <name>[PL_317242]_Menominee (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Metlakatla</city>
+        <name>[PL_316997]_Metlakatla (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Mendoza</city>
+        <name>[PL_317087]_Mendoza (Argentina)</name>
+    </display_name>
+    <display_name>
+        <city>Menlo_Park</city>
+        <name>[PL_317088]_Menlo Park (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Montpellier</city>
+        <name>[PL_316983]_Montpellier (France)</name>
+    </display_name>
+    <display_name>
+        <city>Montevideo</city>
+        <name>[PL_317205]_Montevideo (Uruguay)</name>
+    </display_name>
+    <display_name>
+        <city>Monticello</city>
+        <name>[PL_316989]_Monticello (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Memphis</city>
+        <name>[PL_316753]_Memphis (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Moncton</city>
+        <name>[PL_317252]_Moncton (Canada)</name>
+    </display_name>
+    <display_name>
+        <city>Monrovia</city>
+        <name>[PL_317183]_Monrovia (Liberia)</name>
+    </display_name>
+    <display_name>
+        <city>Mumbai</city>
+        <name>[PL_317329]_Mumbai (India)</name>
+    </display_name>
+    <display_name>
+        <city>Monterrey</city>
+        <name>[PL_316923]_Monterrey (Mexico)</name>
+    </display_name>
+    <display_name>
+        <city>Monterey</city>
+        <name>[PL_317211]_Monterey (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Montreal</city>
+        <name>[PL_317291]_Montreal (Canada)</name>
+    </display_name>
+    <display_name>
+        <city>Milbank</city>
+        <name>[PL_316877]_Milbank (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Milwaukee</city>
+        <name>[PL_316927]_Milwaukee (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Milan</city>
+        <name>[PL_317312]_Milan (Italy)</name>
+    </display_name>
+    <display_name>
+        <city>Minneapolis</city>
+        <name>[PL_316940]_Minneapolis (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Minsk</city>
+        <name>[PL_316861]_Minsk (Belarus)</name>
+    </display_name>
+    <display_name>
+        <city>Melbourne</city>
+        <name>[PL_316908]_Melbourne (Australia)</name>
+    </display_name>
+    <display_name>
+        <city>Port_Moresby</city>
+        <name>[PL_316947]_Port Moresby (Papua New Guinea)</name>
+    </display_name>
+    <display_name>
+        <city>Mogadishu</city>
+        <name>[PL_316803]_Mogadishu (Somalia)</name>
+    </display_name>
+    <display_name>
+        <city>Moroni</city>
+        <name>[PL_317174]_Moroni (Comoros)</name>
+    </display_name>
+    <display_name>
+        <city>Monaco</city>
+        <name>[PL_316738]_Monaco (Monaco)</name>
+    </display_name>
+    <display_name>
+        <city>Mawson_Station</city>
+        <name>[PL_316810]_Mawson Station (Antarctica)</name>
+    </display_name>
+    <display_name>
+        <city>Moscow</city>
+        <name>[PL_317185]_Moscow (Russia)</name>
+    </display_name>
+    <display_name>
+        <city>Mexico_City</city>
+        <name>[PL_317334]_Mexico City (Mexico)</name>
+    </display_name>
+    <display_name>
+        <city>Messina</city>
+        <name>[PL_316748]_Messina (Italy)</name>
+    </display_name>
+    <display_name>
+        <city>Mbabane</city>
+        <name>[PL_316973]_Mbabane (Eswatini)</name>
+    </display_name>
+    <display_name>
+        <city>Munich</city>
+        <name>[PL_317293]_Munich (Germany)</name>
+    </display_name>
+    <display_name>
+        <city>Naples</city>
+        <name>[PL_317171]_Naples (Italy)</name>
+    </display_name>
+    <display_name>
+        <city>Napa</city>
+        <name>[PL_317251]_Napa (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Nassau</city>
+        <name>[PL_316898]_Nassau (Bahamas)</name>
+    </display_name>
+    <display_name>
+        <city>Naters</city>
+        <name>[PL_316993]_Naters (Switzerland)</name>
+    </display_name>
+    <display_name>
+        <city>Nanjing</city>
+        <name>[PL_317113]_Nanjing (China)</name>
+    </display_name>
+    <display_name>
+        <city>Nanning</city>
+        <name>[PL_317103]_Nanning (China)</name>
+    </display_name>
+    <display_name>
+        <city>YuzhnoSakhalinsk</city>
+        <name>[PL_316977]_Yuzhno-Sakhalinsk (Russia)</name>
+    </display_name>
+    <display_name>
+        <city>Nairobi</city>
+        <name>[PL_317219]_Nairobi (Kenya)</name>
+    </display_name>
+    <display_name>
+        <city>Nicosia</city>
+        <name>[PL_317266]_Nicosia (Cyprus)</name>
+    </display_name>
+    <display_name>
+        <city>Nipigon</city>
+        <name>[PL_316771]_Nipigon (Canada)</name>
+    </display_name>
+    <display_name>
+        <city>Niamey</city>
+        <name>[PL_317180]_Niamey (Niger)</name>
+    </display_name>
+    <display_name>
+        <city>New_York</city>
+        <name>[PL_317027]_New York (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Nuuk</city>
+        <name>[PL_316978]_Nuuk (Greenland)</name>
+    </display_name>
+    <display_name>
+        <city>Nukualofa</city>
+        <name>[PL_317098]_Nuku'alofa (Tonga)</name>
+    </display_name>
+    <display_name>
+        <city>Noumea</city>
+        <name>[PL_317034]_Noumea (New Caledonia)</name>
+    </display_name>
+    <display_name>
+        <city>Nouakchott</city>
+        <name>[PL_317260]_Nouakchott (Mauritania)</name>
+    </display_name>
+    <display_name>
+        <city>Knox</city>
+        <name>[PL_317046]_Knox (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Knoxville</city>
+        <name>[PL_317158]_Knoxville (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Nome</city>
+        <name>[PL_317241]_Nome (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Novato</city>
+        <name>[PL_316905]_Novato (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Oral</city>
+        <name>[PL_316934]_Oral (Kazakhstan)</name>
+    </display_name>
+    <display_name>
+        <city>Palmer_Station</city>
+        <name>[PL_316972]_Palmer Station (Antarctica)</name>
+    </display_name>
+    <display_name>
+        <city>Pago_Pago</city>
+        <name>[PL_317008]_Pago Pago (American Samoa)</name>
+    </display_name>
+    <display_name>
+        <city>Paramaribo</city>
+        <name>[PL_316920]_Paramaribo (Suriname)</name>
+    </display_name>
+    <display_name>
+        <city>Palo_Alto</city>
+        <name>[PL_316801]_Palo Alto (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Pacifica</city>
+        <name>[PL_316965]_Pacifica (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Pangnirtung</city>
+        <name>[PL_316804]_Pangnirtung (Canada)</name>
+    </display_name>
+    <display_name>
+        <city>Perth</city>
+        <name>[PL_316745]_Perth (Australia)</name>
+    </display_name>
+    <display_name>
+        <city>Petaluma</city>
+        <name>[PL_316986]_Petaluma (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Ponta_Delgada</city>
+        <name>[PL_317064]_Ponta Delgada (Portugal)</name>
+    </display_name>
+    <display_name>
+        <city>Pittsburgh</city>
+        <name>[PL_317074]_Pittsburgh (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Pyongyang</city>
+        <name>[PL_528667]_Pyongyang</name>
+    </display_name>
+    <display_name>
+        <city>Praia</city>
+        <name>[PL_316895]_Praia (Cape Verde)</name>
+    </display_name>
+    <display_name>
+        <city>Pleasanton</city>
+        <name>[PL_317274]_Pleasanton (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Plymouth</city>
+        <name>[PL_317068]_Plymouth (Montserrat)</name>
+    </display_name>
+    <display_name>
+        <city>Chihuahua</city>
+        <name>[PL_317083]_Chihuahua (Mexico)</name>
+    </display_name>
+    <display_name>
+        <city>George_Town</city>
+        <name>[PL_317281]_George Town (Cayman Islands)</name>
+    </display_name>
+    <display_name>
+        <city>Georgetown</city>
+        <name>[PL_317292]_Georgetown (Guyana)</name>
+    </display_name>
+    <display_name>
+        <city>Qingdao</city>
+        <name>[PL_317004]_Qingdao (China)</name>
+    </display_name>
+    <display_name>
+        <city>Chiang_Mai</city>
+        <name>[PL_317014]_Chiang Mai (Thailand)</name>
+    </display_name>
+    <display_name>
+        <city>Genoa</city>
+        <name>[PL_317277]_Genoa (Italy)</name>
+    </display_name>
+    <display_name>
+        <city>Geneva</city>
+        <name>[PL_317299]_Geneva (Switzerland)</name>
+    </display_name>
+    <display_name>
+        <city>Salta</city>
+        <name>[PL_317071]_Salta (Argentina)</name>
+    </display_name>
+    <display_name>
+        <city>Salvador</city>
+        <name>[PL_316949]_Salvador (Brazil)</name>
+    </display_name>
+    <display_name>
+        <city>Salzburg</city>
+        <name>[PL_317091]_Salzburg (Austria)</name>
+    </display_name>
+    <display_name>
+        <city>Zagreb</city>
+        <name>[PL_317269]_Zagreb (Croatia)</name>
+    </display_name>
+    <display_name>
+        <city>Sarajevo</city>
+        <name>Sarajevo (Bosnia &amp; Herzegovina)</name>
+    </display_name>
+    <display_name>
+        <city>Samarkand</city>
+        <name>[PL_316914]_Samarkand (Uzbekistan)</name>
+    </display_name>
+    <display_name>
+        <city>Samara</city>
+        <name>[PL_317278]_Samara (Russia)</name>
+    </display_name>
+    <display_name>
+        <city>Sanaa</city>
+        <name>[PL_316929]_Sana'a (Yemen)</name>
+    </display_name>
+    <display_name>
+        <city>Saskatoon</city>
+        <name>[PL_317059]_Saskatoon (Canada)</name>
+    </display_name>
+    <display_name>
+        <city>Saipan</city>
+        <name>[PL_316860]_Saipan (Northern Mariana Islands)</name>
+    </display_name>
+    <display_name>
+        <city>Thessaloniki</city>
+        <name>[PL_316887]_Thessaloniki (Greece)</name>
+    </display_name>
+    <display_name>
+        <city>Thunder_Bay</city>
+        <name>[PL_317238]_Thunder Bay (Canada)</name>
+    </display_name>
+    <display_name>
+        <city>Sunnyvale</city>
+        <name>[PL_317112]_Sunnyvale (United States)</name>
+    </display_name>
+    <display_name>
+        <city>The_Valley</city>
+        <name>[PL_317166]_The Valley (Anguilla)</name>
+    </display_name>
+    <display_name>
+        <city>Mountain_View</city>
+        <name>[PL_316930]_Mountain View (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Shanghai</city>
+        <name>[PL_316847]_Shanghai (China)</name>
+    </display_name>
+    <display_name>
+        <city>Shenyang</city>
+        <name>[PL_317150]_Shenyang (China)</name>
+    </display_name>
+    <display_name>
+        <city>Shenzhen</city>
+        <name>[PL_317078]_Shenzhen (China)</name>
+    </display_name>
+    <display_name>
+        <city>San_Antonio</city>
+        <name>[PL_317255]_San Antonio (United States)</name>
+    </display_name>
+    <display_name>
+        <city>San_Pablo</city>
+        <name>[PL_317172]_San Pablo (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Sao_Paulo</city>
+        <name>[PL_317100]_São Paulo (Brazil)</name>
+    </display_name>
+    <display_name>
+        <city>St_Petersburg</city>
+        <name>[PL_317003]_St. Petersburg (Russia)</name>
+    </display_name>
+    <display_name>
+        <city>Saint_Peter_Port</city>
+        <name>[PL_317015]_Saint Peter Port (Guernsey)</name>
+    </display_name>
+    <display_name>
+        <city>San_Bruno</city>
+        <name>[PL_317268]_San Bruno (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Kiritimati</city>
+        <name>[PL_317176]_Kiritimati (Kiribati)</name>
+    </display_name>
+    <display_name>
+        <city>SaintDenis</city>
+        <name>[PL_317326]_Saint-Denis (Réunion)</name>
+    </display_name>
+    <display_name>
+        <city>San_Diego</city>
+        <name>[PL_317101]_San Diego (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Santiago</city>
+        <name>[PL_316872]_Santiago (Chile)</name>
+    </display_name>
+    <display_name>
+        <city>Sao_Tome</city>
+        <name>São Tomé (São Tomé &amp; Príncipe)</name>
+    </display_name>
+    <display_name>
+        <city>Santo_Domingo</city>
+        <name>[PL_317114]_Santo Domingo (Dominican Republic)</name>
+    </display_name>
+    <display_name>
+        <city>Saint_Helier</city>
+        <name>[PL_317199]_Saint Helier (Jersey)</name>
+    </display_name>
+    <display_name>
+        <city>San_Jose_United_States</city>
+        <name>[PL_317118]_San Jose (United States)</name>
+    </display_name>
+    <display_name>
+        <city>San_Jose_Costa_Rica</city>
+        <name>[PL_316903]_San José (Costa Rica)</name>
+    </display_name>
+    <display_name>
+        <city>San_Juan_Argentina</city>
+        <name>[PL_316968]_San Juan (Argentina)</name>
+    </display_name>
+    <display_name>
+        <city>San_Juan_Puerto_Rico</city>
+        <name>[PL_316784]_San Juan (Puerto Rico)</name>
+    </display_name>
+    <display_name>
+        <city>San_Carlos</city>
+        <name>[PL_316746]_San Carlos (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Santa_Clara_Cuba</city>
+        <name>[PL_316869]_Santa Clara (Cuba)</name>
+    </display_name>
+    <display_name>
+        <city>Santa_Cruz</city>
+        <name>[PL_316925]_Santa Cruz (United States)</name>
+    </display_name>
+    <display_name>
+        <city>San_Rafael</city>
+        <name>[PL_317144]_San Rafael (United States)</name>
+    </display_name>
+    <display_name>
+        <city>San_Ramon</city>
+        <name>[PL_316926]_San Ramon (United States)</name>
+    </display_name>
+    <display_name>
+        <city>San_Leandro</city>
+        <name>[PL_316805]_San Leandro (United States)</name>
+    </display_name>
+    <display_name>
+        <city>San_Luis</city>
+        <name>[PL_316828]_San Luis (Argentina)</name>
+    </display_name>
+    <display_name>
+        <city>St_Louis</city>
+        <name>[PL_316888]_St. Louis (United States)</name>
+    </display_name>
+    <display_name>
+        <city>San_Marino</city>
+        <name>[PL_317125]_San Marino (San Marino)</name>
+    </display_name>
+    <display_name>
+        <city>San_Mateo</city>
+        <name>[PL_317232]_San Mateo (United States)</name>
+    </display_name>
+    <display_name>
+        <city>SaintPierre</city>
+        <name>Saint-Pierre (St. Pierre &amp; Miquelon)</name>
+    </display_name>
+    <display_name>
+        <city>St_Georges</city>
+        <name>[PL_317052]_St. George's (Grenada)</name>
+    </display_name>
+    <display_name>
+        <city>San_Salvador</city>
+        <name>[PL_317284]_San Salvador (El Salvador)</name>
+    </display_name>
+    <display_name>
+        <city>San_Salvador_de_Jujuy</city>
+        <name>[PL_317120]_San Salvador de Jujuy (Argentina)</name>
+    </display_name>
+    <display_name>
+        <city>Santarem</city>
+        <name>[PL_317160]_Santarém (Brazil)</name>
+    </display_name>
+    <display_name>
+        <city>Santa_Isabel</city>
+        <name>[PL_316751]_Santa Isabel (Mexico)</name>
+    </display_name>
+    <display_name>
+        <city>St_Johns_Canada</city>
+        <name>[PL_317162]_St. John's (Canada)</name>
+    </display_name>
+    <display_name>
+        <city>St_Johns_Antigua_amp_Barbuda</city>
+        <name>St. John's (Antigua &amp; Barbuda)</name>
+    </display_name>
+    <display_name>
+        <city>Seoul</city>
+        <name>[PL_317265]_Seoul (South Korea)</name>
+    </display_name>
+    <display_name>
+        <city>Stockholm</city>
+        <name>[PL_316900]_Stockholm (Sweden)</name>
+    </display_name>
+    <display_name>
+        <city>Skopje</city>
+        <name>[PL_854695]_Skopje (North Macedonia)</name>
+    </display_name>
+    <display_name>
+        <city>Bandar_Seri_Begawan</city>
+        <name>[PL_317081]_Bandar Seri Begawan (Brunei)</name>
+    </display_name>
+    <display_name>
+        <city>Stanley</city>
+        <name>[PL_317143]_Stanley (Falkland Islands)</name>
+    </display_name>
+    <display_name>
+        <city>Swift_Current</city>
+        <name>[PL_317262]_Swift Current (Canada)</name>
+    </display_name>
+    <display_name>
+        <city>Sioux_Falls</city>
+        <name>[PL_316776]_Sioux Falls (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Zurich</city>
+        <name>[PL_316936]_Zurich (Switzerland)</name>
+    </display_name>
+    <display_name>
+        <city>Suva</city>
+        <name>[PL_317313]_Suva (Fiji)</name>
+    </display_name>
+    <display_name>
+        <city>Sofia</city>
+        <name>[PL_317011]_Sofia (Bulgaria)</name>
+    </display_name>
+    <display_name>
+        <city>Tarawa</city>
+        <name>[PL_316904]_Tarawa (Kiribati)</name>
+    </display_name>
+    <display_name>
+        <city>Tallinn</city>
+        <name>[PL_316759]_Tallinn (Estonia)</name>
+    </display_name>
+    <display_name>
+        <city>Tashkent</city>
+        <name>[PL_316855]_Tashkent (Uzbekistan)</name>
+    </display_name>
+    <display_name>
+        <city>Tahiti</city>
+        <name>[PL_317146]_Tahiti (French Polynesia)</name>
+    </display_name>
+    <display_name>
+        <city>Taiohae</city>
+        <name>[PL_317030]_Taiohae (French Polynesia)</name>
+    </display_name>
+    <display_name>
+        <city>Taipei</city>
+        <name>[PL_316951]_Taipei (China)</name>
+    </display_name>
+    <display_name>
+        <city>Portauprince</city>
+        <name>[PL_317156]_Port-au-prince (Haiti)</name>
+    </display_name>
+    <display_name>
+        <city>Honolulu</city>
+        <name>[PL_317264]_Honolulu (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Tell_City</city>
+        <name>[PL_317047]_Tell City (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Tegucigalpa</city>
+        <name>[PL_316954]_Tegucigalpa (Honduras)</name>
+    </display_name>
+    <display_name>
+        <city>Tel_Aviv</city>
+        <name>[PL_317198]_Tel Aviv (Israel)</name>
+    </display_name>
+    <display_name>
+        <city>Trehet</city>
+        <name>[PL_317136]_Tréhet (France)</name>
+    </display_name>
+    <display_name>
+        <city>Tianjin</city>
+        <name>[PL_316866]_Tianjin (China)</name>
+    </display_name>
+    <display_name>
+        <city>Thimphu</city>
+        <name>[PL_316750]_Thimphu (Bhutan)</name>
+    </display_name>
+    <display_name>
+        <city>San_Miguel_de_Tucuman</city>
+        <name>[PL_316985]_San Miguel de Tucuman (Argentina)</name>
+    </display_name>
+    <display_name>
+        <city>Thule</city>
+        <name>[PL_317007]_Thule (Greenland)</name>
+    </display_name>
+    <display_name>
+        <city>Tunis</city>
+        <name>[PL_317282]_Tunis (Tunisia)</name>
+    </display_name>
+    <display_name>
+        <city>Torshavn</city>
+        <name>[PL_316953]_Tórshavn (Faroe Islands)</name>
+    </display_name>
+    <display_name>
+        <city>Vaduz</city>
+        <name>[PL_317009]_Vaduz (Liechtenstein)</name>
+    </display_name>
+    <display_name>
+        <city>Ouagadougou</city>
+        <name>[PL_317096]_Ouagadougou (Burkina Faso)</name>
+    </display_name>
+    <display_name>
+        <city>Valletta</city>
+        <name>[PL_316948]_Valletta (Malta)</name>
+    </display_name>
+    <display_name>
+        <city>Vallejo</city>
+        <name>[PL_317302]_Vallejo (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Vientiane</city>
+        <name>[PL_316911]_Vientiane (Laos)</name>
+    </display_name>
+    <display_name>
+        <city>Guatemala_City</city>
+        <name>[PL_317058]_Guatemala City (Guatemala)</name>
+    </display_name>
+    <display_name>
+        <city>Victoria</city>
+        <name>[PL_316988]_Victoria (Seychelles)</name>
+    </display_name>
+    <display_name>
+        <city>Vilnius</city>
+        <name>[PL_317110]_Vilnius (Lithuania)</name>
+    </display_name>
+    <display_name>
+        <city>Willemstad</city>
+        <name>[PL_316942]_Willemstad (Curaçao)</name>
+    </display_name>
+    <display_name>
+        <city>Verona</city>
+        <name>[PL_317013]_Verona (Italy)</name>
+    </display_name>
+    <display_name>
+        <city>Winamac</city>
+        <name>[PL_316779]_Winamac (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Vevay</city>
+        <name>[PL_317320]_Vevay (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Vienna</city>
+        <name>[PL_316880]_Vienna (Austria)</name>
+    </display_name>
+    <display_name>
+        <city>Windhoek</city>
+        <name>[PL_317218]_Windhoek (Namibia)</name>
+    </display_name>
+    <display_name>
+        <city>Vancouver</city>
+        <name>[PL_316945]_Vancouver (Canada)</name>
+    </display_name>
+    <display_name>
+        <city>Winnipeg</city>
+        <name>[PL_316761]_Winnipeg (Canada)</name>
+    </display_name>
+    <display_name>
+        <city>Vincennes</city>
+        <name>[PL_317322]_Vincennes (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Walnut_Creek</city>
+        <name>[PL_317324]_Walnut Creek (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Vostok_Station</city>
+        <name>[PL_317137]_Vostok Station (Antarctica)</name>
+    </display_name>
+    <display_name>
+        <city>Ottawa</city>
+        <name>[PL_317244]_Ottawa (Canada)</name>
+    </display_name>
+    <display_name>
+        <city>Ulaanbaatar</city>
+        <name>[PL_317142]_Ulaanbaatar (Mongolia)</name>
+    </display_name>
+    <display_name>
+        <city>Urumqi</city>
+        <name>[PL_316824]_Urumqi (China)</name>
+    </display_name>
+    <display_name>
+        <city>Wuhan</city>
+        <name>[PL_317270]_Wuhan (China)</name>
+    </display_name>
+    <display_name>
+        <city>Ushuaia</city>
+        <name>[PL_317149]_Ushuaia (Argentina)</name>
+    </display_name>
+    <display_name>
+        <city>Hebron</city>
+        <name>[PL_317227]_Hebron (Palestine)</name>
+    </display_name>
+    <display_name>
+        <city>Healdsburg</city>
+        <name>[PL_317213]_Healdsburg (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Sydney</city>
+        <name>[PL_316788]_Sydney (Australia)</name>
+    </display_name>
+    <display_name>
+        <city>Xian</city>
+        <name>[PL_316796]_Xi'an (China)</name>
+    </display_name>
+    <display_name>
+        <city>Sitka</city>
+        <name>[PL_317119]_Sitka (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Seattle</city>
+        <name>[PL_316984]_Seattle (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Charlotte</city>
+        <name>[PL_317055]_Charlotte (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Charlotte_Amalie</city>
+        <name>[PL_316832]_Charlotte Amalie (U.S. Virgin Islands)</name>
+    </display_name>
+    <display_name>
+        <city>Lower_Princes_Quarter</city>
+        <name>[PL_316980]_Lower Prince's Quarter (Sint Maarten)</name>
+    </display_name>
+    <display_name>
+        <city>Hong_Kong</city>
+        <name>[PL_317298]_Hong Kong (China)</name>
+    </display_name>
+    <display_name>
+        <city>Little_Rock</city>
+        <name>[PL_317139]_Little Rock (United States)</name>
+    </display_name>
+    <display_name>
+        <city>New_Orleans</city>
+        <name>[PL_316799]_New Orleans (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Flying_Fish_Cove</city>
+        <name>[PL_317022]_Flying Fish Cove (Christmas Island)</name>
+    </display_name>
+    <display_name>
+        <city>New_Delhi</city>
+        <name>[PL_317310]_New Delhi (India)</name>
+    </display_name>
+    <display_name>
+        <city>Singapore</city>
+        <name>[PL_317208]_Singapore (Singapore)</name>
+    </display_name>
+    <display_name>
+        <city>New_Salem</city>
+        <name>[PL_317153]_New Salem (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Novosibirsk</city>
+        <name>[PL_316907]_Novosibirsk (Russia)</name>
+    </display_name>
+    <display_name>
+        <city>Ceuta</city>
+        <name>[PL_316884]_Ceuta (Spain)</name>
+    </display_name>
+    <display_name>
+        <city>Houston</city>
+        <name>[PL_316966]_Houston (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Adamstown</city>
+        <name>[PL_317159]_Adamstown (Pitcairn Islands)</name>
+    </display_name>
+    <display_name>
+        <city>Addis_Ababa</city>
+        <name>[PL_317079]_Addis Ababa (Ethiopia)</name>
+    </display_name>
+    <display_name>
+        <city>Athens</city>
+        <name>[PL_317016]_Athens (Greece)</name>
+    </display_name>
+    <display_name>
+        <city>Aden</city>
+        <name>[PL_317094]_Aden (Yemen)</name>
+    </display_name>
+    <display_name>
+        <city>Jakarta</city>
+        <name>[PL_317063]_Jakarta (Indonesia)</name>
+    </display_name>
+    <display_name>
+        <city>Yakutsk</city>
+        <name>[PL_317131]_Yakutsk (Russia)</name>
+    </display_name>
+    <display_name>
+        <city>Yakutat</city>
+        <name>[PL_317327]_Yakutat (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Alexandria</city>
+        <name>[PL_316924]_Alexandria (Egypt)</name>
+    </display_name>
+    <display_name>
+        <city>Yamoussoukro</city>
+        <name>[PL_317085]_Yamoussoukro (Côte d’Ivoire)</name>
+    </display_name>
+    <display_name>
+        <city>Asuncion</city>
+        <name>[PL_316775]_Asunción (Paraguay)</name>
+    </display_name>
+    <display_name>
+        <city>Atlanta</city>
+        <name>[PL_317095]_Atlanta (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Yaounde</city>
+        <name>[PL_317283]_Yaoundé (Cameroon)</name>
+    </display_name>
+    <display_name>
+        <city>Salt_Lake_City</city>
+        <name>[PL_316894]_Salt Lake City (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Rangoon</city>
+        <name>[PL_316849]_Yangon (Myanmar)</name>
+    </display_name>
+    <display_name>
+        <city>Jerusalem</city>
+        <name>[PL_317304]_Jerusalem</name>
+    </display_name>
+    <display_name>
+        <city>Yekaterinburg</city>
+        <name>[PL_317061]_Yekaterinburg (Russia)</name>
+    </display_name>
+    <display_name>
+        <city>Yellowknife</city>
+        <name>[PL_317214]_Yellowknife (Canada)</name>
+    </display_name>
+    <display_name>
+        <city>Irkutsk</city>
+        <name>[PL_316979]_Irkutsk (Russia)</name>
+    </display_name>
+    <display_name>
+        <city>Iqaluit</city>
+        <name>[PL_316957]_Iqaluit (Canada)</name>
+    </display_name>
+    <display_name>
+        <city>Heraklion</city>
+        <name>[PL_317060]_Heraklion (Greece)</name>
+    </display_name>
+    <display_name>
+        <city>Inuvik</city>
+        <name>[PL_316770]_Inuvik (Canada)</name>
+    </display_name>
+    <display_name>
+        <city>Islamabad</city>
+        <name>[PL_317315]_Islamabad (Pakistan)</name>
+    </display_name>
+    <display_name>
+        <city>Istanbul</city>
+        <name>[PL_316829]_Istanbul (Türkiye)</name>
+    </display_name>
+    <display_name>
+        <city>Ittoqqortoormiit</city>
+        <name>[PL_317051]_Ittoqqortoormiit (Greenland)</name>
+    </display_name>
+    <display_name>
+        <city>Indianapolis</city>
+        <name>[PL_317141]_Indianapolis (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Eucla</city>
+        <name>[PL_317194]_Eucla (Australia)</name>
+    </display_name>
+    <display_name>
+        <city>Rainy_River</city>
+        <name>[PL_317186]_Rainy River (Canada)</name>
+    </display_name>
+    <display_name>
+        <city>Johannesburg</city>
+        <name>[PL_316743]_Johannesburg (South Africa)</name>
+    </display_name>
+    <display_name>
+        <city>Zhengzhou</city>
+        <name>[PL_316967]_Zhengzhou (China)</name>
+    </display_name>
+    <display_name>
+        <city>Jamestown</city>
+        <name>[PL_316813]_Jamestown (St. Helena)</name>
+    </display_name>
+    <display_name>
+        <city>Syowa_Station</city>
+        <name>[PL_317259]_Showa Station (Antarctica)</name>
+    </display_name>
+    <display_name>
+        <city>Gibraltar</city>
+        <name>[PL_316941]_Gibraltar (Gibraltar)</name>
+    </display_name>
+    <display_name>
+        <city>Chicago</city>
+        <name>[PL_317107]_Chicago (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Juba</city>
+        <name>[PL_455698]_Juba (South Sudan)</name>
+    </display_name>
+    <display_name>
+        <city>Juneau</city>
+        <name>[PL_317132]_Juneau (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Choibalsan</city>
+        <name>[PL_316802]_Choibalsan (Mongolia)</name>
+    </display_name>
+    <display_name>
+        <city>Midway_Islands</city>
+        <name>[PL_317240]_Midway Islands (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Reno</city>
+        <name>[PL_316952]_Reno (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Sacramento</city>
+        <name>[PL_317236]_Sacramento (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Tucson</city>
+        <name>[PL_316994]_Tucson (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Nashville</city>
+        <name>[PL_316885]_Nashville (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Center</city>
+        <name>[PL_317228]_Center (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Ann_Arbor</city>
+        <name>[PL_316811]_Ann Arbor (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Cambridge</city>
+        <name>[PL_317035]_Cambridge (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Jacksonville</city>
+        <name>[PL_317086]_Jacksonville (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Reston</city>
+        <name>[PL_316982]_Reston (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Tampa</city>
+        <name>[PL_317231]_Tampa (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Cincinnati</city>
+        <name>[PL_317212]_Cincinnati (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Port_of_Spain</city>
+        <name>Port of Spain (Trinidad &amp; Tobago)</name>
+    </display_name>
+    <display_name>
+        <city>Belo_Horizonte</city>
+        <name>[PL_317043]_Belo Horizonte (Brazil)</name>
+    </display_name>
+    <display_name>
+        <city>Belfast</city>
+        <name>[PL_316794]_Belfast (United Kingdom)</name>
+    </display_name>
+    <display_name>
+        <city>Manchester</city>
+        <name>[PL_316901]_Manchester (United Kingdom)</name>
+    </display_name>
+    <display_name>
+        <city>Timbuktu</city>
+        <name>[PL_317215]_Timbuktu (Mali)</name>
+    </display_name>
+    <display_name>
+        <city>Wroclaw</city>
+        <name>[PL_316844]_Wroclaw (Poland)</name>
+    </display_name>
+    <display_name>
+        <city>Oulu</city>
+        <name>[PL_317148]_Oulu (Finland)</name>
+    </display_name>
+    <display_name>
+        <city>Haifa</city>
+        <name>[PL_317164]_Haifa (Israel)</name>
+    </display_name>
+    <display_name>
+        <city>Simferopol</city>
+        <name>[PL_511955]_Simferopol</name>
+    </display_name>
+    <display_name>
+        <city>Aqtau</city>
+        <name>[PL_317077]_Aktau (Kazakhstan)</name>
+    </display_name>
+    <display_name>
+        <city>Lahore</city>
+        <name>[PL_317297]_Lahore (Pakistan)</name>
+    </display_name>
+    <display_name>
+        <city>Delhi</city>
+        <name>[PL_316807]_Delhi (India)</name>
+    </display_name>
+    <display_name>
+        <city>Gurgaon</city>
+        <name>[PL_316783]_Gurgaon (India)</name>
+    </display_name>
+    <display_name>
+        <city>Boulder</city>
+        <name>[PL_316836]_Boulder (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Hohhot</city>
+        <name>[PL_316962]_Hohhot (China)</name>
+    </display_name>
+    <display_name>
+        <city>Yinchuan</city>
+        <name>[PL_317226]_Yinchuan (China)</name>
+    </display_name>
+    <display_name>
+        <city>Shijiazhuang</city>
+        <name>[PL_316769]_Shijiazhuang (China)</name>
+    </display_name>
+    <display_name>
+        <city>Lanzhou</city>
+        <name>[PL_317122]_Lanzhou (China)</name>
+    </display_name>
+    <display_name>
+        <city>Taiyuan</city>
+        <name>[PL_317135]_Taiyuan (China)</name>
+    </display_name>
+    <display_name>
+        <city>Nanchang</city>
+        <name>[PL_317225]_Nanchang (China)</name>
+    </display_name>
+    <display_name>
+        <city>Changsha</city>
+        <name>[PL_316955]_Changsha (China)</name>
+    </display_name>
+    <display_name>
+        <city>Guiyang</city>
+        <name>[PL_317332]_Guiyang (China)</name>
+    </display_name>
+    <display_name>
+        <city>Xining</city>
+        <name>[PL_316854]_Xining (China)</name>
+    </display_name>
+    <display_name>
+        <city>Acapulco</city>
+        <name>[PL_566162]_Acapulco (Mexico)</name>
+    </display_name>
+    <display_name>
+        <city>Aguascalientes</city>
+        <name>[PL_566158]_Aguascalientes (Mexico)</name>
+    </display_name>
+    <display_name>
+        <city>Chennai</city>
+        <name>[PL_566167]_Chennai (India)</name>
+    </display_name>
+    <display_name>
+        <city>Ciudad_Juarez</city>
+        <name>[PL_566166]_Ciudad Juárez (Mexico)</name>
+    </display_name>
+    <display_name>
+        <city>Cuernavaca</city>
+        <name>[PL_566156]_Cuernavaca (Mexico)</name>
+    </display_name>
+    <display_name>
+        <city>Donetsk</city>
+        <name>[PL_566172]_Donetsk (Ukraine)</name>
+    </display_name>
+    <display_name>
+        <city>Famagusta</city>
+        <name>[PL_566163]_Famagusta (Cyprus)</name>
+    </display_name>
+    <display_name>
+        <city>Fort_StJohn</city>
+        <name>[PL_566159]_Fort St. John (Canada)</name>
+    </display_name>
+    <display_name>
+        <city>Green_Bay</city>
+        <name>[PL_566160]_Green Bay (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Guadalajara</city>
+        <name>[PL_566161]_Guadalajara (Mexico)</name>
+    </display_name>
+    <display_name>
+        <city>Leon</city>
+        <name>[PL_566153]_León (Mexico)</name>
+    </display_name>
+    <display_name>
+        <city>Marrakesh</city>
+        <name>[PL_566168]_Marrakesh (Morocco)</name>
+    </display_name>
+    <display_name>
+        <city>Mexicali</city>
+        <name>[PL_566169]_Mexicali (Mexico)</name>
+    </display_name>
+    <display_name>
+        <city>Montpelier</city>
+        <name>[PL_566173]_Montpelier (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Novokuznetsk</city>
+        <name>[PL_566170]_Novokuznetsk (Russia)</name>
+    </display_name>
+    <display_name>
+        <city>Puebla</city>
+        <name>[PL_566157]_Puebla (Mexico)</name>
+    </display_name>
+    <display_name>
+        <city>Punta_Arenas</city>
+        <name>[PL_566171]_Punta Arenas (Chile)</name>
+    </display_name>
+    <display_name>
+        <city>Queretaro</city>
+        <name>[PL_566155]_Querétaro (Mexico)</name>
+    </display_name>
+    <display_name>
+        <city>San_Luis_Potosi</city>
+        <name>[PL_566174]_San Luis Potosí (Mexico)</name>
+    </display_name>
+    <display_name>
+        <city>Santa_Clara_United_States</city>
+        <name>[PL_566164]_Santa Clara (United States)</name>
+    </display_name>
+    <display_name>
+        <city>Saratov</city>
+        <name>[PL_566165]_Saratov (Russia)</name>
+    </display_name>
+    <display_name>
+        <city>Torreon</city>
+        <name>[PL_566154]_Torreón (Mexico)</name>
+    </display_name>
+</display_names>

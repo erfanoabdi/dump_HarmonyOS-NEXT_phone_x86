@@ -1,0 +1,34 @@
+{
+    "process": "asset_service",
+    "systemability": [
+        {
+            "name": 8100,
+            "libpath": "libasset_service.dylib.so",
+            "run-on-create": false,
+            "distributed": false,
+            "dump_level": 1,
+            "start-on-demand": {
+                "commonevent": [
+                    {
+                        "name": "usual.event.PACKAGE_REMOVED"
+                    },
+                    {
+                        "name": "usual.event.SANDBOX_PACKAGE_REMOVED"
+                    },
+                    {
+                        "name": "usual.event.USER_REMOVED"
+                    },
+                    {
+                        "name": "usual.event.CHARGING"
+                    },
+                    {
+                        "name": "usual.event.USER_UNLOCKED"
+                    },
+                    {
+                        "name": "COMMON_EVENT_RESTORE_START"
+                    }
+                ]
+            }
+        }
+    ]
+}

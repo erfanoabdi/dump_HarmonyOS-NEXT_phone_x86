@@ -1,0 +1,19 @@
+{
+    "process": "CollaborationFwk",
+    "systemability": [
+        {
+            "name": 70633,
+            "libpath": "libcollaborationfwk_service.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 70635,
+            "libpath": "libcollabfwk_devicedetect_service.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        }
+    ]
+}

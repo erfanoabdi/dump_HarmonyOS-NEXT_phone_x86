@@ -1,0 +1,20 @@
+{
+  "work_scheduler_preinstalled_works": {
+    "u20020068_2": {
+      "abilityName": "HSDRWorkScheduler",
+      "bundleName": "com.huawei.hmos.hsdr",
+      "callBySystemApp": true,
+      "conditions": {
+        "chargerType": 0,
+        "isCharging": true,
+        "network": 0,
+        "repeat": true,
+        "timer": 7200000
+      },
+      "persisted": true,
+      "uid": 20020068,
+      "uriKey": "basic_statement_agreed",
+      "workId": 2
+    }
+  }
+}

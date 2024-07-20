@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="264px" height="264px" viewBox="0 0 24 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Cursor/Cell</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HarmonyOS-cursor-symbol" transform="translate(-708.000000, -159.000000)" stroke="#000000" stroke-width="2">
+            <g id="形状结合" transform="translate(701.000000, 150.000000)">
+                <path d="M20.9,10 C20.9552285,10 21,10.0447715 21,10.1 L21,18 L29.9,18 C29.9552285,18 30,18.0447715 30,18.1 L30,22.9 C30,22.9552285 29.9552285,23 29.9,23 L21,23 L21,30.9 C21,30.9552285 20.9552285,31 20.9,31 L17.1,31 C17.0447715,31 17,30.9552285 17,30.9 L17,22.999 L8.1,23 C8.04477153,23 8,22.9552285 8,22.9 L8,18.1 C8,18.0447715 8.04477153,18 8.1,18 L17,17.999 L17,10.1 C17,10.0447715 17.0447715,10 17.1,10 L20.9,10 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

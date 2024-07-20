@@ -1,0 +1,16 @@
+{
+  "white_list": {
+    "com.huawei.hmos.meetimeservice": [
+      "com.huawei.hmos.meetimeservice/AccountManagerServiceExtension"
+    ],
+    "com.huawei.hmsapp.intelligent": [
+      "com.ohos.sceneboard/IntelligentDataShareExtAbility"
+    ],
+    "com.huawei.hmos.betaclub": [
+      "com.huawei.hmos.findservice/DataShareExtAbility"
+    ]
+  },
+  "exposed_white_list": [
+    ""
+  ]
+}

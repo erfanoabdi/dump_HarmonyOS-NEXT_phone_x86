@@ -1,0 +1,375 @@
+{
+    "KernelLeak": {
+        "Beta": {
+            "enable" : true,
+            "upload_interval" : 18000,
+            "sample_time": {
+                "enable" : false,
+                "window_time":10,
+                "psi": {
+                    "20": 200,
+                    "40": 100,
+                    "60": 50
+                }
+            },
+            "kernel_type": {
+                "slab": {
+                    "enable" : true,
+                    "soft_threshold": {
+                        "4G": 600,
+                        "6G": 1000,
+                        "8G": 1400,
+                        "12G": 2500,
+                        "16G": 3500
+                    },
+                    "hard_threshold": {
+                        "4G": 900,
+                        "6G": 1500,
+                        "8G": 2100,
+                        "12G": 3700,
+                        "16G": 5200
+                    },
+                    "meminfo_name" : "Slab",
+                    "proc_name" : "slabinfo"
+                },
+                "cma": {
+                    "enable" : true,
+                    "soft_threshold": {
+                        "4G": 9999,
+                        "6G": 9999,
+                        "8G": 9999,
+                        "12G": 9999,
+                        "16G": 99999
+                    },
+                    "hard_threshold": {
+                        "4G": 9999,
+                        "6G": 9999,
+                        "8G": 9999,
+                        "12G": 9999,
+                        "16G": 99999
+                    },
+                    "meminfo_name" : "CmaUsed",
+                    "proc_name" : "cma_info"
+                },
+                "ashmem": {
+                    "enable" : true,
+                    "soft_threshold": {
+                        "4G": 600,
+                        "6G": 800,
+                        "8G": 1024,
+                        "12G": 1400,
+                        "16G": 1350
+                    },
+                    "hard_threshold": {
+                        "4G": 900,
+                        "6G": 1200,
+                        "8G": 1500,
+                        "12G": 1800,
+                        "16G": 2000
+                    },
+                    "meminfo_name" : "AshmemUsed",
+                    "proc_name" : "ashmem_process_info"
+                },
+                "vmalloc": {
+                    "enable" : true,
+                    "soft_threshold": {
+                        "4G": 600,
+                        "6G": 700,
+                        "8G": 800,
+                        "12G": 900,
+                        "16G": 1000
+                    },
+                    "hard_threshold": {
+                        "4G": 900,
+                        "6G": 1050,
+                        "8G": 1200,
+                        "12G": 1350,
+                        "16G": 1500
+                    },
+                    "meminfo_name" : "VmallocUsed",
+                    "proc_name" : "vmalloc_info"
+                },
+                "ldk-slab": {
+                    "enable" : true,
+                    "soft_threshold": {
+                        "4G": 600,
+                        "6G": 1000,
+                        "8G": 1400,
+                        "12G": 2500,
+                        "16G": 3500
+                    },
+                    "hard_threshold": {
+                        "4G": 900,
+                        "6G": 1500,
+                        "8G": 2100,
+                        "12G": 3700,
+                        "16G": 5200
+                    },
+                    "meminfo_name" : "LDKSlab",
+                    "proc_name" : "slabinfo"
+                },
+                "ion": {
+                    "enable" : true,
+                    "soft_threshold": {
+                        "4G": 1500,
+                        "6G": 2000,
+                        "8G": 2560,
+                        "12G": 2800,
+                        "16G": 3000
+                    },
+                    "hard_threshold": {
+                        "4G": 2250,
+                        "6G": 3000,
+                        "8G": 3840,
+                        "12G": 4200,
+                        "16G": 4500
+                    },
+                    "meminfo_name" : "DmaHeapTotalUsed",
+                    "proc_name" : "dmaheap_process_info"
+                },
+                "ldk-vmalloc": {
+                    "enable" : true,
+                    "soft_threshold": {
+                        "4G": 600,
+                        "6G": 700,
+                        "8G": 800,
+                        "12G": 900,
+                        "16G": 1000
+                    },
+                    "hard_threshold": {
+                        "4G": 900,
+                        "6G": 1050,
+                        "8G": 1200,
+                        "12G": 1350,
+                        "16G": 1500
+                    },
+                    "meminfo_name" : "LDKVmallocUsed",
+                    "proc_name" : "vmalloc_info"
+                },
+                "gpu": {
+                    "enable" : true,
+                    "soft_threshold": {
+                        "4G": 1000,
+                        "6G": 1450,
+                        "8G": 1680,
+                        "12G": 2300,
+                        "16G": 2700
+                    },
+                    "hard_threshold": {
+                        "4G": 1500,
+                        "6G": 2175,
+                        "8G": 2520,
+                        "12G": 3450,
+                        "16G": 4096
+                    },
+                    "meminfo_name" : "GpuTotalUsed",
+                    "proc_name" : "gpumem_process_info"
+                },
+                "file-struct": {
+                    "enable" : true,
+                    "soft_threshold": {
+                        "4G": 9999,
+                        "6G": 9999,
+                        "8G": 9999,
+                        "12G": 99999,
+                        "16G": 99999
+                    },
+                    "hard_threshold": {
+                        "4G": 9999,
+                        "6G": 9999,
+                        "8G": 9999,
+                        "12G": 99999,
+                        "16G": 99999
+                    },
+                    "meminfo_name" : "",
+                    "proc_name" : ""
+                }
+            }
+        },
+        "Commercial": {
+            "enable" : true,
+            "upload_interval" : 36000,
+            "sample_time": {
+                "enable" : true,
+                "psi": {
+                    "20": 200,
+                    "40": 100,
+                    "60": 50
+                }
+            },
+            "kernel_type": {
+                "slab": {
+                    "enable" : true,
+                    "soft_threshold": {
+                        "4G": 600,
+                        "6G": 1000,
+                        "8G": 1400,
+                        "12G": 2500,
+                        "16G": 3500
+                    },
+                    "hard_threshold": {
+                        "4G": 900,
+                        "6G": 1500,
+                        "8G": 2100,
+                        "12G": 3700,
+                        "16G": 5200
+                    },
+                    "meminfo_name" : "Slab",
+                    "proc_name" : "slabinfo"
+                },
+                "cma": {
+                    "enable" : true,
+                    "soft_threshold": {
+                        "4G": 9999,
+                        "6G": 9999,
+                        "8G": 9999,
+                        "12G": 9999,
+                        "16G": 9999
+                    },
+                    "hard_threshold": {
+                        "4G": 9999,
+                        "6G": 9999,
+                        "8G": 9999,
+                        "12G": 9999,
+                        "16G": 99999
+                    },
+                    "meminfo_name" : "CmaUsed",
+                    "proc_name" : "cma_info"
+                },
+                "ashmem": {
+                    "enable" : true,
+                    "soft_threshold": {
+                        "4G": 600,
+                        "6G": 800,
+                        "8G": 1024,
+                        "12G": 1400,
+                        "16G": 1350
+                    },
+                    "hard_threshold": {
+                        "4G": 900,
+                        "6G": 1200,
+                        "8G": 1500,
+                        "12G": 1800,
+                        "16G": 2000
+                    },
+                    "meminfo_name" : "AshmemUsed",
+                    "proc_name" : "ashmem_process_info"
+                },
+                "vmalloc": {
+                    "enable" : true,
+                    "soft_threshold": {
+                        "4G": 600,
+                        "6G": 700,
+                        "8G": 800,
+                        "12G": 900,
+                        "16G": 1000
+                    },
+                    "hard_threshold": {
+                        "4G": 900,
+                        "6G": 1050,
+                        "8G": 1200,
+                        "12G": 1350,
+                        "16G": 1500
+                    },
+                    "meminfo_name" : "VmallocUsed",
+                    "proc_name" : "vmalloc_info"
+                },
+                "ldk-slab": {
+                    "enable" : true,
+                    "soft_threshold": {
+                        "4G": 600,
+                        "6G": 1000,
+                        "8G": 1400,
+                        "12G": 2500,
+                        "16G": 3500
+                    },
+                    "hard_threshold": {
+                        "4G": 900,
+                        "6G": 1500,
+                        "8G": 2100,
+                        "12G": 3700,
+                        "16G": 5200
+                    },
+                    "meminfo_name" : "LDKSlab",
+                    "proc_name" : "slabinfo"
+                },
+                "ion": {
+                    "enable" : true,
+                    "soft_threshold": {
+                        "4G": 1500,
+                        "6G": 2000,
+                        "8G": 2560,
+                        "12G": 2800,
+                        "16G": 3000
+                    },
+                    "hard_threshold": {
+                        "4G": 2250,
+                        "6G": 3000,
+                        "8G": 3840,
+                        "12G": 4200,
+                        "16G": 4500
+                    },
+                    "meminfo_name" : "DmaHeapTotalUsed",
+                    "proc_name" : "dmaheap_process_info"
+                },
+                "ldk-vmalloc": {
+                    "enable" : true,
+                    "soft_threshold": {
+                        "4G": 600,
+                        "6G": 700,
+                        "8G": 800,
+                        "12G": 900,
+                        "16G": 1000
+                    },
+                    "hard_threshold": {
+                        "4G": 900,
+                        "6G": 1050,
+                        "8G": 1200,
+                        "12G": 1350,
+                        "16G": 1500
+                    },
+                    "meminfo_name" : "LDKVmallocUsed",
+                    "proc_name" : "vmalloc_info"
+                },
+                "gpu": {
+                    "enable" : true,
+                    "soft_threshold": {
+                        "4G": 1000,
+                        "6G": 1450,
+                        "8G": 1680,
+                        "12G": 2300,
+                        "16G": 2700
+                    },
+                    "hard_threshold": {
+                        "4G": 1500,
+                        "6G": 2175,
+                        "8G": 2520,
+                        "12G": 3450,
+                        "16G": 4096
+                    },
+                    "meminfo_name" : "GpuTotalUsed",
+                    "proc_name" : "gpumem_process_info"
+                },
+                "file-struct": {
+                    "enable" : true,
+                    "soft_threshold": {
+                        "4G": 9999,
+                        "6G": 9999,
+                        "8G": 9999,
+                        "12G": 99999,
+                        "16G": 99999
+                    },
+                    "hard_threshold": {
+                        "4G": 9999,
+                        "6G": 9999,
+                        "8G": 9999,
+                        "12G": 99999,
+                        "16G": 99999
+                    },
+                    "meminfo_name" : "",
+                    "proc_name" : ""
+                }
+            }
+        }
+    }
+}

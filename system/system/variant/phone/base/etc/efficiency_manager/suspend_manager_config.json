@@ -1,0 +1,160 @@
+{
+  "param": {
+    "fast_frozen": {
+      "enable": false,
+      "service_frozen_time": 3000,
+      "doze_time": 3000,
+      "frozen_time": 500
+    },
+    "system_app_frozen": {
+      "doze_time": 0,
+      "frozen_time": 0
+    },
+    "normal_frozen": {
+      "doze_time": 1000,
+      "frozen_time": 1000
+    },
+    "bg_running_frozen": {
+      "doze_time": 3000,
+      "frozen_time": 3000
+    },
+    "instant_frozen": {
+      "frozen_time": 1500
+    },
+    "extension_frozen": [
+      {
+        "extension_type": "service_type",
+        "doze_time": 6000,
+        "frozen_time": 0
+      },
+      {
+        "extension_type": "inputmethod_type",
+        "doze_time": 6000,
+        "frozen_time": 0
+      },
+      {
+        "extension_type": "ui_type",
+        "doze_time": 2000,
+        "frozen_time": 0
+      },
+      {
+        "extension_type": "remote_notification_type",
+        "doze_time": 10000,
+        "frozen_time": 0
+      }
+    ],
+    "binder_delay": 1500,
+    "bg_wakeup_max_cnt": 10
+  },
+  "sa_control_list": [
+    {
+      "system_ability": {
+        "sa_name": "inputmethod_service",
+        "sa_id": 3703
+      },
+      "control_extension": [
+        "inputmethod_type"
+      ]
+    },
+    {
+      "system_ability": {
+        "sa_name": "healthsport_services",
+        "sa_id": 9527
+      },
+      "control_bundlename": [
+        "com.huawei.hmos.health",
+        "com.huawei.hmos.health.core"
+      ]
+    }
+  ],
+  "self_developed_app": [
+    "com.huawei.batterycare",
+    "com.huawei.hmos.advisor",
+    "com.huawei.hmos.aidispatchservice",
+    "com.huawei.hmos.ailife",
+    "com.huawei.hmos.ailifesvc",
+    "com.huawei.hmos.audioaccessorymanager",
+    "com.huawei.hmos.browser",
+    "com.huawei.hmos.calculator",
+    "com.huawei.hmos.calendar",
+    "com.huawei.hmos.calendardata",
+    "com.huawei.hmos.callsetting",
+    "com.huawei.hmos.camera",
+    "com.huawei.hmos.cardistributedassist",
+    "com.huawei.hmos.cellbroadcast",
+    "com.huawei.hmos.clock",
+    "com.huawei.hmos.clouddrive",
+    "com.huawei.hmos.dataclone",
+    "com.huawei.hmos.devicecollaboration",
+    "com.huawei.hmos.emergencycommunication",
+    "com.huawei.hmos.filemanager",
+    "com.huawei.hmos.finddevice",
+    "com.huawei.hmos.findservice",
+    "com.huawei.hmos.health",
+    "com.huawei.hmos.health.core",
+    "com.huawei.hmos.hicar",
+    "com.huawei.hmos.hipreview",
+    "com.huawei.hmos.hiviewcare",
+    "com.huawei.hmos.hiviewx",
+    "com.huawei.hmos.hwstartupguide",
+    "com.huawei.hmos.inputmethod",
+    "com.huawei.hmos.instantshare",
+    "com.huawei.hmos.maps.app",
+    "com.huawei.hmos.meetime",
+    "com.huawei.hmos.meetimeservice",
+    "com.huawei.hmos.migrateclient",
+    "com.huawei.hmos.myhuawei",
+    "com.huawei.hmos.notepad",
+    "com.huawei.hmos.ouc",
+    "com.huawei.hmos.parentcontrol",
+    "com.huawei.hmos.photos",
+    "com.huawei.hmos.projectmenu",
+    "com.huawei.hmos.screenreader",
+    "com.huawei.hmos.settings",
+    "com.huawei.hmos.simtoolkits",
+    "com.huawei.hmos.slassistant",
+    "com.huawei.hmos.soundrecorder",
+    "com.huawei.hmos.suggestion",
+    "com.huawei.hmos.tips",
+    "com.huawei.hmos.tips.widget",
+    "com.huawei.hmos.trustedring",
+    "com.huawei.hmos.vassistant",
+    "com.huawei.hmos.vmall",
+    "com.huawei.hmos.wallet",
+    "com.huawei.hms.huaweiid",
+    "com.huawei.hms.iapservice",
+    "com.huawei.hms.myfamily",
+    "com.huawei.hms.payment",
+    "com.huawei.hms.scanservice",
+    "com.huawei.hmsapp.appgallery",
+    "com.huawei.hmsapp.books",
+    "com.huawei.hmsapp.compass",
+    "com.huawei.hmsapp.gamecenter",
+    "com.huawei.hmsapp.himovie",
+    "com.huawei.hmsapp.hisearch",
+    "com.huawei.hmsapp.intelligent",
+    "com.huawei.hmsapp.litegamelauncher",
+    "com.huawei.hmsapp.litegames",
+    "com.huawei.hmsapp.music",
+    "com.huawei.hmsapp.thememanager",
+    "com.huawei.hmsapp.totemweather",
+    "com.huawei.shell_assistant",
+    "com.ohos.FusionSearch",
+    "com.ohos.adminprovisioning",
+    "com.ohos.callui",
+    "com.ohos.certmanager",
+    "com.ohos.contacts",
+    "com.ohos.contactsdataability",
+    "com.ohos.devicemanagerui",
+    "com.ohos.dhardwareui",
+    "com.ohos.dlpmanager",
+    "com.ohos.medialibrary.medialibrarydata",
+    "com.ohos.mms",
+    "com.ohos.permissionmanager",
+    "com.ohos.powerdialog",
+    "com.huawei.hmos.aidataservice",
+    "com.ohos.spooler",
+    "com.ohos.vpndialog",
+    "com.usb.right"
+  ]
+}

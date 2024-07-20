@@ -1,0 +1,12 @@
+{
+    "process": "distributeddata",
+    "systemability": [
+        {
+            "name": 1301,
+            "libpath": "libdistributeddataservice.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        }
+    ]
+}

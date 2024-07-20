@@ -1,0 +1,543 @@
+{
+    "tag_category": {
+        "drm": {
+            "description": "Digital Rights Management",
+            "tag_offset": 6,
+            "sysFiles": [],
+            "type": 0
+        },
+        "security": {
+            "description": "Security subsystem",
+            "tag_offset": 7,
+            "sysFiles": [],
+            "type": 0
+        },
+        "animation": {
+            "description": "Animation",
+            "tag_offset": 9,
+            "sysFiles": [],
+            "type": 0
+        },
+        "push": {
+            "description": "Push subsystem",
+            "tag_offset": 10,
+            "sysFiles": [],
+            "type": 0
+        },
+        "virse": {
+            "description": "Virtualization Service",
+            "tag_offset": 11,
+            "sysFiles": [],
+            "type": 0
+        },
+        "musl": {
+            "description": "musl module",
+            "tag_offset": 12,
+            "sysFiles": [],
+            "type": 0
+        },
+        "ffrt": {
+            "description": "ffrt tasks",
+            "tag_offset": 13,
+            "sysFiles": [],
+            "type": 0
+        },
+        "cloud": {
+            "description": "Cloud subsystem tag",
+            "tag_offset": 14,
+            "sysFiles": [],
+            "type": 0
+        },
+        "deviceauth": {
+            "description": "Device Auth",
+            "tag_offset": 15,
+            "sysFiles": [],
+            "type": 0
+        },
+        "commonlibrary": {
+            "description": "commonlibrary subsystem",
+            "tag_offset": 16,
+            "sysFiles": [],
+            "type": 0
+        },
+        "hdcd": {
+            "description": "hdcd",
+            "tag_offset": 17,
+            "sysFiles": [],
+            "type": 0
+        },
+        "hdf": {
+            "description": "hdf subsystem",
+            "tag_offset": 18,
+            "sysFiles": [],
+            "type": 0
+        },
+        "usb": {
+            "description": "usb subsystem",
+            "tag_offset": 19,
+            "sysFiles": [],
+            "type": 0
+        },
+        "interconn": {
+            "description": "Interconnection subsystem",
+            "tag_offset": 20,
+            "sysFiles": [],
+            "type": 0
+        },
+        "dlpcre": {
+            "description": "Dlp Credential Service",
+            "tag_offset": 21,
+            "sysFiles": [],
+            "type": 0
+        },
+        "accesscontrol": {
+            "description": "Access Control Module",
+            "tag_offset": 22,
+            "sysFiles": [],
+            "type": 0
+        },
+        "net": {
+            "description": "net",
+            "tag_offset": 23,
+            "sysFiles": [],
+            "type": 0
+        },
+        "nweb": {
+            "description": "NWEB Module",
+            "tag_offset": 24,
+            "sysFiles": [],
+            "type": 0
+        },
+        "huks": {
+            "description": "Universal KeyStore",
+            "tag_offset": 25,
+            "sysFiles": [],
+            "type": 0
+        },
+        "useriam": {
+            "description": "useriam",
+            "tag_offset": 26,
+            "sysFiles": [],
+            "type": 0
+        },
+        "daudio": {
+            "description": "Distributed Audio",
+            "tag_offset": 27,
+            "sysFiles": [],
+            "type": 0
+        },
+        "dslm": {
+            "description": "device security level",
+            "tag_offset": 28,
+            "sysFiles": [],
+            "type": 0
+        },
+        "filemanagement": {
+            "description": "filemanagement",
+            "tag_offset": 29,
+            "sysFiles": [],
+            "type": 0
+        },
+        "ohos": {
+            "description": "OpenHarmony",
+            "tag_offset": 30,
+            "sysFiles": [],
+            "type": 0
+        },
+        "ability": {
+            "description": "Ability Manager",
+            "tag_offset": 31,
+            "sysFiles": [],
+            "type": 0
+        },
+        "zcamera": {
+            "description": "OpenHarmony Camera Module",
+            "tag_offset": 32,
+            "sysFiles": [],
+            "type": 0
+        },
+        "zmedia": {
+            "description": "OpenHarmony Media Module",
+            "tag_offset": 33,
+            "sysFiles": [],
+            "type": 0
+        },
+        "zimage": {
+            "description": "OpenHarmony Image Module",
+            "tag_offset": 34,
+            "sysFiles": [],
+            "type": 0
+        },
+        "zaudio": {
+            "description": "OpenHarmony Audio Module",
+            "tag_offset": 35,
+            "sysFiles": [],
+            "type": 0
+        },
+        "distributeddatamgr": {
+            "description": "Distributed Data Manager",
+            "tag_offset": 36,
+            "sysFiles": [],
+            "type": 0
+        },
+        "mdfs": {
+            "description": "Mobile Distributed File System",
+            "tag_offset": 37,
+            "sysFiles": [],
+            "type": 0
+        },
+        "graphic": {
+            "description": "Graphic Module",
+            "tag_offset": 38,
+            "sysFiles": [],
+            "type": 0
+        },
+        "ace": {
+            "description": "ACE development framework",
+            "tag_offset": 39,
+            "sysFiles": [],
+            "type": 0
+        },
+        "notification": {
+            "description": "Notification Module",
+            "tag_offset": 40,
+            "sysFiles": [],
+            "type": 0
+        },
+        "misc": {
+            "description": "Misc Module",
+            "tag_offset": 41,
+            "sysFiles": [],
+            "type": 0
+        },
+        "multimodalinput": {
+            "description": "HITRACE_TAG_MULTIMODALINPUT",
+            "tag_offset": 42,
+            "sysFiles": [],
+            "type": 0
+        },
+        "sensors": {
+            "description": "Sensors Module",
+            "tag_offset": 43,
+            "sysFiles": [],
+            "type": 0
+        },
+        "msdp": {
+            "description": "Multimodal Sensor Data Platform",
+            "tag_offset": 44,
+            "sysFiles": [],
+            "type": 0
+        },
+        "dsoftbus": {
+            "description": "Distributed Softbus",
+            "tag_offset": 45,
+            "sysFiles": [],
+            "type": 0
+        },
+        "rpc": {
+            "description": "RPC and IPC",
+            "tag_offset": 46,
+            "sysFiles": [],
+            "type": 0
+        },
+        "ark": {
+            "description": "ARK Module",
+            "tag_offset": 47,
+            "sysFiles": [],
+            "type": 0
+        },
+        "window": {
+            "description": "Window Manager",
+            "tag_offset": 48,
+            "sysFiles": [],
+            "type": 0
+        },
+        "account": {
+            "description": "Account Manager",
+            "tag_offset": 49,
+            "sysFiles": [],
+            "type": 0
+        },
+        "dscreen": {
+            "description": "Distributed Screen",
+            "tag_offset": 50,
+            "sysFiles": [],
+            "type": 0
+        },
+        "dcamera": {
+            "description": "Distributed Camera",
+            "tag_offset": 51,
+            "sysFiles": [],
+            "type": 0
+        },
+        "dhfwk": {
+            "description": "Distributed Hardware FWK",
+            "tag_offset": 52,
+            "sysFiles": [],
+            "type": 0
+        },
+        "gresource": {
+            "description": "Global Resource Manager",
+            "tag_offset": 53,
+            "sysFiles": [],
+            "type": 0
+        },
+        "devicemanager": {
+            "description": "Device Manager",
+            "tag_offset": 54,
+            "sysFiles": [],
+            "type": 0
+        },
+        "samgr": {
+            "description": "samgr",
+            "tag_offset": 55,
+            "sysFiles": [],
+            "type": 0
+        },
+        "power": {
+            "description": "Power Manager",
+            "tag_offset": 56,
+            "sysFiles": [],
+            "type": 0
+        },
+        "dsched": {
+            "description": "Distributed Schedule",
+            "tag_offset": 57,
+            "sysFiles": [],
+            "type": 0
+        },
+        "deviceprofile": {
+            "description": "Device Profile",
+            "tag_offset": 58,
+            "sysFiles": [],
+            "type": 0
+        },
+        "dinput": {
+            "description": "Distributed Input",
+            "tag_offset": 59,
+            "sysFiles": [],
+            "type": 0
+        },
+        "bluetooth": {
+            "description": "communicatio bluetooth",
+            "tag_offset": 60,
+            "sysFiles": [],
+            "type": 0
+        },
+        "accessibility": {
+            "description": "Accessibility Manager",
+            "tag_offset": 61,
+            "sysFiles": [],
+            "type": 0
+        },
+        "app": {
+            "description": "APP Module",
+            "tag_offset": 62,
+            "sysFiles": [],
+            "type": 0
+        },
+        "sched": {
+            "description": "CPU Scheduling",
+            "tag_offset": 0,
+            "sysFiles": [
+                "events/sched/sched_switch/enable",
+                "events/sched/sched_wakeup/enable",
+                "events/sched/sched_blocked_reason/enable"
+            ],
+            "type": 1
+        },
+        "preemptoff": {
+            "description": "Preempt-disabled code section tracing",
+            "tag_offset": 0,
+            "sysFiles": [
+                "events/preemptirq/preempt_enable/enable",
+                "events/preemptirq/preempt_disable/enable"
+            ],
+            "type": 1
+        },
+        "binder": {
+            "description": "Binder kernel Info",
+            "tag_offset": 0,
+            "sysFiles": [
+                "events/binder/binder_transaction/enable",
+                "events/binder/binder_transaction_received/enable"
+            ],
+            "type": 1
+        },
+        "sync": {
+            "description": "Synchronization",
+            "tag_offset": 0,
+            "sysFiles": ["events/dma_fence/enable"],
+            "type": 1
+        },
+        "workq": {
+            "description": "Kernel Workqueues",
+            "tag_offset": 0,
+            "sysFiles": [
+                "events/workqueue/workqueue_execute_end/enable",
+                "events/workqueue/workqueue_execute_start/enable"
+            ],
+            "type": 1
+        },
+        "memreclaim": {
+            "description": "Kernel Memory Reclaim",
+            "tag_offset": 0,
+            "sysFiles": [
+                "events/vmscan/mm_vmscan_direct_reclaim_begin/enable",
+                "events/vmscan/mm_vmscan_direct_reclaim_end/enable",
+                "events/vmscan/mm_vmscan_kswapd_wake/enable",
+                "events/vmscan/mm_vmscan_kswapd_sleep/enable",
+                "events/lowmemorykiller/enable"
+            ],
+            "type": 1
+        },
+        "pagecache": {
+            "description": "Page cache",
+            "tag_offset": 0,
+            "sysFiles": ["events/filemap/enable"],
+            "type": 1
+        },
+        "memory": {
+            "description": "Memory",
+            "tag_offset": 0,
+            "sysFiles": [
+                "events/kmem/rss_stat/enable",
+                "events/kmem/ion_heap_grow/enable",
+                "events/kmem/ion_heap_shrink/enable"
+            ],
+            "type": 1
+        },
+        "zbinder": {
+            "description": "OpenHarmony binder communication",
+            "tag_offset": 0,
+            "sysFiles": ["events/zbinder/enable"],
+            "type": 1
+        },
+        "freq": {
+            "description": "CPU Frequency",
+            "tag_offset": 0,
+            "sysFiles": [
+                "events/power/cpu_frequency/enable",
+                "events/power/clock_set_rate/enable",
+                "events/power/cpu_frequency_limits/enable"
+            ],
+            "type": 1
+        },
+        "idle": {
+            "description": "CPU Idle",
+            "tag_offset": 0,
+            "sysFiles": [
+                "events/power/cpu_idle/enable",
+                "events/power_kernel/cpu_idle/enable"
+            ],
+            "type": 1
+        },
+        "load": {
+            "description": "CPU Load",
+            "tag_offset": 0,
+            "sysFiles": ["events/cpufreq_interactive/enable"],
+            "type": 1
+        },
+        "irq": {
+            "description": "IRQ Events",
+            "tag_offset": 0,
+            "sysFiles": [
+                "events/irq/enable",
+                "events/ipi/enable"
+            ],
+            "type": 1
+        },
+        "irqoff": {
+            "description": "IRQ-disabled code section tracing",
+            "tag_offset": 0,
+            "sysFiles": [
+                "events/preemptirq/irq_enable/enable",
+                "events/preemptirq/irq_disable/enable"
+            ],
+            "type": 1
+        },
+        "disk": {
+            "description": "Disk I/O",
+            "tag_offset": 0,
+            "sysFiles": [
+                "events/f2fs/f2fs_sync_file_enter/enable",
+                "events/f2fs/f2fs_sync_file_exit/enable",
+                "events/f2fs/f2fs_readpage/enable",
+                "events/f2fs/f2fs_readpages/enable",
+                "events/f2fs/f2fs_sync_fs/enable",
+                "events/hmdfs/hmdfs_syncfs_enter/enable",
+                "events/hmdfs/hmdfs_syncfs_exit/enable",
+                "events/erofs/erofs_readpage/enable",
+                "events/erofs/erofs_readpages/enable",
+                "events/ext4/ext4_da_write_begin/enable",
+                "events/ext4/ext4_da_write_end/enable",
+                "events/ext4/ext4_sync_file_enter/enable",
+                "events/ext4/ext4_sync_file_exit/enable",
+                "events/block/block_bio_remap/enable",
+                "events/block/block_rq_issue/enable",
+                "events/block/block_rq_complete/enable",
+                "events/block/block_rq_insert/enable"
+            ],
+            "type": 1
+        },
+        "mmc": {
+            "description": "eMMC commands",
+            "tag_offset": 0,
+            "sysFiles": ["events/mmc/enable"],
+            "type": 1
+        },
+        "ufs": {
+            "description": "UFS commands",
+            "tag_offset": 0,
+            "sysFiles": ["events/ufs/enable"],
+            "type": 1
+        },
+        "i2c": {
+            "description": "I2C Events",
+            "tag_offset": 0,
+            "sysFiles": [
+                "events/i2c/enable",
+                "events/i2c/i2c_read/enable",
+                "events/i2c/i2c_write/enable",
+                "events/i2c/i2c_result/enable",
+                "events/i2c/i2c_reply/enable",
+                "events/smbus/smbus_read/enable",
+                "events/smbus/smbus_write/enable",
+                "events/smbus/smbus_result/enable",
+                "events/smbus/smbus_reply/enable"
+            ],
+            "type": 1
+        },
+        "regulators": {
+            "description": "Voltage and Current Regulators",
+            "tag_offset": 0,
+            "sysFiles": ["events/regulator/enable"],
+            "type": 1
+        },
+        "membus": {
+            "description": "Memory Bus Utilization",
+            "tag_offset": 0,
+            "sysFiles": ["events/memory_bus/enable"],
+            "type": 1
+        },
+        "ipa": {
+            "description": "thermal power allocator",
+            "tag_offset": 0,
+            "sysFiles": ["events/thermal_power_allocator/enable"],
+            "type": 1
+        },
+        "commercial": {
+            "description": "Commercial version tag",
+            "tag_offset": 5,
+            "sysFiles": [],
+            "type": 0
+        }
+    },
+    "tag_groups": {
+        "default": ["sched", "freq", "disk", "sync", "binder", "mmc", "membus", "load", "pagecache", "workq", "ipa",
+                    "hdf", "virse"],
+        "scene_performance": ["net", "dsched", "graphic", "multimodalinput", "dinput", "ark", "ace", "window",
+                              "zaudio", "daudio", "zmedia", "dcamera", "zcamera", "dhfwk", "app", "gresource", "ability",
+                              "power", "samgr", "ffrt"]
+    }
+}

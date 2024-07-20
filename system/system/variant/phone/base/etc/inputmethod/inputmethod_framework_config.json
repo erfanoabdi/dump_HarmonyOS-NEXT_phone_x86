@@ -1,0 +1,25 @@
+{
+  "systemConfig": {
+    "defaultInputMethod": "com.huawei.hmos.inputmethod/InputService",
+    "systemInputMethodConfigAbility": "com.huawei.hmos.inputmethod/default/MainAbility",
+    "enableInputMethodFeature": true,
+    "enableFullExperienceFeature": true
+  },
+  "supportedInputTypeList": [
+    {
+      "inputType": 0,
+      "bundleName": "com.huawei.hmos.inputmethod",
+      "subtypeId": "PreviewScanInputService"
+    },
+    {
+      "inputType": 1,
+      "bundleName": "",
+      "subtypeId": ""
+    },
+    {
+      "inputType": 2,
+      "bundleName": "com.huawei.hmos.inputmethod",
+      "subtypeId": "InputVoiceService"
+    }
+  ]
+}

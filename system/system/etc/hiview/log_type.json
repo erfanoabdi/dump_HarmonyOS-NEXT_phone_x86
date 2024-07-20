@@ -1,0 +1,27 @@
+{
+    "HILOG": {
+        "READONLY": true,
+        "LOGPATH": "/data/log/hilog/"
+    },
+    "FAULTLOG": {
+        "LOGPATH": "/data/log/logpack/faultlog/"
+    },
+    "BETACLUB": {
+        "LOGPATH": "/data/log/logpack/betaclub/"
+    },
+    "REMOTELOG": {
+        "LOGPATH": "/data/log/logpack/remotelog/"
+    },
+    "TRACE": {
+        "LOGPATH": "/data/log/hiview/unified_collection/trace/share/"
+    },
+    "CONTAINER": {
+        "LOGPATH": "/data/virt_service/rgm_hmos/anco_hmos_data/log/LogService/uploading/"
+    },
+    "ANCO_LOG_COMMERCIAL": {
+        "LOGPATH": "/data/virt_service/rgm_hmos/anco_hmos_log/LogService/uploading/"
+    },
+    "CLOUDCFG": {
+        "LOGPATH": "/data/system/hiview/"
+    }
+}

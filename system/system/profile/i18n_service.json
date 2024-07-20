@@ -1,0 +1,12 @@
+{
+    "process": "i18n_service",
+    "systemability": [
+        {
+            "name": 1602,
+            "libpath": "libi18n_sa.z.so",
+            "run-on-create": false,
+            "distributed": false,
+            "dump_level": 1
+        }
+    ]
+}

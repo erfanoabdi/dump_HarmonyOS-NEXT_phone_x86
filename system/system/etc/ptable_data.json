@@ -1,0 +1,12 @@
+{
+    "ptableData":{
+        "emmcGptDataLen":131072,
+        "lbaLen":512,
+        "gptHeaderLen":512,
+        "blockSize":4096,
+        "imgLuSize":17408,
+        "startLunNumber":0,
+        "writeDeviceLunSize":24576,
+        "defaultLunNum":5
+    }
+}

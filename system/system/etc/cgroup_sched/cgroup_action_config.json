@@ -1,0 +1,26 @@
+{
+  "Cgroups": [
+    {
+      "controller": "cpu",
+      "path": "/dev/cpuctl",
+      "sched_policy": {
+        "sp_default": "",
+        "sp_background": "background",
+        "sp_foreground": "foreground",
+        "sp_system_background": "system-background",
+        "sp_top_app": "top-app"
+      }
+    },
+    {
+      "controller": "cpuset",
+      "path": "/dev/cpuset",
+      "sched_policy": {
+        "sp_default": "",
+        "sp_background": "background",
+        "sp_foreground": "foreground",
+        "sp_system_background": "system-background",
+        "sp_top_app": "top-app"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "gxes": {
+    "CN": "https://gpds-drcn.game.dbankcloud.cn"
+  },
+  "tsms": {
+    "CN": "tsms-drcn.security.dbankcloud.cn",
+    "DE": "tsms-dre.security.dbankcloud.com",
+    "RU": "tsms-drru.security.dbankcloud.ru",
+    "SG": "tsms-dra.security.dbankcloud.com"
+  },
+  "HA": {
+    "haCollectUrl": "AUTO"
+  }
+}

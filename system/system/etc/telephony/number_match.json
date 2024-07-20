@@ -1,0 +1,100 @@
+{
+    "version": 1,
+    "numMatchs": [{
+        "name": "联通",
+        "mcc": "460",
+        "mnc": "01",
+        "num_match": 11
+      },
+      {
+        "name": "移动",
+        "mcc": "460",
+        "mnc": "00",
+        "num_match": 11
+      },
+      {
+        "name": "移动",
+        "mcc": "460",
+        "mnc": "02",
+        "num_match": 11
+      },
+      {
+        "name": "移动",
+        "mcc": "460",
+        "mnc": "07",
+        "num_match": 11
+      },
+      {
+        "name": "移动",
+        "mcc": "460",
+        "mnc": "08",
+        "num_match": 11
+      },
+      {
+        "name": "联通",
+        "mcc": "460",
+        "mnc": "09",
+        "num_match": 11
+      },
+      {
+        "name": "电信",
+        "mcc": "460",
+        "mnc": "11",
+        "num_match": 11
+      },
+      {
+        "name": "移动",
+        "mcc": "460",
+        "mnc": "04",
+        "num_match": 11
+      },
+      {
+        "name": "联通",
+        "mcc": "460",
+        "mnc": "06",
+        "num_match": 11
+      },
+      {
+        "name": "电信",
+        "mcc": "460",
+        "mnc": "03",
+        "num_match": 11
+      },
+      {
+        "name": "移动",
+        "mcc": "460",
+        "mnc": "21",
+        "num_match": 11
+      },
+      {
+        "name": "移动",
+        "mcc": "460",
+        "mnc": "22",
+        "num_match": 11
+      },
+      {
+        "name": "联通",
+        "mcc": "460",
+        "mnc": "31",
+        "num_match": 11
+      },
+      {
+        "name": "联通",
+        "mcc": "460",
+        "mnc": "32",
+        "num_match": 11
+      },
+      {
+        "name": "电信",
+        "mcc": "460",
+        "mnc": "50",
+        "num_match": 11
+      },
+      {
+        "name": "电信",
+        "mcc": "460",
+        "mnc": "51",
+        "num_match": 11
+      }
+    ]
+}

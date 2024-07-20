@@ -1,0 +1,11 @@
+{
+    "USERS": [
+        {
+            "NAME": "com.huawei.hmos.hiviewx",
+            "TYPE": 1,
+            "CONFIGS": {
+                "QUERY_RULE_LIMIT": 300
+            }
+        }
+    ]
+}

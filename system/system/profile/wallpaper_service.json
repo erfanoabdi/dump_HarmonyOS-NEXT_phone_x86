@@ -1,0 +1,12 @@
+{
+    "process": "wallpaper_service",
+    "systemability": [
+        {
+            "name": 3705,
+            "libpath": "libwallpaper_service.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        }
+    ]
+}

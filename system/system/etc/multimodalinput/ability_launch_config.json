@@ -1,0 +1,133 @@
+{
+  "Shortkeys": [
+    {
+      "preKey": [],
+      "finalKey": 18,
+      "trigger": "key_down",
+      "keyDownDuration": 500,
+      "ability": {
+        "action": "",
+        "entities": [
+          ""
+        ],
+        "type": "",
+        "deviceId": "",
+        "bundleName": "com.hmos.aibase",
+        "abilityName": "WakeUpExtAbility",
+        "uri": "",
+        "params": [
+          {
+            "key": "launch_type",
+            "value": "power_key"
+          }
+        ]
+      }
+    }
+  ],
+  "Sequences" : [
+    {
+      "sequenceKeys": [
+        {
+          "keyCode": 17,
+          "keyAction": 1,
+          "delay": 200
+        },
+        {
+          "keyCode": 18,
+          "keyAction": 1,
+          "delay": 0
+        }
+      ],
+      "abilityStartDelay": 10,
+      "ability": {
+        "action": "",
+        "entities": [],
+        "type": "",
+        "deviceId": "",
+        "bundleName": "com.ohos.screenshot",
+        "abilityName": "com.ohos.screenshot.ServiceExtAbility",
+        "uri": "",
+        "params": [
+          {
+            "key": "trigger_type",
+            "value": "hot-key"
+          }
+        ]
+      }
+    },
+    {
+      "sequenceKeys": [
+        {
+          "keyCode": 18,
+          "keyAction": 1,
+          "delay": 200
+        },
+        {
+          "keyCode": 17,
+          "keyAction": 1,
+          "delay": 0
+        }
+      ],
+      "abilityStartDelay": 10,
+      "ability": {
+        "action": "",
+        "entities": [],
+        "type": "",
+        "deviceId": "",
+        "bundleName": "com.ohos.screenshot",
+        "abilityName": "com.ohos.screenshot.ServiceExtAbility",
+        "uri": "",
+        "params": [
+          {
+            "key": "trigger_type",
+            "value": "hot-key"
+          }
+        ]
+      }
+    },
+    {
+      "sequenceKeys": [
+        {
+          "keyCode": 18,
+          "keyAction": 1,
+          "delay": 200
+        },
+        {
+          "keyCode": 16,
+          "keyAction": 1,
+          "delay": 0
+        }
+      ],
+      "abilityStartDelay": 500,
+      "ability": {
+        "action": "",
+        "entities": [],
+        "type": "",
+        "deviceId": "",
+        "bundleName": "com.ohos.screenrecorder",
+        "abilityName": "com.ohos.screenrecorder.ServiceExtAbility",
+        "uri": "",
+        "params": [
+          {
+            "key": "trigger_type",
+            "value": "hot-key"
+          }
+        ]
+      }
+    }
+  ],
+  "KnuckleGesture": {
+    "SingleKnuckleDoubleClickGesture": {
+      "ability": {
+        "bundleName": "com.ohos.screenshot",
+        "abilityName": "com.ohos.screenshot.ServiceExtAbility",
+        "params": [
+          {
+            "key": "trigger_type",
+            "value": "knuckle"
+          }
+        ]
+      }
+    }
+  }
+}

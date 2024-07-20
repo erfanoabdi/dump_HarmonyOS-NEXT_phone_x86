@@ -1,0 +1,19 @@
+{
+    "psi_first_day_retry_time_array": "0,1,3,5,10,60,120",
+    "ecard_first_day_retry_time_array": "0,1,3,5,10,60,120",
+    "psi_schedule_retry_time_array": "0,2",
+    "ecard_schedule_retry_time_array": "0,2",
+    "max_psi_report_times": 30,
+    "max_ecard_report_times": 15,
+    "max_psi_first_day_retry_times": 6,
+    "max_ecard_first_day_retry_times": 6,
+    "ha_collect_url": "https://metrics1-drcn.dt.dbankcloud.cn:443",
+    "psi_nonce_url": "https://psi-global.emui.dbankcloud.com/v1/psi/nonce",
+    "psi_upload_url": "https://psi-global.emui.dbankcloud.com/v1/psi/upload",
+    "ecard_upload_url": "https://psi-global.emui.dbankcloud.com/v1/ecard/upload",
+    "common_activated_duration": 21600,
+    "net_activated_cycle_interval": 3600,
+    "startup_activated_duration": 1200,
+    "startup_activated_cycle_interval": 300,
+    "activate_policy": "1"
+}

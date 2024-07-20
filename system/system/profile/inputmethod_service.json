@@ -1,0 +1,12 @@
+{
+    "process": "inputmethod_service",
+    "systemability": [
+        {
+            "name": 3703,
+            "libpath": "libinputmethod_service.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        }
+    ]
+}

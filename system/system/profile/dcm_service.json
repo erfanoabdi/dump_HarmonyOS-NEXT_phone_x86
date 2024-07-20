@@ -1,0 +1,13 @@
+{
+    "process": "dcm_service",
+    "systemability": [
+        {
+            "name": 65866,
+            "libpath": "libdevice_cert_mgr_service.z.so",
+            "run-on-create": false,
+            "auto-restart": true,
+            "distributed": false,
+            "dump-level": 1
+        }
+    ]
+}

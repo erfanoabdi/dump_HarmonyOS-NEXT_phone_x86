@@ -1,0 +1,12 @@
+{
+    "process": "memmgrservice",
+    "systemability": [
+        {
+            "name": 1909,
+            "libpath": "libmemmgrservice.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        }
+    ]
+}

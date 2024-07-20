@@ -1,0 +1,67 @@
+{
+  "CARRIER_NETWORK": {
+    "cfgDir": "etc/carrier/network",
+    "cfgInfoUri": "",
+    "classify": 3,
+    "compatibleVersion": "1",
+    "installLocation": "System",
+    "needRestart": true,
+    "noticeType": "default",
+    "receiverName": "",
+    "subtype": "NETWORK",
+    "type": "CARRIER",
+    "receiverType": "SA"
+  },
+  "CARRIER_CONFIG": {
+    "cfgDir": "ToBeDefined",
+    "cfgInfoUri": "datashare:///com.ohos.opkeyversionability",
+    "classify": 3,
+    "compatibleVersion": "1",
+    "installLocation": "System",
+    "needRestart": false,
+    "noticeType": "default",
+    "receiverName": "",
+    "subtype": "ToBeDefined",
+    "type": "CARRIER",
+    "receiverType": "SA"
+  },
+  "LIBPHONENUMBER_generic": {
+    "cfgDir": "etc/LIBPHONENUMBER/generic",
+    "cfgInfoUri": "",
+    "classify": 2,
+    "compatibleVersion": "1",
+    "installLocation": "System",
+    "needRestart": false,
+    "noticeType": "default",
+    "receiverName": "",
+    "subtype": "generic",
+    "type": "LIBPHONENUMBER",
+    "receiverType": "SA"
+  },
+  "BLUETOOTH_generic": {
+    "cfgDir": "etc/bluetooth",
+    "cfgInfoUri": "",
+    "classify": 1,
+    "compatibleVersion": "1",
+    "installLocation": "System",
+    "needRestart": false,
+    "noticeType": "default",
+    "receiverName": "",
+    "subtype": "generic",
+    "type": "BLUETOOTH",
+    "receiverType": "SA"
+  },
+  "HIVIEWPARA_DEFAULT": {
+    "cfgDir": "etc/HIVIEWPARA/DEFAULT",
+    "cfgInfoUri": "",
+    "classify": 1,
+    "compatibleVersion": "1",
+    "installLocation": "System",
+    "needRestart": false,
+    "noticeType": "default",
+    "receiverName": "",
+    "subtype": "DEFAULT",
+    "type": "HIVIEWPARA",
+    "receiverType": "SA"
+  }
+}

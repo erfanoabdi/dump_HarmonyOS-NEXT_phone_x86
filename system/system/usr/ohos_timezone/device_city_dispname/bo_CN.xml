@@ -1,0 +1,2492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2023 Huawei Device Co., Ltd.
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<display_names>
+    <display_name>
+        <city>Abidjan</city>
+        <name>ཨ་བིཌ་ཇན། (ཁོ་ཏི་དྲི་ཨཡེ་ཝོར།)</name>
+    </display_name>
+    <display_name>
+        <city>Abu_Dhabi</city>
+        <name>ཨ་བུ་ད་བི། (ཨ་རབ་སྤྱི་མཐུན་རྒྱལ་ཁབ།)</name>
+    </display_name>
+    <display_name>
+        <city>Adelaide</city>
+        <name>ཨེ་དྲི་ལེཌ། (ཨོ་སི་ཀྲོ་ལི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Atikokan</city>
+        <name>ཨ་ཏི་ཀོ་ཀན། (ཀེ་ན་དྲ།)</name>
+    </display_name>
+    <display_name>
+        <city>Albuquerque</city>
+        <name>ཨལ་བུ་ཁ་ཨེར་ཁི། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Algiers</city>
+        <name>ཨེལ་ཇི་ཡར། (ཨེལ་ཇེ་རི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Almaty</city>
+        <name>ཨལ་མེ་ཊི། (ཀ་ཛ་ཀི་སི་ཐན།)</name>
+    </display_name>
+    <display_name>
+        <city>Accra</city>
+        <name>ཨེཁ་ཁྲ། (གྷ་ན།)</name>
+    </display_name>
+    <display_name>
+        <city>Aqtobe</city>
+        <name>ཨེཁ་ཏོབ། (ཀ་ཛ་ཀི་སི་ཐན།)</name>
+    </display_name>
+    <display_name>
+        <city>Araguaina</city>
+        <name>ཨ་ར་གུ་ཡེ་ན། (བྷ་ར་ཛིལ།)</name>
+    </display_name>
+    <display_name>
+        <city>Alofi</city>
+        <name>ཨ་ལོ་ཕི། (ནིའུ།)</name>
+    </display_name>
+    <display_name>
+        <city>AmundsenScott_Station</city>
+        <name>ཨ་མུན་སེན་སི་ཀོཊ་བབ་ཚུགས། (ཨེན་ཊར་ཊི་ཁ།)</name>
+    </display_name>
+    <display_name>
+        <city>Amsterdam</city>
+        <name>ཨེམ་སི་ཊར་ཌེམ། (ཧོ་ལན།)</name>
+    </display_name>
+    <display_name>
+        <city>Anadyr</city>
+        <name>ཨ་ན་དི་ཡར། (ཨུ་རུ་སུ་)</name>
+    </display_name>
+    <display_name>
+        <city>Apia</city>
+        <name>ཨ་པི་ཡ། (ས་མོ་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Ashgabat</city>
+        <name>ཨེཤ་ག་བཏ། (ཐུ་ཁའུ་མན་སི་ཐན།)</name>
+    </display_name>
+    <display_name>
+        <city>Asmara</city>
+        <name>ཨ་སི་མ་ར། (ཨི་རི་ཏྲི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>NurSultan</city>
+        <name>ཨ་སི་ཐ་ན། (ཧ་སག་སི་ཐན)</name>
+    </display_name>
+    <display_name>
+        <city>Atyrau</city>
+        <name>ཨེ་ཏི་ར་ཨུ། (ཀ་ཛ་ཀི་སི་ཐན།)</name>
+    </display_name>
+    <display_name>
+        <city>Adak</city>
+        <name>ཨ་དྲཀ (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Edmonton</city>
+        <name>ཨེཌ་མོན་ཊོན། (ཀེ་ན་དྲ།)</name>
+    </display_name>
+    <display_name>
+        <city>Edinburgh</city>
+        <name>ཨེ་ཌིན་བྷག (དབྱིན་ཇི་)</name>
+    </display_name>
+    <display_name>
+        <city>El_Paso</city>
+        <name>ཨེལ་པ་སོ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Bantam_Village</city>
+        <name>བན་ཏམ་གྲོང་གསེབ། (ཁོ་ཁོ་སི། (ཀི་ལིང་།) གླིང་ཕྲན།)</name>
+    </display_name>
+    <display_name>
+        <city>Yerevan</city>
+        <name>ཡེ་རི་ཝན། (ཡ་མེ་ཉི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Eirunepe</city>
+        <name>ཨི་རུ་ནེ་པི། (བྷ་ར་ཛིལ།)</name>
+    </display_name>
+    <display_name>
+        <city>Hermosillo</city>
+        <name>ཧར་མོ་སིལ་ལོ། (མེཀ་སི་ཁོ།)</name>
+    </display_name>
+    <display_name>
+        <city>Andorra_la_Vella</city>
+        <name>ཨན་དྲོ་ར་ལ་ཝེལ་ལ། (ཨན་ཏོར།)</name>
+    </display_name>
+    <display_name>
+        <city>Ankara</city>
+        <name>ཨན་ཀ་ར། (ཊར་ཀི།)</name>
+    </display_name>
+    <display_name>
+        <city>Anchorage</city>
+        <name>ཨེན་ཁོར་ཨེཇ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Amman</city>
+        <name>ཨམ་མན། (ཇོར་དན།)</name>
+    </display_name>
+    <display_name>
+        <city>Antananarivo</city>
+        <name>ཨན་ཊ་ན་ན་རི་ཝོ། (མ་ཏ་ཀ་སི་ཁར།)</name>
+    </display_name>
+    <display_name>
+        <city>Antwerp</city>
+        <name>ཨེན་དྲི་ཝེཔ། (པེར་ཇེམ།)</name>
+    </display_name>
+    <display_name>
+        <city>Auckland</city>
+        <name>ཨཀ་ལེན་དྲི། (ནེའུ་ཙི་ལན།)</name>
+    </display_name>
+    <display_name>
+        <city>Oakland</city>
+        <name>ཨོཀ་ལེན་དྲི། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Oranjestad</city>
+        <name>ཨོ་རེན་ཇེས་ཊེཌ། (ཨ་རུ་པ།)</name>
+    </display_name>
+    <display_name>
+        <city>Omaha</city>
+        <name>ཨོ་མ་ཧ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Macau</city>
+        <name>ཨའོ་མོན། (ཀྲུང་གོ)</name>
+    </display_name>
+    <display_name>
+        <city>Oslo</city>
+        <name>ཨོ་སོ་ལོ། (ནོར་ཝེ།)</name>
+    </display_name>
+    <display_name>
+        <city>Austin</city>
+        <name>ཨོ་སི་ཊིན། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Ojinaga</city>
+        <name>ཨོ་ཇི་ན་ག (མེཀ་སི་ཁོ།)</name>
+    </display_name>
+    <display_name>
+        <city>Baltimore</city>
+        <name>བལ་ཏི་མོར། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Baghdad</city>
+        <name>བྷག་དྰཏ། (ཨི་རཁ།)</name>
+    </display_name>
+    <display_name>
+        <city>Baku</city>
+        <name>བ་ཀུ།་ (ཨེ་ཛར་བེ་ཇན།)</name>
+    </display_name>
+    <display_name>
+        <city>Palermo</city>
+        <name>པ་ལར་མོ། (ཨི་ཀྲར་ལི་)</name>
+    </display_name>
+    <display_name>
+        <city>Paris</city>
+        <name>པེ་རི་སི། (ཧྥ་རན་སི།)</name>
+    </display_name>
+    <display_name>
+        <city>Bari</city>
+        <name>བ་རི། (ཨི་ཀྲར་ལི་)</name>
+    </display_name>
+    <display_name>
+        <city>Bamako</city>
+        <name>བ་མ་ཀོ། (མ་ལི།)</name>
+    </display_name>
+    <display_name>
+        <city>Panama_City</city>
+        <name>པ་ན་མ་གྲོང་ཁྱེར། (པ་ན་མ།)</name>
+    </display_name>
+    <display_name>
+        <city>Barcelona</city>
+        <name>བར་སི་ལོ་ན། (སི་པེན།)</name>
+    </display_name>
+    <display_name>
+        <city>Basseterre_Guadeloupe</city>
+        <name>བ་སི་-ཏེར་རི། (ཀྭ་ཏ་ལུའོ་ཧྥུ་གླིང་།)</name>
+    </display_name>
+    <display_name>
+        <city>Basseterre_St_Kitts_amp_Nevis</city>
+        <name>བ་སེ་ཏེར་རི། (སེནཊ་ཀིཏས་ཨེནཌ་ནེ་ཝིས།)</name>
+    </display_name>
+    <display_name>
+        <city>Brasilia</city>
+        <name>བ་ར་སི་ལི་ཡ། (བྷ་ར་ཛིལ།)</name>
+    </display_name>
+    <display_name>
+        <city>Puerto_Vallarta</city>
+        <name>པུར་ཊོ་ཝ་ལར་ཏ། (མེཀ་སི་ཁོ།)</name>
+    </display_name>
+    <display_name>
+        <city>Berlin</city>
+        <name>བར་ལིན། (འཇར་མན་)</name>
+    </display_name>
+    <display_name>
+        <city>Bangui</city>
+        <name>བེན་གུ་ཨི། (ཨ་ཧྥེ་རི་ཁ་དབུས་མ་སྤྱི་མཐུན་རྒྱལ་ཁབ།)</name>
+    </display_name>
+    <display_name>
+        <city>Bangalore</city>
+        <name>བེང་ལོར། (རྒྱ་གར་)</name>
+    </display_name>
+    <display_name>
+        <city>Banjul</city>
+        <name>བན་ཇུལ། (ཀམ་པི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Belgrade</city>
+        <name>བེལ་གེ་རེཌ། (སར་ཝེ་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Beijing</city>
+        <name>པེ་ཅིན། (ཀྲུང་གོ)</name>
+    </display_name>
+    <display_name>
+        <city>Beirut</city>
+        <name>བེ་རུཌ། (ལི་བེ་ནོན།)</name>
+    </display_name>
+    <display_name>
+        <city>Belem</city>
+        <name>བེ་ལེམ། (བྷ་ར་ཛིལ།)</name>
+    </display_name>
+    <display_name>
+        <city>Benicia</city>
+        <name>བེ་ནི་སི་ཡ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>PetropavlovskKamchatskiy</city>
+        <name>པེ་ཊོ་པ་ཝ་ལོ་ཧྥུ་སི་ཁོ(ཨུ་རུ་སུ)</name>
+    </display_name>
+    <display_name>
+        <city>Petersburg</city>
+        <name>པི་ཊར་བྷག (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Perm</city>
+        <name>པམ། (ཨུ་རུ་སུ་)</name>
+    </display_name>
+    <display_name>
+        <city>Bissau</city>
+        <name>བི་ས་ཨུ། (གྷི་ནི་ཡ་བི་སོའོ།)</name>
+    </display_name>
+    <display_name>
+        <city>Bishkek</city>
+        <name>བིཤ་ཀེཀ། (ཀར་གྷི་སི་ཐན།)</name>
+    </display_name>
+    <display_name>
+        <city>Beulah</city>
+        <name>བོ་ལ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Boa_Vista</city>
+        <name>བོ་ཨ་ཝིས་ཊ། (བྷ་ར་ཛིལ།)</name>
+    </display_name>
+    <display_name>
+        <city>Podgorica</city>
+        <name>པོཌ་གོ་རི་ཁ། (ཧེ་ཧྲན།)</name>
+    </display_name>
+    <display_name>
+        <city>PortoNovo</city>
+        <name>པོར་ཏོ་-ནོ་ཝོ། (པེ་ནི་ན།)</name>
+    </display_name>
+    <display_name>
+        <city>Porto_Velho</city>
+        <name>པོར་ཏོ་ཝེ་ལྷོ། (བྷ་ར་ཛིལ།)</name>
+    </display_name>
+    <display_name>
+        <city>Bern</city>
+        <name>བེན། (སུད་སི་ལེནྜ།)</name>
+    </display_name>
+    <display_name>
+        <city>Bogota</city>
+        <name>བོ་གོ་ཊ། (ལོ་ལོམ་བི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Berkeley</city>
+        <name>བར་ཀི་ལི། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Berkeley_Heights</city>
+        <name>བར་ཀི་ལི་ཧ་ཡེཊ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Belize_City</city>
+        <name>བི་ལཡེ་ཛི་གྲོང་ཁྱེར། (བི་ལ་ཡི་ཛི།)</name>
+    </display_name>
+    <display_name>
+        <city>Burlingame</city>
+        <name>བར་ལིན་གྷེམ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Bologna</city>
+        <name>བོ་ལོག་ན། (ཨི་ཀྲར་ལི་)</name>
+    </display_name>
+    <display_name>
+        <city>Pohnpei</city>
+        <name>པོན་པཡེ། (མཡེ་ཁོ་རོ་ནེ་ཤི་ཡ་སྤྱི་མཐུན་རྒྱལ་ཁབ།)</name>
+    </display_name>
+    <display_name>
+        <city>Boston</city>
+        <name>བོ་སི་ཊོན། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Portland</city>
+        <name>པོར་ཊི་ལེན་དྲི། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Boise</city>
+        <name>བོ་ཨིས། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Budapest</city>
+        <name>བུ་དྲ་པེ་སི་ཊི། (ཧང་ག་རི།)</name>
+    </display_name>
+    <display_name>
+        <city>Bucharest</city>
+        <name>བུ་ཆ་རེ་སི་ཊི། (རོ་མ་ཉི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Brazzaville</city>
+        <name>བ་ར་ཛ་ཝི་ལི། (ཀོང་གོ (སྤྱི་མཐུན་རྒྱལ་ཁབ།))</name>
+    </display_name>
+    <display_name>
+        <city>Bratislava</city>
+        <name>བ་ར་ཏི་སི་ལ་ཝ། (སི་ལོ་ཝ་ཁེ།)</name>
+    </display_name>
+    <display_name>
+        <city>Prague</city>
+        <name>པ་རེཁ། (སེ་ཙེ་ཁོལ་སྤྱི་མཐུན་རྒྱལ་ཁབ།)</name>
+    </display_name>
+    <display_name>
+        <city>Blacksburg</city>
+        <name>བེ་ལེཀ་བྷག (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Blantyre</city>
+        <name>བི་ལན་ཏ་ཡར། (མ་ལ་ཝི།)</name>
+    </display_name>
+    <display_name>
+        <city>BlancSablon</city>
+        <name>བེ་ལེང་-སབ་ལོན། (ཀེ་ན་དྲ།)</name>
+    </display_name>
+    <display_name>
+        <city>Bridgetown</city>
+        <name>བི་རིཇ་གྲོང་སྡེ། (བར་བ་དྲོ་སི།)</name>
+    </display_name>
+    <display_name>
+        <city>Brisbane</city>
+        <name>བི་རིས་བེན། (ཨོ་སི་ཀྲོ་ལི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Brussels</city>
+        <name>བ་རེས་སེལ། (པེར་ཇེམ།)</name>
+    </display_name>
+    <display_name>
+        <city>Broken_Hill</city>
+        <name>བོ་རོ་ཀེན་ཧིལ། (ཨོ་སི་ཀྲོ་ལི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Bujumbura</city>
+        <name>བུ་ཇུམ་བུ་ར། (པུ་རུན་ཏི།)</name>
+    </display_name>
+    <display_name>
+        <city>Buenos_Aires</city>
+        <name>བུ་ནོ་སི་ཨེར། (ཨར་ཇེན་ཊི་ན།)</name>
+    </display_name>
+    <display_name>
+        <city>Chatham_Island</city>
+        <name>ཆ་ཐམ་གླིང་ཕྲན། (ནེའུ་ཙི་ལན།)</name>
+    </display_name>
+    <display_name>
+        <city>Jayapura</city>
+        <name>ཇ་ཡ་པུ་ར། (ཨིན་དྲོ་ནེ་ཤི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Changchun</city>
+        <name>ཁྲང་ཁྲུན། (ཀྲུང་གོ)</name>
+    </display_name>
+    <display_name>
+        <city>Chengdu</city>
+        <name>ཁྲེན་ཏུའུ། (ཀྲུང་གོ)</name>
+    </display_name>
+    <display_name>
+        <city>Chita</city>
+        <name>ཆི་ཏ། (ཨུ་རུ་སུ་)</name>
+    </display_name>
+    <display_name>
+        <city>Chongqing</city>
+        <name>ཁྲུང་ཆིན། (ཀྲུང་གོ)</name>
+    </display_name>
+    <display_name>
+        <city>Chuuk</city>
+        <name>ཆུག (མཡེ་ཁོ་རོ་ནེ་ཤི་ཡ་སྤྱི་མཐུན་རྒྱལ་ཁབ།)</name>
+    </display_name>
+    <display_name>
+        <city>Shiprock</city>
+        <name>ཤིབ་རོཀ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Osaka</city>
+        <name>ཀོ་ས་ཀ་-མ་ཆི། (ཉི་ཧོང་)</name>
+    </display_name>
+    <display_name>
+        <city>Darwin</city>
+        <name>ཌར་ཝིན། (ཨོ་སི་ཀྲོ་ལི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Dhaka</city>
+        <name>ཌ་ཀ། (བྷང་ལ་དེ་ཤི།)</name>
+    </display_name>
+    <display_name>
+        <city>Dakar</city>
+        <name>ཌ་ཀར། (སེ་ནི་གྷལ།)</name>
+    </display_name>
+    <display_name>
+        <city>Campo_Grande</city>
+        <name>ཀེམ་པོ་གྷ་རན་དྲི། (བྷ་ར་ཛིལ།)</name>
+    </display_name>
+    <display_name>
+        <city>Dallas</city>
+        <name>ཌ་ལ་སི། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Dar_es_Salaam</city>
+        <name>ཌར་ཨེས་ས་ལམ། (ཐན་ཙན་ནི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Daly_City</city>
+        <name>དྲེ་ལི་གྲོང་ཁྱེར། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Dalian</city>
+        <name>ཏ་ལེན། (ཀྲུང་གོ)</name>
+    </display_name>
+    <display_name>
+        <city>Damascus</city>
+        <name>ད་མ་སི་ཁུ་སི། (སི་རི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Davis_Station</city>
+        <name>ད་ཝི་སི་བབ་ཚུགས། (ཨེན་ཊར་ཊི་ཁ།)</name>
+    </display_name>
+    <display_name>
+        <city>Denver</city>
+        <name>ཌེན་ཝར། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Danmarkshavn</city>
+        <name>དྲེན་མཀ་ཤོན། (གྷི་རིན་ལེནྜ།)</name>
+    </display_name>
+    <display_name>
+        <city>Douglas</city>
+        <name>དྲོག་ལ་སི། (ཨཡེ་སེལ་ཨོཕ་མེན།)</name>
+    </display_name>
+    <display_name>
+        <city>Dawson_City</city>
+        <name>དྲོ་སན་གྲོང་ཁྱེར། (ཀེ་ན་དྲ།)</name>
+    </display_name>
+    <display_name>
+        <city>Dawson_Creek</city>
+        <name>དྲོ་སན་ཁི་རིཀ། (ཀེ་ན་དྲ།)</name>
+    </display_name>
+    <display_name>
+        <city>Tehran</city>
+        <name>ཊེ་རན། (ཨི་རན།)</name>
+    </display_name>
+    <display_name>
+        <city>Tirana</city>
+        <name>ཏི་ར་ན། (ཨར་པ་ནི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Tripoli</city>
+        <name>ཏྲི་པོ་ལི། (ལི་བི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Dubai</city>
+        <name>དུ་བཡེ། (ཨ་རབ་སྤྱི་མཐུན་རྒྱལ་ཁབ།)</name>
+    </display_name>
+    <display_name>
+        <city>Tbilisi</city>
+        <name>ཊི་བི་ལི་སི། (ཀེ་ཨོར་ཀི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Diego_Garcia</city>
+        <name>དི་གོ་གར་སི་ཡ། (ཨིན་ཇི་རྒྱ་གར་རྒྱ་མཚོ་ས་ཁོངས།)</name>
+    </display_name>
+    <display_name>
+        <city>Decatur</city>
+        <name>དྲེ་ཁ་ཊུར། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Dili</city>
+        <name>དི་ལི། (ཏི་མོར་ལེས་ཏི།)</name>
+    </display_name>
+    <display_name>
+        <city>DumontdUrville_Station</city>
+        <name>དྲུ་མོན་ཏི་-ཨུར་ཝི་ལི་བབ་ཚུགས། (ཨེན་ཊར་ཊི་ཁ།)</name>
+    </display_name>
+    <display_name>
+        <city>Detroit</city>
+        <name>དིཊ་རོ་ཨིཊ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Tijuana</city>
+        <name>ཏི་ཇུ་ཨ་ན། (མེཀ་སི་ཁོ།)</name>
+    </display_name>
+    <display_name>
+        <city>Tokyo</city>
+        <name>ཊོཀ་ཡོ། (ཉི་ཧོང་)</name>
+    </display_name>
+    <display_name>
+        <city>Dublin</city>
+        <name>དྲུབ་ལིན། (ཨར་ལེནྜ།)</name>
+    </display_name>
+    <display_name>
+        <city>Turin</city>
+        <name>ཏུ་རིན། (ཨི་ཀྲར་ལི་)</name>
+    </display_name>
+    <display_name>
+        <city>Douala</city>
+        <name>དྲོ་ཨུ་ལ། (ཁ་མེ་རོང་།)</name>
+    </display_name>
+    <display_name>
+        <city>Dushanbe</city>
+        <name>དྲ་ཤན་བི། (ཐ་ཅི་ཁི་སི་ཐན།)</name>
+    </display_name>
+    <display_name>
+        <city>Doha</city>
+        <name>དྲོ་ཧ། (ཁ་ཊར།)</name>
+    </display_name>
+    <display_name>
+        <city>Toronto</city>
+        <name>ཊོ་རོན་ཊོ། (ཀེ་ན་དྲ།)</name>
+    </display_name>
+    <display_name>
+        <city>Oklahoma_City</city>
+        <name>ཨོཀ་ལ་ཧོ་མ་གྲོང་ཁྱེར། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Omsk</city>
+        <name>ཨོམ་སི་ཀ། (ཨུ་རུ་སུ་)</name>
+    </display_name>
+    <display_name>
+        <city>NDjamena</city>
+        <name>དི་ཇ་མེ་ན། (ཆཏ།)</name>
+    </display_name>
+    <display_name>
+        <city>Frankfurt</city>
+        <name>ཕེ་རེང་ཕར་ཊི། (འཇར་མན་)</name>
+    </display_name>
+    <display_name>
+        <city>Fortdefrance</city>
+        <name>ཕོཊ་-དྲི་-ཕ་རན་སི། (མ་ཐེན་ཉི་ཁོ་གླིང་ཕྲན།)</name>
+    </display_name>
+    <display_name>
+        <city>PortauxFrancais</city>
+        <name>པོར་ཏི་-ཨོཀ་སི་-ཕེ་རེན་སི་ཡ་སི། (ཕ་རན་སི་ལྷོ་ཕྱོགས་ས་ཁོངས།)</name>
+    </display_name>
+    <display_name>
+        <city>Fale</city>
+        <name>ཕེལ། (ཏོ་ཀི་ལོ།)</name>
+    </display_name>
+    <display_name>
+        <city>Vatican</city>
+        <name>ཝ་ཐི་ཁན་མཁར།</name>
+    </display_name>
+    <display_name>
+        <city>Philadelphia</city>
+        <name>ཕི་ལ་དྲེལ་ཕི་ཡ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Fernando_de_Noronha</city>
+        <name>ཕར་ནིན་དྲོ་དྲི་ནོ་རོན་ཧ། (བྷ་ར་ཛིལ།)</name>
+    </display_name>
+    <display_name>
+        <city>Phoenix</city>
+        <name>ཕི་ནིཀ་སི། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Funchal</city>
+        <name>ཕན་ཅལ། (པོར་ཅུ་གྷལ།)</name>
+    </display_name>
+    <display_name>
+        <city>Volgograd</city>
+        <name>ཝོལ་གོ་ག་རེཌ། (ཨུ་རུ་སུ་)</name>
+    </display_name>
+    <display_name>
+        <city>Easter_Island</city>
+        <name>ཨིས་ཊར་གླིང་ཕྲན། (ཆི་ལི།)</name>
+    </display_name>
+    <display_name>
+        <city>Vladivostok</city>
+        <name>ཝི་ལ་དྲི་ཝོ་སི་ཊོཀ། (ཨུ་རུ་སུ་)</name>
+    </display_name>
+    <display_name>
+        <city>Freetown</city>
+        <name>ཕི་རི་ཊ་ཝུན། (སི་ར་ལ་ཡོང།)</name>
+    </display_name>
+    <display_name>
+        <city>Fremont</city>
+        <name>ཕ་རོ་མོན་ཊ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Florence</city>
+        <name>ཕོ་ལོ་རེན་སི། (ཨི་ཀྲར་ལི་)</name>
+    </display_name>
+    <display_name>
+        <city>Fuzhou</city>
+        <name>ཧྥུ་ཀྲོའུ། (ཀྲུང་གོ)</name>
+    </display_name>
+    <display_name>
+        <city>Foster_City</city>
+        <name>ཕོ་སི་ཊར་གྲོང་ཁྱེར། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Fortaleza</city>
+        <name>ཕོར་ཊ་ལེ་ཛ། (བྷ་ར་ཛིལ།)</name>
+    </display_name>
+    <display_name>
+        <city>Copenhagen</city>
+        <name>ཁོ་པེན་ཧ་གེན། (ཏེན་མག།)</name>
+    </display_name>
+    <display_name>
+        <city>Gothenburg</city>
+        <name>གྷོ་དེན་བྷག (སི་ཝི་དྲན།)</name>
+    </display_name>
+    <display_name>
+        <city>Glace_Bay</city>
+        <name>གེ་ལེ་སི་བེ། (ཀེ་ན་དྲ།)</name>
+    </display_name>
+    <display_name>
+        <city>Grytviken</city>
+        <name>གི་རིཊ་ཝི་ཀེན། (ལྷོ་ཇོར་ཇི་ཡ་དང་ལྷོ་སེན་ཝིཆ་གླིང་ཕྲན།)</name>
+    </display_name>
+    <display_name>
+        <city>Columbus</city>
+        <name>ཀོ་ལོམ་བ་སི། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Kuching</city>
+        <name>ཀུ་ཆིང་། (མ་ལེ་ཤི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Gustavia</city>
+        <name>གུ་སི་ཏ་ཝི་ཡ། (སེནཊ་བྷཏ་ལེ་མི།)</name>
+    </display_name>
+    <display_name>
+        <city>Guayaquil</city>
+        <name>གོ་ཡ་ཁུ་ཡིལ། (ཨེ་ཁྭ་ཏོར།)</name>
+    </display_name>
+    <display_name>
+        <city>Guam</city>
+        <name>ཀོམ་གླིང་ཕྲན། (ཀོམ་གླིང་ཕྲན།)</name>
+    </display_name>
+    <display_name>
+        <city>Guangzhou</city>
+        <name>ཀོང་ཀྲོའུ། (ཀྲུང་གོ)</name>
+    </display_name>
+    <display_name>
+        <city>Gaborone</city>
+        <name>ག་བོ་རོན། (པོ་ཚི་ཝ་ན།)</name>
+    </display_name>
+    <display_name>
+        <city>Harbin</city>
+        <name>ཧར་པིན། (ཀྲུང་གོ)</name>
+    </display_name>
+    <display_name>
+        <city>Harare</city>
+        <name>ཧ་ར་རེ། (ཙམ་པབ་ཝེ།)</name>
+    </display_name>
+    <display_name>
+        <city>Halifax</city>
+        <name>ཧ་ལི་ཕེཀ་སི། (ཀེ་ན་དྲ།)</name>
+    </display_name>
+    <display_name>
+        <city>Havana</city>
+        <name>ཧ་ཝ་ན། (ཁུ་པ།)</name>
+    </display_name>
+    <display_name>
+        <city>Hyderabad</city>
+        <name>ཧཡེ་དི་ར་བྷཏ། (རྒྱ་གར་)</name>
+    </display_name>
+    <display_name>
+        <city>Haikou</city>
+        <name>ཧའེ་ཁུའུ། (ཀྲུང་གོ)</name>
+    </display_name>
+    <display_name>
+        <city>Hamburg</city>
+        <name>ཧེམ་བྷག (འཇར་མན་)</name>
+    </display_name>
+    <display_name>
+        <city>Hangzhou</city>
+        <name>ཧང་ཀྲོའུ། (ཀྲུང་གོ)</name>
+    </display_name>
+    <display_name>
+        <city>Hamilton</city>
+        <name>ཧ་མིལ་ཊོན། (པེ་མུ་ཏ།)</name>
+    </display_name>
+    <display_name>
+        <city>Lord_Howe_Island</city>
+        <name>ལོཊ་ཧོ་ཝི་གླིང་ཕྲན། (ཨོ་སི་ཀྲོ་ལི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Helsinki</city>
+        <name>ཧེལ་སིན་ཀི། (ཕིན་ལེནྜ།)</name>
+    </display_name>
+    <display_name>
+        <city>Hefei</city>
+        <name>ཧོ་ཧྥེ། (ཀྲུང་གོ)</name>
+    </display_name>
+    <display_name>
+        <city>Hanoi</city>
+        <name>ཧ་ནོ་ཨི། (ཝེཏ་ནམ།)</name>
+    </display_name>
+    <display_name>
+        <city>Redwood_City</city>
+        <name>རེཌ་འུཊ་གྲོང་ཁྱེར། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Ho_Chi_Minh_City</city>
+        <name>ཧོ་ཆི་མིན་གྲོང་ཁྱེར། (ཝེཏ་ནམ།)</name>
+    </display_name>
+    <display_name>
+        <city>Warsaw</city>
+        <name>ཝར་སོ། (པོ་ལེནྜ།)</name>
+    </display_name>
+    <display_name>
+        <city>Washington_DC</city>
+        <name>ཝ་ཤིང་ཊོན། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Waitangi</city>
+        <name>ཝེ་ཏན་གི (ནེའུ་ཙི་ལན།)</name>
+    </display_name>
+    <display_name>
+        <city>Whitehorse</city>
+        <name>ཝཡེ་ཊི་ཧོར་སི། (ཀེ་ན་དྲ།)</name>
+    </display_name>
+    <display_name>
+        <city>Wellington</city>
+        <name>ཝེ་ལིང་ཊོན། (ནེའུ་ཙི་ལན།)</name>
+    </display_name>
+    <display_name>
+        <city>Hobart</city>
+        <name>ཧོ་བར་ཊི། (ཨོ་སི་ཀྲོ་ལི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Honiara</city>
+        <name>ཧོ་ནེ་ར། (སོ་ལོ་མོན་གླིང་ཕྲན།)</name>
+    </display_name>
+    <display_name>
+        <city>Djibouti</city>
+        <name>དྲི་ཇི་བོ་ཊི། (དྲི་ཇི་བོ་ཊི།)</name>
+    </display_name>
+    <display_name>
+        <city>Quito</city>
+        <name>ཁྱིའུ་ཊོ། (ཨེ་ཁྭ་ཏོར།)</name>
+    </display_name>
+    <display_name>
+        <city>Kyiv</city>
+        <name>ཀེ་ཡིཝ། (ཝུའུ་ཁོ་རན།)</name>
+    </display_name>
+    <display_name>
+        <city>Kigali</city>
+        <name>ཀི་ག་ལི། (ར་ཝན་དྲ།)</name>
+    </display_name>
+    <display_name>
+        <city>Kuala_Lumpur</city>
+        <name>ཀོ་ལ་ལུམ་བུར། (མ་ལེ་ཤི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Jinan</city>
+        <name>ཅི་ནན། (ཀྲུང་གོ)</name>
+    </display_name>
+    <display_name>
+        <city>Chisinau</city>
+        <name>ཅི་སི་ནོའོ། (མོར་ཏུའོ་ཝ།)</name>
+    </display_name>
+    <display_name>
+        <city>Cardiff</city>
+        <name>ཀར་ཌིཕ། (དབྱིན་ཇི་)</name>
+    </display_name>
+    <display_name>
+        <city>Kathmandu</city>
+        <name>ཀཐ་མན་དྲུ། (བལ་ཡུལ་)</name>
+    </display_name>
+    <display_name>
+        <city>Calcutta</city>
+        <name>ཅ་ཨེར་ཀེ་ཏ། (ཧིན་རྡུ།)</name>
+    </display_name>
+    <display_name>
+        <city>Caracas</city>
+        <name>ཁ་ར་ཁ་སི། (ཝེ་ནི་ཛུ་ལ།)</name>
+    </display_name>
+    <display_name>
+        <city>Galapagos_Islands</city>
+        <name>ཁོ་ལོང་གླིང་ཚོམ། (ཨེ་ཁྭ་ཏོར།)</name>
+    </display_name>
+    <display_name>
+        <city>Kaliningrad</city>
+        <name>ཀ་ལི་ནིན་གེ་རེཌ། (ཨུ་རུ་སུ་)</name>
+    </display_name>
+    <display_name>
+        <city>Canary_Islands</city>
+        <name>ཁ་ནེ་རི་གླིང་ཕྲན། (སི་པེན།)</name>
+    </display_name>
+    <display_name>
+        <city>Gaza</city>
+        <name>ག་ཛ། (ཕ་ལི་སི་ཐན།)</name>
+    </display_name>
+    <display_name>
+        <city>Cambridge_Bay</city>
+        <name>ཀེམ་བི་རིཇ་བེ། (ཀེ་ན་དྲ།)</name>
+    </display_name>
+    <display_name>
+        <city>Phnom_Penh</city>
+        <name>ནོམ་པེན། (ཀེམ་བྷོ་དྲི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Kinshasa</city>
+        <name>ཀིན་ཤ་ས། (ཀོང་གོ (དྲི་ཨར་སི།))</name>
+    </display_name>
+    <display_name>
+        <city>Kingston_Jamaica</city>
+        <name>ཀིང་སི་ཊོན། (ཇ་མེ་ཁ།)</name>
+    </display_name>
+    <display_name>
+        <city>Kingston_Norfolk_Island</city>
+        <name>ཀིང་སི་ཊོན། (ནོར་ཕོཀ་གླིང་ཕྲན།)</name>
+    </display_name>
+    <display_name>
+        <city>Kingstown</city>
+        <name>ཀིང་སི་ཊ་ཝུན། (སེནཊ་ཝིན་སེཊ་ཨེཌ་གྷི་ནེ་དྲིན།)</name>
+    </display_name>
+    <display_name>
+        <city>San_Francisco</city>
+        <name>སན་ཧྥུ་རན་སེ་སི་ཁོའོ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Kabul</city>
+        <name>ཀ་བུལ། (ཨཕ་གྷ་ནི་སི་ཏན།)</name>
+    </display_name>
+    <display_name>
+        <city>Calgary</city>
+        <name>ཀལ་ག་རི། (ཀེ་ན་དྲ།)</name>
+    </display_name>
+    <display_name>
+        <city>Karachi</city>
+        <name>ཀ་ར་ཅི། (པ་ཀི་སི་ཐན།)</name>
+    </display_name>
+    <display_name>
+        <city>Casablanca</city>
+        <name>ཀ་ས་བ་ལན་ཁ། (མོ་རོ་ཁོ།)</name>
+    </display_name>
+    <display_name>
+        <city>Kashgar</city>
+        <name>ཁ་ཧྲི། (ཀྲུང་གོ)</name>
+    </display_name>
+    <display_name>
+        <city>Castries</city>
+        <name>ཀེ་སི་ཊི་རི་སི། (སེཊ་ལི་སི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Catamarca</city>
+        <name>སེན་ཕར་ནན་དྲོ་དྲེལ་ཝེལ་ལེ་དི་ཁ་ཊ་མར་ཁ། (ཨར་ཇེན་ཊི་ན།)</name>
+    </display_name>
+    <display_name>
+        <city>Catanzaro</city>
+        <name>ཀ་ཊན་ཛ་རོ། (ཨི་ཀྲར་ལི་)</name>
+    </display_name>
+    <display_name>
+        <city>Khartoum</city>
+        <name>ཁར་ཏོམ། (སུའུ་ཏན།)</name>
+    </display_name>
+    <display_name>
+        <city>Cayenne</city>
+        <name>ཁ་ཡེན་ནི། (ཧྥ་རན་སེའི་ཁོངས་ཀྱི་ཀུའེ་ཡ་ན།)</name>
+    </display_name>
+    <display_name>
+        <city>Cairo</city>
+        <name>ཁེ་རོ། (ཨེབ་ཅི།)</name>
+    </display_name>
+    <display_name>
+        <city>Cape_Town</city>
+        <name>ཁེབ་ཊ་ཝུན། (ལྷོ་ཨ་ཕི་རི་ཁ།)</name>
+    </display_name>
+    <display_name>
+        <city>Casey_Station</city>
+        <name>ཀེ་སེ་བབ་ཚུགས། (ཨེན་ཊར་ཊི་ཁ།)</name>
+    </display_name>
+    <display_name>
+        <city>Kanton_Island</city>
+        <name>ཀེན་ཊོན་གླིང་ཕྲན། (ཀི་རི་བ་ཊི།)</name>
+    </display_name>
+    <display_name>
+        <city>Cancun</city>
+        <name>ཁེན་ཁན། (མེཀ་སི་ཁོ།)</name>
+    </display_name>
+    <display_name>
+        <city>Kampala</city>
+        <name>ཀམ་པ་ལ། (ཝུ་ཀན་ཏ།)</name>
+    </display_name>
+    <display_name>
+        <city>Canberra</city>
+        <name>ཁེན་བེར་ར། (ཨོ་སི་ཀྲོ་ལི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Cockburn_Town</city>
+        <name>ཀོཀ་བན་གྲོང་སྡེ། (ཊར་ཀི་སི་དང་ཁི་ཡ་ཁོ་སི་གླིང་ཕྲན།)</name>
+    </display_name>
+    <display_name>
+        <city>Hovd</city>
+        <name>ཧོ་ཝཌ། (ཕྱི་སོག)</name>
+    </display_name>
+    <display_name>
+        <city>Cordoba</city>
+        <name>ཀོར་དོ་བ། (ཨར་ཇེན་ཊི་ན།)</name>
+    </display_name>
+    <display_name>
+        <city>Cork</city>
+        <name>ཀོར་ཀ། (ཨར་ལེནྜ།)</name>
+    </display_name>
+    <display_name>
+        <city>Krakow</city>
+        <name>ཀ་ར་ཀོ། (པོ་ལེནྜ།)</name>
+    </display_name>
+    <display_name>
+        <city>Kralendijk</city>
+        <name>ཀ་ར་ལེན་དྲི་ཇཀ (བོ་ནེར།)</name>
+    </display_name>
+    <display_name>
+        <city>Krasnoyarsk</city>
+        <name>ཀ་ར་སི་ནོ་ཡག་སི། (ཨུ་རུ་སུ་)</name>
+    </display_name>
+    <display_name>
+        <city>Creston</city>
+        <name>ཀེ་རེ་སི་ཊོན། (ཀེ་ན་དྲ།)</name>
+    </display_name>
+    <display_name>
+        <city>Cleveland</city>
+        <name>ཁེ་ལེབ་ལེན་དྲི། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Christiansted</city>
+        <name>ཁི་རི་ཤེན་སཊེཊ། (ཨ་རི་ཝར་ཇིན་གླིང་ཕྲན།)</name>
+    </display_name>
+    <display_name>
+        <city>Colombo</city>
+        <name>ཁོ་ལོམ་བོ། (སི་རི་ལན་ཁ།)</name>
+    </display_name>
+    <display_name>
+        <city>Koror</city>
+        <name>ཀོ་རོར། (ཕ་ལའོ།)</name>
+    </display_name>
+    <display_name>
+        <city>Crotone</city>
+        <name>ཁི་ནུའུ་ཐའོ་ནེ། (དབྱི་ཐ་ལི།)</name>
+    </display_name>
+    <display_name>
+        <city>Kunming</city>
+        <name>ཁུན་མིང་། (ཀྲུང་གོ)</name>
+    </display_name>
+    <display_name>
+        <city>Conakry</city>
+        <name>ཁོ་ནཀ་རི། (གྷི་ནི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Kosrae</city>
+        <name>ཀོ་སི་རེ། (མཡེ་ཁོ་རོ་ནེ་ཤི་ཡ་སྤྱི་མཐུན་རྒྱལ་ཁབ།)</name>
+    </display_name>
+    <display_name>
+        <city>Kuwait</city>
+        <name>ཁུ་ཝེ་ཐེ། (ཁུ་ཝེ་ཐེ།)</name>
+    </display_name>
+    <display_name>
+        <city>Qyzylorda</city>
+        <name>ཁྱིའུ་ཛི་ལོར་དྲ། (ཀ་ཛ་ཀི་སི་ཐན།)</name>
+    </display_name>
+    <display_name>
+        <city>Cupertino</city>
+        <name>ཁུ་པར་ཊི་ནོ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Currie</city>
+        <name>ཁར་རི། (ཨོ་སི་ཀྲོ་ལི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Cuiaba</city>
+        <name>ཁུ་ཨི་བ། (བྷ་ར་ཛིལ།)</name>
+    </display_name>
+    <display_name>
+        <city>Kwajalein_Atoll</city>
+        <name>ཀ་ཝ་ཇ་ལེན་ཨ་ཏོལ། (ཀ་ཝ་ཇ་ལེན་ཨ་ཏོལ།)</name>
+    </display_name>
+    <display_name>
+        <city>Happy_ValleyGoose_Bay</city>
+        <name>ཧེ་པི་ཝེ་ལི་-གུ་སི་བེ། (ཀེ་ན་དྲ།)</name>
+    </display_name>
+    <display_name>
+        <city>Quebec_City</city>
+        <name>ཁུ་བེཁ་གྲོང་ཁྱེར། (ཀེ་ན་དྲ།)</name>
+    </display_name>
+    <display_name>
+        <city>Pontianak</city>
+        <name>པོན་ཊེ་ནཀ (ཨིན་དྲོ་ནེ་ཤི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Nuestra_Senora_de_La_Paz</city>
+        <name>ལ་པ་ཛི། (པོ་ལི་ཝེ་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Rabat</city>
+        <name>ར་བཏ། (མོ་རོ་ཁོ།)</name>
+    </display_name>
+    <display_name>
+        <city>Lagos</city>
+        <name>ལ་གོ་སི། (ནཡེ་ཇེ་རི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>La_Rioja</city>
+        <name>ལ་རོ་ཨི་ཇ། (ཨར་ཇེན་ཊི་ན།)</name>
+    </display_name>
+    <display_name>
+        <city>Rarotonga</city>
+        <name>ར་རོ་ཊོན་ག (ཀུཀ་གླིང་ཕྲན།)</name>
+    </display_name>
+    <display_name>
+        <city>Lhasa</city>
+        <name>ལྷ་ས། (ཀྲུང་གོ)</name>
+    </display_name>
+    <display_name>
+        <city>Las_Vegas</city>
+        <name>ལ་སི་ཝེ་ག་སི། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Rankin_Inlet</city>
+        <name>རེན་ཀིན་ཨིན་ལེཊ། (ཀེ་ན་དྲ།)</name>
+    </display_name>
+    <display_name>
+        <city>Longyearbyen</city>
+        <name>རན་དབྱིར་གྲོང་ཁྱེར། (ནོར་ཝེ།)</name>
+    </display_name>
+    <display_name>
+        <city>Reykjavik</city>
+        <name>རེ་ཇ་ཝིཀ (ཨཡེ་སི་ལེནྜ།)</name>
+    </display_name>
+    <display_name>
+        <city>Resolute</city>
+        <name>རེ་སོ་ལུཊ། (ཀེ་ན་དྲ།)</name>
+    </display_name>
+    <display_name>
+        <city>Recife</city>
+        <name>རི་སཡེ་ཕི། (བྷ་ར་ཛིལ།)</name>
+    </display_name>
+    <display_name>
+        <city>Lyon</city>
+        <name>ལི་ཡོན། (ཧྥ་རན་སི།)</name>
+    </display_name>
+    <display_name>
+        <city>Rio_Branco</city>
+        <name>རི་ཨོ་བེ་རེན་ཁོ། (བྷ་ར་ཛིལ།)</name>
+    </display_name>
+    <display_name>
+        <city>Rio_Gallegos</city>
+        <name>རི་ཨོ་གེ་ལི་གོ་སི། (ཨར་ཇེན་ཊི་ན།)</name>
+    </display_name>
+    <display_name>
+        <city>Libreville</city>
+        <name>ལིབ་ར་ཝིལ་ལི། (ཀ་པོན།)</name>
+    </display_name>
+    <display_name>
+        <city>Rikitea</city>
+        <name>རིཀ་ཀི་ཊི། (ཧྥ་རན་སི་ཁོངས་ཀྱི་ཕོ་ལེ་ནི་ཞི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Riga</city>
+        <name>རི་ག (ལ་ཐུ་ཝེ་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Regina</city>
+        <name>རེ་ཇི་ན། (ཀེ་ན་དྲ།)</name>
+    </display_name>
+    <display_name>
+        <city>Lima</city>
+        <name>ལི་མ། (པི་རུ།)</name>
+    </display_name>
+    <display_name>
+        <city>Lisbon</city>
+        <name>ལི་སི་བོན། (པོར་ཅུ་གྷལ།)</name>
+    </display_name>
+    <display_name>
+        <city>Riyadh</city>
+        <name>རི་ཡཏ། (སོ་དི་ཨ་ར་བི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Rio_de_Janeiro</city>
+        <name>རི་ཨོ་དི་ཇ་ནེ་རོ། (བྷ་ར་ཛིལ།)</name>
+    </display_name>
+    <display_name>
+        <city>Lindeman_Island</city>
+        <name>ལིན་དྲི་མེན་གླིང་ཕྲན། (ཨོ་སི་ཀྲོ་ལི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Lubumbashi</city>
+        <name>ལུ་བུམ་བ་ཤི། (ཀོང་གོ (དྲི་ཨར་སི།))</name>
+    </display_name>
+    <display_name>
+        <city>Ljubljana</city>
+        <name>ཇུ་བལ་ཇ་ན། (སི་ལོ་ཝེན་ནི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Lusaka</city>
+        <name>ལུ་ས་ཀ། (ཙན་པི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Luxembourg</city>
+        <name>ལུ་སིམ་པོའོ། (ལུ་སིམ་པོའོ།)</name>
+    </display_name>
+    <display_name>
+        <city>Port_Louis</city>
+        <name>པོཊ་ལུ་ཨི་སི། (མོ་རི་ཤོ་སི།)</name>
+    </display_name>
+    <display_name>
+        <city>Louisville</city>
+        <name>ལུ་ཨི་སི་ཝིལ་ལི། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>London</city>
+        <name>ལོན་ཊོན། (དབྱིན་ཇི་)</name>
+    </display_name>
+    <display_name>
+        <city>Luanda</city>
+        <name>ལོན་དྲ། (ཨན་ཀོ་ལ།)</name>
+    </display_name>
+    <display_name>
+        <city>Rome</city>
+        <name>རོམ། (ཨི་ཀྲར་ལི་)</name>
+    </display_name>
+    <display_name>
+        <city>Road_Town</city>
+        <name>རོཌ་གྲོང་སྡེ། (བི་རི་ཏིཤ་ཝར་ཇིན་གླིང་ཕྲན།)</name>
+    </display_name>
+    <display_name>
+        <city>Lome</city>
+        <name>ལོ་མེའེ། (ཏོ་ཀི།)</name>
+    </display_name>
+    <display_name>
+        <city>Rothera_Station</city>
+        <name>རོ་དེ་ར་བབ་ཚུགས། (ཨེན་ཊར་ཊི་ཁ།)</name>
+    </display_name>
+    <display_name>
+        <city>Los_Angeles</city>
+        <name>ལོ་སི་ཨེན་ཇི་ལེ་སི། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Los_Altos</city>
+        <name>ལོ་སི་ཨལ་ཊོ་སི། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Los_Gatos</city>
+        <name>ལོ་སི་གྷ་ཊོ་སི། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Roseau</city>
+        <name>Roseau (ཏོ་མེ་ནི་ཁ།)</name>
+    </display_name>
+    <display_name>
+        <city>Madrid</city>
+        <name>མེཌ་རིཌ། (སི་པེན།)</name>
+    </display_name>
+    <display_name>
+        <city>Malmo</city>
+        <name>མར་མོ། (སུའེ་ཏེན།)</name>
+    </display_name>
+    <display_name>
+        <city>Magadan</city>
+        <name>མ་ག་ཌན། (ཨུ་རུ་སུ་)</name>
+    </display_name>
+    <display_name>
+        <city>Makassar</city>
+        <name>མ་ཀ་སར། (ཨིན་དྲོ་ནེ་ཤི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Malabo</city>
+        <name>མ་ལ་བོ། (ཐིག་དམར་ཀུའི་ནེ་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Male</city>
+        <name>ཕོ། (མྰལ་དིཝ།)</name>
+    </display_name>
+    <display_name>
+        <city>Mariehamn</city>
+        <name>མེ་རི་ཧེམ། (ཕིན་ལེནྜ།)</name>
+    </display_name>
+    <display_name>
+        <city>Marigot</city>
+        <name>མེ་རི་གྷོཏ། (སེནཊ་མར་ཊིན།)</name>
+    </display_name>
+    <display_name>
+        <city>Marengo</city>
+        <name>མ་རེན་གོ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Mamoudzou</city>
+        <name>མ་མོཌ་ཛོ། (མ་ཡོཊ་ཊི།)</name>
+    </display_name>
+    <display_name>
+        <city>Managua</city>
+        <name>མ་ན་གུ་ཨ། (ནི་ཁར་ཀྭ)</name>
+    </display_name>
+    <display_name>
+        <city>Manaus</city>
+        <name>མ་ནོ་ཨོས། (བྷ་ར་ཛིལ།)</name>
+    </display_name>
+    <display_name>
+        <city>Manila</city>
+        <name>མ་ནི་ལ། (ཧྥེ་ལི་ཕིན།)</name>
+    </display_name>
+    <display_name>
+        <city>Maputo</city>
+        <name>མ་པུ་ཏོ། (མོ་ཛམ་པི་ཁེ།)</name>
+    </display_name>
+    <display_name>
+        <city>Mazatlan</city>
+        <name>མ་ས་ཐེ་ལན། (མོ་ཤི་ཁོ།)</name>
+    </display_name>
+    <display_name>
+        <city>Marseille</city>
+        <name>མར་སེ་ལི། (ཧྥ་རན་སི།)</name>
+    </display_name>
+    <display_name>
+        <city>Maseru</city>
+        <name>མ་སི་རུ། (ལེ་སོ་ཐོ།)</name>
+    </display_name>
+    <display_name>
+        <city>Maceio</city>
+        <name>མེ་སི་ཨོ། (བྷ་ར་ཛིལ།)</name>
+    </display_name>
+    <display_name>
+        <city>Muscat</city>
+        <name>མ་སི་ཁེཏ། (ཨོ་མན།)</name>
+    </display_name>
+    <display_name>
+        <city>Matamoros</city>
+        <name>མ་ཏ་མོ་རོ་སི། (མེཀ་སི་ཁོ།)</name>
+    </display_name>
+    <display_name>
+        <city>MataUtu</city>
+        <name>མ་ཏ་-ཨུ་ཏུ། (ཝོ་ལིས་དང་ཕུ་ཏུ་ན།)</name>
+    </display_name>
+    <display_name>
+        <city>Majuro</city>
+        <name>མ་ཇུ་རོ། (མར་ཤལ་གླིང་ཕྲན།)</name>
+    </display_name>
+    <display_name>
+        <city>Miami</city>
+        <name>མི་ཡ་མི། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Madison</city>
+        <name>མེ་ཌི་སོན། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Mecca</city>
+        <name>མེཁ་ཁ། (སོ་དི་ཨ་ར་བི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>McMurdo_Station</city>
+        <name>མེཁ་མུར་དོ་བབ་ཚུགས། (ཨེན་ཊར་ཊི་ཁ།)</name>
+    </display_name>
+    <display_name>
+        <city>Macquarie_Island_Station</city>
+        <name>མེཁ་ཁོ་ཡེ་རི་གླིང་ཕྲན་བབ་ཚུགས། (ཨེན་ཊར་ཊི་ཁ།)</name>
+    </display_name>
+    <display_name>
+        <city>Manama</city>
+        <name>མ་ན་མ། (པ་རེན།)</name>
+    </display_name>
+    <display_name>
+        <city>Bangkok</city>
+        <name>བེང་ཀོཀ། (ཐེ་ལཱན།)</name>
+    </display_name>
+    <display_name>
+        <city>Merida</city>
+        <name>མེ་ལེ་ཏཱ། (མོ་ཤི་ཁོ།)</name>
+    </display_name>
+    <display_name>
+        <city>Menominee</city>
+        <name>མི་ནོ་མི་ནི། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Metlakatla</city>
+        <name>མེཊ་ལ་ཀཊ་ལ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Mendoza</city>
+        <name>མེན་དྲོ་ཛ། (ཨར་ཇེན་ཊི་ན།)</name>
+    </display_name>
+    <display_name>
+        <city>Menlo_Park</city>
+        <name>མེན་ལོ་པཀ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Montpellier</city>
+        <name>མོན་དྲི་པེ་ལི་ཡར། (ཧྥ་རན་སི།)</name>
+    </display_name>
+    <display_name>
+        <city>Montevideo</city>
+        <name>མོན་ཊི་ཝི་དྲི་ཨོ། (ཝུ་ར་ཀུའེ།)</name>
+    </display_name>
+    <display_name>
+        <city>Monticello</city>
+        <name>མོན་ཊི་སེལ་ལོ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Memphis</city>
+        <name>མེམ་ཕི་སི། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Moncton</city>
+        <name>མོན་སི་ཊོན། (ཀེ་ན་དྲ།)</name>
+    </display_name>
+    <display_name>
+        <city>Monrovia</city>
+        <name>མོན་རོ་ཝི་ཡ། (ལི་པེ་རི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Mumbai</city>
+        <name>མུམ་བཡེ། (རྒྱ་གར་)</name>
+    </display_name>
+    <display_name>
+        <city>Monterrey</city>
+        <name>མོན་ཊེར་རི། (མེཀ་སི་ཁོ།)</name>
+    </display_name>
+    <display_name>
+        <city>Monterey</city>
+        <name>མོན་ཊི་རི། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Montreal</city>
+        <name>མོན་ཊི་རིལ། (ཀེ་ན་དྲ།)</name>
+    </display_name>
+    <display_name>
+        <city>Milbank</city>
+        <name>མིལ་བེངྒ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Milwaukee</city>
+        <name>མིལ་ཝོ་ཀི། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Milan</city>
+        <name>མི་ལན། (ཨི་ཀྲར་ལི་)</name>
+    </display_name>
+    <display_name>
+        <city>Minneapolis</city>
+        <name>མི་ནི་པོ་ལི་སི། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Minsk</city>
+        <name>མིང་སི་ཀི། (བྷེ་ཨ་རུ་སི།)</name>
+    </display_name>
+    <display_name>
+        <city>Melbourne</city>
+        <name>མེལ་བོན། (ཨོ་སི་ཀྲོ་ལི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Port_Moresby</city>
+        <name>པོར་ཊི་མོར་སི་བཡེ། (ཕ་པུ་ཡ་ཀུའི་ནེ་ཡ་གསར་པ།)</name>
+    </display_name>
+    <display_name>
+        <city>Mogadishu</city>
+        <name>མོ་ག་དི་ཤུ། (སོ་མ་ལི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Moroni</city>
+        <name>མོ་རོ་ནི། (ཀོ་མོ་རོ་སི།)</name>
+    </display_name>
+    <display_name>
+        <city>Monaco</city>
+        <name>མོ་ན་ཁོ། (མོ་ན་ཁོ།)</name>
+    </display_name>
+    <display_name>
+        <city>Mawson_Station</city>
+        <name>མོ་སོན་བབ་ཚུགས། (ཨེན་ཊར་ཊི་ཁ།)</name>
+    </display_name>
+    <display_name>
+        <city>Moscow</city>
+        <name>མོ་སི་ཁོ། (ཨུ་རུ་སུ་)</name>
+    </display_name>
+    <display_name>
+        <city>Mexico_City</city>
+        <name>མེཁ་སི་ཁོ་གྲོང་ཁྱེར། (མེཀ་སི་ཁོ།)</name>
+    </display_name>
+    <display_name>
+        <city>Messina</city>
+        <name>མེ་སི་ན། (ཨི་ཀྲར་ལི་)</name>
+    </display_name>
+    <display_name>
+        <city>Mbabane</city>
+        <name>ཨེམ་བ་བེན། (སུའེ་ཙི་ལན།)</name>
+    </display_name>
+    <display_name>
+        <city>Munich</city>
+        <name>མུ་ནིཁ། (འཇར་མན་)</name>
+    </display_name>
+    <display_name>
+        <city>Naples</city>
+        <name>ནེ་པལ་སི། (ཨི་ཀྲར་ལི་)</name>
+    </display_name>
+    <display_name>
+        <city>Napa</city>
+        <name>ན་པ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Nassau</city>
+        <name>ན་སོ། (ཕ་ཧ་མ།)</name>
+    </display_name>
+    <display_name>
+        <city>Naters</city>
+        <name>ནེ་ཊར། (སུད་སི་ལེནྜ།)</name>
+    </display_name>
+    <display_name>
+        <city>Nanjing</city>
+        <name>ནན་ཅིན། (ཀྲུང་གོ)</name>
+    </display_name>
+    <display_name>
+        <city>Nanning</city>
+        <name>ནན་ཉིང་། (ཀྲུང་གོ)</name>
+    </display_name>
+    <display_name>
+        <city>YuzhnoSakhalinsk</city>
+        <name>ཡུཛ་ནོ་-ས་ཁ་ལིང་། (ཨུ་རུ་སུ་)</name>
+    </display_name>
+    <display_name>
+        <city>Nairobi</city>
+        <name>ནེ་ལོ་པེ། (ཁན་ནི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Nicosia</city>
+        <name>ནི་ཁོ་སི་ཡ། (སེ་བ་རུ་སི།)</name>
+    </display_name>
+    <display_name>
+        <city>Nipigon</city>
+        <name>ནི་པི་གོན། (ཀེ་ན་དྲ།)</name>
+    </display_name>
+    <display_name>
+        <city>Niamey</city>
+        <name>ནི་ཡ་མི། (ནི་ཀྲེར།)</name>
+    </display_name>
+    <display_name>
+        <city>New_York</city>
+        <name>ནིའུ་ཡོག (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Nuuk</city>
+        <name>ནུཀ། (གྷི་རིན་ལེནྜ།)</name>
+    </display_name>
+    <display_name>
+        <city>Nukualofa</city>
+        <name>ནུ་ཀོ་ལོ་ཕ། (ཐང་ཅཱ།)</name>
+    </display_name>
+    <display_name>
+        <city>Noumea</city>
+        <name>ནོ་མི་ཡ། (ཁ་ལེ་ཏོ་ནི་ཡ་གསར་པའི་གླིང་ཕྲན།)</name>
+    </display_name>
+    <display_name>
+        <city>Nouakchott</city>
+        <name>ནོཀ་ཆོཏ། (མོ་རི་ཐིའུ་སི་ནི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Knox</city>
+        <name>ནོཀ་སི། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Knoxville</city>
+        <name>ནོཀ་སི་ཝི་ལི། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Nome</city>
+        <name>ནོམ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Novato</city>
+        <name>ནོ་ཝ་ཊོ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Oral</city>
+        <name>ཨོ་རལ། (ཀ་ཛ་ཀི་སི་ཐན།)</name>
+    </display_name>
+    <display_name>
+        <city>Palmer_Station</city>
+        <name>པལ་མར་བབ་ཚུགས། (ཨེན་ཊར་ཊི་ཁ།)</name>
+    </display_name>
+    <display_name>
+        <city>Pago_Pago</city>
+        <name>པ་གོ་པ་གོ (ཨ་མི་རི་ཀན་ས་མོ་ཨ།)</name>
+    </display_name>
+    <display_name>
+        <city>Paramaribo</city>
+        <name>པ་ར་མ་རི་བོ། (སུ་རི་ནེམ།)</name>
+    </display_name>
+    <display_name>
+        <city>Palo_Alto</city>
+        <name>པ་ལོ་ཨལ་ཊོ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Pacifica</city>
+        <name>པེ་སི་ཕི་ཁ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Pangnirtung</city>
+        <name>པང་ནིར་ཏུང་། (ཀེ་ན་དྲ།)</name>
+    </display_name>
+    <display_name>
+        <city>Perth</city>
+        <name>པར་ཐ། (ཨོ་སི་ཀྲོ་ལི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Petaluma</city>
+        <name>པེ་ཊ་ལུ་མ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Ponta_Delgada</city>
+        <name>པོ་ཊ་དེལ་གྷ་དྲ། (པོར་ཅུ་གྷལ།)</name>
+    </display_name>
+    <display_name>
+        <city>Pittsburgh</city>
+        <name>པིཊ་སི་བྷག (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Pyongyang</city>
+        <name>ཕིང་ཡང་།</name>
+    </display_name>
+    <display_name>
+        <city>Praia</city>
+        <name>པར་ཨི་ཡ། (ཝེར་ཏེ་གླིང་ཟུར།)</name>
+    </display_name>
+    <display_name>
+        <city>Pleasanton</city>
+        <name>པེ་ལེ་སེན་ཊོན། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Plymouth</city>
+        <name>པི་ལཡེ་མ་ཨུཏ། (མོནཊ་སེར་རཏ།)</name>
+    </display_name>
+    <display_name>
+        <city>Chihuahua</city>
+        <name>ཆི་ཧུ་ཨ་ཧུ་ཨ། (མེཀ་སི་ཁོ།)</name>
+    </display_name>
+    <display_name>
+        <city>George_Town</city>
+        <name>ཇོཤ་གྲོང་སྡེ། (ཁའེ་མན་གླིང་ཚོམ།)</name>
+    </display_name>
+    <display_name>
+        <city>Georgetown</city>
+        <name>ཇོཤ་ཊ་ཝུན། (ཀུའེ་ཡ་ན།)</name>
+    </display_name>
+    <display_name>
+        <city>Qingdao</city>
+        <name>ཆིང་ཏའོ། (ཀྲུང་གོ)</name>
+    </display_name>
+    <display_name>
+        <city>Chiang_Mai</city>
+        <name>ཆེང་མཡེ། (ཐེ་ལཱན།)</name>
+    </display_name>
+    <display_name>
+        <city>Genoa</city>
+        <name>ཇི་ནོ་ཝ། (ཨི་ཀྲར་ལི་)</name>
+    </display_name>
+    <display_name>
+        <city>Geneva</city>
+        <name>ཇི་ནི་ཝ། (སུད་སི་ལེནྜ།)</name>
+    </display_name>
+    <display_name>
+        <city>Salta</city>
+        <name>སལ་ཊ། (ཨར་ཇེན་ཊི་ན།)</name>
+    </display_name>
+    <display_name>
+        <city>Salvador</city>
+        <name>སལ་ཝ་དོར། (བྷ་ར་ཛིལ།)</name>
+    </display_name>
+    <display_name>
+        <city>Salzburg</city>
+        <name>སལ་ཛི་བྷག (ཨོས་ཊི་རི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Zagreb</city>
+        <name>ཛེག་རེབ། (ཀོ་རོ་ཏི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Sarajevo</city>
+        <name>ས་ར་ཇི་ཝོ། (བོ་སི་ནི་ཡ་དང་ཧར་ཛི་གོ་ཝི་ན།)</name>
+    </display_name>
+    <display_name>
+        <city>Samarkand</city>
+        <name>ས་མར་ཀན་ད། (ཨུ་ཟ་བྷེ་ཁི་སི་ཐན།)</name>
+    </display_name>
+    <display_name>
+        <city>Samara</city>
+        <name>ས་མ་ར། (ཨུ་རུ་སུ་)</name>
+    </display_name>
+    <display_name>
+        <city>Sanaa</city>
+        <name>ས་ན། (ཡེ་མེན།)</name>
+    </display_name>
+    <display_name>
+        <city>Saskatoon</city>
+        <name>ས་སི་ཀ་ཊུན། (ཀེ་ན་དྲ།)</name>
+    </display_name>
+    <display_name>
+        <city>Saipan</city>
+        <name>སཡེ་པན། (བྱང་ཕྱོགས་མ་རི་ཡ་ན་གླིང་ཕྲན།)</name>
+    </display_name>
+    <display_name>
+        <city>Thessaloniki</city>
+        <name>ཊེ་ས་ལོ་ནི་ཀི། (ཀུ་རི་སི།)</name>
+    </display_name>
+    <display_name>
+        <city>Thunder_Bay</city>
+        <name>ཐན་དྲར་བེ། (ཀེ་ན་དྲ།)</name>
+    </display_name>
+    <display_name>
+        <city>Sunnyvale</city>
+        <name>སན་ནེ་ཝེལ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>The_Valley</city>
+        <name>ད་ཝེ་ལི། (ཨན་ཀུའེ་ཏ།)</name>
+    </display_name>
+    <display_name>
+        <city>Mountain_View</city>
+        <name>མོན་ཊེན་ཝི་ཨུ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Shanghai</city>
+        <name>ཧྲང་ཧའེ། (ཀྲུང་གོ)</name>
+    </display_name>
+    <display_name>
+        <city>Shenyang</city>
+        <name>ཧྲིན་ཡང་། (ཀྲུང་གོ)</name>
+    </display_name>
+    <display_name>
+        <city>Shenzhen</city>
+        <name>ཧྲེན་ཀྲེན། (ཀྲུང་གོ)</name>
+    </display_name>
+    <display_name>
+        <city>San_Antonio</city>
+        <name>སེན་ཨེན་ཊོ་ནི་ཨོ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>San_Pablo</city>
+        <name>སེན་པེབ་ལོ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Sao_Paulo</city>
+        <name>ས་ཨོ་པོ་ལོ། (བྷ་ར་ཛིལ།)</name>
+    </display_name>
+    <display_name>
+        <city>St_Petersburg</city>
+        <name>སེནྜ་པི་ཊར་བྷག (ཨུ་རུ་སུ་)</name>
+    </display_name>
+    <display_name>
+        <city>Saint_Peter_Port</city>
+        <name>སེནྜ་པི་ཊར་པོར་ཊི། (གུན་སེ།)</name>
+    </display_name>
+    <display_name>
+        <city>San_Bruno</city>
+        <name>སེན་བུ་རུ་ནོ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Kiritimati</city>
+        <name>ཀི་རི་ཏི་མ་ཏི། (ཀི་རི་བ་ཊི།)</name>
+    </display_name>
+    <display_name>
+        <city>SaintDenis</city>
+        <name>སེནྜ་དྲེ་ནི་སི། (རི་ཡུ་ནི་ཡོན།)</name>
+    </display_name>
+    <display_name>
+        <city>San_Diego</city>
+        <name>སེན་དི་གོ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Santiago</city>
+        <name>སེན་ཊི་ཡ་གོ། (ཆི་ལི།)</name>
+    </display_name>
+    <display_name>
+        <city>Sao_Tome</city>
+        <name>ས་ཨོ་ཏོམ། (སའོ་ཏོ་མི་དང་པི་རིན་སི་པི།)</name>
+    </display_name>
+    <display_name>
+        <city>Santo_Domingo</city>
+        <name>སེན་ཊོ་དྲོ་མིན་གོ། (དྲོ་མི་ནི་སི་ཡན་སྤྱི་མཐུན་རྒྱལ་ཁབ།)</name>
+    </display_name>
+    <display_name>
+        <city>Saint_Helier</city>
+        <name>སེནྜ་ཧེ་ལི་ཡར། (ཙེ་ཞི་གླིང་།)</name>
+    </display_name>
+    <display_name>
+        <city>San_Jose_United_States</city>
+        <name>སེན་ཇོ་སི། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>San_Jose_Costa_Rica</city>
+        <name>སེན་ཇོ་སི། (ཁོ་སི་ཐ་རི་ཁ།)</name>
+    </display_name>
+    <display_name>
+        <city>San_Juan_Argentina</city>
+        <name>སེན་ཇུ་ཨན། (ཨར་ཇེན་ཊི་ན།)</name>
+    </display_name>
+    <display_name>
+        <city>San_Juan_Puerto_Rico</city>
+        <name>སེན་ཇུ་ཨན། (ཕུལ་ཐོ་རི་ཁོ།)</name>
+    </display_name>
+    <display_name>
+        <city>San_Carlos</city>
+        <name>སེན་ཁར་ལོ་སི། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Santa_Clara_Cuba</city>
+        <name>སེན་ཊ་ཁེ་ལེ་ར། (ཁུ་པ།)</name>
+    </display_name>
+    <display_name>
+        <city>Santa_Cruz</city>
+        <name>སེན་ཊ་ཁུ་རུཛ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>San_Rafael</city>
+        <name>སེན་ར་ཕེལ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>San_Ramon</city>
+        <name>སེན་ར་མོན། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>San_Leandro</city>
+        <name>སེན་ལིན་དྲོ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>San_Luis</city>
+        <name>སེན་ལུ་ཨི་སི། (ཨར་ཇེན་ཊི་ན།)</name>
+    </display_name>
+    <display_name>
+        <city>St_Louis</city>
+        <name>སེནྜ་ལུ་ཨིས། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>San_Marino</city>
+        <name>སེན་མ་རི་ནོ། (སེན་མ་རི་ནོ།)</name>
+    </display_name>
+    <display_name>
+        <city>San_Mateo</city>
+        <name>སེན་མ་ཏི་ཨོ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>SaintPierre</city>
+        <name>སེནྜ་པེར་རི། (སེནཊ་པེ་རི་དང་མི་ཁུ་ལོན།)</name>
+    </display_name>
+    <display_name>
+        <city>St_Georges</city>
+        <name>སེནྜ་ཇོར་ཤི། (ཀེ་རེན་ན་ཏ།)</name>
+    </display_name>
+    <display_name>
+        <city>San_Salvador</city>
+        <name>སེན་སལ་ཝ་དོར། (སར་ཝ་ཏོ།)</name>
+    </display_name>
+    <display_name>
+        <city>San_Salvador_de_Jujuy</city>
+        <name>སེན་སལ་བ་དོར་དི་ཇུ་ཇུ། (ཨར་ཇེན་ཊི་ན།)</name>
+    </display_name>
+    <display_name>
+        <city>Santarem</city>
+        <name>སེན་ཐ་ལོན། (པར་ཙིར།)</name>
+    </display_name>
+    <display_name>
+        <city>Santa_Isabel</city>
+        <name>སེན་ཊ་ཨི་ས་བེལ། (མེཀ་སི་ཁོ།)</name>
+    </display_name>
+    <display_name>
+        <city>St_Johns_Canada</city>
+        <name>སེན་ཅོ་ཧན། (ཁ་ན་ཏ།)</name>
+    </display_name>
+    <display_name>
+        <city>St_Johns_Antigua_amp_Barbuda</city>
+        <name>སེནྜ་ཇོན་སི། (ཨེན་ཊི་གུ་ཨ་དང་བར་བུ་ད།)</name>
+    </display_name>
+    <display_name>
+        <city>Seoul</city>
+        <name>སི་ཨོལ། (ཁོ་རེ་ཡ་ལྷོ་མ།)</name>
+    </display_name>
+    <display_name>
+        <city>Stockholm</city>
+        <name>སི་ཊོཀ་ཧོམ། (སི་ཝི་དྲན།)</name>
+    </display_name>
+    <display_name>
+        <city>Skopje</city>
+        <name>སི་ཀོབ་ཇེ། (མེ་སི་དྲོ་ནི་ཡ་བྱང་མ།)</name>
+    </display_name>
+    <display_name>
+        <city>Bandar_Seri_Begawan</city>
+        <name>བན་ཌར་སེ་རི་བེ་ག་ཝན། (བུ་རུ་ནེ།)</name>
+    </display_name>
+    <display_name>
+        <city>Stanley</city>
+        <name>སེ་ཊེན་ལི། (ཕོཀ་ལེནྡ་གླིང་ཕྲན།)</name>
+    </display_name>
+    <display_name>
+        <city>Swift_Current</city>
+        <name>སི་ཝིཕ་ཊི་ཀ་རན་ཊི། (ཀེ་ན་དྲ།)</name>
+    </display_name>
+    <display_name>
+        <city>Sioux_Falls</city>
+        <name>སི་ཨོ་སི་ཕོལ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Zurich</city>
+        <name>ཛུ་རིཁ། (སུད་སི་ལེནྜ།)</name>
+    </display_name>
+    <display_name>
+        <city>Suva</city>
+        <name>སུ་ཝ། (ཕི་ཇི།)</name>
+    </display_name>
+    <display_name>
+        <city>Sofia</city>
+        <name>སོ་ཕི་ཡ། (བལ་གྷེ་རི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Tarawa</city>
+        <name>ཏ་ར་ཝ། (ཀི་རི་བ་ཊི།)</name>
+    </display_name>
+    <display_name>
+        <city>Tallinn</city>
+        <name>ཏལ་ལིན། (ཨེ་སི་ཊོ་ནི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Tashkent</city>
+        <name>ཊཤ་ཀེན་ཊི། (ཨུ་ཟ་བྷེ་ཁི་སི་ཐན།)</name>
+    </display_name>
+    <display_name>
+        <city>Tahiti</city>
+        <name>ཊ་ཧི་ཏི། (ཧྥ་རན་སི་ཁོངས་ཀྱི་ཕོ་ལེ་ནི་ཞི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Taiohae</city>
+        <name>ཏ་ཨོ་ཧེ། (ཧྥ་རན་སི་ཁོངས་ཀྱི་ཕོ་ལེ་ནི་ཞི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Taipei</city>
+        <name>ཐའེ་པེ། (ཀྲུང་གོ)</name>
+    </display_name>
+    <display_name>
+        <city>Portauprince</city>
+        <name>པོར་ཊི་ཨོ་པི་རིན་སི། (ཧེ་ཐི།)</name>
+    </display_name>
+    <display_name>
+        <city>Honolulu</city>
+        <name>ཧོ་ནོ་ལུ་ལུ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Tell_City</city>
+        <name>ཊེལ་གྲོང་ཁྱེར། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Tegucigalpa</city>
+        <name>ཏེ་གུ་སི་གལ་པ། (ཧོན་དྲུ་ར་སི།)</name>
+    </display_name>
+    <display_name>
+        <city>Tel_Aviv</city>
+        <name>ཏེལ་ཨ་ཝིཝ། (དབྱི་སི་ལེ།)</name>
+    </display_name>
+    <display_name>
+        <city>Trehet</city>
+        <name>ཊེ་ཧེཊ། (ཧྥ་རན་སི།)</name>
+    </display_name>
+    <display_name>
+        <city>Tianjin</city>
+        <name>ཐེན་ཅིན། (ཀྲུང་གོ)</name>
+    </display_name>
+    <display_name>
+        <city>Thimphu</city>
+        <name>ཐིམ་བུ། (འབྲུག)</name>
+    </display_name>
+    <display_name>
+        <city>San_Miguel_de_Tucuman</city>
+        <name>སེན་མཡེ་གུལ་དེ་ཊུ་ཁུ་མེན། (ཨར་ཇེན་ཊི་ན།)</name>
+    </display_name>
+    <display_name>
+        <city>Thule</city>
+        <name>ཐུ་ལེ། (གྷི་རིན་ལེནྜ།)</name>
+    </display_name>
+    <display_name>
+        <city>Tunis</city>
+        <name>ཏུ་ནི་སི། (ཐུ་ནི་སི།)</name>
+    </display_name>
+    <display_name>
+        <city>Torshavn</city>
+        <name>ཏོར་ས་ེཀོན། (ཧྥ་ལོ་གླིང་ཚོམ།)</name>
+    </display_name>
+    <display_name>
+        <city>Vaduz</city>
+        <name>ཝ་ཌུཛ། (ལེ་ཁེ་ཐེན་སི་ཐེན།)</name>
+    </display_name>
+    <display_name>
+        <city>Ouagadougou</city>
+        <name>ཨོ་ཨ་ག་དོ་གུ། (པོ་ཁི་ན་ཧྥ་སོ།)</name>
+    </display_name>
+    <display_name>
+        <city>Valletta</city>
+        <name>ཝེ་ལེཏ་ཏ། (མར་ཐ།)</name>
+    </display_name>
+    <display_name>
+        <city>Vallejo</city>
+        <name>ཝེ་ལི་ཇོ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Vientiane</city>
+        <name>ཝེན་ཊི་ཡན། (ལོ་སི།)</name>
+    </display_name>
+    <display_name>
+        <city>Guatemala_City</city>
+        <name>གོ་ཏི་མ་ལ་གྲོང་ཁྱེར། (གོ་ཏི་མ་ལ།)</name>
+    </display_name>
+    <display_name>
+        <city>Victoria</city>
+        <name>ཝིཁ་ཊོ་རི་ཡ། (སེ་ཧྲེར།)</name>
+    </display_name>
+    <display_name>
+        <city>Vilnius</city>
+        <name>ཝིལ་ནི་ཨུ་སི། (ལི་ཐུ་ཝན་ནི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Willemstad</city>
+        <name>ཝི་ལེམ་སི་ཝེཌ། (ཁུ་ར་ཁོའོ།)</name>
+    </display_name>
+    <display_name>
+        <city>Verona</city>
+        <name>ཝེ་རོ་ན། (ཨི་ཀྲར་ལི་)</name>
+    </display_name>
+    <display_name>
+        <city>Winamac</city>
+        <name>ཝི་ན་མེཁ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Vevay</city>
+        <name>ཝེ་ཝེ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Vienna</city>
+        <name>ཝི་ཡ་ན། (ཨོས་ཊི་རི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Windhoek</city>
+        <name>ཝིན་དྲི་ཧོཀ། (ན་མུ་པི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Vancouver</city>
+        <name>ཝེན་ཁོ་ཝར། (ཀེ་ན་དྲ།)</name>
+    </display_name>
+    <display_name>
+        <city>Winnipeg</city>
+        <name>ཝི་ནི་པེག (ཀེ་ན་དྲ།)</name>
+    </display_name>
+    <display_name>
+        <city>Vincennes</city>
+        <name>ཝིན་སེན་ནེ་སི། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Walnut_Creek</city>
+        <name>ཝལ་ན་ཊི་ཁི་རིཀ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Vostok_Station</city>
+        <name>ཝོ་སོ་ཊོཀ་བབ་ཚུགས། (ཨེན་ཊར་ཊི་ཁ།)</name>
+    </display_name>
+    <display_name>
+        <city>Ottawa</city>
+        <name>ཨོ་ཊ་ཝ། (ཀེ་ན་དྲ།)</name>
+    </display_name>
+    <display_name>
+        <city>Ulaanbaatar</city>
+        <name>ཨུ་ལན་བ་ཏུར། (ཕྱི་སོག)</name>
+    </display_name>
+    <display_name>
+        <city>Urumqi</city>
+        <name>ཝུའུ་ལུའུ་མུའུ་ཆི། (ཀྲུང་གོ)</name>
+    </display_name>
+    <display_name>
+        <city>Wuhan</city>
+        <name>ཝུའུ་ཧན། (ཀྲུང་གོ)</name>
+    </display_name>
+    <display_name>
+        <city>Ushuaia</city>
+        <name>ཨུ་ཤུ་ཨེ། (ཨར་ཇེན་ཊི་ན།)</name>
+    </display_name>
+    <display_name>
+        <city>Hebron</city>
+        <name>ཧེ་བོ་རོན། (ཕ་ལི་སི་ཐན།)</name>
+    </display_name>
+    <display_name>
+        <city>Healdsburg</city>
+        <name>ཧེལ་དྲི་སི་བྷག (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Sydney</city>
+        <name>སིཌ་ནི། (ཨོ་སི་ཀྲོ་ལི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Xian</city>
+        <name>ཞི་ཨན། (ཀྲུང་གོ)</name>
+    </display_name>
+    <display_name>
+        <city>Sitka</city>
+        <name>སིཊ་ཀ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Seattle</city>
+        <name>སི་ཡ་ཊལ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Charlotte</city>
+        <name>ཅར་ལོཊ་ཊི། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Charlotte_Amalie</city>
+        <name>ཅར་ལོཊ་ཊི་ཨ་མེ་ལེ། (ཨ་རི་ཝར་ཇིན་གླིང་ཕྲན།)</name>
+    </display_name>
+    <display_name>
+        <city>Lower_Princes_Quarter</city>
+        <name>ལོ་ཝར་པི་རིན་སི་ཁོ་ཊར། (སིན་མ་ཐིན་གླིང་ཕྲན།)</name>
+    </display_name>
+    <display_name>
+        <city>Hong_Kong</city>
+        <name>ཞང་ཀང་། (ཀྲུང་གོ)</name>
+    </display_name>
+    <display_name>
+        <city>Little_Rock</city>
+        <name>ལི་ཊལ་རོཀ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>New_Orleans</city>
+        <name>ནིའུ་ཨོར་ལིན། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Flying_Fish_Cove</city>
+        <name>ཕ་ལེ་ཡིང་ཕི་ཤི་ཁོབ། (ཁི་རི་སི་མ་སི་གླིང་ཕྲན།)</name>
+    </display_name>
+    <display_name>
+        <city>New_Delhi</city>
+        <name>ནིའུ་དྰི་ལི། (རྒྱ་གར་)</name>
+    </display_name>
+    <display_name>
+        <city>Singapore</city>
+        <name>སིང་ཀ་ཕོར་སྤྱི་མཐུན་རྒྱལ་ཁབ། (སིང་ཀ་ཕོར་སྤྱི་མཐུན་རྒྱལ་ཁབ།)</name>
+    </display_name>
+    <display_name>
+        <city>New_Salem</city>
+        <name>ནིའུ་ས་ལེམ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Novosibirsk</city>
+        <name>ནོ་ཝོ་སི་བི་རི་སི་ཀི། (ཨུ་རུ་སུ་)</name>
+    </display_name>
+    <display_name>
+        <city>Ceuta</city>
+        <name>ཁོ་ཊ། (སི་པེན།)</name>
+    </display_name>
+    <display_name>
+        <city>Houston</city>
+        <name>ཧོ་སི་ཊོན། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Adamstown</city>
+        <name>ཨེ་དྲེམ་སི་གྲོང་སྡེ། (པིཊ་ཁེ་རེན་གླིང་ཕྲན།)</name>
+    </display_name>
+    <display_name>
+        <city>Addis_Ababa</city>
+        <name>ཨེ་དྲི་སི་ཨབ་བ། (ཨི་ཐོ་པི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Athens</city>
+        <name>ཨེ་ཐེན། (ཀུ་རི་སི།)</name>
+    </display_name>
+    <display_name>
+        <city>Aden</city>
+        <name>ཨེ་དྲེན། (ཡེ་མེན།)</name>
+    </display_name>
+    <display_name>
+        <city>Jakarta</city>
+        <name>ཇ་ཀར་ཊ། (ཨིན་དྲོ་ནེ་ཤི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Yakutsk</city>
+        <name>ཡ་ཀུཊ་ས་ཀི། (ཨུ་རུ་སུ་)</name>
+    </display_name>
+    <display_name>
+        <city>Yakutat</city>
+        <name>ཡ་ཀུ་ཊེཌ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Alexandria</city>
+        <name>ཨེ་ལེཀ་ཛེན་དྲི་ཡ། (ཨེབ་ཅི།)</name>
+    </display_name>
+    <display_name>
+        <city>Yamoussoukro</city>
+        <name>ཡ་མོ་སོ་ཀོ་རོ། (ཁོ་ཏི་དྲི་ཨཡེ་ཝོར།)</name>
+    </display_name>
+    <display_name>
+        <city>Asuncion</city>
+        <name>ཨེ་སུན་ཤི་ཡོན། (པེ་ར་གུ་ཨ།)</name>
+    </display_name>
+    <display_name>
+        <city>Atlanta</city>
+        <name>ཨེཊ་ལན་ཊ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Yaounde</city>
+        <name>ཡ་ཝུན་ཏེ། (ཁ་མེ་རོང་།)</name>
+    </display_name>
+    <display_name>
+        <city>Salt_Lake_City</city>
+        <name>སོལ་ཊི་ལེཀ་གྲོང་ཁྱེར། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Rangoon</city>
+        <name>དབྱིང་ཀོང་། (འབར་མ།)</name>
+    </display_name>
+    <display_name>
+        <city>Jerusalem</city>
+        <name>ཡེ་རུ་ས་ལེམ།</name>
+    </display_name>
+    <display_name>
+        <city>Yekaterinburg</city>
+        <name>ཡི་ག་ཊེ་རིན་བྷག (ཨུ་རུ་སུ་)</name>
+    </display_name>
+    <display_name>
+        <city>Yellowknife</city>
+        <name>ཡེ་ལོ་ན་ཡིཕ། (ཀེ་ན་དྲ།)</name>
+    </display_name>
+    <display_name>
+        <city>Irkutsk</city>
+        <name>ཨིར་ཀུཏ་སིཀ། (ཨུ་རུ་སུ་)</name>
+    </display_name>
+    <display_name>
+        <city>Iqaluit</city>
+        <name>ཨི་ཁ་ལུ་ཨིཏ། (ཀེ་ན་དྲ།)</name>
+    </display_name>
+    <display_name>
+        <city>Heraklion</city>
+        <name>ཧི་རཀ་ལ་ཨིན། (ཀུ་རི་སི།)</name>
+    </display_name>
+    <display_name>
+        <city>Inuvik</city>
+        <name>ཨི་ནུ་ཝིཀ། (ཀེ་ན་དྲ།)</name>
+    </display_name>
+    <display_name>
+        <city>Islamabad</city>
+        <name>ཨི་སི་ལ་མ་བྷཏ། (པ་ཀི་སི་ཐན།)</name>
+    </display_name>
+    <display_name>
+        <city>Istanbul</city>
+        <name>ཨི་སི་ཏན་བུལ། (ཊར་ཀི།)</name>
+    </display_name>
+    <display_name>
+        <city>Ittoqqortoormiit</city>
+        <name>ཨི་ཊོཁ་ཁོར་ཏུ་མིཊ། (གྷི་རིན་ལེནྜ།)</name>
+    </display_name>
+    <display_name>
+        <city>Indianapolis</city>
+        <name>ཨིན་དྲི་ཡ་ན་པོ་ལི་སི། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Eucla</city>
+        <name>ཡུཁ་ལ། (ཨོ་སི་ཀྲོ་ལི་ཡ།)</name>
+    </display_name>
+    <display_name>
+        <city>Rainy_River</city>
+        <name>རེ་ནི་རི་ཝར། (ཀེ་ན་དྲ།)</name>
+    </display_name>
+    <display_name>
+        <city>Johannesburg</city>
+        <name>ཇོ་ནན་སི་བྷག (ལྷོ་ཨ་ཕི་རི་ཁ།)</name>
+    </display_name>
+    <display_name>
+        <city>Zhengzhou</city>
+        <name>ཀྲེང་ཀྲོའུ། (ཀྲུང་གོ)</name>
+    </display_name>
+    <display_name>
+        <city>Jamestown</city>
+        <name>ཇེམ་སི་གྲོང་སྡེ། (སེནཊ་ཧེ་ལེ་ན།)</name>
+    </display_name>
+    <display_name>
+        <city>Syowa_Station</city>
+        <name>སོ་ཡོ་ཝ་བབ་ཚུགས། (ཨེན་ཊར་ཊི་ཁ།)</name>
+    </display_name>
+    <display_name>
+        <city>Gibraltar</city>
+        <name>ཀྲི་པུ་ལུ་ཐུའོ། (ཀྲི་པུ་ལུ་ཐུའོ།)</name>
+    </display_name>
+    <display_name>
+        <city>Chicago</city>
+        <name>ཆི་ག་གོ (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Juba</city>
+        <name>ཇུ་བ། (ལྷོ་སུ་ཌན།)</name>
+    </display_name>
+    <display_name>
+        <city>Juneau</city>
+        <name>ཇུ་ནི་ཡ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Choibalsan</city>
+        <name>ཆོ་བལ་སན། (ཕྱི་སོག)</name>
+    </display_name>
+    <display_name>
+        <city>Midway_Islands</city>
+        <name>མིཌ་ཝེ་གླིང་ཕྲན། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Black_Rock_City</city>
+        <name>བེ་ལེཀ་རོཀ་གྲོང་ཁྱེར། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Kirkland</city>
+        <name>ཀར་ཀི་ལེན་དྲི། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Reno</city>
+        <name>རེ་ནོ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Sacramento</city>
+        <name>ས་ཁ་ར་མེན་ཊོ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Tucson</city>
+        <name>ཊུཁ་སོན། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Nashville</city>
+        <name>ནཤ་ཝི་ལི། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Center</city>
+        <name>དབུས། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Ann_Arbor</city>
+        <name>ཨེན་ཨར་བོར། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Cambridge</city>
+        <name>ཀེམ་བི་རིཇ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Jacksonville</city>
+        <name>ཇེཀ་སན་ཝི་ལི། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Reston</city>
+        <name>རེས་ཊོན། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Tampa</city>
+        <name>ཏམ་པ། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Cincinnati</city>
+        <name>སིན་སི་ན་ཏི། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Port_of_Spain</city>
+        <name>སི་པེན་གྲུ་ཚུགས། (ཏྲི་ནི་དྰད་དང་ཏོ་བ་གོ)</name>
+    </display_name>
+    <display_name>
+        <city>Belo_Horizonte</city>
+        <name>བེ་ལོ་ཧོ་རི་ཛོན་ཊི། (བྷ་ར་ཛིལ།)</name>
+    </display_name>
+    <display_name>
+        <city>Belfast</city>
+        <name>བེལ་ཕ་སི་ཊི། (དབྱིན་ཇི་)</name>
+    </display_name>
+    <display_name>
+        <city>Manchester</city>
+        <name>མེན་ཅེ་སི་ཊར། (དབྱིན་ཇི་)</name>
+    </display_name>
+    <display_name>
+        <city>Timbuktu</city>
+        <name>ཊིམ་བུཀ་ཊུ། (མ་ལི།)</name>
+    </display_name>
+    <display_name>
+        <city>Wroclaw</city>
+        <name>རོཁ་ཨོ། (པོ་ལེནྜ།)</name>
+    </display_name>
+    <display_name>
+        <city>Oulu</city>
+        <name>ཨོ་ལུ། (ཕིན་ལེནྜ།)</name>
+    </display_name>
+    <display_name>
+        <city>Haifa</city>
+        <name>ཧཡེ་ཕ། (དབྱི་སི་ལེ།)</name>
+    </display_name>
+    <display_name>
+        <city>Simferopol</city>
+        <name>སེན་ཧྥུ་རོ་ཕོར།</name>
+    </display_name>
+    <display_name>
+        <city>Aqtau</city>
+        <name>ཨཀ་ཏོ། (ཀ་ཛ་ཀི་སི་ཐན།)</name>
+    </display_name>
+    <display_name>
+        <city>Lahore</city>
+        <name>ལ་ཧོར། (པ་ཀི་སི་ཐན།)</name>
+    </display_name>
+    <display_name>
+        <city>Delhi</city>
+        <name>ལྡི་ལི། (རྒྱ་གར་)</name>
+    </display_name>
+    <display_name>
+        <city>Gurgaon</city>
+        <name>གུར་ག་ཨོན། (རྒྱ་གར་)</name>
+    </display_name>
+    <display_name>
+        <city>Boulder</city>
+        <name>བོལ་ཊར། (ཨ་མེ་རི་ཀ།)</name>
+    </display_name>
+    <display_name>
+        <city>Hohhot</city>
+        <name>ཧུའུ་ཧོ་ཧའོ་ཐེ། (ཀྲུང་གོ)</name>
+    </display_name>
+    <display_name>
+        <city>Yinchuan</city>
+        <name>དབྱིན་ཁྲོན། (ཀྲུང་གོ)</name>
+    </display_name>
+    <display_name>
+        <city>Shijiazhuang</city>
+        <name>ཧྲི་ཅ་ཀྲོང་། (ཀྲུང་གོ)</name>
+    </display_name>
+    <display_name>
+        <city>Lanzhou</city>
+        <name>ལན་ཀྲོའུ། (ཀྲུང་གོ)</name>
+    </display_name>
+    <display_name>
+        <city>Taiyuan</city>
+        <name>ཐའེ་ཡོན། (ཀྲུང་གོ)</name>
+    </display_name>
+    <display_name>
+        <city>Nanchang</city>
+        <name>ནན་ཁྲང་། (ཀྲུང་གོ)</name>
+    </display_name>
+    <display_name>
+        <city>Changsha</city>
+        <name>ཁྲང་ཧྲ། (ཀྲུང་གོ)</name>
+    </display_name>
+    <display_name>
+        <city>Guiyang</city>
+        <name>ཀུའེ་ཡང་། (ཀྲུང་གོ)</name>
+    </display_name>
+    <display_name>
+        <city>Xining</city>
+        <name>ཟི་ལིང་། (ཀྲུང་གོ)</name>
+    </display_name>
+    <display_name>
+        <city>Acapulco</city>
+        <name>ཨ་ཁཱ་ཕོར་ཁེ། (མོ་ཤི་ཁོ།)</name>
+    </display_name>
+    <display_name>
+        <city>Aguascalientes</city>
+        <name>ཨ་ཀཱ་སི་ཁ་ལེན་སི་ཐེ། (མོ་ཤི་ཁོ།)</name>
+    </display_name>
+    <display_name>
+        <city>Chennai</city>
+        <name>ཅིན་ནེ། (ཧིན་རྡུ།)</name>
+    </display_name>
+    <display_name>
+        <city>Ciudad_Juarez</city>
+        <name>ཧ་ལེ་སི་གྲོང་ཁྱེར། (མོ་ཤི་ཁོ།)</name>
+    </display_name>
+    <display_name>
+        <city>Cuernavaca</city>
+        <name>ཁོ་ཨེར་ན་ཝ་ཁ། (མོ་ཤི་ཁོ།)</name>
+    </display_name>
+    <display_name>
+        <city>Donetsk</city>
+        <name>ཏོན་ནེ་ཚི་ཁུ། (ཝུའུ་ཁོ་རན།)</name>
+    </display_name>
+    <display_name>
+        <city>Famagusta</city>
+        <name>ཧྥ་ན་ཀོ་སི་ཐ། (སེབ་རུ་སི།)</name>
+    </display_name>
+    <display_name>
+        <city>Fort_StJohn</city>
+        <name>སེན་ཅོ་ཧན་པོ། (ཁ་ན་ཏ།)</name>
+    </display_name>
+    <display_name>
+        <city>Green_Bay</city>
+        <name>གོ་ལེན་པེ། (ཨ་རི།)</name>
+    </display_name>
+    <display_name>
+        <city>Guadalajara</city>
+        <name>ཀཱ་ལ་ཧ་ལ་ཧ། (མོ་ཤི་ཁོ།)</name>
+    </display_name>
+    <display_name>
+        <city>Leon</city>
+        <name>རེ་ཨཱང་། (མོ་ཤི་ཁོ།)</name>
+    </display_name>
+    <display_name>
+        <city>Marrakesh</city>
+        <name>མ་ལ་ཁ་ཧྲི། (མཱོ་རོ་ཁུ།)</name>
+    </display_name>
+    <display_name>
+        <city>Mexicali</city>
+        <name>མོ་ཤི་ཁ་ལེའུ། (མོ་ཤི་ཁོ།)</name>
+    </display_name>
+    <display_name>
+        <city>Montpelier</city>
+        <name>མོན་པེ་ལེ་ཨེར། (ཨ་རུ།)</name>
+    </display_name>
+    <display_name>
+        <city>Novokuznetsk</city>
+        <name>ཁོས་ཙི་ནེ་ཚི་ཁུ། (ཨུ་རུ་སུ།)</name>
+    </display_name>
+    <display_name>
+        <city>Puebla</city>
+        <name>ཕོ་ཨེར་པོ་ལ། (མོ་ཤི་ཁོ།)</name>
+    </display_name>
+    <display_name>
+        <city>Punta_Arenas</city>
+        <name>ཕུན་ཐ་ཨ་རེ་ན་སུ། (ཆི་ལི།)</name>
+    </display_name>
+    <display_name>
+        <city>Queretaro</city>
+        <name>ཁུ་ལེ་ཐ་ལོ། (མོ་ཤི་ཁོ།)</name>
+    </display_name>
+    <display_name>
+        <city>San_Luis_Potosi</city>
+        <name>སེན་ལོ་དབྱི་སི་པོ་ཐོ་ཞི། (མོ་ཤི་ཁོ།)</name>
+    </display_name>
+    <display_name>
+        <city>Santa_Clara_United_States</city>
+        <name>སེན་ཁུ་ལ་ལ། (ཨ་རུ།)</name>
+    </display_name>
+    <display_name>
+        <city>Saratov</city>
+        <name>ས་ལ་ཐོ་ཧྥུ། (ཨུ་རུ་སུ།)</name>
+    </display_name>
+    <display_name>
+        <city>Torreon</city>
+        <name>ཐོ་རེ་ཝུན། (མོ་ཤི་ཁོ།)</name>
+    </display_name>
+</display_names>

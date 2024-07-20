@@ -1,0 +1,68 @@
+{
+  "settings": [
+    {
+      "name": "settings.audio.ringtone",
+      "value": "5"
+    },
+    {
+      "name": "settings.audio.media",
+      "value": "5"
+    },
+    {
+      "name": "settings.audio.voicecall",
+      "value": "5"
+    },
+    {
+      "name": "settings.display.navigationbar_status",
+      "value": "1"
+    },
+    {
+      "name": "cellular_data_enable",
+      "value": "1"
+    },
+    {
+      "name": "settings.display.auto_screen_brightness",
+      "value": "1"
+    },
+    {
+      "name": "ota_disable_automatic_update",
+      "value": "1"
+    },
+    {
+      "name": "POWER_KEY_DOUBLE_CLICK_FOR_WALLET",
+      "value": "true"
+    },
+    {
+      "name": "item_wakeup_gaze_switch",
+      "value": "1"
+    },
+    {
+      "name": "auto_start_pip_status",
+      "value": "true"
+    },
+    {
+      "name": "settings.collaboration.multi_device_collaboration_service_switch",
+      "value": "1"
+    }
+  ],
+  "user": [
+    {
+      "name": "font_scale",
+      "value": "1"
+    },
+    {
+      "name": "font_weight_scale",
+      "value": "1"
+    }
+  ],
+  "userSecure": [
+    {
+      "name": "passwordvault_cloudsync",
+      "value": "close"
+    },
+    {
+      "name": "autofill_service",
+      "value": "com.huawei.hmos.passwordvault/entry/AutoFillAbility"
+    }
+  ]
+}

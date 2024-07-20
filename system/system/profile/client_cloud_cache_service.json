@@ -1,0 +1,12 @@
+{
+    "process": "client_cloud_cache_service",
+    "systemability": [
+        {
+            "name": 66054,
+            "libpath": "libcccs_service.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump-level": 1
+        }
+    ]
+}

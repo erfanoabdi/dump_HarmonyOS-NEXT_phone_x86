@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<audioParamConfig xmlns:xi="http://www.w3.org/2001/XInclude" version="1.0">
+  <mainkeys>
+    <mainkey name="mmi">
+      <subkeys>
+        <subkey name="mmi_audioeffect" usage="hdf"/>
+        <subkey name="SmartPA_calib" usage="hdf"/>
+        <subkey name="mmi_test" usage="hdf"/>
+        <subkey name="typec_headphone_test" usage="hdf"/>
+        <subkey name="input_device" usage="hdf"/>
+        <subkey name="output_device" usage="hdf"/>
+        <subkey name="speaker_test_content" usage="hdf"/>
+        <subkey name="mic_test_content" usage="hdf"/>
+        <subkey name="mic_volume_threshold" usage="hdf"/>
+        <subkey name="getSmartPANV" usage="hdf"/>
+        <subkey name="SmartPA_coef" usage="hdf"/>
+        <subkey name="show_calibration_ChipModel" usage="hdf"/>
+        <subkey name="show_RealTime_ChipModel" usage="hdf"/>
+        <subkey name="speaker_id_test_result" usage="hdf"/>
+        <subkey name="codec_reg_dump_file" usage="hdf"/>
+        <subkey name="charge_status" usage="hdf"/>
+        <subkey name="USEDMODEM" usage="hdf"/>
+      </subkeys>
+    </mainkey>
+    <mainkey name="dfx">
+      <subkeys>
+        <subkey name="dump_audio_log" usage="hdf"/>
+      </subkeys>
+    </mainkey>
+  </mainkeys>
+</audioParamConfig>

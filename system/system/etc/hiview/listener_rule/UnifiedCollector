@@ -1,0 +1,12 @@
+{
+    "domains": [
+        {
+            "domain": "FRAMEWORK",
+            "include": ["MAIN_THREAD_JANK"]
+        },
+        {
+            "domain": "RSS",
+            "include": ["APP_CGROUP_CHANGE"]
+        }
+    ]
+}

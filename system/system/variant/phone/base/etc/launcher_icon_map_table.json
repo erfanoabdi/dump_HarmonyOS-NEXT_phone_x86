@@ -1,0 +1,324 @@
+[
+  {
+    "sourcePackageName": "com.huawei.photos",
+    "sourceClassName": "com.huawei.gallery.app.GalleryMain",
+    "targetBundleName": "com.huawei.hmos.photos",
+    "targetModuleName": "phone_photos",
+    "targetAbilityName": "com.huawei.hmos.photos.MainAbility"
+  },
+  {
+    "sourcePackageName": "com.huawei.music",
+    "sourceClassName": "com.android.mediacenter.PageActivity",
+    "targetBundleName": "com.huawei.hmsapp.music",
+    "targetModuleName": "phone",
+    "targetAbilityName": "MainAbility"
+  },
+  {
+    "sourcePackageName": "com.android.settings",
+    "sourceClassName": "com.android.settings.HWSettings",
+    "targetBundleName": "com.huawei.hmos.settings",
+    "targetModuleName": "phone_settings",
+    "targetAbilityName": "com.huawei.hmos.settings.MainAbility"
+  },
+  {
+    "sourcePackageName": "com.huawei.calendar",
+    "sourceClassName": "com.android.calendar.AllInOneActivity",
+    "targetBundleName": "com.huawei.hmos.calendar",
+    "targetModuleName": "phone",
+    "targetAbilityName": "MainAbility"
+  },
+  {
+    "sourcePackageName": "com.huawei.notepad",
+    "sourceClassName": "com.example.android.notepad.NotePadActivity",
+    "targetBundleName": "com.huawei.hmos.notepad",
+    "targetModuleName": "NotepadPhone",
+    "targetAbilityName": "MainAbility"
+  },
+  {
+    "sourcePackageName": "com.huawei.deskclock",
+    "sourceClassName": "com.android.deskclock.AlarmsMainActivity",
+    "targetBundleName": "com.huawei.hmos.clock",
+    "targetModuleName": "entry",
+    "targetAbilityName": "com.huawei.hmos.clock.phone"
+  },
+  {
+    "sourcePackageName": "com.android.deskclock",
+    "sourceClassName": "com.android.deskclock.AlarmsMainActivity",
+    "targetBundleName": "com.huawei.hmos.clock",
+    "targetModuleName": "entry",
+    "targetAbilityName": "com.huawei.hmos.clock.phone"
+  },
+  {
+    "sourcePackageName": "com.huawei.calculator",
+    "sourceClassName": "com.huawei.calculator.Calculator",
+    "targetBundleName": "com.huawei.hmos.calculator",
+    "targetModuleName": "phone",
+    "targetAbilityName": "CalculatorAbility"
+  },
+  {
+    "sourcePackageName": "com.huawei.filemanager",
+    "sourceClassName": "com.huawei.hidisk.filemanager.FileManager",
+    "targetBundleName": "com.huawei.hmos.filemanager",
+    "targetModuleName": "entry",
+    "targetAbilityName": "FileManagerAbility"
+  },
+  {
+    "sourcePackageName": "com.vmall.client",
+    "sourceClassName": "com.vmall.client.splash.fragment.SplashActivity",
+    "targetBundleName": "com.huawei.hmos.vmall",
+    "targetModuleName": "entrance",
+    "targetAbilityName": "EntranceAbility"
+  },
+  {
+    "sourcePackageName": "com.huawei.betaclub",
+    "sourceClassName": "com.huawei.betaclub.home.SplashActivity",
+    "targetBundleName": "com.huawei.hmos.betaclub",
+    "targetModuleName": "phone",
+    "targetAbilityName": "MainAbility"
+  },
+  {
+    "sourcePackageName": "com.huawei.health",
+    "sourceClassName": "com.huawei.health.MainActivity",
+    "targetBundleName": "com.huawei.hmos.health",
+    "targetModuleName": "entry",
+    "targetAbilityName": "MainAbility"
+  },
+  {
+    "sourcePackageName": "com.huawei.hwireader",
+    "sourceClassName": "com.chaozh.iReader.ui.activity.WelcomeActivity",
+    "targetBundleName": "com.huawei.hmsapp.books",
+    "targetModuleName": "HwBooks",
+    "targetAbilityName": "MainAbility"
+  },
+  {
+    "sourcePackageName": "com.huawei.hwread.dz",
+    "sourceClassName": "com.huawei.reader.launch.impl.splash.SplashScreenActivity",
+    "targetBundleName": "com.huawei.hmsapp.books",
+    "targetModuleName": "HwBooks",
+    "targetAbilityName": "MainAbility"
+  },
+  {
+    "sourcePackageName": "com.huawei.himovie",
+    "sourceClassName": "com.huawei.himovie.ui.login.SplashScreenActivity",
+    "targetBundleName": "com.huawei.hmsapp.himovie",
+    "targetModuleName": "entry",
+    "targetAbilityName": "MainAbility"
+  },
+  {
+    "sourcePackageName": "com.huawei.wallet",
+    "sourceClassName": "com.huawei.wallet.view.MainActivity",
+    "targetBundleName": "com.huawei.hmos.wallet",
+    "targetModuleName": "phone",
+    "targetAbilityName": "MainAbility"
+  },
+  {
+    "sourcePackageName": "com.huawei.meetime",
+    "sourceClassName": "com.huawei.meetime.MainMenuActivity",
+    "targetBundleName": "com.huawei.hmos.meetime",
+    "targetModuleName": "phone",
+    "targetAbilityName": "MainAbility"
+  },
+  {
+    "sourcePackageName": "com.huawei.android.thememanager",
+    "sourceClassName": "com.huawei.android.thememanager.mvp.view.activity.onlinebase.PageActivity",
+    "targetBundleName": "com.huawei.hmsapp.thememanager",
+    "targetModuleName": "entry",
+    "targetAbilityName": "MainAbility"
+  },
+  {
+    "sourcePackageName": "com.huawei.android.thememanager",
+    "sourceClassName": "com.huawei.android.thememanager.PageActivity",
+    "targetBundleName": "com.huawei.hmsapp.thememanager",
+    "targetModuleName": "entry",
+    "targetAbilityName": "MainAbility"
+  },
+  {
+    "sourcePackageName": "com.huawei.android.tips",
+    "sourceClassName": "com.huawei.android.tips.launch.ui.SplashActivity",
+    "targetBundleName": "com.huawei.hmos.tips",
+    "targetModuleName": "phone",
+    "targetAbilityName": "IndexAbility"
+  },
+  {
+    "sourcePackageName": "com.huawei.smarthome",
+    "sourceClassName": "com.huawei.smarthome.login.LauncherActivity",
+    "targetBundleName": "com.huawei.hmos.ailife",
+    "targetModuleName": "phone",
+    "targetAbilityName": "EntryAbility"
+  },
+  {
+    "sourcePackageName": "com.huawei.android.totemweather",
+    "sourceClassName": "com.huawei.android.totemweather.WeatherHome",
+    "targetBundleName": "com.huawei.hmsapp.totemweather",
+    "targetModuleName": "product",
+    "targetAbilityName": "com.huawei.hmsapp.totemweather.MainAbility"
+  },
+  {
+    "sourcePackageName": "com.huawei.compass",
+    "sourceClassName": "com.huawei.compass.MainActivity",
+    "targetBundleName": "com.huawei.hmsapp.compass",
+    "targetModuleName": "entry",
+    "targetAbilityName": "EntryAbility"
+  },
+  {
+    "sourcePackageName": "com.huawei.appmarket",
+    "sourceClassName": "com.huawei.appmarket.MainActivity",
+    "targetBundleName": "com.huawei.hmsapp.appgallery",
+    "targetModuleName": "entry",
+    "targetAbilityName": "MainAbility"
+  },
+  {
+    "sourcePackageName": "com.huawei.gamebox",
+    "sourceClassName": "com.huawei.gamebox.GameBoxActivity",
+    "targetBundleName": "com.huawei.hmsapp.gamecenter",
+    "targetModuleName": "entry",
+    "targetAbilityName": "EntryAbility"
+  },
+  {
+    "sourcePackageName": "com.huawei.android.findmyphone",
+    "sourceClassName": "com.huawei.android.findmyphone.ui.findphone.FindMyPhoneActivity",
+    "targetBundleName": "com.huawei.hmos.finddevice",
+    "targetModuleName": "entry",
+    "targetAbilityName": "EntryAbility"
+  },
+  {
+    "sourcePackageName": "com.android.stk",
+    "sourceClassName": "com.android.stk.StkLauncherActivity",
+    "targetBundleName": "com.huawei.hmos.simtoolkits",
+    "targetModuleName": "entry",
+    "targetAbilityName": "EntryAbility"
+  },
+  {
+    "sourcePackageName": "com.huawei.security2",
+    "sourceClassName": "com.huawei.security.login.LoginActivity",
+    "targetBundleName": "com.huawei.hmsapp.samplemanagement",
+    "targetModuleName": "entry",
+    "targetAbilityName": "EntryAbility"
+  },
+  {
+    "sourcePackageName": "com.huawei.camera",
+    "sourceClassName": "com.huawei.camera",
+    "targetBundleName": "com.huawei.hmos.camera",
+    "targetModuleName": "phone",
+    "targetAbilityName": "com.huawei.hmos.camera.MainAbility"
+  },
+  {
+    "sourcePackageName": "com.huawei.browser",
+    "sourceClassName": "com.huawei.browser.Main2",
+    "targetBundleName": "com.huawei.hmos.browser",
+    "targetModuleName": "entry",
+    "targetAbilityName": "MainAbility"
+  },
+  {
+    "sourcePackageName": "com.android.mms",
+    "sourceClassName": "com.android.mms.ui.ConversationList",
+    "targetBundleName": "com.ohos.mms",
+    "targetModuleName": "entry",
+    "targetAbilityName": "com.ohos.mms.MainAbility"
+  },
+  {
+    "sourcePackageName": "com.huawei.contacts",
+    "sourceClassName": "com.android.contacts.activities.DialtactsActivity",
+    "targetBundleName": "com.ohos.contacts",
+    "targetModuleName": "entry",
+    "targetAbilityName": "com.ohos.contacts.MainAbility"
+  },
+  {
+    "sourcePackageName": "com.hicloud.android.clone",
+    "sourceClassName": "com.huawei.android.clone.activity.sender.ChooseReceiveSendActivity",
+    "targetBundleName": "com.huawei.hmos.dataclone",
+    "targetModuleName": "phone",
+    "targetAbilityName": "EntryAbility"
+  },
+  {
+    "sourcePackageName": "com.huawei.phoneservice",
+    "sourceClassName": "com.huawei.phoneservice.LaunchActivity",
+    "targetBundleName": "com.huawei.hmos.myhuawei",
+    "targetModuleName": "entry",
+    "targetAbilityName": "EntryAbility"
+  },
+  {
+    "sourcePackageName": "com.huawei.phoneservice",
+    "sourceClassName": "com.huawei.myhuawei.ui.HwSplashActivity",
+    "targetBundleName": "com.huawei.hmos.myhuawei",
+    "targetModuleName": "entry",
+    "targetAbilityName": "EntryAbility"
+  },
+  {
+    "sourcePackageName": "com.huawei.soundrecorder",
+    "sourceClassName": "com.android.soundrecorder.RecordListActivity",
+    "targetBundleName": "com.huawei.hmos.soundrecorder",
+    "targetModuleName": "sound_recorder",
+    "targetAbilityName": "com.huawei.hmos.soundrecorder.MainAbility"
+  },
+  {
+    "sourcePackageName": "com.android.soundrecorder",
+    "sourceClassName": "com.android.soundrecorder.RecordListActivity",
+    "targetBundleName": "com.huawei.hmos.soundrecorder",
+    "targetModuleName": "sound_recorder",
+    "targetAbilityName": "com.huawei.hmos.soundrecorder.MainAbility"
+  },
+  {
+    "sourcePackageName": "com.sankuai.meituan",
+    "sourceClassName": "com.meituan.android.pt.homepage.activity.MainActivity",
+    "targetBundleName": "com.sankuai.hmeituan",
+    "targetModuleName": "meituan",
+    "targetAbilityName": "EntryAbility"
+  },
+  {
+    "sourcePackageName": "com.petal.litegames",
+    "sourceClassName": "com.huawei.litegames.LiteGamesActivity",
+    "targetBundleName": "com.huawei.hmsapp.litegames",
+    "targetModuleName": "entry",
+    "targetAbilityName": "EntryAbility"
+  },
+  {
+    "sourcePackageName": "com.huawei.hiskytone",
+    "sourceClassName": "com.huawei.skytone.account.welcome.SplashActivity",
+    "targetBundleName": "com.huawei.hmos.hiskytone",
+    "targetModuleName": "entry",
+    "targetAbilityName": "EntryAbility"
+  },
+  {
+    "sourcePackageName": "com.huawei.himovie.local",
+    "sourceClassName": "com.huawei.himovie.local.MainActivity",
+    "targetBundleName": "com.huawei.hmsapp.himovie",
+    "targetModuleName": "entry",
+    "targetAbilityName": "MainAbility"
+  },
+  {
+    "sourcePackageName": "com.huawei.music.local",
+    "sourceClassName": "com.huawei.music.local.main.MainActivity",
+    "targetBundleName": "com.huawei.hmsapp.music",
+    "targetModuleName": "phone",
+    "targetAbilityName": "MainAbility"
+  },
+  {
+    "sourcePackageName": "com.huawei.hwread.dz.local",
+    "sourceClassName": "com.huawei.reader.launch.impl.service.SplashActivity",
+    "targetBundleName": "com.huawei.hmsapp.books",
+    "targetModuleName": "HwBooks",
+    "targetAbilityName": "MainAbility"
+  },
+  {
+    "sourcePackageName": "com.huawei.maps.app",
+    "sourceClassName": "com.huawei.maps.app.petalmaps.splash.SplashActivity",
+    "targetBundleName": "com.huawei.hmos.maps.app",
+    "targetModuleName": "entry",
+    "targetAbilityName": "MainAbility"
+  },
+  {
+    "sourcePackageName": "com.huawei.email",
+    "sourceClassName": "com.android.email.activity.Welcome",
+    "targetBundleName": "com.huawei.hmos.email",
+    "targetModuleName": "entry",
+    "targetAbilityName": "MainAbility"
+  },
+  {
+    "sourcePackageName": "com.huawei.hinote",
+    "sourceClassName": "com.huawei.hinote.HomeLauncherActivity",
+    "targetBundleName": "com.huawei.hmos.hinote",
+    "targetModuleName": "HiNotePc",
+    "targetAbilityName": "HiNotePcMainAbility"
+  }
+]

@@ -1,0 +1,59 @@
+{
+    "distributedsched": {
+        "servicesAuthority": {
+          "specific": {
+            "appInfo": 1
+          }
+        }
+    },
+    "foundation": {
+        "servicesAuthority": {
+          "specific": {
+            "syscap": 1
+          }
+        }
+    },
+    "multimodalinput": {
+        "servicesAuthority": {
+          "specific": {
+            "InputDeviceCooperation": 3
+          }
+        },
+        "interfacesAuthority": {
+          "sync": {}
+        }
+    },
+    "pasteboard_service": {
+        "servicesAuthority": {
+          "specific": {
+            "pasteboardService": 3
+          }
+        },
+        "interfacesAuthority": {
+          "sync": {}
+        }
+    },
+    "msdp_sa": {
+        "servicesAuthority": {
+          "specific": {
+            "deviceStatus": 3
+          }
+        },
+        "interfacesAuthority": {
+          "sync": {}
+        }
+    },
+    "CollaborationFwk": {
+        "servicesAuthority": {
+          "specific": {
+            "collaborationFwk": 3,
+            "infoCollection": 3,
+            "serviceNameCollection": 3,
+            "deviceStatus": 1
+          }
+        },
+        "interfacesAuthority": {
+          "sync": {}
+        }
+    }
+}

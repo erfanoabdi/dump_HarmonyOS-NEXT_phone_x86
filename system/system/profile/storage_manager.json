@@ -1,0 +1,12 @@
+{
+    "process": "storage_manager",
+    "systemability": [
+        {
+            "name": 5003,
+            "libpath": "libstorage_manager.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        }
+    ]
+}

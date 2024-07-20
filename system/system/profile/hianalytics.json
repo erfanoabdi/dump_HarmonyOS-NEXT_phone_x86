@@ -1,0 +1,12 @@
+{
+    "process": "hianalytics",
+    "systemability": [
+        {
+            "name": 65777,
+            "libpath": "libha_service.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump-level": 1
+        }
+    ]
+}

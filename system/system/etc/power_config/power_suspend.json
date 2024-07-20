@@ -1,0 +1,18 @@
+{
+    "powerkey": {
+        "action": 1,
+        "delayMs": 0
+    },
+    "timeout": {
+        "action": 1,
+        "delayMs": 0
+    },
+    "lid": {
+        "action": 1,
+        "delayMs": 0
+    },
+    "switch": {
+        "action": 1,
+        "delayMs": 0
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "process": "aps_manager",
+    "systemability": [
+        {
+            "name": 65958,
+            "libpath": "libapsmgr.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump-level": 1
+        }
+    ]
+}

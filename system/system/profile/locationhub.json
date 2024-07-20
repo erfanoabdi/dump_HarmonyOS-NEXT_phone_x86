@@ -1,0 +1,47 @@
+{
+    "process": "locationhub",
+    "systemability": [
+        {
+            "name": 2801,
+            "libpath": "liblbsservice_geocode.z.so",
+            "run-on-create": false,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 2802,
+            "libpath": "liblbsservice_locator.z.so",
+            "run-on-create": false,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 2803,
+            "libpath": "liblbsservice_gnss.z.so",
+            "run-on-create": false,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 2804,
+            "libpath": "liblbsservice_network.z.so",
+            "run-on-create": false,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 2805,
+            "libpath": "liblbsservice_passive.z.so",
+            "run-on-create": false,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 4353,
+            "libpath": "liblocation_framework_ext.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        }
+    ]
+}

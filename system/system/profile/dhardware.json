@@ -1,0 +1,19 @@
+{
+    "process": "dhardware",
+    "systemability": [
+        {
+            "name": 4801,
+            "libpath": "libdistributedhardwarefwksvr.z.so",
+            "run-on-create": false,
+            "distributed": true,
+            "dump_level": 1,
+            "start-on-demand": {
+                "commonevent": [
+                    {
+                        "name": "usual.event.BOOT_COMPLETED"
+                    }
+                ]
+            }
+        }
+    ]
+}

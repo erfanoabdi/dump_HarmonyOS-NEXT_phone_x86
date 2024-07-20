@@ -1,0 +1,8 @@
+plugins:2
+Faultlogger[]:0 static
+BBoxDetectorPlugin[thread:bbox_detector]:0 static
+pipelines:2
+faultloggerPipeline:Faultlogger SysEventDispatcher SysEventStore
+BBoxDetectorPipeline:BBoxDetectorPlugin SysEventDispatcher SysEventStore
+pipelinegroups:1
+SysEventSource:faultloggerPipeline BBoxDetectorPipeline

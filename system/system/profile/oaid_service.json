@@ -1,0 +1,12 @@
+{
+    "process": "oaid_service",
+    "systemability": [
+        {
+            "name": 6101,
+            "libpath": "liboaid_service.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump-level": 1
+        }
+    ]
+}

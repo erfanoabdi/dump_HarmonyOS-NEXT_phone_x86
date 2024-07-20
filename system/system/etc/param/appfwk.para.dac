@@ -1,0 +1,36 @@
+# Copyright (c) 2022 Huawei Device Co., Ltd.
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+bootevent.appfwk.ready = foundation:foundation:0775
+component.startup.newRules = foundation:foundation:0775
+component.startup.newRules.except.LauncherSystemUI = foundation:foundation:0775
+component.startup.backgroundJudge.flag = foundation:foundation:0775
+component.startup.whitelist.associatedWakeUp = foundation:foundation:0775
+component.startup.extension.multiprocess.enable = foundation:foundation:0775
+component.startup.extension.multiprocess.whitelist = foundation:foundation:0775
+persist.sys.prepare_terminate = foundation:foundation:0775
+persist.sys.abilityms.support.ecologicalrulemgrservice = foundation:foundation:0755
+persist.sys.abilityms.inherit_window_split_screen_mode = foundation:foundation:0755
+persist.sys.abilityms.support_anco_app = foundation:foundation:0755
+persist.sys.abilityms.timeout_unit_time_ratio = foundation:foundation:0755
+persist.sys.abilityms.selector_dialog_possion = foundation:foundation:0755
+persist.sys.abilityms.start_specified_process = foundation:foundation:0755
+persist.sys.abilityms.use_multi_render_process = foundation:foundation:0755
+persist.sys.abilityms.limit_maximum_of_render_process = foundation:foundation:0755
+persist.sys.abilityms.grant_persist_uri_permission = foundation:foundation:0755
+persist.sys.abilityms.start_options_with_animation = foundation:foundation:0755
+persist.sys.abilityms.multi_process_model = foundation:foundation:0755
+persist.sys.abilityms.start_options_with_process_option = foundation:foundation:0755
+persist.sys.abilityms.move_ui_ability_to_background_api_enable = foundation:foundation:0755
+persist.sys.abilityms.prevent_startability = foundation:foundation:0755
+const.abilityms.launch_embeded_ui_ability = foundation:foundation:0755

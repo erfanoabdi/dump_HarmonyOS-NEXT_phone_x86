@@ -1,0 +1,95 @@
+{
+  "processLabel": "distributeddata",
+  "metaData": "service_meta",
+  "version": "000.000.001",
+  "features": ["kvdb", "rdb", "object", "backup", "data_sync"],
+  "components": [
+    {
+      "description": "3rd party adapter",
+      "lib": "libconfigdemo.z.so",
+      "constructor": "",
+      "destructor": "",
+      "params": {
+        "key": "value",
+        "count": 1
+      }
+    },
+    {
+      "lib": "libopencloudextension.z.so"
+    },
+    {
+      "lib": "libudmf_server.z.so"
+    },
+    {
+      "lib": "libdata_share_service.z.so"
+    }
+  ],
+  "bundleChecker": {
+    "checkers": [
+      "SystemChecker",
+      "BundleChecker"
+    ],
+    "trusts": [
+      {
+        "bundleName": "bundle_manager_service",
+        "appId": "bundle_manager_service",
+        "checker": "SystemChecker"
+      }
+    ],
+    "distrusts": [],
+    "switches": []
+  },
+  "networks": {
+    "chains": [
+      "loadBalance",
+      "authentication",
+      "traffic-control",
+      "router",
+      "transport",
+      "fault-inject"
+    ],
+    "routers": [
+      "OHOSRouter"
+    ],
+    "transports": [
+      "softbus"
+    ],
+    "protocols": [
+      {
+        "name": "OHOS softbus",
+        "address": "ohos.distributeddata",
+        "transport": "softbus"
+      }
+    ]
+  },
+  "directory": {
+    "strategy": [
+      {
+        "version": 0,
+        "pattern": "/data/{security}/0/mdds/{userId}/default/{bundleName}",
+        "metaPath": "/data/misc_de/0/mdds/Meta",
+        "autoCreate": true
+      },
+      {
+        "version": 50331651,
+        "pattern": "/data/{type}/{area}/{userId}/database/{bundleName}/{hapName}/{store}",
+        "metaPath": "/data/service/el1/public/database/distributeddata/meta"
+      },
+      {
+        "version": 50331653,
+        "pattern": "/data/{type}/{area}/{userId}/database/{bundleName}/{hapName}/{store}/{customDir}",
+        "metaPath": "/data/service/el1/public/database/distributeddata/meta"
+      }
+    ]
+  },
+  "backup": {
+    "rules": [
+      "ScreenOff",
+      "Charging"
+    ],
+    "schedularDelay" : 1800,
+    "schedularInternal" : 1800,
+    "backupInternal" : 36000,
+    "backupNumber" : 20
+  }
+}

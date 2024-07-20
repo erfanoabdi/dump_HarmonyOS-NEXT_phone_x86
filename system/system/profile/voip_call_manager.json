@@ -1,0 +1,12 @@
+{
+    "process": "voip_call_manager",
+    "systemability": [
+        {
+            "name": 65968,
+            "libpath": "libtel_voip_call_manager.z.so",
+            "run-on-create": false,
+            "distributed": false,
+            "dump_level": 1
+        }
+    ]
+}

@@ -1,0 +1,158 @@
+[
+  {
+    "appType": "text/plain",
+    "bundleName": "com.huawei.hmos.hipreview",
+    "moduleName": "entry",
+    "abilityName": "MainAbility"
+  },
+  {
+    "appType": "text/html",
+    "bundleName": "com.huawei.hmos.hipreview",
+    "moduleName": "entry",
+    "abilityName": "MainAbility"
+  },
+  {
+    "appType": "image/jpeg",
+    "bundleName": "com.huawei.hmos.hipreview",
+    "moduleName": "entry",
+    "abilityName": "MainAbility"
+  },
+  {
+    "appType": "image/png",
+    "bundleName": "com.huawei.hmos.hipreview",
+    "moduleName": "entry",
+    "abilityName": "MainAbility"
+  },
+  {
+    "appType": "image/gif",
+    "bundleName": "com.huawei.hmos.hipreview",
+    "moduleName": "entry",
+    "abilityName": "MainAbility"
+  },
+  {
+    "appType": "image/webp",
+    "bundleName": "com.huawei.hmos.hipreview",
+    "moduleName": "entry",
+    "abilityName": "MainAbility"
+  },
+  {
+    "appType": "image/bmp",
+    "bundleName": "com.huawei.hmos.hipreview",
+    "moduleName": "entry",
+    "abilityName": "MainAbility"
+  },
+  {
+    "appType": "image/x-ms-bmp",
+    "bundleName": "com.huawei.hmos.hipreview",
+    "moduleName": "entry",
+    "abilityName": "MainAbility"
+  },
+  {
+    "appType": "image/svg+xml",
+    "bundleName": "com.huawei.hmos.hipreview",
+    "moduleName": "entry",
+    "abilityName": "MainAbility"
+  },
+  {
+    "appType": "audio/mpeg",
+    "bundleName": "com.huawei.hmos.hipreview",
+    "moduleName": "entry",
+    "abilityName": "MainAbility"
+  },
+  {
+    "appType": "audio/mp4a-latm",
+    "bundleName": "com.huawei.hmos.hipreview",
+    "moduleName": "entry",
+    "abilityName": "MainAbility"
+  },
+  {
+    "appType": "audio/aac",
+    "bundleName": "com.huawei.hmos.hipreview",
+    "moduleName": "entry",
+    "abilityName": "MainAbility"
+  },
+  {
+    "appType": "audio/aac-adts",
+    "bundleName": "com.huawei.hmos.hipreview",
+    "moduleName": "entry",
+    "abilityName": "MainAbility"
+  },
+  {
+    "appType": "application/ogg",
+    "bundleName": "com.huawei.hmos.hipreview",
+    "moduleName": "entry",
+    "abilityName": "MainAbility"
+  },
+  {
+    "appType": "audio/x-wav",
+    "bundleName": "com.huawei.hmos.hipreview",
+    "moduleName": "entry",
+    "abilityName": "MainAbility"
+  },
+  {
+    "appType": "video/mp4",
+    "bundleName": "com.huawei.hmos.hipreview",
+    "moduleName": "entry",
+    "abilityName": "MainAbility"
+  },
+  {
+    "appType": "video/x-matroska",
+    "bundleName": "com.huawei.hmos.hipreview",
+    "moduleName": "entry",
+    "abilityName": "MainAbility"
+  },
+  {
+    "appType": "video/mp2ts",
+    "bundleName": "com.huawei.hmos.hipreview",
+    "moduleName": "entry",
+    "abilityName": "MainAbility"
+  },
+  {
+    "appType": "application/pdf",
+    "bundleName": "com.huawei.hmos.hipreview",
+    "moduleName": "entry",
+    "abilityName": "MainAbility"
+  },
+  {
+    "appType": "text/comma-separated-values",
+    "bundleName": "com.huawei.hmos.hipreview",
+    "moduleName": "entry",
+    "abilityName": "MainAbility"
+  },
+  {
+    "appType": "application/vnd.ms-excel",
+    "bundleName": "com.huawei.hmos.hipreview",
+    "moduleName": "entry",
+    "abilityName": "MainAbility"
+  },
+  {
+    "appType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "bundleName": "com.huawei.hmos.hipreview",
+    "moduleName": "entry",
+    "abilityName": "MainAbility"
+  },
+  {
+    "appType": "application/msword",
+    "bundleName": "com.huawei.hmos.hipreview",
+    "moduleName": "entry",
+    "abilityName": "MainAbility"
+  },
+  {
+    "appType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bundleName": "com.huawei.hmos.hipreview",
+    "moduleName": "entry",
+    "abilityName": "MainAbility"
+  },
+  {
+    "appType": "application/vnd.ms-powerpoint",
+    "bundleName": "com.huawei.hmos.hipreview",
+    "moduleName": "entry",
+    "abilityName": "MainAbility"
+  },
+  {
+    "appType": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+    "bundleName": "com.huawei.hmos.hipreview",
+    "moduleName": "entry",
+    "abilityName": "MainAbility"
+  }
+]

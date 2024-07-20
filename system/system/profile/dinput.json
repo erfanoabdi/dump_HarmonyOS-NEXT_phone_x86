@@ -1,0 +1,19 @@
+{
+    "process": "dinput",
+    "systemability": [
+        {
+            "name": 4809,
+            "libpath": "libdinput_source.z.so",
+            "run-on-create": false,
+            "distributed": true,
+            "dump_level": 1
+        },
+        {
+            "name": 4810,
+            "libpath": "libdinput_sink.z.so",
+            "run-on-create": false,
+            "distributed": true,
+            "dump_level": 1
+        }
+    ]
+}

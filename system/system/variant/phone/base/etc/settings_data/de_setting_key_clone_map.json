@@ -1,0 +1,337 @@
+{
+  "_version_comment_": "Version must be growing integer",
+  "Version": "3",
+  "KeyMigrate": [
+    {
+      "key": "location_mode",
+      "Table": "global"
+    },
+    {
+      "key": "ui_night_mode",
+      "Table": "secure"
+    },
+    {
+      "key": "sysui_qs_tiles",
+      "Table": "secure"
+    },
+    {
+      "key": "basic_statement_agreed",
+      "Table": "secure"
+    },
+    {
+      "key": "hiviewcare_enhance_status",
+      "Table": "secure"
+    },
+    {
+      "key": "auto_upgrade_switch",
+      "Table": "secure"
+    },
+    {
+      "key": "wlan_auto_download_switch",
+      "Table": "secure"
+    },
+    {
+      "key": "night_upgrade_switch",
+      "Table": "secure"
+    },
+    {
+      "key": "location_enhance_status",
+      "Table": "secure"
+    },
+    {
+      "key": "rcs_enhance_status",
+      "Table": "secure"
+    },
+    {
+      "key": "meetime_enhance_status",
+      "Table": "secure"
+    },
+    {
+      "key": "accessibility_display_daltonizer_enabled",
+      "Table": "secure"
+    },
+    {
+      "key": "accessibility_display_inversion_enabled",
+      "Table": "secure"
+    },
+    {
+      "key": "persist.sys.cvaa_mono_channel",
+      "Table": "secure"
+    },
+    {
+      "key": "master_balance",
+      "Table": "secure"
+    },
+    {
+      "key": "high_text_contrast_enabled",
+      "Table": "secure"
+    },
+    {
+      "key": "accessibility_screenreader_enabled",
+      "Table": "secure"
+    },
+    {
+      "key": "app_ntf_config_screen_on",
+      "Table": "secure"
+    },
+    {
+      "key": "font_scale",
+      "Table": "system"
+    },
+    {
+      "key": "font_weight_scale",
+      "Table": "system"
+    },
+    {
+      "key": "master_mono",
+      "Table": "secure"
+    },
+    {
+      "key": "ignore_repeat_click_switch",
+      "Table": "secure"
+    },
+    {
+      "key": "ignore_repeat_click_time",
+      "Table": "secure"
+    },
+    {
+      "key": "accessibility_display_daltonizer",
+      "Table": "secure"
+    },
+    {
+      "key": "click_response_time",
+      "Table": "secure"
+    },
+    {
+      "key": "simple_ui_mode_switch",
+      "Table": "global"
+    },
+    {
+      "key": "elder_care_font_scale",
+      "Table": "global"
+    },
+    {
+      "key": "accessibility_elder_care_switch_enabled",
+      "Table": "global"
+    },
+    {
+      "key": "settings.collaboration.multi_device_collaboration_service_switch",
+      "Table": "global"
+    },
+    {
+      "key": "app_ntf_config_hide_banner_content",
+      "Table": "secure"
+    },
+    {
+      "key": "app_ntf_config_hide_content",
+      "Table": "secure"
+    },
+    {
+      "key": "mute_streams_affected",
+      "Table": "system"
+    },
+    {
+      "key": "unsafe_volume_music_active_ms",
+      "Table": "secure"
+    },
+    {
+      "key": "unsafe_volume_music_active_ms_bt",
+      "Table": "secure"
+    },
+    {
+      "key": "audio_safe_volume_state",
+      "Table": "global"
+    },
+    {
+      "key": "audio_safe_volume_state_bt",
+      "Table": "global"
+    }
+  ],
+  "KeyMap": [
+    {
+      "SourceKey": "airplane_mode_on",
+      "TargetKey": "settings.telephony.airplanemode",
+      "Table": "global"
+    },
+    {
+      "SourceKey": "location_mode",
+      "TargetKey": "location_switch_enable",
+      "Table": "global"
+    },
+    {
+      "SourceKey": "screen_brightness_mode",
+      "TargetKey": "settings.display.auto_screen_brightness",
+      "Table": "global"
+    },
+    {
+      "SourceKey": "screen_off_timeout",
+      "TargetKey": "settings.display.screen_off_timeout",
+      "Table": "global"
+    },
+    {
+      "SourceKey": "time_12_24",
+      "TargetKey": "settings.date.time_format",
+      "Table": "global"
+    },
+    {
+      "SourceKey": "parentcontrol_screentime_status",
+      "TargetKey": "parent_control_switch",
+      "Table": "global"
+    },
+    {
+      "SourceKey": "auto_time_zone",
+      "TargetKey": "auto_timezone",
+      "Table": "global"
+    },
+    {
+      "SourceKey": "status_bar_pure_display_enabled",
+      "TargetKey": "status_bar_pure_show",
+      "Table": "secure"
+    },
+    {
+      "SourceKey": "show_network_speed_enabled",
+      "TargetKey": "status_bar_show_real_time_network_speed",
+      "Table": "secure"
+    },
+    {
+      "SourceKey": "notification_way_switch",
+      "TargetKey": "status_bar_show_notification_icon",
+      "Table": "secure"
+    },
+    {
+      "SourceKey": "lock_screen_allow_private_notifications",
+      "TargetKey": "app_ntf_config_hide_content",
+      "Table": "secure"
+    },
+    {
+      "SourceKey": "hw_system_night_upgrade_switch",
+      "TargetKey": "night_upgrade_switch",
+      "Table": "secure"
+    },
+    {
+      "SourceKey": "hw_system_update_auto_download",
+      "TargetKey": "wlan_auto_download_switch",
+      "Table": "secure"
+    },
+    {
+      "SourceKey": "mobile_data",
+      "TargetKey": "cellular_data_enable",
+      "Table": "global"
+    },
+    {
+      "SourceKey": "default_simcard_slotid",
+      "TargetKey": "is_voice_card",
+      "Table": "global"
+    },
+    {
+      "SourceKey": "switch_dual_card_slots",
+      "TargetKey": "is_cellular_data_card",
+      "Table": "secure"
+    },
+    {
+      "SourceKey": "elder_care_switch",
+      "TargetKey": "accessibility_elder_care_switch_enabled",
+      "Table": "global"
+    },
+    {
+      "SourceKey": "wakeup_double_switch_state",
+      "TargetKey": "settings.power.wakeup_double_click",
+      "Table": "secure"
+    },
+    {
+      "SourceKey": "app_ntf_config_hide_content",
+      "TargetKey": "app_ntf_config_hide_banner_content",
+      "Table": "secure"
+    },
+   {
+      "SourceKey": "mode_ringer",
+      "TargetKey": "ringer_mode",
+      "Table": "global"
+    },
+    {
+      "SourceKey": "volume_alarm",
+      "TargetKey": "alarm_volume",
+      "Table": "system"
+    },
+    {
+      "SourceKey": "volume_alarm_speaker",
+      "TargetKey": "alarm_volume_builtin",
+      "Table": "system"
+    },
+    {
+      "SourceKey": "volume_music",
+      "TargetKey": "music_volume_builtin",
+      "Table": "system"
+    },
+    {
+      "SourceKey": "volume_music_bt_a2dp",
+      "TargetKey": "music_volume_wireless",
+      "Table": "system"
+    },
+    {
+      "SourceKey": "volume_music_usb_device",
+      "TargetKey": "music_volume_wired",
+      "Table": "system"
+    },
+    {
+      "SourceKey": "volume_notification",
+      "TargetKey": "notification_volume_builtin",
+      "Table": "system"
+    },
+    {
+      "SourceKey": "volume_ring",
+      "TargetKey": "ring_volume",
+      "Table": "system"
+    },
+    {
+      "SourceKey": "volume_ring_bt_a2dp",
+      "TargetKey": "ring_volume_wireless",
+      "Table": "system"
+    },
+    {
+      "SourceKey": "volume_ring_usb_device",
+      "TargetKey": "ring_volume_wired",
+      "Table": "system"
+    },
+    {
+      "SourceKey": "volume_ring_speaker",
+      "TargetKey": "ring_volume_builtin",
+      "Table": "system"
+    },
+    {
+      "SourceKey": "volume_system",
+      "TargetKey": "system_volume",
+      "Table": "system"
+    },
+    {
+      "SourceKey": "volume_voice",
+      "TargetKey": "voice_call_volume_builtin",
+      "Table": "system"
+    },
+    {
+      "SourceKey": "volume_voice_bt_a2dp",
+      "TargetKey": "voice_call_volume_wireless",
+      "Table": "system"
+    },
+    {
+      "SourceKey": "volume_voice_usb_device",
+      "TargetKey": "voice_call_volume_wired",
+      "Table": "system"
+    },
+    {
+      "SourceKey": "volume_tts",
+      "TargetKey": "voice_assistant_volume_builtin",
+      "Table": "system"
+    },
+    {
+      "SourceKey": "volume_tts_bt_a2dp",
+      "TargetKey": "voice_assistant_volume_wireless",
+      "Table": "system"
+    },
+    {
+      "SourceKey": "volume_tts_usb_device",
+      "TargetKey": "voice_assistant_volume_wired",
+      "Table": "system"
+    }
+  ]
+}

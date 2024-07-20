@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Memmgr>
+  <memory size="default">
+    <swapFullKillParamConfig>
+      <enable>true</enable>
+    </swapFullKillParamConfig>
+    <rssThresholdConfig>
+      <rssThresholdMB>4096</rssThresholdMB>
+    </rssThresholdConfig>
+    <softLimitParamConfig>
+      <enable>true</enable>
+      <softLimitMB>400</softLimitMB>
+      <startPriority>12</startPriority>
+      <endPriority>4</endPriority>
+      <softLimitCostlyOrder>8</softLimitCostlyOrder>
+      <kswapdHighLoadThreshold>130</kswapdHighLoadThreshold>
+    </softLimitParamConfig>
+    <availBufferConfig>
+      <availBuffer>800</availBuffer>
+      <minAvailBuffer>750</minAvailBuffer>
+      <highAvailBuffer>850</highAvailBuffer>
+      <swapReserve>200</swapReserve>
+    </availBufferConfig>
+    <reclaimConfig>
+      <rootMemcgConfig>
+        <mem2zramRatio>90</mem2zramRatio>
+        <zram2ufsRatio>60</zram2ufsRatio>
+        <refaultThreshold>50</refaultThreshold>
+      </rootMemcgConfig>
+      <userAppMemcgConfig>
+        <struct>2</struct>
+      </userAppMemcgConfig>
+      <ZswapdParam id="1">
+        <minScore>0</minScore>
+        <maxScore>1000</maxScore>
+        <mem2zramRatio>60</mem2zramRatio>
+        <zram2ufsRatio>10</zram2ufsRatio>
+        <refaultThreshold>50</refaultThreshold>
+      </ZswapdParam>
+    </reclaimConfig>
+    <systemMemoryLevelConfig>
+      <purgeable>1024</purgeable>
+      <moderate>800</moderate>
+      <low>700</low>
+      <critical>600</critical>
+      <pcLow>0</pcLow>
+    </systemMemoryLevelConfig>
+    <killConfig>
+      <killLevel id="1">
+        <memoryMB>500</memoryMB>
+        <minPriority>400</minPriority>
+      </killLevel>
+      <killLevel id="2">
+        <memoryMB>400</memoryMB>
+        <minPriority>300</minPriority>
+      </killLevel>
+      <killLevel id="3">
+        <memoryMB>300</memoryMB>
+        <minPriority>200</minPriority>
+      </killLevel>
+      <killLevel id="4">
+        <memoryMB>200</memoryMB>
+        <minPriority>100</minPriority>
+      </killLevel>
+      <killLevel id="5">
+        <memoryMB>100</memoryMB>
+        <minPriority>0</minPriority>
+      </killLevel>
+    </killConfig>
+  </memory>
+  <memory size="8">
+    <swapFullKillParamConfig>
+      <enable>true</enable>
+    </swapFullKillParamConfig>
+    <rssThresholdConfig>
+      <rssThresholdMB>4096</rssThresholdMB>
+    </rssThresholdConfig>
+    <softLimitParamConfig>
+      <enable>true</enable>
+      <softLimitMB>400</softLimitMB>
+      <startPriority>12</startPriority>
+      <endPriority>4</endPriority>
+      <softLimitCostlyOrder>8</softLimitCostlyOrder>
+      <kswapdHighLoadThreshold>130</kswapdHighLoadThreshold>
+    </softLimitParamConfig>
+    <availBufferConfig>
+      <availBuffer>1200</availBuffer>
+      <minAvailBuffer>1150</minAvailBuffer>
+      <highAvailBuffer>1250</highAvailBuffer>
+      <swapReserve>200</swapReserve>
+    </availBufferConfig>
+    <reclaimConfig>
+      <rootMemcgConfig>
+        <mem2zramRatio>90</mem2zramRatio>
+        <zram2ufsRatio>60</zram2ufsRatio>
+        <refaultThreshold>50</refaultThreshold>
+      </rootMemcgConfig>
+      <userAppMemcgConfig>
+        <struct>2</struct>
+      </userAppMemcgConfig>
+      <ZswapdParam id="1">
+        <minScore>0</minScore>
+        <maxScore>1000</maxScore>
+        <mem2zramRatio>60</mem2zramRatio>
+        <zram2ufsRatio>10</zram2ufsRatio>
+        <refaultThreshold>50</refaultThreshold>
+      </ZswapdParam>
+    </reclaimConfig>
+    <systemMemoryLevelConfig>
+      <purgeable>1300</purgeable>
+      <moderate>1000</moderate>
+      <low>900</low>
+      <critical>800</critical>
+      <pcLow>0</pcLow>
+    </systemMemoryLevelConfig>
+    <killConfig>
+      <killLevel id="1">
+        <memoryMB>800</memoryMB>
+        <minPriority>400</minPriority>
+      </killLevel>
+      <killLevel id="2">
+        <memoryMB>700</memoryMB>
+        <minPriority>300</minPriority>
+      </killLevel>
+      <killLevel id="3">
+        <memoryMB>600</memoryMB>
+        <minPriority>200</minPriority>
+      </killLevel>
+      <killLevel id="4">
+        <memoryMB>500</memoryMB>
+        <minPriority>100</minPriority>
+      </killLevel>
+      <killLevel id="5">
+        <memoryMB>400</memoryMB>
+        <minPriority>0</minPriority>
+      </killLevel>
+    </killConfig>
+  </memory>
+  <memory size="12">
+    <swapFullKillParamConfig>
+      <enable>true</enable>
+    </swapFullKillParamConfig>
+    <rssThresholdConfig>
+      <rssThresholdMB>6144</rssThresholdMB>
+    </rssThresholdConfig>
+    <softLimitParamConfig>
+      <enable>true</enable>
+      <softLimitMB>400</softLimitMB>
+      <startPriority>12</startPriority>
+      <endPriority>4</endPriority>
+      <softLimitCostlyOrder>8</softLimitCostlyOrder>
+      <kswapdHighLoadThreshold>130</kswapdHighLoadThreshold>
+    </softLimitParamConfig>
+    <availBufferConfig>
+      <availBuffer>1800</availBuffer>
+      <minAvailBuffer>1750</minAvailBuffer>
+      <highAvailBuffer>1850</highAvailBuffer>
+      <swapReserve>0</swapReserve>
+    </availBufferConfig>
+    <reclaimConfig>
+      <rootMemcgConfig>
+        <mem2zramRatio>90</mem2zramRatio>
+        <zram2ufsRatio>60</zram2ufsRatio>
+        <refaultThreshold>50</refaultThreshold>
+      </rootMemcgConfig>
+      <userAppMemcgConfig>
+        <struct>2</struct>
+      </userAppMemcgConfig>
+      <ZswapdParam id="1">
+        <minScore>0</minScore>
+        <maxScore>1000</maxScore>
+        <mem2zramRatio>60</mem2zramRatio>
+        <zram2ufsRatio>10</zram2ufsRatio>
+        <refaultThreshold>50</refaultThreshold>
+      </ZswapdParam>
+    </reclaimConfig>
+    <systemMemoryLevelConfig>
+      <purgeable>2000</purgeable>
+      <moderate>1800</moderate>
+      <low>1700</low>
+      <critical>1600</critical>
+      <pcLow>0</pcLow>
+    </systemMemoryLevelConfig>
+    <killConfig>
+      <killLevel id="1">
+        <memoryMB>1600</memoryMB>
+        <minPriority>500</minPriority>
+      </killLevel>
+      <killLevel id="2">
+        <memoryMB>1500</memoryMB>
+        <minPriority>400</minPriority>
+      </killLevel>
+      <killLevel id="3">
+        <memoryMB>1400</memoryMB>
+        <minPriority>300</minPriority>
+      </killLevel>
+      <killLevel id="4">
+        <memoryMB>1200</memoryMB>
+        <minPriority>200</minPriority>
+      </killLevel>
+      <killLevel id="5">
+        <memoryMB>1000</memoryMB>
+        <minPriority>100</minPriority>
+      </killLevel>
+      <killLevel id="6">
+        <memoryMB>800</memoryMB>
+        <minPriority>1</minPriority>
+      </killLevel>
+      <killLevel id="7">
+        <memoryMB>600</memoryMB>
+        <minPriority>0</minPriority>
+      </killLevel>
+    </killConfig>
+  </memory>
+  <memory size="16">
+    <swapFullKillParamConfig>
+      <enable>true</enable>
+    </swapFullKillParamConfig>
+    <rssThresholdConfig>
+      <rssThresholdMB>8192</rssThresholdMB>
+    </rssThresholdConfig>
+    <softLimitParamConfig>
+      <enable>true</enable>
+      <softLimitMB>400</softLimitMB>
+      <startPriority>12</startPriority>
+      <endPriority>4</endPriority>
+      <softLimitCostlyOrder>8</softLimitCostlyOrder>
+      <kswapdHighLoadThreshold>130</kswapdHighLoadThreshold>
+    </softLimitParamConfig>
+    <availBufferConfig>
+      <availBuffer>1800</availBuffer>
+      <minAvailBuffer>1750</minAvailBuffer>
+      <highAvailBuffer>1850</highAvailBuffer>
+      <swapReserve>0</swapReserve>
+    </availBufferConfig>
+    <reclaimConfig>
+      <rootMemcgConfig>
+        <mem2zramRatio>90</mem2zramRatio>
+        <zram2ufsRatio>60</zram2ufsRatio>
+        <refaultThreshold>50</refaultThreshold>
+      </rootMemcgConfig>
+      <userAppMemcgConfig>
+        <struct>2</struct>
+      </userAppMemcgConfig>
+      <ZswapdParam id="1">
+        <minScore>0</minScore>
+        <maxScore>1000</maxScore>
+        <mem2zramRatio>60</mem2zramRatio>
+        <zram2ufsRatio>10</zram2ufsRatio>
+        <refaultThreshold>50</refaultThreshold>
+      </ZswapdParam>
+    </reclaimConfig>
+    <systemMemoryLevelConfig>
+      <purgeable>2000</purgeable>
+      <moderate>1800</moderate>
+      <low>1700</low>
+      <critical>1600</critical>
+      <pcLow>0</pcLow>
+    </systemMemoryLevelConfig>
+    <killConfig>
+      <killLevel id="1">
+        <memoryMB>1600</memoryMB>
+        <minPriority>500</minPriority>
+      </killLevel>
+      <killLevel id="2">
+        <memoryMB>1500</memoryMB>
+        <minPriority>400</minPriority>
+      </killLevel>
+      <killLevel id="3">
+        <memoryMB>1400</memoryMB>
+        <minPriority>300</minPriority>
+      </killLevel>
+      <killLevel id="4">
+        <memoryMB>1200</memoryMB>
+        <minPriority>200</minPriority>
+      </killLevel>
+      <killLevel id="5">
+        <memoryMB>1000</memoryMB>
+        <minPriority>100</minPriority>
+      </killLevel>
+      <killLevel id="6">
+        <memoryMB>800</memoryMB>
+        <minPriority>1</minPriority>
+      </killLevel>
+      <killLevel id="7">
+        <memoryMB>600</memoryMB>
+        <minPriority>0</minPriority>
+      </killLevel>
+    </killConfig>
+  </memory>
+  <storage size="default">
+    <nandLifeConfig>
+      <dailySwapOutQuotaMB>0</dailySwapOutQuotaMB>
+      <totalSwapOutQuotaMB>0</totalSwapOutQuotaMB>
+    </nandLifeConfig>
+    <nandLifeConfigExt>
+      <enable>true</enable>
+      <totalSwapOutQuotaGB>0</totalSwapOutQuotaGB>
+      <dailySwapOutQuotaMax>0</dailySwapOutQuotaMax>
+      <swapOriginalAmount>0</swapOriginalAmount>
+      <swapDeclineRatio>0</swapDeclineRatio>
+      <swapFinalLimit>0</swapFinalLimit>
+      <swapControlDays>0</swapControlDays>
+      <swapRedDeclineRatio>0</swapRedDeclineRatio>
+      <lifeTimeEstTypA>0</lifeTimeEstTypA>
+      <lifeTimeEstTypB>0</lifeTimeEstTypB>
+      <lifeTimePreEolInfo>0</lifeTimePreEolInfo>
+    </nandLifeConfigExt>
+  </storage>
+  <storage size="128">
+    <nandLifeConfig>
+      <dailySwapOutQuotaMB>0</dailySwapOutQuotaMB>
+      <totalSwapOutQuotaMB>0</totalSwapOutQuotaMB>
+    </nandLifeConfig>
+    <nandLifeConfigExt>
+      <enable>true</enable>
+      <totalSwapOutQuotaGB>20480</totalSwapOutQuotaGB>
+      <dailySwapOutQuotaMax>99</dailySwapOutQuotaMax>
+      <swapOriginalAmount>20</swapOriginalAmount>
+      <swapDeclineRatio>10</swapDeclineRatio>
+      <swapFinalLimit>20</swapFinalLimit>
+      <swapControlDays>7</swapControlDays>
+      <swapRedDeclineRatio>5</swapRedDeclineRatio>
+      <lifeTimeEstTypA>5</lifeTimeEstTypA>
+      <lifeTimeEstTypB>5</lifeTimeEstTypB>
+      <lifeTimePreEolInfo>2</lifeTimePreEolInfo>
+    </nandLifeConfigExt>
+  </storage>
+  <storage size="256">
+    <nandLifeConfig>
+      <dailySwapOutQuotaMB>0</dailySwapOutQuotaMB>
+      <totalSwapOutQuotaMB>0</totalSwapOutQuotaMB>
+    </nandLifeConfig>
+    <nandLifeConfigExt>
+      <enable>true</enable>
+      <totalSwapOutQuotaGB>40960</totalSwapOutQuotaGB>
+      <dailySwapOutQuotaMax>99</dailySwapOutQuotaMax>
+      <swapOriginalAmount>70</swapOriginalAmount>
+      <swapDeclineRatio>20</swapDeclineRatio>
+      <swapFinalLimit>20</swapFinalLimit>
+      <swapControlDays>7</swapControlDays>
+      <swapRedDeclineRatio>5</swapRedDeclineRatio>
+      <lifeTimeEstTypA>8</lifeTimeEstTypA>
+      <lifeTimeEstTypB>8</lifeTimeEstTypB>
+      <lifeTimePreEolInfo>2</lifeTimePreEolInfo>
+    </nandLifeConfigExt>
+  </storage>
+  <storage size="512">
+    <nandLifeConfig>
+      <dailySwapOutQuotaMB>0</dailySwapOutQuotaMB>
+      <totalSwapOutQuotaMB>0</totalSwapOutQuotaMB>
+    </nandLifeConfig>
+    <nandLifeConfigExt>
+      <enable>true</enable>
+      <totalSwapOutQuotaGB>81920</totalSwapOutQuotaGB>
+      <dailySwapOutQuotaMax>99</dailySwapOutQuotaMax>
+      <swapOriginalAmount>90</swapOriginalAmount>
+      <swapDeclineRatio>20</swapDeclineRatio>
+      <swapFinalLimit>20</swapFinalLimit>
+      <swapControlDays>7</swapControlDays>
+      <swapRedDeclineRatio>5</swapRedDeclineRatio>
+      <lifeTimeEstTypA>8</lifeTimeEstTypA>
+      <lifeTimeEstTypB>8</lifeTimeEstTypB>
+      <lifeTimePreEolInfo>2</lifeTimePreEolInfo>
+    </nandLifeConfigExt>
+  </storage>
+  <reclaimPriorityConfig>
+    <killalbeSystemApps>
+      <killableSysApp/>
+    </killalbeSystemApps>
+    <importantBgApps>
+      <importantBgApp>
+        <procName>i.hms.framework</procName>
+        <minPriority>200</minPriority>
+      </importantBgApp>
+      <importantBgApp>
+        <procName>com.huawei.hms.framework</procName>
+        <minPriority>200</minPriority>
+      </importantBgApp>
+      <importantBgApp>
+        <procName>default</procName>
+        <minPriority>400</minPriority>
+      </importantBgApp>
+    </importantBgApps>
+  </reclaimPriorityConfig>
+  <sourceConfig>
+    <platformName>default</platformName>
+  </sourceConfig>
+  <purgeablememConfig>
+    <enable>true</enable>
+    <purgeWhiteAppList>
+      <procName>wei.hmos.photos</procName>
+    </purgeWhiteAppList>
+  </purgeablememConfig>
+</Memmgr>

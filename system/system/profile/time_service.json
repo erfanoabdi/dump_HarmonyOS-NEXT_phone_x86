@@ -1,0 +1,12 @@
+{
+    "process": "time_service",
+    "systemability": [
+        {
+            "name": 3702,
+            "libpath": "libtime_system_ability.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        }
+    ]
+}

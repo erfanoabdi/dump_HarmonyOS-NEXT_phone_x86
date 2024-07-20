@@ -1,0 +1,9 @@
+{
+    "types":["FAULT"],
+    "domains": [
+        {
+            "domain":"RUNTIME_PROFILER",
+            "include":["SCENARIO_START", "SCENARIO_STOP"]
+        }
+    ]
+}

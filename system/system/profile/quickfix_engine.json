@@ -1,0 +1,12 @@
+{
+    "process": "quickfix_engine",
+    "systemability": [
+        {
+            "name": 4102,
+            "libpath": "/system/lib64/libquickfix_engine_service.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        }
+    ]
+}

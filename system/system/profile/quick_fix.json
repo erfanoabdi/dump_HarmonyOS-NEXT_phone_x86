@@ -1,0 +1,12 @@
+{
+    "process": "quick_fix",
+    "systemability": [
+        {
+            "name": 184,
+            "libpath": "libquickfixms.z.so",
+            "run-on-create": false,
+            "distributed": false,
+            "dump_level": 1
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="264px" height="264px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Cursor/Copy</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HarmonyOS-cursor-symbol" transform="translate(-229.000000, -71.000000)">
+            <g id="Cursor/Copy" transform="translate(221.000000, 70.000000)">
+                <g id="角标" transform="translate(8.000000, 16.000000)">
+                    <rect id="矩形" stroke="#64BB5C" fill="#64BB5C" x="0.5" y="0.5" width="23" height="23" rx="11.5"></rect>
+                    <g id="ic_add" transform="translate(6.000000, 6.000000)" fill="#FFFFFF">
+                        <path d="M6.15,0 C6.48137085,-6.08718376e-17 6.75,0.26862915 6.75,0.6 L6.75,11.4 C6.75,11.7313708 6.48137085,12 6.15,12 L5.85,12 C5.51862915,12 5.25,11.7313708 5.25,11.4 L5.25,6.749 L0.6,6.75 C0.26862915,6.75 0,6.48137085 0,6.15 L0,5.85 C0,5.51862915 0.26862915,5.25 0.6,5.25 L5.25,5.249 L5.25,0.6 C5.25,0.26862915 5.51862915,-3.83217372e-16 5.85,0 L6.15,0 Z M7.649,5.25 L11.4,5.25 C11.7313708,5.25 12,5.51862915 12,5.85 L12,6.15 C12,6.48137085 11.7313708,6.75 11.4,6.75 L7.649,6.75 L7.649,5.25 Z" id="形状结合"></path>
+                    </g>
+                </g>
+                <path d="M4.6109127,2.40380592 L4.6109127,20.3739245 L9.87666507,15.1109127 L17.3180195,15.1109127 L4.6109127,2.40380592 Z" id="路径-21备份-2" stroke="#FFFFFF" fill="#000000" stroke-linejoin="round" transform="translate(10.610913, 11.389087) scale(-1, 1) rotate(-315.000000) translate(-10.610913, -11.389087) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

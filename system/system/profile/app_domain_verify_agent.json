@@ -1,0 +1,26 @@
+{
+    "process": "app_domain_verify_agent",
+    "systemability": [
+        {
+            "name": 6201,
+            "libpath": "libapp_domain_verify_agent_service.z.so",
+            "run-on-create": false,
+            "distributed": false,
+            "dump_level": 1,
+            "start-on-demand": {
+                "commonevent": [
+                    {
+                        "name": "usual.event.BOOT_COMPLETED"
+                    }
+                ],
+                "timedevent": [
+                    {
+                        "name": "loopevent",
+                        "value": "86400",
+                        "persistence": true
+                    }
+                ]
+            }
+        }
+    ]
+}

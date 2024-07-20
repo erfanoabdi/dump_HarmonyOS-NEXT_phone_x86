@@ -1,0 +1,16 @@
+{
+    "mtSaCallRecovery": {
+        "maxfailCount" : 2,
+        "maxTimeInverval":300000,
+        "callRecoveryTimer":"18000000",
+        "reasonTxt_trustlist":["USER DISCONNECTED","User Triggered","Normal call clearing","User term the call."],
+        "weakSignalRsrp":-110,
+        "blocklist":[{"failCause":200705,"reasonTxt":"RAR message timeout"},{"failCause":200705,"reasonTxt":"Insufficient Bearer Resource"},{"failCause":200705,"reasonTxt":"Service Unavailable"},{"failCause":200705,"reasonTxt":"Abnormal call clearing"},{"failCause":213572,"reasonTxt":""}]
+    },
+    "moSaCallRecovery": {
+        "maxfailCount" : 2,
+        "maxTimeInverval":3600000,
+        "callRecoveryTimer":"86400000",
+        "sipCode_blocklist":[]
+    }
+}

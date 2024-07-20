@@ -1,0 +1,251 @@
+{
+  "notificationService": {
+    "maxUpdateSpeed": 30,
+    "slotTypeReminder": [
+      {
+        "name": "Social_communication",
+        "reminderFlags": "111111"
+      },
+      {
+        "name": "Service_reminder",
+        "reminderFlags": "111111"
+      },
+      {
+        "name": "Content_information",
+        "reminderFlags": "000000"
+      },
+      {
+        "name": "Live_view",
+        "reminderFlags": "111011"
+      },
+      {
+        "name": "Custom_service",
+        "reminderFlags": "110001"
+      },
+      {
+        "name": "Other",
+        "reminderFlags": "000000"
+      },
+      {
+        "name": "Emergency_information",
+        "reminderFlags": "111111"
+      }
+    ],
+    "multiDeviceReminder": [
+      {
+        "deviceType": "current",
+        "reminderFilterDevice": [
+          {
+            "slotType": "Social_communication",
+            "reminderFilterSlot": [
+              {
+                "affectedBy": [
+                  {
+                    "deviceType": "liteWearable",
+                    "status": "xxx1"
+                  }
+                ],
+                "status": "xx0x",
+                "reminderFlags": "100000"
+              },
+              {
+                "affectedBy": [
+                  {
+                    "deviceType": "liteWearable",
+                    "status": "xxx1"
+                  }
+                ],
+                "status": "x11x",
+                "reminderFlags": "100000"
+              }
+            ]
+          },
+          {
+            "slotType": "Service_reminder",
+            "reminderFilterSlot": [
+              {
+                "affectedBy": [
+                  {
+                    "deviceType": "liteWearable",
+                    "status": "xxx1"
+                  }
+                ],
+                "status": "xx0x",
+                "reminderFlags": "100000"
+              },
+              {
+                "affectedBy": [
+                  {
+                    "deviceType": "liteWearable",
+                    "status": "xxx1"
+                  }
+                ],
+                "status": "x11x",
+                "reminderFlags": "100000"
+              }
+            ]
+          },
+          {
+            "slotType": "Custom_service",
+            "reminderFilterSlot": [
+              {
+                "affectedBy": [
+                  {
+                    "deviceType": "liteWearable",
+                    "status": "xxx1"
+                  }
+                ],
+                "status": "xx0x",
+                "reminderFlags": "100000"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "deviceType": "liteWearable",
+        "reminderFilterDevice": [
+          {
+            "slotType": "Social_communication",
+            "reminderFilterSlot": [
+              {
+                "affectedBy": [
+                  {
+                    "deviceType": "current",
+                    "status": "x01x"
+                  }
+                ],
+                "status": "xxx1",
+                "reminderFlags": "100000"
+              },
+              {
+                "status": "xxx0",
+                "reminderFlags": "100000"
+              },
+              {
+                "status": "xxx1",
+                "reminderFlags": "110000"
+              }
+            ]
+          },
+          {
+            "slotType": "Service_reminder",
+            "reminderFilterSlot": [
+              {
+                "affectedBy": [
+                  {
+                    "deviceType": "current",
+                    "status": "x01x"
+                  }
+                ],
+                "status": "xxx1",
+                "reminderFlags": "100000"
+              },
+              {
+                "status": "xxx0",
+                "reminderFlags": "100000"
+              },
+              {
+                "status": "xxx1",
+                "reminderFlags": "110000"
+              }
+            ]
+          },
+          {
+            "slotType": "Custom_service",
+            "reminderFilterSlot": [
+              {
+                "affectedBy": [
+                  {
+                    "deviceType": "current",
+                    "status": "xx1x"
+                  }
+                ],
+                "status": "xx11",
+                "reminderFlags": "100000"
+              },
+              {
+                "status": "xxx0",
+                "reminderFlags": "100000"
+              },
+              {
+                "status": "xxx1",
+                "reminderFlags": "110000"
+              }
+            ]
+          },
+          {
+            "slotType": "Live_view",
+            "reminderFilterSlot": [
+              {
+                "contentType": "Local_live_view",
+                "reminderFilterContent": [
+                  {
+                    "typeCode": 0,
+                    "reminderFilterCode": [
+                      {
+                        "status": "xxx1",
+                        "reminderFlags": "111000"
+                      },
+                      {
+                        "status": "xxx0",
+                        "reminderFlags": "101000"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "contentType": "Local_live_view",
+                "reminderFilterContent": [
+                  {
+                    "typeCode": 5,
+                    "reminderFilterCode": [
+                      {
+                        "status": "xxx1",
+                        "reminderFlags": "111000"
+                      },
+                      {
+                        "status": "xxx0",
+                        "reminderFlags": "100000"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "contentType": "Live_view",
+                "reminderFilterContent": [
+                  {
+                    "reminderFlags": "110000"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "slotType": "Emergency_information",
+            "reminderFilterSlot": [
+              {
+                "reminderFlags": "111000"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "appPrivileges": {
+    "com.ohos.callui": "1",
+    "com.huawei.hmos.clock": "1",
+    "com.huawei.hmos.hicar": "1",
+    "com.huawei.hmos.devicecollaboration": "1",
+    "com.huawei.hmos.huaweicast": "1",
+    "com.huawei.hmos.soundrecorder": "1",
+    "com.huawei.hmos.screenrecorder": "1",
+    "com.huawei.hmos.instantshare": "1",
+    "com.huawei.hmos.meetimeservice": "1",
+    "com.ohos.spooler": "1",
+    "com.ohos.mms": "1"
+  }
+}

@@ -1,0 +1,35 @@
+{
+    "process": "dslm_service",
+    "systemability": [
+        {
+            "name": 3511,
+            "libpath": "libdslm_service.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump-level": 1,
+            "depend": [
+                4700,
+                3510
+            ],
+            "depend-time-out": 60000,
+            "start-on-demand": {
+                "bindercall": true,
+                "deviceonline": [
+                    {
+                        "name": "deviceonline",
+                        "value": "on"
+                    }
+                ]
+            },
+            "stop-on-demand": {
+                "bindercall": true,
+                "deviceonline": [
+                    {
+                        "name": "deviceonline",
+                        "value": "off"
+                    }
+                ]
+            }
+        }
+    ]
+}

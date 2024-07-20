@@ -1,0 +1,24 @@
+{
+  "uiextension": [
+    {
+      "type": "share",
+      "typePicker": "sysPicker/share"
+    },
+    {
+      "type": "photoPicker",
+      "typePicker": "sysPicker/photoPicker"
+    },
+    {
+      "type": "navigation",
+      "typePicker": "sysDialog/atomicServicePanel"
+    },
+    {
+      "type": "finance",
+      "typePicker": "sysPicker/appSelector"
+    },
+    {
+      "type": "filePicker",
+      "typePicker": "sysPicker/filePicker"
+    }
+  ]
+}

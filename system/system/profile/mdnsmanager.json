@@ -1,0 +1,12 @@
+{
+    "process": "mdnsmanager",
+    "systemability": [
+        {
+            "name": 1161,
+            "libpath": "libmdns_manager.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        }
+    ]
+}

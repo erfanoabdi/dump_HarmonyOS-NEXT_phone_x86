@@ -1,0 +1,38 @@
+# Copyright (c) 2022 Huawei Device Co., Ltd.
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+sys.usb.ffs.ready = root:shell:0660
+sys.usb.ffs.ready.hdc = root:shell:0660
+persist.hdc.root = root:shell:0660
+persist.hdc.mode = root:shell:0660
+persist.hdc.port = root:shell:0660
+persist.hdc.uv.threads = root:shell:0660
+persist.hdc.daemon.auth_result = root:shell:0660
+persist.hdc.client.hostname = root:shell:0660
+persist.hdc.daemon.auth_cancel = root:shell:0660
+const.hdc.secure = root:shell:0660
+const.hdc.version = root:shell:0644
+
+# hdc control, init, edm and usb_host can write control by selinux
+persist.hdc.control = usb_host:edm:0664
+persist.hdc.control.shell = root:shell:0644
+persist.hdc.control.file = root:shell:0644
+persist.hdc.control.fport = root:shell:0644
+persist.hdc.control_system = system:system:0664
+
+# hdcd can be replaced when it is without uart
+# you should setenforce 0 and mount to write /system
+persist.hdc.replace = root:root:0770
+
+#for atcmd HDCAUTHPASS
+persist.hdc.auth_bypass = root:shell:0666

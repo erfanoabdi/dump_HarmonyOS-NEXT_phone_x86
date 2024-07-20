@@ -1,0 +1,12 @@
+{
+    "process": "appgallery_service",
+    "systemability": [
+        {
+            "name": 65974,
+            "libpath": "libappgallery_sa_service.z.so",
+            "run-on-create": false,
+            "distributed": false,
+            "dump-level": 1
+        }
+    ]
+}

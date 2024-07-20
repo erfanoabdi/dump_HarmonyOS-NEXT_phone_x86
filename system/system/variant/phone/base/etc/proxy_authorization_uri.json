@@ -1,0 +1,53 @@
+{
+    "proxyAuthorizationUri":
+    [
+        {
+            "bundleName": "com.huawei.hmsapp.appgallery"
+        },
+        {
+            "bundleName": "com.huawei.hmos.filemanager"
+        },
+        {
+            "bundleName": "com.huawei.hmsapp.hisearch"
+        },
+        {
+            "bundleName": "com.huawei.hmos.photos"
+        },
+        {
+            "bundleName": "com.huawei.hmos.hipreview"
+        },
+        {
+            "bundleName": "com.huawei.hmos.instantshare"
+        },
+        {
+            "bundleName": "com.ohos.medialibrary.medialibrarydata"
+        },
+        {
+            "bundleName": "com.huawei.hmos.camera"
+        },
+        {
+            "bundleName": "ohos.global.systemres"
+        },
+        {
+            "bundleName": "com.ohos.sceneboard"
+        },
+        {
+            "processName": "wallpaper_service"
+        },
+        {
+            "processName": "distributeddata"
+        },
+        {
+            "processName": "pasteboard_service"
+        },
+        {
+            "processName": "foundation"
+        },
+        {
+            "processName": "broker"
+        },
+        {
+            "processName": "linux_fusion_service"
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "id": "Charger",
+    "screenWidth": 720,
+    "screenHeight": 1280,
+    "dir": "/system/etc/charger/resources",
+    "bgColor": "#000000ff",
+    "subpages": [
+        {
+            "id": "Animation",
+            "coms": [
+                "Charging_Animation_Image",
+                "Charging_Percent_Label"
+            ],
+            "bgColor": "#000000ff"
+        },
+        {
+            "id": "Lackpower_Charging_Prompt",
+            "coms": [
+                "LackPower_Charging_Label"
+            ],
+            "bgColor": "#000000ff"
+        },
+        {
+            "id": "Lackpower_Not_Charging_Prompt",
+            "coms": [
+                "LackPower_Not_Charging_Label"
+            ],
+            "bgColor": "#000000ff"
+        }
+    ],
+    "default": {
+        "Common": {
+            "visible": false
+        },
+        "UILabel": {
+            "bgColor": "#00000000",
+            "fontColor": "#ffffffe6",
+            "align": "center"
+        },
+        "UIImageView": {
+            "imgCnt": 1,
+            "updInterval": 0,
+            "filePrefix": ""
+        }
+    },
+    "coms": [
+        {
+            "type": "UIImageView",
+            "id": "Charging_Animation_Image",
+            "x": 180,
+            "y": 410,
+            "w": 400,
+            "h": 400,
+            "resPath": "/system/etc/charger/resources/",
+            "imgCnt": 62,
+            "updInterval": 60,
+            "filePrefix": "loop"
+        },
+        {
+            "type": "UILabel",
+            "id": "Charging_Percent_Label",
+            "text": "",
+            "x": 365,
+            "y": 580,
+            "w": 65,
+            "h": 43,
+            "fontSize": 32
+        },
+        {
+            "type": "UILabel",
+            "id": "LackPower_Charging_Label",
+            "text": "电池电量低",
+            "x": 229,
+            "y": 1037,
+            "w": 250,
+            "h": 45,
+            "fontSize": 42,
+            "fontColor": "#ff0000ff"
+        },
+        {
+            "type": "UILabel",
+            "id": "LackPower_Not_Charging_Label",
+            "text": "电池电量低，请连接电源",
+            "x": 110,
+            "y": 1037,
+            "w": 500,
+            "h": 45,
+            "fontSize": 42,
+            "fontColor": "#ff0000ff"
+        }
+    ]
+}

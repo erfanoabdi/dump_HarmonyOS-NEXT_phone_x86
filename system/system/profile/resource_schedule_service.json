@@ -1,0 +1,68 @@
+{
+    "process": "resource_schedule_service",
+    "systemability": [
+        {
+            "name": 1914,
+            "libpath": "libstandby_service.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 1919,
+            "libpath": "libmlps_service.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 1905,
+            "libpath": "libcomponent_sched_server.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 1910,
+            "libpath": "libsuspend_manager_service.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 1911,
+            "libpath": "libabnormal_efficiency_mgr_service.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 1913,
+            "libpath": "libresource_quota_control_service.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 1915,
+            "libpath": "libtask_heartbeat_mgr_service.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 1901,
+            "libpath": "libresschedsvc.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 1906,
+            "libpath": "libsocperf_server.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        }
+    ]
+}

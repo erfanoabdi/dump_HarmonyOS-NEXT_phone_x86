@@ -1,0 +1,438 @@
+{
+  "description": "CollaborationFwk Service Model",
+  "version": "1.0",
+  "serviceDetectList": [{
+    "discoveryType": 0,
+    "collectFieldList": [{
+      "name": "serviceName",
+      "type": "string",
+      "isMatchKey": 1,
+      "matchDetectField": "serviceName"
+    },
+    {
+      "name": "isSupportDiffAccount",
+      "type": "uint",
+      "defaultValue": 0
+    },
+    {
+      "name": "sourceDevTypeList",
+      "type": "uintArray",
+      "defaultValue": []
+    },
+    {
+      "name": "sinkDevTypeList",
+      "type": "uintArray",
+      "defaultValue": []
+    },
+    {
+      "name": "localSourceVersion",
+      "type": "uint",
+      "defaultValue": 0
+    },
+    {
+      "name": "supportMinSinkVersion",
+      "type": "uint",
+      "defaultValue": 0
+    },
+    {
+      "name": "localSinkVersion",
+      "type": "uint",
+      "defaultValue": 0
+    },
+    {
+      "name": "supportMinSourceVersion",
+      "type": "uint",
+      "defaultValue": 0
+    }],
+    "detectFieldList": [{
+      "name": "discoveryType",
+      "type": "uint"
+    }, {
+      "name": "sourceDevType",
+      "type": "uint"
+    },
+    {
+      "name": "deviceId",
+      "type": "string"
+    },
+    {
+      "name": "serviceName",
+      "type": "string"
+    }]
+  },
+  {
+    "discoveryType": 1,
+    "collectFieldList": [{
+      "name": "serviceCode",
+      "type": "uint",
+      "isMatchKey": 1,
+      "matchDetectField": "serviceCode"
+    },
+    {
+      "name": "sourceDevTypeList",
+      "type": "uintArray",
+      "isMatchKey": 1,
+      "matchDetectField": "deviceType"
+    },
+    {
+      "name": "nearRange",
+      "type": "uint"
+    },
+    {
+      "name": "awayRange",
+      "type": "uint"
+    },
+    {
+      "name": "timeoutDisappear",
+      "type": "uint",
+      "defaultValue": 10
+    },
+    {
+      "name": "screenOffTriggerOffline",
+      "type": "uint",
+      "defaultValue": 0
+    },
+    {
+      "name": "judgeSameByCustData",
+      "type": "uint",
+      "defaultValue": 0
+    }],
+    "detectFieldList": [{
+      "name": "discoveryType",
+      "type": "uint"
+    }, {
+      "name": "bleMac",
+      "type": "string"
+    },{
+      "name": "modelId",
+      "type": "string"
+    },
+    {
+      "name": "subModelId",
+      "type": "string"
+    },
+    {
+      "name": "serviceCode",
+      "type": "uint"
+    },
+    {
+      "name": "deviceType",
+      "type": "uint"
+    },
+    {
+      "name": "deviceName",
+      "type": "string"
+    },
+    {
+      "name": "custData",
+      "type": "string"
+    },
+    {
+      "name": "state",
+      "type": "uint"
+    },
+    {
+      "name": "reason",
+      "type": "uint"
+    }]
+  },
+  {
+    "discoveryType": 2,
+    "collectFieldList": [{
+      "name": "sourceDevTypeList",
+      "type": "uintArray",
+      "isMatchKey": 1,
+      "matchDetectField": "deviceType"
+    },{
+      "name": "sourceBusinessTypeList",
+      "type": "uintArray",
+      "isMatchKey": 1,
+      "matchDetectField": "bType"
+    }],
+    "detectFieldList": [{
+      "name": "discoveryType",
+      "type": "uint"
+    },{
+      "name": "deviceType",
+      "type": "uint"
+    },
+    {
+      "name": "deviceName",
+      "type": "string"
+    },
+    {
+      "name": "custData",
+      "type": "string"
+    },{
+      "name": "modelId",
+      "type": "string"
+    },
+    {
+      "name": "subModelId",
+      "type": "string"
+    },
+    {
+      "name": "bType",
+      "type": "uint"
+    }]
+  },
+  {
+    "discoveryType": 3,
+    "collectFieldList": [{
+      "name": "sessionRequestType",
+      "type": "uint",
+      "isMatchKey": 1,
+      "matchDetectField": "sessionRequestType"
+    }],
+    "detectFieldList": [{
+      "name": "discoveryType",
+      "type": "uint"
+    }, {
+      "name": "sessionRequestType",
+      "type": "uint"
+    }, {
+      "name": "bleMac",
+      "type": "string"
+    }]
+  },
+  {
+    "discoveryType": 4,
+    "collectFieldList": [{
+      "name": "eventType",
+      "type": "uint",
+      "isMatchKey": 1,
+      "matchDetectField": "eventType"
+    }],
+    "detectFieldList": [{
+      "name": "discoveryType",
+      "type": "uint"
+    }, {
+      "name": "eventType",
+      "type": "uint"
+    }]
+  },
+  {
+    "discoveryType": 5,
+    "collectFieldList": [
+      {
+        "name": "discoveryType",
+        "type": "uint"
+      }
+    ],
+    "detectFieldList": [
+      {
+        "name": "discoveryType",
+        "type": "uint"
+      },
+      {
+        "name": "state",
+        "type": "uint"
+      },
+      {
+        "name": "deviceType",
+        "type": "uint"
+      },
+      {
+        "name": "deviceName",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "discoveryType": 7,
+    "collectFieldList": [{
+      "name": "midWarePackageName",
+      "type": "string",
+      "isMatchKey": 1,
+      "matchDetectField": "midWarePackageName"
+    }],
+    "detectFieldList": [{
+      "name": "discoveryType",
+      "type": "uint"
+    },{
+      "name": "deviceType",
+      "type": "uint"
+    },
+    {
+      "name": "deviceName",
+      "type": "string"
+    },
+    {
+      "name": "custData",
+      "type": "string"
+    },{
+      "name": "modelId",
+      "type": "string"
+    },
+    {
+      "name": "subModelId",
+      "type": "string"
+    }]
+  },
+  {
+    "discoveryType": 8,
+    "collectFieldList": [{
+      "name": "serviceCode",
+      "type": "uint",
+      "isMatchKey": 1,
+      "matchDetectField": "serviceCode"
+    }, {
+      "name": "sourceDevTypeList",
+      "type": "uintArray",
+      "isMatchKey": 1,
+      "matchDetectField": "deviceType"
+    }],
+    "detectFieldList": [{
+      "name": "discoveryType",
+      "type": "uint"
+    },
+    {
+      "name": "modelId",
+      "type": "string"
+    },
+    {
+      "name": "subModelId",
+      "type": "string"
+    },
+    {
+      "name": "bleMac",
+      "type": "string"
+    },
+    {
+      "name": "serviceCode",
+      "type": "uint"
+    },
+    {
+      "name": "deviceType",
+      "type": "uint"
+    },
+    {
+      "name": "deviceName",
+      "type": "string"
+    }]
+  },
+  {
+    "discoveryType": 9,
+    "collectFieldList": [
+      {
+        "name": "sourceDevTypeList",
+        "type": "uintArray",
+        "isMatchKey": 1,
+        "matchDetectField": "deviceType"
+      }
+    ],
+    "detectFieldList": [
+      {
+        "name": "discoveryType",
+        "type": "uint"
+      },
+      {
+        "name": "deviceType",
+        "type": "uint"
+      },
+      {
+        "name": "deviceName",
+        "type": "string"
+      },
+      {
+        "name": "eventType",
+        "type": "uint"
+      },
+      {
+        "name": "address",
+        "type": "string"
+      },
+      {
+        "name": "modelId",
+        "type": "string"
+      },
+      {
+        "name": "subModelId",
+        "type": "string"
+      },
+      {
+        "name": "isSleMac",
+        "type": "uint"
+      }
+    ]
+  }],
+  "serviceDeliverList": [{
+    "deliverType": 0,
+    "collectFieldList": [{
+      "name": "serviceName",
+      "type": "string"
+    }]
+  },
+  {
+    "deliverType": 1,
+    "collectFieldList": [{
+      "name": "needLocalLoginHwId",
+      "type": "uint",
+      "defaultValue": 1
+    },
+    {
+      "name": "firstPageOwner",
+      "type": "uint"
+    },
+    {
+      "name": "bundleName",
+      "type": "string"
+    },
+    {
+      "name": "abilityName",
+      "type": "string"
+    }]
+  },
+  {
+    "deliverType": 2,
+    "collectFieldList": [{
+      "name": "saId",
+      "type": "uint"
+    }]
+  },
+  {
+    "deliverType": 3,
+    "collectFieldList": [{
+      "name": "bundleName",
+      "type": "string"
+    },
+    {
+      "name": "abilityName",
+      "type": "string"
+    }]
+  },
+  {
+    "deliverType": 4,
+    "collectFieldList": [{
+      "name": "bundleName",
+      "type": "string"
+    },
+    {
+      "name": "abilityName",
+      "type": "string"
+    },
+    {
+      "name": "requestId",
+      "type": "uint"
+    },
+    {
+      "name": "duration",
+      "type": "uint"
+    }]
+  },
+  {
+    "deliverType": 5,
+    "collectFieldList": [{
+      "name": "bundleName",
+      "type": "string"
+    },
+    {
+      "name": "abilityName",
+      "type": "string"
+    },
+    {
+      "name": "duration",
+      "type": "uint"
+    }]
+  }]
+}

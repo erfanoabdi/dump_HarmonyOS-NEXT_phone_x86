@@ -1,0 +1,7 @@
+persist.global.language=zh-Hans
+persist.global.locale=zh-Hans-CN
+persist.global.is24Hour=
+persist.global.preferredLanguages=
+const.global.language=zh-Hans
+const.global.locale=zh-Hans-CN
+const.global.region=CN

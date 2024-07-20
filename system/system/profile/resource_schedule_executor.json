@@ -1,0 +1,12 @@
+{
+    "process": "resource_schedule_executor",
+    "systemability": [
+        {
+            "name": 1918,
+            "libpath": "libresschedexesvc.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        }
+    ]
+}

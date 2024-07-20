@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2022-2023 Huawei Device Co., Ltd.
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<display_names>
+    <display_name>
+        <city>Auckland</city>
+        <name>奥克兰 (新西兰)</name>
+    </display_name>
+    <display_name>
+        <city>Magadan</city>
+        <name>马加丹 (俄罗斯)</name>
+    </display_name>
+    <display_name>
+        <city>Lord Howe Island</city>
+        <name>豪勋爵岛 (澳大利亚)</name>
+    </display_name>
+    <display_name>
+        <city>Tokyo</city>
+        <name>东京 (日本)</name>
+    </display_name>
+    <display_name>
+        <city>Shanghai</city>
+        <name>上海 (中国)</name>
+    </display_name>
+    <display_name>
+        <city>Hovd</city>
+        <name>科布多 (蒙古)</name>
+    </display_name>
+    <display_name>
+        <city>Omsk</city>
+        <name>鄂木斯克 (俄罗斯)</name>
+    </display_name>
+    <display_name>
+        <city>Ashgabat</city>
+        <name>阿什哈巴德 (土库曼斯坦)</name>
+    </display_name>
+    <display_name>
+        <city>Yerevan</city>
+        <name>埃里温 (亚美尼亚)</name>
+    </display_name>
+    <display_name>
+        <city>Moscow</city>
+        <name>莫斯科 (俄罗斯)</name>
+    </display_name>
+    <display_name>
+        <city>Tel Aviv</city>
+        <name>特拉维夫 (以色列)</name>
+    </display_name>
+    <display_name>
+        <city>Dublin</city>
+        <name>都柏林 (爱尔兰)</name>
+    </display_name>
+    <display_name>
+        <city>London</city>
+        <name>伦敦 (英国)</name>
+    </display_name>
+    <display_name>
+        <city>Praia</city>
+        <name>普拉亚 (佛得角)</name>
+    </display_name>
+    <display_name>
+        <city>Montevideo</city>
+        <name>蒙得维的亚 (乌拉圭)</name>
+    </display_name>
+    <display_name>
+        <city>Brasília</city>
+        <name>巴西利亚 (巴西)</name>
+    </display_name>
+    <display_name>
+        <city>Santiago</city>
+        <name>圣地亚哥 (智利)</name>
+    </display_name>
+    <display_name>
+        <city>Bogotá</city>
+        <name>波哥大 (哥伦比亚)</name>
+    </display_name>
+    <display_name>
+        <city>Easter Island</city>
+        <name>复活节岛 (智利)</name>
+    </display_name>
+    <display_name>
+        <city>Salt Lake City</city>
+        <name>盐湖城 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Los Angeles</city>
+        <name>洛杉矶 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Anchorage</city>
+        <name>安克雷奇 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Adak</city>
+        <name>埃达克 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Pago Pago</city>
+        <name>帕果-帕果 (美属萨摩耶)</name>
+    </display_name>
+</display_names>

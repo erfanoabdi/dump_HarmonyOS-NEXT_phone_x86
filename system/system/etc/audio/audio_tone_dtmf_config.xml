@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (c) 2022 Huawei Device Co., Ltd.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<DTMF>
+ <Tones>
+	<ToneInfo name="TONE_TYPE_DIAL_0" toneType="0" >
+	  <RepeatCount value="INF"/>
+	  <RepeatSegment value="0"/>
+	  <SegmentCount value="2" />
+	  <Segment duration="INF" freq="1336, 941, 0" loopCount ="0"  loopIndex="0" />
+	  <Segment duration="0" freq="0" loopCount ="0"  loopIndex="0" />
+	</ToneInfo>
+
+	<ToneInfo name="TONE_TYPE_DIAL_1" toneType="1" >
+	  <RepeatCount value="INF"/>
+	  <RepeatSegment value="0"/>
+	  <SegmentCount value="2" />
+	  <Segment duration="INF" freq="1209, 697, 0" loopCount ="0"  loopIndex="0" />
+	  <Segment duration="0" freq="0" loopCount ="0"  loopIndex="0" />
+	</ToneInfo>
+
+	<ToneInfo name="TONE_TYPE_DIAL_2" toneType="2" >
+	  <RepeatCount value="INF"/>
+	  <RepeatSegment value="0"/>
+	  <SegmentCount value="2" />
+	  <Segment duration="INF" freq=" 1336, 697, 0" loopCount ="0"  loopIndex="0" />
+	  <Segment duration="0" freq="0" loopCount ="0"  loopIndex="0" />
+	</ToneInfo>
+
+	<ToneInfo name="TONE_TYPE_DIAL_3" toneType="3" >
+	  <RepeatCount value="INF"/>
+	  <RepeatSegment value="0"/>
+	  <SegmentCount value="2" />
+	  <Segment duration="INF" freq="1477, 697, 0" loopCount ="0"  loopIndex="0" />
+	  <Segment duration="0" freq="0" loopCount ="0"  loopIndex="0" />
+	</ToneInfo>
+
+	<ToneInfo name="TONE_TYPE_DIAL_4" toneType="4" >
+	  <RepeatCount value="INF"/>
+	  <RepeatSegment value="0"/>
+	  <SegmentCount value="2" />
+	  <Segment duration="INF" freq="1209, 770, 0" loopCount ="0"  loopIndex="0" />
+	  <Segment duration="0" freq="0" loopCount ="0"  loopIndex="0" />
+	</ToneInfo>
+
+	<ToneInfo name="TONE_TYPE_DIAL_5" toneType="5" >
+	  <RepeatCount value="INF"/>
+	  <RepeatSegment value="0"/>
+	  <SegmentCount value="2" />
+	  <Segment duration="INF" freq="1336, 770, 0" loopCount ="0"  loopIndex="0" />
+	  <Segment duration="0" freq="0" loopCount ="0"  loopIndex="0" />
+	</ToneInfo>
+
+	<ToneInfo name="TONE_TYPE_DIAL_6" toneType="6" >
+	  <RepeatCount value="INF"/>
+	  <RepeatSegment value="0"/>
+	  <SegmentCount value="2" />
+	  <Segment duration="INF" freq="1477, 770, 0" loopCount ="0"  loopIndex="0" />
+	  <Segment duration="0" freq="0" loopCount ="0"  loopIndex="0" />
+	</ToneInfo>
+
+	<ToneInfo name="TONE_TYPE_DIAL_7" toneType="7" >
+	  <RepeatCount value="INF"/>
+	  <RepeatSegment value="0"/>
+	  <SegmentCount value="2" />
+	  <Segment duration="INF" freq="1209, 852, 0" loopCount ="0"  loopIndex="0" />
+	  <Segment duration="0" freq="0" loopCount ="0"  loopIndex="0" />
+	</ToneInfo>
+
+	<ToneInfo name="TONE_TYPE_DIAL_8" toneType="8" >
+	  <RepeatCount value="INF"/>
+	  <RepeatSegment value="0"/>
+	  <SegmentCount value="2" />
+	  <Segment duration="INF" freq="1336, 852, 0" loopCount ="0"  loopIndex="0" />
+	  <Segment duration="0" freq="0" loopCount ="0"  loopIndex="0" />
+	</ToneInfo>
+
+	<ToneInfo name="TONE_TYPE_DIAL_9" toneType="9" >
+	  <RepeatCount value="INF"/>
+	  <RepeatSegment value="0"/>
+	  <SegmentCount value="2" />
+	  <Segment duration="INF" freq="1477, 852, 0" loopCount ="0"  loopIndex="0" />
+	  <Segment duration="0" freq="0" loopCount ="0"  loopIndex="0" />
+	</ToneInfo>
+
+	<ToneInfo name="TONE_TYPE_DIAL_S" toneType="10" >
+	  <RepeatCount value="INF"/>
+	  <RepeatSegment value="0"/>
+	  <SegmentCount value="2" />
+	  <Segment duration="INF" freq="1209, 941, 0" loopCount ="0"  loopIndex="0" />
+	  <Segment duration="0" freq="0" loopCount ="0"  loopIndex="0" />
+	</ToneInfo>
+
+	<ToneInfo name="TONE_TYPE_DIAL_P" toneType="11" >
+	  <RepeatCount value="INF"/>
+	  <RepeatSegment value="0"/>
+	  <SegmentCount value="2" />
+	  <Segment duration="INF" freq="1477, 941, 0" loopCount ="0"  loopIndex="0" />
+	  <Segment duration="0" freq="0" loopCount ="0"  loopIndex="0" />
+	</ToneInfo>
+
+	<ToneInfo name="TONE_TYPE_DIAL_A" toneType="12" >
+	  <RepeatCount value="INF"/>
+	  <RepeatSegment value="0"/>
+	  <SegmentCount value="2" />
+	  <Segment duration="INF" freq="1633, 697, 0" loopCount ="0"  loopIndex="0" />
+	  <Segment duration="0" freq="0" loopCount ="0"  loopIndex="0" />
+	</ToneInfo>
+
+	<ToneInfo name="TONE_TYPE_DIAL_B" toneType="13" >
+	  <RepeatCount value="INF"/>
+	  <RepeatSegment value="0"/>
+	  <SegmentCount value="2" />
+	  <Segment duration="INF" freq="1633, 770, 0" loopCount ="0"  loopIndex="0" />
+	  <Segment duration="0" freq="0" loopCount ="0"  loopIndex="0" />
+	</ToneInfo>
+
+	<ToneInfo name="TONE_TYPE_DIAL_C" toneType="14" >
+	  <RepeatCount value="INF"/>
+	  <RepeatSegment value="0"/>
+	  <SegmentCount value="2" />
+	  <Segment duration="INF" freq="1633, 852, 0" loopCount ="0"  loopIndex="0" />
+	  <Segment duration="0" freq="0" loopCount ="0"  loopIndex="0" />
+	</ToneInfo>
+
+	<ToneInfo name="TONE_TYPE_DIAL_D" toneType="15" >
+	  <RepeatCount value="INF"/>
+	  <RepeatSegment value="0"/>
+	  <SegmentCount value="2" />
+	  <Segment duration="INF" freq="1633, 941, 0" loopCount ="0"  loopIndex="0" />
+	  <Segment duration="0" freq="0" loopCount ="0"  loopIndex="0" />
+	</ToneInfo>
+
+	<ToneInfo name="TONE_TYPE_COMMON_SUPERVISORY_DIAL" toneType="100" >
+	  <RepeatCount value="INF"/>
+	  <RepeatSegment value="0"/>
+	  <SegmentCount value="2" />
+	  <Segment duration="INF" freq="425, 0" loopCount ="0"  loopIndex="0" />
+	  <Segment duration="0" freq="0" loopCount ="0"  loopIndex="0" />
+	</ToneInfo>
+
+	<ToneInfo name="TONE_TYPE_COMMON_SUPERVISORY_BUSY" toneType="101" >
+	  <RepeatCount value="INF"/>
+	  <RepeatSegment value="0"/>
+	  <SegmentCount value="3" />
+	  <Segment duration="500" freq="425, 0" loopCount ="0"  loopIndex="0" />
+	  <Segment duration="500" freq="0" loopCount ="0"  loopIndex="0" />
+	  <Segment duration="0" freq="0" loopCount ="0"  loopIndex="0" />
+	</ToneInfo>
+
+	<ToneInfo name="TONE_TYPE_COMMON_SUPERVISORY_CONGESTION" toneType="102" >
+	  <RepeatCount value="INF"/>
+	  <RepeatSegment value="0"/>
+	  <SegmentCount value="3" />
+	  <Segment duration="200" freq="425, 0" loopCount ="0"  loopIndex="0" />
+	  <Segment duration="200" freq="0" loopCount ="0"  loopIndex="0" />
+	  <Segment duration="0" freq="0" loopCount ="0"  loopIndex="0" />
+	</ToneInfo>
+
+	<ToneInfo name="TONE_TYPE_COMMON_SUPERVISORY_RADIO_ACK" toneType="103" >
+	  <RepeatCount value="0"/>
+	  <RepeatSegment value="0"/>
+	  <SegmentCount value="2" />
+	  <Segment duration="200" freq="425, 0" loopCount ="0"  loopIndex="0" />
+	  <Segment duration="0" freq="0" loopCount ="0"  loopIndex="0" />
+	</ToneInfo>
+
+	<ToneInfo name="TONE_TYPE_COMMON_SUPERVISORY_RADIO_NOT_AVAILABLE" toneType="104" >
+	  <RepeatCount value="2"/>
+	  <RepeatSegment value="0"/>
+	  <SegmentCount value="3" />
+	  <Segment duration="200" freq="425, 0" loopCount ="0"  loopIndex="0" />
+	  <Segment duration="200" freq="0" loopCount ="0"  loopIndex="0" />
+	  <Segment duration="0" freq="0" loopCount ="0"  loopIndex="0" />
+	</ToneInfo>
+
+	<ToneInfo name="TONE_TYPE_COMMON_SUPERVISORY_CALL_WAITING" toneType="106" >
+	  <RepeatCount value="INF"/>
+	  <RepeatSegment value="0"/>
+	  <SegmentCount value="5" />
+	  <Segment duration="200" freq="425, 0" loopCount ="0"  loopIndex="0" />
+	  <Segment duration="600" freq="0" loopCount ="0"  loopIndex="0" />
+	  <Segment duration="200" freq="425, 0" loopCount ="0"  loopIndex="0" />
+	  <Segment duration="3000" freq="0" loopCount ="0"  loopIndex="0" />
+	  <Segment duration="0" freq="0" loopCount ="0"  loopIndex="0" />
+	</ToneInfo>
+
+	<ToneInfo name="TONE_TYPE_COMMON_SUPERVISORY_RINGTONE" toneType="107" >
+	  <RepeatCount value="INF"/>
+	  <RepeatSegment value="0"/>
+	  <SegmentCount value="3" />
+	  <Segment duration="1000" freq="425, 0" loopCount ="0"  loopIndex="0" />
+	  <Segment duration="4000" freq="0" loopCount ="0"  loopIndex="0" />
+	  <Segment duration="0" freq="0" loopCount ="0"  loopIndex="0" />
+	</ToneInfo>
+
+	<ToneInfo name="TONE_TYPE_COMMON_PROPRIETARY_BEEP" toneType="200" >
+	  <RepeatCount value="0"/>
+	  <RepeatSegment value="0"/>
+	  <SegmentCount value="2" />
+	  <Segment duration="40" freq="400, 1200, 0" loopCount ="0"  loopIndex="0" />
+	  <Segment duration="0" freq="0" loopCount ="0"  loopIndex="0" />
+	</ToneInfo>
+
+	<ToneInfo name="TONE_TYPE_COMMON_PROPRIETARY_ACK" toneType="201" >
+	  <RepeatCount value="1"/>
+	  <RepeatSegment value="0"/>
+	  <SegmentCount value="3" />
+	  <Segment duration="100" freq="1200, 0" loopCount ="0"  loopIndex="0" />
+	  <Segment duration="100" freq="0" loopCount ="0"  loopIndex="0" />
+	  <Segment duration="0" freq="0" loopCount ="0"  loopIndex="0" />
+	</ToneInfo>
+
+	<ToneInfo name="TONE_TYPE_COMMON_PROPRIETARY_PROMPT" toneType="203" >
+	  <RepeatCount value="0"/>
+	  <RepeatSegment value="0"/>
+	  <SegmentCount value="2" />
+	  <Segment duration="200" freq="400, 1200, 0" loopCount ="0"  loopIndex="0" />
+	  <Segment duration="0" freq="0" loopCount ="0"  loopIndex="0" />
+	</ToneInfo>
+
+	<ToneInfo name="TONE_TYPE_COMMON_PROPRIETARY_DOUBLE_BEEP" toneType="204" >
+	  <RepeatCount value="0"/>
+	  <RepeatSegment value="0"/>
+	  <SegmentCount value="4" />
+	  <Segment duration="40" freq="400, 1200, 0" loopCount ="0"  loopIndex="0" />
+	  <Segment duration="200" freq="0" loopCount ="0"  loopIndex="0" />
+	  <Segment duration="40" freq="400, 1200, 0" loopCount ="0"  loopIndex="0" />
+	  <Segment duration="0" freq="0" loopCount ="0"  loopIndex="0" />
+	</ToneInfo>
+
+ </Tones>
+</DTMF>

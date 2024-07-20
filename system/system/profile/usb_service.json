@@ -1,0 +1,13 @@
+{
+    "process": "usb_service",
+    "systemability": [
+        {
+            "name": 4201,
+            "libpath": "libusbservice.z.so",
+            "run-on-create": false,
+            "auto-restart": true,
+            "distributed": false,
+            "dump_level": 1
+        }
+    ]
+}

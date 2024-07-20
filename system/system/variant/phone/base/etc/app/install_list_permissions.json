@@ -1,0 +1,1676 @@
+[
+  {
+    "bundleName": "com.huawei.hmos.trustedring",
+    "app_signature": [
+      "779222535D63B95E7A835149BA9D1C552654C1D5F5C9F05DB690BBB9DB7890EE"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.GET_NETWORK_INFO",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.ACCESS_BIOMETRIC",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.MANAGE_TRUSTED_RING",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.photos",
+    "app_signature": [
+      "8B62054577FE913A82B51103C2C9B583F601669C1D46E1A16FC93FE0FC00EC36"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.READ_IMAGEVIDEO",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.WRITE_IMAGEVIDEO",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.MEDIA_LOCATION",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.security.privacycenter",
+    "app_signature": [
+      "DCF6C6E79FCA864EE166F12638F4369B7CB464920C30D80B541999E4957495C3"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.GET_INSTALLED_BUNDLE_LIST",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.READ_IMAGEVIDEO",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.READ_CONTACTS",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.LOCATION",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.APPROXIMATELY_LOCATION",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.camera",
+    "app_signature": [
+      "AC4A1C9EB58BBB18EE6165DC382EE6F88E53359DB8C7A40A0092D5CD58F01C4C"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.READ_IMAGEVIDEO",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.WRITE_IMAGEVIDEO",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.DISTRIBUTED_DATASYNC",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.CAMERA",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.MICROPHONE",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.callrecorder",
+    "app_signature": [
+      "D4EEA144F56B087238A9B5708B7EE505EF58AEA4789536A86263C99C2787CCC2"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.READ_CONTACTS",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.WRITE_AUDIO",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.emergencycommunication",
+    "app_signature": [
+      "AE5DF50CC8AB10668405A4137C99366A9F0D0726E86B208F0B683E19D26AB059"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.APPROXIMATELY_LOCATION",
+        "userCancellable": true
+      },
+      {
+        "name": "ohos.permission.LOCATION",
+        "userCancellable": true
+      },
+      {
+        "name": "ohos.permission.SEND_MESSAGES",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.ohos.callui",
+    "app_signature": [
+      "24C319BE17A19DE030CCF9338578A3A1F15C5606584A522131577CE82F880956"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.READ_CONTACTS",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.SEND_MESSAGES",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.ANSWER_CALL",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.APPROXIMATELY_LOCATION",
+        "userCancellable": true
+      },
+      {
+        "name": "ohos.permission.LOCATION",
+        "userCancellable": true
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.superhub",
+    "app_signature": [
+      "1B9934E72DD592FC235F9C32329F36DE9AA340293EA87BABEFF2F8573E3EA41D"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.READ_MEDIA",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.WRITE_MEDIA",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.ohos.screenshot",
+    "app_signature": [
+      "872EF1EC62BC05F4E068EAF939AE9983FEDD7BBDA8F3E5D72923AFEC5BBA29BC"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.WRITE_IMAGEVIDEO",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.ohos.screenrecorder",
+    "app_signature": [
+      "4E1FED2D72B1D50F7919F636C3C6C957A0E3303CE1AE31BC20947906CCB65F84"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.WRITE_IMAGEVIDEO",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.MICROPHONE",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.screenrecorder",
+    "app_signature": [
+      "com.huawei.hmos.screenrecorder_BMvd73RACEBUdyPzBIymsTXS6z9O5AbCn6GEPudxkopWkdY2ls43C1U3whKOSEKJcllBwR8qhYDFzLehNCo5tTo="
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.WRITE_IMAGEVIDEO",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.MICROPHONE",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.ohos.screenshot",
+    "app_signature": [
+      "8E93863FC32EE238060BF69A9B37E2608FFFB21F93C862DD511CBAC9F30024B5"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.MEDIA_LOCATION",
+        "userCancellable": true
+      },
+      {
+        "name": "ohos.permission.READ_MEDIA",
+        "userCancellable": true
+      },
+      {
+        "name": "ohos.permission.WRITE_MEDIA",
+        "userCancellable": true
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.hiviewx",
+    "app_signature": [
+      "358E34461FFFBCF56541B9672927CFF143EFFED31BFCAF864A4BB92B6B253873"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.sec.ACCESS_UDID",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.GET_WIFI_INFO",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.GET_NETWORK_INFO",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.INTERNET",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.GET_BUNDLE_INFO_PRIVILEGED",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.READ_DFX_SYSEVENT",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.READ_HIVIEW_SYSTEM",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.WRITE_HIVIEW_SYSTEM",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.STORAGE_MANAGER",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.GET_INSTALLED_BUNDLE_LIST",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.hiviewcare",
+    "app_signature": [
+      "887725D0EC8AD4DC8D8ECEDBFAFA24D5022606A52F8AD612DA52D7C493AF136A"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.DISTRIBUTED_DATASYNC",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.ohos.inputmethodchoosedialog",
+    "app_signature": [
+      "7C2A75608CD2519CDCF7C79396DB7E2334389702B5001F3BF344AF5D40E713FC"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.CONNECT_IME_ABILITY",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmsapp.samplemanagement",
+    "app_signature": [
+      "27DF47B14A5E901D6CAABDB7E91F9514F489B4FA7F3B7D378AC4E4637951D410"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.LOCATION",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.LOCATION_IN_BACKGROUND",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.APPROXIMATELY_LOCATION",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.ohos.mms",
+    "app_signature": [
+      "2EB86557AC218789958788E015353954051C7F1FC32A6504882CCE3EEB7CDD8C"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.READ_CONTACTS",
+        "userCancellable": true
+      },
+      {
+        "name": "ohos.permission.READ_MESSAGES",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.SEND_MESSAGES",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.RECEIVE_SMS",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.RECEIVE_MMS",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.READ_CALL_LOG",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.WRITE_CONTACTS",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.ohos.telephonydataability",
+    "app_signature": [
+      "07B7C236DE05B17AF839AE065A79C81697C3870829D2EDD4DA5D0ED35DEB3EBE"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.START_ABILITIES_FROM_BACKGROUND",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.READ_MESSAGES",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.ohos.contactsdataability",
+    "app_signature": [
+      "7DCB9DBC3980B4F7A13B829FBBF0F7093D27954CE6CF1EFDFC0E26A34FB3FE94",
+      "D729F438E1EF2E154994E2B077F6C0CD592BA9F9C938BB428FCDA564FF805EE4"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.READ_CONTACTS",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.WRITE_CONTACTS",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.WRITE_CALL_LOG",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.READ_CALL_LOG",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.MANAGE_VOICEMAIL",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.ohos.contacts",
+    "app_signature": [
+      "D5F3BA069A565A38F7BFDE297FD80B62ACA5BDA726B34693B39BA24F835400E4"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.READ_CONTACTS",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.WRITE_CONTACTS",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.MANAGE_VOICEMAIL",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.READ_CALL_LOG",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.WRITE_CALL_LOG",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.ohos.filepicker",
+    "app_signature": [
+      "C902DDEE3286715B8BA26175A1EF967985D22AEF44BE747702B604D956A76CFA"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.READ_MEDIA",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.WRITE_MEDIA",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.MEDIA_LOCATION",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.ohos.medialibrary.medialibrarydata",
+    "app_signature": [
+      "F9431859ED7A3959B5D72EF36FBE8B210A00082B044063E4424F823A01B3B7CA",
+      "DF722A13FC1404171F20B55C5113D3D493ED1248DF9D2165B2A45C656078919D"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.DISTRIBUTED_DATASYNC",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.ohos.permissionmanager",
+    "app_signature": [
+      "68079CC9CB1BD69283D70790305645FFF61CD1E46CAFD7AA53B9FA8540432B81",
+      "49DFB84D59F082CFEE9F759F7E24BABDFCC317FAFCEFA3EC7934736A22462112"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.GET_INSTALLED_BUNDLE_LIST",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.ohos.systemui",
+    "app_signature": [
+      "01343CE7197C5DD4AD0A15C06045CF32934295AA879241DAA5B52CF5319C686F"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.GET_INSTALLED_BUNDLE_LIST",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.ACCESS_BLUETOOTH",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.ohos.sceneboard",
+    "app_signature": [
+      "3B3B93DAFBF8FAC3446F90DB8B75BA09FEDE28B0408564AB786B52B7B304D78E"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.GET_INSTALLED_BUNDLE_LIST",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.READ_IMAGEVIDEO",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.DISTRIBUTED_DATASYNC",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.ACCESS_BLUETOOTH",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.calendar",
+    "app_signature": [
+      "87DE0D53485D81CDD135D238382CF06DE47E44E881A52D8328004440EF39D2B4"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.WRITE_WHOLE_CALENDAR",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.READ_WHOLE_CALENDAR",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.settings",
+    "app_signature": [
+      "AA1827B147A0D2BD7D8AE0DBEA11CB4BB1002E30096641C18FE140C7F2E25C02",
+      "A8526062AC90FF5B99C1A03BECDAABF62FE6B475B953F16DE53510BBD23B861F"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.GET_INSTALLED_BUNDLE_LIST",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.ACCESS_BLUETOOTH",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.LOCATION",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.APPROXIMATELY_LOCATION",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.ACCESS_NEARLINK",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.ohos.launcher",
+    "app_signature": [
+      "FF7A2BDC82A13D39DA8FFE9130F726BC11B2F5A3796491CB0CEEA0B5E3984D2C"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.DISTRIBUTED_DATASYNC",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmsapp.appgallery",
+    "app_signature": [
+      "08C9E96C38FDBE2B41BE7ADF9E4D3F699B9774BACAB46FF6B4D9572F9A7E38C4",
+      "241178161188A17679A99D39C714ECD5DDF244A98A7B99F858FFDEC2177A9B0A",
+      "D7A2D4018E606A606CE406EEB686396E6DB4BCCC412FB079EBF08A584033634E",
+      "0D3FDCC90937DA72C364C88A5420977E3A6F29724ED909650733007CE7802541"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.GET_INSTALLED_BUNDLE_LIST",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hms.hmscore",
+    "app_signature": [
+      "6F03B1B296CF815A643266C97B0EC671E91110176A65A7E49741A020091E7D5E",
+      "C7B5729BFCAE658C4150D699844F478ADE50B3672E7421F91E34D4089BF1F030",
+      "2183D7D5B21142D03FCAB3A5F4177FA88C9B4387FF79580428D40943F530EC31"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.LOCATION_IN_BACKGROUND",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.LOCATION",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.APPROXIMATELY_LOCATION",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.RECEIVE_SMS",
+        "userCancellable": true
+      },
+      {
+        "name": "ohos.permission.READ_MESSAGES",
+        "userCancellable": true
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.meetimeservice",
+    "app_signature": [
+      "73E25249833474A89F71922CC1FCEDF66CAE3C1B0E6B2FFEBD7335EAF49C008A",
+      "com.huawei.hmos.meetimeservice_BGzxtBAWZwA8due3mVOk1JFU7nye8oswgyR8N8Hwr8gkpxhdnCcefwhjelxjxttYr8d/wrYPxaR6z/vYsUZ8lBTxYjdof220aj1x5EZqJwBz713c4XhDjWXS76Pz7MsBkA=="
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.SYSTEM_FLOAT_WINDOW",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.sec.ACCESS_UDID",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.READ_CALL_LOG",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.READ_CONTACTS",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.START_ABILITIES_FROM_BACKGROUND",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.GET_WALLPAPER",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.WRITE_CALL_LOG",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.WRITE_CONTACTS",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.GET_TELEPHONY_STATE",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.MANAGE_SECURE_SETTINGS",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.MICROPHONE",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.CAMERA",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.instantshare",
+    "app_signature": [
+      "ED6157E56A8A2FAC8394843BC75A0F5428EB2C28E62C25BA7900CDD5E0FE0DB4"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.READ_IMAGEVIDEO",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.WRITE_IMAGEVIDEO",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.PROXY_AUTHORIZATION_URI",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmsapp.hiai",
+    "app_signature": [
+      "4C2C417EAF22E5832B61EEC0B5BE5CAC937CCE9D967E695E732754FD416C8FC2"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.CAMERA",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.READ_IMAGEVIDEO",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.aidataservice",
+    "app_signature": [
+      "901F2AAB30D12E6BD7EC131729DB2FD4DD2E387DFFA9D753499222E90CBE39B2"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.READ_CALENDAR",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.READ_CALL_LOG",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.READ_CONTACTS",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.READ_MESSAGES",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.RECEIVE_SMS",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.DISTRIBUTED_DATASYNC",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.LOCATION_IN_BACKGROUND",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.LOCATION",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.APPROXIMATELY_LOCATION",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.ACTIVITY_MOTION",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.READ_HEALTH_DATA",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.READ_WHOLE_CALENDAR",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.GET_INSTALLED_BUNDLE_LIST",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.ACCESS_BLUETOOTH",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.READ_IMAGEVIDEO",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.aidispatchservice",
+    "app_signature": [
+      "com.huawei.hmos.aidispatchservice_BEnJtTA9ivYMZwRKEUu+XF6M3ca5yP9xoyvp36CIbQXZvPNre6NtzcSbylgkWf4x14faviw0pbt7bbePQuujwLswc7NMffU0fTQXFbDLKQsKxXjPr17LXaY+teZIZEvpCQ=="
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.LOCATION_IN_BACKGROUND",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.LOCATION",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.APPROXIMATELY_LOCATION",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.GET_INSTALLED_BUNDLE_LIST",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.ohos.dlpmanager",
+    "app_signature": [
+      "E3F4322139E0109BAFAD8DA4096762068E31708C3CF201780E736D377D60B639",
+      "5FEDFF587F4109E565B96512404D606D539C8DFFCE1424ACBD1B2A7D3E843D4D"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.READ_MEDIA",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.WRITE_MEDIA",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.MEDIA_LOCATION",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.WRITE_IMAGEVIDEO",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.READ_IMAGEVIDEO",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.WRITE_AUDIO",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.READ_AUDIO",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.WRITE_DOCUMENT",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.READ_DOCUMENT",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.health",
+    "app_signature": [
+      "1167174791690463936"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.GET_INSTALLED_BUNDLE_LIST",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.ACTIVITY_MOTION",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hms.scanservice",
+    "app_signature": [
+      "0DF1A06D0F3D48CD26EB87473D7E5A4775CC8FB8268D2ABBE5AFB9DB50E1DCD3"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.CAMERA",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.health.core",
+    "app_signature": [
+      "65F3DABE62205CCC934D041273BD608D025D282C957E482C1652C41889054F06"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.READ_CALL_LOG",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.SEND_MESSAGES",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.ANSWER_CALL",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.READ_CONTACTS",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.LOCATION",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.LOCATION_IN_BACKGROUND",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.APPROXIMATELY_LOCATION",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.READ_MESSAGES",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.ACCESS_BLUETOOTH",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hms.huaweiid",
+    "app_signature": [
+      "1C474871F685C0DF95355F6CEC90E790438C68F2E14EFAB1091A5FEC662F910B"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.RECEIVE_SMS",
+        "userCancellable": true
+      },
+      {
+        "name": "ohos.permission.READ_MESSAGES",
+        "userCancellable": true
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.location",
+    "app_signature": [
+      "2D9E50EBBB9D207D13471DCFDC40A866E8DFA8D6CC2428DED33A0F965CC4C96A"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.LOCATION",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.LOCATION_IN_BACKGROUND",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.APPROXIMATELY_LOCATION",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.ACCESS_BLUETOOTH",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.ACTIVITY_MOTION",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.findservice",
+    "app_signature": [
+      "F277362D4855DF75531AE6DD9209AEE418EE67D00919534960C2EE2BC989AE6C"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.LOCATION",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.APPROXIMATELY_LOCATION",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.LOCATION_IN_BACKGROUND",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hms.adsservice",
+    "app_signature": [
+      "B292668FD85DF53CA354AAFB5EA72908CEDDF5CB40350DF2056AFCEC1398B83A"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.APP_TRACKING_CONSENT",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.hipreview",
+    "app_signature": [
+      "43907FC31757AC2D9D0A8055C807B576A45AB170AD49BC5111D81BE2B7455D40"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.GET_DEFAULT_APPLICATION",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.PROXY_AUTHORIZATION_URI",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.AutoRegService",
+    "app_signature": [
+      "31F6219C4A647C3A6027938D7F6CC7A95E3D3F37DB87F0117E3BCE518E1CED8B"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.LOCATION",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.APPROXIMATELY_LOCATION",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.RECEIVE_SMS",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.SEND_MESSAGES",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.msdp.hmringdiscriminator",
+    "app_signature": [
+      "02AEF082D0923C4DB4C0DBD273EA1C1256A1FAA44AEFBBF40C4C324E670CD65D"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.CAMERA",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.DISTRIBUTED_DATASYNC",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.msdp.hmringgenerator",
+    "app_signature": [
+      "675559D108B319A86D7ED47A66F5B126131E661F34D01B73360DF290DB448EB8"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.DISTRIBUTED_DATASYNC",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.cellbroadcast",
+    "app_signature": [
+      "93CC8056521FA28626F1B037DA9380F0A5097AFFA517C07D6A16A94037DA5C45"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.RECEIVE_SMS",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.dataclone",
+    "app_signature": [
+      "3DEF800CC79B4B1D25C56F47DCEEC5224A10C385841EDC70AC71DEEE7804606A"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.ACCESS_BLUETOOTH",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.GET_INSTALLED_BUNDLE_LIST",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.parentcontrol",
+    "app_signature": [
+      "75BE6A3865856555926B44ACC13CD075CA67B7ADE069061636D5054E3B32A160"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.GET_INSTALLED_BUNDLE_LIST",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmsapp.hisearch",
+    "app_signature": [
+      "1251968E86F354448736A440DD14E249E0B7136A10B28BBD1CAA6F68DC8B1E92"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.READ_IMAGEVIDEO",
+        "userCancellable": true
+      },
+      {
+        "name": "ohos.permission.WRITE_IMAGEVIDEO",
+        "userCancellable": true
+      },
+      {
+        "name": "ohos.permission.READ_CONTACTS",
+        "userCancellable": true
+      },
+      {
+        "name": "ohos.permission.LOCATION",
+        "userCancellable": true
+      },
+      {
+        "name": "ohos.permission.APPROXIMATELY_LOCATION",
+        "userCancellable": true
+      },
+      {
+        "name": "ohos.permission.GET_INSTALLED_BUNDLE_LIST",
+        "userCancellable": true
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hms.analyticsservice",
+    "app_signature": [
+      "BC010626D0B954DA78F2B80980E51CABAC7D96E76405C157B9367D2DE7330105"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.GET_NETWORK_INFO",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.INTERNET",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.READ_DFX_SYSEVENT",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.onehopsvchost",
+    "app_signature": [
+      "8653572473A474FF6F3F7F45FD729BA130E959070CF31CB0D007F77BB1C56ADB"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.START_ABILITIES_FROM_BACKGROUND",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.DISTRIBUTED_DATASYNC",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.ACCESS_BLUETOOTH",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.ailifesvc",
+    "app_signature": [
+      "6BB590B79E1727E8E5909E7642310475C49821B51290EEC45AA3C741B783B720"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.ACCESS_BLUETOOTH",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.APPROXIMATELY_LOCATION",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.LOCATION",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.LOCATION_IN_BACKGROUND",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.READ_CALENDAR",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.READ_CONTACTS",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.betaclub",
+    "app_signature": [
+      "D8479500756939924166A5BBC6E8CE83BF2B8458B1547244D9F16207EAC6EA41"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.GET_INSTALLED_BUNDLE_LIST",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.DISTRIBUTED_DATASYNC",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.audioaccessorymanager",
+    "app_signature": [
+      "FE26FE61F42253E87436A22EA29B6467B171969439042649B71CAEEABEABFD7B"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.ACCESS_BLUETOOTH",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmsapp.gamecenter",
+    "app_signature": [
+      "com.huawei.hmsapp.gamecenter_BAnSeZCc4Pv4FG4K+6QBvWXrnvlKgq4Mga4DnTpKDonSaFvxQ1Us+lj1wQ7an9ZiIT+IhWk8WEDzYtEOxR9c2X/o3ES9QH4ZxM+8kdhEfegflf02MxKNQCt9RL3dVjdsIw=="
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.GET_INSTALLED_BUNDLE_LIST",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.slassistant",
+    "app_signature": [
+      "10B8F5E5640E1506B00130BAA8DD365C1A6CA55ECBAA6D29A6B43668564D0123"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.ACCESS_BLUETOOTH",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.DISTRIBUTED_DATASYNC",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.huaweicast",
+    "app_signature": [
+      "com.huawei.hmos.huaweicast_BGV4HJFWHGBBGtMqHnsNaHllBt7UpHf6naUyfH5XF8AnIuCdDxdu0fuTNHmTpbBbVbOxLWf+X5KMtBcNxlCGE6A="
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.ACCESS_BLUETOOTH",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.retaildemo",
+    "app_signature": [
+      "com.huawei.hmos.retaildemo_BGGHlgo3S9I0MACZgPlNr6mn7V134WFMQr+7X2uPE4Mgsoz7Ru1km0VsCUfXHplB1YaT3cueEf7/SVdnxwYM2I4="
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.ACCESS_BLUETOOTH",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.APPROXIMATELY_LOCATION",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.READ_CONTACTS",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.READ_IMAGEVIDEO",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.WRITE_CONTACTS",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.WRITE_IMAGEVIDEO",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.GET_INSTALLED_BUNDLE_LIST",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.READ_AUDIO",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.WRITE_AUDIO",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.WRITE_WHOLE_CALENDAR",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.READ_WHOLE_CALENDAR",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.LOCATION",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.LOCATION_IN_BACKGROUND",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.hsdr",
+    "app_signature": [
+      "com.huawei.hmos.hsdr_BPzxXHuMATw5kSVFB8nXo3JDagCkjPPQFy1Kd173tasazwcp4u3qW5ionHx3CpYA9OWghzvuEBs6gMNkbDkKLTw="
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.GET_INSTALLED_BUNDLE_LIST",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.spamshield",
+    "app_signature": [
+      "com.huawei.hmos.spamshield_BGmx2AwrkWN3725mmcg5Yv2Tb4WnlLNnKDRo1zTzuFJT2AZMq1peFl4NTqCQscKxmCH4jm8dIQA+ldFJxUo+eAI="
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.READ_MESSAGES",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.READ_CONTACTS",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.WRITE_CONTACTS",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.READ_CALL_LOG",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.WRITE_CALL_LOG",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.databackup",
+    "app_signature": [
+      "com.huawei.hmos.databackup_BHaBDOTmMsPMG+s7Y0F93L9elIwojHS0aNLLhnOV6LyBS/+iFGxtVH1SPYWNNfO/rkiC+WxsHhad7+sAQ9Rr6AEleMiJNCgiPQbG8eYTzLyfoJXOo8GE3YGd9aKOIiGsKA=="
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.GET_INSTALLED_BUNDLE_LIST",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.associateassistant",
+    "app_signature": [
+      "com.huawei.associateassistant_BBWpIV9Q+cmYpOqyENH9YJF9vg8jNflK3ivuaBf1m0q+DIyIa8D6MXfEES0VQWah6VTTv245NFBaCm8MEHiiY30=",
+      "5765880207853354281"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.DISTRIBUTED_DATASYNC",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.sar_production",
+    "app_signature": [
+      "com.huawei.hmos.sar_production_BKpNYdvQM2bCKbIpDDnZgdtcXtKgeH93apVmZ9giq1hyKvzSsUSEe1lOul+svmxYKimoGMZqtSJ7xliFEYwcQ+A="
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.ANSWER_CALL",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.hicar",
+    "app_signature": [
+      "675396FA9C12D415AA23A6C69C70D7513AB6C3A40DAAC9F7A4B6D9166F1FBDED"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.ANSWER_CALL",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.READ_CONTACTS",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.READ_WHOLE_CALENDAR",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.READ_CALL_LOG",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.ACCESS_BLUETOOTH",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.numberidentity",
+    "app_signature": [
+      "com.huawei.hmos.numberidentity_BGAdJp+TzmPG4GD/ggz1DPRj9bs4AfajmbbjfGC6qfMIXqNyB91S6LIqBxEHBHpKvlcruorTA5q9hIK51LWVUGQ="
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.WRITE_CALL_LOG",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.APPROXIMATELY_LOCATION",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.LOCATION_IN_BACKGROUND",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.vassistant",
+    "app_signature": [
+      "8FE0251C49033FE0CE225B7C515B47062727B5099328EF6E2DD6E9A06CCA4743"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.READ_PASTEBOARD",
+        "userCancellable": true
+      },
+      {
+        "name": "ohos.permission.READ_IMAGEVIDEO",
+        "userCancellable": true
+      },
+      {
+        "name": "ohos.permission.READ_CONTACTS",
+        "userCancellable": true
+      },
+      {
+        "name": "ohos.permission.READ_MESSAGES",
+        "userCancellable": true
+      },
+      {
+        "name": "ohos.permission.SEND_MESSAGES",
+        "userCancellable": true
+      },
+      {
+        "name": "ohos.permission.READ_WHOLE_CALENDAR",
+        "userCancellable": true
+      },
+      {
+        "name": "ohos.permission.WRITE_WHOLE_CALENDAR",
+        "userCancellable": true
+      },
+      {
+        "name": "ohos.permission.ANSWER_CALL",
+        "userCancellable": true
+      },
+      {
+        "name": "ohos.permission.LOCATION",
+        "userCancellable": true
+      },
+      {
+        "name": "ohos.permission.APPROXIMATELY_LOCATION",
+        "userCancellable": true
+      },
+      {
+        "name": "ohos.permission.LOCATION_IN_BACKGROUND",
+        "userCancellable": true
+      },
+      {
+        "name": "ohos.permission.MICROPHONE",
+        "userCancellable": true
+      },
+      {
+        "name": "ohos.permission.CAMERA",
+        "userCancellable": true
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hms.textautofill",
+    "app_signature": [
+      "com.huawei.hms.textautofill_BGcfYxwvYmPlPG7VpVYiqtLaIUy8m4jNALbJaqXKtDHkOM1SyU3vZdo8w3QH7s0vR/4mmfBgiT4fO4C6ezXUwhabYFj0r7S5nnm4lmbR/1Z/iAjPpH0xRD+c7e7n6hthyw==",
+      "5765880207853878765"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.READ_WHOLE_CALENDAR",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.READ_CONTACTS",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.superdevice",
+    "app_signature": [
+      "com.huawei.hmos.superdevice_BOQa9fb9viS0ulEQEpstnf4fTtFCtKSuKY/AcbjWIa7eEkYN0owyit4JiLrz9wjfiDOyTF6+g4VYO/D5NAn1eiM="
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.CAMERA",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hms.weather",
+    "app_signature": [
+      "com.huawei.hms.weather_BM9isplbIYRxD5/Gkc3jeXd/TxYJg6STutG1vriZqrGmwoqhCVDaFI+kfNW4eUfCjhXK5MZ/FjPEt/bMhpAw1MY+Cw0Ux8SVzEo2DSIjRQ+563bvwJNwoUbQgD6B7vOxbg=="
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.INTERNET",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.DISTRIBUTED_DATASYNC",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.asde",
+    "app_signature": [
+      "com.huawei.hmos.asde_BAfppzELdOpZFDEY1ycviNLttPWiRJzon4zMKPnGlEeBTy9ZmPjnEG6mSS2rpQNrFK+Jm5OF7/UqHG+rBY5heKgTCxYIwORYafDl1mzl6tnbDZ28xVXFWrOmmylOYokH9Q==",
+      "5765880207853878389"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.ACCESS_BLUETOOTH",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.LOCATION_IN_BACKGROUND",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.LOCATION",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.APPROXIMATELY_LOCATION",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.ACTIVITY_MOTION",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hms.mapservice",
+    "app_signature": [
+      "com.huawei.hms.mapservice_BIoww07I3X/0Jfvy0blBkIV4QlKzTxjeodejkpDqOJXlWWDLuoSgE2xJYJCOYisAbG51sceRl0b2AfTYAsTTSN2DRXO7fwp90FTpofw3uw7BHlbjqO8ZRTbuboSBUsuT2Q=="
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.LOCATION",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.APPROXIMATELY_LOCATION",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.communicationsetting",
+    "app_signature": [
+      "com.huawei.hmos.communicationsetting_BHkEcA5F4iGn5dByq0gEGiYN5Djr4qWObxYjbb1Mp5xrup9I6HIW41eYdy2hcdDAVqtTqyJ2sUm83HY6PEt9OeA="
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.GET_INSTALLED_BUNDLE_LIST",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hms.findnetwork_ui",
+    "app_signature": [
+      "com.huawei.hms.findnetwork_ui_BDZnwpkkFI0U3DS7cGy8eA9nwAp3Jq9xmuA87EBx6KOqQZlbyJLlpebPWU3fl06zY7eej4fDLM3eXchm14ra5Y2BtLLRhCQGJXF+qHeV3ZFvq+Koq/pZCb2AIcQJSt9GAw=="
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.ACCESS_BLUETOOTH",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hms.musicservice",
+    "app_signature": [
+      "com.huawei.hms.musicservice_BGDT0yoomObTJ2OrAqJjmnB5V20hAXgooItNEnsOff6yruXpcmIG6ogZV/+jc0EPuRLR8FcO4RhYiOsxWDvBpts="
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.READ_AUDIO",
+        "userCancellable": false
+      },
+      {
+        "name": "ohos.permission.WRITE_AUDIO",
+        "userCancellable": false
+      }
+    ]
+  },
+  {
+    "bundleName": "com.huawei.hmos.screenreader",
+    "app_signature": [
+      "CE207A08FB013FC2D46017EF504BFF8CCEB7422A861ECB0009B5695B38824AA2"
+    ],
+    "permissions": [
+      {
+        "name": "ohos.permission.ANSWER_CALL",
+        "userCancellable": false
+      }
+    ]
+  }
+]

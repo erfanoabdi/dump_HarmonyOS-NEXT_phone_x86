@@ -1,0 +1,28 @@
+{
+    "process": "d-bms",
+    "systemability": [
+        {
+            "name": 402,
+            "libpath": "libdbms.z.so",
+            "run-on-create": false,
+            "distributed": true,
+            "dump_level": 1,
+            "start-on-demand": {
+                "deviceonline": [
+                    {
+                        "name": "deviceonline",
+                        "value": "on"
+                    }
+                ]
+            },
+            "stop-on-demand": {
+                "deviceonline": [
+                    {
+                        "name": "deviceonline",
+                        "value": "off"
+                    }
+                ]
+            }
+        }
+    ]
+}

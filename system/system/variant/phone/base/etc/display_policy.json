@@ -1,0 +1,78 @@
+[
+  {
+    "targetType": "1",
+    "targetModule": "com.huawei.hmos.security.privacycenter",
+    "needDisplay": "0"
+  },
+  {
+    "targetType": "1",
+    "targetModule": "com.huawei.hmos.spamshield",
+    "needDisplay": "0"
+  },
+  {
+    "targetType": "1",
+    "targetModule": "com.ohos.medialibrary.medialibrarydata",
+    "needDisplay": "1",
+    "displayBundleName": "com.huawei.hmos.photos"
+  },
+  {
+    "targetType": "1",
+    "targetModule": "com.huawei.hmos.calendardata",
+    "needDisplay": "0"
+  },
+  {
+    "targetType": "1",
+    "targetModule": "com.ohos.telephonydataability",
+    "needDisplay": "0"
+  },
+  {
+    "targetType": "0",
+    "targetModule": "com.huawei.hmsapp.hisearch",
+    "needDisplay": "1",
+    "displayBundleName": "com.huawei.hmsapp.hisearch",
+    "displayModuleNames": [
+      "phone"
+    ]
+  },
+  {
+    "targetType": "1",
+    "targetModule": "com.ohos.sceneboard",
+    "needDisplay": "0"
+  },
+  {
+    "targetType": "1",
+    "targetModule": "com.huawei.hms.huaweiid",
+    "needDisplay": "0"
+  },
+  {
+    "targetType": "1",
+    "targetModule": "com.huawei.hmos.callsetting",
+    "needDisplay": "0"
+  },
+  {
+    "targetType": "1",
+    "targetModule": "com.huawei.hmos.emergencycommunication",
+    "needDisplay": "0"
+  },
+  {
+    "targetType": "1",
+    "targetModule": "com.huawei.hmos.simcardmanagement",
+    "needDisplay": "0"
+  },
+  {
+    "targetType": "1",
+    "targetModule": "com.huawei.hmos.screenreader",
+    "needDisplay": "0"
+  },
+  {
+    "targetType": "1",
+    "targetModule": "com.huawei.hmos.meetimeservice",
+    "needDisplay": "1",
+    "displayBundleName": "com.huawei.hmos.meetime"
+  },
+  {
+    "targetType": "1",
+    "targetModule": "com.huawei.hmos.callrecorder",
+    "needDisplay": "0"
+  }
+]

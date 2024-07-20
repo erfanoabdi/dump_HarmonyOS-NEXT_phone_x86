@@ -1,0 +1,33 @@
+{
+    "process": "deviceprofile",
+    "systemability": [
+        {
+            "name": 6001,
+            "libpath": "libdistributed_device_profile.z.so",
+            "run-on-create": false,
+            "distributed": true,
+            "dump-level": 1,
+            "start-on-demand": {
+                "deviceonline": [
+                    {
+                        "name": "deviceonline",
+                        "value": "on"
+                    }
+                ],
+                "commonevent": [
+                    {
+                        "name": "usual.event.BOOT_COMPLETED"
+                    }
+                ]
+            },
+            "stop-on-demand": {
+                "deviceonline": [
+                    {
+                        "name": "deviceonline",
+                        "value": "off"
+                    }
+                ]
+            }
+        }
+    ]
+}

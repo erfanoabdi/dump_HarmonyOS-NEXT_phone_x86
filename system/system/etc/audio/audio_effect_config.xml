@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (c) 2023 Huawei Device Co., Ltd.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<audio_effects_conf version="1.0">
+    <libraries>
+        <library name="histen" path="libaudio_integration.z.so"/>
+        <library name="hvs" path="libaudio_integration_hvs.z.so"/>
+        <library name="pure" path="libvoip_process_pure.so"/>
+        <library name="hd" path="libvoip_process_hd.so"/>
+    </libraries>
+
+    <effects>
+        <effect name="histen" library="histen"/>
+        <effect name="hvs" library="hvs"/>
+        <effect name="pure" library="pure"/>
+        <effect name="hd" library="hd"/>
+    </effects>
+
+    <effectChains>
+        <effectChain name="EFFECTCHAIN_SPK_MUSIC">
+            <apply effect="histen"/>
+        </effectChain>
+        <effectChain name="EFFECTCHAIN_BT_MUSIC">
+            <apply effect="hvs"/>
+        </effectChain>
+        <effectChain name="EFFECTCHAIN_VOIP_3A">
+            <apply effect="pure"/>
+        </effectChain>
+        <effectChain name="EFFECTCHAIN_PURE">
+            <apply effect="pure"/>
+        </effectChain>
+        <effectChain name="EFFECTCHAIN_HD">
+            <apply effect="hd"/>
+        </effectChain>
+    </effectChains>
+
+    <preProcess>
+        <stream scene="SCENE_VOIP_3A">
+            <streamEffectMode mode="EFFECT_DEFAULT">
+                <devicePort type="DEVICE_TYPE_MIC" effectChain="EFFECTCHAIN_VOIP_3A"/>
+                <devicePort type="DEVICE_TYPE_BT" effectChain="EFFECTCHAIN_VOIP_3A"/>
+            </streamEffectMode>
+        </stream>
+        <stream scene="SCENE_RECORD">
+            <streamEffectMode mode="EFFECT_DEFAULT">
+                <devicePort type="DEVICE_TYPE_MIC" effectChain="EFFECTCHAIN_HD"/>
+                <devicePort type="DEVICE_TYPE_BT" effectChain="EFFECTCHAIN_HD"/>
+            </streamEffectMode>
+        </stream>
+        <stream scene="SCENE_MEETING">
+            <streamEffectMode mode="EFFECT_DEFAULT">
+                <devicePort type="DEVICE_TYPE_MIC" effectChain="EFFECTCHAIN_PURE"/>
+                <devicePort type="DEVICE_TYPE_BT" effectChain="EFFECTCHAIN_PURE"/>
+            </streamEffectMode>
+        </stream>
+    </preProcess>
+
+    <postProcess>
+        <effectSceneStreams>
+            <stream scene="SCENE_MUSIC">
+                <streamEffectMode mode="EFFECT_DEFAULT">
+                    <devicePort type="DEVICE_TYPE_SPEAKER" effectChain="EFFECTCHAIN_SPK_MUSIC"/>
+                    <devicePort type="DEVICE_TYPE_BLUETOOTH_A2DP" effectChain="EFFECTCHAIN_BT_MUSIC"/>
+                </streamEffectMode>
+            </stream>
+            <stream scene="SCENE_MOVIE">
+                <streamEffectMode mode="EFFECT_DEFAULT">
+                    <devicePort type="DEVICE_TYPE_SPEAKER" effectChain="EFFECTCHAIN_SPK_MUSIC"/>
+                    <devicePort type="DEVICE_TYPE_BLUETOOTH_A2DP" effectChain="EFFECTCHAIN_BT_MUSIC"/>
+                </streamEffectMode>
+            </stream>
+            <stream scene="SCENE_GAME">
+                <streamEffectMode mode="EFFECT_DEFAULT">
+                    <devicePort type="DEVICE_TYPE_SPEAKER" effectChain="EFFECTCHAIN_SPK_MUSIC"/>
+                    <devicePort type="DEVICE_TYPE_BLUETOOTH_A2DP" effectChain="EFFECTCHAIN_BT_MUSIC"/>
+                </streamEffectMode>
+            </stream>
+            <stream scene="SCENE_SPEECH">
+                <streamEffectMode mode="EFFECT_DEFAULT">
+                    <devicePort type="DEVICE_TYPE_SPEAKER" effectChain="EFFECTCHAIN_SPK_MUSIC"/>
+                    <devicePort type="DEVICE_TYPE_BLUETOOTH_A2DP" effectChain="EFFECTCHAIN_BT_MUSIC"/>
+                </streamEffectMode>
+            </stream>
+            <stream scene="SCENE_RING">
+                <streamEffectMode mode="EFFECT_DEFAULT">
+                    <devicePort type="DEVICE_TYPE_SPEAKER" effectChain="EFFECTCHAIN_SPK_MUSIC"/>
+                    <devicePort type="DEVICE_TYPE_BLUETOOTH_A2DP" effectChain="EFFECTCHAIN_BT_MUSIC"/>
+                </streamEffectMode>
+            </stream>
+            <stream scene="SCENE_OTHERS">
+                <streamEffectMode mode="EFFECT_DEFAULT">
+                    <devicePort type="DEVICE_TYPE_SPEAKER" effectChain="EFFECTCHAIN_SPK_MUSIC"/>
+                    <devicePort type="DEVICE_TYPE_BLUETOOTH_A2DP" effectChain="EFFECTCHAIN_BT_MUSIC"/>
+                </streamEffectMode>
+            </stream>
+        </effectSceneStreams>
+        <sceneMap>
+            <streamUsage name="STREAM_USAGE_UNKNOWN" scene="SCENE_MUSIC"/>
+            <streamUsage name="STREAM_USAGE_MUSIC" scene="SCENE_MUSIC"/>
+            <streamUsage name="STREAM_USAGE_GAME" scene="SCENE_GAME"/>
+            <streamUsage name="STREAM_USAGE_MOVIE" scene="SCENE_MOVIE"/>
+            <streamUsage name="STREAM_USAGE_AUDIOBOOK" scene="SCENE_SPEECH"/>
+            <streamUsage name="STREAM_USAGE_VOICE_COMMUNICATION" scene="SCENE_SPEECH"/>
+            <streamUsage name="STREAM_USAGE_VOICE_ASSISTANT" scene="SCENE_SPEECH"/>
+            <streamUsage name="STREAM_USAGE_ALARM" scene="SCENE_RING"/>
+            <streamUsage name="STREAM_USAGE_RINGTONE" scene="SCENE_RING"/>
+            <streamUsage name="STREAM_USAGE_NOTIFICATION" scene="SCENE_RING"/>
+            <streamUsage name="STREAM_USAGE_SYSTEM" scene="SCENE_RING"/>
+            <streamUsage name="STREAM_USAGE_DTMF" scene="SCENE_RING"/>
+            <streamUsage name="STREAM_USAGE_ENFORCED_TONE" scene="SCENE_RING"/>
+        </sceneMap>
+    </postProcess>
+</audio_effects_conf>

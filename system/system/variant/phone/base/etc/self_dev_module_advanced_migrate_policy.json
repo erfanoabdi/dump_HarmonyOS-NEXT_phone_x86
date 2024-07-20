@@ -1,0 +1,730 @@
+{
+  "app2hap": [
+    {
+      "userMigratePolicy": {
+        "mainUser": "1",
+        "subUser": "1"
+      },
+      "sourceModule": "com.huawei.security.privacycenter",
+      "targetModule": "com.huawei.hmos.security.privacycenter",
+      "restoreData": "0",
+      "fileMigrateInfo": [
+        {
+          "targetDir": "/data/app/el1/#userId#/base/com.huawei.hmos.security.privacycenter/restore",
+          "dac": "0700",
+          "migrateType": "create"
+        },
+        {
+          "sourceFilePath": "/data/misc_de/#originUserId#/apexdata/com.android.permission/runtime-permissions.xml",
+          "targetFilePath": "/data/app/el1/#userId#/base/com.huawei.hmos.security.privacycenter/restore/runtime-permissions.xml",
+          "migrateType": "copy"
+        }
+      ]
+    },
+    {
+      "userMigratePolicy": {
+        "mainUser": "1",
+        "subUser": "1"
+      },
+      "sourceModule": "com.huawei.systemmanager",
+      "targetModule": "com.huawei.hmos.spamshield",
+      "restoreData": "1",
+      "fileMigrateInfo": [
+        {
+          "targetDir": "/data/service/el2/#userId#/backup/bundles/com.huawei.hmos.spamshield/restore/com.huawei.systemmanager/de/",
+          "dac": "0700",
+          "migrateType": "create"
+        },
+        {
+          "sourceFilePath": "/data/user_de/#originUserId#/com.huawei.systemmanager/databases/HarassmentInterception.db",
+          "targetFilePath": "/data/service/el2/#userId#/backup/bundles/com.huawei.hmos.spamshield/restore/com.huawei.systemmanager/de/HarassmentInterception.db",
+          "migrateType": "copy"
+        },
+        {
+          "sourceFilePath": "/data/user_de/#originUserId#/com.huawei.systemmanager/shared_prefs/hsm_contentvalue.xml",
+          "targetFilePath": "/data/service/el2/#userId#/backup/bundles/com.huawei.hmos.spamshield/restore/com.huawei.systemmanager/de/hsm_contentvalue.xml",
+          "migrateType": "copy"
+        }
+      ]
+    },
+    {
+      "userMigratePolicy": {
+        "mainUser": "1",
+        "subUser": "1"
+      },
+      "sourceModule": "com.huawei.calendar",
+      "targetModule": "com.huawei.hmos.calendar",
+      "restoreData": "1",
+      "maxRestoreTime": "3600",
+      "fileMigrateInfo": [
+        {
+          "targetDir": "/data/service/el2/#userId#/backup/bundles/com.huawei.hmos.calendar/restore/com.huawei.calendar/ce/",
+          "dac": "0700",
+          "migrateType": "create"
+        },
+        {
+          "sourceDir": "/data/user/#originUserId#/com.huawei.calendar/",
+          "targetDir": "/data/service/el2/#userId#/backup/bundles/com.huawei.hmos.calendar/restore/com.huawei.calendar/ce/",
+          "migrateType": "copy"
+        }
+      ]
+    },
+    {
+      "userMigratePolicy": {
+        "mainUser": "1",
+        "subUser": "1"
+      },
+      "sourceModule": "com.huawei.filemanager",
+      "targetModule": "com.huawei.hmos.filemanager",
+      "restoreData": "1"
+    },
+    {
+      "userMigratePolicy": {
+        "mainUser": "1",
+        "subUser": "1"
+      },
+      "sourceModule": "com.huawei.hwid",
+      "targetModule": "com.huawei.hms.huaweiid",
+      "restoreData": "1",
+      "fileMigrateInfo": [
+        {
+          "targetDir": "/data/service/el2/#userId#/backup/bundles/com.huawei.hms.huaweiid/restore/com.huawei.hwid/ce/",
+          "dac": "0700",
+          "migrateType": "create"
+        },
+        {
+          "sourceDir": "/data/user/#originUserId#/com.huawei.hwid/",
+          "targetDir": "/data/service/el2/#userId#/backup/bundles/com.huawei.hms.huaweiid/restore/com.huawei.hwid/ce/",
+          "migrateType": "move"
+        }
+      ]
+    },
+    {
+      "userMigratePolicy": {
+        "mainUser": "1",
+        "subUser": "1"
+      },
+      "sourceModule": "com.bjbyhd.screenreader_huawei",
+      "targetModule": "com.huawei.hmos.screenreader",
+      "restoreData": "1",
+      "fileMigrateInfo": [
+        {
+          "targetDir": "/data/service/el1/#userId#/backup/bundles/com.huawei.hmos.screenreader/restore/com.bjbyhd.screenreader_huawei/de/",
+          "dac": "0700",
+          "migrateType": "create"
+        },
+        {
+          "sourceDir": "/data/user_de/#originUserId#/com.bjbyhd.screenreader_huawei/",
+          "targetDir": "/data/service/el1/#userId#/backup/bundles/com.huawei.hmos.screenreader/restore/com.bjbyhd.screenreader_huawei/de/",
+          "migrateType": "move"
+        }
+      ]
+    },
+    {
+      "sourceModule": "com.huawei.hidisk",
+      "targetModule": "com.huawei.hmos.findservice",
+      "restoreData": "1"
+    }
+  ],
+  "multiApp2hap": [
+    {
+      "userMigratePolicy": {
+        "mainUser": "1",
+        "subUser": "1"
+      },
+      "sourceModules": [
+        "com.huawei.android.launcher"
+      ],
+      "targetModule": "com.ohos.sceneboard",
+      "restoreData": "1",
+      "fileMigrateInfo": [
+        {
+          "targetDir": "/data/service/el1/#userId#/backup/bundles/com.ohos.sceneboard/restore/com.huawei.android.launcher/de/",
+          "dac": "0700",
+          "migrateType": "create"
+        },
+        {
+          "targetDir": "/data/service/el2/#userId#/backup/bundles/com.ohos.sceneboard/restore/com.huawei.systemui/",
+          "dac": "0700",
+          "migrateType": "create"
+        },
+        {
+          "sourceDir": "/data/user_de/#originUserId#/com.huawei.android.launcher/",
+          "targetDir": "/data/service/el1/#userId#/backup/bundles/com.ohos.sceneboard/restore/com.huawei.android.launcher/de/",
+          "migrateType": "copy"
+        },
+        {
+          "sourceFilePath": "/data/system/notification_policy.xml",
+          "targetFilePath": "/data/service/el2/#userId#/backup/bundles/com.ohos.sceneboard/restore/com.huawei.systemui/notification_policy.xml",
+          "migrateType": "copy"
+        },
+        {
+          "sourceFilePath": "/data/system/locksettings.db",
+          "targetFilePath": "/data/service/el2/#userId#/backup/bundles/com.ohos.sceneboard/restore/com.huawei.systemui/locksettings.db",
+          "migrateType": "copy"
+        },
+        {
+          "sourceFilePath": "/data/update/migrate/form_mapping_relation_table.json",
+          "targetFilePath": "/data/service/el1/#userId#/backup/bundles/com.ohos.sceneboard/restore/form_mapping_relation_table.json",
+          "migrateType": "copy"
+        }
+      ]
+    },
+    {
+      "userMigratePolicy": {
+        "mainUser": "1",
+        "subUser": "1"
+      },
+      "sourceModules": [
+        "com.android.providers.media.module",
+        "com.huawei.photos"
+      ],
+      "targetModule": "com.ohos.medialibrary.medialibrarydata",
+      "restoreData": "1",
+      "maxRestoreTime": "3600"
+    },
+    {
+      "userMigratePolicy": {
+        "mainUser": "1",
+        "subUser": "1"
+      },
+      "sourceModules": [
+        "com.android.providers.contacts"
+      ],
+      "targetModule": "com.ohos.contactsdataability",
+      "restoreData": "1",
+      "maxRestoreTime": "3600",
+      "fileMigrateInfo": [
+        {
+          "targetDir": "/data/service/el2/#userId#/backup/bundles/com.ohos.contactsdataability/restore/com.android.providers.contacts/ce/",
+          "dac": "0700",
+          "migrateType": "create"
+        },
+        {
+          "sourceDir": "/data/user/#originUserId#/com.android.providers.contacts/",
+          "targetDir": "/data/service/el2/#userId#/backup/bundles/com.ohos.contactsdataability/restore/com.android.providers.contacts/ce/",
+          "migrateType": "copy"
+        }
+      ]
+    },
+    {
+      "userMigratePolicy": {
+        "mainUser": "1",
+        "subUser": "1"
+      },
+      "sourceModules": [
+        "com.android.emergency",
+        "com.android.providers.contacts"
+      ],
+      "targetModule": "com.huawei.hmos.emergencycommunication",
+      "restoreData": "1",
+      "fileMigrateInfo": [
+        {
+          "targetDir": "/data/service/el2/#userId#/backup/bundles/com.huawei.hmos.emergencycommunication/restore/com.android.providers.contacts/ce/",
+          "dac": "0700",
+          "migrateType": "create"
+        },
+        {
+          "sourceDir": "/data/user/#originUserId#/com.android.providers.contacts/databases",
+          "targetDir": "/data/service/el2/#userId#/backup/bundles/com.huawei.hmos.emergencycommunication/restore/com.android.providers.contacts/ce/",
+          "migrateType": "copy"
+        },
+        {
+          "targetDir": "/data/service/el1/#userId#/backup/bundles/com.huawei.hmos.emergencycommunication/restore/com.android.emergency/de/",
+          "dac": "0700",
+          "migrateType": "create"
+        },
+        {
+          "sourceDir": "/data/user_de/#originUserId#/com.android.emergency/shared_prefs/",
+          "targetDir": "/data/service/el1/#userId#/backup/bundles/com.huawei.hmos.emergencycommunication/restore/com.android.emergency/de/",
+          "migrateType": "move"
+        }
+      ]
+    },
+    {
+      "userMigratePolicy": {
+        "mainUser": "1",
+        "subUser": "1"
+      },
+      "sourceModules": [
+        "com.huawei.notepad"
+      ],
+      "targetModule": "com.huawei.hmos.notepad",
+      "restoreData": "1",
+      "maxRestoreTime": "3600",
+      "fileMigrateInfo": [
+        {
+          "targetDir": "/data/service/el2/#userId#/backup/bundles/com.huawei.hmos.notepad/restore/com.huawei.notepad/ce/",
+          "dac": "0700",
+          "migrateType": "create"
+        },
+        {
+          "sourceDir": "/data/user/#originUserId#/com.huawei.notepad/",
+          "targetDir": "/data/service/el2/#userId#/backup/bundles/com.huawei.hmos.notepad/restore/com.huawei.notepad/ce/",
+          "migrateType": "copy"
+        }
+      ]
+    },
+    {
+      "userMigratePolicy": {
+        "mainUser": "1",
+        "subUser": "1"
+      },
+      "sourceModules": [
+        "com.huawei.calendar",
+        "com.android.providers.calendar"
+      ],
+      "targetModule": "com.huawei.hmos.calendardata",
+      "restoreData": "1",
+      "maxRestoreTime": "3600",
+      "fileMigrateInfo": [
+        {
+          "targetDir": "/data/service/el2/#userId#/backup/bundles/com.huawei.hmos.calendardata/restore/com.huawei.calendar/ce/",
+          "dac": "0700",
+          "migrateType": "create"
+        },
+        {
+          "targetDir": "/data/service/el2/#userId#/backup/bundles/com.huawei.hmos.calendardata/restore/com.huawei.providers.calendar/ce/",
+          "dac": "0700",
+          "migrateType": "create"
+        },
+        {
+          "sourceDir": "/data/user/#originUserId#/com.huawei.calendar/",
+          "targetDir": "/data/service/el2/#userId#/backup/bundles/com.huawei.hmos.calendardata/restore/com.huawei.calendar/ce/",
+          "migrateType": "copy"
+        },
+        {
+          "sourceDir": "/data/user/#originUserId#/com.android.providers.calendar/",
+          "targetDir": "/data/service/el2/#userId#/backup/bundles/com.huawei.hmos.calendardata/restore/com.huawei.providers.calendar/ce/",
+          "migrateType": "move"
+        }
+      ]
+    },
+    {
+      "userMigratePolicy": {
+        "mainUser": "1",
+        "subUser": "1"
+      },
+      "sourceModules": [
+        "com.android.providers.telephony"
+      ],
+      "targetModule": "com.ohos.telephonydataability",
+      "restoreData": "1",
+      "maxRestoreTime": "3600",
+      "fileMigrateInfo": [
+        {
+          "targetDir": "/data/service/el2/#userId#/backup/bundles/com.ohos.telephonydataability/restore/com.android.providers.telephony/ce/",
+          "dac": "0700",
+          "migrateType": "create"
+        },
+        {
+          "sourceDir": "/data/user/#originUserId#/com.android.providers.telephony/",
+          "targetDir": "/data/service/el2/#userId#/backup/bundles/com.ohos.telephonydataability/restore/com.android.providers.telephony/ce/",
+          "migrateType": "copy"
+        }
+      ]
+    },
+    {
+      "userMigratePolicy": {
+        "mainUser": "1",
+        "subUser": "1"
+      },
+      "sourceModules": [
+        "com.android.providers.telephony"
+      ],
+      "targetModule": "com.ohos.mms",
+      "restoreData": "1",
+      "maxRestoreTime": "3600",
+      "fileMigrateInfo": [
+        {
+          "targetDir": "/data/service/el1/#userId#/backup/bundles/com.ohos.mms/restore/com.android.providers.telephony/de/",
+          "dac": "0700",
+          "migrateType": "create"
+        },
+        {
+          "targetDir": "/data/service/el2/#userId#/backup/bundles/com.ohos.mms/restore/com.android.mms/ce/",
+          "dac": "0700",
+          "migrateType": "create"
+        },
+        {
+          "sourceDir": "/data/user_de/#originUserId#/com.android.providers.telephony/",
+          "targetDir": "/data/service/el1/#userId#/backup/bundles/com.ohos.mms/restore/com.android.providers.telephony/de/",
+          "migrateType": "copy"
+        },
+        {
+          "sourceDir": "/data/user/#originUserId#/com.android.mms/",
+          "targetDir": "/data/service/el2/#userId#/backup/bundles/com.ohos.mms/restore/com.android.mms/ce/",
+          "migrateType": "move"
+        }
+      ]
+    },
+    {
+      "userMigratePolicy": {
+        "mainUser": "1",
+        "subUser": "1"
+      },
+      "sourceModules": [
+        "com.android.server.telecom",
+        "com.android.phone",
+        "com.android.providers.telephony"
+      ],
+      "targetModule": "com.huawei.hmos.simcardmanagement",
+      "restoreData": "1",
+      "fileMigrateInfo": [
+        {
+          "targetDir": "/data/service/el1/#userId#/backup/bundles/com.huawei.hmos.simcardmanagement/restore/com.android.server.telecom/de/files/",
+          "dac": "0700",
+          "migrateType": "create"
+        },
+        {
+          "targetDir": "/data/service/el1/#userId#/backup/bundles/com.huawei.hmos.simcardmanagement/restore/com.android.phone/de/shared_prefs/",
+          "dac": "0700",
+          "migrateType": "create"
+        },
+        {
+          "targetDir": "/data/service/el1/#userId#/backup/bundles/com.huawei.hmos.simcardmanagement/restore/com.android.providers.telephony/de/databases/",
+          "dac": "0700",
+          "migrateType": "create"
+        },
+        {
+          "sourceDir": "/data/user_de/#originUserId#/com.android.server.telecom/files/",
+          "targetDir": "/data/service/el1/#userId#/backup/bundles/com.huawei.hmos.simcardmanagement/restore/com.android.server.telecom/de/files/",
+          "migrateType": "copy"
+        },
+        {
+          "sourceDir": "/data/user_de/#originUserId#/com.android.phone/shared_prefs/",
+          "targetDir": "/data/service/el1/#userId#/backup/bundles/com.huawei.hmos.simcardmanagement/restore/com.android.phone/de/shared_prefs/",
+          "migrateType": "copy"
+        },
+        {
+          "sourceDir": "/data/user_de/#originUserId#/com.android.providers.telephony/databases/",
+          "targetDir": "/data/service/el1/#userId#/backup/bundles/com.huawei.hmos.simcardmanagement/restore/com.android.providers.telephony/de/databases/",
+          "migrateType": "copy"
+        }
+      ]
+    },
+    {
+      "userMigratePolicy": {
+        "mainUser": "1",
+        "subUser": "1"
+      },
+      "sourceModules": [
+        "com.android.phone"
+      ],
+      "targetModule": "com.huawei.hmos.callsetting",
+      "restoreData": "1",
+      "fileMigrateInfo": [
+        {
+          "targetDir": "/data/service/el1/#userId#/backup/bundles/com.huawei.hmos.callsetting/restore/com.android.phone/de/shared_prefs/",
+          "dac": "0700",
+          "migrateType": "create"
+        },
+        {
+          "sourceDir": "/data/user_de/#originUserId#/com.android.phone/shared_prefs/",
+          "targetDir": "/data/service/el1/#userId#/backup/bundles/com.huawei.hmos.callsetting/restore/com.android.phone/de/shared_prefs/",
+          "migrateType": "copy"
+        }
+      ]
+    },
+    {
+      "userMigratePolicy": {
+        "mainUser": "1",
+        "subUser": "1"
+      },
+      "sourceModules": [
+        "com.android.server.telecom"
+      ],
+      "targetModule": "com.ohos.callui",
+      "restoreData": "1",
+      "fileMigrateInfo": [
+        {
+          "targetDir": "/data/service/el1/#userId#/backup/bundles/com.ohos.callui/restore/com.android.server.telecom/de/shared_prefs/",
+          "dac": "0700",
+          "migrateType": "create"
+        },
+        {
+          "sourceDir": "/data/user_de/#originUserId#/com.android.server.telecom/shared_prefs/",
+          "targetDir": "/data/service/el1/#userId#/backup/bundles/com.ohos.callui/restore/com.android.server.telecom/de/shared_prefs/",
+          "migrateType": "copy"
+        }
+      ]
+    }
+  ],
+  "app2sa": [
+    {
+      "userMigratePolicy": {
+        "mainUser": "2",
+        "subUser": "0"
+      },
+      "sourceModule": "com.huawei.android.hwouc",
+      "targetModule": "3006",
+      "uid": "update",
+      "gid": "update",
+      "restoreData": "1",
+      "fileMigrateInfo": [
+        {
+          "targetDir": "/data/service/el1/public/update/dupdate_engine/backup/restore",
+          "dac": "700",
+          "migrateType": "create"
+        },
+        {
+          "sourceDir": "/data/user/#originUserId#/com.huawei.android.hwouc/",
+          "targetDir": "/data/service/el1/public/update/dupdate_engine/backup/restore",
+          "migrateType": "move"
+        },
+        {
+          "sourceFilePath": "/data/update/update_result",
+          "targetFilePath": "/data/update/update_result",
+          "migrateType": "move"
+        }
+      ]
+    },
+    {
+      "userMigratePolicy": {
+        "mainUser": "2",
+        "subUser": "0"
+      },
+      "sourceModule": "com.android.nfc",
+      "targetModule": "1142",
+      "uid": "nfc",
+      "gid": "nfc",
+      "restoreData": "1",
+      "fileMigrateInfo": [
+        {
+          "targetDir": "/data/nfc/backup",
+          "dac": "700",
+          "migrateType": "create"
+        },
+        {
+          "sourceDir": "/data/user/#originUserId#/com.android.nfc/shared_prefs",
+          "targetDir": "/data/nfc/backup",
+          "migrateType": "move"
+        }
+      ]
+    },
+    {
+      "userMigratePolicy": {
+        "mainUser": "2",
+        "subUser": "0"
+      },
+      "sourceModule": "com.huawei.parentcontrol",
+      "targetModule": "65862",
+      "uid": "parent_control_service",
+      "gid": "parent_control_service",
+      "restoreData": "1",
+      "fileMigrateInfo": [
+        {
+          "targetDir": "/data/service/el1/public/parentcontrol/backup/user/restore",
+          "dac": "700",
+          "migrateType": "create"
+        },
+        {
+          "targetDir": "/data/service/el1/public/parentcontrol/backup/user_de/restore",
+          "dac": "700",
+          "migrateType": "create"
+        },
+        {
+          "targetDir": "/data/service/el1/public/parentcontrol/backup/systemserver/restore",
+          "dac": "700",
+          "migrateType": "create"
+        },
+        {
+          "sourceDir": "/data/user/#originUserId#/com.huawei.parentcontrol/databases",
+          "targetDir": "/data/service/el1/public/parentcontrol/backup/user/restore",
+          "migrateType": "move"
+        },
+        {
+          "sourceDir": "/data/user_de/#originUserId#/com.huawei.parentcontrol/databases",
+          "targetDir": "/data/service/el1/public/parentcontrol/backup/user_de/restore",
+          "migrateType": "move"
+        },
+        {
+          "sourceDir": "/data/user_de/#originUserId#/com.huawei.systemserver/databases",
+          "targetDir": "/data/service/el1/public/parentcontrol/backup/systemserver/restore",
+          "migrateType": "move"
+        }
+      ]
+    },
+    {
+      "userMigratePolicy": {
+        "mainUser": "1",
+        "subUser": "0"
+      },
+      "sourceModule": "com.huawei.hwid",
+      "targetModule": "6101",
+      "uid": "migrate_server",
+      "gid": "migrate_server",
+      "restoreData": "1",
+      "fileMigrateInfo": [
+        {
+          "targetDir": "/data/service/el1/public/update/migrate_server/plugins/6101/backup",
+          "dac": "700",
+          "migrateType": "create"
+        },
+        {
+          "sourceFilePath": "/data/user_de/0/com.huawei.hwid/shared_prefs/pps_opendevice.xml",
+          "targetFilePath": "/data/service/el1/public/update/migrate_server/plugins/6101/backup/pps_opendevice.xml",
+          "migrateType": "move"
+        }
+      ]
+    },
+    {
+      "userMigratePolicy": {
+        "mainUser": "1",
+        "subUser": "0"
+      },
+      "sourceModule": "com.huawei.sle",
+      "targetModule": "1190",
+      "uid": "nearlink",
+      "gid": "nearlink",
+      "restoreData": "1",
+      "fileMigrateInfo": [
+        {
+          "targetDir": "/data/service/el1/public/nearlink",
+          "dac": "700",
+          "migrateType": "create"
+        },
+        {
+          "sourceFilePath": "/data/misc/sle/sle_device_config.xml",
+          "targetFilePath": "/data/service/el1/public/nearlink/sle_device_config.xml",
+          "migrateType": "move"
+        },
+        {
+          "sourceFilePath": "/data/misc/sle/sle_device_info.xml",
+          "targetFilePath": "/data/service/el1/public/nearlink/sle_device_info.xml",
+          "migrateType": "move"
+        }
+      ]
+    }
+  ],
+  "service2sa": [
+    {
+      "userMigratePolicy": {
+        "mainUser": "1",
+        "subUser": "1"
+      },
+      "sourceUidValue": "5520",
+      "sourceModule": "vendor_securityserver",
+      "targetModule": "3510",
+      "uid": "huks_server",
+      "gid": "huks_server",
+      "restoreData": "1",
+      "fileMigrateInfo": [
+        {
+          "targetDir": "/data/service/el1/public/huks_migration",
+          "dac": "0700",
+          "migrateType": "create"
+        },
+        {
+          "sourceFilePath": "/data/misc/hwpki/alias",
+          "targetFilePath": "/data/service/el1/public/huks_migration",
+          "migrateType": "move"
+        },
+        {
+          "targetDir": "/data/service/el4/100/huks_migration",
+          "dac": "0700",
+          "migrateType": "create"
+        },
+        {
+          "sourceFilePath": "/data/misc_ce/0/asset/ece",
+          "targetFilePath": "/data/service/el4/100/huks_migration",
+          "migrateType": "move"
+        },
+        {
+          "targetDir": "/data/service/el2/100/huks_migration",
+          "dac": "0700",
+          "migrateType": "create"
+        },
+        {
+          "sourceFilePath": "/data/misc_ce/0/asset/ce",
+          "targetFilePath": "/data/service/el2/100/huks_migration",
+          "migrateType": "move"
+        }
+      ]
+    },
+    {
+      "userMigratePolicy": {
+        "mainUser": "1",
+        "subUser": "1"
+      },
+      "sourceUidValue": "5520",
+      "sourceModule": "vendor_securityserver",
+      "targetModule": "8100",
+      "uid": "asset_service",
+      "gid": "asset_service",
+      "restoreData": "1",
+      "fileMigrateInfo": [
+        {
+          "targetDir": "/data/service/el1/public/asset_migration",
+          "dac": "0700",
+          "migrateType": "create"
+        },
+        {
+          "sourceFilePath": "/data/misc/hwpki/asset",
+          "targetFilePath": "/data/service/el1/public/asset_migration",
+          "migrateType": "move"
+        }
+      ]
+    },
+    {
+      "userMigratePolicy": {
+        "mainUser": "1",
+        "subUser": "1"
+      },
+      "sourceUidValue": "1000",
+      "sourceModule": "accountMgr",
+      "targetModule": "200",
+      "uid": "migrate_server",
+      "gid": "migrate_server",
+      "restoreData": "1",
+      "fileMigrateInfo": [
+        {
+          "targetDir": "/data/service/el1/public/update/migrate_server/plugins/200/back/#userId#/",
+          "dac": "0700",
+          "migrateType": "create"
+        },
+        {
+          "sourceFilePath": "/data/system_ce/#originUserId#/accounts_ce.db",
+          "targetFilePath": "/data/service/el1/public/update/migrate_server/plugins/200/back/#userId#/accounts_ce.db",
+          "migrateType": "move"
+        },
+        {
+          "targetDir": "/data/service/el1/public/update/migrate_server/plugins/200/back/sourceXml/",
+          "dac": "0700",
+          "migrateType": "create"
+        },
+        {
+          "sourceDir": "/data/system/users",
+          "targetDir": "/data/service/el1/public/update/migrate_server/plugins/200/back/sourceXml/",
+          "migrateType": "copy"
+        }
+      ]
+    }
+  ],
+  "ns2ns": [
+    {
+      "userMigratePolicy": {
+        "mainUser": "1",
+        "subUser": "0"
+      },
+      "sourceUidValue": "0",
+      "sourceModule": "teecd",
+      "targetModule": "teecd",
+      "uidValue": "6668",
+      "uid": "tee",
+      "gid": "tee",
+      "fileMigrateInfo": [
+        {
+          "targetDir": "/data/service/el2/100/tee/sec_storage_data",
+          "dac": "700",
+          "migrateType": "create"
+        },
+        {
+          "sourceDir": "/data/vendor_ce/0/sec_storage_data",
+          "targetDir": "/data/service/el2/100/tee/sec_storage_data",
+          "migrateType": "move"
+        }
+      ]
+    }
+  ]
+}

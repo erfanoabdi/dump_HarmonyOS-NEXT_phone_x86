@@ -1,0 +1,40 @@
+{
+    "process": "msdp",
+    "systemability": [
+        {
+            "name": 2902,
+            "libpath": "libdevicestatus_service.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 2901,
+            "libpath": "libmotion_service.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 2903,
+            "libpath": "libmovement_service.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 2908,
+            "libpath": "libmultimodal_awareness_service.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 2904,
+            "libpath": "libspatial_awareness_service.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        }
+    ]
+}

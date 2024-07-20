@@ -1,0 +1,12 @@
+{
+    "process": "pulseaudio",
+    "systemability": [
+        {
+            "name": 3001,
+            "libpath": "libaudio_service.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        }
+    ]
+}

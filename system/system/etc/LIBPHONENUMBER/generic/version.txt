@@ -1,0 +1,6 @@
+version=11.10.24.100
+type=LIBPHONENUMBER
+subtype=generic
+compatibleVersion=1
+classify=2
+displayVersion=libphonenumber.generic.11.10.24.100

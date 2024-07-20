@@ -1,0 +1,13 @@
+{
+    "process": "nfc_service",
+    "systemability": [
+        {
+            "name": 1140,
+            "libpath": "libnfc_service.z.so",
+            "run-on-create": false,
+            "auto-restart": true,
+            "distributed": false,
+            "dump_level": 1
+        }
+    ]
+}

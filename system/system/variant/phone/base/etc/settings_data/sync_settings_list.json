@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "KeyMap": [
+    {
+      "sourceTable": "device",
+      "sourceKey": "settings.display.hw_screen_freq",
+      "targetTable": "secure",
+      "targetKey": "hw_screen_freq"
+    }
+  ]
+}

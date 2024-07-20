@@ -1,0 +1,203 @@
+{
+  "Shortkeys": [
+    {
+      "preKey": [],
+      "finalKey": 18,
+      "trigger": "key_down",
+      "businessId": "vassistant",
+      "statusConfig": "vassistant_power_key_enabled",
+      "keyDownDuration": 500,
+      "ability": {
+        "action": "",
+        "entities": [
+          ""
+        ],
+        "type": "",
+        "deviceId": "",
+        "bundleName": "com.huawei.hmos.aibase",
+        "abilityName": "WakeUpExtAbility",
+        "uri": "",
+        "params": [
+          {
+            "key": "launch_type",
+            "value": "power_key"
+          }
+        ]
+      }
+    }
+  ],
+  "Sequences": [
+    {
+      "sequenceKeys": [
+        {
+          "keyCode": 17,
+          "keyAction": 2,
+          "delay": 200
+        },
+        {
+          "keyCode": 18,
+          "keyAction": 2,
+          "delay": 0
+        }
+      ],
+      "abilityStartDelay": 0,
+      "ability": {
+        "action": "",
+        "entities": [],
+        "type": "",
+        "deviceId": "",
+        "bundleName": "com.huawei.ohos.screenshot",
+        "abilityName": "com.huawei.ohos.screenshot.ServiceExtAbility",
+        "uri": "",
+        "params": [
+          {
+            "key": "trigger_type",
+            "value": "hot-key"
+          }
+        ]
+      }
+    },
+    {
+      "sequenceKeys": [
+        {
+          "keyCode": 18,
+          "keyAction": 2,
+          "delay": 200
+        },
+        {
+          "keyCode": 17,
+          "keyAction": 2,
+          "delay": 0
+        }
+      ],
+      "abilityStartDelay": 0,
+      "ability": {
+        "action": "",
+        "entities": [],
+        "type": "",
+        "deviceId": "",
+        "bundleName": "com.huawei.ohos.screenshot",
+        "abilityName": "com.huawei.ohos.screenshot.ServiceExtAbility",
+        "uri": "",
+        "params": [
+          {
+            "key": "trigger_type",
+            "value": "hot-key"
+          }
+        ]
+      }
+    },
+    {
+      "sequenceKeys": [
+        {
+          "keyCode": 16,
+          "keyAction": 2,
+          "delay": 200
+        },
+        {
+          "keyCode": 18,
+          "keyAction": 2,
+          "delay": 0
+        }
+      ],
+      "abilityStartDelay": 500,
+      "ability": {
+        "action": "",
+        "entities": [],
+        "type": "",
+        "deviceId": "",
+        "bundleName": "com.huawei.hmos.screenrecorder",
+        "abilityName": "com.huawei.hmos.screenrecorder.ServiceExtAbility",
+        "uri": "",
+        "params": [
+          {
+            "key": "trigger_type",
+            "value": "hot-key"
+          }
+        ]
+      }
+    },
+    {
+      "sequenceKeys": [
+        {
+          "keyCode": 18,
+          "keyAction": 2,
+          "delay": 200
+        },
+        {
+          "keyCode": 16,
+          "keyAction": 2,
+          "delay": 0
+        }
+      ],
+      "abilityStartDelay": 500,
+      "ability": {
+        "action": "",
+        "entities": [],
+        "type": "",
+        "deviceId": "",
+        "bundleName": "com.huawei.hmos.screenrecorder",
+        "abilityName": "com.huawei.hmos.screenrecorder.ServiceExtAbility",
+        "uri": "",
+        "params": [
+          {
+            "key": "trigger_type",
+            "value": "hot-key"
+          }
+        ]
+      }
+    }
+  ],
+  "KnuckleGesture": {
+    "SingleKnuckleDoubleClickGesture": {
+      "ability": {
+        "bundleName": "com.huawei.ohos.screenshot",
+        "abilityName": "com.huawei.ohos.screenshot.ServiceExtAbility",
+        "params": [
+          {
+            "key": "trigger_type",
+            "value": "knuckle"
+          }
+        ]
+      }
+    },
+    "DoubleKnuckleDoubleClickGesture": {
+      "ability": {
+        "bundleName": "com.huawei.hmos.screenrecorder",
+        "abilityName": "com.huawei.hmos.screenrecorder.ServiceExtAbility",
+        "params": [
+          {
+            "key": "trigger_type",
+            "value": "knuckle"
+          }
+        ]
+      }
+    }
+  },
+  "RepeatKeys": [
+    {
+      "keyCode": 18,
+      "times": 2,
+      "delay": 300,
+      "statusConfig": "POWER_KEY_DOUBLE_CLICK_FOR_WALLET",
+      "ability": {
+        "bundleName": "com.huawei.hmos.walletservice",
+        "action": "action.com.huawei.hmos.walletservice.DOUBLE_CLICK_FOR_WALLET",
+        "abilityType": "extensionAbility"
+      }
+    }
+  ],
+  "TwoFingerGesture": {
+    "abilityStartDelay": 700,
+    "ability": {
+      "bundleName": "com.huawei.hmos.aibase",
+      "abilityName": "WakeUpExtAbility",
+      "params": [
+        {
+          "key": "launch_type",
+          "value": "two_finger_gesture"
+        }
+      ]
+    }
+  }
+}

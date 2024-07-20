@@ -1,0 +1,683 @@
+{
+  "name": "HM Symbol Layers Grouping",
+  "version": "1.0",
+  "common_animations": [
+    {
+      "animation_type": "scale",
+      "animation_parameters": [
+        {
+          "animation_mode": 1,
+          "sub_type": "unit",
+          "group_parameters": [
+            [
+              {
+                "curve": "spring",
+                "curve_args": {
+                  "velocity": 0,
+                  "mass": 1,
+                  "stiffness": 228,
+                  "damping": 22
+                },
+                "duration": 0,
+                "delay": 0,
+                "properties": {
+                  "sx": [1,1.15],
+                  "sy": [1,1.15]
+                }
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "special_animations": [
+    {
+      "animation_type": "variable_color",
+      "animation_parameters": [
+        {
+          "animation_mode": 1,
+          "sub_type": "variable_3_group",
+          "group_parameters": [
+            [
+              {
+                "curve": "linear",
+                "curve_args": {},
+                "duration": 100,
+                "delay": 0,
+                "properties": {
+                  "alpha": [0.4,0.6]
+                }
+              },
+              {
+                "curve": "linear",
+                "curve_args": {},
+                "duration": 150,
+                "delay": 100,
+                "properties": {
+                  "alpha": [0.6,1]
+                }
+              },
+              {
+                "curve": "linear",
+                "curve_args": {},
+                "duration": 200,
+                "delay": 250,
+                "properties": {
+                  "alpha": [1,0.6]
+                }
+              },
+              {
+                "curve": "linear",
+                "curve_args": {},
+                "duration": 250,
+                "delay": 450,
+                "properties": {
+                  "alpha": [0.6,0.4]
+                }
+              },
+              {
+                "curve": "linear",
+                "curve_args": {},
+                "duration": 600,
+                "delay": 700,
+                "properties": {
+                  "alpha": [0.4,0.4]
+                }
+              }
+            ],
+            [
+              {
+                "curve": "linear",
+                "curve_args": {},
+                "duration": 150,
+                "delay": 100,
+                "properties": {
+                  "alpha": [0.4,0.6]
+                }
+              },
+              {
+                "curve": "linear",
+                "curve_args": {},
+                "duration": 200,
+                "delay": 250,
+                "properties": {
+                  "alpha": [0.6,1]
+                }
+              },
+              {
+                "curve": "linear",
+                "curve_args": {},
+                "duration": 250,
+                "delay": 450,
+                "properties": {
+                  "alpha": [1,0.6]
+                }
+              },
+              {
+                "curve": "linear",
+                "curve_args": {},
+                "duration": 200,
+                "delay": 700,
+                "properties": {
+                  "alpha": [0.6,0.4]
+                }
+              },
+              {
+                "curve": "linear",
+                "curve_args": {},
+                "duration": 400,
+                "delay": 900,
+                "properties": {
+                  "alpha": [0.4,0.4]
+                }
+              }
+            ],
+            [
+              {
+                "curve": "linear",
+                "curve_args": {},
+                "duration": 200,
+                "delay": 250,
+                "properties": {
+                  "alpha": [0.4,0.6]
+                }
+              },
+              {
+                "curve": "linear",
+                "curve_args": {},
+                "duration": 250,
+                "delay": 450,
+                "properties": {
+                  "alpha": [0.6,1]
+                }
+              },
+              {
+                "curve": "linear",
+                "curve_args": {},
+                "duration": 200,
+                "delay": 700,
+                "properties": {
+                  "alpha": [1,0.6]
+                }
+              },
+              {
+                "curve": "linear",
+                "curve_args": {},
+                "duration": 150,
+                "delay": 900,
+                "properties": {
+                  "alpha": [0.6,0.4]
+                }
+              },
+              {
+                "curve": "linear",
+                "curve_args": {},
+                "duration": 250,
+                "delay": 1050,
+                "properties": {
+                  "alpha": [0.4,0.4]
+                }
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "symbol_layers_grouping": [
+    {
+      "native_glyph_id": 3,
+      "symbol_glyph_id": 3,
+      "layers": [
+        {
+          "components": [0]
+        },
+        {
+          "components": [1]
+        },
+		{
+          "components": [2]
+        }
+      ],
+      "render_modes": [
+        {
+          "mode": "monochrome",
+          "render_groups": [
+            {
+              "group_indexes": [
+                {
+                  "layer_indexes": [0,1,2]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "variable_alphas": {
+        "alpha_below_thr": 0.5,
+        "alpha_above_thr": 1,
+        "threshold_groups": [
+          {
+            "group_indexes": [
+              {
+                "layer_indexes": [0]
+              }
+            ],
+            "threshold": 0.25
+          },
+          {
+            "group_indexes": [
+              {
+                "layer_indexes": [1]
+              }
+            ],
+            "threshold": 0.5
+          },
+          {
+            "group_indexes": [
+              {
+                "layer_indexes": [2]
+              }
+            ],
+            "threshold": 0.75
+          }
+        ]
+      },
+      "animation_settings": [
+        {
+          "animation_type": "variable_color",
+          "animation_mode": 1,
+          "sub_type": "variable_3_group",
+          "group_settings": [
+            {
+              "group_indexes": [
+                {
+                  "layer_indexes": [0]
+                }
+              ],
+              "animation_index": 0
+            },
+            {
+              "group_indexes": [
+                {
+                  "layer_indexes": [1]
+                }
+              ],
+              "animation_index": 1
+            },
+            {
+              "group_indexes": [
+                {
+                  "layer_indexes": [2]
+                }
+              ],
+              "animation_index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "native_glyph_id": 7,
+      "symbol_glyph_id": 7,
+      "layers": [
+        {
+          "components": [0,1]
+        },
+        {
+          "components": [2]
+        },
+		{
+          "components": [3]
+        }
+      ],
+      "render_modes": [
+        {
+          "mode": "monochrome",
+          "render_groups": [
+            {
+              "group_indexes": [
+                {
+                  "layer_indexes": [0, 1, 2]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "mode": "multicolor",
+          "render_groups": [
+            {
+              "group_indexes": [
+                {
+                  "layer_indexes": [0]
+                }
+              ],
+              "default_color": "#191919"
+            },
+            {
+              "group_indexes": [
+                {
+                  "layer_indexes": [1]
+                }
+              ],
+              "default_color": "#64BB5C"
+            },
+            {
+              "group_indexes": [
+                {
+                  "layer_indexes": [2]
+                }
+              ],
+              "default_color": "#FFFFFF"
+            }
+          ]
+        },
+        {
+          "mode": "hierarchical",
+          "render_groups": [
+            {
+              "group_indexes": [
+                {
+                  "layer_indexes": [0]
+                }
+              ],
+              "fix_alpha": 1
+            },
+            {
+              "group_indexes": [
+                {
+                  "layer_indexes": [1],
+				  "mask_indexes": [2]
+                }
+              ],
+              "fix_alpha": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "native_glyph_id": 4,
+      "symbol_glyph_id": 4,
+      "layers": [
+        {
+          "components": [0,1,2,3,4,5]
+        }
+      ],
+      "render_modes": [
+        {
+          "mode": "monochrome",
+          "render_groups": [
+            {
+              "group_indexes": [
+                {
+                  "layer_indexes": [0]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "native_glyph_id": 5,
+      "symbol_glyph_id": 5,
+      "layers": [
+        {
+          "components": [0,1]
+        },
+        {
+          "components": [2,3,4,5,6]
+        }
+      ],
+      "render_modes": [
+        {
+          "mode": "monochrome",
+          "render_groups": [
+            {
+              "group_indexes": [
+                {
+                  "layer_indexes": [0,1]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "mode": "multicolor",
+          "render_groups": [
+            {
+              "group_indexes": [
+                {
+                  "layer_indexes": [0]
+                }
+              ],
+              "default_color": "#000000"
+            },
+            {
+              "group_indexes": [
+                {
+                  "layer_indexes": [1]
+                }
+              ],
+              "default_color": "#E84026"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "native_glyph_id": 6,
+      "symbol_glyph_id": 6,
+      "layers": [
+        {
+          "components": [0,1]
+        },
+        {
+          "components": [2,3]
+        }
+      ],
+      "render_modes": [
+        {
+          "mode": "monochrome",
+          "render_groups": [
+            {
+              "group_indexes": [
+                {
+                  "layer_indexes": [0,1]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "native_glyph_id": 8,
+      "symbol_glyph_id": 8,
+      "layers": [
+        {
+          "components": [0,1,4,5]
+        },
+        {
+          "components": [2,6]
+        },
+        {
+          "components": [3]
+        }
+      ],
+      "render_modes": [
+        {
+          "mode": "monochrome",
+          "render_groups": [
+            {
+              "group_indexes": [
+                {
+                  "layer_indexes": [0,1,2]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "mode": "multicolor",
+          "render_groups": [
+            {
+              "group_indexes": [
+                {
+                  "layer_indexes": [0]
+                }
+              ],
+              "default_color": "#E84026"
+            },
+            {
+              "group_indexes": [
+                {
+                  "layer_indexes": [1]
+                }
+              ],
+              "default_color": "#E84026"
+            },
+            {
+              "group_indexes": [
+                {
+                  "layer_indexes": [2]
+                }
+              ],
+              "default_color": "#55BEF0"
+            }
+          ]
+        },
+        {
+          "mode": "hierarchical",
+          "render_groups": [
+            {
+              "group_indexes": [
+                {
+                  "layer_indexes": [2]
+                }
+              ],
+              "fix_alpha": 1
+            },
+            {
+              "group_indexes": [
+                {
+                  "layer_indexes": [1]
+                }
+              ],
+              "fix_alpha": 0.6
+            },
+            {
+              "group_indexes": [
+                {
+                  "layer_indexes": [0]
+                }
+              ],
+              "fix_alpha": 0.3
+            }            
+          ]
+        }
+      ]
+    },
+    {
+      "native_glyph_id": 9,
+      "symbol_glyph_id": 9,
+      "layers": [
+        {
+          "components": [0,1,2]
+        }
+      ],
+      "render_modes": [
+        {
+          "mode": "monochrome",
+          "render_groups": [
+            {
+              "group_indexes": [
+                {
+                  "layer_indexes": [0,1,2]
+                }
+              ]
+            }         
+          ]
+        }
+      ]
+    },
+    {
+      "native_glyph_id": 9,
+      "symbol_glyph_id": 9,
+      "layers": [
+        {
+          "components": [0,1,2]
+        }
+      ],
+      "render_modes": [
+        {
+          "mode": "monochrome",
+          "render_groups": [
+            {
+              "group_indexes": [
+                {
+                  "layer_indexes": [0,1,2]
+                }
+              ]
+            }         
+          ]
+        }
+      ]
+    },
+    {
+      "native_glyph_id": 10,
+      "symbol_glyph_id": 10,
+      "layers": [
+        {
+          "components": [0,1]
+        }
+      ],
+      "render_modes": [
+        {
+          "mode": "monochrome",
+          "render_groups": [
+            {
+              "group_indexes": [
+                {
+                  "layer_indexes": [0,1]
+                }
+              ]
+            }         
+          ]
+        }
+      ]
+    },
+    {
+      "native_glyph_id": 11,
+      "symbol_glyph_id": 11,
+      "layers": [
+        {
+          "components": [0,1,2]
+        }
+      ],
+      "render_modes": [
+        {
+          "mode": "monochrome",
+          "render_groups": [
+            {
+              "group_indexes": [
+                {
+                  "layer_indexes": [0,1,2]
+                }
+              ]
+            }         
+          ]
+        }
+      ]
+    },
+    {
+      "native_glyph_id": 12,
+      "symbol_glyph_id": 12,
+      "layers": [
+        {
+          "components": [0,1]
+        }
+      ],
+      "render_modes": [
+        {
+          "mode": "monochrome",
+          "render_groups": [
+            {
+              "group_indexes": [
+                {
+                  "layer_indexes": [0,1]
+                }
+              ]
+            }         
+          ]
+        }
+      ]
+    },
+    {
+      "native_glyph_id": 13,
+      "symbol_glyph_id": 13,
+      "layers": [
+        {
+          "components": [0,1,2]
+        }
+      ],
+      "render_modes": [
+        {
+          "mode": "monochrome",
+          "render_groups": [
+            {
+              "group_indexes": [
+                {
+                  "layer_indexes": [0,1,2]
+                }
+              ]
+            }         
+          ]
+        }
+      ]
+    }
+  ]
+}

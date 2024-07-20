@@ -1,0 +1,19 @@
+{
+    "process": "dcall",
+    "systemability": [
+        {
+            "name": 9855,
+            "libpath": "libdistributed_call_source.z.so",
+            "run-on-create": false,
+            "distributed": true,
+            "dump_level": 1
+        },
+        {
+            "name": 9856,
+            "libpath": "libdistributed_call_sink.z.so",
+            "run-on-create": false,
+            "distributed": true,
+            "dump_level": 1
+        }
+    ]
+}

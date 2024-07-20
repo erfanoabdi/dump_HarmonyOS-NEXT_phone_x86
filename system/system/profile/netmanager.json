@@ -1,0 +1,61 @@
+{
+    "process": "netmanager",
+    "systemability": [
+        {
+            "name": 1151,
+            "libpath": "libnet_conn_manager.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 1152,
+            "libpath": "libnet_policy_manager.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 1153,
+            "libpath": "libnet_stats_manager.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 1154,
+            "libpath": "libnet_tether_manager.z.so",
+            "run-on-create": false,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 1155,
+            "libpath": "libnet_vpn_manager.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 1156,
+            "libpath": "libdns_resolver_manager.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 1157,
+            "libpath": "libethernet_manager.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 1163,
+            "libpath": "libdistributed_network_service.z.so",
+            "run-on-create": false,
+            "distributed": true,
+            "dump_level": 1
+        }
+    ]
+}

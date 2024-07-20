@@ -1,0 +1,36 @@
+{
+    "info_config":[
+        {
+        "sa_id":1163,
+        "sa_descriptor": "OHOS.NetManagerStandard.IDistNetService",
+        "cmdCode_id":1001,
+        "static_info":[],
+        "dynamic_info":[
+            {
+                "supportSmartHotSpot":
+                {
+                    "variable":true,
+                    "value":false,
+                    "valueType": "boolean"
+                }
+            },
+            {
+                "bssid":
+                {
+                    "variable":true,
+                    "value":"a1:2b:0e:00:11:3c",
+                    "valueType": "string"
+                }
+            },
+            {
+                "hotspotName":
+                {
+                    "variable":true,
+                    "value":"defaultName",
+                    "valueType": "string"
+                }
+            }
+        ]
+        }
+    ]
+}

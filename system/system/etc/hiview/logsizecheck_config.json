@@ -1,0 +1,189 @@
+{
+  "config":{
+    "SchemaVersion":240418000,
+    "devicePath": [
+      {
+        "name": "/data/log",
+        "deviceLabel": [
+          {
+            "name": "RELIABILITY",
+            "BetaNormal": 44034138112,
+            "CommercialNormal": 8055160832,
+            "pathNode": [
+              {
+                "name": "bbox",
+                "BetaNormal": 119809024,
+                "CommercialNormal": 0
+              }, {
+                "name": "eventlog",
+                "BetaNormal": 2684354560,
+                "CommercialNormal": 2684354560
+              }, {
+                "name": "faultlog",
+                "BetaNormal": 3221225472,
+                "CommercialNormal": 3221225472
+              }, {
+                "name": "hitrace",
+                "BetaNormal": 21474836480,
+                "CommercialNormal": 2147483648
+              }, {
+                "name": "reliability",
+                "BetaNormal": 16414720000,
+                "CommercialNormal": 0
+              }, {
+                "name": "sensorhub-log",
+                "BetaNormal": 119192576,
+                "CommercialNormal": 2097152
+              }
+            ]
+          }, {
+            "name": "BLUETOOTH",
+            "BetaNormal": 1112119296,
+            "CommercialNormal": 0,
+            "pathNode": [
+              {
+                "name": "bt",
+                "BetaNormal": 1048576000,
+                "CommercialNormal": 0
+              }, {
+                "name": "hi110x",
+                "BetaNormal": 63543296,
+                "CommercialNormal": 0
+              }
+            ]
+          }, {
+            "name": "HIVIEWDFX",
+            "BetaNormal": 11334680576,
+            "CommercialNormal": 6236930048,
+            "pathNode": [
+              {
+                "name": "charge-log",
+                "BetaNormal": 52428800,
+                "CommercialNormal": 0
+              }, {
+                "name": "hilog",
+                "BetaNormal": 3145728000,
+                "CommercialNormal": 2097152000
+              }, {
+                "name": "hiview",
+                "BetaNormal": 2684354560,
+                "CommercialNormal": 1258291200
+              }, {
+                "name": "input-log",
+                "BetaNormal": 52428800,
+                "CommercialNormal": 0
+              }, {
+                "name": "mm",
+                "BetaNormal": 1638400,
+                "CommercialNormal": 0
+              }, {
+                "name": "sleeplog",
+                "BetaNormal": 52428800,
+                "CommercialNormal": 0
+              }, {
+                "name": "thermal",
+                "BetaNormal": 20971520,
+                "CommercialNormal": 0
+              }, {
+                "name": "xperf",
+                "BetaNormal": 86016000,
+                "CommercialNormal": 0
+              }, {
+                "name": "dict",
+                "BetaNormal": 209715200,
+                "CommercialNormal": 209715200
+              }, {
+                "name": "hiperf",
+                "BetaNormal": 209715200,
+                "CommercialNormal": 0
+              }, {
+                "name": "hidumper",
+                "BetaNormal": 524288000,
+                "CommercialNormal": 524288000
+              }, {
+                "name": "logpack",
+                "BetaNormal": 4294967296,
+                "CommercialNormal": 2147483648
+              }
+            ]
+          }, {
+            "name": "ISHARE",
+            "BetaNormal": 57982976,
+            "CommercialNormal": 0,
+            "pathNode": [
+              {
+                "name": "communication",
+                "BetaNormal": 1048576,
+			    "CommercialNormal": 0
+              }, {
+                "name": "hilogs",
+                "BetaNormal": 56934400,
+			    "CommercialNormal": 0
+              }
+            ]
+          }, {
+            "name": "VIR_SERVICE",
+            "BetaNormal": 1048576000,
+			"CommercialNormal": 0,
+            "pathNode": [
+              {
+                "name": "container",
+                "BetaNormal": 1048576000,
+			    "CommercialNormal": 0
+              }
+            ]
+          }, {
+            "name": "DEVICE_AUTH",
+            "BetaNormal": 37478400,
+			"CommercialNormal": 37478400,
+            "pathNode": [
+              {
+                "name": "last_tee",
+                "BetaNormal": 614400,
+			    "CommercialNormal": 614400
+              }, {
+                "name": "tee",
+                "BetaNormal": 36864000,
+			    "CommercialNormal": 36864000
+              }
+            ]
+          }, {
+            "name": "COMMUNICATION",
+            "BetaNormal": 5632950272,
+			"CommercialNormal": 316669952,
+            "pathNode": [
+              {
+                "name": "protocol",
+                "BetaNormal": 54525952,
+			    "CommercialNormal": 54525952
+              }, {
+                "name": "chr",
+                "BetaNormal": 104857600,
+			    "CommercialNormal": 104857600
+              }, {
+                "name": "hmelog",
+                "BetaNormal": 104857600,
+			    "CommercialNormal": 104857600
+              }, {
+                "name": "tcpdump",
+                "BetaNormal": 5368709120,
+			    "CommercialNormal": 52428800
+              }
+            ]
+          }, {
+            "name": "POWERTHERMAL",
+            "BetaNormal": 3670016000,
+			"CommercialNormal": 0,
+            "pathNode": [
+              {
+                "name": "xpower",
+                "BetaNormal": 3670016000,
+			    "CommercialNormal": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

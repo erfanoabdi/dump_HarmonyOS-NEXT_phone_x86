@@ -1,0 +1,56 @@
+{
+    "beta": {
+        "maxTotalSize": 2147483648,
+        "maxPackSize": -1,
+        "common": {
+            "maxDailySize": 31457280
+        },
+        "RELIABILITY": {
+            "maxDailySize": 1073741824
+        },
+        "KERNEL_VENDOR": {
+            "maxDailySize": 52428800
+        },
+        "POWERTHERMAL": {
+            "maxDailySize": 296747008
+        },
+        "CHR": {
+            "maxDailySize": 0,
+            "weeklyExtraSize": 4026531840
+        },
+        "NFC": {
+            "maxDailySize": 0,
+            "weeklyExtraSize": 80530636
+        },
+        "NFC_EXT": {
+            "maxDailySize": 0,
+            "weeklyExtraSize": 134217728
+        },
+        "SECURE_ELEMENT": {
+            "maxDailySize": 0,
+            "weeklyExtraSize": 53687091
+        },
+        "BT_SERVICE": {
+            "maxDailySize": 0,
+            "weeklyExtraSize": 268435456
+        },
+        "LOCATION": {
+            "maxDailySize": 0,
+            "weeklyExtraSize": 268435456
+        },
+        "COMMUNICATION": {
+            "maxDailySize": 0,
+            "weeklyExtraSize": 268435456
+        }
+    },
+    "commercial": {
+        "maxTotalSize": 167772160,
+        "maxPackSize": 10485760,
+        "common": {
+            "maxDailySize": 10485760
+        },
+        "JS_ERROR": {
+            "maxDailySize": 10485760
+        }
+    }
+}

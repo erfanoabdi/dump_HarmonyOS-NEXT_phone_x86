@@ -1,0 +1,14 @@
+{
+    "process": "installs",
+    "systemability": [
+        {
+            "name": 511,
+            "libpath": "libinstalls.z.so",
+            "run-on-create": false,
+            "depend_time_out": 60000,
+            "distributed": false,
+            "bootphase": "CoreStartPhase",
+            "dump_level": 1
+        }
+    ]
+}

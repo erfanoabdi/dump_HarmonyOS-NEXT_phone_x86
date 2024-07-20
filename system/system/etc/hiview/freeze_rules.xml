@@ -1,0 +1,166 @@
+<!-- Copyright (c) 2021 Huawei Device Co., Ltd.
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<freeze version="1" >
+  <rules resolver="SysResolver">
+    <rule id="1" domain="KERNEL_VENDOR" stringid="HUNGTASK">   <!-- HUNGTASK -->
+      <links type="watchpoint">
+        <event  window="0" domain="KERNEL_VENDOR" stringid="HUNGTASK">	<!-- HUNGTASK -->
+           <result code="1" scope="sys"/>
+        </event>
+      </links>
+    </rule>
+    <rule id="2" domain="KERNEL_VENDOR" stringid="SCREEN_ON">   <!-- SCREEN_ON -->
+      <links type="watchpoint">
+        <event window="0" domain="KERNEL_VENDOR" stringid="SCREEN_ON">	<!-- SCREEN_ON -->
+           <result code="1" scope="sys"/>
+        </event>
+      </links>
+    </rule>
+    <rule id="3" domain="KERNEL_VENDOR" stringid="SCREEN_OFF">   <!-- SCREEN_OFF -->
+      <links type="watchpoint">
+        <event window="0" domain="KERNEL_VENDOR" stringid="SCREEN_OFF">	<!-- SCREEN_OFF -->
+           <result code="1" scope="sys"/>
+        </event>
+      </links>
+    </rule>
+    <rule id="4" domain="WINDOWMANAGER" stringid="NO_FOCUS_WINDOW">   <!-- NO_FOCUS_WINDOW -->
+      <links type="watchpoint">
+        <event window="0" domain="WINDOWMANAGER" stringid="NO_FOCUS_WINDOW">	<!-- NO_FOCUS_WINDOW -->
+           <result code="1" scope="sys"/>
+        </event>
+        <event window="10" domain="MULTIMODALINPUT" stringid="TARGET_POINTER_EVENT_FAILURE">	<!-- TARGET_POINTER_EVENT_FAILURE -->
+           <result code="1" scope="sys"/>
+        </event>
+      </links>
+    </rule>
+    <rule id="5" domain="POWER" stringid="SCREEN_ON_TIMEOUT">   <!-- SCREEN_ON_TIMEOUT -->
+      <links type="watchpoint">
+        <event window="0" domain="POWER" stringid="SCREEN_ON_TIMEOUT">	<!-- SCREEN_ON_TIMEOUT -->
+           <result code="1" scope="sys"/>
+        </event>
+      </links>
+    </rule>
+      <rule id="6" domain="AAFWK" stringid="LIFECYCLE_TIMEOUT">	<!-- LIFECYCLE_TIMEOUT -->
+      <links type="watchpoint">
+        <event window="0" domain="AAFWK" stringid="LIFECYCLE_TIMEOUT">	<!-- LIFECYCLE_TIMEOUT -->
+          <result code="1" scope="sys" samePackage="true"/>
+        </event>
+        <event window="-30" domain="AAFWK" stringid="LIFECYCLE_HALF_TIMEOUT">	<!-- LIFECYCLE_HALF_TIMEOUT -->
+          <result code="1" scope="sys" samePackage="true"/>
+        </event>
+      </links>
+    </rule>
+    <rule id="7" domain="FRAMEWORK" stringid="SERVICE_TIMEOUT">	<!-- SERVICE_TIMEOUT -->
+      <links type="watchpoint">
+        <event window="0" domain="FRAMEWORK" stringid="SERVICE_TIMEOUT">	<!-- SERVICE_TIMEOUT -->
+          <result code="1" scope="sys" samePackage="true"/>
+        </event>
+      </links>
+    </rule>
+    <rule id="8" domain="FRAMEWORK" stringid="SERVICE_BLOCK">	<!-- SERVICE_BLOCK -->
+      <links type="watchpoint">
+        <event window="0" domain="FRAMEWORK" stringid="SERVICE_BLOCK">	<!-- SERVICE_BLOCK -->
+          <result code="1" scope="sys" samePackage="true"/>
+        </event>
+        <event window="-70" domain="FRAMEWORK" stringid="SERVICE_WARNING">	<!-- SERVICE_WARNING -->
+          <result code="1" scope="sys" samePackage="true"/>
+        </event>
+      </links>
+    </rule>
+    <rule id="9" domain="FRAMEWORK" stringid="IPC_FULL">	<!-- IPC_FULL -->
+      <links type="watchpoint">
+        <event window="0" domain="FRAMEWORK" stringid="IPC_FULL">	<!-- IPC_FULL -->
+          <result code="1" scope="sys"/>
+        </event>
+      </links>
+    </rule>
+    <rule id="10" domain="KERNEL_VENDOR" stringid="COM_LONG_PRESS">	<!-- COM_LONG_PRESS -->
+      <links type="watchpoint">
+        <event window="0" domain="KERNEL_VENDOR" stringid="COM_LONG_PRESS">	<!-- COM_LONG_PRESS -->
+          <result code="1" scope="sys"/>
+        </event>
+        <event window="-120" domain="KERNEL_VENDOR" stringid="DMD_TP_I2C">	<!-- DMD_TP_I2C -->
+          <result code="1" scope="sys" action="or"/>
+        </event>
+        <event window="-120" domain="KERNEL_VENDOR" stringid="DMD_TP_HP">	<!-- DMD_TP_HP -->
+          <result code="1" scope="sys" action="or"/>
+        </event>
+        <event window="-120" domain="KERNEL_VENDOR" stringid="DMD_LCD_DDR">	<!-- DMD_LCD_DDR -->
+          <result code="1" scope="sys" action="or"/>
+        </event>
+        <event window="-120" domain="KERNEL_VENDOR" stringid="DMD_EMMC_TUNING">	<!-- DMD_EMMC_TUNING -->
+          <result code="1" scope="sys" action="or"/>
+        </event>
+        <event window="-120" domain="KERNEL_VENDOR" stringid="DMD_EXT4">	<!-- DMD_EXT4 -->
+          <result code="1" scope="sys" action="or"/>
+        </event>
+        <event window="-120" domain="KERNEL_VENDOR" stringid="DMD_F2FS_UNLINK">	<!-- DMD_F2FS_UNLINK -->
+          <result code="1" scope="sys" action="or"/>
+        </event>
+        <event window="-120" domain="KERNEL_VENDOR" stringid="DMD_UFS_FASTBOOT">	<!-- DMD_UFS_FASTBOOT -->
+          <result code="1" scope="sys" action="or"/>
+        </event>
+        <event window="-120" domain="KERNEL_VENDOR" stringid="DMD_FSCK_F2FS">	<!-- DMD_FSCK_F2FS -->
+          <result code="1" scope="sys" action="or"/>
+        </event>
+      </links>
+    </rule>
+  </rules>
+  <rules resolver="AppResolver">
+    <rule id="1" domain="ACE" stringid="UI_BLOCK_6S">	<!-- UI_BLOCK_6S -->
+      <links type="watchpoint">
+        <event window="0" domain="ACE" stringid="UI_BLOCK_6S">	<!-- UI_BLOCK_6S -->
+          <result code="0" scope="app" samePackage="true"/>
+        </event>
+        <event window="-6" domain="ACE" stringid="UI_BLOCK_3S">	<!-- UI_BLOCK_3S -->
+          <result code="0" scope="app" samePackage="true"/>
+        </event>
+        <event window="10" domain="ACE" stringid="UI_BLOCK_RECOVERED">	<!-- UI_BLOCK_3S -->
+          <result code="0" scope="app" samePackage="true"/>
+        </event>
+      </links>
+    </rule>
+    <rule id="2" domain="AAFWK" stringid="THREAD_BLOCK_6S">	<!-- THREAD_BLOCK_6S -->
+      <links type="watchpoint">
+        <event window="0" domain="AAFWK" stringid="THREAD_BLOCK_6S">	<!-- THREAD_BLOCK_6S -->
+          <result code="0" scope="app" samePackage="true"/>
+        </event>
+        <event window="-14" domain="AAFWK" stringid="THREAD_BLOCK_3S">	<!-- THREAD_BLOCK_3S -->
+          <result code="0" scope="app" samePackage="true"/>
+        </event>
+      </links>
+    </rule>
+    <rule id="3" domain="AAFWK" stringid="APP_INPUT_BLOCK">	<!-- APP_INPUT_BLOCK -->
+      <links type="watchpoint">
+        <event window="0" domain="AAFWK" stringid="APP_INPUT_BLOCK">	<!-- APP_INPUT_BLOCK -->
+          <result code="0" scope="app"/>
+        </event>
+      </links>
+    </rule>
+    <rule id="4" domain="GRAPHIC" stringid="NO_DRAW">	<!-- NO_DRAW -->
+      <links type="watchpoint">
+        <event window="0" domain="GRAPHIC" stringid="NO_DRAW">	<!-- NO_DRAW -->
+          <result code="0" scope="app"/>
+        </event>
+      </links>
+    </rule>
+    <rule id="5" domain="FRAMEWORK" stringid="APP_HICOLLIE">	<!-- APP_HICOLLIE -->
+      <links type="watchpoint">
+        <event window="0" domain="FRAMEWORK" stringid="APP_HICOLLIE">	<!-- APP_HICOLLIE -->
+          <result code="0" scope="app" samePackage="true"/>
+        </event>
+      </links>
+    </rule>
+  </rules>
+</freeze>

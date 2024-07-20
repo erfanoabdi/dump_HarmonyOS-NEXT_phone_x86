@@ -1,0 +1,30 @@
+{
+    "FAULT": {
+        "StoreDay": 30,
+        "PageSize": 4,
+        "MaxFileSize": 32,
+        "MaxFileNum": 10,
+        "MaxSize": 30
+    },
+    "STATISTIC": {
+        "StoreDay": 30,
+        "PageSize": 16,
+        "MaxFileSize": 256,
+        "MaxFileNum": 10,
+        "MaxSize": 150
+    },
+    "SECURITY": {
+        "StoreDay": 90,
+        "PageSize": 4,
+        "MaxFileSize": 256,
+        "MaxFileNum": 10,
+        "MaxSize": 30
+    },
+    "BEHAVIOR": {
+        "StoreDay": 7,
+        "PageSize": 64,
+        "MaxFileSize": 256,
+        "MaxFileNum": 10,
+        "MaxSize": 270
+    }
+}

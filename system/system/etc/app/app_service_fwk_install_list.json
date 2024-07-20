@@ -1,0 +1,20 @@
+{
+    "install_list": [
+        {
+            "app_dir": "/system/app/appServiceFwk/AIEngineHsp",
+            "removable": false
+        },
+        {
+            "app_dir": "/system/app/appServiceFwk/AIEngineHsp",
+            "removable": false
+        },
+        {
+            "app_dir": "/system/app/appServiceFwk/HwMapKitHsp",
+            "removable": false
+        },
+        {
+            "app_dir": "/system/app/appServiceFwk/HwStylusFeature",
+            "removable": false
+        }
+    ]
+}

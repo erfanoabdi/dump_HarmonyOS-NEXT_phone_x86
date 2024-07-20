@@ -1,0 +1,8 @@
+[
+    {
+        "appType":"BROWSER",
+        "bundleName":"com.huawei.hmos.browser",
+        "moduleName":"entry",
+        "abilityName":"MainAbility"
+    }
+]

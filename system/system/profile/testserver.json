@@ -1,0 +1,27 @@
+{
+    "process": "testserver",
+    "systemability": [
+        {
+            "name": 5502,
+            "libpath": "libtest_server_service.z.so",
+            "run-on-create": false,
+            "distributed": false,
+            "auto-restart": false,
+            "stop-on-demand": {
+                "DevelopermodeExit": [
+                    {
+                        "name": "const.security.developermode.state",
+                        "value": false,
+                        "conditions": [
+                            {
+                                "eventId": "param",
+                                "name": "const.debuggable",
+                                "value": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

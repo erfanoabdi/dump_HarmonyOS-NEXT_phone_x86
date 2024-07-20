@@ -1,0 +1,21 @@
+{
+  "configurationInfo": {
+    "configurationVersion": 20240606000
+  },
+   "beta": {
+    "logservice": [{
+        "name": "China",
+        "url": "https://logservice.hicloud.com:443",
+        "appId": 1114
+      }
+    ]
+  },
+   "commercial": {
+    "logservice": [{
+      "name": "China",
+      "url": "https://logservice.hicloud.com:443",
+      "appId": 1114
+    }
+  ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "process": "super_privacy_server",
+    "systemability": [
+        {
+            "name": 66102,
+            "libpath": "libsps_super_privacy_service.z.so",
+            "run-on-create": false,
+            "auto-restart": false,
+            "distributed": false,
+            "dump_level": 1,
+            "start-on-demand": {
+                "commonevent": [
+                    {
+                        "name": "usual.event.BOOT_COMPLETED"
+                    }
+                ]
+            }
+        }
+    ]
+}

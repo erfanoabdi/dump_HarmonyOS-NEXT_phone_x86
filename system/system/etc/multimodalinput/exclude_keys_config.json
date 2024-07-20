@@ -1,0 +1,9 @@
+{
+  "excludeKeys": [
+    {
+      "keyCode": 18,
+      "keyAction": 2,
+      "delay": 0
+    }
+  ]
+}

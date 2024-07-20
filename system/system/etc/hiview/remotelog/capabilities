@@ -1,0 +1,13 @@
+{
+    "API": {
+        "startDiagnosisMode": 1,
+        "stopDiagnosisMode": 1,
+        "getDiagnosisStatus": 1,
+        "packLogs": 1,
+        "getSize": 1,
+        "read": 1
+    },
+    "Feature": {
+        "deviceNode": 1
+    }
+}

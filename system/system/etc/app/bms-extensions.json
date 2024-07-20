@@ -1,0 +1,9 @@
+{
+    "bms-extensions": {
+        "bundle-mgr": {
+            "extension-name": "HMOSBundleMgrExt",
+            "libpath": "/system/lib/libhmos_bundle_mgr_ext.z.so",
+            "lib64path": "/system/lib64/libhmos_bundle_mgr_ext.z.so"
+        }
+    }
+}

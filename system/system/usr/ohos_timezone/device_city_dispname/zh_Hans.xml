@@ -1,0 +1,2480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2023 Huawei Device Co., Ltd.
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<display_names>
+    <display_name>
+        <city>Abidjan</city>
+        <name>阿比让 (科特迪瓦)</name>
+    </display_name>
+    <display_name>
+        <city>Abu_Dhabi</city>
+        <name>阿布扎比 (阿拉伯联合酋长国)</name>
+    </display_name>
+    <display_name>
+        <city>Adelaide</city>
+        <name>阿德莱德 (澳大利亚)</name>
+    </display_name>
+    <display_name>
+        <city>Atikokan</city>
+        <name>阿蒂科肯 (加拿大)</name>
+    </display_name>
+    <display_name>
+        <city>Albuquerque</city>
+        <name>阿尔伯克基 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Algiers</city>
+        <name>阿尔及尔 (阿尔及利亚)</name>
+    </display_name>
+    <display_name>
+        <city>Almaty</city>
+        <name>阿拉木图 (哈萨克斯坦)</name>
+    </display_name>
+    <display_name>
+        <city>Accra</city>
+        <name>阿克拉 (加纳)</name>
+    </display_name>
+    <display_name>
+        <city>Aqtobe</city>
+        <name>阿克托比 (哈萨克斯坦)</name>
+    </display_name>
+    <display_name>
+        <city>Araguaina</city>
+        <name>阿拉瓜伊纳 (巴西)</name>
+    </display_name>
+    <display_name>
+        <city>Alofi</city>
+        <name>阿洛菲 (纽埃)</name>
+    </display_name>
+    <display_name>
+        <city>AmundsenScott_Station</city>
+        <name>阿蒙森-斯科特站 (南极洲)</name>
+    </display_name>
+    <display_name>
+        <city>Amsterdam</city>
+        <name>阿姆斯特丹 (荷兰)</name>
+    </display_name>
+    <display_name>
+        <city>Anadyr</city>
+        <name>阿纳德尔 (俄罗斯)</name>
+    </display_name>
+    <display_name>
+        <city>Apia</city>
+        <name>阿皮亚 (萨摩亚)</name>
+    </display_name>
+    <display_name>
+        <city>Ashgabat</city>
+        <name>阿什哈巴德 (土库曼斯坦)</name>
+    </display_name>
+    <display_name>
+        <city>Asmara</city>
+        <name>阿斯马拉 (厄立特里亚)</name>
+    </display_name>
+    <display_name>
+        <city>NurSultan</city>
+        <name>阿斯塔纳 (哈萨克斯坦)</name>
+    </display_name>
+    <display_name>
+        <city>Atyrau</city>
+        <name>阿特劳 (哈萨克斯坦)</name>
+    </display_name>
+    <display_name>
+        <city>Adak</city>
+        <name>埃达克 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Edmonton</city>
+        <name>埃德蒙顿 (加拿大)</name>
+    </display_name>
+    <display_name>
+        <city>Edinburgh</city>
+        <name>爱丁堡 (英国)</name>
+    </display_name>
+    <display_name>
+        <city>El_Paso</city>
+        <name>艾尔帕索 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Bantam_Village</city>
+        <name>矮脚鸡村 (科科斯（基林）群岛)</name>
+    </display_name>
+    <display_name>
+        <city>Yerevan</city>
+        <name>埃里温 (亚美尼亚)</name>
+    </display_name>
+    <display_name>
+        <city>Eirunepe</city>
+        <name>埃鲁内佩 (巴西)</name>
+    </display_name>
+    <display_name>
+        <city>Hermosillo</city>
+        <name>埃莫西约 (墨西哥)</name>
+    </display_name>
+    <display_name>
+        <city>Andorra_la_Vella</city>
+        <name>安道尔城 (安道尔)</name>
+    </display_name>
+    <display_name>
+        <city>Ankara</city>
+        <name>安卡拉 (土耳其)</name>
+    </display_name>
+    <display_name>
+        <city>Anchorage</city>
+        <name>安克雷奇 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Amman</city>
+        <name>安曼 (约旦)</name>
+    </display_name>
+    <display_name>
+        <city>Antananarivo</city>
+        <name>安塔那利佛 (马达加斯加)</name>
+    </display_name>
+    <display_name>
+        <city>Antwerp</city>
+        <name>安特卫普 (比利时)</name>
+    </display_name>
+    <display_name>
+        <city>Auckland</city>
+        <name>奥克兰 (新西兰)</name>
+    </display_name>
+    <display_name>
+        <city>Oakland</city>
+        <name>奥克兰 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Oranjestad</city>
+        <name>奥拉涅斯塔德 (阿鲁巴)</name>
+    </display_name>
+    <display_name>
+        <city>Omaha</city>
+        <name>奥马哈 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Macau</city>
+        <name>澳门 (中国)</name>
+    </display_name>
+    <display_name>
+        <city>Oslo</city>
+        <name>奥斯陆 (挪威)</name>
+    </display_name>
+    <display_name>
+        <city>Austin</city>
+        <name>奥斯汀 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Ojinaga</city>
+        <name>奥希纳加 (墨西哥)</name>
+    </display_name>
+    <display_name>
+        <city>Baltimore</city>
+        <name>巴尔的摩 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Baghdad</city>
+        <name>巴格达 (伊拉克)</name>
+    </display_name>
+    <display_name>
+        <city>Baku</city>
+        <name>巴库 (阿塞拜疆)</name>
+    </display_name>
+    <display_name>
+        <city>Palermo</city>
+        <name>巴勒莫 (意大利)</name>
+    </display_name>
+    <display_name>
+        <city>Paris</city>
+        <name>巴黎 (法国)</name>
+    </display_name>
+    <display_name>
+        <city>Bari</city>
+        <name>巴里 (意大利)</name>
+    </display_name>
+    <display_name>
+        <city>Bamako</city>
+        <name>巴马科 (马里)</name>
+    </display_name>
+    <display_name>
+        <city>Panama_City</city>
+        <name>巴拿马城 (巴拿马)</name>
+    </display_name>
+    <display_name>
+        <city>Barcelona</city>
+        <name>巴塞罗那 (西班牙)</name>
+    </display_name>
+    <display_name>
+        <city>Basseterre_Guadeloupe</city>
+        <name>巴斯特尔 (瓜德罗普)</name>
+    </display_name>
+    <display_name>
+        <city>Basseterre_St_Kitts_amp_Nevis</city>
+        <name>巴斯特尔 (圣基茨和尼维斯)</name>
+    </display_name>
+    <display_name>
+        <city>Brasilia</city>
+        <name>巴西利亚 (巴西)</name>
+    </display_name>
+    <display_name>
+        <city>Puerto_Vallarta</city>
+        <name>巴亚尔塔港 (墨西哥)</name>
+    </display_name>
+    <display_name>
+        <city>Berlin</city>
+        <name>柏林 (德国)</name>
+    </display_name>
+    <display_name>
+        <city>Bangui</city>
+        <name>班吉 (中非共和国)</name>
+    </display_name>
+    <display_name>
+        <city>Bangalore</city>
+        <name>班加罗尔 (印度)</name>
+    </display_name>
+    <display_name>
+        <city>Banjul</city>
+        <name>班珠尔 (冈比亚)</name>
+    </display_name>
+    <display_name>
+        <city>Belgrade</city>
+        <name>贝尔格莱德 (塞尔维亚)</name>
+    </display_name>
+    <display_name>
+        <city>Beijing</city>
+        <name>北京 (中国)</name>
+    </display_name>
+    <display_name>
+        <city>Beirut</city>
+        <name>贝鲁特 (黎巴嫩)</name>
+    </display_name>
+    <display_name>
+        <city>Belem</city>
+        <name>贝伦 (巴西)</name>
+    </display_name>
+    <display_name>
+        <city>Benicia</city>
+        <name>贝尼西亚 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>PetropavlovskKamchatskiy</city>
+        <name>彼得罗巴甫洛夫斯克 (俄罗斯)</name>
+    </display_name>
+    <display_name>
+        <city>Petersburg</city>
+        <name>彼得伯勒 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Perm</city>
+        <name>彼尔姆 (俄罗斯)</name>
+    </display_name>
+    <display_name>
+        <city>Bissau</city>
+        <name>比绍 (几内亚比绍)</name>
+    </display_name>
+    <display_name>
+        <city>Bishkek</city>
+        <name>比什凯克 (吉尔吉斯斯坦)</name>
+    </display_name>
+    <display_name>
+        <city>Beulah</city>
+        <name>比尤拉 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Boa_Vista</city>
+        <name>博阿维斯塔岛 (巴西)</name>
+    </display_name>
+    <display_name>
+        <city>Podgorica</city>
+        <name>波德戈里察 (黑山)</name>
+    </display_name>
+    <display_name>
+        <city>PortoNovo</city>
+        <name>波多诺伏 (贝宁)</name>
+    </display_name>
+    <display_name>
+        <city>Porto_Velho</city>
+        <name>波多韦柳 (巴西)</name>
+    </display_name>
+    <display_name>
+        <city>Bern</city>
+        <name>伯尔尼 (瑞士)</name>
+    </display_name>
+    <display_name>
+        <city>Bogota</city>
+        <name>波哥大 (哥伦比亚)</name>
+    </display_name>
+    <display_name>
+        <city>Berkeley</city>
+        <name>伯克利 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Berkeley_Heights</city>
+        <name>伯克利高地 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Belize_City</city>
+        <name>伯利兹城 (伯利兹)</name>
+    </display_name>
+    <display_name>
+        <city>Burlingame</city>
+        <name>伯灵格姆 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Bologna</city>
+        <name>博洛尼亚 (意大利)</name>
+    </display_name>
+    <display_name>
+        <city>Pohnpei</city>
+        <name>澎贝岛 (密克罗尼西亚联邦)</name>
+    </display_name>
+    <display_name>
+        <city>Boston</city>
+        <name>波士顿 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Portland</city>
+        <name>波特兰 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Boise</city>
+        <name>博伊西 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Budapest</city>
+        <name>布达佩斯 (匈牙利)</name>
+    </display_name>
+    <display_name>
+        <city>Bucharest</city>
+        <name>布加勒斯特 (罗马尼亚)</name>
+    </display_name>
+    <display_name>
+        <city>Brazzaville</city>
+        <name>布拉柴维尔 (刚果共和国)</name>
+    </display_name>
+    <display_name>
+        <city>Bratislava</city>
+        <name>布拉迪斯拉发 (斯洛伐克)</name>
+    </display_name>
+    <display_name>
+        <city>Prague</city>
+        <name>布拉格 (捷克共和国)</name>
+    </display_name>
+    <display_name>
+        <city>Blacksburg</city>
+        <name>布莱克斯堡 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Blantyre</city>
+        <name>布兰太尔 (马拉维)</name>
+    </display_name>
+    <display_name>
+        <city>BlancSablon</city>
+        <name>布朗萨布隆 (加拿大)</name>
+    </display_name>
+    <display_name>
+        <city>Bridgetown</city>
+        <name>布里奇顿 (巴巴多斯)</name>
+    </display_name>
+    <display_name>
+        <city>Brisbane</city>
+        <name>布里斯班 (澳大利亚)</name>
+    </display_name>
+    <display_name>
+        <city>Brussels</city>
+        <name>布鲁塞尔 (比利时)</name>
+    </display_name>
+    <display_name>
+        <city>Broken_Hill</city>
+        <name>布罗肯希尔 (澳大利亚)</name>
+    </display_name>
+    <display_name>
+        <city>Bujumbura</city>
+        <name>布琼布拉 (布隆迪)</name>
+    </display_name>
+    <display_name>
+        <city>Buenos_Aires</city>
+        <name>布宜诺斯艾利斯 (阿根廷)</name>
+    </display_name>
+    <display_name>
+        <city>Chatham_Island</city>
+        <name>查塔姆群岛 (新西兰)</name>
+    </display_name>
+    <display_name>
+        <city>Jayapura</city>
+        <name>查亚普拉 (印度尼西亚)</name>
+    </display_name>
+    <display_name>
+        <city>Changchun</city>
+        <name>长春 (中国)</name>
+    </display_name>
+    <display_name>
+        <city>Chengdu</city>
+        <name>成都 (中国)</name>
+    </display_name>
+    <display_name>
+        <city>Chita</city>
+        <name>赤塔 (俄罗斯)</name>
+    </display_name>
+    <display_name>
+        <city>Chongqing</city>
+        <name>重庆 (中国)</name>
+    </display_name>
+    <display_name>
+        <city>Chuuk</city>
+        <name>楚克州 (密克罗尼西亚联邦)</name>
+    </display_name>
+    <display_name>
+        <city>Shiprock</city>
+        <name>希普罗克 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Osaka</city>
+        <name>大阪 (日本)</name>
+    </display_name>
+    <display_name>
+        <city>Darwin</city>
+        <name>达尔文 (澳大利亚)</name>
+    </display_name>
+    <display_name>
+        <city>Dhaka</city>
+        <name>达卡 (孟加拉国)</name>
+    </display_name>
+    <display_name>
+        <city>Dakar</city>
+        <name>达喀尔 (塞内加尔)</name>
+    </display_name>
+    <display_name>
+        <city>Campo_Grande</city>
+        <name>格兰德营 (巴西)</name>
+    </display_name>
+    <display_name>
+        <city>Dallas</city>
+        <name>达拉斯 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Dar_es_Salaam</city>
+        <name>达累斯萨拉姆 (坦桑尼亚)</name>
+    </display_name>
+    <display_name>
+        <city>Daly_City</city>
+        <name>戴利城 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Dalian</city>
+        <name>大连 (中国)</name>
+    </display_name>
+    <display_name>
+        <city>Damascus</city>
+        <name>大马士革 (叙利亚)</name>
+    </display_name>
+    <display_name>
+        <city>Davis_Station</city>
+        <name>戴维斯站 (南极洲)</name>
+    </display_name>
+    <display_name>
+        <city>Denver</city>
+        <name>丹佛 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Danmarkshavn</city>
+        <name>丹马沙 (格陵兰)</name>
+    </display_name>
+    <display_name>
+        <city>Douglas</city>
+        <name>道格拉斯 (曼岛)</name>
+    </display_name>
+    <display_name>
+        <city>Dawson_City</city>
+        <name>道森市 (加拿大)</name>
+    </display_name>
+    <display_name>
+        <city>Dawson_Creek</city>
+        <name>道森克里克 (加拿大)</name>
+    </display_name>
+    <display_name>
+        <city>Tehran</city>
+        <name>德黑兰 (伊朗)</name>
+    </display_name>
+    <display_name>
+        <city>Tirana</city>
+        <name>地拉那 (阿尔巴尼亚)</name>
+    </display_name>
+    <display_name>
+        <city>Tripoli</city>
+        <name>的黎波里 (利比亚)</name>
+    </display_name>
+    <display_name>
+        <city>Dubai</city>
+        <name>迪拜 (阿拉伯联合酋长国)</name>
+    </display_name>
+    <display_name>
+        <city>Tbilisi</city>
+        <name>第比利斯 (格鲁吉亚)</name>
+    </display_name>
+    <display_name>
+        <city>Diego_Garcia</city>
+        <name>迪戈加西亚岛 (英属印度洋领地)</name>
+    </display_name>
+    <display_name>
+        <city>Decatur</city>
+        <name>迪凯特 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Dili</city>
+        <name>帝力 (东帝汶)</name>
+    </display_name>
+    <display_name>
+        <city>DumontdUrville_Station</city>
+        <name>迪蒙·迪维尔站 (南极洲)</name>
+    </display_name>
+    <display_name>
+        <city>Detroit</city>
+        <name>底特律 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Tijuana</city>
+        <name>蒂华纳 (墨西哥)</name>
+    </display_name>
+    <display_name>
+        <city>Tokyo</city>
+        <name>东京 (日本)</name>
+    </display_name>
+    <display_name>
+        <city>Dublin</city>
+        <name>都柏林 (爱尔兰)</name>
+    </display_name>
+    <display_name>
+        <city>Turin</city>
+        <name>都灵 (意大利)</name>
+    </display_name>
+    <display_name>
+        <city>Douala</city>
+        <name>杜阿拉 (喀麦隆)</name>
+    </display_name>
+    <display_name>
+        <city>Dushanbe</city>
+        <name>杜尚别 (塔吉克斯坦)</name>
+    </display_name>
+    <display_name>
+        <city>Doha</city>
+        <name>多哈 (卡塔尔)</name>
+    </display_name>
+    <display_name>
+        <city>Toronto</city>
+        <name>多伦多 (加拿大)</name>
+    </display_name>
+    <display_name>
+        <city>Oklahoma_City</city>
+        <name>俄克拉何马城 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Omsk</city>
+        <name>鄂木斯克 (俄罗斯)</name>
+    </display_name>
+    <display_name>
+        <city>NDjamena</city>
+        <name>恩贾梅纳 (乍得)</name>
+    </display_name>
+    <display_name>
+        <city>Frankfurt</city>
+        <name>法兰克福 (德国)</name>
+    </display_name>
+    <display_name>
+        <city>Fortdefrance</city>
+        <name>法兰西堡 (马提尼克)</name>
+    </display_name>
+    <display_name>
+        <city>PortauxFrancais</city>
+        <name>法兰西港 (法属南部领地)</name>
+    </display_name>
+    <display_name>
+        <city>Fale</city>
+        <name>法勒 (托克劳)</name>
+    </display_name>
+    <display_name>
+        <city>Vatican</city>
+        <name>梵蒂冈城</name>
+    </display_name>
+    <display_name>
+        <city>Philadelphia</city>
+        <name>费城 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Fernando_de_Noronha</city>
+        <name>费尔南多-迪诺罗尼亚岛 (巴西)</name>
+    </display_name>
+    <display_name>
+        <city>Phoenix</city>
+        <name>菲尼克斯 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Funchal</city>
+        <name>丰沙尔 (葡萄牙)</name>
+    </display_name>
+    <display_name>
+        <city>Volgograd</city>
+        <name>伏尔加格勒 (俄罗斯)</name>
+    </display_name>
+    <display_name>
+        <city>Easter_Island</city>
+        <name>复活节岛 (智利)</name>
+    </display_name>
+    <display_name>
+        <city>Vladivostok</city>
+        <name>符拉迪沃斯托克 (俄罗斯)</name>
+    </display_name>
+    <display_name>
+        <city>Freetown</city>
+        <name>弗里敦 (塞拉利昂)</name>
+    </display_name>
+    <display_name>
+        <city>Fremont</city>
+        <name>费利蒙 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Florence</city>
+        <name>佛罗伦萨 (意大利)</name>
+    </display_name>
+    <display_name>
+        <city>Fuzhou</city>
+        <name>福州 (中国)</name>
+    </display_name>
+    <display_name>
+        <city>Foster_City</city>
+        <name>福斯特城 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Fortaleza</city>
+        <name>福塔雷萨 (巴西)</name>
+    </display_name>
+    <display_name>
+        <city>Copenhagen</city>
+        <name>哥本哈根 (丹麦)</name>
+    </display_name>
+    <display_name>
+        <city>Gothenburg</city>
+        <name>哥德堡 (瑞典)</name>
+    </display_name>
+    <display_name>
+        <city>Glace_Bay</city>
+        <name>格莱斯贝 (加拿大)</name>
+    </display_name>
+    <display_name>
+        <city>Grytviken</city>
+        <name>格雷特维根 (南乔治亚岛和南桑威齐群岛)</name>
+    </display_name>
+    <display_name>
+        <city>Columbus</city>
+        <name>哥伦布 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Kuching</city>
+        <name>古晋市 (马来西亚)</name>
+    </display_name>
+    <display_name>
+        <city>Gustavia</city>
+        <name>古斯塔维亚 (圣巴泰勒米)</name>
+    </display_name>
+    <display_name>
+        <city>Guayaquil</city>
+        <name>瓜亚基尔 (厄瓜多尔)</name>
+    </display_name>
+    <display_name>
+        <city>Guam</city>
+        <name>关岛 (关岛)</name>
+    </display_name>
+    <display_name>
+        <city>Guangzhou</city>
+        <name>广州 (中国)</name>
+    </display_name>
+    <display_name>
+        <city>Gaborone</city>
+        <name>哈博罗内 (博茨瓦纳)</name>
+    </display_name>
+    <display_name>
+        <city>Harbin</city>
+        <name>哈尔滨 (中国)</name>
+    </display_name>
+    <display_name>
+        <city>Harare</city>
+        <name>哈拉雷 (津巴布韦)</name>
+    </display_name>
+    <display_name>
+        <city>Halifax</city>
+        <name>哈利法克斯 (加拿大)</name>
+    </display_name>
+    <display_name>
+        <city>Havana</city>
+        <name>哈瓦那 (古巴)</name>
+    </display_name>
+    <display_name>
+        <city>Hyderabad</city>
+        <name>海得拉巴 (印度)</name>
+    </display_name>
+    <display_name>
+        <city>Haikou</city>
+        <name>海口 (中国)</name>
+    </display_name>
+    <display_name>
+        <city>Hamburg</city>
+        <name>汉堡 (德国)</name>
+    </display_name>
+    <display_name>
+        <city>Hangzhou</city>
+        <name>杭州 (中国)</name>
+    </display_name>
+    <display_name>
+        <city>Hamilton</city>
+        <name>哈密尔顿 (百慕大)</name>
+    </display_name>
+    <display_name>
+        <city>Lord_Howe_Island</city>
+        <name>豪勋爵岛 (澳大利亚)</name>
+    </display_name>
+    <display_name>
+        <city>Helsinki</city>
+        <name>赫尔辛基 (芬兰)</name>
+    </display_name>
+    <display_name>
+        <city>Hefei</city>
+        <name>合肥 (中国)</name>
+    </display_name>
+    <display_name>
+        <city>Hanoi</city>
+        <name>河内 (越南)</name>
+    </display_name>
+    <display_name>
+        <city>Redwood_City</city>
+        <name>雷德伍德城 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Ho_Chi_Minh_City</city>
+        <name>胡志明市 (越南)</name>
+    </display_name>
+    <display_name>
+        <city>Warsaw</city>
+        <name>华沙 (波兰)</name>
+    </display_name>
+    <display_name>
+        <city>Washington_DC</city>
+        <name>华盛顿 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Waitangi</city>
+        <name>怀唐伊 (新西兰)</name>
+    </display_name>
+    <display_name>
+        <city>Whitehorse</city>
+        <name>白马市 (加拿大)</name>
+    </display_name>
+    <display_name>
+        <city>Wellington</city>
+        <name>惠灵顿 (新西兰)</name>
+    </display_name>
+    <display_name>
+        <city>Hobart</city>
+        <name>霍巴特 (澳大利亚)</name>
+    </display_name>
+    <display_name>
+        <city>Honiara</city>
+        <name>霍尼亚拉 (所罗门群岛)</name>
+    </display_name>
+    <display_name>
+        <city>Djibouti</city>
+        <name>吉布提 (吉布提)</name>
+    </display_name>
+    <display_name>
+        <city>Quito</city>
+        <name>基多 (厄瓜多尔)</name>
+    </display_name>
+    <display_name>
+        <city>Kyiv</city>
+        <name>基辅 (乌克兰)</name>
+    </display_name>
+    <display_name>
+        <city>Kigali</city>
+        <name>基加利 (卢旺达)</name>
+    </display_name>
+    <display_name>
+        <city>Kuala_Lumpur</city>
+        <name>吉隆坡 (马来西亚)</name>
+    </display_name>
+    <display_name>
+        <city>Jinan</city>
+        <name>济南 (中国)</name>
+    </display_name>
+    <display_name>
+        <city>Chisinau</city>
+        <name>基希讷乌 (摩尔多瓦)</name>
+    </display_name>
+    <display_name>
+        <city>Cardiff</city>
+        <name>加的夫 (英国)</name>
+    </display_name>
+    <display_name>
+        <city>Kathmandu</city>
+        <name>加德满都 (尼泊尔)</name>
+    </display_name>
+    <display_name>
+        <city>Calcutta</city>
+        <name>加尔各答 (印度)</name>
+    </display_name>
+    <display_name>
+        <city>Caracas</city>
+        <name>加拉加斯 (委内瑞拉)</name>
+    </display_name>
+    <display_name>
+        <city>Galapagos_Islands</city>
+        <name>科隆群岛 (厄瓜多尔)</name>
+    </display_name>
+    <display_name>
+        <city>Kaliningrad</city>
+        <name>加里宁格勒 (俄罗斯)</name>
+    </display_name>
+    <display_name>
+        <city>Canary_Islands</city>
+        <name>加那利群岛 (西班牙)</name>
+    </display_name>
+    <display_name>
+        <city>Gaza</city>
+        <name>加沙 (巴勒斯坦)</name>
+    </display_name>
+    <display_name>
+        <city>Cambridge_Bay</city>
+        <name>剑桥湾 (加拿大)</name>
+    </display_name>
+    <display_name>
+        <city>Phnom_Penh</city>
+        <name>金边 (柬埔寨)</name>
+    </display_name>
+    <display_name>
+        <city>Kinshasa</city>
+        <name>金沙萨 (刚果民主共和国)</name>
+    </display_name>
+    <display_name>
+        <city>Kingston_Jamaica</city>
+        <name>金斯敦 (牙买加)</name>
+    </display_name>
+    <display_name>
+        <city>Kingston_Norfolk_Island</city>
+        <name>金斯顿 (诺福克岛)</name>
+    </display_name>
+    <display_name>
+        <city>Kingstown</city>
+        <name>金斯敦 (圣文森特和格林纳丁斯)</name>
+    </display_name>
+    <display_name>
+        <city>San_Francisco</city>
+        <name>旧金山 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Kabul</city>
+        <name>喀布尔 (阿富汗)</name>
+    </display_name>
+    <display_name>
+        <city>Calgary</city>
+        <name>卡尔加里 (加拿大)</name>
+    </display_name>
+    <display_name>
+        <city>Karachi</city>
+        <name>卡拉奇 (巴基斯坦)</name>
+    </display_name>
+    <display_name>
+        <city>Casablanca</city>
+        <name>卡萨布兰卡 (摩洛哥)</name>
+    </display_name>
+    <display_name>
+        <city>Kashgar</city>
+        <name>喀什 (中国)</name>
+    </display_name>
+    <display_name>
+        <city>Castries</city>
+        <name>卡斯特里 (圣卢西亚)</name>
+    </display_name>
+    <display_name>
+        <city>Catamarca</city>
+        <name>卡塔马卡 (阿根廷)</name>
+    </display_name>
+    <display_name>
+        <city>Catanzaro</city>
+        <name>卡坦扎罗 (意大利)</name>
+    </display_name>
+    <display_name>
+        <city>Khartoum</city>
+        <name>喀土穆 (苏丹)</name>
+    </display_name>
+    <display_name>
+        <city>Cayenne</city>
+        <name>卡宴 (法属圭亚那)</name>
+    </display_name>
+    <display_name>
+        <city>Cairo</city>
+        <name>开罗 (埃及)</name>
+    </display_name>
+    <display_name>
+        <city>Cape_Town</city>
+        <name>开普敦 (南非)</name>
+    </display_name>
+    <display_name>
+        <city>Casey_Station</city>
+        <name>凯西站 (南极洲)</name>
+    </display_name>
+    <display_name>
+        <city>Kanton_Island</city>
+        <name>阿巴里灵阿环礁 (基里巴斯)</name>
+    </display_name>
+    <display_name>
+        <city>Cancun</city>
+        <name>坎昆 (墨西哥)</name>
+    </display_name>
+    <display_name>
+        <city>Kampala</city>
+        <name>坎帕拉 (乌干达)</name>
+    </display_name>
+    <display_name>
+        <city>Canberra</city>
+        <name>堪培拉 (澳大利亚)</name>
+    </display_name>
+    <display_name>
+        <city>Cockburn_Town</city>
+        <name>科伯恩城 (特克斯和凯科斯群岛)</name>
+    </display_name>
+    <display_name>
+        <city>Hovd</city>
+        <name>科布多 (蒙古)</name>
+    </display_name>
+    <display_name>
+        <city>Cordoba</city>
+        <name>科尔多瓦 (阿根廷)</name>
+    </display_name>
+    <display_name>
+        <city>Cork</city>
+        <name>科克 (爱尔兰)</name>
+    </display_name>
+    <display_name>
+        <city>Krakow</city>
+        <name>克拉科夫 (波兰)</name>
+    </display_name>
+    <display_name>
+        <city>Kralendijk</city>
+        <name>克拉伦代克 (博奈尔)</name>
+    </display_name>
+    <display_name>
+        <city>Krasnoyarsk</city>
+        <name>克拉斯诺亚尔斯克 (俄罗斯)</name>
+    </display_name>
+    <display_name>
+        <city>Creston</city>
+        <name>克雷斯顿 (加拿大)</name>
+    </display_name>
+    <display_name>
+        <city>Cleveland</city>
+        <name>克利夫兰 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Christiansted</city>
+        <name>克里斯琴斯特德 (美属维京群岛)</name>
+    </display_name>
+    <display_name>
+        <city>Colombo</city>
+        <name>科伦坡 (斯里兰卡)</name>
+    </display_name>
+    <display_name>
+        <city>Koror</city>
+        <name>科罗尔 (帕劳)</name>
+    </display_name>
+    <display_name>
+        <city>Crotone</city>
+        <name>克努托内 (意大利)</name>
+    </display_name>
+    <display_name>
+        <city>Kunming</city>
+        <name>昆明 (中国)</name>
+    </display_name>
+    <display_name>
+        <city>Conakry</city>
+        <name>科纳克里 (几内亚)</name>
+    </display_name>
+    <display_name>
+        <city>Kosrae</city>
+        <name>科斯雷州 (密克罗尼西亚联邦)</name>
+    </display_name>
+    <display_name>
+        <city>Kuwait</city>
+        <name>科威特 (科威特)</name>
+    </display_name>
+    <display_name>
+        <city>Qyzylorda</city>
+        <name>克孜勒奥尔达 (哈萨克斯坦)</name>
+    </display_name>
+    <display_name>
+        <city>Cupertino</city>
+        <name>库比蒂诺 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Currie</city>
+        <name>柯里 (澳大利亚)</name>
+    </display_name>
+    <display_name>
+        <city>Cuiaba</city>
+        <name>库亚巴 (巴西)</name>
+    </display_name>
+    <display_name>
+        <city>Happy_ValleyGoose_Bay</city>
+        <name>古斯贝 (加拿大)</name>
+    </display_name>
+    <display_name>
+        <city>Quebec_City</city>
+        <name>魁北克市 (加拿大)</name>
+    </display_name>
+    <display_name>
+        <city>Pontianak</city>
+        <name>坤甸 (印度尼西亚)</name>
+    </display_name>
+    <display_name>
+        <city>Nuestra_Senora_de_La_Paz</city>
+        <name>拉巴斯 (玻利维亚)</name>
+    </display_name>
+    <display_name>
+        <city>Rabat</city>
+        <name>拉巴特 (摩洛哥)</name>
+    </display_name>
+    <display_name>
+        <city>Lagos</city>
+        <name>拉各斯 (尼日利亚)</name>
+    </display_name>
+    <display_name>
+        <city>La_Rioja</city>
+        <name>拉里奥哈 (阿根廷)</name>
+    </display_name>
+    <display_name>
+        <city>Rarotonga</city>
+        <name>拉罗汤加岛 (库克群岛)</name>
+    </display_name>
+    <display_name>
+        <city>Lhasa</city>
+        <name>拉萨 (中国)</name>
+    </display_name>
+    <display_name>
+        <city>Las_Vegas</city>
+        <name>拉斯维加斯 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Rankin_Inlet</city>
+        <name>兰金因莱特 (加拿大)</name>
+    </display_name>
+    <display_name>
+        <city>Longyearbyen</city>
+        <name>朗伊尔城 (挪威)</name>
+    </display_name>
+    <display_name>
+        <city>Reykjavik</city>
+        <name>雷克雅未克 (冰岛)</name>
+    </display_name>
+    <display_name>
+        <city>Resolute</city>
+        <name>雷索卢特 (加拿大)</name>
+    </display_name>
+    <display_name>
+        <city>Recife</city>
+        <name>累西腓 (巴西)</name>
+    </display_name>
+    <display_name>
+        <city>Lyon</city>
+        <name>里昂 (法国)</name>
+    </display_name>
+    <display_name>
+        <city>Rio_Branco</city>
+        <name>里约布兰科 (巴西)</name>
+    </display_name>
+    <display_name>
+        <city>Rio_Gallegos</city>
+        <name>里奥加耶戈斯 (阿根廷)</name>
+    </display_name>
+    <display_name>
+        <city>Libreville</city>
+        <name>利伯维尔 (加蓬)</name>
+    </display_name>
+    <display_name>
+        <city>Rikitea</city>
+        <name>里基泰阿 (法属波利尼西亚)</name>
+    </display_name>
+    <display_name>
+        <city>Riga</city>
+        <name>里加 (拉脱维亚)</name>
+    </display_name>
+    <display_name>
+        <city>Regina</city>
+        <name>里贾纳 (加拿大)</name>
+    </display_name>
+    <display_name>
+        <city>Lima</city>
+        <name>利马 (秘鲁)</name>
+    </display_name>
+    <display_name>
+        <city>Lisbon</city>
+        <name>里斯本 (葡萄牙)</name>
+    </display_name>
+    <display_name>
+        <city>Riyadh</city>
+        <name>利雅得 (沙特阿拉伯)</name>
+    </display_name>
+    <display_name>
+        <city>Rio_de_Janeiro</city>
+        <name>里约热内卢 (巴西)</name>
+    </display_name>
+    <display_name>
+        <city>Lindeman_Island</city>
+        <name>林德曼岛 (澳大利亚)</name>
+    </display_name>
+    <display_name>
+        <city>Lubumbashi</city>
+        <name>卢本巴希 (刚果民主共和国)</name>
+    </display_name>
+    <display_name>
+        <city>Ljubljana</city>
+        <name>卢布尔雅那 (斯洛文尼亚)</name>
+    </display_name>
+    <display_name>
+        <city>Lusaka</city>
+        <name>卢萨卡 (赞比亚)</name>
+    </display_name>
+    <display_name>
+        <city>Luxembourg</city>
+        <name>卢森堡 (卢森堡)</name>
+    </display_name>
+    <display_name>
+        <city>Port_Louis</city>
+        <name>路易港 (毛里求斯)</name>
+    </display_name>
+    <display_name>
+        <city>Louisville</city>
+        <name>路易斯维尔 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>London</city>
+        <name>伦敦 (英国)</name>
+    </display_name>
+    <display_name>
+        <city>Luanda</city>
+        <name>罗安达 (安哥拉)</name>
+    </display_name>
+    <display_name>
+        <city>Rome</city>
+        <name>罗马 (意大利)</name>
+    </display_name>
+    <display_name>
+        <city>Road_Town</city>
+        <name>罗德城 (英属维京群岛)</name>
+    </display_name>
+    <display_name>
+        <city>Lome</city>
+        <name>洛美 (多哥)</name>
+    </display_name>
+    <display_name>
+        <city>Rothera_Station</city>
+        <name>罗瑟拉研究站 (南极洲)</name>
+    </display_name>
+    <display_name>
+        <city>Los_Angeles</city>
+        <name>洛杉矶 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Los_Altos</city>
+        <name>洛思阿图斯 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Los_Gatos</city>
+        <name>洛思加图斯 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Roseau</city>
+        <name>罗索 (多米尼克)</name>
+    </display_name>
+    <display_name>
+        <city>Madrid</city>
+        <name>马德里 (西班牙)</name>
+    </display_name>
+    <display_name>
+        <city>Malmo</city>
+        <name>马尔默 (瑞典)</name>
+    </display_name>
+    <display_name>
+        <city>Magadan</city>
+        <name>马加丹 (俄罗斯)</name>
+    </display_name>
+    <display_name>
+        <city>Makassar</city>
+        <name>望加锡 (印度尼西亚)</name>
+    </display_name>
+    <display_name>
+        <city>Malabo</city>
+        <name>马拉博 (赤道几内亚)</name>
+    </display_name>
+    <display_name>
+        <city>Male</city>
+        <name>马累 (马尔代夫)</name>
+    </display_name>
+    <display_name>
+        <city>Mariehamn</city>
+        <name>玛丽港 (芬兰)</name>
+    </display_name>
+    <display_name>
+        <city>Marigot</city>
+        <name>马里戈特 (法属圣马丁)</name>
+    </display_name>
+    <display_name>
+        <city>Marengo</city>
+        <name>马伦戈 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Mamoudzou</city>
+        <name>马穆楚 (马约特)</name>
+    </display_name>
+    <display_name>
+        <city>Managua</city>
+        <name>马那瓜 (尼加拉瓜)</name>
+    </display_name>
+    <display_name>
+        <city>Manaus</city>
+        <name>马瑙斯 (巴西)</name>
+    </display_name>
+    <display_name>
+        <city>Manila</city>
+        <name>马尼拉 (菲律宾)</name>
+    </display_name>
+    <display_name>
+        <city>Maputo</city>
+        <name>马普托 (莫桑比克)</name>
+    </display_name>
+    <display_name>
+        <city>Mazatlan</city>
+        <name>马萨特兰 (墨西哥)</name>
+    </display_name>
+    <display_name>
+        <city>Marseille</city>
+        <name>马赛 (法国)</name>
+    </display_name>
+    <display_name>
+        <city>Maseru</city>
+        <name>马塞卢 (莱索托)</name>
+    </display_name>
+    <display_name>
+        <city>Maceio</city>
+        <name>马塞约 (巴西)</name>
+    </display_name>
+    <display_name>
+        <city>Muscat</city>
+        <name>马斯喀特 (阿曼)</name>
+    </display_name>
+    <display_name>
+        <city>Matamoros</city>
+        <name>马塔莫罗斯 (墨西哥)</name>
+    </display_name>
+    <display_name>
+        <city>MataUtu</city>
+        <name>马塔乌图 (瓦利斯和富图纳)</name>
+    </display_name>
+    <display_name>
+        <city>Majuro</city>
+        <name>马朱罗 (马绍尔群岛)</name>
+    </display_name>
+    <display_name>
+        <city>Miami</city>
+        <name>迈阿密 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Madison</city>
+        <name>麦迪逊 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Mecca</city>
+        <name>麦加 (沙特阿拉伯)</name>
+    </display_name>
+    <display_name>
+        <city>McMurdo_Station</city>
+        <name>麦克默多站 (南极洲)</name>
+    </display_name>
+    <display_name>
+        <city>Macquarie_Island_Station</city>
+        <name>麦夸里岛 (南极洲)</name>
+    </display_name>
+    <display_name>
+        <city>Manama</city>
+        <name>麦纳麦 (巴林)</name>
+    </display_name>
+    <display_name>
+        <city>Bangkok</city>
+        <name>曼谷 (泰国)</name>
+    </display_name>
+    <display_name>
+        <city>Merida</city>
+        <name>梅里达 (墨西哥)</name>
+    </display_name>
+    <display_name>
+        <city>Menominee</city>
+        <name>梅诺米尼 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Metlakatla</city>
+        <name>梅特拉卡特拉 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Mendoza</city>
+        <name>门多萨 (阿根廷)</name>
+    </display_name>
+    <display_name>
+        <city>Menlo_Park</city>
+        <name>门洛帕克 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Montpellier</city>
+        <name>蒙彼利埃 (法国)</name>
+    </display_name>
+    <display_name>
+        <city>Montevideo</city>
+        <name>蒙得维的亚 (乌拉圭)</name>
+    </display_name>
+    <display_name>
+        <city>Monticello</city>
+        <name>蒙蒂塞洛 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Memphis</city>
+        <name>孟菲斯 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Moncton</city>
+        <name>蒙克顿 (加拿大)</name>
+    </display_name>
+    <display_name>
+        <city>Monrovia</city>
+        <name>蒙罗维亚 (利比里亚)</name>
+    </display_name>
+    <display_name>
+        <city>Mumbai</city>
+        <name>孟买 (印度)</name>
+    </display_name>
+    <display_name>
+        <city>Monterrey</city>
+        <name>蒙特雷 (墨西哥)</name>
+    </display_name>
+    <display_name>
+        <city>Monterey</city>
+        <name>蒙特雷 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Montreal</city>
+        <name>蒙特利尔 (加拿大)</name>
+    </display_name>
+    <display_name>
+        <city>Milbank</city>
+        <name>米尔班克 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Milwaukee</city>
+        <name>密尔沃基 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Milan</city>
+        <name>米兰 (意大利)</name>
+    </display_name>
+    <display_name>
+        <city>Minneapolis</city>
+        <name>明尼阿波里斯 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Minsk</city>
+        <name>明斯克 (白俄罗斯)</name>
+    </display_name>
+    <display_name>
+        <city>Melbourne</city>
+        <name>墨尔本 (澳大利亚)</name>
+    </display_name>
+    <display_name>
+        <city>Port_Moresby</city>
+        <name>莫尔兹比港 (巴布亚新几内亚)</name>
+    </display_name>
+    <display_name>
+        <city>Mogadishu</city>
+        <name>摩加迪沙 (索马里)</name>
+    </display_name>
+    <display_name>
+        <city>Moroni</city>
+        <name>莫罗尼 (科摩罗)</name>
+    </display_name>
+    <display_name>
+        <city>Monaco</city>
+        <name>摩纳哥 (摩纳哥)</name>
+    </display_name>
+    <display_name>
+        <city>Mawson_Station</city>
+        <name>莫森站 (南极洲)</name>
+    </display_name>
+    <display_name>
+        <city>Moscow</city>
+        <name>莫斯科 (俄罗斯)</name>
+    </display_name>
+    <display_name>
+        <city>Mexico_City</city>
+        <name>墨西哥城 (墨西哥)</name>
+    </display_name>
+    <display_name>
+        <city>Messina</city>
+        <name>墨西拿 (意大利)</name>
+    </display_name>
+    <display_name>
+        <city>Mbabane</city>
+        <name>姆巴巴纳 (斯威士兰)</name>
+    </display_name>
+    <display_name>
+        <city>Munich</city>
+        <name>慕尼黑 (德国)</name>
+    </display_name>
+    <display_name>
+        <city>Naples</city>
+        <name>那不勒斯 (意大利)</name>
+    </display_name>
+    <display_name>
+        <city>Napa</city>
+        <name>纳帕 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Nassau</city>
+        <name>拿骚 (巴哈马)</name>
+    </display_name>
+    <display_name>
+        <city>Naters</city>
+        <name>那特斯 (瑞士)</name>
+    </display_name>
+    <display_name>
+        <city>Nanjing</city>
+        <name>南京 (中国)</name>
+    </display_name>
+    <display_name>
+        <city>Nanning</city>
+        <name>南宁 (中国)</name>
+    </display_name>
+    <display_name>
+        <city>YuzhnoSakhalinsk</city>
+        <name>南萨哈林斯克 (俄罗斯)</name>
+    </display_name>
+    <display_name>
+        <city>Nairobi</city>
+        <name>内罗毕 (肯尼亚)</name>
+    </display_name>
+    <display_name>
+        <city>Nicosia</city>
+        <name>尼科西亚 (塞浦路斯)</name>
+    </display_name>
+    <display_name>
+        <city>Nipigon</city>
+        <name>尼皮贡 (加拿大)</name>
+    </display_name>
+    <display_name>
+        <city>Niamey</city>
+        <name>尼亚美 (尼日尔)</name>
+    </display_name>
+    <display_name>
+        <city>New_York</city>
+        <name>纽约 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Nuuk</city>
+        <name>努克 (格陵兰)</name>
+    </display_name>
+    <display_name>
+        <city>Nukualofa</city>
+        <name>努库阿洛法 (汤加)</name>
+    </display_name>
+    <display_name>
+        <city>Noumea</city>
+        <name>努美阿 (新喀里多尼亚)</name>
+    </display_name>
+    <display_name>
+        <city>Nouakchott</city>
+        <name>努瓦克肖特 (毛里塔尼亚)</name>
+    </display_name>
+    <display_name>
+        <city>Knox</city>
+        <name>诺克斯 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Knoxville</city>
+        <name>诺克斯维尔 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Nome</city>
+        <name>诺姆 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Novato</city>
+        <name>诺瓦托 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Oral</city>
+        <name>乌拉尔 (哈萨克斯坦)</name>
+    </display_name>
+    <display_name>
+        <city>Palmer_Station</city>
+        <name>帕尔默站 (南极洲)</name>
+    </display_name>
+    <display_name>
+        <city>Pago_Pago</city>
+        <name>帕果-帕果 (美属萨摩亚)</name>
+    </display_name>
+    <display_name>
+        <city>Paramaribo</city>
+        <name>帕拉马里博 (苏里南)</name>
+    </display_name>
+    <display_name>
+        <city>Palo_Alto</city>
+        <name>帕罗奥图 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Pacifica</city>
+        <name>帕西菲卡 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Pangnirtung</city>
+        <name>庞纳唐 (加拿大)</name>
+    </display_name>
+    <display_name>
+        <city>Perth</city>
+        <name>珀斯 (澳大利亚)</name>
+    </display_name>
+    <display_name>
+        <city>Petaluma</city>
+        <name>佩塔卢马 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Ponta_Delgada</city>
+        <name>蓬塔德尔加达 (葡萄牙)</name>
+    </display_name>
+    <display_name>
+        <city>Pittsburgh</city>
+        <name>匹兹堡 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Pyongyang</city>
+        <name>平壤</name>
+    </display_name>
+    <display_name>
+        <city>Praia</city>
+        <name>普拉亚 (佛得角)</name>
+    </display_name>
+    <display_name>
+        <city>Pleasanton</city>
+        <name>普莱森顿 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Plymouth</city>
+        <name>普利茅斯 (蒙特塞拉特)</name>
+    </display_name>
+    <display_name>
+        <city>Chihuahua</city>
+        <name>奇瓦瓦 (墨西哥)</name>
+    </display_name>
+    <display_name>
+        <city>George_Town</city>
+        <name>乔治城 (开曼群岛)</name>
+    </display_name>
+    <display_name>
+        <city>Georgetown</city>
+        <name>乔治敦 (圭亚那)</name>
+    </display_name>
+    <display_name>
+        <city>Qingdao</city>
+        <name>青岛 (中国)</name>
+    </display_name>
+    <display_name>
+        <city>Chiang_Mai</city>
+        <name>清迈 (泰国)</name>
+    </display_name>
+    <display_name>
+        <city>Genoa</city>
+        <name>热那亚 (意大利)</name>
+    </display_name>
+    <display_name>
+        <city>Geneva</city>
+        <name>日内瓦 (瑞士)</name>
+    </display_name>
+    <display_name>
+        <city>Salta</city>
+        <name>萨尔塔 (阿根廷)</name>
+    </display_name>
+    <display_name>
+        <city>Salvador</city>
+        <name>萨尔瓦多 (巴西)</name>
+    </display_name>
+    <display_name>
+        <city>Salzburg</city>
+        <name>萨尔茨堡 (奥地利)</name>
+    </display_name>
+    <display_name>
+        <city>Zagreb</city>
+        <name>萨格勒布 (克罗地亚)</name>
+    </display_name>
+    <display_name>
+        <city>Sarajevo</city>
+        <name>萨拉热窝 (波斯尼亚和黑塞哥维那)</name>
+    </display_name>
+    <display_name>
+        <city>Samarkand</city>
+        <name>撒马尔罕 (乌兹别克斯坦)</name>
+    </display_name>
+    <display_name>
+        <city>Samara</city>
+        <name>萨马拉 (俄罗斯)</name>
+    </display_name>
+    <display_name>
+        <city>Sanaa</city>
+        <name>萨纳 (也门)</name>
+    </display_name>
+    <display_name>
+        <city>Saskatoon</city>
+        <name>萨斯卡通 (加拿大)</name>
+    </display_name>
+    <display_name>
+        <city>Saipan</city>
+        <name>塞班岛 (北马里亚纳群岛)</name>
+    </display_name>
+    <display_name>
+        <city>Thessaloniki</city>
+        <name>塞萨洛尼基 (希腊)</name>
+    </display_name>
+    <display_name>
+        <city>Thunder_Bay</city>
+        <name>桑德贝 (加拿大)</name>
+    </display_name>
+    <display_name>
+        <city>Sunnyvale</city>
+        <name>森尼韦尔 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>The_Valley</city>
+        <name>圣费尔南多谷 (安圭拉)</name>
+    </display_name>
+    <display_name>
+        <city>Mountain_View</city>
+        <name>山景城 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Shanghai</city>
+        <name>上海 (中国)</name>
+    </display_name>
+    <display_name>
+        <city>Shenyang</city>
+        <name>沈阳 (中国)</name>
+    </display_name>
+    <display_name>
+        <city>Shenzhen</city>
+        <name>深圳 (中国)</name>
+    </display_name>
+    <display_name>
+        <city>San_Antonio</city>
+        <name>圣安东尼奥 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>San_Pablo</city>
+        <name>圣巴勃罗 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Sao_Paulo</city>
+        <name>圣保罗 (巴西)</name>
+    </display_name>
+    <display_name>
+        <city>St_Petersburg</city>
+        <name>圣彼得堡 (俄罗斯)</name>
+    </display_name>
+    <display_name>
+        <city>Saint_Peter_Port</city>
+        <name>圣彼得港 (根西岛)</name>
+    </display_name>
+    <display_name>
+        <city>San_Bruno</city>
+        <name>圣布鲁诺 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Kiritimati</city>
+        <name>圣诞岛 (基里巴斯)</name>
+    </display_name>
+    <display_name>
+        <city>SaintDenis</city>
+        <name>圣但尼 (留尼汪)</name>
+    </display_name>
+    <display_name>
+        <city>San_Diego</city>
+        <name>圣迭戈 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Santiago</city>
+        <name>圣地亚哥 (智利)</name>
+    </display_name>
+    <display_name>
+        <city>Sao_Tome</city>
+        <name>圣多美 (圣多美和普林西比)</name>
+    </display_name>
+    <display_name>
+        <city>Santo_Domingo</city>
+        <name>圣多明各 (多米尼加共和国)</name>
+    </display_name>
+    <display_name>
+        <city>Saint_Helier</city>
+        <name>圣赫利尔 (泽西岛)</name>
+    </display_name>
+    <display_name>
+        <city>San_Jose_United_States</city>
+        <name>圣何塞 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>San_Jose_Costa_Rica</city>
+        <name>圣何塞 (哥斯达黎加)</name>
+    </display_name>
+    <display_name>
+        <city>San_Juan_Argentina</city>
+        <name>圣胡安 (阿根廷)</name>
+    </display_name>
+    <display_name>
+        <city>San_Juan_Puerto_Rico</city>
+        <name>圣胡安 (波多黎各)</name>
+    </display_name>
+    <display_name>
+        <city>San_Carlos</city>
+        <name>圣卡洛斯 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Santa_Clara_Cuba</city>
+        <name>圣克拉拉 (古巴)</name>
+    </display_name>
+    <display_name>
+        <city>Santa_Cruz</city>
+        <name>圣塔克鲁兹 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>San_Rafael</city>
+        <name>圣拉菲尔 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>San_Ramon</city>
+        <name>圣拉蒙 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>San_Leandro</city>
+        <name>圣利安卓 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>San_Luis</city>
+        <name>圣路易斯 (阿根廷)</name>
+    </display_name>
+    <display_name>
+        <city>St_Louis</city>
+        <name>圣路易斯 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>San_Marino</city>
+        <name>圣马力诺 (圣马力诺)</name>
+    </display_name>
+    <display_name>
+        <city>San_Mateo</city>
+        <name>圣马特奥 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>SaintPierre</city>
+        <name>圣皮埃尔 (圣皮埃尔和密克隆群岛)</name>
+    </display_name>
+    <display_name>
+        <city>St_Georges</city>
+        <name>圣乔治 (格林纳达)</name>
+    </display_name>
+    <display_name>
+        <city>San_Salvador</city>
+        <name>圣萨尔瓦多 (萨尔瓦多)</name>
+    </display_name>
+    <display_name>
+        <city>San_Salvador_de_Jujuy</city>
+        <name>圣萨尔瓦多-德胡胡伊 (阿根廷)</name>
+    </display_name>
+    <display_name>
+        <city>Santarem</city>
+        <name>圣塔伦 (巴西)</name>
+    </display_name>
+    <display_name>
+        <city>Santa_Isabel</city>
+        <name>圣伊莎贝尔 (墨西哥)</name>
+    </display_name>
+    <display_name>
+        <city>St_Johns_Canada</city>
+        <name>圣约翰 (加拿大)</name>
+    </display_name>
+    <display_name>
+        <city>St_Johns_Antigua_amp_Barbuda</city>
+        <name>圣约翰斯 (安提瓜和巴布达)</name>
+    </display_name>
+    <display_name>
+        <city>Seoul</city>
+        <name>首尔 (韩国)</name>
+    </display_name>
+    <display_name>
+        <city>Stockholm</city>
+        <name>斯德哥尔摩 (瑞典)</name>
+    </display_name>
+    <display_name>
+        <city>Skopje</city>
+        <name>斯科普里 (北马其顿)</name>
+    </display_name>
+    <display_name>
+        <city>Bandar_Seri_Begawan</city>
+        <name>斯里巴加湾市 (文莱)</name>
+    </display_name>
+    <display_name>
+        <city>Stanley</city>
+        <name>史丹利 (福克兰群岛)</name>
+    </display_name>
+    <display_name>
+        <city>Swift_Current</city>
+        <name>斯威夫特卡伦特 (加拿大)</name>
+    </display_name>
+    <display_name>
+        <city>Sioux_Falls</city>
+        <name>苏瀑 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Zurich</city>
+        <name>苏黎世 (瑞士)</name>
+    </display_name>
+    <display_name>
+        <city>Suva</city>
+        <name>苏瓦 (斐济)</name>
+    </display_name>
+    <display_name>
+        <city>Sofia</city>
+        <name>索非亚 (保加利亚)</name>
+    </display_name>
+    <display_name>
+        <city>Tarawa</city>
+        <name>塔拉瓦岛 (基里巴斯)</name>
+    </display_name>
+    <display_name>
+        <city>Tallinn</city>
+        <name>塔林 (爱沙尼亚)</name>
+    </display_name>
+    <display_name>
+        <city>Tashkent</city>
+        <name>塔什干 (乌兹别克斯坦)</name>
+    </display_name>
+    <display_name>
+        <city>Tahiti</city>
+        <name>大溪地 (法属波利尼西亚)</name>
+    </display_name>
+    <display_name>
+        <city>Taiohae</city>
+        <name>泰奥哈埃 (法属波利尼西亚)</name>
+    </display_name>
+    <display_name>
+        <city>Taipei</city>
+        <name>台北 (中国)</name>
+    </display_name>
+    <display_name>
+        <city>Portauprince</city>
+        <name>太子港 (海地)</name>
+    </display_name>
+    <display_name>
+        <city>Honolulu</city>
+        <name>檀香山 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Tell_City</city>
+        <name>特尔城 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Tegucigalpa</city>
+        <name>特古西加尔巴 (洪都拉斯)</name>
+    </display_name>
+    <display_name>
+        <city>Tel_Aviv</city>
+        <name>特拉维夫 (以色列)</name>
+    </display_name>
+    <display_name>
+        <city>Trehet</city>
+        <name>特雷埃 (法国)</name>
+    </display_name>
+    <display_name>
+        <city>Tianjin</city>
+        <name>天津 (中国)</name>
+    </display_name>
+    <display_name>
+        <city>Thimphu</city>
+        <name>廷布 (不丹)</name>
+    </display_name>
+    <display_name>
+        <city>San_Miguel_de_Tucuman</city>
+        <name>圣米格尔-德图库曼 (阿根廷)</name>
+    </display_name>
+    <display_name>
+        <city>Thule</city>
+        <name>图勒 (格陵兰)</name>
+    </display_name>
+    <display_name>
+        <city>Tunis</city>
+        <name>突尼斯 (突尼斯)</name>
+    </display_name>
+    <display_name>
+        <city>Torshavn</city>
+        <name>托尔斯港 (法罗群岛)</name>
+    </display_name>
+    <display_name>
+        <city>Vaduz</city>
+        <name>瓦杜兹 (列支敦士登)</name>
+    </display_name>
+    <display_name>
+        <city>Ouagadougou</city>
+        <name>瓦加杜古 (布基纳法索)</name>
+    </display_name>
+    <display_name>
+        <city>Valletta</city>
+        <name>瓦莱塔 (马耳他)</name>
+    </display_name>
+    <display_name>
+        <city>Vallejo</city>
+        <name>瓦列霍 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Vientiane</city>
+        <name>万象 (老挝)</name>
+    </display_name>
+    <display_name>
+        <city>Guatemala_City</city>
+        <name>危地马拉市 (危地马拉)</name>
+    </display_name>
+    <display_name>
+        <city>Victoria</city>
+        <name>维多利亚 (塞舌尔)</name>
+    </display_name>
+    <display_name>
+        <city>Vilnius</city>
+        <name>维尔纽斯 (立陶宛)</name>
+    </display_name>
+    <display_name>
+        <city>Willemstad</city>
+        <name>威廉斯塔德 (库拉索)</name>
+    </display_name>
+    <display_name>
+        <city>Verona</city>
+        <name>维罗纳 (意大利)</name>
+    </display_name>
+    <display_name>
+        <city>Winamac</city>
+        <name>威纳马克 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Vevay</city>
+        <name>韦韦 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Vienna</city>
+        <name>维也纳 (奥地利)</name>
+    </display_name>
+    <display_name>
+        <city>Windhoek</city>
+        <name>温得和克 (纳米比亚)</name>
+    </display_name>
+    <display_name>
+        <city>Vancouver</city>
+        <name>温哥华 (加拿大)</name>
+    </display_name>
+    <display_name>
+        <city>Winnipeg</city>
+        <name>温尼伯 (加拿大)</name>
+    </display_name>
+    <display_name>
+        <city>Vincennes</city>
+        <name>万塞讷 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Walnut_Creek</city>
+        <name>核桃溪 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Vostok_Station</city>
+        <name>沃斯托克站 (南极洲)</name>
+    </display_name>
+    <display_name>
+        <city>Ottawa</city>
+        <name>渥太华 (加拿大)</name>
+    </display_name>
+    <display_name>
+        <city>Ulaanbaatar</city>
+        <name>乌兰巴托 (蒙古)</name>
+    </display_name>
+    <display_name>
+        <city>Urumqi</city>
+        <name>乌鲁木齐 (中国)</name>
+    </display_name>
+    <display_name>
+        <city>Wuhan</city>
+        <name>武汉 (中国)</name>
+    </display_name>
+    <display_name>
+        <city>Ushuaia</city>
+        <name>乌斯怀亚 (阿根廷)</name>
+    </display_name>
+    <display_name>
+        <city>Hebron</city>
+        <name>希伯伦 (巴勒斯坦)</name>
+    </display_name>
+    <display_name>
+        <city>Healdsburg</city>
+        <name>希尔兹堡 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Sydney</city>
+        <name>悉尼 (澳大利亚)</name>
+    </display_name>
+    <display_name>
+        <city>Xian</city>
+        <name>西安 (中国)</name>
+    </display_name>
+    <display_name>
+        <city>Sitka</city>
+        <name>锡特卡 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Seattle</city>
+        <name>西雅图 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Charlotte</city>
+        <name>夏洛特市 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Charlotte_Amalie</city>
+        <name>夏洛特阿马利亚 (美属维京群岛)</name>
+    </display_name>
+    <display_name>
+        <city>Lower_Princes_Quarter</city>
+        <name>下太子区 (荷属圣马丁)</name>
+    </display_name>
+    <display_name>
+        <city>Hong_Kong</city>
+        <name>香港 (中国)</name>
+    </display_name>
+    <display_name>
+        <city>Little_Rock</city>
+        <name>小石城 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>New_Orleans</city>
+        <name>新奥尔良 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Flying_Fish_Cove</city>
+        <name>飞鱼湾 (圣诞岛)</name>
+    </display_name>
+    <display_name>
+        <city>New_Delhi</city>
+        <name>新德里 (印度)</name>
+    </display_name>
+    <display_name>
+        <city>Singapore</city>
+        <name>新加坡 (新加坡)</name>
+    </display_name>
+    <display_name>
+        <city>New_Salem</city>
+        <name>新塞勒姆 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Novosibirsk</city>
+        <name>新西伯利亚 (俄罗斯)</name>
+    </display_name>
+    <display_name>
+        <city>Ceuta</city>
+        <name>休达 (西班牙)</name>
+    </display_name>
+    <display_name>
+        <city>Houston</city>
+        <name>休斯敦 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Adamstown</city>
+        <name>亚当斯敦 (皮特凯恩群岛)</name>
+    </display_name>
+    <display_name>
+        <city>Addis_Ababa</city>
+        <name>亚的斯亚贝巴 (埃塞俄比亚)</name>
+    </display_name>
+    <display_name>
+        <city>Athens</city>
+        <name>雅典 (希腊)</name>
+    </display_name>
+    <display_name>
+        <city>Aden</city>
+        <name>亚丁 (也门)</name>
+    </display_name>
+    <display_name>
+        <city>Jakarta</city>
+        <name>雅加达 (印度尼西亚)</name>
+    </display_name>
+    <display_name>
+        <city>Yakutsk</city>
+        <name>雅库茨克 (俄罗斯)</name>
+    </display_name>
+    <display_name>
+        <city>Yakutat</city>
+        <name>亚库塔特 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Alexandria</city>
+        <name>亚历山大港 (埃及)</name>
+    </display_name>
+    <display_name>
+        <city>Yamoussoukro</city>
+        <name>亚穆苏克罗 (科特迪瓦)</name>
+    </display_name>
+    <display_name>
+        <city>Asuncion</city>
+        <name>亚松森 (巴拉圭)</name>
+    </display_name>
+    <display_name>
+        <city>Atlanta</city>
+        <name>亚特兰大 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Yaounde</city>
+        <name>雅温得 (喀麦隆)</name>
+    </display_name>
+    <display_name>
+        <city>Salt_Lake_City</city>
+        <name>盐湖城 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Rangoon</city>
+        <name>仰光 (缅甸)</name>
+    </display_name>
+    <display_name>
+        <city>Jerusalem</city>
+        <name>耶路撒冷</name>
+    </display_name>
+    <display_name>
+        <city>Yekaterinburg</city>
+        <name>叶卡捷琳堡 (俄罗斯)</name>
+    </display_name>
+    <display_name>
+        <city>Yellowknife</city>
+        <name>耶洛奈夫 (加拿大)</name>
+    </display_name>
+    <display_name>
+        <city>Irkutsk</city>
+        <name>伊尔库茨克 (俄罗斯)</name>
+    </display_name>
+    <display_name>
+        <city>Iqaluit</city>
+        <name>伊魁特 (加拿大)</name>
+    </display_name>
+    <display_name>
+        <city>Heraklion</city>
+        <name>伊拉克利翁 (希腊)</name>
+    </display_name>
+    <display_name>
+        <city>Inuvik</city>
+        <name>因纽维克 (加拿大)</name>
+    </display_name>
+    <display_name>
+        <city>Islamabad</city>
+        <name>伊斯兰堡 (巴基斯坦)</name>
+    </display_name>
+    <display_name>
+        <city>Istanbul</city>
+        <name>伊斯坦布尔 (土耳其)</name>
+    </display_name>
+    <display_name>
+        <city>Ittoqqortoormiit</city>
+        <name>斯科斯比松 (格陵兰)</name>
+    </display_name>
+    <display_name>
+        <city>Indianapolis</city>
+        <name>印第安纳波利斯 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Eucla</city>
+        <name>尤克拉 (澳大利亚)</name>
+    </display_name>
+    <display_name>
+        <city>Rainy_River</city>
+        <name>雷尼河 (加拿大)</name>
+    </display_name>
+    <display_name>
+        <city>Johannesburg</city>
+        <name>约翰内斯堡 (南非)</name>
+    </display_name>
+    <display_name>
+        <city>Zhengzhou</city>
+        <name>郑州 (中国)</name>
+    </display_name>
+    <display_name>
+        <city>Jamestown</city>
+        <name>詹姆斯镇 (圣赫勒拿)</name>
+    </display_name>
+    <display_name>
+        <city>Syowa_Station</city>
+        <name>昭和基地 (南极洲)</name>
+    </display_name>
+    <display_name>
+        <city>Gibraltar</city>
+        <name>直布罗陀 (直布罗陀)</name>
+    </display_name>
+    <display_name>
+        <city>Chicago</city>
+        <name>芝加哥 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Juba</city>
+        <name>朱巴 (南苏丹)</name>
+    </display_name>
+    <display_name>
+        <city>Juneau</city>
+        <name>朱诺 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Choibalsan</city>
+        <name>乔巴山 (蒙古)</name>
+    </display_name>
+    <display_name>
+        <city>Midway_Islands</city>
+        <name>中途岛 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Reno</city>
+        <name>里诺 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Sacramento</city>
+        <name>萨克拉门托 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Tucson</city>
+        <name>图森 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Nashville</city>
+        <name>纳什维尔 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Center</city>
+        <name>森特 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Ann_Arbor</city>
+        <name>安阿伯 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Cambridge</city>
+        <name>剑桥 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Jacksonville</city>
+        <name>杰克逊维尔 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Reston</city>
+        <name>雷斯顿 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Tampa</city>
+        <name>坦帕 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Cincinnati</city>
+        <name>辛辛那提 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Port_of_Spain</city>
+        <name>西班牙港 (特立尼达和多巴哥)</name>
+    </display_name>
+    <display_name>
+        <city>Belo_Horizonte</city>
+        <name>贝洛奥里藏特 (巴西)</name>
+    </display_name>
+    <display_name>
+        <city>Belfast</city>
+        <name>贝尔法斯特 (英国)</name>
+    </display_name>
+    <display_name>
+        <city>Manchester</city>
+        <name>曼彻斯特 (英国)</name>
+    </display_name>
+    <display_name>
+        <city>Timbuktu</city>
+        <name>廷巴克图 (马里)</name>
+    </display_name>
+    <display_name>
+        <city>Wroclaw</city>
+        <name>弗罗茨瓦夫 (波兰)</name>
+    </display_name>
+    <display_name>
+        <city>Oulu</city>
+        <name>奥卢 (芬兰)</name>
+    </display_name>
+    <display_name>
+        <city>Haifa</city>
+        <name>海法 (以色列)</name>
+    </display_name>
+    <display_name>
+        <city>Simferopol</city>
+        <name>辛菲罗波尔</name>
+    </display_name>
+    <display_name>
+        <city>Aqtau</city>
+        <name>阿克套 (哈萨克斯坦)</name>
+    </display_name>
+    <display_name>
+        <city>Lahore</city>
+        <name>拉合尔 (巴基斯坦)</name>
+    </display_name>
+    <display_name>
+        <city>Delhi</city>
+        <name>德里 (印度)</name>
+    </display_name>
+    <display_name>
+        <city>Gurgaon</city>
+        <name>古尔冈 (印度)</name>
+    </display_name>
+    <display_name>
+        <city>Boulder</city>
+        <name>博尔德 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Hohhot</city>
+        <name>呼和浩特 (中国)</name>
+    </display_name>
+    <display_name>
+        <city>Yinchuan</city>
+        <name>银川 (中国)</name>
+    </display_name>
+    <display_name>
+        <city>Shijiazhuang</city>
+        <name>石家庄 (中国)</name>
+    </display_name>
+    <display_name>
+        <city>Lanzhou</city>
+        <name>兰州 (中国)</name>
+    </display_name>
+    <display_name>
+        <city>Taiyuan</city>
+        <name>太原 (中国)</name>
+    </display_name>
+    <display_name>
+        <city>Nanchang</city>
+        <name>南昌 (中国)</name>
+    </display_name>
+    <display_name>
+        <city>Changsha</city>
+        <name>长沙 (中国)</name>
+    </display_name>
+    <display_name>
+        <city>Guiyang</city>
+        <name>贵阳 (中国)</name>
+    </display_name>
+    <display_name>
+        <city>Xining</city>
+        <name>西宁 (中国)</name>
+    </display_name>
+    <display_name>
+        <city>Acapulco</city>
+        <name>阿卡普尔科 (墨西哥)</name>
+    </display_name>
+    <display_name>
+        <city>Aguascalientes</city>
+        <name>阿瓜斯卡连特斯 (墨西哥)</name>
+    </display_name>
+    <display_name>
+        <city>Chennai</city>
+        <name>金奈 (印度)</name>
+    </display_name>
+    <display_name>
+        <city>Ciudad_Juarez</city>
+        <name>华雷斯城 (墨西哥)</name>
+    </display_name>
+    <display_name>
+        <city>Cuernavaca</city>
+        <name>库埃纳瓦卡 (墨西哥)</name>
+    </display_name>
+    <display_name>
+        <city>Donetsk</city>
+        <name>顿涅茨克 (乌克兰)</name>
+    </display_name>
+    <display_name>
+        <city>Famagusta</city>
+        <name>法马古斯塔 (塞浦路斯)</name>
+    </display_name>
+    <display_name>
+        <city>Fort_StJohn</city>
+        <name>圣约翰堡 (加拿大)</name>
+    </display_name>
+    <display_name>
+        <city>Green_Bay</city>
+        <name>格林贝 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Guadalajara</city>
+        <name>瓜达拉哈拉 (墨西哥)</name>
+    </display_name>
+    <display_name>
+        <city>Leon</city>
+        <name>莱昂 (墨西哥)</name>
+    </display_name>
+    <display_name>
+        <city>Marrakesh</city>
+        <name>马拉喀什 (摩洛哥)</name>
+    </display_name>
+    <display_name>
+        <city>Mexicali</city>
+        <name>墨西卡利 (墨西哥)</name>
+    </display_name>
+    <display_name>
+        <city>Montpelier</city>
+        <name>蒙彼利埃 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Novokuznetsk</city>
+        <name>新库兹涅茨克 (俄罗斯)</name>
+    </display_name>
+    <display_name>
+        <city>Puebla</city>
+        <name>普埃布拉 (墨西哥)</name>
+    </display_name>
+    <display_name>
+        <city>Punta_Arenas</city>
+        <name>蓬塔阿雷纳斯 (智利)</name>
+    </display_name>
+    <display_name>
+        <city>Queretaro</city>
+        <name>克雷塔罗 (墨西哥)</name>
+    </display_name>
+    <display_name>
+        <city>San_Luis_Potosi</city>
+        <name>圣路易斯波托西 (墨西哥)</name>
+    </display_name>
+    <display_name>
+        <city>Santa_Clara_United_States</city>
+        <name>圣克拉拉 (美国)</name>
+    </display_name>
+    <display_name>
+        <city>Saratov</city>
+        <name>萨拉托夫 (俄罗斯)</name>
+    </display_name>
+    <display_name>
+        <city>Torreon</city>
+        <name>托雷翁 (墨西哥)</name>
+    </display_name>
+</display_names>

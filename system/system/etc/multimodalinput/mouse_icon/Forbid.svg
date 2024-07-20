@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="264px" height="264px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Cursor/Forbid</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HarmonyOS-cursor-symbol" transform="translate(-309.000000, -71.000000)">
+            <g id="Cursor/Forbid" transform="translate(301.000000, 70.000000)">
+                <g id="编组" transform="translate(1.000000, 1.344847)">
+                    <g id="角标" transform="translate(7.000000, 14.655153)" fill="#E84026">
+                        <rect id="矩形" x="0" y="0" width="24" height="24" rx="12"></rect>
+                    </g>
+                    <circle id="椭圆形" stroke="#FFFFFF" stroke-width="1.5" cx="19" cy="26.6551527" r="6.25"></circle>
+                    <path d="M3.6109127,1.05895867 L3.6109127,19.0290772 L8.87666507,13.7660655 L16.3180195,13.7660655 L3.6109127,1.05895867 Z" id="路径-21备份-2" stroke="#FFFFFF" fill="#000000" stroke-linejoin="round" transform="translate(9.610913, 10.044240) scale(-1, 1) rotate(-315.000000) translate(-9.610913, -10.044240) "></path>
+                    <line x1="15" y1="22.6551527" x2="23" y2="30.6551527" id="路径-14" stroke="#FFFFFF" stroke-width="1.5"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

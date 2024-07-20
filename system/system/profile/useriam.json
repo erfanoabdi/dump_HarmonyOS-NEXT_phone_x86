@@ -1,0 +1,33 @@
+{
+    "process": "useriam",
+    "systemability": [
+        {
+            "name": 901,
+            "libpath": "libuserauthservice.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 921,
+            "libpath": "libuserauthservice.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 931,
+            "libpath": "libuserauthservice.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 942,
+            "libpath": "libfaceauthservice.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        }
+    ]
+}

@@ -1,0 +1,126 @@
+{
+    "version": 230915000,
+    "deviceId": [
+        {
+            "id": 1,
+            "name": "/system/etc/hiview/remotelog/capabilities"
+        },{
+            "id": 1000,
+            "name": "/proc/device-tree/hisi,boardname"
+        },{
+            "id": 1001,
+            "name": "/proc/device-tree/hisi,product_name"
+        },{
+            "id": 1002,
+            "name": "/sys/class/graphics/fb0/lcd_model"
+        },{
+            "id": 1003,
+            "name": "/proc/stat"
+        },{
+            "id": 1004,
+            "name": "/proc/meminfo"
+        },{
+            "id": 4000,
+            "name": "/sys/class/power_supply/Battery/capacity"
+        },{
+            "id": 4001,
+            "name": "/sys/class/power_supply/Battery/charge_full_design"
+        },{
+            "id": 4002,
+            "name": "/sys/class/power_supply/Battery/charge_full"
+        },{
+            "id": 4003,
+            "name": "/sys/class/power_supply/Battery/cycle_count"
+        },{
+            "id": 4004,
+            "name": "/sys/class/hw_power/charger/direct_charger_sc/adaptor_antifake_state"
+        },{
+            "id": 4005,
+            "name": "/sys/class/hw_power/power_ui/icon_type"
+        },{
+            "id": 4006,
+            "name": "/sys/class/hw_power/adapter/adapter_type"
+        },{
+            "id": 4007,
+            "name": "/sys/class/hw_power/adapter/adapter_code"
+        },{
+            "id": 4008,
+            "name": "/sys/class/hw_power/charger/wireless_charger"
+        },{
+            "id": 4009,
+            "name": "/sys/class/hw_power/charger/direct_charger_sc"
+        },{
+            "id": 4010,
+            "name": "/sys/class/hw_power/charger/direct_charger"
+        },{
+            "id": 4011,
+            "name": "/sys/class/hw_power/charger/charge_data/Vbus"
+        },{
+            "id": 4012,
+            "name": "/sys/class/hw_power/charger/charge_data/Ibus"
+        },{
+            "id": 4013,
+            "name": "/sys/class/power_supply/Battery/temp"
+        },{
+            "id" : 4014,
+            "name" : "/sys/class/hw_power/charger/direct_charger/cable_type"
+        }, {
+            "id" : 4015,
+            "name" : "/sys/class/hw_power/charger/direct_charger_sc/cable_type"
+        }, {
+            "id" : 4016,
+            "name" : "/sys/class/hw_power/charger/direct_charger_sc4/cable_type"
+        }, {
+            "id" : 4017,
+            "name" : "/sys/class/hw_power/charger/direct_charger/direct_charge_succ"
+        }, {
+            "id" : 4018,
+            "name" : "/sys/class/hw_power/charger/direct_charger_sc/direct_charge_succ"
+        }, {
+            "id" : 4019,
+            "name" : "/sys/class/hw_power/charger/wireless_charger/en_enable"
+        }, {
+            "id" : 4020,
+            "name" : "/sys/devices/platform/huawei_batt_info/official"
+        }, {
+            "id" : 4021,
+            "name" : "/sys/class/hw_power/charger/direct_charger/ibus"
+        }, {
+            "id" : 4022,
+            "name" : "/sys/class/hw_power/charger/direct_charger/anti_22p5w_strategy"
+        }, {
+            "id" : 5001,
+            "name" : "/sys/class/hw_thermal/temp/shell_frame/temp"
+        }, {
+            "id" : 8000,
+            "name": "/sys/class/sensors/als_sensor/als_calibrate_dbv_sec"
+        }, {
+            "id" : 8001,
+            "name": "/sys/class/leds/green/brightness"
+        }, {
+            "id" : 8002,
+            "name": "/sys/class/leds/red/brightness"
+        }, {
+            "id" : 8003,
+            "name": "/sys/class/leds/blue/brightness"
+        }, {
+            "id" : 8100,
+            "name": "/sys/devices/platform/huawei_batt_info/batt_id"
+        }, {
+            "id" : 8101,
+            "name": "/sys/class/graphics/fb0/panel_dieid_info"
+        }, {
+            "id" : 8102,
+            "name": "/sys/class/graphics/fb0/panel_sncode"
+        }, {
+            "id" : 8103,
+            "name": "/sys/class/sensors/als_sensor/als_calibrate_after_sale"
+        }, {
+            "id" : 8104,
+            "name": "/sys/class/sensors/als1_sensor/als_calibrate_after_sale"
+        }, {
+            "id" : 8105,
+            "name": "/sys/class/sensors/als_sensor/als1_calibrate_after_sale"
+        }
+    ]
+}

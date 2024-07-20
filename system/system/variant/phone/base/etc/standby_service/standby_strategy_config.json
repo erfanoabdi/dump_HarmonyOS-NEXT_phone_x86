@@ -1,0 +1,33 @@
+{
+  "TIMER_ADJUST": [
+    {
+      "condition": [
+        "day_standby",
+        "night_standby"
+      ],
+      "action": "allow",
+      "processes": [],
+      "apps": [
+        "foundation",
+        "push_manager_service",
+        "com.huawei.hmos.calendar",
+        "com.huawei.hmos.clock",
+        "anco_service_broker",
+        "com.ohos.sceneboard"
+      ],
+      "processes_limit": [],
+      "apps_limit": []
+    },
+    {
+      "condition": [
+        "day_standby",
+        "night_standby"
+      ],
+      "action": "restrict",
+      "processes": [],
+      "apps": [],
+      "processes_limit": [],
+      "apps_limit": []
+    }
+  ]
+}

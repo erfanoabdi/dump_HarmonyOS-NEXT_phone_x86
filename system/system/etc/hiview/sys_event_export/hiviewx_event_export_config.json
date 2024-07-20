@@ -1,0 +1,19 @@
+{
+    "exportSwitchParam": {
+        "name": "hiview_ue_switch_enable",
+        "enabledValue": "1"
+    },
+    "sysUpgradeParam": {
+        "name": "hiview_ue_switch_tmp",
+        "enabledValue": "1"
+    },
+    "exportDir": "/data/app/el2/0/log/com.huawei.hmos.hiviewx/",
+    "exportDirMaxCapacity": 500,
+    "exportSingleFileMaxSize": 2,
+    "taskExecutingCycle": 3600,
+    "exportEventListConfigPaths": [
+         "/system/etc/hiview/hiviewx_events.json",
+         "/data/system/hiview/hiviewx_events.json"
+    ],
+    "fileStoredMaxDayCnt": 7
+}

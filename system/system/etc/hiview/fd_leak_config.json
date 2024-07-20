@@ -1,0 +1,8 @@
+{
+    "FileDescriptorLeak": {
+        "enable": true,
+        "threshold": 5000,
+        "upload_interval": 36000,
+        "dump_time" : 60
+    }
+}

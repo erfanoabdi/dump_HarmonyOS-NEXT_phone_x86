@@ -1,0 +1,57 @@
+{
+    "default": {
+        "timer_slack_pct": 20,
+        "timer_slack_max_delay_ms": 100,
+        "timer_slack_exempt_ms": 100
+    },
+    "background": {
+        "timer_slack_pct": 20,
+        "timer_slack_max_delay_ms": 100,
+        "timer_slack_exempt_ms": 100
+    },
+    "foreground": {
+        "timer_slack_pct": 0,
+        "timer_slack_max_delay_ms": 100,
+        "timer_slack_exempt_ms": 100
+    },
+    "system-background": {
+        "timer_slack_pct": 20,
+        "timer_slack_max_delay_ms": 100,
+        "timer_slack_exempt_ms": 100
+    },
+    "top-app": {
+        "timer_slack_pct": 0,
+        "timer_slack_max_delay_ms": 100,
+        "timer_slack_exempt_ms": 100
+    },
+    "boost": {
+        "timer_slack_pct": 0,
+        "timer_slack_max_delay_ms": 100,
+        "timer_slack_exempt_ms": 100
+    },
+    "key-background": {
+        "timer_slack_pct": 0,
+        "timer_slack_max_delay_ms": 100,
+        "timer_slack_exempt_ms": 100
+    },
+    "opt-background": {
+        "timer_slack_pct": 0,
+        "timer_slack_max_delay_ms": 100,
+        "timer_slack_exempt_ms": 100
+    },
+    "graphic": {
+        "timer_slack_pct": 0,
+        "timer_slack_max_delay_ms": 100,
+        "timer_slack_exempt_ms": 100
+    },
+    "nap-foreground": {
+        "timer_slack_pct": 20,
+        "timer_slack_max_delay_ms": 100,
+        "timer_slack_exempt_ms": 70
+    },
+    "nap-background": {
+        "timer_slack_pct": 20,
+        "timer_slack_max_delay_ms": 100,
+        "timer_slack_exempt_ms": 80
+    }
+}

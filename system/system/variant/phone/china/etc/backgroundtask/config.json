@@ -1,0 +1,50 @@
+{
+  "work_scheduler_preinstalled_works": {
+    "u22242225_278": {
+      "abilityName": "NpsSchedulerAbility",
+      "bundleName": "com.huawei.hmos.myhuawei",
+      "callBySystemApp": true,
+      "conditions": {
+        "baseTime": 0,
+        "repeat": true,
+        "timer": 86400000
+      },
+      "persisted": true,
+      "uid": 22242225,
+      "workId": 278,
+      "uriKey": "myhuawei_nps_switch_enable"
+    },
+    "u20020110_1": {
+      "abilityName": "DownloadFileWorkSheduler",
+      "bundleName": "com.huawei.hmos.numberidentity",
+      "callBySystemApp": true,
+      "conditions": {
+        "baseTime": 0,
+        "cycle": 1,
+        "repeat": false,
+        "timer": 1200000
+      },
+      "persisted": false,
+      "uid": 20020110,
+      "workId": 1,
+      "uriKey": "device_provisioned"
+    },
+    "u20020094_10001": {
+      "abilityName": "CleanNotifyWorkSchedulerExtAbility",
+      "bundleName": "com.huawei.hmos.databackup",
+      "callBySystemApp": true,
+      "conditions": {
+        "baseTime": 0,
+        "cycle": 1,
+        "repeat": false,
+        "chargerType": 0,
+        "isCharging": true,
+        "timer": 604800000
+      },
+      "persisted": true,
+      "uid": 20020094,
+      "workId": 10001,
+      "uriKey": "has_hwbackup_record"
+    }
+  }
+}

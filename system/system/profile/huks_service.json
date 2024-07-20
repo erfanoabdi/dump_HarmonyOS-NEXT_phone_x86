@@ -1,0 +1,12 @@
+{
+    "process": "huks_service",
+    "systemability": [
+        {
+            "name": 3510,
+            "libpath": "libhuks_service.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        }
+    ]
+}

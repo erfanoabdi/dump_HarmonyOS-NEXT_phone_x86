@@ -1,0 +1,23 @@
+{
+  "static_info": [
+    {
+      "DPVersion": "1.0.0",
+      "abilities": [
+        {
+          "abilityKey": "pasteboardService",
+          "abilityValue": {
+            "supportDistributedPasteboard": 1,
+            "PasteboardVersionId": 4
+          }
+        },
+        {
+          "abilityKey": "dmsfwk_svr_id",
+          "abilityValue": {
+            "packageNames": "dmsfwk",
+            "versions": "5.0.0"
+          }
+        }
+      ]
+    }
+  ]
+}

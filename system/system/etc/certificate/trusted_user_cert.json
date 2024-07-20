@@ -1,0 +1,27 @@
+{
+    "version":"1.0.0",
+    "releaseTime":"2023-2-25 17:40:40",
+    "trustedOtaUserCert":[
+        {
+            "name":"Huawei HOTA",
+            "certificateSubject":"C=CN, O=Huawei, OU=CBG System Dept of Device OS, CN=System HOTA Update Release V",
+            "certificateIssuer":"C=, O=Huawei CBG, OU=, CN=Huawei CBG ECC NIST System Software Integrity CA 1",
+            "critialcalCertExtension":["keyusage"],
+            "maxCertsPath":3
+        },
+        {
+            "name":"Huawei HOTA",
+            "certificateSubject":"C=CN, O=Huawei, OU=Huawei CBG, CN=Dubhe System HOTA Update Debug",
+            "certificateIssuer":"C=CN, O=Huawei, OU=Huawei CBG, CN=Huawei CBG Software Signing Service CA Test",
+            "critialcalCertExtension":["keyusage"],
+            "maxCertsPath":3
+        },
+        {
+            "name":"Huawei HOTA",
+            "certificateSubject":"C=CN, O=Huawei, OU=CBG System Dept of Device OS, CN=System HOTA Update Release",
+            "certificateIssuer":"C=CN, O=Huawei, OU=Huawei CBG, CN=Huawei CBG Software Signing Service CA",
+            "critialcalCertExtension":["keyusage"],
+            "maxCertsPath":3
+        }
+    ]
+}

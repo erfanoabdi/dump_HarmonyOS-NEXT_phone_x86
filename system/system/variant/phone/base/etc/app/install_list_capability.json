@@ -1,0 +1,1366 @@
+{
+  "install_list": [
+    {
+      "bundleName": "com.huawei.hmos.restores",
+      "app_signature": [
+        "com.huawei.hmos.restores_BArdTZcjj4N0zsv24qJmPljhKh8PRxyD8QQwl4IKHhFlGvKezmq8f8jEVNAzKcJ9bIucBZeB3lML7KnIb/GJgdclHwl49bQptmgKgAzzQ9NG/NPyxeiFu7QedhmzePGiyw=="
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "allowAppDesktopIconHide": true,
+      "allowAbilityExcludeFromMissions": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.simcardmanagement",
+      "app_signature": [
+        "com.huawei.hmos.simcardmanagement_BIo3f5pBdxj4pu3VVgComa0Y2I0Uz2kfB8QueqmuDLumloh0VlE5tEvo7YQTQBRR5uFOu42ouy7+Ka5BWvPb8So="
+      ],
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.vpndialog",
+      "app_signature": [
+        "com.huawei.hmos.vpndialog_BFWLTTttommXHj4Lbq/1ctpBu2otqiDxFFki5fPc+vSTB4qPJ/dm4kB/qxxmgcD/4lGmjopiF8i5T+zvcp0d9VI="
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "allowAppDesktopIconHide": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.spamshield",
+      "app_signature": [
+        "com.huawei.hmos.spamshield_BGmx2AwrkWN3725mmcg5Yv2Tb4WnlLNnKDRo1zTzuFJT2AZMq1peFl4NTqCQscKxmCH4jm8dIQA+ldFJxUo+eAI="
+      ],
+      "allowAppDesktopIconHide": true,
+      "allowAbilityExcludeFromMissions": true,
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.huawei.hms.myfamily",
+      "app_signature": [
+        "BBA1486D92DFA688E78D9C36455B35DBFEEA2E4F46BA72CFC8CA2D0BCA7D68AE"
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "allowAppDesktopIconHide": true,
+      "allowEnableNotification": true,
+      "removable": false,
+      "allowCommonEvent": [
+        "common.event.DISTRIBUTED_ACCOUNT_LOGIN",
+        "common.event.DISTRIBUTED_ACCOUNT_LOGOUT"
+      ]
+    },
+    {
+      "bundleName": "com.huawei.hmos.fido",
+      "app_signature": [
+        "AEA0208BDB640BA7DEEF2CE462EA539E0B02762541775FD7ACA153D243F893E6"
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "allowAppDesktopIconHide": true,
+      "removable": false
+    },
+    {
+      "bundleName": "com.huawei.hmos.callrecorder",
+      "app_signature": [
+        "D4EEA144F56B087238A9B5708B7EE505EF58AEA4789536A86263C99C2787CCC2"
+      ],
+      "removable": false,
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.trustedring",
+      "app_signature": [
+        "779222535D63B95E7A835149BA9D1C552654C1D5F5C9F05DB690BBB9DB7890EE"
+      ],
+      "allowEnableNotification": true,
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.hiviewcare",
+      "app_signature": [
+        "887725D0EC8AD4DC8D8ECEDBFAFA24D5022606A52F8AD612DA52D7C493AF136A"
+      ],
+      "allowAppDesktopIconHide": true,
+      "removable": false,
+      "allowAppUsePrivilegeExtension": true,
+      "allowEnableNotification": true,
+      "runningResourcesApply": true,
+      "resourcesApply": [
+        0
+      ],
+      "allowCommonEvent": [
+        "usual.event.POWER_CONNECTED",
+        "hicare.event.SMART_NOTIFICATION",
+        "ohos.request.event.COMPLETE"
+      ]
+    },
+    {
+      "bundleName": "com.huawei.hmos.security.privacycenter",
+      "app_signature": [
+        "DCF6C6E79FCA864EE166F12638F4369B7CB464920C30D80B541999E4957495C3"
+      ],
+      "allowAppDesktopIconHide": true,
+      "allowAbilityExcludeFromMissions": true,
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.huaweicast",
+      "app_signature": [
+        "1F9B5D5AAAEC1C7ACC73C5A60BE4791D0030347E7E7FD8270B459486D7F5DAE2"
+      ],
+      "allowAbilityExcludeFromMissions": true,
+      "allowAppDesktopIconHide": true,
+      "allowMissionNotCleared": true,
+      "allowEnableNotification": true,
+      "removable": false,
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.photobrowser",
+      "app_signature": [
+        "257EFCA480FA0CD6BF75364FD311075FF1D0FC9D076577F78F9EED0160712FC6"
+      ],
+      "allowAppShareLibrary": true
+    },
+    {
+      "bundleName": "com.huawei.hmsapp.samplemanagement",
+      "app_signature": [
+        "27DF47B14A5E901D6CAABDB7E91F9514F489B4FA7F3B7D378AC4E4637951D410"
+      ],
+      "keepAlive": true,
+      "singleton": true,
+      "allowAppDataNotCleared": true,
+      "allowAbilityExcludeFromMissions": true,
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.hiviewx",
+      "singleton": true,
+      "app_signature": [
+        "358E34461FFFBCF56541B9672927CFF143EFFED31BFCAF864A4BB92B6B253873"
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "runningResourcesApply": true,
+      "resourcesApply": [
+        0
+      ],
+      "allowCommonEvent": [
+        "usual.event.BOOT_COMPLETED"
+      ]
+    },
+    {
+      "bundleName": "com.huawei.hms.pushservice",
+      "app_signature": [
+        "80EDA3C07CF6EAB14B70925D23E89477225835EE2597F8C37BB9303FF97918F1"
+      ],
+      "singleton": true,
+      "runningResourcesApply": true,
+      "resourcesApply": [
+        0,
+        100
+      ],
+      "allowAppDataNotCleared": true,
+      "allowAppDesktopIconHide": true,
+      "allowAppUsePrivilegeExtension": true,
+      "allowAppMultiProcess": true
+    },
+    {
+      "bundleName": "com.huawei.hms.hmscore",
+      "app_signature": [
+        "6F03B1B296CF815A643266C97B0EC671E91110176A65A7E49741A020091E7D5E",
+        "C7B5729BFCAE658C4150D699844F478ADE50B3672E7421F91E34D4089BF1F030",
+        "2183D7D5B21142D03FCAB3A5F4177FA88C9B4387FF79580428D40943F530EC31"
+      ],
+      "singleton": true,
+      "runningResourcesApply": true,
+      "resourcesApply": [
+        0
+      ],
+      "allowAppDesktopIconHide": true,
+      "allowAppMultiProcess": true,
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.huawei.hmsapp.appgallery",
+      "app_signature": [
+        "08C9E96C38FDBE2B41BE7ADF9E4D3F699B9774BACAB46FF6B4D9572F9A7E38C4",
+        "241178161188A17679A99D39C714ECD5DDF244A98A7B99F858FFDEC2177A9B0A",
+        "D7A2D4018E606A606CE406EEB686396E6DB4BCCC412FB079EBF08A584033634E",
+        "0D3FDCC90937DA72C364C88A5420977E3A6F29724ED909650733007CE7802541"
+      ],
+      "allowCommonEvent": [
+        "usual.event.PACKAGE_ADDED",
+        "usual.event.PACKAGE_REMOVED",
+        "usual.event.PACKAGE_CHANGED",
+        "usual.event.PACKAGE_CACHE_CLEARED",
+        "usual.event.BASIC_STATEMENT_AGREED"
+      ],
+      "allowAbilityPriorityQueried": true,
+      "allowAppUsePrivilegeExtension": true,
+      "allowAppMultiProcess": true,
+      "resourcesApply": [
+        0
+      ]
+    },
+    {
+      "bundleName": "com.huawei.hmsapp.appgallery.devicetest",
+      "app_signature": [
+        "5765880207853608235"
+      ],
+      "allowCommonEvent": [
+        "usual.event.PACKAGE_ADDED",
+        "usual.event.PACKAGE_REMOVED",
+        "usual.event.PACKAGE_CHANGED",
+        "usual.event.PACKAGE_CACHE_CLEARED",
+        "usual.event.BASIC_STATEMENT_AGREED"
+      ],
+      "allowAbilityPriorityQueried": true,
+      "allowAppUsePrivilegeExtension": true,
+      "allowAppMultiProcess": true,
+      "resourcesApply": [
+        0
+      ]
+    },
+    {
+      "bundleName": "com.huawei.hmos.calendardata",
+      "app_signature": [
+        "9405A55F2D20D8B13DB5D3CB98563D16136B67B865AC67BB0A79B99D412036B7"
+      ],
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.huawei.hmsapp.hisearch",
+      "app_signature": [
+        "1251968E86F354448736A440DD14E249E0B7136A10B28BBD1CAA6F68DC8B1E92"
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "allowAppDesktopIconHide": true,
+      "allowAbilityExcludeFromMissions": true
+    },
+    {
+      "bundleName": "com.huawei.hmsapp.intelligent",
+      "app_signature": [
+        "com.huawei.hmsapp.intelligent_BKo6ZaX3RMAKLAxqSgylLpBypXgb1NYi8M+HTiqd0Y4Xlnw2GFJcpUIAMR4XgDb7jzYlBcMSw9qbTXOSFgt9cJm/FpKjmxOrZerejo/G3s+FXMgZXkoupbxbfPe5b7MBRw=="
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "allowAppDesktopIconHide": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.betaclub",
+      "app_signature": [
+        "D8479500756939924166A5BBC6E8CE83BF2B8458B1547244D9F16207EAC6EA41"
+      ],
+      "keepAlive": true,
+      "allowAppUsePrivilegeExtension": true,
+      "runningResourcesApply": true,
+      "resourcesApply": [
+        0,
+        100
+      ],
+      "allowCommonEvent": [
+        "usual.event.BOOT_COMPLETED",
+        "usual.event.USER_UNLOCKED"
+      ]
+    },
+    {
+      "bundleName": "com.huawei.ohos.screenrecorder",
+      "app_signature": [
+        "4E1FED2D72B1D50F7919F636C3C6C957A0E3303CE1AE31BC20947906CCB65F84"
+      ],
+      "allowAppDesktopIconHide": true,
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.screenrecorder",
+      "app_signature": [
+        "com.huawei.hmos.screenrecorder_BMvd73RACEBUdyPzBIymsTXS6z9O5AbCn6GEPudxkopWkdY2ls43C1U3whKOSEKJcllBwR8qhYDFzLehNCo5tTo="
+      ],
+      "allowAppDesktopIconHide": true,
+      "allowAppUsePrivilegeExtension": true,
+      "resourcesApply": [
+        0
+      ]
+    },
+    {
+      "bundleName": "com.huawei.ohos.screenshot",
+      "app_signature": [
+        "872EF1EC62BC05F4E068EAF939AE9983FEDD7BBDA8F3E5D72923AFEC5BBA29BC"
+      ],
+      "allowAppDesktopIconHide": true,
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.clock",
+      "app_signature": [
+        "4D936E4C833DDE37839E716722757480B18D0D0D36F21CAD7E39FBE00F437F49"
+      ],
+      "resourcesApply": [
+        1,
+        3
+      ],
+      "allowCommonEvent": [
+        "usual.event.TIME_CHANGED",
+        "usual.event.TIMEZONE_CHANGED"
+      ],
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.ohos.sharepickerdialog",
+      "app_signature": [
+        "8E93863FC32EE238060BF69A9B37E2608FFFB21F93C862DD511CBAC9F30024B5"
+      ],
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.hiwrite",
+      "app_signature": [
+        "F364C1007B5C70676B2EA3603B5EAF765B76AD6607D2566C680AA53410B320D0"
+      ],
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.huawei.associateassistant",
+      "app_signature": [
+        "com.huawei.associateassistant_BBWpIV9Q+cmYpOqyENH9YJF9vg8jNflK3ivuaBf1m0q+DIyIa8D6MXfEES0VQWah6VTTv245NFBaCm8MEHiiY30=",
+        "5765880207853354281"
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "runningResourcesApply": true,
+      "resourcesApply": [
+        0
+      ]
+    },
+    {
+      "bundleName": "com.ohos.devicetest",
+      "app_signature": [
+        "8E93863FC32EE238060BF69A9B37E2608FFFB21F93C862DD511CBAC9F30024B5"
+      ],
+      "runningResourcesApply": true,
+      "resourcesApply": [
+        0
+      ],
+      "associatedWakeUp": true,
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.ohos.permissionmanager",
+      "app_signature": [
+        "68079CC9CB1BD69283D70790305645FFF61CD1E46CAFD7AA53B9FA8540432B81",
+        "49DFB84D59F082CFEE9F759F7E24BABDFCC317FAFCEFA3EC7934736A22462112"
+      ],
+      "allowAppDesktopIconHide": true,
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.ohos.systemui",
+      "singleton": true,
+      "keepAlive": true,
+      "app_signature": [
+        "01343CE7197C5DD4AD0A15C06045CF32934295AA879241DAA5B52CF5319C686F"
+      ],
+      "runningResourcesApply": false,
+      "resourcesApply": [],
+      "associatedWakeUp": false,
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.ohos.sceneboard",
+      "app_signature": [
+        "3B3B93DAFBF8FAC3446F90DB8B75BA09FEDE28B0408564AB786B52B7B304D78E"
+      ],
+      "singleton": false,
+      "keepAlive": true,
+      "runningResourcesApply": false,
+      "resourcesApply": [],
+      "associatedWakeUp": false,
+      "allowAppDataNotCleared": true,
+      "allowAppUsePrivilegeExtension": true,
+      "allowAbilityPriorityQueried": true,
+      "allowAbilityExcludeFromMissions": true
+    },
+    {
+      "bundleName": "com.ohos.commondialog",
+      "app_signature": [
+        "462D9443F40CC06A962DED024CD272CE9DB7D5BF270DB63FC8DDDCF17546E7CC"
+      ],
+      "allowAppDesktopIconHide": true
+    },
+    {
+      "bundleName": "com.ohos.callui",
+      "app_signature": [
+        "24C319BE17A19DE030CCF9338578A3A1F15C5606584A522131577CE82F880956"
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "allowMissionNotCleared": true
+    },
+    {
+      "bundleName": "com.ohos.contacts",
+      "app_signature": [
+        "D5F3BA069A565A38F7BFDE297FD80B62ACA5BDA726B34693B39BA24F835400E4"
+      ],
+      "allowCommonEvent": [
+        "usual.event.INCOMING_CALL_MISSED",
+        "contact.event.CANCEL_MISSED"
+      ]
+    },
+    {
+      "bundleName": "com.ohos.mms",
+      "app_signature": [
+        "2EB86557AC218789958788E015353954051C7F1FC32A6504882CCE3EEB7CDD8C"
+      ],
+      "allowCommonEvent": [
+        "usual.event.SMS_RECEIVE_COMPLETED",
+        "usual.event.SMS_WAPPUSH_RECEIVE_COMPLETED"
+      ],
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "ohos.backgroundtaskmgr.resources",
+      "app_signature": [
+        "72BE2C651A9E0C57B4BB67825BA6F8180FC883858434712150A55C17C7E1A6F7"
+      ],
+      "singleton": true,
+      "allowAppDesktopIconHide": true
+    },
+    {
+      "bundleName": "com.ohos.backgroundtaskmgr.resources",
+      "app_signature": [
+        "EFDBE35DD45860CE04BA8DB3F38C0DA15233F6FDEC2B031D1721923FFA5E309C"
+      ],
+      "singleton": true,
+      "allowAppDesktopIconHide": true
+    },
+    {
+      "bundleName": "ohos.global.systemres",
+      "app_signature": [
+        "8E93863FC32EE238060BF69A9B37E2608FFFB21F93C862DD511CBAC9F30024B5",
+        "1C1D43B8D84BAF82DDEA192F776BAAC40EF5CC20D4A960063FCBC2FFE886B493"
+      ],
+      "singleton": true,
+      "allowAppDesktopIconHide": true
+    },
+    {
+      "bundleName": "com.ohos.contactsdataability",
+      "app_signature": [
+        "7DCB9DBC3980B4F7A13B829FBBF0F7093D27954CE6CF1EFDFC0E26A34FB3FE94",
+        "D729F438E1EF2E154994E2B077F6C0CD592BA9F9C938BB428FCDA564FF805EE4"
+      ],
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.ohos.telephonydataability",
+      "app_signature": [
+        "07B7C236DE05B17AF839AE065A79C81697C3870829D2EDD4DA5D0ED35DEB3EBE"
+      ],
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.ohos.inputmethodchoosedialog",
+      "app_signature": [
+        "7C2A75608CD2519CDCF7C79396DB7E2334389702B5001F3BF344AF5D40E713FC"
+      ],
+      "allowAppDesktopIconHide": true,
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "cn.openharmony.pasteboarddialog",
+      "app_signature": [
+        "8E93863FC32EE238060BF69A9B37E2608FFFB21F93C862DD511CBAC9F30024B5"
+      ],
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.ohos.pasteboarddialog",
+      "app_signature": [
+        "67A3BE98760ED20164EC9F4290714FCE060DC38F7E072D4FDACE0D8C73A2CC48"
+      ],
+      "allowAppDesktopIconHide": true,
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.ouc",
+      "app_signature": [
+        "B2F8DFCB855C180E06965F27B717B1C15D69D7C8DB5906D330AB3F0BED3A6F70"
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "allowEnableNotification": true,
+      "resourcesApply": [
+        3
+      ]
+    },
+    {
+      "bundleName": "com.huawei.hmos.mediacontroller",
+      "app_signature": [
+        "ACD8BB1B39F39ECFEDC3545A588DBE1E65432F11FF23FB91722D861694EBEE8D"
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "allowAbilityExcludeFromMissions": true,
+      "allowAppDesktopIconHide": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.quickappengine",
+      "app_signature": [
+        "C990ECF5CCD7EF8A442A063DBF924B45B465F2DB29C3A8EC3690C4A17873EF96"
+      ],
+      "allowAppMultiProcess": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.vassistant",
+      "app_signature": [
+        "8FE0251C49033FE0CE225B7C515B47062727B5099328EF6E2DD6E9A06CCA4743"
+      ],
+      "allowAppDesktopIconHide": true,
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.ohos.devicemanagerui",
+      "app_signature": [
+        "8E93863FC32EE238060BF69A9B37E2608FFFB21F93C862DD511CBAC9F30024B5",
+        "DFBBF5BC714865FCCCACA69F30BEF951B499329F66C98523795BAD817E49D1A0",
+        "6496C56CFB1150A625E1CF9F28CC17E42DA1D36B0DEF6BE874EA396FA6D14561"
+      ],
+      "allowAppDesktopIconHide": true,
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.ohos.dlpmanager",
+      "app_signature": [
+        "E3F4322139E0109BAFAD8DA4096762068E31708C3CF201780E736D377D60B639",
+        "5FEDFF587F4109E565B96512404D606D539C8DFFCE1424ACBD1B2A7D3E843D4D"
+      ],
+      "allowAppDesktopIconHide": true,
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.ohos.medialibrary.medialibrarydata",
+      "app_signature": [
+        "F9431859ED7A3959B5D72EF36FBE8B210A00082B044063E4424F823A01B3B7CA",
+        "DF722A13FC1404171F20B55C5113D3D493ED1248DF9D2165B2A45C656078919D"
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "resourcesApply": [
+        0
+      ]
+    },
+    {
+      "bundleName": "com.ohos.notificationdialog",
+      "app_signature": [
+        "3D7EC4753D6001EC3BC7998C9298660FAF5C8A17A412E5372FBE2E160266CDE6"
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "allowAppDesktopIconHide": true
+    },
+    {
+      "bundleName": "com.ohos.powerdialog",
+      "app_signature": [
+        "8E93863FC32EE238060BF69A9B37E2608FFFB21F93C862DD511CBAC9F30024B5",
+        "9C5AF37743FEF47C0A6A527A395BEC4FB6B8F96860543DCF985DAB36281F941A"
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "allowAppDesktopIconHide": true
+    },
+    {
+      "bundleName": "com.usb.right",
+      "app_signature": [
+        "EC40AC9128B605486BFD046E86A4D7FAC28624CF3E77EFA3E57D170A7EEBF615"
+      ],
+      "allowAppDesktopIconHide": true,
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.ohos.amsdialog",
+      "app_signature": [
+        "com.ohos.amsdialog_BHlwNlHnOEKmcjQuVn7i7DK9c1ZrLWLEuKifEuJlRgnd1142FeA7zVymDsDuWw/GQLUE8VE9vDO2WaYbBYucI68=",
+        "5765880207853094671"
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "allowAppDesktopIconHide": true
+    },
+    {
+      "bundleName": "com.ohos.nweb",
+      "app_signature": [
+        "49D779C85200D36A00DE63E2D85AEF22FE5C72FB268BE13923E589B49BFAFFDA",
+        "8AFD891FA100D478BEDB6962B157055F26CDD407ACAAD525CBA9FDE490BD23D9"
+      ],
+      "singleton": true,
+      "allowAppDesktopIconHide": true
+    },
+    {
+      "bundleName": "com.ohos.settings.faceauth",
+      "app_signature": [
+        "8E93863FC32EE238060BF69A9B37E2608FFFB21F93C862DD511CBAC9F30024B5"
+      ],
+      "singleton": true,
+      "allowAppDesktopIconHide": true
+    },
+    {
+      "bundleName": "com.ohos.formrenderservice",
+      "app_signature": [
+        "7EADA084A36A3A57BF94F5EA82E7B3A5441F5F4539F3A98A72781F541731008E"
+      ],
+      "singleton": true,
+      "allowAppUsePrivilegeExtension": true,
+      "allowAppDesktopIconHide": true,
+      "resourcesApply": [
+        0
+      ]
+    },
+    {
+      "bundleName": "com.huawei.hmsapp.hiai",
+      "app_signature": [
+        "4C2C417EAF22E5832B61EEC0B5BE5CAC937CCE9D967E695E732754FD416C8FC2"
+      ],
+      "allowAppDesktopIconHide": true,
+      "allowAppUsePrivilegeExtension": true,
+      "allowAppMultiProcess": true,
+      "resourcesApply": [
+        0
+      ]
+    },
+    {
+      "bundleName": "com.huawei.hmos.instantshare",
+      "app_signature": [
+        "ED6157E56A8A2FAC8394843BC75A0F5428EB2C28E62C25BA7900CDD5E0FE0DB4"
+      ],
+      "allowAppDesktopIconHide": true,
+      "allowAbilityExcludeFromMissions": true,
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.huawei.ohos.kingkong",
+      "app_signature": [
+        "com.huawei.ohos.kingkong_BGIy2kK6fQp33JIiXDjkdGV2wBoLewx1dBQ/yCcuahsvCYdk21wKqATKcja8UbkDjjabwyO2TkeBPyGyFD7qHxs="
+      ],
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.huawei.ohos.watt",
+      "app_signature": [
+        "108333D9E95A5F6DC5365D0AE5C10A8C466BCFF686E8BBF9180C317DAB8B1205"
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "resourcesApply": [
+        3
+      ]
+    },
+    {
+      "bundleName": "com.huawei.rocket",
+      "app_signature": [
+        "B55456C3C0CB06034A073F98760E79C9AF671219D18D920A209EA4A613950949"
+      ],
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.ohos.hag.famanager",
+      "app_signature": [
+        "40EA3DD32553252AA2D344B64539529F1E4E5A8F177B145C140E142FAA9DD032"
+      ],
+      "removable": false,
+      "allowAppDesktopIconHide": true,
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.superhub",
+      "app_signature": [
+        "1B9934E72DD592FC235F9C32329F36DE9AA340293EA87BABEFF2F8573E3EA41D"
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "AllowAppDesktopIconHide": true
+    },
+    {
+      "bundleName": "com.ohos.settingsdata",
+      "app_signature": [
+        "4F9AF9BA4B6FAE398FF0C991FBBC1A533B0AFD18E70B9CA9E0B896FF3D96A7A6"
+      ],
+      "allowCommonEvent": [
+        "usual.event.USER_ADDED",
+        "usual.event.USER_REMOVED"
+      ],
+      "singleton": true,
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.settings",
+      "app_signature": [
+        "com.huawei.hmos.settings_BFigpIgzBXBatJdNLxLOoqz0LB5/3NRqwp5QuhHJGRadI+fqUZa8rrx8lfwAd/w8EWjbLVTqGax6REGtyDGy5KUr3dnL6uoRZ4yo5O3gq3TnIVEv6doQYzjR/RGfAR612w=="
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "allowEnableNotification": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.hwstartupguide",
+      "app_signature": [
+        "F6C54F0B940DB24259C5D5FE9CE2990CD29F1C44EBB769975A16C259A3F934A2"
+      ],
+      "allowAppDesktopIconHide": true,
+      "allowAbilityExcludeFromMissions": true
+    },
+    {
+      "bundleName": "com.ohos.certmanager",
+      "app_signature": [
+        "505F65DFF850E4B03DEC6B98AFD1A4FC0551B62EE0EB8096BCA3CB9A7D9D728B"
+      ],
+      "allowAppDesktopIconHide": true
+    },
+    {
+      "bundleName": "com.huawei.shell_assistant",
+      "app_signature": [
+        "B9591E24F41F322783FDCEF6C769CE6904B4A3D78D4FFA160620D892F220E34F"
+      ],
+      "allowAppDesktopIconHide": true,
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.simtoolkits",
+      "app_signature": [
+        "9A394D034546C18424936A7ACCEBC2EF1CDE0211548E411944F7D3D3ED203517"
+      ],
+      "allowCommonEvent": [
+        "usual.event.STK_SESSION_END",
+        "usual.event.STK_ALPHA_IDENTIFIER",
+        "usual.event.STK_CARD_STATE_CHANGED",
+        "usual.event.STK_COMMAND"
+      ],
+      "allowEnableNotification": true,
+      "allowAppUsePrivilegeExtension": true,
+      "allowAppDesktopIconHide": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.ailifesvc",
+      "app_signature": [
+        "6BB590B79E1727E8E5909E7642310475C49821B51290EEC45AA3C741B783B720"
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "allowAppDesktopIconHide": true,
+      "resourcesApply": [
+        1,
+        3
+      ]
+    },
+    {
+      "bundleName": "com.ohos.launcher",
+      "app_signature": [
+        "FF7A2BDC82A13D39DA8FFE9130F726BC11B2F5A3796491CB0CEEA0B5E3984D2C"
+      ],
+      "keepAlive": true,
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.clouddrive",
+      "app_signature": [
+        "943F3B6655A65F54F499E93D6EE9F01FFAAEEAD63958EF1B5E92969FE2DA6728",
+        "0009A84C828ABE774936E8C726BC7EDCFE27A37B35DB8F281AEA7BF12F7B601C",
+        "991103538274773824"
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "allowAppDesktopIconHide": true,
+      "allowAppDataNotCleared": true,
+      "runningResourcesApply": true,
+      "resourcesApply": [
+        0
+      ]
+    },
+    {
+      "bundleName": "com.huawei.hmos.photos",
+      "app_signature": [
+        "8B62054577FE913A82B51103C2C9B583F601669C1D46E1A16FC93FE0FC00EC36"
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "allowFormVisibleNotify": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.aidataservice",
+      "app_signature": [
+        "901F2AAB30D12E6BD7EC131729DB2FD4DD2E387DFFA9D753499222E90CBE39B2"
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "allowAppMultiProcess": true,
+      "singleton": true,
+      "keepAlive": true,
+      "runningResourcesApply": true,
+      "resourcesApply": [
+        0
+      ],
+      "allowAppDesktopIconHide": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.meetime",
+      "app_signature": [
+        "A348B819C64CF3A3E6F18807DC914C5B72F0790803145E424B8F19793289EBD5"
+      ],
+      "allowEnableNotification": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.meetimeservice",
+      "app_signature": [
+        "73E25249833474A89F71922CC1FCEDF66CAE3C1B0E6B2FFEBD7335EAF49C008A"
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "allowAppDesktopIconHide": true,
+      "allowEnableNotification": true,
+      "allowAbilityExcludeFromMissions": true,
+      "allowMissionNotCleared": true,
+      "allowCommonEvent": [
+        "common.event.HWID_LOGOUT",
+        "common.event.HWID_LOGIN",
+        "usual.event.PACKAGE_DATA_CLEARED",
+        "usual.event.PACKAGE_CACHE_CLEARED",
+        "usual.event.PACKAGE_REMOVED",
+        "usual.event.PACKAGE_ADDED",
+        "usual.event.PACKAGE_FULLY_REMOVED"
+      ]
+    },
+    {
+      "bundleName": "com.huawei.hmos.hwupgradeguide",
+      "app_signature": [
+        "DF852CA9ACD266580EBBC08AAD0B6AA2216F491E260DACBA2A708AA4F5E5B407"
+      ],
+      "allowAbilityExcludeFromMissions": true,
+      "allowAppDesktopIconHide": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.aidispatchservice",
+      "app_signature": [
+        "6E7F8AE809ADE344BA3CFBE15CD19F2A758B18D0D63AA64DA872B97BA831C457"
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "allowAppDesktopIconHide": true,
+      "allowAppDataNotCleared": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.authcredmgr",
+      "app_signature": [
+        "E1EB24F6710B37851DE706F91459C04FD5580CF89EFF7651841934BAFA1E19E0"
+      ],
+      "allowAppDesktopIconHide": true,
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.ohos.FusionSearch",
+      "app_signature": [
+        "82BE911DF829917F4A88E47AAEF8681BA24AE6B00925553CDB071F973FFBAA38",
+        "8E93863FC32EE238060BF69A9B37E2608FFFB21F93C862DD511CBAC9F30024B5"
+      ],
+      "associatedWakeUp": true,
+      "keepAlive": true,
+      "singleton": true,
+      "allowAppUsePrivilegeExtension": true,
+      "allowAppMultiProcess": true,
+      "allowAppDesktopIconHide": true,
+      "allowAppDataNotCleared": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.migrateclient",
+      "app_signature": [
+        "15BD1B7D70C8632500517EDE81CB44D7BA6323CBE8A9D5953846B8D314823C54"
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "allowAppDesktopIconHide": true,
+      "allowEnableNotification": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.health.core",
+      "app_signature": [
+        "65F3DABE62205CCC934D041273BD608D025D282C957E482C1652C41889054F06"
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "allowCommonEvent": [
+        "usual.event.BOOT_COMPLETED"
+      ],
+      "runningResourcesApply": true,
+      "resourcesApply": [
+        0
+      ],
+      "allowAppDesktopIconHide": true,
+      "allowAppMultiProcess": true
+    },
+    {
+      "bundleName": "com.ohos.spooler",
+      "app_signature": [
+        "7C8837694132B4DB509948A1E076B4707643ECDDE46E686BAC5306635DC73A66"
+      ],
+      "allowAppDesktopIconHide": true,
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.ohos.UserFile.ExternalFileManager",
+      "app_signature": [
+        "1A38245DBA5805B86296514B79FBAB24FEE70BA18BB2796E4EF5E628DF97BC47"
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "allowAppDesktopIconHide": true
+    },
+    {
+      "bundleName": "com.huawei.hms.mapservice",
+      "app_signature": [
+        "015EC63A4FDEA17799FA35B0C221058AD134AA1901B1ECEB5AAA63CFDADB426B"
+      ],
+      "allowAppDesktopIconHide": true,
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.hsdr",
+      "app_signature": [
+        "8CF9D03C9CD068052BA52FD503E9EFB1D00002A734E4E9648D61A0A1EA1EBC77"
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "allowAppDesktopIconHide": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.aibase",
+      "keepAlive": true,
+      "app_signature": [
+        "FE1F0FC16FD2D262728C94E6C2185194F7CAE3DD6BE40F8590B1090861979288"
+      ],
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.huawei.hms.adsservice",
+      "app_signature": [
+        "B292668FD85DF53CA354AAFB5EA72908CEDDF5CB40350DF2056AFCEC1398B83A"
+      ],
+      "singleton": true,
+      "keepAlive": true,
+      "removable": false,
+      "allowAppDesktopIconHide": true,
+      "allowAppUsePrivilegeExtension": true,
+      "allowAppMultiProcess": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.location",
+      "app_signature": [
+        "2D9E50EBBB9D207D13471DCFDC40A866E8DFA8D6CC2428DED33A0F965CC4C96A"
+      ],
+      "runningResourcesApply": true,
+      "resourcesApply": [
+        0
+      ],
+      "removable": false,
+      "singleton": true,
+      "keepAlive": true,
+      "allowAppMultiProcess": true,
+      "allowAppDesktopIconHide": true,
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.devicecollaboration",
+      "app_signature": [
+        "F6CC0F3DBCA10E5078005E564DE7816224811F6C5917773E95D8E18DCF0C2912"
+      ],
+      "allowAbilityExcludeFromMissions": true,
+      "allowAppDesktopIconHide": true,
+      "allowMissionNotCleared": true,
+      "removable": false,
+      "allowAppUsePrivilegeExtension": true,
+      "allowEnableNotification": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.findservice",
+      "app_signature": [
+        "F277362D4855DF75531AE6DD9209AEE418EE67D00919534960C2EE2BC989AE6C",
+        "1273017143947979584"
+      ],
+      "runningResourcesApply": true,
+      "resourcesApply": [
+        0
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "allowCommonEvent": [
+        "usual.event.BATTERY_LOW",
+        "usual.event.BOOT_COMPLETED"
+      ]
+    },
+    {
+      "bundleName": "com.huawei.hms.iapservice",
+      "app_signature": [
+        "DDF8F3602DCF8E400AA4FB30B82808EC90B335EA7F69020BA4A5227C1E9C8FFF"
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "allowAppDesktopIconHide": true,
+      "removable": false
+    },
+    {
+      "bundleName": "com.huawei.hms.payment",
+      "app_signature": [
+        "CDEEC200560FC1CAAAA480F54227D97CF318930F7F1A630F03B06CBCAE353AE2"
+      ],
+      "allowAppDesktopIconHide": true,
+      "removable": false
+    },
+    {
+      "bundleName": "com.huawei.hms.gameservice",
+      "app_signature": [
+        "B816E8E28792F5046E07CB439937FED94A2ADD7C4190F36B014C088D6921151D"
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "allowAppDesktopIconHide": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.wallet",
+      "app_signature": [
+        "5F82A4CFACF565D47039F002F87A2117F87231AA9EA385164310D97D41CE7837",
+        "0DDAB2A0C01444BB6A5831A008B8C63BB3873091F7AC95AE8D4D12B9D74158D9"
+      ],
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.walletservice",
+      "app_signature": [
+        "5F82A4CFACF565D47039F002F87A2117F87231AA9EA385164310D97D41CE7837"
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "allowAppDesktopIconHide": true,
+      "keepAlive": true,
+      "singleton": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.passwordvault",
+      "app_signature": [
+        "4B9CB05798F1A9272F0CFED708C82F1CEA7D1F92488533BC81D568AE4F96451B"
+      ],
+      "allowAppDesktopIconHide": true,
+      "allowAppDataNotCleared": true,
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.hipreview",
+      "app_signature": [
+        "43907FC31757AC2D9D0A8055C807B576A45AB170AD49BC5111D81BE2B7455D40"
+      ],
+      "allowAppDesktopIconHide": true,
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.projectmenu",
+      "app_signature": [
+        "ABD4420F608EFFCF08B60BE6858C474AE258623E8F04B6ACE73FD5077637D145"
+      ],
+      "allowAppDesktopIconHide": true,
+      "allowCommonEvent": [
+        "common.event.SPECIAL_CODE"
+      ]
+    },
+    {
+      "bundleName": "com.huawei.hmos.numberidentity",
+      "app_signature": [
+        "805105C1417F5754CFB6C6740A8B77579043BD437DCAF6C7C8927565FA46D82E",
+        "53B0509178BBC453845408D026522741349EC11C4F1726FDFAD39428351BAEA3"
+      ],
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.AutoRegService",
+      "app_signature": [
+        "31F6219C4A647C3A6027938D7F6CC7A95E3D3F37DB87F0117E3BCE518E1CED8B"
+      ],
+      "removable": false,
+      "allowAppUsePrivilegeExtension": true,
+      "allowCommonEvent": [
+        "usual.event.SIM_STATE_CHANGED",
+        "usual.event.BOOT_COMPLETED",
+        "ct_auto_reg_sms_receive_completed"
+      ]
+    },
+    {
+      "bundleName": "com.huawei.hmos.cellbroadcast",
+      "app_signature": [
+        "93CC8056521FA28626F1B037DA9380F0A5097AFFA517C07D6A16A94037DA5C45"
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "allowAppDesktopIconHide": true,
+      "allowEnableNotification": true,
+      "allowCommonEvent": [
+        "usual.event.SIM_STATE_CHANGED",
+        "usual.event.OPERATOR_CONFIG_CHANGED"
+      ]
+    },
+    {
+      "bundleName": "com.huawei.hmos.inputmethod",
+      "app_signature": [
+        "8100BECC26DD76A5A8D71C7AA01C5374F9E407EE8C1EEA5A321D3A459D823048"
+      ],
+      "allowAppDesktopIconHide": true
+    },
+    {
+      "bundleName": "com.huawei.hms.analyticsservice",
+      "app_signature": [
+        "BC010626D0B954DA78F2B80980E51CABAC7D96E76405C157B9367D2DE7330105"
+      ],
+      "singleton": true,
+      "allowAppDesktopIconHide": true,
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.huawei.hms.textautofill",
+      "app_signature": [
+        "com.huawei.hms.textautofill_BGcfYxwvYmPlPG7VpVYiqtLaIUy8m4jNALbJaqXKtDHkOM1SyU3vZdo8w3QH7s0vR/4mmfBgiT4fO4C6ezXUwhabYFj0r7S5nnm4lmbR/1Z/iAjPpH0xRD+c7e7n6hthyw==",
+        "5765880207853878765"
+      ],
+      "allowAppDesktopIconHide": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.dataclone",
+      "app_signature": [
+        "3DEF800CC79B4B1D25C56F47DCEEC5224A10C385841EDC70AC71DEEE7804606A"
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "resourcesApply": [
+        0,
+        100
+      ]
+    },
+    {
+      "bundleName": "com.ohos.webmail",
+      "app_signature": [
+        "64E9D84AC2C7CB7A4D9A216044197A5543DB9E7A736A2C292165E4D0900FCD0B"
+      ],
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.huawei.hms.findnetwork_ui",
+      "app_signature": [
+        "com.huawei.hms.findnetwork_ui_BDZnwpkkFI0U3DS7cGy8eA9nwAp3Jq9xmuA87EBx6KOqQZlbyJLlpebPWU3fl06zY7eej4fDLM3eXchm14ra5Y2BtLLRhCQGJXF+qHeV3ZFvq+Koq/pZCb2AIcQJSt9GAw=="
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "allowAppDesktopIconHide": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.slassistant",
+      "app_signature": [
+        "10B8F5E5640E1506B00130BAA8DD365C1A6CA55ECBAA6D29A6B43668564D0123"
+      ],
+      "allowAppDesktopIconHide": true,
+      "allowAppUsePrivilegeExtension": true,
+      "allowEnableNotification": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.hicar",
+      "app_signature": [
+        "675396FA9C12D415AA23A6C69C70D7513AB6C3A40DAAC9F7A4B6D9166F1FBDED"
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "allowEnableNotification": true,
+      "allowAppDesktopIconHide": true,
+      "allowAbilityExcludeFromMissions": true,
+      "runningResourcesApply": true,
+      "resourcesApply": [
+        0
+      ]
+    },
+    {
+      "bundleName": "com.huawei.hmos.onehopsvchost",
+      "app_signature": [
+        "8653572473A474FF6F3F7F45FD729BA130E959070CF31CB0D007F77BB1C56ADB"
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "resourcesApply": [
+        0
+      ],
+      "allowAppDesktopIconHide": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.cardistributedassist",
+      "app_signature": [
+        "7000CCDF20D045E77CAF693BE6DF4A65D56B94CA7CA6391C3DDE97C8C42873F3"
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "allowAppDesktopIconHide": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.audioaccessorymanager",
+      "app_signature": [
+        "FE26FE61F42253E87436A22EA29B6467B171969439042649B71CAEEABEABFD7B"
+      ],
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.huawei.hmsapp.litegamelauncher",
+      "app_signature": [
+        "6728A3FC9360AA2A1196314085C4FE36A7F3E8C6F51C1C79DE4D621ACE024D32"
+      ],
+      "allowAppDesktopIconHide": true
+    },
+    {
+      "bundleName": "com.huawei.batterycare",
+      "app_signature": [
+        "0FF866B56171744A37178A0676C06335C5001EFDFBD556A7681C1FBADFE457FA"
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "allowAppDesktopIconHide": true,
+      "allowEnableNotification": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.cloudshare",
+      "app_signature": [
+        "91603F1B03A4FAE724EA4DBF44F79BFB106E60789D5DB9776E3FF45CA6B81ED5"
+      ],
+      "allowAppDesktopIconHide": true,
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.ohos.vpndialog",
+      "app_signature": [
+        "8E93863FC32EE238060BF69A9B37E2608FFFB21F93C862DD511CBAC9F30024B5"
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "allowAppDesktopIconHide": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.tips",
+      "app_signature": [
+        "A4DBCEB3B71FFB1251A33C3F67C1E8F17B3D82493D47FBA4AE1ADC3FA70A368D"
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "allowEnableNotification": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.callsetting",
+      "app_signature": [
+        "com.huawei.hmos.callsetting_BOpVI+ep4VDp5Qw3QYkVVXQG+5LI7/ZVGVF9AaO/Q7hnBBpUvxuzgAYOrnTNlUYq4itNiHsACPf7Ayb0bX9v4Jk="
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "allowEnableNotification": true,
+      "allowAppDesktopIconHide": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.emergencycommunication",
+      "app_signature": [
+        "AE5DF50CC8AB10668405A4137C99366A9F0D0726E86B208F0B683E19D26AB059"
+      ],
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.advisor",
+      "app_signature": [
+        "com.huawei.hmos.advisor_BB4oLXt8JLOw5djd42S0oLOGzO6kOnT8hZfFRAAel2gbcQBG5jIsO4genni5cn2SQpKpKvkwOA7Ajsc7qf+MZgM="
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "allowAppDesktopIconHide": true,
+      "allowEnableNotification": true,
+      "allowAbilityExcludeFromMissions": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.retaildemo",
+      "app_signature": [
+        "com.huawei.hmos.retaildemo_BGGHlgo3S9I0MACZgPlNr6mn7V134WFMQr+7X2uPE4Mgsoz7Ru1km0VsCUfXHplB1YaT3cueEf7/SVdnxwYM2I4="
+      ],
+      "allowCommonEvent": [
+        "usual.event.BOOT_COMPLETED"
+      ],
+      "runningResourcesApply": true,
+      "resourcesApply": [
+        0
+      ],
+      "keepAlive": true,
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.superdevice",
+      "app_signature": [
+        "com.huawei.hmos.superdevice_BOQa9fb9viS0ulEQEpstnf4fTtFCtKSuKY/AcbjWIa7eEkYN0owyit4JiLrz9wjfiDOyTF6+g4VYO/D5NAn1eiM="
+      ],
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.quickpay",
+      "app_signature": [
+        "com.huawei.hmos.quickpay_BEGYLDW0eFFewmoYzBg1NZ2HFE6QC23nojDXebuqfaZ4nwKinJqU/MRMC77DWTJ763cERKGq52BgEi5HzZfkUVE="
+      ],
+      "allowAppDesktopIconHide": true,
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.airtouchservice",
+      "app_signature": [
+        "com.huawei.hmos.airtouchservice_BBAfxma3AmmodJvfekfAOFaZ8EwY3xtXogzThPjJ06hHulC+mzJcbRa/7uM+BjxgL4YoTegChLlw+QjrGQD+D7c="
+      ],
+      "allowAppDesktopIconHide": true
+    },
+    {
+      "bundleName": "com.huawei.hmsapp.adminprovisioning",
+      "app_signature": [
+        "com.huawei.hmsapp.adminprovisioning_BELkQI3J5QbYI2fkrTIvo2ifislUt6EoLdaKEUZFi2jtxHEv2lZIrZcFn1TW7YdDXRomVp7jH8xjk28qdSbpd1H4BPQNQf8BP5IS2lBXgYuNVYDtvbFxPdsCsZprNArPxw=="
+      ],
+      "allowAppDesktopIconHide": true,
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.huawei.hms.weather",
+      "app_signature": [
+        "com.huawei.hms.weather_BM9isplbIYRxD5/Gkc3jeXd/TxYJg6STutG1vriZqrGmwoqhCVDaFI+kfNW4eUfCjhXK5MZ/FjPEt/bMhpAw1MY+Cw0Ux8SVzEo2DSIjRQ+563bvwJNwoUbQgD6B7vOxbg=="
+      ],
+      "singleton": true,
+      "allowAppUsePrivilegeExtension": true,
+      "allowAppDesktopIconHide": true
+    },
+    {
+      "bundleName": "com.huawei.hmsapp.thememanager",
+      "app_signature": [
+        "com.huawei.hmsapp.thememanager_BGpZXgzDm7D/DRjm7xC/KbWXXBrA6UMGWUdhK3WRj0UUX4Z0qF0sPckxGtn0HpXgoIvrBrQK4WR4eFQY5GW3c9bPMs7p2mMsu/rHZTfAZniVxh5aJMCsGSWsafENAlHqxw=="
+      ],
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.asde",
+      "app_signature": [
+        "com.huawei.hmos.asde_BAfppzELdOpZFDEY1ycviNLttPWiRJzon4zMKPnGlEeBTy9ZmPjnEG6mSS2rpQNrFK+Jm5OF7/UqHG+rBY5heKgTCxYIwORYafDl1mzl6tnbDZ28xVXFWrOmmylOYokH9Q==",
+        "5765880207853878389"
+      ],
+      "removable": false,
+      "allowAppDesktopIconHide": true,
+      "allowAppUsePrivilegeExtension": true,
+      "allowCommonEvent": [
+        "huawei.intent.action.CAR_START",
+        "huawei.intent.action.CAR_STOP"
+      ]
+    },
+    {
+      "bundleName": "com.huawei.hmos.communicationsetting",
+      "app_signature": [
+        "com.huawei.hmos.communicationsetting_BHkEcA5F4iGn5dByq0gEGiYN5Djr4qWObxYjbb1Mp5xrup9I6HIW41eYdy2hcdDAVqtTqyJ2sUm83HY6PEt9OeA="
+      ],
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.screenreader",
+      "app_signature": [
+        "com.huawei.hmos.screenreader_BEDbiZnrFngdqwEQLbuJCbfbzmnkNJqAXJKyJ7TVpPvHO2Sp/rCfHHMbTAMQ79DBmtLLzuJ13F43dIpTmiizevc=",
+        "5765880207853273589"
+      ],
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.ohos.locationdialog",
+      "app_signature": [
+        "com.ohos.locationdialog_BOZ/oEZV/XRsRiKZpnT2kCvoGHrsSDNTc9Xuz7MkTSVf5SIw5JX/KNlse3VqwwCdkym3fDwjrqxqygPaanWmz4A="
+      ],
+      "allowEnableNotification": true,
+      "allowAppUsePrivilegeExtension": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.smartmmsservice",
+      "app_signature": [
+        "com.huawei.hmos.smartmmsservice_BG/9ApLIh2838vW8vu3F2vO7AhaVJ+hlzPyytM72BJX94h1VgsgcA1kvWs4LGh61wtB9aTPWjJBj6iIUIKNO0Pw="
+      ],
+      "allowAppUsePrivilegeExtension": true,
+      "allowAppDesktopIconHide": true
+    },
+    {
+      "bundleName": "com.huawei.hmos.databackup",
+      "app_signature": [
+        "com.huawei.hmos.databackup_BHaBDOTmMsPMG+s7Y0F93L9elIwojHS0aNLLhnOV6LyBS/+iFGxtVH1SPYWNNfO/rkiC+WxsHhad7+sAQ9Rr6AEleMiJNCgiPQbG8eYTzLyfoJXOo8GE3YGd9aKOIiGsKA==",
+        "5765880207853931335"
+      ],
+      "allowEnableNotification": true,
+      "allowAppUsePrivilegeExtension": true,
+      "resourcesApply": [
+        0,
+        100
+      ]
+    },
+    {
+      "bundleName": "com.huawei.hmos.myhuawei",
+      "app_signature": [
+        "com.huawei.hmos.myhuawei_BJvy98J7g0tlCCbBsSg/kMWmx1yK5xFoPNy/qbW+SfjlGV9HxwYaoqlPYnBQNC2sl5nLVq0J+1wuz6nOGfKf4NA="
+      ],
+      "allowEnableNotification": true
+    }
+  ]
+}

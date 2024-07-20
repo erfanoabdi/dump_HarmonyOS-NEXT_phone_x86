@@ -1,0 +1,8 @@
+{
+    "providerBundleName": ["com.huawei.cloud.hianalytics"],
+    "urlList": {
+        "control_config_url": "https://logservice1.dbankcloud.cn:443",
+        "joint_operation_collect_url": "https://metrics1-drcn.dt.dbankcloud.cn:443",
+        "inner_collect_url": "https://metrics1-drcn.dt.dbankcloud.cn:443"
+    }
+}

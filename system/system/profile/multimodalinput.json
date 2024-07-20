@@ -1,0 +1,12 @@
+{
+    "process": "multimodalinput",
+    "systemability": [
+        {
+            "name": 3101,
+            "libpath": "libmmi-server.z.so",
+            "run-on-create": true,
+            "distributed": true,
+            "dump_level": 1
+        }
+    ]
+}

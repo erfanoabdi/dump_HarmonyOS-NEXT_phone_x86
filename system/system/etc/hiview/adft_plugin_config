@@ -1,0 +1,10 @@
+plugins:5
+SysEventSource[thread:sysevent_source]:0 static
+SysEventStore[thread:sysevent_store]:0 static
+SysEventDispatcher[thread:sysevent_store]:0 static
+UnifiedCollector[]:0 static
+UsageEventReport[]:0 static
+pipelines:1
+SysEventPipeline:SysEventDispatcher SysEventStore
+pipelinegroups:1
+SysEventSource:SysEventPipeline

@@ -1,0 +1,12 @@
+{
+    "process": "camera_service",
+    "systemability": [
+        {
+            "name": 3008,
+            "libpath": "libcamera_service.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        }
+    ]
+}

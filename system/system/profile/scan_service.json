@@ -1,0 +1,13 @@
+{
+    "process": "scan_service",
+    "systemability": [
+        {
+            "name": 3708,
+            "libpath": "libscan_service.z.so",
+            "run-on-create": false,
+            "auto-restart": true,
+            "distributed": false,
+            "dump_level": 1
+        }
+    ]
+}

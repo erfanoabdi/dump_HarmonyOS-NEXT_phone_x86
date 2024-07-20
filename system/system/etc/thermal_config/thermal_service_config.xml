@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2022-2023 Huawei Device Co., Ltd.
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<thermal version="0.01" product="lya">
+    <base>
+        <item tag="history_temp_count" value="10"/>
+        <item tag="temperature_query_enum" value="soc,battery,shell,cpu,charger,ambient,ap,pa"/>
+        <item tag="sim_tz" value="1"/>
+    </base>
+
+    <level>
+        <sensor_cluster name="screenoff_charge" sensor="battery">
+            <state screen="0" charge="1"/>
+            <item level="1" threshold="40000" threshold_clr="38000"/>
+            <item level="2" threshold="43000" threshold_clr="41000"/>
+        </sensor_cluster>
+        <sensor_cluster name="base_safe" sensor="battery,charger,cpu,soc">
+            <item level="1" threshold="40000,38000,30000,40000" threshold_clr="38000,36000,28000,38000"/>
+            <item level="2" threshold="43000,41000,32000,42000" threshold_clr="41000,39000,30000,40000"/>
+            <item level="3" threshold="46000,44000,34000,44000" threshold_clr="44000,42000,32000,42000"/>
+            <item level="4" threshold="48000,46000,36000,46000" threshold_clr="46000,44000,34000,44000"/>
+        </sensor_cluster>
+        <sensor_cluster name="warm_5G" sensor="pa" aux_sensor="ambient">
+            <item level="1" threshold="40000" threshold_clr="38000" aux_trigger_range="5000_35000"/>
+            <item level="2" threshold="43000" threshold_clr="41000" aux_trigger_range="5000_35000"/>
+            <item level="3" threshold="45000" threshold_clr="44000" aux_trigger_range="5000_35000"/>
+        </sensor_cluster>
+        <sensor_cluster name="warm_safe" sensor="ap,soc" aux_sensor="ambient,shell">
+            <item level="1" threshold="75000,30000" threshold_clr="71000,28000" aux_trigger_range="0_900000,0_40000"/>
+        </sensor_cluster>
+        <sensor_cluster name="high_safe" sensor="shell">
+            <item level="1" threshold="40000" threshold_clr="38000" temp_rise_rate="1.5"/>
+            <item level="2" threshold="43000" threshold_clr="41000" temp_rise_rate="1.5"/>
+            <item level="3" threshold="46000" threshold_clr="44000" temp_rise_rate="1.5"/>
+            <item level="4" threshold="48000" threshold_clr="47000" temp_rise_rate="1.5"/>
+        </sensor_cluster>
+        <sensor_cluster name="cold_safe" sensor="battery,soc" desc="1">
+            <item level="1" threshold="-9000,-8000" threshold_clr="-6000,-5000"/>
+            <item level="2" threshold="-14000,-13000" threshold_clr="-11000,-10000"/>
+            <item level="3" threshold="-19000,-18000" threshold_clr="-16000,-15000"/>
+            <item level="4" threshold="-21000,-20000" threshold_clr="-20000,-19000"/>
+        </sensor_cluster>
+    </level>
+
+    <state>
+        <item name="scene" param="cam,call,game,test"/>
+        <item name="screen"/>
+        <item name="charge"/>
+    </state>
+
+    <action>
+        <item name="cpu_big"/>
+        <item name="cpu_med"/>
+        <item name="cpu_lit"/>
+        <item name="gpu"/>
+        <item name="boost" event="1"/>
+        <item name="isolate" event="1"/>
+        <item name="lcd"/>
+        <item name="volume" uid="2001,2002"/>
+        <item name="current_sc" protocol="current" param="sc" event="1"/>
+        <item name="current_buck" protocol="current" param="buck" event="1"/>
+        <item name="voltage_sc" protocol="voltage" param="sc" event="1"/>
+        <item name="voltage_buck" protocol="voltage" param="buck" event="1"/>
+        <item name="process_ctrl" param="32,64,128,256" event=""/>
+        <item name="shut_down" event="0"/>
+        <item name="thermallevel" event="1"/>
+        <item name="popup"/>
+        <item name="test"/>
+    </action>
+
+    <policy>
+        <config name="base_safe" level="1">
+            <lcd>1.00</lcd>
+            <lcd scene="cam">0.99</lcd>
+            <lcd scene="call">0.98</lcd>
+            <lcd scene="game">0.97</lcd>
+            <lcd scene="test">0.91</lcd>
+            <cpu_big>1992000</cpu_big>
+            <cpu_med>1991500</cpu_med>
+            <cpu_lit>1991200</cpu_lit>
+            <test>99999</test>
+            <process_ctrl>3</process_ctrl>
+            <cpu_big scene="cam" charge="1">1991800</cpu_big>
+            <cpu_big scene="cam" charge="0">1991600</cpu_big>
+            <gpu screen="0">524288</gpu>
+            <gpu screen="1">512000</gpu>
+            <thermallevel>1</thermallevel>
+            <current_sc>1800</current_sc>
+            <current_sc scene="cam">1200</current_sc>
+            <current_buck>1200</current_buck>
+            <voltage_sc>4000</voltage_sc>
+            <voltage_buck>3000</voltage_buck>
+            <volume>1.0</volume>
+            <boost>1</boost>
+            <isolate>0</isolate>
+        </config>
+        <config name="base_safe" level="2">
+            <lcd>0.90</lcd>
+            <lcd scene="cam">0.89</lcd>
+            <lcd scene="call">0.88</lcd>
+            <lcd scene="game">0.87</lcd>
+            <cpu_big>1991000</cpu_big>
+            <cpu_med>1990500</cpu_med>
+            <cpu_lit>1990200</cpu_lit>
+            <process_ctrl>2</process_ctrl>
+            <cpu_big scene="cam" charge="1">1990800</cpu_big>
+            <cpu_big scene="cam" charge="0">1990600</cpu_big>
+            <gpu screen="0">499712</gpu>
+            <gpu screen="1">487424</gpu>
+            <thermallevel>2</thermallevel>
+            <current_sc>1500</current_sc>
+            <current_sc scene="cam">1000</current_sc>
+            <current_buck>1000</current_buck>
+            <voltage_sc>3000</voltage_sc>
+            <voltage_buck>2000</voltage_buck>
+            <volume>0.8</volume>
+            <boost>1</boost>
+            <isolate>1</isolate>
+        </config>
+        <config name="base_safe" level="3">
+            <lcd>0.80</lcd>
+            <lcd scene="cam">0.79</lcd>
+            <lcd scene="call">0.78</lcd>
+            <lcd scene="game">0.77</lcd>
+            <cpu_big>1990000</cpu_big>
+            <cpu_med>1989500</cpu_med>
+            <cpu_lit>1989200</cpu_lit>
+            <process_ctrl>1</process_ctrl>
+            <cpu_big scene="cam" charge="1">1989800</cpu_big>
+            <cpu_big scene="cam" charge="0">1989600</cpu_big>
+            <gpu screen="0">475136</gpu>
+            <gpu screen="1">462848</gpu>
+            <thermallevel>3</thermallevel>
+            <current_sc>1300</current_sc>
+            <current_sc scene="cam">800</current_sc>
+            <current_buck>800</current_buck>
+            <voltage_sc>2000</voltage_sc>
+            <voltage_buck>1000</voltage_buck>
+            <volume>0.7</volume>
+            <shut_down>1</shut_down>
+            <boost>0</boost>
+            <isolate>2</isolate>
+        </config>
+        <config name="warm_5G" level="1">
+            <lcd>0.70</lcd>
+            <thermallevel>4</thermallevel>
+            <process_ctrl>2</process_ctrl>
+        </config>
+        <config name="warm_5G" level="2">
+            <lcd>0.60</lcd>
+            <process_ctrl>3</process_ctrl>
+            <thermallevel>5</thermallevel>
+        </config>
+        <config name="warm_5G" level="3">
+            <thermallevel>7</thermallevel>
+        </config>
+        <config name="warm_safe" level="1">
+            <process_ctrl screen="1">3</process_ctrl>
+            <shut_down screen="1">1</shut_down>
+            <thermallevel>6</thermallevel>
+        </config>
+        <config name="cold_safe" level="1">
+            <current_sc>1850</current_sc>
+            <thermallevel>0</thermallevel>
+        </config>
+        <config name="cold_safe" level="2">
+            <current_sc>1550</current_sc>
+            <thermallevel>0</thermallevel>
+        </config>
+        <config name="cold_safe" level="3">
+            <current_sc>1150</current_sc>
+            <thermallevel>0</thermallevel>
+        </config>
+    </policy>
+
+    <fan>
+        <sensor_cluster name="fan_fault_detect" sensor="soc,gpu,fan">
+            <item fault="1" threshold="50000,50000,500"/>
+            <item fault="2" threshold="30000,30000,1500"/>
+        </sensor_cluster>
+    </fan>
+
+    <idle name="charging">
+        <thermallevel>1</thermallevel>  <!-- thermal level is equal or less than 1 -->
+        <soc>80</soc> <!-- battery soc is equal or more than 80% -->
+        <charging>1</charging> <!-- battery is charging -->
+        <current>1000</current> <!-- battery charging current is equal or more than 1000mA -->
+    </idle>
+</thermal>

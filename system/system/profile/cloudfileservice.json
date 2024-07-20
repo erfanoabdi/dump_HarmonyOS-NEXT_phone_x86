@@ -1,0 +1,52 @@
+{
+    "process": "cloudfileservice",
+    "systemability": [
+        {
+            "name": 5204,
+            "libpath": "libcloudsync_sa.z.so",
+            "run-on-create": false,
+            "distributed": true,
+            "dump-level": 1,
+            "start-on-demand": {
+                "timedevent": [
+                    {
+                        "name": "loopevent",
+                        "value": "21600"
+                    }
+                ],
+                "commonevent": [
+                    {
+                        "name": "usual.event.wifi.CONN_STATE",
+                        "value": "4"
+                    },
+                    {
+                        "name": "usual.event.POWER_CONNECTED",
+                        "conditions": [
+                            {
+                                "eventId": "commonevent",
+                                "name": "usual.event.wifi.CONN_STATE",
+                                "value": "4"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "usual.event.SCREEN_OFF",
+                        "conditions": [
+                            {
+                                "eventId": "commonevent",
+                                "name": "usual.event.wifi.CONN_STATE",
+                                "value": "4"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "usual.event.BATTERY_OKAY"
+                    },
+                    {
+                        "name": "usual.event.USER_UNLOCKED"
+                    }
+                ]
+            }
+        }
+    ]
+}

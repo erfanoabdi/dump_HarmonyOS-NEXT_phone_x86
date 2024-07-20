@@ -1,0 +1,34 @@
+[
+  {
+    "targetModule": "com.huawei.hms.huaweiid",
+    "depend": [
+      {
+        "targetModule": "200"
+      }
+    ]
+  },
+  {
+    "targetModule": "com.huawei.hmos.filemanager",
+    "depend": [
+      {
+        "targetModule": "com.ohos.medialibrary.medialibrarydata"
+      }
+    ]
+  },
+  {
+    "targetModule": "8100",
+    "depend": [
+      {
+        "targetModule": "3510"
+      }
+    ]
+  },
+  {
+    "targetModule": "3510",
+    "depend": [
+      {
+        "targetModule": "teecd"
+      }
+    ]
+  }
+]

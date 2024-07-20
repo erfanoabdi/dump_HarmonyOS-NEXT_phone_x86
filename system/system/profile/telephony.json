@@ -1,0 +1,68 @@
+{
+    "process": "telephony",
+    "systemability": [
+        {
+            "name": 4010,
+            "libpath": "libtel_core_service.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 4007,
+            "libpath": "libtel_cellular_data.z.so",
+            "run-on-create": true,
+            "depend": [
+                4010
+            ],
+            "depend_time_out": 60000,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 4006,
+            "libpath": "libtel_cellular_call.z.so",
+            "run-on-create": true,
+            "depend": [
+                4010
+            ],
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 4008,
+            "libpath": "libtel_sms_mms.z.so",
+            "run-on-create": true,
+            "depend": [
+                4010
+            ],
+            "depend_time_out": 60000,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 4017,
+            "libpath": "libtel_modem_engine_service.z.so",
+            "run-on-create": false,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 4011,
+            "libpath": "libtelephony_ext_service.z.so",
+            "run-on-create": true,
+            "depend": [
+                4010
+            ],
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 4016,
+            "libpath": "libtelephony_vsim_service.z.so",
+            "run-on-create": false,
+            "distributed": false,
+            "dump_level": 1
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "process": "bgtaskmgr_service",
+    "systemability": [
+        {
+            "name": 1903,
+            "libpath": "libbgtaskmgr_service.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 1907,
+            "libpath": "libusagestatservice.z.so",
+            "run-on-create": true,
+            "depend_time_out": 60000,
+            "distributed": false,
+            "dump_level": 1
+        },
+        {
+            "name": 1904,
+            "libpath": "libworkschedservice.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        }
+    ]
+}

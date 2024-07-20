@@ -1,0 +1,32 @@
+{
+    "process": "device_activate_service",
+    "systemability": [
+        {
+            "name": 66022,
+            "libpath": "libdevice_activate_service.z.so",
+            "run-on-create": false,
+            "auto-restart": true,
+            "distributed": false,
+            "bootphase": "BootStartPhase",
+            "start-on-demand": {
+                "allow-update": true,
+                "commonevent": [
+                    {
+                        "name": "usual.event.CONNECTIVITY_CHANGE",
+                        "value": "3"
+                    },
+                    {
+                        "name": "usual.event.SIM_STATE_CHANGED",
+                        "value": "3"
+                    }
+                ],
+                "timedevent": [
+                    {
+                        "name": "loopevent",
+                        "value": "86400"
+                    }
+                ]
+            }
+        }
+    ]
+}

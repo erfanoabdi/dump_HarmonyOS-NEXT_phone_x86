@@ -1,0 +1,66 @@
+{
+	"applications":[],
+	"services":[
+		{
+			"name":"com.huawei.cloudInterfaceAuth",
+			"routeBy":"ser_country>reg_country>issue_country",
+			"servings":[
+				{
+					"countryOrAreaGroup":"DR1",
+					"addresses":{
+						"HA":"https://metrics1-drcn.dt.dbankcloud.cn",
+						"OAUTH":"https://oauth-api.cloud.huawei.com"
+					}
+				},
+				{
+					"countryOrAreaGroup":"DR2",
+					"addresses":{
+						"HA":"https://metrics-dra.dt.dbankcloud.com",
+						"OAUTH":"https://oauth-api.cloud.huawei.com"
+					}
+				},
+				{
+					"countryOrAreaGroup":"DR3",
+					"addresses":{
+						"HA":"https://metrics-dre.dt.dbankcloud.cn",
+						"OAUTH":"https://oauth-api.cloud.huawei.com"
+					}
+				},
+				{
+					"countryOrAreaGroup":"DR4",
+					"addresses":{
+						"HA":"https://metrics5.dt.dbankcloud.ru",
+						"OAUTH":"https://oauth-api.cloud.huawei.com"
+					}
+				}
+			],
+			"countryOrAreaGroups":[
+				{
+					"id":"DR1",
+					"name":"China",
+					"countriesOrAreas":["CN"],
+					"description":"China zone"
+				},
+				{
+					"id":"DR2",
+					"name":"Asian-African-Latin American",
+					"countriesOrAreas":["AE","AF","AG"],
+					"description":"Asian-African-Latin American zone"
+				},
+				{
+					"id":"DR3",
+					"name":"Europe",
+					"countriesOrAreas":["AD","AL","AN","AT","AU"],
+					"description":"Europe zone"
+				},
+				{
+					"id":"DR4",
+					"name":"Russian",
+					"countriesOrAreas":["RU"],
+					"description":"Russian zone"
+				}
+			]
+		}
+	],
+	"countryOrAreaGroups":[]
+}

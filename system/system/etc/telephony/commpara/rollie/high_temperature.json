@@ -1,0 +1,17 @@
+{
+    "highTempLimitSwitch":1,
+    "AppList": [
+        "com.tencent.mm",
+        "com.taobao.taobao",
+        "com.baidu.searchbox",
+        "com.xingin.xhs",
+        "com.qiyi.video",
+        "com.autonavi.minimap",
+        "com.sina.weibo",
+        "com.tencent.jkchess",
+        "com.xunmeng.pinduoduo",
+        "com.amap.hmapp",
+        "com.xingin.xhs_hos",
+        "com.sina.weibo.stage"
+    ]
+}

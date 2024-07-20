@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="264px" height="264px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Cursor/Mouse Wheel/South West</title>
+    <g id="Cursor/Mouse-Wheel/South-West" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组备份-9" transform="translate(16.818019, 23.181981) rotate(-45.000000) translate(-16.818019, -23.181981) translate(7.318019, 18.181981)">
+            <g id="编组" transform="translate(0.683026, -0.000000)" fill="#000000" stroke="#FFFFFF" stroke-linejoin="round">
+                <path d="M3.3169738,1.16666667 L-2.73607981,9.23740482 L3.3169738,6.54715877 L9.37002742,9.23740482 L3.3169738,1.16666667 Z" id="路径-8备份-5" transform="translate(3.316974, 5.000000) rotate(-90.000000) translate(-3.316974, -5.000000) "></path>
+            </g>
+            <circle id="椭圆形" stroke="#FFFFFF" stroke-width="2" fill="#FFFFFF" transform="translate(14.000000, 5.000000) rotate(-360.000000) translate(-14.000000, -5.000000) " cx="14" cy="5" r="5"></circle>
+            <circle id="椭圆形" stroke="#000000" stroke-width="1.3" fill="#FFFFFF" transform="translate(14.000000, 5.000000) rotate(-360.000000) translate(-14.000000, -5.000000) " cx="14" cy="5" r="4.35"></circle>
+        </g>
+    </g>
+</svg>

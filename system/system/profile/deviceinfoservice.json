@@ -1,0 +1,12 @@
+{
+    "process": "deviceinfoservice",
+    "systemability": [
+        {
+            "name": 3902,
+            "libpath": "libdeviceinfoservice.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+	"cardInfo":	[{
+			"name":	"ShenZhenTong",
+			"aid":	"5041592E535A54",
+			"checkApdus":	["00A40400075041592E535A54"],
+			"balanceApdus":	["805C000204"]
+		}, {
+			"name":	"LingNanTong",
+			"aid":	"5041592E41505059",
+			"checkApdus":	["00A40400085041592E41505059"],
+			"balanceApdus":	["00A40400085041592E5449434C", "805C000204"]
+		}, {
+			"name":	"BeiJingYiKaTong",
+			"checkApdus":	["00A40000023F00", "00B0840000"],
+			"balanceApdus":	["00A4000002100100", "805C000204"]
+		}, {
+			"name":	"ShangHaiJiaoTongKa",
+			"aid":	"A00000000386980701",
+			"checkApdus":	["00A4040009A00000000386980701"],
+			"rspContains":	"869820007590FFFF",
+			"balanceApdus":	["805C000204"]
+		}, {
+			"name":	"GuiMinHuLianHuTongKa",
+			"aid":	"A00000063201010500",
+			"checkApdus":	["00A4040008A00000063201010500"],
+			"rspContains":	"04066230FFFFFFFF",
+			"balanceApdus":	["805C000204"]
+		}, {
+			"name":	"GuiMinHuLianHuTongKa",
+			"aid":	"A00000063201010500",
+			"checkApdus":	["00A4040008A00000063201010500"],
+			"rspContains":	"04126330FFFFFFFF",
+			"balanceApdus":	["805C000204"]
+		}, {
+			"name":	"BeiJingYiKaTong",
+			"checkApdus":	["00A4040008A00000063201010500"],
+			"rspContains":	"01011000FFFFFFFF",
+			"balanceApdus":	["00A4000002100100", "805C000204"]
+		}]
+}

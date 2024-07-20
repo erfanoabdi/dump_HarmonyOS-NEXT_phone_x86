@@ -1,0 +1,239 @@
+{
+  "features": {
+    "ace_engine_feature_enable_web": true,
+    "ace_engine_feature_enable_accessibility": true,
+    "ace_engine_feature_enable_point_light": false,
+    "os_account_enable_multiple_os_accounts": false,
+    "os_account_enable_account_short_name": false,
+    "datamgr_service_udmf": true,
+    "dlp_permission_service_credential_connection_enable": false,
+    "enable_ohos_startup_init_feature_loader": true,
+    "startup_begetutil_extra_modules": "//vendor/huawei/base/startup/init/interfaces/innerapi/begetutil_extension:begetutil_extension",
+    "startup_init_extra_static_modules": "init_ext:startup_init_extra_static",
+    "container_broker_client_enabled": false,
+    "notification_ext_feature_summary": true,
+    "dsoftbus_feature_conn_p2p": false,
+    "dsoftbus_feature_disc_ble": true,
+    "dsoftbus_feature_conn_br": true,
+    "dsoftbus_feature_conn_ble": true,
+    "dsoftbus_feature_ex_kits": true,
+    "dsoftbus_feature_trans_udp_stream": true,
+    "dsoftbus_feature_conn_legacy": false,
+    "wifi_feature_with_p2p": false,
+    "wifi_feature_with_wifi_hdi": false,
+    "wifi_feature_with_hdi_wpa_supported": false,
+    "wifi_feature_with_hdi_chip_supported": false,
+    "nfc_use_vendor_nci_native": true,
+    "syscap_codec_config_extern_path": "//vendor/huawei/interface/hmscore_sdk_js/syscap_config/syscap_define_extern.h",
+    "graphic_2d_feature_ace_enable_gpu": true,
+    "graphic_2d_feature_color_gamut_enable": true,
+    "graphic_2d_feature_rs_enable_eglimage": true,
+    "graphic_2d_feature_rs_enable_uni_render": true,
+    "graphic_2d_feature_wuji_enable": false,
+    "graphic_2d_feature_enable_afbc": true,
+    "graphic_2d_feature_freemem_enable": true,
+    "graphic_2d_feature_bootanimation_enable": false,
+    "wpa_supplicant_driver_nl80211": true,
+    "scene_board_enabled": true,
+    "scene_board_feature_product": "phone",
+    "window_manager_feature_subscribe_motion": true,
+    "image_extension_enable_piano": false,
+    "input_feature_combination_key": true,
+    "input_feature_pointer_drawing": false,
+    "input_feature_interceptor": true,
+    "input_feature_monitor": true,
+    "input_feature_keyboard": true,
+    "input_feature_mouse": true,
+    "input_feature_touchscreen": true,
+    "input_feature_input_device": true,
+    "telephony_ext_feature": true,
+    "telephony_vsim_feature": true,
+    "telephony_fullnetwork_feature": true,
+    "data_service_ext_feature": true,
+    "system_resources_support_ext": true,
+    "power_dialog_path": "//vendor/tools/hap_sign_conf/applications/prebuilt_hap/power_dialog.p7b",
+    "hats_rich": true,
+    "memmgr_override_purgeable_memory": true,
+    "ffrt_support_enable": true,
+    "usb_right_dialog_build_hap_path": "//vendor/tools/hap_sign_conf/applications/prebuilt_hap/usb_right_dialog.p7b",
+    "usb_function_dialog_build_hap_path": "//vendor/tools/hap_sign_conf/applications/prebuilt_hap/usb_function_dialog.p7b",
+    "fusion_interaction_coordination": true,
+    "drivers_peripheral_input_feature_udriver": true,
+    "drivers_peripheral_motion_feature_community": false,
+    "drivers_peripheral_audio_feature_alsa_lib": true,
+    "drivers_peripheral_wlan_feature_enable_HDF_NL80211": false,
+    "drivers_peripheral_wlan_feature_enable_HDF_UT": true,
+    "updater_cfg_file": "//vendor/huawei/base/update/updater_ext/updater_config/build_cfg.gni",
+    "updater_ext_feature_product": "phone",
+    "sys_installer_cfg_file": "//vendor/huawei/base/update/sys_installer_ext/build_cfg.gni",
+    "update_service_dupdate_config_path": "//vendor/huawei/base/update/dupdate_engine/services/engine/etc/dupdate_config.json",
+    "update_service_updater_sa_cfg_path": "//vendor/huawei/base/update/dupdate_engine/services/engine/etc/updater_sa.cfg",
+    "update_service_sa_profile_path": "//vendor/huawei/base/update/dupdate_engine/services/engine/etc/3006.json",
+    "quickfix_engine_app_support": true,
+    "push_voip_feature": true,
+    "push_live_view_feature": true,
+    "push_form_update_feature": true,
+    "push_alert_feature": true,
+    "push_mcu_chip_channel_feature": false,
+    "push_modem_chip_channel_feature": false,
+    "cloud_interface_auth_support": true,
+    "client_cloud_cache_service_support": true
+  },
+  "part_to_feature": {
+    "ace_engine": [
+      "ace_engine_feature_enable_web",
+      "ace_engine_feature_enable_accessibility",
+      "ace_engine_feature_enable_point_light"
+    ],
+    "os_account": [
+      "os_account_enable_multiple_os_accounts",
+      "os_account_enable_account_short_name"
+    ],
+    "datamgr_service": [
+      "datamgr_service_udmf"
+    ],
+    "dlp_permission_service": [
+      "dlp_permission_service_credential_connection_enable"
+    ],
+    "init": [
+      "enable_ohos_startup_init_feature_loader",
+      "startup_begetutil_extra_modules",
+      "startup_init_extra_static_modules"
+    ],
+    "bundle_framework_ext": [
+      "container_broker_client_enabled"
+    ],
+    "distributed_notification_service_ext": [
+      "notification_ext_feature_summary"
+    ],
+    "dsoftbus": [
+      "dsoftbus_feature_conn_p2p",
+      "dsoftbus_feature_disc_ble",
+      "dsoftbus_feature_conn_br",
+      "dsoftbus_feature_conn_ble",
+      "dsoftbus_feature_ex_kits",
+      "dsoftbus_feature_trans_udp_stream",
+      "dsoftbus_feature_conn_legacy"
+    ],
+    "wifi": [
+      "wifi_feature_with_p2p",
+      "wifi_feature_with_wifi_hdi",
+      "wifi_feature_with_hdi_wpa_supported",
+      "wifi_feature_with_hdi_chip_supported"
+    ],
+    "nfc": [
+      "nfc_use_vendor_nci_native"
+    ],
+    "syscap_codec": [
+      "syscap_codec_config_extern_path"
+    ],
+    "graphic_2d": [
+      "graphic_2d_feature_ace_enable_gpu",
+      "graphic_2d_feature_color_gamut_enable",
+      "graphic_2d_feature_rs_enable_eglimage",
+      "graphic_2d_feature_rs_enable_uni_render",
+      "graphic_2d_feature_wuji_enable",
+      "graphic_2d_feature_enable_afbc",
+      "graphic_2d_feature_freemem_enable",
+      "graphic_2d_feature_bootanimation_enable"
+    ],
+    "wpa_supplicant": [
+      "wpa_supplicant_driver_nl80211"
+    ],
+    "scene_board_ext": [
+      "scene_board_enabled",
+      "scene_board_feature_product"
+    ],
+    "window_manager": [
+      "window_manager_feature_subscribe_motion"
+    ],
+    "image_extension": [
+      "image_extension_enable_piano"
+    ],
+    "input": [
+      "input_feature_combination_key",
+      "input_feature_pointer_drawing",
+      "input_feature_interceptor",
+      "input_feature_monitor",
+      "input_feature_keyboard",
+      "input_feature_mouse",
+      "input_feature_touchscreen",
+      "input_feature_input_device"
+    ],
+    "telephony_enhanced": [
+      "telephony_ext_feature",
+      "telephony_vsim_feature",
+      "telephony_fullnetwork_feature",
+      "data_service_ext_feature"
+    ],
+    "system_resources": [
+      "system_resources_support_ext"
+    ],
+    "prebuilt_hap": [
+      "power_dialog_path"
+    ],
+    "hats": [
+      "hats_rich"
+    ],
+    "memmgr_override": [
+      "memmgr_override_purgeable_memory"
+    ],
+    "ffrt": [
+      "ffrt_support_enable"
+    ],
+    "usb_manager": [
+      "usb_right_dialog_build_hap_path",
+      "usb_function_dialog_build_hap_path"
+    ],
+    "device_status": [
+      "fusion_interaction_coordination"
+    ],
+    "drivers_peripheral_input": [
+      "drivers_peripheral_input_feature_udriver"
+    ],
+    "drivers_peripheral_motion": [
+      "drivers_peripheral_motion_feature_community"
+    ],
+    "drivers_peripheral_audio": [
+      "drivers_peripheral_audio_feature_alsa_lib"
+    ],
+    "drivers_peripheral_wlan": [
+      "drivers_peripheral_wlan_feature_enable_HDF_NL80211",
+      "drivers_peripheral_wlan_feature_enable_HDF_UT"
+    ],
+    "updater": [
+      "updater_cfg_file"
+    ],
+    "updater_ext": [
+      "updater_ext_feature_product"
+    ],
+    "sys_installer": [
+      "sys_installer_cfg_file"
+    ],
+    "sys_installer_ext": [
+      "sys_installer_cfg_file"
+    ],
+    "update_service": [
+      "update_service_dupdate_config_path",
+      "update_service_updater_sa_cfg_path",
+      "update_service_sa_profile_path"
+    ],
+    "quickfix_engine": [
+      "quickfix_engine_app_support"
+    ],
+    "push_manager_service": [
+      "push_voip_feature",
+      "push_live_view_feature",
+      "push_form_update_feature",
+      "push_alert_feature",
+      "push_mcu_chip_channel_feature",
+      "push_modem_chip_channel_feature"
+    ],
+    "cloud_interface_auth": [
+      "cloud_interface_auth_support"
+    ],
+    "client_cloud_cache_service": [
+      "client_cloud_cache_service_support"
+    ]
+  }
+}

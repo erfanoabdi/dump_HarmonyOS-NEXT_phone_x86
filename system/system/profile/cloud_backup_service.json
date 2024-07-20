@@ -1,0 +1,20 @@
+{
+    "process": "cloud_backup_service",
+    "systemability": [
+        {
+            "name": 5206,
+            "libpath": "libcloud_backup_sa.z.so",
+            "run-on-create": false,
+            "distributed": false,
+            "dump_level": 1,
+            "start-on-demand": {
+                "allow-update": true,
+                "commonevent": [
+                    {
+                        "name": "usual.event.BOOT_COMPLETED"
+                    }
+                ]
+            }
+        }
+    ]
+}
